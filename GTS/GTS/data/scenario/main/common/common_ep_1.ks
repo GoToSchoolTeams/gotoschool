@@ -1,6 +1,5 @@
 
 ;[ŒÖ‘åL‰‰o]
-@SetupMessageWindow
 
 ;ƒƒ“ƒIƒt‘€ì
 @fadeinbgm storage=seitokai.ogg time=500

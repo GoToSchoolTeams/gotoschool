@@ -125,6 +125,8 @@
 	[fadebgm volume="100" time="1"]
 	[fadese volume="100" time="1"]
 
+	;historyを有効化する
+	[history enabled="true" output="true"]
 [endmacro]
 
 [macro name="SetupSelectWindow"]
@@ -159,16 +161,13 @@
 ;;big=ズーム画像か
 [macro name="showstandimage"]
 	[backlay cond="mp.notrans != 'true'"]
-	;表示した立ち絵情報を保存・削除する
-	[if exp=" mp.visible == 'true' "]
-		[eval exp="tf.filename = global.GetStandFileName(mp.who, mp.pause, mp.face, false, mp.big)"]
-		[image storage="&tf.filename" layer=%layer|0 pos=%pos|center visible=%visible|true index=%index|1 opacity=%opacity|255 page=back zoom=%zoom|100 grayscale=%grayscale]
-		[layopt layer=0 top="100" left="200" page="back" cond="mp.big == 'true'"]
-		[eval exp="global.SaveStandInfo(mp.who, mp.pause, mp.face)"]
-	[else]
-		[layopt layer=0 visible="false" page="back"]
-		[eval exp="global.DeleteStandInfo(mp.who)"]
-	[endif]
+
+	;表示した立ち絵情報を保存する
+	[eval exp="tf.filename = global.GetStandFileName(mp.who, mp.pause, mp.face, false, mp.big)"]
+	[image storage="&tf.filename" layer=%layer|0 pos=%pos|center visible="true" index=%index|1 opacity=%opacity|255 page=back zoom=%zoom|100 grayscale=%grayscale]
+	[layopt layer=0 top="100" left="200" page="back" cond="mp.big == 'true'"]
+	[eval exp="global.SaveStandInfo(mp.who, mp.pause, mp.face)"]
+
 	[if exp="mp.notrans != 'true'"]
 		[trans time=%time|500 method="crossfade"]
 		[wt]
@@ -179,7 +178,7 @@
 ;;bust=名前欄の名前とバストアップ画像の名前が違ったときに指定する
 [macro name="shownametag"]
 	[if exp="mp.noBust != 'true'"]
-		[showlastbustup name=%name visible=%visible force=%bust]
+		[showlastbustup name=%name visible=%visible force=%bust who=%who pause=%pause face=%face]
 	[endif]
 	[layopt layer=8 visible=%visible|true]
 	[position layer="message1" visible=%visible|true]
@@ -207,6 +206,9 @@
 				[eval exp="mp.who   = f.lastShowStandImageinfo[mp.name].name"]
 				[eval exp="mp.pause = f.lastShowStandImageinfo[mp.name].pause"]
 				[eval exp="mp.face  = f.lastShowStandImageinfo[mp.name].face"]
+				[image layer=9 storage="&global.GetStandFileName(mp.who, mp.pause, mp.face, 'true', 'false')" visible=%visible]
+			[else]
+			; 情報がない場合もあるので、その場合は引数から名前・顔・ポーズを取得する
 				[image layer=9 storage="&global.GetStandFileName(mp.who, mp.pause, mp.face, 'true', 'false')" visible=%visible]
 			[endif]
 		[else]
