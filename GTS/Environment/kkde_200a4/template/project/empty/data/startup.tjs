@@ -1,0 +1,3 @@
+// startup.tjs - スタートアップスクリプト
+
+System.inform("吉里吉里開始！");
