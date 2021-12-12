@@ -43,10 +43,13 @@
 つーか、どんどん学校に近づいてるじゃん！[plc]
 もういい加減降りろよこの女！！[plc]
 
+@strans method="universal" rule=215 time="500"
 [shownametag name="大樹" visible=true]「先輩、あの――」[plc]
 
-@showstandimage who=senpai pause=1 face=4 visible="true"
-[shownametag name="先輩" visible=true]「どったのー？」[plc]
+@playse storage="sinzou1"
+@fadebgm volume="50" time="100"
+@strans method="universal" rule=215 time="500" storage="senpai_hurikaeri"
+[shownametag name="先輩" noBust=true]「どったのー？」[plc]
 
 
 軽く振り向くと、[lr]
@@ -54,8 +57,7 @@
 
 [shownametag name="大樹" visible=true]「……」[plc]
 
-@showstandimage who=senpai pause=1 face=5 visible="true"
-[shownametag name="先輩" visible=true]「……？　おーい、どしたの？」[plc]
+[shownametag name="先輩" noBust=true]「……？　おーい、どしたの？」[plc]
 
 
 多分それは彼女にとって何気ない仕草だったのだろう。[plc]
@@ -63,19 +65,20 @@
 
 だけど、それは――その……なんだ。[plc]
 
-@showstandimage who=senpai pause=2 face=1 big=true zoom=50
-[shownametag name="先輩" visible=true]「？」[plc]
+[shownametag name="先輩" noBust=true]「？」[plc]
 
 
 突然頭を振った俺を、先輩は不思議そうに眺める。[plc]
 
-
+@strans time="100" method="universal" rule="215"
 あぁ、もう違う違う。違うって。[lr]
-そう！　もう乗りかかった船だっ！！　そういうこと！！！
+そう！　もう乗りかかった船だっ！！　そういうこと！！！[plc]
 
+@fadebgm volume="100" time="300"
+@strans time="100" method="universal" rule="215" storage="takadai_dt"
 [shownametag name="大樹" visible=true]「先輩、その後輩の家ってどこっすか？」[plc]
 
-
+@showstandimage who=senpai pause=1 face=4 visible="true"
 [shownametag name="先輩" visible=true]「え？　なんで？」[plc]
 
 
@@ -86,7 +89,7 @@
 
 
 その時前を向いていたので、彼女の表情は分からない。[lr]
-だが、
+だが、[plc]
 
 [shownametag name="先輩" visible=true]「なるほどねぇ」[plc]
 
