@@ -5,7 +5,7 @@
 
 @strans storage="takadai_dt"
 @fadeinbgm storage="prologue" time="2000"
-[shownametag name="先輩" visible=true who="senpai" pause=1 face=3]「おー、やるじゃんっ！」[plc]
+[shownametag name="先輩" noBust=true]「おー、やるじゃんっ！」[plc]
 
 
 [shownametag name="大樹" visible=true]「っ……ハァ、ハァ…ッ…………足つった」[plc]
@@ -16,7 +16,7 @@
 いやまぁ、俺車輪あったけどさ。[plc]
 
 @quake hmax="3" vmax="3" time="500"
-[shownametag name="先輩" visible=true who="senpai" pause=1 face=2]「よく頑張ったよ少年、褒めてあげよう」[plc]
+[shownametag name="先輩" noBust=true]「よく頑張ったよ少年、褒めてあげよう」[plc]
 
 
 そんな偉そうな事を言って、先輩はまるで犬や猫でもあやすようにガシガシと俺の頭を撫でる。[plc]
@@ -30,7 +30,7 @@
 
 ;[風の音]
 @fadeinse storage="wind" time="1000"
-[shownametag name="先輩" visible=true who="senpai" pause=1 face=4]「ぉー、良い風」[plc]
+[shownametag name="先輩" noBust=true]「ぉー、良い風」[plc]
 
 
 緩やかに流れる風が、ささやかに涼を与えてくれる。[plc]
@@ -78,27 +78,29 @@
 @strans time="100" method="universal" rule="215" storage="takadai_dt"
 [shownametag name="大樹" visible=true]「先輩、その後輩の家ってどこっすか？」[plc]
 
-@showstandimage who=senpai pause=1 face=4 visible="true"
-[shownametag name="先輩" visible=true]「え？　なんで？」[plc]
+
+[shownametag name="先輩" noBust=true]「え？　なんで？」[plc]
 
 
 [shownametag name="大樹" visible=true]「もうついでなんで、送りますよ」[plc]
 
 
-[shownametag name="先輩" visible=true]「……ほぅほぅ」[plc]
+[shownametag name="先輩" noBust=true]「……ほぅほぅ」[plc]
 
 
 その時前を向いていたので、彼女の表情は分からない。[lr]
 だが、[plc]
 
-[shownametag name="先輩" visible=true]「なるほどねぇ」[plc]
+[shownametag name="先輩" noBust=true]「なるほどねぇ」[plc]
 
 
 と先輩が意味有り気に呟いた事で、自分が墓穴を掘っている事に気が付いた。[plc]
 
 [shownametag name="大樹" visible=true]「……」[plc]
 
-
+@strans time="100" method="universal" rule="215" storage="black"
+@strans time="100" method="universal" rule="215" storage="takadai_dt"
+[showstandimage layer=1 pos="center" who="senpai" pause=1 face=2 visible="true"]
 振り返ると、やはりこれ以上ないってくらいニヤニヤ笑っていた。[plc]
 
 
@@ -116,6 +118,8 @@
 
 [shownametag name="先輩" visible=true]「はいはい、言い訳は良いから前見て運転してね。あ、そこ右に行ってねー」[plc]
 
+@strans time="100" method="universal" rule="215" storage="black"
+@strans time="100" method="universal" rule="215" storage="takadai_dt"
 クイっと。[plc]
 
 
