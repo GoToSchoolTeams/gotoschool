@@ -2,7 +2,10 @@
 
 [position layer="message10" left=200 top=50]
 [nowait]
-[link storage="" color="0xFFFFFF"]N_Prologue[r][endlink]
+[font edge="true" color="0xFFFFFF" size="26"]
+ä¯óßâè ï“
+[resetfont]
+[r]
 [link storage="" color="0xFFFFFF"]N_EP1[r][endlink]
 [link storage="" color="0xFFFFFF"]N_EP2[r][endlink]
 [link storage="" color="0xFFFFFF"]N_EP3[r][endlink]
