@@ -14,62 +14,46 @@
 ;読み込みフォルダの拡張
 ;-------------------------
 ;メインシナリオ
-[eval exp="Storages.addAutoPath('scenario/main/')"]
-[eval exp="Storages.addAutoPath('scenario/main/senpai/')"]
-[eval exp="Storages.addAutoPath('scenario/main/nazimi/')"]
-[eval exp="Storages.addAutoPath('scenario/main/common/')"]
-[eval exp="Storages.addAutoPath('scenario/main/debug/')"]
+[eval exp="Storages.addAutoPath('scenario/scenario/')"]
+[eval exp="Storages.addAutoPath('scenario/scenario/haruka/')"]
+[eval exp="Storages.addAutoPath('scenario/scenario/nazimi/')"]
+[eval exp="Storages.addAutoPath('scenario/scenario/prologue/')"]
+[eval exp="Storages.addAutoPath('scenario/scenario/debug/')"]
 
 ;システム
 [eval exp="Storages.addAutoPath('scenario/system/')"]
 [eval exp="Storages.addAutoPath('scenario/system/import/')"]
-[eval exp="Storages.addAutoPath('scenario/system/config/')"]
-[eval exp="Storages.addAutoPath('scenario/system/saveload/')"]
-[eval exp="Storages.addAutoPath('scenario/system/scripts/')"]
-[eval exp="Storages.addAutoPath('scenario/system/tab/')"]
+[eval exp="Storages.addAutoPath('scenario/system/tjs/')"]
+[eval exp="Storages.addAutoPath('scenario/system/config_tab/')"]
+[eval exp="Storages.addAutoPath('scenario/system/saveload_tab/')"]
+[eval exp="Storages.addAutoPath('scenario/system/debug_tab/')"]
 
 ;システム画像
 [eval exp="Storages.addAutoPath('image/system/')"]
 [eval exp="Storages.addAutoPath('image/system/tab/')"]
 [eval exp="Storages.addAutoPath('image/title/')"]
-[eval exp="Storages.addAutoPath('image/old_system/')"]
 [eval exp="Storages.addAutoPath('image/message/')"]
+[eval exp="Storages.addAutoPath('image/old_system/')"]
 
-;メッセージレイヤ用バストアップ画像
-[eval exp="Storages.addAutoPath('image/message/bustup/gaia/p1/')"]
-[eval exp="Storages.addAutoPath('image/message/bustup/gaia/p2/')"]
-[eval exp="Storages.addAutoPath('image/message/bustup/mash/p1/')"]
-[eval exp="Storages.addAutoPath('image/message/bustup/mash/p2/')"]
-[eval exp="Storages.addAutoPath('image/message/bustup/nazimi/p1/')"]
-[eval exp="Storages.addAutoPath('image/message/bustup/nazimi/p2/')"]
-[eval exp="Storages.addAutoPath('image/message/bustup/nazimi/p3/')"]
-[eval exp="Storages.addAutoPath('image/message/bustup/orutega/p1/')"]
-[eval exp="Storages.addAutoPath('image/message/bustup/orutega/p2/')"]
-[eval exp="Storages.addAutoPath('image/message/bustup/satori/p1/')"]
-[eval exp="Storages.addAutoPath('image/message/bustup/senpai/p1/')"]
-[eval exp="Storages.addAutoPath('image/message/bustup/senpai/p2/')"]
-[eval exp="Storages.addAutoPath('image/message/bustup/naruse/p1/')"]
-[eval exp="Storages.addAutoPath('image/message/bustup/naruse/p2/')"]
 ;立ち絵
-[eval exp="Storages.addAutoPath('fgimage/stand/gaia/p1/')"]
-[eval exp="Storages.addAutoPath('fgimage/stand/gaia/p2/')"]
-[eval exp="Storages.addAutoPath('fgimage/stand/mash/p1/')"]
-[eval exp="Storages.addAutoPath('fgimage/stand/mash/p2/')"]
-[eval exp="Storages.addAutoPath('fgimage/stand/nazimi/p1/')"]
-[eval exp="Storages.addAutoPath('fgimage/stand/nazimi/p2/')"]
-[eval exp="Storages.addAutoPath('fgimage/stand/nazimi/p3/')"]
-[eval exp="Storages.addAutoPath('fgimage/stand/orutega/p1/')"]
-[eval exp="Storages.addAutoPath('fgimage/stand/orutega/p2/')"]
-[eval exp="Storages.addAutoPath('fgimage/stand/satori/p1/')"]
-[eval exp="Storages.addAutoPath('fgimage/stand/senpai/p1/')"]
-[eval exp="Storages.addAutoPath('fgimage/stand/senpai/p1/big/')"]
-[eval exp="Storages.addAutoPath('fgimage/stand/senpai/p2/')"]
-[eval exp="Storages.addAutoPath('fgimage/stand/senpai/p2/big/')"]
-[eval exp="Storages.addAutoPath('fgimage/stand/naruse/p1/')"]
-[eval exp="Storages.addAutoPath('fgimage/stand/naruse/p1/big/')"]
-[eval exp="Storages.addAutoPath('fgimage/stand/naruse/p2/')"]
-[eval exp="Storages.addAutoPath('fgimage/stand/naruse/p2/big/')"]
+[eval exp="Storages.addAutoPath('fgimage/haruka/')"]
+[eval exp="Storages.addAutoPath('fgimage/nazimi/')"]
+[eval exp="Storages.addAutoPath('fgimage/naruse/')"]
+[eval exp="Storages.addAutoPath('fgimage/satori/')"]
+[eval exp="Storages.addAutoPath('fgimage/gaia/')"]
+[eval exp="Storages.addAutoPath('fgimage/mash/')"]
+[eval exp="Storages.addAutoPath('fgimage/orutega/')"]
+[eval exp="Storages.addAutoPath('fgimage/gaia_kids/')"]
+[eval exp="Storages.addAutoPath('fgimage/junihitoe/')"]
+[eval exp="Storages.addAutoPath('fgimage/maru/')"]
+[eval exp="Storages.addAutoPath('fgimage/takahashi/')"]
+[eval exp="Storages.addAutoPath('fgimage/matsudo/')"]
+[eval exp="Storages.addAutoPath('fgimage/satoshi/')"]
+[eval exp="Storages.addAutoPath('fgimage/mikuriya/')"]
 
+;背景
+[eval exp="Storages.addAutoPath('bgimage/event_cg/')"]
+[eval exp="Storages.addAutoPath('bgimage/tuning/')"]
 ;-------------------------
 ; 導入
 ;-------------------------
@@ -82,6 +66,7 @@
 ;自作ライブラリの読み込み
 [call storage="SystemLib.ks"]
 [call storage="ShortCutController.ks"]
+[call storage="fgimage_tuning.ks"]
 [eval exp="global.InitShortCut()"]
 
 ;マスターボリュームの適用
@@ -118,4 +103,3 @@
 
 ;title画面へ
 [jump storage="title.ks"]
-

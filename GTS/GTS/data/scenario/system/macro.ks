@@ -7,6 +7,7 @@
 [cm]
 [endmacro]
 
+;クリック待ち&改行(改行はクリック後)
 [macro name="lr"]
 [l][r]
 [endmacro]
@@ -52,7 +53,7 @@
 
 ;【メッセージレイヤの全削除】
 [macro name="dis_all_message"]
-
+;生成してるメッセージレイヤをすべて非表示に
 [layopt layer="message0" page=fore visible=false]
 [layopt layer="message1" page=fore visible=false]
 [layopt layer="message2" page=fore visible=false]
@@ -64,14 +65,11 @@
 [layopt layer="message8" page=fore visible=false]
 [layopt layer="message9" page=fore visible=false]
 [layopt layer="message10" page=fore visible=false]
-
 ;各種パーツも
 [layopt layer=7 page="fore" visible="false"]
 [layopt layer=8 page="fore" visible="false"]
 [layopt layer=9 page="fore" visible="false"]
-
 [backlay]
-
 [endmacro]
 
 ;;トランジションマクロ\n
@@ -133,8 +131,6 @@
 	;メッセージ系は隠す
 	[position layer="message0" visible="false"]
 	[position layer="message1" visible="false"]
-	
-	
 [endmacro]
 
 ;;システムレイヤのON・OFF
@@ -147,7 +143,7 @@
 
 ;;立ち絵表示のマクロ
 ;;who=人物名(文字列 ex.gaia, senpai...)
-;;pause=ポーズ番号
+;;pose=ポーズ番号
 ;;face=表情番号
 ;;layer=表示したい前景レイヤ番号, 前景レイヤ
 ;;pos=前景レイヤ位置\nレイヤ位置を自動的に決定します, レイヤ位置
@@ -158,29 +154,34 @@
 ;;time=トランジション時間\nデフォルトは500, ミリ秒時間
 ;;zoom=拡大率\n拡大率を指定します, パーセント値
 ;;notrans=トランジションの有無, 論理値
-;;big=ズーム画像か
+;;size=s,m,l
 [macro name="showstandimage"]
-	[backlay cond="mp.notrans != 'true'"]
-
-	;表示した立ち絵情報を保存する
-	[eval exp="tf.filename = global.GetStandFileName(mp.who, mp.pause, mp.face, false, mp.big)"]
-	[image storage="&tf.filename" layer=%layer|0 pos=%pos|center visible="true" index=%index|1 opacity=%opacity|255 page=back zoom=%zoom|100 grayscale=%grayscale]
-	[layopt layer=0 top="100" left="200" page="back" cond="mp.big == 'true'"]
-	[eval exp="global.SaveStandInfo(mp.who, mp.pause, mp.face)"]
-
+	;トランジションの有無によってパラメータを切り替え
+	[if exp="mp.notrans != 'true'"]
+		[backlay]
+		[eval exp="mp.page = 'back'"]
+	[else]
+		[eval exp="mp.page = 'fore'"]
+	[endif]
+	;未指定はm
+	[eval exp="mp.size='m'" cond="mp.size == ''"]
+	;表示した立ち絵情報を取得する
+	[eval exp="tf.s_info = global.GetStandFileInfo(mp.who, mp.pose, mp.face, mp.size, mp.pos)"]
+	;取得した情報に従って立ち絵を表示
+	[image storage="&tf.s_info.file" left="&tf.s_info.left" top="&tf.s_info.top" layer=%layer|0 visible="true" index=%index|1 opacity=%opacity|255 page="&mp.page" grayscale=%grayscale]
+	;トランジション(有効なら)
 	[if exp="mp.notrans != 'true'"]
 		[trans time=%time|500 method="crossfade"]
 		[wt]
 	[endif]
+	;メッセージウィンドウにバストアップ表示(有効なら)
+	[if exp="mp.nobust != 'true'"]
+		[showbustup who="&mp.who" pose="&mp.pose" fase="&mp.face"]
+	[endif]
 [endmacro]
 
 ;;名前欄を表示する
-;;bust=名前欄の名前とバストアップ画像の名前が違ったときに指定する
 [macro name="shownametag"]
-	[if exp="mp.noBust != 'true'"]
-		[showlastbustup name=%name visible=%visible force=%bust who=%who pause=%pause face=%face]
-	[endif]
-	[layopt layer=8 visible=%visible|true]
 	[position layer="message1" visible=%visible|true]
 	[if exp="mp.visible != 'false'"]
 		[nowait]
@@ -191,30 +192,14 @@
 	[endif]
 [endmacro]
 
-;;立ち絵情報からバストアップ画像を表示する
-;;name=必須
-[macro name="showlastbustup"]
-	;主人公はカオナシ
-	[if exp="mp.name != '大樹'"]
-		;別名が表示されることもあるので、個別に名前指定があったらそれを適用する
-		[if exp="mp.force != void"]
-			[eval exp="mp.name = mp.force"]
-		[endif]
-		[if exp="mp.visible == 'true'"]
-			; 画面に表示されたことのあるキャラの情報を取得して表示
-			[if exp="f.lastShowStandImageinfo[mp.name] != void"]
-				[eval exp="mp.who   = f.lastShowStandImageinfo[mp.name].name"]
-				[eval exp="mp.pause = f.lastShowStandImageinfo[mp.name].pause"]
-				[eval exp="mp.face  = f.lastShowStandImageinfo[mp.name].face"]
-				[image layer=9 storage="&global.GetStandFileName(mp.who, mp.pause, mp.face, 'true', 'false')" visible=%visible]
-			[else]
-			; 情報がない場合もあるので、その場合は引数から名前・顔・ポーズを取得する
-				[image layer=9 storage="&global.GetStandFileName(mp.who, mp.pause, mp.face, 'true', 'false')" visible=%visible]
-			[endif]
-		[else]
-			[layopt layer=9 page="fore" visible=%visible]
-		[endif]
-	[endif]
+;;バストアップ画像を表示する
+[macro name="showbustup"]
+	[image layer=9 storage="&global.GetStandFileName(mp.who, mp.pose, mp.face, 'm')" visible=%visible]
+[endmacro]
+
+;;バストアップ画像を非表示にする
+[macro name="hidebust"]
+	[layopt layer=9 page="fore" visible=%visible]
 [endmacro]
 
 ;;指定したシナリオにジャンプする(デバッグ中ならチャプター選択画面に飛ぶ)
