@@ -24,9 +24,9 @@
 [eval exp="Storages.addAutoPath('scenario/system/')"]
 [eval exp="Storages.addAutoPath('scenario/system/import/')"]
 [eval exp="Storages.addAutoPath('scenario/system/tjs/')"]
-[eval exp="Storages.addAutoPath('scenario/system/config_tab/')"]
-[eval exp="Storages.addAutoPath('scenario/system/saveload_tab/')"]
-[eval exp="Storages.addAutoPath('scenario/system/debug_tab/')"]
+[eval exp="Storages.addAutoPath('scenario/system/tab/config/')"]
+[eval exp="Storages.addAutoPath('scenario/system/tab/saveload/')"]
+[eval exp="Storages.addAutoPath('scenario/system/tab/debug/')"]
 
 ;ƒVƒXƒeƒ€‰æ‘œ
 [eval exp="Storages.addAutoPath('image/system/')"]
