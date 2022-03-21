@@ -163,10 +163,12 @@
 	[else]
 		[eval exp="mp.page = 'fore'"]
 	[endif]
-	;未指定はm
+	;未指定はm, center
 	[eval exp="mp.size='m'" cond="mp.size == ''"]
+	[eval exp="mp.pos='c'" cond="mp.pos == ''"]
+	[eval exp="mp.tere='false'" cond="mp.tere == ''"]
 	;表示した立ち絵情報を取得する
-	[eval exp="tf.s_info = global.GetStandFileInfo(mp.who, mp.pose, mp.face, mp.size, mp.pos)"]
+	[eval exp="tf.s_info = global.GetStandFileInfo(mp.who, mp.pose, mp.face, mp.size, mp.pos, mp.tere)"]
 	;取得した情報に従って立ち絵を表示
 	[image storage="&tf.s_info.file" left="&tf.s_info.left" top="&tf.s_info.top" layer=%layer|0 visible="true" index=%index|1 opacity=%opacity|255 page="&mp.page" grayscale=%grayscale]
 	;トランジション(有効なら)
@@ -183,6 +185,7 @@
 ;;名前欄を表示する
 [macro name="shownametag"]
 	[position layer="message1" visible=%visible|true]
+	[layopt layer=8 visible=%visible|true]
 	[if exp="mp.visible != 'false'"]
 		[nowait]
 		[current layer="message1"]
@@ -194,7 +197,7 @@
 
 ;;バストアップ画像を表示する
 [macro name="showbustup"]
-	[image layer=9 storage="&global.GetStandFileName(mp.who, mp.pose, mp.face, 'm')" visible=%visible]
+	;[image layer=9 storage="&global.GetStandFileInfo(mp.who, mp.pose, mp.face, 'm')" visible=%visible]
 [endmacro]
 
 ;;バストアップ画像を非表示にする

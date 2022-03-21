@@ -244,15 +244,12 @@ function CreateButtonHintName(hint, num)
 	return returnName;
 }
 
-function GetStandFileInfo(who, pose, face, size, pos)
+function GetStandFileInfo(who, pose, face, size, pos, tere)
 {
-	//! エイリアスを解決しておく
-	var name = global.ProcessAlias(who);
-
 	//! 名前と渡された情報から表示すべき立ち絵にまつわる全情報を計算
 	//! left = 位置/位置の分割数 * ( (画面横サイズ - 2マージン) - 立ち絵の横サイズ ) - 立ち絵の余白 + マージン
 	var left = tf.StandLeftParam;
-	var tops = tf.StandTopMap[name];
+	var tops = tf.StandTopMap[who];
 	var mag = tf.PosToNum[pos] / (left["split"] - 1);
 	var rect = tf.RectSize - (left["margin"] * 2);
 	var pos_left = (rect - left[size]["width"]) * mag - left[size]["space"] + left["margin"];
@@ -261,7 +258,13 @@ function GetStandFileInfo(who, pose, face, size, pos)
 	var pos_top = tops[pose][size];
 
 	//! 画像名はパラメータから計算
-	var filename = size + "_" + who + "_" + "p" + pose + "_" + face + ".png";
+	var filename = "";
+	
+	if(tere == "true") {
+		filename = size + "_" + who + "_" + "pose" + pose + "_tere_" + face + ".png";
+	} else {
+		filename = size + "_" + who + "_" + "pose" + pose + "_" + face + ".png";
+	}
 
 	//! Dictionaryで情報をまとめて返す
 	var info = %["file"=>filename.toLowerCase(), "left"=>pos_left, "top"=>pos_top];
@@ -290,14 +293,6 @@ function GetBustUpImageNameFromStandInfo(who)
 	}
 	
 	return null;
-}
-
-function ProcessAlias(who) {
-	switch(who) {
-		case "senpai":
-			return "haruka";
-	}
-	return who;
 }
 
 function ClearSystemMessage()

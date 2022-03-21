@@ -15,7 +15,7 @@
 叫んだのは、[r]
 桜ももう散り失せた、5月始めの放課後の事だった。[plc]
 
-@showstandimage who=senpai pause=1 face=7 visible="true"
+@showstandimage who=haruka size=m pose=1 face=kuno
 @shownametag name="先輩" visible=true
 「……どしたの一体？」[plc]
 
@@ -34,18 +34,16 @@
 @shownametag name="大樹" visible=true
 「学校」[plc]
 
-@showstandimage who=senpai pause=1 face=5
+@showstandimage who=haruka size=m pose=1 face=magao
 @shownametag name="先輩" visible=true
 「あぁ」[plc]
 
-
 先輩は、納得したという顔で頷いた。[plc]
 
-@showstandimage who=senpai pause=1 face=2 
 @shownametag name="先輩" visible=true
 「そりゃ、君。いや、たれ蔵くん…」[plc]
 
-@showstandimage who=senpai pause=1 face=1
+@showstandimage who=haruka size=m pose=1 face=niyaniya
 @shownametag name="先輩" visible=true
 「…あなた負けたじゃない」[plc]
 
@@ -76,11 +74,11 @@
 @shownametag name="大樹" visible=true
 「……はぁ」[plc]
 
-@showstandimage who=senpai pause=1 face=7
+@showstandimage who=haruka size=m pose=1 face=jitome
 @shownametag name="先輩" visible=true
 「肩を落とすのが早過ぎるよたれ蔵君」[plc]
 
-@showstandimage who=senpai pause=1 face=4
+@showstandimage who=haruka size=m pose=1 face=magao
 @shownametag name="先輩" visible=true
 「言ったでしょ、『多面的に』捕らえなさいって」[plc]
 
@@ -91,7 +89,7 @@
 
 多面的に考えたところで状況は変わらないと思うんですが。[plc]
 
-@showstandimage who=senpai pause=2 face=1 big=true zoom=50
+@showstandimage who=haruka size=l pose=1 face=raku
 @quake hmax=10 vmax=10 time="100"
 @shownametag name="先輩" visible=true
 「だ・か・ら、君は短絡的だって言うんだよ。たれ蔵君」[plc]
@@ -99,7 +97,7 @@
 
 つんと額をつつかれて。[plc]
 
-@showstandimage who=senpai pause=2 face=3 big=true zoom=50
+@showstandimage who=haruka size=l pose=1 face=niyaniya
 @shownametag name="先輩" visible=true
 「『出番』はある、よ」[plc]
 
@@ -110,7 +108,7 @@
 
 ;[一拍置く]
 @fadebgm volume=50 time=500
-@showstandimage who=senpai pause=2 face=1 big=true zoom=50 time=500
+@showstandimage who=haruka size=l pose=1 face=ki
 @shownametag name="先輩" visible=true
 「君、帰る気だったでしょ？」[plc]
 
@@ -128,16 +126,16 @@
 自分の立場がよく分かったいま、[r]
 俺に出番なんてあるはずが無いんだけれど……。[plc]
 
-
+@showstandimage who=haruka size=l pose=1 face=do
 @shownametag name="先輩" visible=true
 「勝手に帰らないように」[plc]
 
-@showstandimage who=senpai pause=2 face=5 big=true zoom=50 time=500
+@showstandimage who=haruka size=l pose=1 face=ki
 @shownametag name="先輩" visible=true
 「……言いたかった事は、それだけ」[plc]
 
 @fadebgm volume=100 time=500
-@showstandimage who=senpai pause=2 face=5
+@showstandimage who=haruka size=m pose=1 face=ki
 そこまで言うと、先輩は軽やかにバックステップした。[plc]
 
 

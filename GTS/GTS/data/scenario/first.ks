@@ -54,6 +54,7 @@
 ;”wŒi
 [eval exp="Storages.addAutoPath('bgimage/event_cg/')"]
 [eval exp="Storages.addAutoPath('bgimage/tuning/')"]
+
 ;-------------------------
 ; “±“ü
 ;-------------------------
