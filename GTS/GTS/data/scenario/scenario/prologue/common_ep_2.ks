@@ -5,9 +5,9 @@
 
 
 @backlay
-@showstandimage layer=1 pos="center" who="gaia" pause=2 face=3 visible="true" notrans=true
-@showstandimage layer=2 pos="left_center" who="mash" pause=2 face=5 visible="true" notrans=true
-@showstandimage layer=3 pos="right_center" who="orutega" pause=2 face=5 visible="true" notrans=true
+@showstandimage layer=3 pos=c who="gaia"    pose=1 face=egao   visible="true" size=l notrans=true page=back
+@showstandimage layer=1 pos=l who="mash"    pose=1 face=normal visible="true" size=l notrans=true page=back
+@showstandimage layer=2 pos=r who="orutega" pose=1 face=normal visible="true" size=l notrans=true page=back
 @image storage="kyositu_m" layer="base" page="back" visible="true"
 @trans method="crossfade" time="500"
 @wt
@@ -29,7 +29,7 @@
 例えば、[plc]
 
 
-[showstandimage layer=1 pos="center" who="nazimi" pause=1 face=5 visible="true" grayscale="true"]
+[showstandimage who="najimi" pose=1 face=do grayscale="true"]
 ;[縁の過去回想シーンを一瞬出す]
 
 ……例えばね。[plc]
@@ -50,14 +50,13 @@
 [shownametag name="大樹" visible=true]
 「……ん」[plc]
 
-[showstandimage layer=1 pos="center" who="nazimi" pause=1 face=5 visible="true"]
+[showstandimage who="najimi" pose=1 face=futsu]
 @shownametag name="縁" visible=true
 「随分ね」[plc]
 
 
 目が覚めると、見知ったお隣さんの顔があった。[plc]
 
-[showstandimage layer=1 pos="center" who="nazimi" pause=1 face=3 visible="true"]
 @shownametag name="縁" visible=true
 「何の気紛れか登校してきたと思ったら、早速居眠りってわけ？　お偉いのね」[plc]
 
@@ -73,7 +72,6 @@
 @shownametag name="大樹" visible=true
 「……ちっ」[plc]
 
-
 時計を確認する。[l][r]
 どうも、もう授業が終わっていたらしい。[plc]
 
@@ -86,12 +84,13 @@
 『関係ない』んじゃなかったのか？[l][r]
 と、口ではなく目で伝えると、ソイツは不愉快そうに鼻を鳴らした。[plc]
 
-[showstandimage layer=1 pos="center" who="nazimi" pause=1 face=5 visible="true"]
+[showstandimage who="najimi" pose=1 face=do]
 @shownametag name="縁" visible=true
 「アンタが来なきゃ、関係なしで居られたんだけどね」[plc]
 
 言いながら、叩きつけた書類を開いてみせた。[plc]
 
+[showstandimage who="najimi" pose=1 face=futsu]
 @shownametag name="縁" visible=true
 「あんたが来なかった間の、プリントとか書かなきゃいけない書類とか、その他諸々……担任が渡せって」[plc]
 
@@ -112,7 +111,7 @@
 あだ名の『ゼウス』は伊達じゃないね。[plc]
 
 @stopse
-[showstandimage layer=1 pos="center" who="nazimi" pause=1 face=4 visible="true"]
+[showstandimage who="najimi" pose=1 face=futsu tere=true]
 @shownametag name="縁" visible=true
 「……」[plc]
 
@@ -125,14 +124,13 @@
 @shownametag name="大樹" visible=true
 「なんだよ？」[plc]
 
-[showstandimage layer=1 pos="center" who="nazimi" pause=1 face=5 visible="true"]
 @shownametag name="縁" visible=true
 「いや……そう、五条先生よ。あのひと面倒見がいいから」[plc]
 
 @shownametag name="大樹" visible=true
 「？」[plc]
 
-
+[showstandimage who="najimi" pose=1 face=do]
 @shownametag name="縁" visible=true
 「何でもないわ。それより、教室戸締りしなきゃいけないから荷物まとめてさっさと出てって」[plc]
 
@@ -142,7 +140,7 @@
 
 さっきは４限だったから、今は昼休みの筈だろ。[plc]
 
-
+[showstandimage who="najimi" pose=1 face=futsu]
 @shownametag name="縁" visible=true
 「次の英語は移動教室。その後全校集会だから、今日はそのまま解散」[plc]
 
@@ -152,6 +150,7 @@
 
 当然、という顔で、そんな事をのたまって。[plc]
 
+@dis_all_chara_fade
 @shownametag name="大樹" visible=true
 「……」[plc]
 
@@ -159,7 +158,7 @@
 初耳だ。[l][r]
 いつから移動教室なんて始まったんだ？[plc]
 
-[showstandimage layer=1 pos="center" who="nazimi" pause=3 face=1 visible="true"]
+[showstandimage who="najimi" pose=1 face=futsu size=s]
 @shownametag name="縁" visible=true
 「浦島太郎のあんたが知らないことは沢山あるわよ」[plc]
 @dis_all_chara_fade
@@ -195,7 +194,7 @@
 「おまぇ――」[plc]
 
 @fadebgm volume="50" time="500"
-[showstandimage layer=1 pos="center" who="nazimi" pause=1 face=4 visible="true"]
+[showstandimage who="najimi" pose=1 face=do tere=true size=s]
 @shownametag name="縁" visible=true
 「――私が、」[plc]
 
@@ -205,7 +204,7 @@
 @shownametag name="縁" visible=true
 「私がどういうつもりで――」[plc]
 
-[showstandimage layer=1 pos="center" who="nazimi" pause=3 face=2 visible="true"]
+[showstandimage who="najimi" pose=1 face=ikari tere=true size=s]
 @shownametag name="縁" visible=true
 「……っ」[plc]
 
@@ -222,6 +221,8 @@
 
 
 それは『もう関係なかった』と思い出したような、彼女の言った台詞そのものの態度で。[plc]
+
+
 @shownametag name="大樹" visible=true
 「んだよ……なんだよ。なんなんだよ」[plc]
 
@@ -231,6 +232,10 @@
 
 叫びだしたかったが、[plc]
 
+
+
+@fadebgm volume="50" time="500"
+@strans storage="black" time="1000"
 @shownametag name="大樹" visible=true
 「……っ」[plc]
 
@@ -245,10 +250,6 @@
 「ぁぁっ、クソッ」[plc]
 
 
-
-
-@fadebgm volume="50" time="500"
-@strans storage="black" time="1000"
 ;[一周目のみ　始]
 
 

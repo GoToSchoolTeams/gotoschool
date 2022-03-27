@@ -160,8 +160,6 @@
 	[if exp="mp.notrans != 'true'"]
 		[backlay]
 		[eval exp="mp.page = 'back'"]
-	[else]
-		[eval exp="mp.page = 'fore'"]
 	[endif]
 	;–¢Žw’è‚Ím, center
 	[eval exp="mp.size='m'" cond="mp.size == ''"]

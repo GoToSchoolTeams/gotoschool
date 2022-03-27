@@ -1,4 +1,4 @@
-
+@SetupMessageWindow
 ;[誇大広告演出]
 
 ;ワンオフ操作
@@ -92,16 +92,16 @@
 @fadeinbgm storage="serious1-2" time="1000"
 @fadebgm time=1 volume="100"
 @strans storage="kyositu_m" time="2000"
-@showstandimage layer=1 pos="center" who="gaia" pause=1 face=1 visible="true"
+@showstandimage who=gaia size=m pose=1 face=normal layer=3
 [shownametag name="キモ面A" visible=true bust="ガイア"]「やぁ、谷口君だったかな？　隣、良いかな？」[plc]
 
 
 [shownametag name="大樹" visible=true]「……ん？」[plc]
 
-@showstandimage layer=2 pos="left" who="mash" pause=1 face=3
+@showstandimage who=mash size=m pose=1 face=doya pos=l layer=1
 [shownametag name="キモ面B" visible=true bust="マッシュ"]「では、拙者はここにしよう」[plc]
 
-@showstandimage layer=3 pos= "right" who="orutega" pause=1 face=3
+@showstandimage who=orutega size=m pose=1 face=normal2 pos=r layer=2
 [shownametag name="キモ面C" visible=true bust="オルテガ"]「僕チンはここにするナリ」[plc]
 
 
@@ -109,25 +109,20 @@
 
 
 [shownametag name="キモ面A" visible=true bust="ガイア"]
+@showstandimage who=gaia size=m pose=1 face=egao pos=c layer=3
 「ふふ、そう驚かなくて良い。俺はガイア、こいつらは眞修に織手賀という」[plc]
 
 [shownametag name="ガイア" visible=true]
 「話すのは、これがはじめてだったかな？　大丈夫だ、クラスメイトじゃないか」[plc]
 
-@backlay
-@showstandimage layer=1 pos="center" who="gaia" pause=1 face=3 visible="true" notrans=true
-@showstandimage layer=2 pos="left" who="mash" pause=1 face=5 visible="true" notrans=true
-@showstandimage layer=3 pos= "right"who="orutega" pause=1 face=5 visible="true" notrans=true
-@trans method="crossfade" time="500"
-@wt
 [shownametag name="ガイア" visible=true]「さぁ、肩の力を抜きたまえ――」[plc]
 
 
 @playse storage="syakeeen"
 @backlay
-@showstandimage layer=1 pos="center" who="gaia" pause=2 face=3 visible="true" notrans=true
-@showstandimage layer=2 pos="left_center" who="mash" pause=2 face=5 visible="true" notrans=true
-@showstandimage layer=3 pos="right_center" who="orutega" pause=2 face=5 visible="true" notrans=true
+@showstandimage layer=3 pos=c who="gaia"    pose=1 face=egao   visible="true" size=l notrans=true page=back
+@showstandimage layer=1 pos=l who="mash"    pose=1 face=normal visible="true" size=l notrans=true page=back
+@showstandimage layer=2 pos=r who="orutega" pose=1 face=normal visible="true" size=l notrans=true page=back
 @trans method="crossfade" time="500"
 @wt
 [shownametag name="ガ・マ・オ" bust="ガイア" visible=true]「「「――ブラザー！！！！」」」[plc]
@@ -171,6 +166,8 @@
 @fadebgm time="500" volume="100"
 @strans storage="kyositu_m" time="500"
 [shownametag name="教員"]「おい、谷口。お前、舐めてんのか？　２学期になって『たす掛け分かりません』とか、ふざけんじゃねぇぞ！　お前、初等教育ちゃんとうけたのかっ！？」[plc]
+
+
 
 @fadebgm time="500" volume="50"
 @strans storage="black" time="500"
@@ -251,9 +248,9 @@
 
 
 @backlay
-@showstandimage layer=1 pos="center" who="gaia" pause=2 face=3 visible="true" notrans=true
-@showstandimage layer=2 pos="left_center" who="mash" pause=2 face=5 visible="true" notrans=true
-@showstandimage layer=3 pos="right_center" who="orutega" pause=2 face=5 visible="true" notrans=true
+@showstandimage layer=3 pos=c who="gaia"    pose=1 face=egao   visible="true" size=l notrans=true page=back
+@showstandimage layer=1 pos=l who="mash"    pose=1 face=normal visible="true" size=l notrans=true page=back
+@showstandimage layer=2 pos=r who="orutega" pose=1 face=normal visible="true" size=l notrans=true page=back
 @image storage="kyositu_m" layer="base" page="back" visible="true"
 @trans method="crossfade" time="500"
 @wt
@@ -368,12 +365,12 @@
 寂れたタバコやを抜け、[l]円柱ポストを蹴り飛ばし、[l]誰かの家のチャイムを鳴らして、[l]誰も居ない路地を突っ切って――[plc]
 
 @strans storage="roji_dt" method="universal" rule="101" time="300"
-@showstandimage layer="0" who="senpai" pause=1 face=6 time="1" visible="true"
+@showstandimage who=haruka pose=1 face=odoroki visible="true" size=s
 @shownametag name="女生徒" bust="先輩" visible=true
 「……っ！？」[plc]
 ;[先輩]
 
-@showstandimage layer="0" who="senpai" pause=1 face=5 zoom=150 visible="true"
+@showstandimage who=haruka pose=1 face=odoroki visible="true" size=l
 ――って、誰か居るじゃんっ！？[plc]
 
 @playse storage="car_crash"

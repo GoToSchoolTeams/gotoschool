@@ -63,7 +63,7 @@ class StandImageInfo {
 tf.CharaNameKanziMap = new Dictionary();
 tf.CharaNameKanziMap["senpai"]  = "êÊîy";
 tf.CharaNameKanziMap["haruka"]  = "êÊîy";
-tf.CharaNameKanziMap["nazimi"]  = "âè";
+tf.CharaNameKanziMap["najimi"]  = "âè";
 tf.CharaNameKanziMap["satori"]  = "åÂ";
 tf.CharaNameKanziMap["gaia"]    = "ÉKÉCÉA";
 tf.CharaNameKanziMap["mash"]    = "É}ÉbÉVÉÖ";
@@ -92,15 +92,15 @@ tf.StandTopMap["haruka"]["2"]["s"] = 49;
 tf.StandTopMap["haruka"]["2"]["m"] = -102;
 tf.StandTopMap["haruka"]["2"]["l"] = -258;
 
-tf.StandTopMap["nazimi"] = new Dictionary();
-tf.StandTopMap["nazimi"]["1"] = new Dictionary();
-tf.StandTopMap["nazimi"]["2"] = new Dictionary();
-tf.StandTopMap["nazimi"]["1"]["s"] = 47;
-tf.StandTopMap["nazimi"]["1"]["m"] = -128;
-tf.StandTopMap["nazimi"]["1"]["l"] = -221;
-tf.StandTopMap["nazimi"]["2"]["s"] = 46;
-tf.StandTopMap["nazimi"]["2"]["m"] = -88;
-tf.StandTopMap["nazimi"]["2"]["l"] = -219;
+tf.StandTopMap["najimi"] = new Dictionary();
+tf.StandTopMap["najimi"]["1"] = new Dictionary();
+tf.StandTopMap["najimi"]["2"] = new Dictionary();
+tf.StandTopMap["najimi"]["1"]["s"] = 47;
+tf.StandTopMap["najimi"]["1"]["m"] = -128;
+tf.StandTopMap["najimi"]["1"]["l"] = -221;
+tf.StandTopMap["najimi"]["2"]["s"] = 46;
+tf.StandTopMap["najimi"]["2"]["m"] = -88;
+tf.StandTopMap["najimi"]["2"]["l"] = -219;
 
 tf.StandTopMap["satori"] = new Dictionary();
 tf.StandTopMap["satori"]["1"] = new Dictionary();
