@@ -124,7 +124,7 @@
 舌打ちしながら振り返ると、[plc]
 
 @fadebgm volume="50" time="300"
-@showstandimage layer="0" who="senpai" pause=2 face=3 visible="true"
+[showstandimage who="haruka" pose=1 face=ki size=l]
 [shownametag name="女子高生" visible=true bust="senpai"]
 女子高生「……どーも♪」[plc]
 

@@ -28,7 +28,7 @@
 ――ザワザワザワッ。[plc]
 
 @fadeinbgm storage="daily1 bgm" time="2000"
-@showstandimage layer=1 pos="center" who="gaia" pause=1 face=1 visible="true"
+[showstandimage who="gaia" pose=1 face=normal]
 [shownametag name="ガイア" visible=true]「よう、兄弟！」[plc]
 
 
@@ -38,7 +38,7 @@
 
 [shownametag name="大樹" visible=true]「よう、ブタ。給餌場はここじゃないぜ」[plc]
 
-@showstandimage layer=1 pos="center" who="gaia" pause=1 face=3 visible="true"
+[showstandimage who="gaia" pose=1 face=egao]
 [shownametag name="ガイア" visible=true]「はは、相変わらずブラザーの愛情表現は辛辣だな」[plc]
 
 
@@ -48,14 +48,14 @@
 [shownametag name="大樹" visible=true]「……」[plc]
 
 ;黒背景立ち絵
-@showstandimage layer=1 pos="center" who="gaia" pause=1 face=1 visible="true"
+[showstandimage who="gaia" pose=1 face=egao]
 こいつの名前は、[ruby text="くろ"]黒[ruby text="い"]井　[ruby text="ガ"]甲[ruby text="イ"]斐[ruby text="ア"]亞。[l][r]
 友人じゃない。[plc]
 
 @dis_all_chara
 @strans storage="school-cafeteria01"
 
-@showstandimage layer=1 pos="center" who="gaia" pause=1 face=3 visible="true"
+[showstandimage who="gaia" pose=1 face=komari]
 [shownametag name="ガイア" visible=true]「おいおい、ブラザー。大の親友に対して、紹介がぞんざいすぎやしないか？」[plc]
 
 
@@ -64,12 +64,12 @@
 
 うるせぇな。[plc]
 
-@showstandimage layer=1 pos="center" who="orutega" pause=1 face=4 visible="true"
+[showstandimage who="orutega" pose=1 face=odoroki]
 [shownametag name="オルテガ" visible=true]「ニャニャン！？　同志ではにゃいか！　ご無事であったのかねっ！？」[plc]
 
 [shownametag name="大樹" visible=true]「……」[plc]
 
-@showstandimage layer=1 pos="center" who="mash" pause=1 face=4 visible="true"
+[showstandimage who="mash" pose=1 face=odoroki]
 [shownametag name="マッシュ" visible=true]「谷口氏か！？　もう体の方はよろしいのか！！？」[plc]
 
 @dis_all_chara
@@ -80,9 +80,9 @@
 
 @strans storage="black"
 ;[三匹並べて]
-@showstandimage layer=1 pos="center" who="gaia" pause=2 face=3 visible="true"
-@showstandimage layer=2 pos="left_center" who="mash" pause=2 face=5 visible="true"
-@showstandimage layer=3 pos="right_center" who="orutega" pause=2 face=5 visible="true"
+[showstandimage who="gaia" pose=1 face=normal]
+[showstandimage who="mash" pose=1 face=normal pos=l layer="1"]
+[showstandimage who="orutega" pose=1 face=normal2 pos=r layer="2"]
 こいつらは、左から黒久 眞修（自称）・黒井 甲斐亞（自称）・黒田 織手賀（自称）という。[plc]
 ;[ガリ・メガネ・デブ]
 全員名前に『黒』が付くので、某アニメに習って本人達は自分達を『黒い三連星』と自称しているが、勿論誰もそうは呼ばない。[plc]
@@ -110,13 +110,14 @@
 
 対外的には、俺もそこに含まれる。[plc]
 
-@showstandimage layer=1 pos="center" who="gaia" pause=1 face=3 visible="true"
+
+[showstandimage who="gaia" pose=1 face=normal]
 [shownametag name="ガイア" visible=true]「見ろよブラザー」[plc]
 
-@showstandimage layer=2 pos="left_center" who="mash" pause=1 face=5 visible="true"
+[showstandimage who="mash" pose=1 face=doya pos=l layer="1"]
 [shownametag name="マッシュ" visible=true]「久しぶりに揃った拙者達に」[plc]
 
-@showstandimage layer=3 pos="right_center" who="orutega" pause=1 face=5 visible="true"
+[showstandimage who="orutega" pose=1 face=normal pos=r layer="2"]
 [shownametag name="オルテガ" visible=true]「雌猫は発情し、雄猫は尻尾丸めてるニャリ」[plc]
 
 
@@ -134,7 +135,7 @@
 
 と、ちょっと思った。[plc]
 
-;@showstandimage layer=1 pos="center" who="gaia" pause=1 face=3 visible="true"
+;[showstandimage who="gaia" pose=1 face=egao]
 [shownametag name="ガイア" visible=true bust="no"]「しかし、兄弟。二ヶ月ぶりじゃないか」[plc]
 
 
@@ -142,10 +143,10 @@
 
 
 『消えろ』と言っても消えてくれなさそうなので、適当にそう答える。[plc]
-
+;うどんの一枚絵・・・？(渡し箸差分)
 うどんが伸びたらかなわない。[plc]
 
-;@showstandimage layer=1 pos="center" who="gaia" pause=1 face=4 visible="true"
+;[showstandimage who="gaia" pose=1 face=normal]
 [shownametag name="ガイア" visible=true bust="no"]「……長かったな」[plc]
 
 確かに、長かったかな。[l][r]
@@ -158,7 +159,7 @@
 伸びるより、啜る方が早くなくてはうどんの美味しさが――[plc]
 
 @fadebgm time="500" volume="50"
-;@showstandimage layer=1 pos="center" who="gaia" pause=1 face=5 visible="true"
+;[showstandimage who="gaia" pose=1 face=serious]
 [shownametag name="ガイア" visible=true bust="no"]「……どうして、来る気になった？」[plc]
 
 @playse storage="ohashi"
@@ -173,7 +174,7 @@
 うどんは、まだ半分以上残っているが。[l][r]
 もう食えんな。[plc]
 
-@showstandimage layer=1 pos="center" who="gaia" pause=1 face=5 visible="true"
+[showstandimage who="gaia" pose=1 face=normal]
 [shownametag name="ガイア" visible=true]「それしか聞くことなんてないだろう？」[plc]
 
 
@@ -187,7 +188,7 @@
 購買が騒がしいから、そっちだろうな。[plc]
 
 @fadebgm time="500" volume="100"
-@showstandimage layer=1 pos="center" who="gaia" pause=1 face=1 visible="true"
+[showstandimage who="gaia" pose=1 face=egao]
 [shownametag name="ガイア" visible=true]「……原因を知ったところで、対処のしようがないからな」[plc]
 
 
@@ -213,7 +214,7 @@
 いや、そう言えずに、ガイアに背を向けた。[plc]
 
 ;@showstandimage layer=1 pos="center" who="gaia" pause=1 face=4 visible="true"
-[shownametag name="ガイア" visible=true bust="no"]「兄弟―」[plc]
+[shownametag name="ガイア" visible=true]「兄弟―」[plc]
 
 
 [shownametag name="大樹" visible=true]「……お前は、いや、」[plc]
