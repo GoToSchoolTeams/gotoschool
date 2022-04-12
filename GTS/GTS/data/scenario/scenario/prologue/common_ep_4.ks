@@ -90,6 +90,10 @@
 学校でも有名な、キモオタ軍団である。[plc]
 @dis_all_chara
 
+*debug
+[SetupMessageWindow]
+@strans storage="school-cafeteria01"
+
 そして、[plc]
 @strans storage="school-cafeteria01"
 @playse storage="ambientA@08"
@@ -126,7 +130,8 @@
 
 幸せな奴らだ。[plc]
 
-@dis_all_chara_fade
+[dis_all_chara_fade_message]
+[SetupMessageWindow]
 [shownametag name="大樹" visible=true]「……」[plc]
 
 
@@ -135,7 +140,7 @@
 
 と、ちょっと思った。[plc]
 
-;[showstandimage who="gaia" pose=1 face=egao]
+
 [shownametag name="ガイア" visible=true bust="no"]「しかし、兄弟。二ヶ月ぶりじゃないか」[plc]
 
 
@@ -146,7 +151,6 @@
 ;うどんの一枚絵・・・？(渡し箸差分)
 うどんが伸びたらかなわない。[plc]
 
-;[showstandimage who="gaia" pose=1 face=normal]
 [shownametag name="ガイア" visible=true bust="no"]「……長かったな」[plc]
 
 確かに、長かったかな。[l][r]

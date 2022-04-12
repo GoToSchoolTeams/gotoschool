@@ -41,6 +41,25 @@
 [wt]
 [endmacro]
 
+;【立ち絵全消去(クロスフェード) + メッセージレイヤの消去】
+;キャラを立たせるレイヤは0~6
+[macro name="dis_all_chara_fade_message"]
+[backlay]
+[layopt layer=7 page="back" visible="false"]
+[layopt layer=8 page="back" visible="false"]
+[layopt layer=9 page="back" visible="false"]
+[layopt layer="0" page="back" visible="false"]
+[layopt layer="1" page="back" visible="false"]
+[layopt layer="2" page="back" visible="false"]
+[layopt layer="3" page="back" visible="false"]
+[layopt layer="4" page="back" visible="false"]
+[layopt layer="5" page="back" visible="false"]
+[layopt layer="6" page="back" visible="false"]
+[trans method="crossfade" time=%time|500]
+[wt]
+[endmacro]
+
+
 ;;【エフェクトマクロ】
 ;;一瞬だけ画像を表示\n
 ;;storage=背景画像を指定する\n, 画像ファイル名
