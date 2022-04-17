@@ -90,10 +90,6 @@
 学校でも有名な、キモオタ軍団である。[plc]
 @dis_all_chara
 
-*debug
-[SetupMessageWindow]
-@strans storage="school-cafeteria01"
-
 そして、[plc]
 @strans storage="school-cafeteria01"
 @playse storage="ambientA@08"

@@ -101,13 +101,15 @@
 ;;from=スクロールされる方向\nスクロールトランジションにおいて、裏ページの画像がどの方向から現れてくるかを指定します, left;top;right;bottom
 ;;canskip=飛ばせるかどうか, 論理値
 ;;【背景を変えるマクロ】
-@macro name=strans
-@backlay
-@dis_all_chara page=back
-@image layer="base" storage=%storage|black page="back" visible="true" rgamma="%rgamma" ggamma="%ggamma" bgamma="%bgamma" fliplr="%fliplr" flipud="%flipud" mcolor="%mcolor" mopacity="%mopacity" clipheight="%clipheight" clipleft="%clipleft" cliptop="%cliptop" clipwidth="%clipwidth"
-@trans method=%method|crossfade rule=%rule from=%from stay=%stay time=%time|1000 vague=%vague layer="base"
-@wt canskip=%canskip
-@endmacro
+[macro name=strans]
+[if exp="mp.noclear != 'true'"]
+	[backlay]
+	[dis_all_chara page=back]
+[endif]
+[image layer="base" storage=%storage|black page="back" visible="true" rgamma="%rgamma" ggamma="%ggamma" bgamma="%bgamma" fliplr="%fliplr" flipud="%flipud" mcolor="%mcolor" mopacity="%mopacity" clipheight="%clipheight" clipleft="%clipleft" cliptop="%cliptop" clipwidth="%clipwidth"]
+[trans method=%method|crossfade rule=%rule from=%from stay=%stay time=%time|1000 vague=%vague layer="base"]
+[wt canskip=%canskip]
+[endmacro]
 
 ;;メッセージレイヤの初期化
 ;;シナリオ表示前に呼び出してください
