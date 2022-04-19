@@ -107,8 +107,6 @@
 
 どうにか、どうにかするしかない。[plc]
 
-*debug
-[SetupMessageWindow]
 ――ごまかせッ！　ごまかせぇええッッ！！[plc]
 
 

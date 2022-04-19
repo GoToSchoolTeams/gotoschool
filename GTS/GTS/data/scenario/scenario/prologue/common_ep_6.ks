@@ -100,14 +100,13 @@
 
 頭を掻く。[plc]
 
-
 知るか、俺は疲れた、そして丁度保険医が居なかった。[lr]
 だからサボリに来た。[plc]
 
 それだけだ。[plc]
 
 [strans storage="black" method="universal" rule="look_up" time="250"]
-[strans storage="hoken_tenjo" method="universal" rule="look_up" time="250"]
+[strans storage="hokentenjoEve" method="universal" rule="look_up" time="250"]
 [playse storage="gishi"]
 [shownametag name="大樹" visible=true]「ふー」[plc]
 
@@ -215,6 +214,9 @@
 [shownametag name="？？？" visible=true]「……あんた、誰？」[plc]
 
 
+*debug
+[SetupMessageWindow]
+
 そのときやっと、俺はベッドに俺以外の膨らみがあったことに気が付いたのだった。[plc]
 
 
@@ -223,7 +225,7 @@
 [strans storage="black" method="universal" rule="189" time="500"]
 [strans storage="hoken_e" method="universal" rule="189" time="500"]
 
-@showstandimage who=naruse pause=1 face=1 visible="true"
+@showstandimage who=naruse pose=1 face=ki visible="true"
 [shownametag name="？？？" bust="naruse" visible=true]「で、あんた誰なのよ？」[plc]
 
 
@@ -522,7 +524,7 @@
 
 ;[ベッドに転がる]
 [strans storage="black" method="universal" rule="look_up" time="250"]
-[strans storage="hoken_tenjo" method="universal" rule="look_up" time="250"]
+[strans storage="hokentenjoEve" method="universal" rule="look_up" time="250"]
 [playse storage="gishi"]
 ――ボスッ。[plc]
 
