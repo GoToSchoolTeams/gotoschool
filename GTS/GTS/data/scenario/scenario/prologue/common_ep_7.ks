@@ -85,7 +85,7 @@
 
 と言って、髪を掴んで持ち上げると。[plc]
 
-@showstandimage who="satori" pause=1 face=9 visible="true"
+[showstandimage who="satori" pose=1 face=naki]
 [shownametag name="女生徒" visible=true]「ふっ、ふ、ふびぇええええええっ！　ご、ごめんなさいっ、ごめんなさいごめんなさいっ！！」[plc]
 
 結構ガチ泣きしていた。[plc]
@@ -129,7 +129,7 @@
 
 掴んでいた髪をパッと離した。[plc]
 
-@showstandimage who="satori" pause=1 face=9 visible="true"
+[showstandimage who="satori" pose=1 face=naki]
 [shownametag name="大樹" visible=true]「ごめん、ちょっと怒りすぎた。大丈夫？」[plc]
 
 
@@ -155,7 +155,6 @@
 とりあえず、これで誤魔化すしかない。[plc]
 
 
-@showstandimage who="satori" pause=1 face=2 visible="true"
 [shownametag name="大樹" visible=true]「ほら、拭って」[plc]
 
 言いながら、鼻にハンカチを添えてやる。[plc]
@@ -178,7 +177,6 @@
 
 [shownametag name="大樹" visible=true]「落ち着いた？」[plc]
 
-@showstandimage who="satori" pause=1 face=1 visible="true"
 [shownametag name="女生徒" visible=true]「うぅぅ」[plc]
 
 
@@ -193,7 +191,6 @@
 
 だが、これ以上の議論は俺に利が無さ過ぎる。[plc]
 
-@showstandimage who="satori" pause=1 face=1 visible="true"
 [shownametag name="大樹" visible=true]「ＯＫ、分かった。手打ちとしようじゃないか？　確かに、君の可愛いお鼻を傷つけたのは俺かもしれん」[plc]
 
 [shownametag name="大樹" visible=true]「だが、俺は顔面剥きトマトみたいになってんだ。　おあいことしようじゃないか」[plc]
@@ -214,7 +211,7 @@
 
 くっそ、泣き寝入りかよ……。[plc]
 
-@showstandimage who="satori" pause=1 face=5 visible="true"
+[showstandimage who="satori" pose=1 face=futsu]
 [shownametag name="女生徒" visible=true]「……あの」[plc]
 
 
@@ -233,7 +230,7 @@
 ……ん？　何だ謝罪でもして――。[plc]
 
 @stopbgm
-@showstandimage who="satori" pause=1 face=6 visible="true"
+[showstandimage who="satori" pose=1 face=otyokuri]
 [shownametag name="女生徒" visible=true]「――もしかして、『うんこ垂れうんこ垂れ蔵』先輩？」[plc]
 
 
@@ -242,25 +239,23 @@
 
 [shownametag name="大樹" visible=true]「……」[plc]
 
-@showstandimage who="satori" pause=1 face=4 visible="true"
+[showstandimage who="satori" pose=1 face=futsu]
 [shownametag name="女生徒" visible=true]「あ、やっぱり！」[plc]
 
 
 答えなかったが、それがもう答えだったらしい。[lr]
 さっきの泣き顔は何処へやら、その女は勝手に笑顔で喋りだした。[plc]
 
-@showstandimage who="satori" pause=1 face=5 visible="true"
 [shownametag name="女生徒" visible=true]「やっぱりそうだ！　鼻の潰れたアンパンマンみたいな顔してるって聞いてたから、すぐ分かりました！！」[plc]
 
 [shownametag name="大樹" visible=true]「……」[plc]
 
-@showstandimage who="satori" pause=1 face=6 visible="true"
+[showstandimage who="satori" pose=1 face=otyokuri]
 [shownametag name="女生徒" visible=true]「いやー、ほんと似てますねー」[plc]
 
 
 [shownametag name="大樹" visible=true]「……」[plc]
 
-@showstandimage who="satori" pause=1 face=5 visible="true"
 [shownametag name="女子生徒" visible=true]「ん？　どうしたんですか垂れ蔵先ぱ――」[plc]
 
 @dis_all_chara_fade

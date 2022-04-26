@@ -100,7 +100,7 @@
 
 @strans time="100" method="universal" rule="215" storage="black"
 @strans time="100" method="universal" rule="215" storage="takadai_dt"
-[showstandimage layer=1 pos="center" who="senpai" pause=1 face=2 visible="true"]
+[showstandimage layer=1 who=haruka pose=1 face=niyaniya size=l]
 振り返ると、やはりこれ以上ないってくらいニヤニヤ笑っていた。[plc]
 
 
@@ -115,11 +115,11 @@
 
 [shownametag name="大樹" visible=true]「いや、違うんすよ。そうじゃなく……」[plc]
 
-
-[shownametag name="先輩" visible=true]「はいはい、言い訳は良いから前見て運転してね。あ、そこ右に行ってねー」[plc]
-
 @strans time="100" method="universal" rule="215" storage="black"
 @strans time="100" method="universal" rule="215" storage="takadai_dt"
+[shownametag name="先輩" visible=true]「はいはい、言い訳は良いから前見て運転してね。あ、そこ右に行ってねー」[plc]
+
+
 クイっと。[plc]
 
 
@@ -140,13 +140,11 @@
 
 よくもまぁこれだけ自画自賛出来るもんだ。[plc]
 
-
 [shownametag name="先輩" visible=true]「ちょっと聞いてる？　後輩君」[plc]
-
 
 [shownametag name="大樹" visible=true]「はいはい、聞いてますよー」[plc]
 
-
+@strans time="300" storage="sakamichi"
 言いながら、長い長い丘を登っていく。[lr]
 見えてきたのは、桜並木で。[plc]
 

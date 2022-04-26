@@ -214,9 +214,6 @@
 [shownametag name="？？？" visible=true]「……あんた、誰？」[plc]
 
 
-*debug
-[SetupMessageWindow]
-
 そのときやっと、俺はベッドに俺以外の膨らみがあったことに気が付いたのだった。[plc]
 
 
