@@ -148,6 +148,7 @@
 言いながら、長い長い丘を登っていく。[lr]
 見えてきたのは、桜並木で。[plc]
 
+[fadeinse storage="wind" time="1000"]
 [shownametag name="先輩" visible=true]「ぉー、桜だねぇ！」[plc]
 
 
@@ -156,21 +157,23 @@
 
 春だ。[lr]
 並木の桜たちが、視界を色に染めていく。[plc]
-
+@fadeoutse time="500"
 
 ――キィ……キィ…。[plc]
 
-手入れの行き届いてない車輪が、悲鳴をあげた。[lr]
-普段は分からない、タガとタガが噛み合う感覚が、ここではハッキリと分かる。[lr]
+手入れの行き届いてない車輪が、悲鳴をあげた。[plc]
+
+普段は分からない、タガとタガが噛み合う感覚が、ここではハッキリと分かる。[plc]
+
 あぁ、懐かしい。[lr]
 一年前は、ここを万感の思いで毎日上ってたのに……。[plc]
 
 桜並木の通学路。[lr]
-それが『旗立』の人気の一つで……ってちょっとまて！
+それが『旗立』の人気の一つで……ってちょっとまて！[plc]
 
 [shownametag name="大樹" visible=true]「先輩、ここ通学路じゃないっすか！」[plc]
 
-
+;[showstandimage who=haruka pose=1 face=ki]
 [shownametag name="先輩" visible=true]「そうだよー」[plc]
 
 
@@ -182,19 +185,19 @@
 
 [shownametag name="大樹" visible=true]「……後輩の家はどうなったんすか？」[plc]
 
-
+;[showstandimage who=haruka pose=1 face=do]
 [shownametag name="先輩" visible=true]「忘れた」[plc]
 
 
 [shownametag name="大樹" visible=true]「そっすか」[plc]
 
 
-予想取り過ぎて、逆らう気にもなれない。[plc]
+予想通り過ぎて、逆らう気にもなれない。[plc]
 
 
 [shownametag name="大樹" visible=true]「……」[plc]
 
-
+;[showstandimage who=haruka pose=1 face=niyaniya]
 [shownametag name="先輩" visible=true]「ほらほらー、どうよ、久しぶりの通学路は？」[plc]
 
 
@@ -203,7 +206,7 @@
 
 [shownametag name="大樹" visible=true]「……なんで知ってんすか？」[plc]
 
-
+;[showstandimage who=haruka pose=1 face=ki]
 [shownametag name="先輩" visible=true]「ほら、あたし学校では番長的存在だし？」[plc]
 
 
@@ -230,7 +233,7 @@
 
 色々と、切ない。[plc]
 
-
+;[showstandimage who=haruka pose=1 face=raku]
 [shownametag name="先輩" visible=true]「正直でよろしい」[plc]
 
 
@@ -242,53 +245,59 @@
 
 [shownametag name="大樹" visible=true]「どっから？」[plc]
 
-
+;[showstandimage who=haruka pose=1 face=magao]
 [shownametag name="先輩" visible=true]「はい？」[plc]
 
 
 [shownametag name="大樹" visible=true]「どっから、分かってやってたんすか？」[plc]
 
-
+;[showstandimage who=haruka pose=1 face=raku]
 [shownametag name="先輩" visible=true]「最初から」[plc]
 
 
 マジかよ。[plc]
 
-
+;[showstandimage who=haruka pose=1 face=magao]
 [shownametag name="先輩" visible=true]「と言いたいところだけど、ぶっちゃけ警察撒いた後」[plc]
 
 
 [shownametag name="先輩" visible=true]「ほら、君私の事しらなかったでしょ？」[plc]
 
-
+;[showstandimage who=haruka pose=1 face=ki]
 [shownametag name="先輩" visible=true]「私、ここ一ヶ月でちょー有名人になったんだって！」[plc]
-
 
 ドヤッっと胸を張って彼女は笑う。[lr]
 胸を張ると、車輪の揺れが彼女の体格を顕著に伝えて。[plc]
 
+@fadebgm time="100" volume="50"
+@strans time="100" method="universal" rule="215" storage="black"
+[showstandimage notrans=true page=back who=haruka size=l pose=1 face=ki grayscale="true"]
+@strans time="100" method="universal" rule="215" storage="takadai_dt" grayscale=true noclear=true
+
 まぁ確かに、有名になってもおかしくない様な胸のサイズだった。[plc]
 
-
+@fadebgm time="100" volume="100"
+@strans time="100" method="universal" rule="215" storage="black"
+@strans time="100" method="universal" rule="215" storage="sakamichi"
 [shownametag name="大樹" visible=true]「確かに、大きいっすね」[plc]
 
-
+;[showstandimage who=haruka pose=1 face=magao size=l]
 [shownametag name="先輩" visible=true]「器が？」[plc]
 
 
 [shownametag name="大樹" visible=true]「えぇ、まぁ……」[plc]
 
-
 上手の相手に、セクハラなんて通じない。[plc]
 
 
-こっそりとため息をつくと、
+こっそりとため息をつくと、[lr]
 それを知ってかしらずか、後ろから先輩が抱きついた。[plc]
-
+[playse storage="oppai"]
+@quake hmax="5" vmax="5"
 [shownametag name="大樹" visible=true]「うぁ、ちょっ！！？」[plc]
 
-
-胸が！　胸が背中で、気持ち良いが柔らかいってッ！！！！
+@stopquake
+胸が！　胸が背中で、気持ち良いが柔らかいってッ！！！！[plc]
 
 
 車体が大きく崩れたが、そんな事はお構いなしに先輩は続ける。[plc]
@@ -322,7 +331,7 @@
 
 [shownametag name="大樹" visible=true]「……」[plc]
 
-
+@quake hmax="5" vmax="5" time="100"
 [shownametag name="先輩" visible=true]「ホラホラ、どーよどーよ！」[plc]
 
 
@@ -332,7 +341,7 @@
 
 
 妙に納得してしまう。[lr]
-確かに、
+確かに、[plc]
 
 [shownametag name="大樹" visible=true]「面倒見良いっすね」[plc]
 
@@ -343,8 +352,8 @@
 この人は番長だわ。[plc]
 
 
-
-――ゴーン、ゴーンッ！
+[playse storage="chaim"]
+――ゴーン、ゴーンッ！[plc]
 
 鐘が鳴る。予鈴だ。[lr]
 何限目かの授業が、もう終わりそうらしい。[plc]
@@ -352,14 +361,12 @@
 灯台の鐘の様な、『旗立』の鐘の音。[plc]
 
 
-その音も、昔は…
+その音も、昔は…[plc]
 
 
 [shownametag name="大樹" visible=true]「……」[plc]
 
-
 …いや、本当は憧れで。[plc]
-
 
 [shownametag name="先輩" visible=true]「ねぇ後輩君。私、思うんだけどね」[plc]
 
@@ -383,21 +390,19 @@
 
 そう言って、先輩は背中越しでも分かるように笑って。[plc]
 
-
 [shownametag name="大樹" visible=true]「……」[plc]
 
-
+@fadeoutse time="500"
 答えることが、出来なかった。[plc]
 
 
 先輩の言葉も、鐘の音も。[lr]
 今の俺にはあまりにも眩しすぎて。[plc]
 
-
-――ゴーン、ゴーンッ！
+[playse storage="chaim"]
+――ゴーン、ゴーンッ！[plc]
 
 [shownametag name="先輩" visible=true]「――よっし、賭けをしよう！」[plc]
-
 
 鐘の音が鳴り響くなか、それに負けない様に先輩は叫んだ。[plc]
 
@@ -407,7 +412,7 @@
 
 [shownametag name="先輩" visible=true]「ごめん、拒否権は無いんだ」[plc]
 
-
+@fadeoutse time="500"
 分かってはいた。[lr]
 言ってみただけだ。[plc]
 
@@ -454,7 +459,8 @@
 [shownametag name="大樹" visible=true]「……それ、何か意味あるんすか？」[plc]
 
 
-[shownametag name="先輩" visible=true]「言ったでしょ？　私は番長だって。一月もあれば『旗立』の学園内どころか、君の両親からだって『うんこ垂れうんこ垂れ蔵』と呼ばれる様にしてあげるよ」[lr]
+[shownametag name="先輩" visible=true]「言ったでしょ？　私は番長だって。一月もあれば『旗立』の学園内どころか、君の両親からだって『うんこ垂れうんこ垂れ蔵』と呼ばれる様にしてあげるよ」[plc]
+
 [shownametag name="大樹" visible=true]「うへぇ」[plc]
 
 
@@ -464,18 +470,23 @@
 
 [shownametag name="先輩" visible=true]「三分後の鐘が鳴るまでに間に合ったら――」[plc]
 
-
+@strans time="100" method="universal" rule="215" storage="black"
 俺はその時、先輩の方を向いていなかった。[lr]
 でも分かる。[plc]
 
-きっとその時先輩は、
+きっとその時先輩は、[lr]
 ほんとに腹立たしいくらい爽やかな笑顔で。[plc]
 
+@fadebgm volume="50" time="100"
+@strans method="universal" rule=215 time="500" storage="senpai_hurikaeri"
 [shownametag name="先輩" visible=true]「――学校を、最高に楽しくしてあげるよ！」[plc]
 
 
 そう言った筈だ。[plc]
 
+@fadebgm volume="100" time="100"
+@strans time="100" method="universal" rule="215" storage="black"
+@strans time="100" method="universal" rule="215" storage="sakamichi"
 
 [shownametag name="大樹" visible=true]「ぷっ……あっははははははっ！」[plc]
 
@@ -484,7 +495,7 @@
 ほんと久しぶりに笑った。[plc]
 
 
-やっぱ、このヒト――
+やっぱ、このヒト――[plc]
 
 [shownametag name="先輩" visible=true]「どーよ？」[plc]
 
@@ -503,7 +514,7 @@
 [shownametag name="大樹" visible=true]「ひっでぇ！」[plc]
 
 
-普通に傷付くわ！！
+普通に傷付くわ！！[plc]
 
 
 [shownametag name="先輩" visible=true]「でも、まぁやる価値はあるんじゃない？　つまんないから学校来なかったんでしょー？」[plc]
@@ -527,7 +538,8 @@
 
 [shownametag name="大樹" visible=true]「ですよねー！！！！！」[plc]
 
-
+@strans time="100" method="universal" rule="215" storage="black"
+@strans time="100" method="universal" rule="215" storage="banner"
 言うが早いか、俺は全力で坂を翔けて。[plc]
 
 
@@ -538,7 +550,8 @@
 
 
 結果なんてどうでもいい。[lr]
-ウダウダと喋って残り時間はあと１分も無かったから、そもそも賭けになんかなってない。[lr]
+ウダウダと喋って残り時間はあと１分も無かったから、そもそも賭けになんかなってない。[plc]
+
 ただ。[lr]
 だけど、報酬は頂いたから。[plc]
 
@@ -547,14 +560,15 @@
 
 [shownametag name="大樹" visible=true]「飛べませーーーーーんっ！！！！！！！！」[plc]
 
-
+@strans time="100" method="universal" rule="215" storage="black"
+@strans time="100" method="universal" rule="215" storage="sakamichi"
 風が吹く。桜が舞う。[plc]
 
 
 景色を染める桜を突き抜けて、彼女と突き進むその瞬間が。[lr]
 最高に、楽しくて。[plc]
 
-
+[playse storage="chaim"]
 ――ボーン、ボーン、ボーン。[plc]
 
 鳴り響く鐘の音の中。[plc]
@@ -562,10 +576,12 @@
 
 その音を、ちょっとだけ。[lr]
 ほんとに、ちょっとだけ、残念に思うことが出来たんだ。[plc]
-
+@fadeoutbgm time="500"
+@fadeoutse time="500"
 
 
 
 ;[回想から覚めるような演出]
 ;[→彼女の見解]
 
+[JumpChapter storage="common_ep_9.ks"]
