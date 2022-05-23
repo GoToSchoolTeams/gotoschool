@@ -477,6 +477,7 @@
 きっとその時先輩は、[lr]
 ほんとに腹立たしいくらい爽やかな笑顔で。[plc]
 
+;イベントCGほしいところ
 @fadebgm volume="50" time="100"
 @strans method="universal" rule=215 time="500" storage="senpai_hurikaeri"
 [shownametag name="先輩" visible=true]「――学校を、最高に楽しくしてあげるよ！」[plc]
@@ -538,6 +539,7 @@
 
 [shownametag name="大樹" visible=true]「ですよねー！！！！！」[plc]
 
+;イベントCGほしいところ
 @strans time="100" method="universal" rule="215" storage="black"
 @strans time="100" method="universal" rule="215" storage="banner"
 言うが早いか、俺は全力で坂を翔けて。[plc]
