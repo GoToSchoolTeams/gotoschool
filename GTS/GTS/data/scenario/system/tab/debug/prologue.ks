@@ -16,6 +16,9 @@ PlorogueÇ∆ã§í ïîï™
 [link color="0xFFFFFF" exp="global.DebugJump('common_ep_7.ks')"]P1_EP7(C)[r][endlink]
 [link color="0xFFFFFF" exp="global.DebugJump('common_ep_8.ks')"]P1_EP8(C)[r][endlink]
 [link color="0xFFFFFF" exp="global.DebugJump('common_ep_9.ks')"]P1_EP9(C)[r][endlink]
+
+[link color="0xFFFFFF" exp="global.DebugJump('common_ep_10.ks')"]P1_EP10(N)[r][endlink]
+[link color="0xFFFFFF" exp="global.DebugJump('common_ep_11.ks')"]P1_EP11(s)[r][endlink]
 [link color="0xFFFFFF" exp="global.DebugJump('fgimage_tuning_room.ks')"]óßÇøäGí≤êÆ[r][endlink]
 [endnowait]
 

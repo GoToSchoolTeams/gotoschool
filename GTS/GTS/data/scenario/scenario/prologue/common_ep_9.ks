@@ -24,7 +24,8 @@
 とだけ言い残して、さっさと何処かに行ってしまったが。[lr]
 多分、先輩の知り合いだったんだろうなぁ……。[plc]
 
-@playse storage="howling"
+[strans storage="taiikukan_center"]
+[playse storage="howling"]
 『ハイ、皆さん静かにしてくださーい』[plc]
 
 
@@ -33,7 +34,7 @@
 @fadeoutse time="200"
 『えー、本日は７限目のかわりに、全校集会を行います』[plc]
 
-
+[strans storage="_taiikukan"]
 額が後退し始めた教頭が喋り始める。が、かわりもクソも今日は本当は６限だ。[plc]
 
 [shownametag name="大樹" visible=true]「死ねよ」[plc]
@@ -234,12 +235,13 @@
 [showstandimage who=gaia pose=1 face=kangaeru]
 [shownametag name="ガイア" visible=true]「……そう、女子がやたらと大人しいよな。あっちを見てみろ、兄弟」[plc]
 
-[dis_all_chara_fade]
+[strans storage="taiikukan_right"]
 思考を読まれた様で不愉快だったが、見てみると、何処か思いつめた様な顔で祈るように手を合わせてる女子が居る。[plc]
 
 それも、一人、二人……結構いるな。[lr]
 おいおい、あいつ震えてんぞ。[plc]
 
+[strans storage="_taiikukan"]
 [showstandimage who=gaia pose=1 face=normal]
 [shownametag name="ガイア" visible=true]「ふ、可愛いものだろう？　役員候補に選ばれるのは、女子だからな」[plc]
 
@@ -249,13 +251,14 @@
 
 [shownametag name="大樹" visible=true]「そーかい」[plc]
 
-[dis_all_chara_fade]
+[strans storage="taiikukan_right"]
 答えて。[lr]
 もう一度そいつらを見つめ、俺は呆れた。[plc]
 
 そんな震えるくらい期待するもんか？[lr]
 たかが生徒会役員。　それも候補だろ？　アホらしい。[plc]
 
+[strans storage="_taiikukan"]
 [showstandimage who=gaia pose=1 face=normal]
 [shownametag name="ガイア" visible=true]「ここの生徒会の権力は絶大だ。それに、男子の俺達には分からんが、女子にとってこの『旗立』の生徒会役員ってのは物凄いステータスらしいからな」[plc]
 
@@ -286,28 +289,31 @@
 
 うぜぇ。[plc]
 
+[strans storage="taiikukan_center"]
 [playse storage="howling"]
 [fadebgm volume=75 time="2000"]
 『えー、それでは、種々役員候補の発表に移りたいと思います』[plc]
 
-@playse storage="ambientA@08"
+[playse storage="ambientA@08"]
 [shownametag name="生徒Ａ" visible=true]「おぉー！　ついに発表だぞ！！」[plc]
 
 
 [shownametag name="生徒Ｂ" visible=true]「ワクワクするぜ！」[plc]
 
-@fadeoutse time="500"
+[fadeoutse time="500"]
 伸びて間の抜けた様なマイク越しの教頭の声に、体育館内の熱気が更に増す。[plc]
 
 
 『えー、ではまず、総務――』[plc]
 
-@playse storage="kansei_hakushu"
+[strans storage="taiikukan_left"]
+[playse storage="kansei_hakushu"]
 ――ウワッ！[plc]
 
 と何処かで歓声が上がる。[lr]
 おそらく、選ばれた奴が居るクラスの連中だろう。[plc]
 
+[strans storage="_taiikukan"]
 [shownametag name="大樹" visible=true]「アホくさ。出来レースだろうが」[plc]
 @fadeoutse time="500"
 
@@ -326,7 +332,7 @@
 やばい、ちょっとドキドキしてきた。[plc]
 
 
-
+[strans storage="taiikukan_center"]
 『えー、監査、――』[plc]
 
 @playse storage="kansei_hakushu"
@@ -334,27 +340,30 @@
 
 次々と、役員が発表されていく。[lr]
 間の抜けた教頭のマイクの声でさえ、興奮を煽る。[plc]
-@fadeoutse time="500"
 
-@fadeinse storage="hito_ge_kansei02" time="500"
+[strans storage="taiikukan_right"]
+[fadeoutse time="500"]
+
+[fadeinse storage="hito_ge_kansei02" time="500"]
 [shownametag name="女生徒Ａ" visible=true]「うそっ！？　そんな、うそッ！！！？」[plc]
 
 
 [shownametag name="女生徒Ｂ" visible=true]「やったぁーっ！！！」[plc]
-@fadeoutse time="500"
+[fadeoutse time="500"]
 
 人が本気で喜んだり泣いたりする様は、見ていて面白かった。[plc]
 
-
+[strans storage="_taiikukan"]
 [shownametag name="大樹" visible=true]「……」[plc]
 
 
 さっきまで全く興味が無かったのに、何かワクワクする。[plc]
 
 
-
+[strans storage="taiikukan_center"]
 『――会計、　満目　悟。一年７組』[plc]
 
+[strans storage="_taiikukan"]
 [fadeinse storage="ambientA@08" time="500"]
 ――ざわっ！[plc]
 
@@ -377,6 +386,7 @@
 
 [shownametag name="大樹" visible=true]「何だか、ほんとに楽しくなって――」[plc]
 
+[strans storage="taiikukan_center"]
 [showstandimage who=satori pose=1 face=futsu size=s]
 [shownametag name="悟" visible=true]「ぁ、あの……満目　悟です」[plc]
 ;[ぶっちゃけ、ここは立ち絵欲しい]
@@ -407,6 +417,7 @@
 教頭は不愉快そうに鼻を鳴らす。[lr]
 が、俺はその全く逆だ。[plc]
 
+[strans storage="_taiikukan"]
 [shownametag name="大樹" visible=true]「は、あはははははっ」[plc]
 
 
@@ -442,14 +453,14 @@
 
 言いかけて、[plc]
 
+[strans storage="taiikukan_center"]
 [fadebgm volume="100" time="1"]
 [stopbgm]
 『――副会長、　旗立　縁』[plc]
 
-
 ピタリと、鼓動が止まった。[plc]
 
-
+[strans storage="_taiikukan"]
 [playse storage="kansei_big"]
 ――――ウワッ！！！！！！！！[plc]
 
@@ -494,12 +505,13 @@
 
 いや、そんな事はどうでもいい。[plc]
 
-
+[strans storage="taiikukan_center"]
 『えー、では一言、抱負などをお願いします』[plc]
 
 [showstandimage who=najimi pose=1 face=raku size=s]
 [shownametag name="縁" visible=true]「分かりました。……まずは皆さん、私を選んでくれてありがとう。私は――」[plc]
 
+[strans storage="_taiikukan"]
 こいつが、コイツが『副会長』ってのが気に入らない。[plc]
 
 
@@ -508,7 +520,6 @@
 
 急速に、冷めていく自分を感じた。[plc]
 
-[dis_all_chara_fade]
 [shownametag name="大樹" visible=true]「……会長でなかっただけマシか」[plc]
 
 
@@ -580,22 +591,21 @@
 『二度と来ねぇよ！』と言うかわりに、適当に手を振っておく。[lr]
 それが、俺とソイツの最終コンタクト――[plc]
 
+[strans storage="taiikukan_center"]
 [stopbgm]
 [playse storage="howling"]
 『こらッ！　うんこ垂れうんこ垂れ蔵、何処行くんだーっ！！？』[plc]
 
-
-
-
-
-
+[strans storage="_taiikukan"]
 ――に、なる筈だったのに――[plc]
+
 
 [shownametag name="大樹" visible=true]「へ？」[plc]
 
 
 どっかで聞いたその声に振り返ると、[plc]
 
+[strans storage="taiikukan_center"]
 [showstandimage pose=1 face=ki who=haruka size=s]
 [shownametag name="先輩" visible=true]「おーっし！　今日は来てた居たみたいだね、偉い偉い！」[plc]
 
@@ -632,7 +642,7 @@
 [showstandimage pose=1 who=haruka face=ki size=s]
 [shownametag name="遥香" visible=true]「――　恋ヶ旗　遥香です！　よろしくぅ！！」[plc]
 
-
+[strans storage="_taiikukan"]
 [playse storage="kansei_big"]
 [fadeinbgm storage="daily1 bgm" time="3000"]
 ――ウワァーッ！！！！！！！！！！！！！[plc]
@@ -660,6 +670,7 @@
 気づけば、豚二匹もブヒブヒ鳴いている。[lr]
 オルテガに至っては、唖然としてこちらを見つめている始末。[plc]
 
+[strans storage="taiikukan_center"]
 [showstandimage pose=1 who=haruka face=ki size=s]
 [shownametag name="遥香" visible=true]「さて、じゃぁ、最後の役員候補の発表に移らせて貰おうかな」[plc]
 
@@ -686,6 +697,7 @@
 [stopbgm]
 [shownametag name="遥香" visible=true]「――二年、Ｃ組。男子！　谷口　大樹っ！！」[plc]
 
+[strans storage="_taiikukan"]
 [dis_all_chara]
 [stopse]
 [playse storage="sinzou2" loop="true"]
@@ -701,7 +713,7 @@
 
 ――ハウリングだけが、その事実を伝えていて。[plc]
 
-
+[strans storage="taiikukan_center"]
 [fadeoutse time="1000"]
 [showstandimage pose=1 who=haruka face=do size=s]
 [shownametag name="遥香" visible=true]「新書記候補さん、壇上へ」[plc]
