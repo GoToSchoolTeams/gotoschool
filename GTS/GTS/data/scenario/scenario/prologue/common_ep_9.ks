@@ -4,7 +4,7 @@
 ;[SE頼む]
 ――ザワザワ。[plc]
 
-[fadeinbgm storage="daily1 bgm" time="1000"]
+[fadeinbgm storage="chill" time="1000"]
 [fadeoutse time="2000"]
 体育館に着くと、既に全校生徒が集まっていた。[lr]
 顔面おろし娘との一悶着が、思ったより長かったらしい。[plc]
@@ -306,7 +306,7 @@
 
 『えー、ではまず、総務――』[plc]
 
-[strans storage="taiikukan_left"]
+[strans storage="_taiikukan"]
 [playse storage="kansei_hakushu"]
 ――ウワッ！[plc]
 
@@ -469,7 +469,6 @@
 
 [shownametag name="縁" visible=true]「――はい」[plc]
 
-[fadeinbgm storage=omohide time="1000"]
 だがそれに臆した様子もなく、凛と、鈴の様な声を鳴らして、彼女は立ち上がった。[plc]
 
 [fadebgm volume="100" time="1000"]
@@ -552,6 +551,7 @@
 [shownametag name="ガイヤ" visible=true]「保健室か？　なら、付いて――」[plc]
 
 [dis_all_chara]
+[quake hmax="3" vmax="3" time="200"]
 [shownametag name="大樹" visible=true]「家に帰るんだよ！　ほっとけ」[plc]
 
 
@@ -738,10 +738,10 @@
 
 俺は、やっぱり答える事が出来なくて。[plc]
 
-[showstandimage pose=1 who=haruka face=ki]
+[showstandimage pose=1 who=haruka face=ki size=s]
 [shownametag name="遥香" visible=true]「大丈夫だって、心配すんなって、怖がんなって」[plc]
 
-[showstandimage pose=1 who=haruka face=ki size=l]
+[showstandimage pose=1 who=haruka face=ki size=s]
 [shownametag name="遥香" visible=true]「ほら――」[plc]
 
 
