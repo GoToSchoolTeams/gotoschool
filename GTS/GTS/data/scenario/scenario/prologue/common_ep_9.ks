@@ -387,7 +387,7 @@
 [shownametag name="大樹" visible=true]「何だか、ほんとに楽しくなって――」[plc]
 
 [strans storage="taiikukan_center"]
-[showstandimage who=satori pose=1 face=futsu size=s]
+;[showstandimage who=satori pose=1 face=futsu size=s]
 [shownametag name="悟" visible=true]「ぁ、あの……満目　悟です」[plc]
 ;[ぶっちゃけ、ここは立ち絵欲しい]
 
@@ -399,14 +399,14 @@
 
 え？　あの小娘？　あの顔面おろし娘が役員っ！！？[plc]
 
-[showstandimage who=satori pose=1 face=naki size=s]
+;[showstandimage who=satori pose=1 face=naki size=s]
 [shownametag name="悟" visible=true]「す、すみません。遅れて、遅刻しまして、あの、すみませんすみません！！」[plc]
 
 『ぁー、新会計候補さん。謝罪は良いので、抱負とかを――』[plc]
 
 
 [shownametag name="悟" visible=true]「ごめんなさい！　すみません！！」[plc]
-[dis_all_chara_fade]
+;[dis_all_chara_fade]
 
 そのまま、謝罪娘は壇上から降りていった。[plc]
 
@@ -507,7 +507,7 @@
 [strans storage="taiikukan_center"]
 『えー、では一言、抱負などをお願いします』[plc]
 
-[showstandimage who=najimi pose=1 face=raku size=s]
+;[showstandimage who=najimi pose=1 face=raku size=s]
 [shownametag name="縁" visible=true]「分かりました。……まずは皆さん、私を選んでくれてありがとう。私は――」[plc]
 
 [strans storage="_taiikukan"]
@@ -605,11 +605,11 @@
 
 どっかで聞いたその声に振り返ると、[plc]
 
-[strans storage="taiikukan_center"]
-[showstandimage pose=1 face=ki who=haruka size=s]
+[strans storage="senpai_hurikaeri"]
+;[showstandimage pose=1 face=ki who=haruka size=s]
 [shownametag name="先輩" visible=true]「おーっし！　今日は来てた居たみたいだね、偉い偉い！」[plc]
 
-[showstandimage pose=1 face=niyaniya who=haruka size=s]
+;[showstandimage pose=1 face=niyaniya who=haruka size=s]
 [shownametag name="先輩" visible=true]「でも、途中退席はいけないなぁ」[plc]
 
 
@@ -621,7 +621,7 @@
 
 『ぁー、恋ヶ旗君。壇上での個人的な会話は控えるように……』[plc]
 
-[showstandimage pose=1 face=ki who=haruka size=s]
+;[showstandimage pose=1 face=ki who=haruka size=s]
 [shownametag name="先輩" visible=true]「まーまー、松もっちゃん！　そんなかたい事言わないで！」[plc]
 
 
@@ -630,16 +630,16 @@
 
 『あだ名はやめなさい……ったく、みんな見ていますよ』[plc]
 
-[showstandimage pose=1 who=haruka face=magao size=s]
+;[showstandimage pose=1 who=haruka face=magao size=s]
 [shownametag name="先輩" visible=true]「ぉ……」[plc]
 
 
 体育館全体の目線が自分に集中していることに気づいたのか、先輩は芝居ががった調子で胸を張り、ピッと額に指をあて、言った。[plc]
 
-[showstandimage pose=1 who=haruka face=raku size=s]
+;[showstandimage pose=1 who=haruka face=raku size=s]
 [shownametag name="先輩" visible=true]「おっと、みなさま失礼しました！　この度、旗立高校第１０１代目の会長に立候補致しました――」[plc]
 
-[showstandimage pose=1 who=haruka face=ki size=s]
+;[showstandimage pose=1 who=haruka face=ki size=s]
 [shownametag name="遥香" visible=true]「――　恋ヶ旗　遥香です！　よろしくぅ！！」[plc]
 
 [strans storage="_taiikukan"]
@@ -670,19 +670,19 @@
 気づけば、豚二匹もブヒブヒ鳴いている。[lr]
 オルテガに至っては、唖然としてこちらを見つめている始末。[plc]
 
-[strans storage="taiikukan_center"]
-[showstandimage pose=1 who=haruka face=ki size=s]
+[strans storage="senpai_hurikaeri"]
+;[showstandimage pose=1 who=haruka face=ki size=s]
 [shownametag name="遥香" visible=true]「さて、じゃぁ、最後の役員候補の発表に移らせて貰おうかな」[plc]
 
 『こら、勝手に――』[plc]
 
-[showstandimage pose=1 who=haruka face=do size=s]
+;[showstandimage pose=1 who=haruka face=do size=s]
 [shownametag name="遥香" visible=true]「はい、松っちゃんうるさいよぉ」[plc]
 
 
 先輩がそう言って指を鳴らすと、仕込んでいたのか教頭のマイクの電源が勝手に落ちた。[plc]
 
-[showstandimage pose=1 who=haruka face=raku size=s]
+;[showstandimage pose=1 who=haruka face=raku size=s]
 [shownametag name="遥香" visible=true]「旗立高校第１０１代、書記、最後の候補は――」[plc]
 [fadebgm volume=75 time="500"]
 [playse storage="sinzou2"]
@@ -692,13 +692,13 @@
 それが、良いのか悪いのか、今はまだ全然分からないけど――。[plc]
 [fadeoutse time="500"]
 
-[showstandimage pose=1 who=haruka face=ki size=s]
+;[showstandimage pose=1 who=haruka face=ki size=s]
 [playse storage="howling"]
 [stopbgm]
 [shownametag name="遥香" visible=true]「――二年、Ｃ組。男子！　谷口　大樹っ！！」[plc]
 
 [strans storage="_taiikukan"]
-[dis_all_chara]
+;[dis_all_chara]
 [stopse]
 [playse storage="sinzou2" loop="true"]
 空気が、熱気が、空間が、止まる。[plc]
@@ -715,7 +715,7 @@
 
 [strans storage="taiikukan_center"]
 [fadeoutse time="1000"]
-[showstandimage pose=1 who=haruka face=do size=s]
+;[showstandimage pose=1 who=haruka face=do size=s]
 [shownametag name="遥香" visible=true]「新書記候補さん、壇上へ」[plc]
 
 
@@ -727,21 +727,21 @@
 
 が、口が渇いて、喋る事さえままならなくて。[plc]
 
-[showstandimage pose=1 who=haruka face=keibetsu size=s]
+;[showstandimage pose=1 who=haruka face=keibetsu size=s]
 [shownametag name="遥香" visible=true]「さっき、帰ろうとしたでしょ？」[plc]
 
 
 ふいに、先輩が言った。[plc]
 
-[showstandimage pose=1 who=haruka face=do size=s]
+;[showstandimage pose=1 who=haruka face=do size=s]
 [shownametag name="遥香" visible=true]「また、帰ろうとしたでしょ？　駄目だよ。賭けに負けちゃったからって、イジケちゃうなんて男の子らしくない」[plc]
 
 俺は、やっぱり答える事が出来なくて。[plc]
 
-[showstandimage pose=1 who=haruka face=ki size=s]
+;[showstandimage pose=1 who=haruka face=ki size=s]
 [shownametag name="遥香" visible=true]「大丈夫だって、心配すんなって、怖がんなって」[plc]
 
-[showstandimage pose=1 who=haruka face=ki size=s]
+;[showstandimage pose=1 who=haruka face=ki size=s]
 [shownametag name="遥香" visible=true]「ほら――」[plc]
 
 
