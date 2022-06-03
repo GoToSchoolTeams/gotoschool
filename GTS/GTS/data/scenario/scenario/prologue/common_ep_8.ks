@@ -541,7 +541,7 @@
 
 ;イベントCGほしいところ
 @strans time="100" method="universal" rule="215" storage="black"
-@strans time="100" method="universal" rule="215" storage="banner"
+@strans time="100" method="universal" rule="215" storage="仮_桜道"
 言うが早いか、俺は全力で坂を翔けて。[plc]
 
 
@@ -562,13 +562,15 @@
 
 [shownametag name="大樹" visible=true]「飛べませーーーーーんっ！！！！！！！！」[plc]
 
-@strans time="100" method="universal" rule="215" storage="black"
-@strans time="100" method="universal" rule="215" storage="sakamichi"
+
+;@strans time="100" method="universal" rule="215" storage="sakamichi"
 風が吹く。桜が舞う。[plc]
 
 
 景色を染める桜を突き抜けて、彼女と突き進むその瞬間が。[lr]
 最高に、楽しくて。[plc]
+
+@strans time="100" method="universal" rule="215" storage="black"
 
 [playse storage="chaim"]
 ――ボーン、ボーン、ボーン。[plc]
@@ -577,7 +579,9 @@
 
 
 その音を、ちょっとだけ。[lr]
-ほんとに、ちょっとだけ、残念に思うことが出来たんだ。[plc]
+ほんとに、ちょっとだけ――[plc]
+@strans time="100" method="universal" rule="215" storage="仮_桜吹雪"
+――残念に思うことが出来たんだ。[plc]
 @fadeoutbgm time="500"
 @fadeoutse time="500"
 
