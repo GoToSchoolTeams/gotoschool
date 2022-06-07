@@ -370,6 +370,7 @@
 @strans storage="black" method="universal" rule="101" time="300"
 寂れたタバコやを抜け、[l]円柱ポストを蹴り飛ばし、[l]誰かの家のチャイムを鳴らして、[l]誰も居ない路地を突っ切って――[plc]
 
+[stopquake]
 @strans storage="roji_dt" method="universal" rule="101" time="300"
 @showstandimage who=haruka pose=1 face=odoroki visible="true" size=s
 @shownametag name="女生徒" bust="先輩" visible=true

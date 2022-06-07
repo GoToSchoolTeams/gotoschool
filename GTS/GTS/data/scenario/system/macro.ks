@@ -127,7 +127,7 @@
 	;名前レイヤは一旦非表示
 	[position layer="message1" top=528 left=300 width=700 height=200 opacity=0 visible="false" page="fore" marginb="0" marginl="0" marginr="0" margint="0"]
 	;平文レイヤは表示
-	[position layer="message0" top=567 left=310 width=970 height=153 opacity=0 visible="true"  page="fore" marginb="0" marginl="0" marginr="150" margint="0"]
+	[position layer="message0" top=567 left=310 width=970 height=153 opacity=0 visible="true"  page="fore" marginb="0" marginl="0" marginr="152" margint="0"]
 	;ボタンレイヤも表示
 	[position layer="message2" top="0" left="0" width="1280" height=720 opacity=0 visible="true" page="fore" marginb="0" marginl="0" marginr="0" margint="0"]
 	[current layer="message2"]
@@ -149,9 +149,10 @@
 	[layopt layer=9 top=420 left="-50" page="fore" visible="false"]
 	;メッセージレイヤ設定
 	[current layer="message1"]
-	[deffont size=28]
+	[deffont size=30]
 	[current layer="message0"]
-	[deffont size=24]
+	[deffont size=26]
+	[font size=26]
 	;クリック待ちグリフ変更
 	[glyph line="sakura" page="sakura" fix="true" top=48 left=810]
 	;裏にも適用
