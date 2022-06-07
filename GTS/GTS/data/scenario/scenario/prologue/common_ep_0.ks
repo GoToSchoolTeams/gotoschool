@@ -6,10 +6,9 @@
 [strans storage="jyuutakuti_dt"]
 朝、やたらと清んで清々しい朝。[plc]
 
-
+[playse storage="close11" buf="1"]
 [shownametag name="大樹" visible=true]「いってきまーす」[plc]
 
-[fadeoutse time="1000"]
 晴れ渡るような大きな声で、朝っぱらから盛大に嘘をつく。[lr]
 その勢いで、俺はいつものように自転車にまたがった。[plc]
 
@@ -25,7 +24,7 @@
 [showstandimage who=najimi pose=1 face=ikari size=s]
 [shownametag name="縁" visible=true]「……」[plc]
 
-
+[fadebgm volume="100" time=1]
 見事にシカトらしい。[plc]
 
 
@@ -146,23 +145,23 @@
 緩やかな向かい風が、[lr]
 彼女の長い黒髪をゆっくりとなびかせていて――[plc]
 
-[showstandimage who=najimi pose=1 face=raku grayscale=true notrans=true page=back]
-[strans storage="white" noclear=true]
-
 旗立　縁。[lr]
 １０年来になる。長い付き合いのお隣さん。[plc]
 
 つまり、物心付いた時からの幼馴染。[plc]
 
-[strans storage="jyuutakuti_dt"]
 [shownametag name="大樹" visible=true]「……クソ女が」[plc]
-
 
 吐き捨てる。[plc]
 
-
+[strans storage="jyuutakuti_dt" blur=true]
 ――その凛とした様こそが、[lr]
 　　　　　　　　　今では一番キライなものになっていたから。[plc]
 [fadeoutbgm time="1000"]
+
+[call storage="OP.ks"]
+
+[strans storage="black"]
 [JumpChapter storage="common_ep_1.ks"]
+
 ;[OP:title:学校に行こう！]

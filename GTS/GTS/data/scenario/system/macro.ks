@@ -103,6 +103,8 @@
 ;;vague=あいまい領域値\nユニバーサルトランジションに適用する あいまい領域値を指定します, 0以上の値
 ;;from=スクロールされる方向\nスクロールトランジションにおいて、裏ページの画像がどの方向から現れてくるかを指定します, left;top;right;bottom
 ;;canskip=飛ばせるかどうか, 論理値
+;;blur=ブラーをかけるかどうか, 論理値
+;;noclear=キャラを消去するかどうか, 論理値
 ;;【背景を変えるマクロ】
 [macro name=strans]
 [if exp="mp.noclear != 'true'"]
@@ -110,8 +112,12 @@
 	[dis_all_chara page=back]
 [endif]
 [image layer="base" storage=%storage|black page="back" visible="true" rgamma="%rgamma" ggamma="%ggamma" bgamma="%bgamma" fliplr="%fliplr" flipud="%flipud" mcolor="%mcolor" mopacity="%mopacity" clipheight="%clipheight" clipleft="%clipleft" cliptop="%cliptop" clipwidth="%clipwidth" grayscale="%grayscale" zoom="%zoom" left="%left" top="%top"]
+[if exp="mp.blur == 'true'"]
+	[layer_blur a="10" b="10" layer="base" page="back"]
+[endif]
 [trans method=%method|crossfade rule=%rule from=%from stay=%stay time=%time|1000 vague=%vague layer="base"]
 [wt canskip=%canskip]
+[kagtag noclear=%noclear blur=%blur]
 [endmacro]
 
 ;;メッセージレイヤの初期化
@@ -180,7 +186,7 @@
 [endmacro]
 
 ;;立ち絵表示のマクロ
-;;who=人物名(文字列 ex.gaia, senpai...)
+;;who=人物名
 ;;pose=ポーズ番号
 ;;face=表情番号
 ;;layer=表示したい前景レイヤ番号, 前景レイヤ
@@ -216,6 +222,7 @@
 	[if exp="mp.nobust != 'true'"]
 		[showbustup who="&mp.who" pose="&mp.pose" fase="&mp.face"]
 	[endif]
+	[kagtag who=%who pose=%pose face=%face notrans=%notrans]
 [endmacro]
 
 ;;名前欄を表示する
@@ -305,8 +312,61 @@
 	@endlink
 	@endnowait
 [endnowait]
+[endmacro]
+
+;;画像ぼかし
+;;page=画面\n指定しない場合はback, fore;back
+;;layer=[必須] 前景レイヤまたは背景レイヤを指定します, 前景レイヤ;背景レイヤ
+;;a=[必須] ぼかしの強さ\n5程度で割とぼやける, 0;5;10
+;;b=[必須] ぼかしの強さ\n5程度で割とぼやける, 0;5;10
+[macro name=layer_blur]
+[eval exp="kag.fore.layers[mp.layer].doBoxBlur(mp.a, mp.b)" cond="mp.page=='fore'&&mp.layer!='base'"]
+[eval exp="kag.back.layers[mp.layer].doBoxBlur(mp.a, mp.b)" cond="mp.page!='fore'&&mp.layer!='base'"]
+[eval exp="kag.fore.base.doBoxBlur(mp.a, mp.b)" cond="mp.page=='fore'&&mp.layer=='base'"]
+[eval exp="kag.back.base.doBoxBlur(mp.a, mp.b)" cond="mp.page!='fore'&&mp.layer=='base'"]
+[kagtag page=%page layer=%layer a=%a b=%b]
+[endmacro]
 
 
+;;シネマ風
+;;time=時間
+[macro name=cinema]
+[image layer=5 page="fore" top=720 storage="black" visible="true"]
+[image layer=6 page="fore" top=-720 storage="black" visible="true"]
+[move layer=5 accel="-6" page="fore" path=(0,620,255) time=%time]
+[move layer=6 accel="-6" page="fore" path=(0,-620,255) time=%time]
+[wm canskip="false"]
+[endmacro]
+
+;;time=トランジションにかかる時間
+;;layer=対象レイヤ\n対象となるレイヤを指定します, 背景レイヤ;前景レイヤ;メッセージレイヤ
+;;staff=表示させたいスタッフの名前
+;;size=文字サイズ
+;;transbase=背景トランジションを行うかどうか
+[macro name=staff_show]
+[backlay]
+[position layer="message4" page="back" visible="true" width=1280 height=720 top="0" left="0"]
+[current layer="message4" page="back" withback="false"]
+[style align="center"]
+[font size=%size|35]
+[locate y=%y|285]
+[emb exp="mp.staff"]
+[if exp="mp.transbase == 'true'"]
+	[trans method="crossfade" time=%time|500]
+[else]
+	[trans method="crossfade" time=%time|500 layer="message4"]
+[endif]
+[wt canskip="false"]
+[if exp="mp.playop == 'true'"]
+[playbgm storage="opening_2"]
+[endif]
+[wait time=%showtime|2000 canskip="false"]
+[backlay]
+[current layer="message4" page="back"]
+[er]
+[trans method="crossfade" time=%time|500 layer="message4"]
+[wt canskip="false"]
+[kagtag staff=%staff transbase=%transbase|false playop=%playop|false]
 [endmacro]
 
 [return]
