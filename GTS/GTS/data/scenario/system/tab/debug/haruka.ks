@@ -6,7 +6,7 @@
 —öƒ–Šø—y‰Ô •Ò
 [resetfont]
 [r]
-[link storage="" color="0xFFFFFF"]H_EP1[r][endlink]
+[link color="0xFFFFFF" exp="global.DebugJump('senpai_ep_1.ks')"]HARUKA_EP1(N)[r][endlink]
 [link storage="" color="0xFFFFFF"]H_EP2[r][endlink]
 [link storage="" color="0xFFFFFF"]H_EP3[r][endlink]
 [link storage="" color="0xFFFFFF"]H_EP4[r][endlink]

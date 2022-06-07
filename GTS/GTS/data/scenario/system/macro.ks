@@ -4,7 +4,10 @@
 [p]
 [shownametag visible=false]
 [label]
-[cm]
+[current layer="message1"]
+[er]
+[current layer="message0"]
+[er]
 [endmacro]
 
 ;クリック待ち&改行(改行はクリック後)
@@ -119,31 +122,43 @@
 	[dis_all_chara]
 	[eval exp="global.ClearSystemMessage()"]
 	[backlay]
-
-	;メッセージレイヤ設定
-	[current layer="message1"]
-	[deffont size=32]
-	[current layer="message0"]
-	[deffont size=32]
-
-	;平文レイヤは表示
-	[image layer=7 top=500 left=40 opacity=128 storage="temp_message" page="fore" visible="true"]
-	[position layer="message0" top=500 left=180 width=1080 height=200 opacity=0 visible="true" page="fore"]
-	
+	;メッセージレイヤ画像表示
+	[image layer=7 top=470 opacity=256 storage="message_window" page="fore" visible="true"]
 	;名前レイヤは一旦非表示
-	[image layer=8 top=380 left=70 opacity=128 storage="temp_name" page="fore" visible="false"]
-	[position layer="message1" top=358 left=50 width=400 height=200 opacity=0 visible="false" ]
-	
+	[position layer="message1" top=528 left=300 width=700 height=200 opacity=0 visible="false" page="fore" marginb="0" marginl="0" marginr="0" margint="0"]
+	;平文レイヤは表示
+	[position layer="message0" top=567 left=310 width=970 height=153 opacity=0 visible="true"  page="fore" marginb="0" marginl="0" marginr="150" margint="0"]
+	;ボタンレイヤも表示
+	[position layer="message2" top="0" left="0" width="1280" height=720 opacity=0 visible="true" page="fore" marginb="0" marginl="0" marginr="0" margint="0"]
+	[current layer="message2"]
+	[locate x=1205 y=685]
+	[button graphic="x"]
+	[locate x=1098 y=685]
+	[button graphic="system"]
+	[locate x=991 y=685]
+	[button graphic="log"]
+	[locate x=884 y=685]
+	[button graphic="skip"]
+	[locate x=777 y=685]
+	[button graphic="auto"]
+	[locate x=670 y=685]
+	[button graphic="load"]
+	[locate x=563 y=685]
+	[button graphic="save"]
 	;顔レイヤも一旦非表示
 	[layopt layer=9 top=420 left="-50" page="fore" visible="false"]
-	
+	;メッセージレイヤ設定
+	[current layer="message1"]
+	[deffont size=28]
+	[current layer="message0"]
+	[deffont size=24]
+	;クリック待ちグリフ変更
+	[glyph line="sakura" page="sakura" fix="true" top=48 left=810]
 	;裏にも適用
 	[backlay]
-
 	;BGMとSEのボリュームをもとに戻す
 	[fadebgm volume="100" time="1"]
 	[fadese volume="100" time="1"]
-
 	;historyを有効化する
 	[history enabled="true" output="true"]
 [endmacro]
@@ -152,6 +167,7 @@
 	;メッセージ系は隠す
 	[position layer="message0" visible="false"]
 	[position layer="message1" visible="false"]
+	[position layer="message2" visible="false"]
 [endmacro]
 
 ;;システムレイヤのON・OFF
@@ -204,7 +220,7 @@
 ;;名前欄を表示する
 [macro name="shownametag"]
 	[position layer="message1" visible=%visible|true]
-	[layopt layer=8 visible=%visible|true]
+	;[layopt layer=8 visible=%visible|true]
 	[if exp="mp.visible != 'false'"]
 		[nowait]
 		[current layer="message1"]

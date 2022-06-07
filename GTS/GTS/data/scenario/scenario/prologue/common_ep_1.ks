@@ -2,13 +2,13 @@
 ;[誇大広告演出]
 
 ;ワンオフ操作
-@fadeinbgm storage=seitokai.ogg time=500
+[fadeinbgm storage=seitokai.ogg time=500]
 [current layer="message0"]
-[deffont size=32]
+[glyph line="LineBreak" page="PageBreak" fix="false"]
 [dis_all_chara]
 [dis_all_message]
 [backlay]
-[image layer="12" left=352 top=232 visible="true" page="back" storage="letter"]
+[image layer="12" left=352 top=180 visible="true" page="back" storage="letter"]
 [trans method="crossfade" time="2000"]
 [wt]
 
@@ -17,7 +17,7 @@
 [trans method="crossfade" time="1500"]
 [wt]
 
-
+[font size=32]
 男女比率１：９　！！！[l][r][r]
 
 県立、旗立高校。[r]
@@ -29,6 +29,7 @@
 生徒の自主性の名の下に、何でもやりたい放題出来る。[l][r]
 正に自由。[l]正に楽園。[plc]
 
+[font size=32]
 [locate x=200 y=280]
 ――其処は、誰もがリア充になれる[ruby text="まなび"]学[ruby text="や"]舎。[plc]
 ;[ルビ:まなびや]
@@ -40,6 +41,11 @@
 [trans layer="base" method="crossfade" time="3000"]
 [wt]
 
+[font size=24]
+[backlay]
+[position layer="message0" page="back" visible="false"]
+[image layer=7 top=470 opacity=256 storage="message_window" page="back" visible="true"]
+[strans storage="black" noclear=true]
 [SetupMessageWindow]
 俺が、そんなどっかの詐欺広告の様な学校紹介文を見たのは、[r]
 中学3年ももう終わろうかという時だった。[plc]
@@ -70,7 +76,7 @@
 
 @fadeoutbgm time="2000"
 [backlay]
-[image layer="12" left=352 top=232 visible="true" page="back" storage="letter"]
+[image layer="12" left=352 top=180 visible="true" page="back" storage="letter"]
 [trans method="crossfade" time="2000"]
 [wt]
 
