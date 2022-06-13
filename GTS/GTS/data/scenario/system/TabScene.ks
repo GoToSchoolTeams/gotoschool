@@ -74,11 +74,11 @@
 
 *TabClick
 [if exp="tf.isClickedTab == 1"]
-;タブボタンはMessageLayer8においてある
-[eval exp="global.ChangeTab(8, tf.TabInfo.name)"]
-;タブ変更によってシナリオを読み直したよフラグを立てる
-[eval exp="tf.IsChangeBack=1"]
-[jump target="*Return"]
+	;タブボタンはMessageLayer8においてある
+	[eval exp="global.ChangeTab(8, tf.TabInfo.name)"]
+	;タブ変更によってシナリオを読み直したよフラグを立てる
+	[eval exp="tf.IsChangeBack=1"]
+	[jump target="*Return"]
 [endif]
 
 

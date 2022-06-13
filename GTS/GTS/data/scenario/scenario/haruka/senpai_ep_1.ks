@@ -20,36 +20,42 @@
 
 物事には必ず多面的な部分があるわけで。[plc]
 
-
+[strans storage="seitokai"]
+[fadeinse time="1000" storage="semi"]
 例えば、今日。[plc]
 
-[shownametag name="縁" visible=true]「――ふざけないでください！！！」[plc]
+[showstandimage who=najimi pose=1 face=do]
+[shownametag name="縁" visible=true]「――ふざけないでください！！！」[playse storage="don"][quake hmax="5" time="200"][plc]
 ;[ドンッ！！]
 
-俺の目の前で拳を振るう彼女らにとって、
+[fadeinbgm storage="serious_2" time="3000"]
+俺の目の前で拳を振るう彼女らにとって、[lr]
 アレは、まごうことなき悪夢だったらしい。[plc]
 
 [shownametag name="縁" visible=true]「――どうなってんですか、遥香先輩ッ！！！」[plc]
 ;[叩きつける音]
 
-
+[fadeinse time="500" storage="semi"]
 ――ジーワジーワジワジワジワッ！[plc]
 
 放課後、気の早いセミが鳴く、会議室。[plc]
 
-
+[fadeoutse time="1000"]
+[showstandimage who=haruka pose=1 face=kuno]
 [shownametag name="遥香" visible=true]「……うーん」[plc]
 
 
 そんな中。[lr]
 先輩が糾弾されていた。[plc]
 
+[fadebgm volume="50" time="1000"]
+[strans storage="white"]
 [shownametag name="大樹" visible=true]「……」[plc]
 
 
 
 ;[ちょっと回想っぽく]
-
+[strans storage="_taiikukan" grayscale=true]
 結局、あの後。[plc]
 
 
@@ -62,19 +68,21 @@
 
 全校集会で暴動って……なかなかに笑えてくるね、ほんと。[plc]
 
-
+[fadebgm volume="100" time="1000"]
+[showstandimage who=najimi face=do pose=1 notrans="true" page=back]
+[strans storage="seitokai" noclear="true"]
 [shownametag name="縁" visible=true]「ヘラヘラ笑うな！」[plc]
 
 
 おー、怖。[plc]
 
-
+[showstandimage who=haruka pose=1 face=kuno]
 [shownametag name="遥香" visible=true]「でもまぁ、なんとかなったんだしさぁ」[plc]
 
-
+[showstandimage who=najimi face=do pose=1]
 [shownametag name="縁" visible=true]「全然！　なんとも！！　なってないでしょ！！！」[plc]
 
-
+[showstandimage who=najimi face=ikari pose=1]
 [shownametag name="縁" visible=true]「私達が全員で必死に謝って、どうにか立候補取り消しを免除になっただけじゃないですか！」[plc]
 
 そう、そうなのだ。[lr]
@@ -86,12 +94,14 @@
 
 まぁ、俺が一年間教員トイレを清掃し続けるという犠牲は払ったが（というか、十割俺のせいだし妥当だとは思う）。[plc]
 
+[showstandimage who=najimi face=do pose=1]
 [shownametag name="縁" visible=true]「問題は、そこじゃないです！　問題は、」[plc]
 
 
 [shownametag name="縁" visible=true]「見てくださいよ、これを！！！」[plc]
 
-
+[fadeinse storage="kami_gasa" time="300"]
+[strans storage="seitokai_board"]
 そう言って、縁はA1用紙を広げた。[plc]
 
 
@@ -104,36 +114,45 @@
 数字だけじゃなく、折れ線グラフとか、円グラフとかあって。[lr]
 パッと見ただけで状況が一目でわかる。[plc]
 
+[strans storage="seitokai"]
 [shownametag name="大樹" visible=true]「すごいな、これお前が作ったのか？」[plc]
 
+[showstandimage who=najimi face=do pose=1]
+[shownametag name="縁" visible=true]「なわけないでしょ、[lr]
 
-[shownametag name="縁" visible=true]「なわけないでしょ、新聞部からくすね……貰ってきたのよ」[plc]
+[showstandimage who=najimi face=futsu pose=1]
+新聞部からくすね……[lr]
+
+[showstandimage who=najimi face=do pose=1]
+貰ってきたのよ」[plc]
 
 
 ちょっと咳払いしながら、縁はそう言い繕う。[plc]
 
-
+[strans storage="seitokai_board"]
 なるほど、ね……しかし、すげぇな。これちゃんと昨日の出来事による推移も載ってるぞ、あんな中で出口調査でもやったのか？[plc]
 
 [shownametag name="大樹" visible=true]「おー、すげーすげー。昨日から今日に掛けて、先輩の陣営の支持率がグンッと上がってるぞ。やっぱ、俺の演説が効いたか」[plc]
 
 やっぱりな！[plc]
 
-
+[strans storage="seitokai"]
+[showstandimage who=najimi face=jitome pose=1]
 [shownametag name="縁" visible=true]「……」[plc]
 
-
+[fadeinse storage="kami_gasa" time="300"]
 そんな俺の言葉に、不快そうに鼻を鳴らすと、縁はクルッと用紙を一回転させた。[plc]
 
+[strans storage="seitokai_board"]
 [shownametag name="大樹" visible=true]「……おぉ、絶壁じゃないか」[plc]
 
-
+;[showstandimage who=najimi face=jitome pose=1]
 [shownametag name="縁" visible=true]「あんたの妄言で、落ちまくったのよ」[plc]
 
 
 やっぱりな！[plc]
 
-
+;[showstandimage who=haruka pose=1 face=raku]
 [shownametag name="遥香" visible=true]「うわぁ～、これは酷いねぇ」[plc]
 
 
@@ -141,11 +160,13 @@
 
 おい、見ろよ。教師の票がゼロになってるぞ。[plc]
 
-
+[showstandimage who=najimi pose=1 face=ikari notrans="true" page=back] 
+[strans storage="seitokai" noclear="true"]
 [shownametag name="大樹" visible=true]「あっはっはっはっは！」[plc]
 
 
-[shownametag name="縁" visible=true]「笑うな！」[plc]
+[showstandimage who=najimi pose=1 face=ikari size=l]
+[shownametag name="縁" visible=true]「笑うな！」[playse storage="don"][quake hmax="5" time="200"][plc]
 
 
 殴られた。[plc]

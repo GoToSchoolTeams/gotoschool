@@ -189,6 +189,7 @@
 ;;who=人物名
 ;;pose=ポーズ番号
 ;;face=表情番号
+;;page=画面\n指定しない場合はback, fore;back
 ;;layer=表示したい前景レイヤ番号, 前景レイヤ
 ;;pos=前景レイヤ位置\nレイヤ位置を自動的に決定します, レイヤ位置
 ;;visible=レイヤの可視・不可視\nlayer 属性で指定したレイヤを表示するか、しないかを指定します, 論理値
@@ -202,8 +203,8 @@
 [macro name="showstandimage"]
 	;トランジションの有無によってパラメータを切り替え
 	[if exp="mp.notrans != 'true'"]
+		[eval exp="mp.page='back'"]
 		[backlay]
-		[eval exp="mp.page = 'back'"]
 	[endif]
 	;未指定はm, center
 	[eval exp="mp.size='m'" cond="mp.size == ''"]
@@ -222,7 +223,7 @@
 	[if exp="mp.nobust != 'true'"]
 		[showbustup who="&mp.who" pose="&mp.pose" fase="&mp.face"]
 	[endif]
-	[kagtag who=%who pose=%pose face=%face notrans=%notrans]
+	[kagtag who=%who pose=%pose face=%face notrans=%notrans tere=%tere]
 [endmacro]
 
 ;;名前欄を表示する

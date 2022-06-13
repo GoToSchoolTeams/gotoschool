@@ -49,18 +49,6 @@ function GetLastClickedButtonIndex(buttonTypeName, layer)
 
 //! @brief 現在のタブを押されたボタンによって変更する
 //! @note  セーブ・ロード画面でタブボタンがクリックされたとき実行されます
-function ChangeCurrentTab(layerNo)
-{
-	//!< 最後にクリックされたボタンの番号を取得する
-	var buttonIndex = global.GetLastClickedButtonIndex(tf.TAB_HINT_NAME, layerNo);
-	if(buttonIndex >= 0)
-	{
-		tf.currentTab = buttonIndex;
-	}
-}
-
-//! @brief 現在のタブを押されたボタンによって変更する
-//! @note  セーブ・ロード画面でタブボタンがクリックされたとき実行されます
 function ChangeTab(layerNo, type)
 {
 	//!< 最後にクリックされたボタンの番号を取得する

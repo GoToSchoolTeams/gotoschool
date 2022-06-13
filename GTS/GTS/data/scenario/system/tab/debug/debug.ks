@@ -1,9 +1,14 @@
+;初回ロードのみ走る処理
 [if exp="tf.IsChangeBack != 1"]
 	@dis_all_message
 	[backlay]
 	[freeimage layer="base" page="back"]
 	[trans layer="base" method="crossfade" time=100]
 	[wt]
+	[iscript]
+	//! 先輩ルートをデフォに
+	tf.currentTab = 1;
+	[endscript]
 [endif]
 
 ;現在のシーンをロードに変更
