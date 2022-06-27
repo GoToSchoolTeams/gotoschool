@@ -48,6 +48,9 @@
 ;キャラを立たせるレイヤは0~6
 [macro name="dis_all_chara_fade_message"]
 [backlay]
+[position layer="message0" visible="false" page="back"]
+[position layer="message1" visible="false" page="back"]
+[position layer="message2" visible="false" page="back"]
 [layopt layer=7 page="back" visible="false"]
 [layopt layer=8 page="back" visible="false"]
 [layopt layer=9 page="back" visible="false"]
@@ -223,7 +226,7 @@
 	[if exp="mp.nobust != 'true'"]
 		[showbustup who="&mp.who" pose="&mp.pose" fase="&mp.face"]
 	[endif]
-	[kagtag who=%who pose=%pose face=%face notrans=%notrans tere=%tere]
+	[kagtag who=%who pose=%pose face=%face notrans=%notrans tere=%tere page=%page]
 [endmacro]
 
 ;;名前欄を表示する
@@ -334,8 +337,8 @@
 [macro name=cinema]
 [image layer=5 page="fore" top=720 storage="black" visible="true"]
 [image layer=6 page="fore" top=-720 storage="black" visible="true"]
-[move layer=5 accel="-6" page="fore" path=(0,620,255) time=%time]
 [move layer=6 accel="-6" page="fore" path=(0,-620,255) time=%time]
+[move layer=5 accel="-6" page="fore" path=(0,620,255) time=%time]
 [wm canskip="false"]
 [endmacro]
 
@@ -370,4 +373,14 @@
 [kagtag staff=%staff transbase=%transbase|false playop=%playop|false]
 [endmacro]
 
+;;デバッグジャンプの補佐マクロ
+;;bg=[必須] 背景画像を指定する\nデフォルトはblack, 画像ファイル名
+;;bgm=[必須] 再生する曲\n演奏する BGM ファイル名または CD トラック番号を指定します, BGMファイル名;1以上の値
+[macro name=setup_debug]
+[SetupMessageWindow]
+[playbgm storage=%bgm]
+[strans storage=%bg]
+[endmacro]
+
+;EOF
 [return]
