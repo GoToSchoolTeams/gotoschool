@@ -3,6 +3,8 @@
 結論。[lr]
 結局、何だかんだで俺はサツを撒けた。[plc]
 
+@jump target="*sakuraEffectTest"
+
 @strans storage="takadai_dt"
 @fadeinbgm storage="prologue" time="2000"
 [shownametag name="先輩" noBust=true]「おー、やるじゃんっ！」[plc]
@@ -530,6 +532,7 @@
 
 そりゃそうだ。[plc]
 
+*sakuraEffectTest|
 
 [shownametag name="大樹" visible=true]「拒否権は――」[plc]
 
@@ -541,7 +544,7 @@
 
 ;イベントCGほしいところ
 @strans time="100" method="universal" rule="215" storage="black"
-@strans time="100" method="universal" rule="215" storage="仮_桜道"
+@strans time="100" method="universal" rule="215" storage="zitensha6"
 言うが早いか、俺は全力で坂を翔けて。[plc]
 
 
@@ -580,11 +583,12 @@
 
 その音を、ちょっとだけ。[lr]
 ほんとに、ちょっとだけ――[plc]
-@strans time="100" method="universal" rule="215" storage="仮_桜吹雪"
+@strans time="100" method="universal" rule="215" storage="zitensha7"
+@image storage="sakura_effect_" layer="0" visible="true"
 ――残念に思うことが出来たんだ。[plc]
 @fadeoutbgm time="500"
 @fadeoutse time="500"
-
+@freeimage layer="0"
 
 
 ;[回想から覚めるような演出]
