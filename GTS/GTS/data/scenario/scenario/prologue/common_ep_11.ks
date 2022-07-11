@@ -219,6 +219,6 @@
 [strans storage="white" time="5000"]
 [fadeoutbgm time="5000"]
 [wt]
-[JumpChapter storage=haruka_ep_1.ks]
+[JumpChapter storage="senpai_ep_1.ks"]
 ;[→OP]
 ;[何か演出よろ。ここ、台詞として出さずにロゴで表してもいいかも]

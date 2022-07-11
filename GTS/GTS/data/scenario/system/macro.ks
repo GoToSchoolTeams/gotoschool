@@ -189,7 +189,7 @@
 [endmacro]
 
 ;;立ち絵表示のマクロ
-;;who=人物名
+;;who=人物名, haruka, najimi, naruse, gaia, orutega, mash, satori
 ;;pose=ポーズ番号
 ;;face=表情番号
 ;;page=画面\n指定しない場合はback, fore;back
@@ -210,6 +210,7 @@
 		[backlay]
 	[endif]
 	;未指定はm, center
+	[eval exp="mp.pose='1'" cond="mp.pose == ''"]
 	[eval exp="mp.size='m'" cond="mp.size == ''"]
 	[eval exp="mp.pos='c'" cond="mp.pos == ''"]
 	[eval exp="mp.tere='false'" cond="mp.tere == ''"]
@@ -226,7 +227,7 @@
 	[if exp="mp.nobust != 'true'"]
 		[showbustup who="&mp.who" pose="&mp.pose" fase="&mp.face"]
 	[endif]
-	[kagtag who=%who pose=%pose face=%face notrans=%notrans tere=%tere page=%page]
+	[kagtag who=%who pose=%pose|1 face=%face notrans=%notrans tere=%tere page=%page]
 [endmacro]
 
 ;;名前欄を表示する
@@ -380,6 +381,18 @@
 [SetupMessageWindow]
 [playbgm storage=%bgm]
 [strans storage=%bg]
+[endmacro]
+
+;;ワイプ
+;;time=トランジションにかかる時間
+;;storage=背景画像を指定する\nデフォルトはblack, 画像ファイル名
+[macro name=wipe]
+[dis_all_chara_fade_message time=500]
+[strans storage="black" method="universal" rule="left_right" time="250"]
+[strans storage="eyecatch" method="universal" rule="left_right" time="250"]
+[wait time=%time|1000 canskip="false"]
+[strans storage=%storage method="universal" rule="left_right" time="250"]
+[SetupMessageWindow]
 [endmacro]
 
 ;EOF
