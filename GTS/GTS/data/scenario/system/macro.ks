@@ -227,7 +227,7 @@
 	[if exp="mp.nobust != 'true'"]
 		[showbustup who="&mp.who" pose="&mp.pose" fase="&mp.face"]
 	[endif]
-	[kagtag who=%who pose=%pose|1 face=%face notrans=%notrans tere=%tere page=%page]
+	[kagtag who=%who pose=%pose|1 face=%face notrans=%notrans tere=%tere page=%page size=%size]
 [endmacro]
 
 ;;–¼‘O—“‚ð•\Ž¦‚·‚é
