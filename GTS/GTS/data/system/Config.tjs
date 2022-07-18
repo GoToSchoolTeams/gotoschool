@@ -317,7 +317,7 @@ scHeight = 720;
 // ◆ フォント選択で固定ピッチフォントのみを表示するか
 // true を指定すると、フォント選択ウィンドウで固定ピッチフォントのみを表示
 // するようになります。
-;showFixedPitchOnlyInFontSelector = false;
+;showFixedPitchOnlyInFontSelector = true;
 
 
 // ◆ 「ヘルプ > 目次」を選択したときに実行するファイル
