@@ -873,7 +873,7 @@
 
 自分自身のあまりの酷さに、俺自身、絶句してしまっていたから。[plc]
 
-[fadeoutbgm time="1000"
+[fadeoutbgm time="1000"]
 [strans storage="white" time="1000"]
 
 [JumpChapter storage="senpai_ep_2.ks"]
