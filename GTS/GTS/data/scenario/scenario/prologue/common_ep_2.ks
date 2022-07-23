@@ -51,11 +51,15 @@
 「……ん」[plc]
 
 [showstandimage who="najimi" pose=1 face=futsu]
+
+目が覚めたのと、不愉快になったのは殆ど同時だった。[plc]
 @shownametag name="縁" visible=true
 「随分ね」[plc]
 
+机に書類の束を叩きつけられ、俺は授業が終わっていた事を知る。[plc]
+;目が覚めると、見知ったお隣さんの顔があった。[plc]
 
-目が覚めると、見知ったお隣さんの顔があった。[plc]
+眼前には、見知ったお隣さんの顔があった。[plc]
 
 @shownametag name="縁" visible=true
 「何の気紛れか登校してきたと思ったら、早速居眠りってわけ？　お偉いのね」[plc]
