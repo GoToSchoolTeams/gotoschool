@@ -1,169 +1,440 @@
 [SetupMessageWindow]
+;[演出付きを見て、調整する可能性あり]
 
-ふと我に帰れたのは、成瀬の高笑いのおかげだった。[plc]
+[shownametag name="遥香" visible=true]
+「はい、マイク」
 
-[strans storage="seitokai"]
-[fadeinbgm storage="serious_2" time="1000"]
-[showstandimage who=naruse face=hohoho]
-[shownametag name="成瀬" visible=true]「――なにこれ、傑作！　傑作ですわ！」[plc]
 
+[shownametag name="大樹" visible=true]
+「ぇ、ぁ……」
 
-[shownametag name="成瀬" visible=true]「ほんっとに――」[plc]
 
+[shownametag name="遥香" visible=true]
+「ほら、しっかり、みんな見てるよ」
 
-言い切らないうちに、また腹を抱えて笑い出す。[lr]
-それは取り巻きも同様で。[plc]
 
+[shownametag name="大樹" visible=true]
+「ぅ……」
 
-;[立ち絵表現で爆笑な感じを]
 
-[shownametag name="成瀬" visible=true]「――ひー、ひー」[plc]
 
-[dis_all_chara_fade]
-一通り笑い倒してから、成瀬は落ち着きを取り戻した。[plc]
+見下ろすと、
+確かに全校生徒が目下に揃っていた。
 
-[showstandimage who=naruse face=futsu pose=2]
-[shownametag name="成瀬" visible=true]「いやいや、はるかさん……いや、恋ヶ旗さん。ひっじょうに興味深くて、ひっじょうに面白かったわ」[plc]
+[shownametag name="大樹" visible=true]
+「ぁ、ぅ」
 
-[shownametag name="成瀬" visible=true]「もしかして、私達が来ることを知ってて、練習してたのかしら？」[plc]
 
-言いながら、先輩の顔を覗き込む。[plc]
 
+それはどうも、先輩の冗談ってわけじゃなさそうで。
+横目で不快そうに見ている教頭も、別に俺を止めやしない。
 
-[shownametag name="遥香" visible=true]「……」[plc]
+#縁
+「……」
 
 
-こちらからだと、先輩がどんな顔をしているのか分からない。[plc]
+#ガイヤ
+「……兄弟」
 
 
-[shownametag name="成瀬" visible=true]「いや、ほんと！　ほんとよ！！　凄いわ、素晴らしい演技力！！！」[plc]
 
-[showstandimage who=naruse face=futsu pose=2 size=l]
-[shownametag name="成瀬" visible=true]「特にあなた！」[plc]
+他の誰も、縁でさえ俺を止めない。
 
 
-言って、俺を指さした。[plc]
+[shownametag name="大樹" visible=true]
+「……あぁ、うぅ」
 
 
-[shownametag name="成瀬" visible=true]「谷口、大樹くんだっけ？」[plc]
 
+……なんだよ。
 
-[shownametag name="成瀬" visible=true]「ほんと、俳優になれるんじゃなくて？　あの、情けない顔ったら――」[plc]
 
-[shownametag name="成瀬" visible=true]「――今も――」[plc]
-[showstandimage who=naruse face=hohoho]
 
+口が乾いて、パリパリと音がした。
+頭は真っ白で、目は、この光景を捉えているのかも怪しい。
 
-;[爆笑]
 
-そうして、再び成瀬達は腹を抱えて笑い出す。[plc]
+ガクガクと、震えだけが積極的に自己主張して。
 
-[strans storage="black" method="universal" rule="look_up" time="200"]
-[shownametag name="大樹" visible=true]「……」[plc]
 
+[shownametag name="大樹" visible=true]
+「……ぁ」
 
-俺は、俺は……。[plc]
 
-[showstandimage who=naruse face=futsu pose=2 notrans=true page="back"]
-[strans noclear="true" storage="seitokai"]
-[shownametag name="成瀬" visible=true]「まぁ、ま。そんな死にそうな顔しないで――」[plc]
 
+――キーン。;[ハウリング]
 
-[shownametag name="成瀬" visible=true]「――ハイこれ」[plc]
 
-[playse storage="hon_dosa"]
-[dis_all_chara_fade]
-そう言って、成瀬は何かの紙の束を投げてよこした。[plc]
-;[se]
 
-[shownametag name="大樹" visible=true]「……」[plc]
+むなしくハウリングの音だけが響いた。
 
 
-これ……ドリル？　小学生向けだ。[plc]
 
-[showstandimage who=naruse face=futsu pose=2]
-[shownametag name="成瀬" visible=true]「弟の為に買ったんだけど、たぶん貴方にちょうどよくってよ」[plc]
+『――抱負を言いなさい』
 
-[shownametag name="成瀬" visible=true]「あげるわ」[plc]
 
-[strans storage="seitokai_board"]
-[shownametag name="取り巻きA" visible=true]「きゃー、成瀬さまお優しいわ～」[plc]
 
+電源を入れなおした教頭が、助け舟の様に促すが。
 
-[shownametag name="取り巻きB" visible=true]「素敵ー」[plc]
 
-[showstandimage who=naruse face=futsu pose=2 page="back" notrans="true"]
-[strans storage="seitokai" noclear="true"]
-[shownametag name="成瀬" visible=true]「それじゃごきげんよう。また、会うことがあったらね……」[plc]
 
+……抱負？　抱負ってなんだよ？
 
-[dis_all_chara_fade]
-『ないでしょうけど』と暗に含めて。[plc]
 
 
-成瀬は立ち去っていった。[plc]
+俺が、俺なんかが抱ける事なんてあるのかよ？
 
 
-後には、俺と先輩だけが残されて。[plc]
 
+『――自己紹介でも良いですよ』
 
-[shownametag name="大樹" visible=true]「……先輩、あの」[plc]
 
 
-背中越しに声を掛ける。[plc]
+あまりに何も言わない俺に焦れたのか、
+教頭がさらに助け舟を出す。
 
 
-[shownametag name="大樹" visible=true]「俺、……」[plc]
+だけど、
 
-[strans storage="seitokai" blur="true"]
-なんて言えばいいんだ？[plc]
 
+[shownametag name="大樹" visible=true]
+「――」
 
-謝ればいいのか？　違うだろう。[lr]
-怒ればいいのか？　違うだろう。[plc]
 
-[shownametag name="大樹" visible=true]「……俺、」[plc]
 
+自己紹介だと？
 
-もうわけが分からなかった。[plc]
 
 
-成瀬のあの態度も、縁のあの態度も。[plc]
+俺、俺は……今日この日まで引きこもりで。
+恋人無し、友達無し、学業は赤点で、体育は落第で。
 
 
-いや、そんな事じゃない。[plc]
+顔はこの通りのキモ――。
 
 
-俺自身、俺が。[plc]
 
-[shownametag name="大樹" visible=true]「……酷いっすね」[plc]
+――んな事言えるかよ！
 
 
-ここまで無能だとは。[plc]
+[shownametag name="大樹" visible=true]
+「――っ！」
 
-[strans storage="seitokai"]
-[shownametag name="遥香" visible=true]「……」[plc]
 
 
-俺の嘆きを、どう思ったのかは分からない。[lr]
-分からないが、[plc]
+――キーン。;[ハウリング]
 
-[showstandimage who=haruka face=magao]
-[shownametag name="遥香" visible=true]「谷口君」[plc]
 
 
-振り返った、先輩の顔は、[plc]
+漏れかけた言葉が、
+ハウリングになって体育館内に響く。
 
+[shownametag name="大樹" visible=true]
+「……」
 
-[shownametag name="大樹" visible=true]「……」[plc]
 
 
-[shownametag name="遥香" visible=true]「今日は、もう解散しよっか」[plc]
+恥ずかしい。
 
-[fadeoutbgm time="1000"]
-驚くくらい、何の感情も浮かんではいなかった。[plc]
-[wt]
-[fadebgm volume=100 time=1]
-[dis_all_chara_fade]
-[JumpChapter storage="senpai_ep_3.ks"]
-;［→【前】迷いのドリル］
+
+
+――ザワザワッ。
+
+
+
+『ぉい、なんなんだアイツはよ』
+
+
+
+『アイツってあれだろ？』
+『毎朝、通学路でギャーギャー騒いでうるせぇ』
+
+
+『そ、反対方向に降りてくやつ』
+
+
+
+『おいもう引っ込めよ、いいよもう見たくねーよお前なんか』
+『降りちまえよ、今ならギャグで許してくれるって』
+
+
+『ひっこめ、ひっこめ』
+
+
+
+声が、段々大きくなっていく。
+悪意が、罵倒が大きくなっていく。
+
+
+――ザワザワザワザワッ！
+
+
+[shownametag name="大樹" visible=true]
+「……」
+
+
+
+あぁ、そりゃそうか。
+俺は、どこに出しても恥ずかしい不登校野郎だ。
+
+
+みんなの、代表になんか。
+その候補にさえなっちゃいけないんだ。
+
+
+そりゃ、そうだな。うん、そりゃそうだ。
+こうやって、悪意を受けるのは、
+
+
+;[過去回想的演出]
+
+
+
+いつも、
+
+
+
+;[過去回想的演出]
+
+
+
+慣れて……。
+
+
+
+;[回想的演出]
+
+
+[shownametag name="大樹" visible=true]
+「……ふざけるなよ」
+
+
+
+いつも。
+;[回想的演出]
+
+
+いつも、いつも。
+;[回想的演出]
+
+
+いつも、いつも、いつも。
+;[回想的演出]
+
+
+――そうやって、見下しやがって！
+
+
+[shownametag name="大樹" visible=true]
+「……」
+
+
+
+腹が立ってくる。
+怒りと悔しさで、視界が染まっていく。
+
+
+でも、俺は知ってる。
+こんなことで、崩れたりはしない。
+
+
+罵倒や暴言なんかで、感情は崩れたりしない。
+、
+
+
+崩すのは、いつだって――
+
+
+
+『ねぇ、どーしたのー？』
+『やめなよ、男子ー！』
+
+
+汚い男子の野次に混じって。
+別の声が聞こえる。
+
+
+『ゆっくりでいいよー！』
+
+
+
+女子達の……。
+
+
+
+『緊張しなくていいよ～』
+
+
+
+……クソ雌共の。
+
+
+
+『みんなちゃんと待ってるからー』
+
+
+
+気遣いだか応援だか知らん声が混じり始めて。
+
+
+
+『ほら、頑張ってー！』
+
+
+[shownametag name="大樹" visible=true]
+「うるせぇ、黙ってろ！」
+
+
+
+――罵倒でも嘲笑でもない――
+
+
+
+『――ぇ』
+
+
+
+――見下しきった言葉なんだ！
+
+
+[shownametag name="大樹" visible=true]
+「大体、てめぇら――」
+
+
+
+;[灰色]
+
+
+
+そこから先の記憶は、かなり曖昧だ。
+
+
+
+たぶん、性差別的な言葉を１００連打くらいして。
+眼前に映る雌共全員のオツムが総じて空な事を明確に証明した後。
+
+
+旗立のオス共は全員去勢されたテナガザルだと言う趣旨の
+学術論文を発表した気がする。
+
+
+で、そこからは自画自賛。
+最終的になにやら気持ちよくなって――
+
+[shownametag name="大樹" visible=true]
+「つまりね、最終的に大事なのは運！」
+
+
+[shownametag name="大樹" visible=true]
+「真面目に学校来るとか、ちゃんと勉強するとか。
+ほんと全然関係ない！」
+
+[shownametag name="大樹" visible=true]
+「人生、そういうの関係ないから！！」
+
+
+[shownametag name="大樹" visible=true]
+「だってほら、俺なんかちょっと学校に来てみたらさ！」
+
+
+[shownametag name="大樹" visible=true]
+「美人な会長に、役員に指名されちゃったりしちゃって！」
+
+
+[shownametag name="大樹" visible=true]
+「……まぁ、お前らみたいな凡俗には
+一生たどり着けない運命力かもしれないけど」
+
+[shownametag name="大樹" visible=true]
+「……いや！　でも！！」
+
+
+[shownametag name="大樹" visible=true]
+「やっぱ、それも、逃げ続けてちゃダメだったというか、」
+
+
+[shownametag name="大樹" visible=true]
+「ちゃんと学校に来たからこそというか、だから」
+
+
+[shownametag name="大樹" visible=true]
+「だからお前ら！」
+
+
+[shownametag name="大樹" visible=true]
+「大して希望が持てなくても！
+しょっぱい青春しか歩んでもなくても！」
+
+[shownametag name="大樹" visible=true]
+「だとしても！　だったとしても――」
+
+
+
+――拳を振り上げて、全身全霊で。
+
+
+
+言った。
+
+
+[shownametag name="大樹" visible=true]
+「――学校に行こう！」
+
+
+
+ビッっと、コレ以上ないという顔で、
+会場中にドヤ顔を決める。
+
+
+決まった。
+最高に決まった。
+
+
+俺の熱いトークによって会場は感涙に包まれ――。
+
+
+
+――コンッ！
+
+
+[shownametag name="大樹" visible=true]
+「――ぃてっ」
+
+
+
+額に、何かがぶつかった。
+
+
+[shownametag name="大樹" visible=true]
+「ぃてて……ん？」
+
+
+
+これは、金属製の、学年バッジ……？
+
+
+[shownametag name="大樹" visible=true]
+「――ぁ」
+
+
+
+会場を見渡すと、
+
+
+
+;[キャラそれぞれの呆れや怒り顔を順繰りに出す]
+
+
+
+『――――』
+
+
+
+みんな目が三角だった。
+
+
+
+『――まずテメェが学校に来いよ、この糞ひきこもりがぁあああああああああああああああああああああああッッツツツツ！！！！』
+;[画面を盛大に揺らす]
+
+;[→招かれざる者_後編]
