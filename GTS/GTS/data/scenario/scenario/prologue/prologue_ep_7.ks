@@ -274,7 +274,7 @@
 
 @fadeoutbgm time="3000"
 @strans storage="black" time="3000"
-@JumpChapter storage="common_ep_8.ks"
+@JumpChapter storage="prologue_ep_8.ks"
 ;[‰ñ‘z‚É“ü‚é‚æ‚¤‚È‰‰o]
 ;[¨t•—‚Æ‹¤‚É]
 

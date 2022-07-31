@@ -753,6 +753,6 @@
 それは――。[plc]
 
 [strans storage="white"]
-[JumpChapter storage="common_ep_10.ks"]
+[JumpChapter storage="prologue_ep_10.ks"]
 ;[瞬間的な場面転換]
 ;[走馬灯っぽいと入れるといいかも]

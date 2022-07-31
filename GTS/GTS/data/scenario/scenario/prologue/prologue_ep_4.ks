@@ -251,7 +251,7 @@
 遮る様にそう呟いて、[lr]
 俺はそのまま食堂を後にしたのだった。[plc]
 @fadeoutbgm time="1000"
-@JumpChapter storage="common_ep_5.ks"
+@JumpChapter storage="prologue_ep_5.ks"
 
 ;[回想に入るような演出]
 ;[→晴れ、ときどきバンジー]

@@ -790,4 +790,4 @@
 
 ;[¨Šç–Ê‚¨‚ë‚µ‚ÍƒƒŠ‚Ì–¡]
 @fadeoutbgm time="1500"
-[JumpChapter storage="common_ep_6.ks"]
+[JumpChapter storage="prologue_ep_6.ks"]

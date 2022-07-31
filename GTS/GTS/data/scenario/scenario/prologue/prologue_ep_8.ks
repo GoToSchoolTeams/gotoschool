@@ -594,4 +594,4 @@
 ;[‰ñ‘z‚©‚çŠo‚ß‚é‚æ‚¤‚È‰‰o]
 ;[¨”Ş—‚ÌŒ©‰ğ]
 
-[JumpChapter storage="common_ep_9.ks"]
+[JumpChapter storage="prologue_ep_9.ks"]
