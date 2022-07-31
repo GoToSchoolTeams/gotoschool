@@ -180,10 +180,10 @@
 
 金色……の、リボン？[plc]
 
-@SetupBrunch name="common_ep_6_0"
-@AddBrunch text="１．引っこ抜く" storage="common_ep_6.ks" target="*all"
-@AddBrunch text="２．引っこ抜く" storage="common_ep_6.ks" target="*all"
-@AddBrunch text="３．引っこ抜く" storage="common_ep_6.ks" target="*all"
+@SetupBrunch name="prologue_ep_6_0"
+@AddBrunch text="１．引っこ抜く" storage="prologue_ep_6.ks" target="*all"
+@AddBrunch text="２．引っこ抜く" storage="prologue_ep_6.ks" target="*all"
+@AddBrunch text="３．引っこ抜く" storage="prologue_ep_6.ks" target="*all"
 @ShowBrunch
 @s
 
@@ -532,4 +532,4 @@
 ;[→顔面おろしはロリの味
 @strans storage="black" time="800"
 @fadeoutbgm time="2000"]
-[JumpChapter storage="common_ep_7.ks"]
+[JumpChapter storage="prologue_ep_7.ks"]

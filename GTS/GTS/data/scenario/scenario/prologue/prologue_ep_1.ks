@@ -392,4 +392,4 @@ gegege
 ;[¨•s–ù‰õ‚È–ÚŠo‚ß]
 
 ;[¨EP2‚Ö]
-[JumpChapter storage="common_ep_2.ks"]
+[JumpChapter storage="prologue_ep_2.ks"]

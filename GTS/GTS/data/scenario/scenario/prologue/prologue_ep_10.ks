@@ -710,4 +710,4 @@
 [strans storage="white"]
 [stopquake]
 [fadeoutbgm time=1000]
-[JumpChapter storage="common_ep_11.ks"]
+[JumpChapter storage="prologue_ep_11.ks"]

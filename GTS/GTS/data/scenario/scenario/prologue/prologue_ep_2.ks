@@ -290,4 +290,4 @@
 ;[Å®èoâÔÇ§Ç∆Ç¢Ç§Ç±Ç∆]
 
 @fadeoutbgm time="2000"
-@JumpChapter storage="common_ep_3.ks"
+@JumpChapter storage="prologue_ep_3.ks"

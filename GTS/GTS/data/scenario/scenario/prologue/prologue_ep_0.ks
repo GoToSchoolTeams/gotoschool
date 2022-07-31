@@ -162,6 +162,6 @@
 [call storage="OP.ks"]
 
 [strans storage="black"]
-[JumpChapter storage="common_ep_1.ks"]
+[JumpChapter storage="prologue_ep_1.ks"]
 
 ;[OP:title:äwçZÇ…çsÇ±Ç§ÅI]

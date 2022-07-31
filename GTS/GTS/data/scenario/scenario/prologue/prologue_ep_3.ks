@@ -135,6 +135,6 @@
 さっき吹き飛ばしたと思わしき女子高生が、めっちゃ笑顔でペダルを抑えていた。[plc]
 @fadeoutbgm time="1000"
 @strans storage="black" time="1000"
-@JumpChapter storage="common_ep_4.ks"
+@JumpChapter storage="prologue_ep_4.ks"
 
 ;[→兄弟と呼ぶ人]
