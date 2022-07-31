@@ -5,19 +5,14 @@
 
 ;[暗転]
 
-その場所にいれるかどうかっていうのは、[lr]
-環境ってのがすごく大事だという話はしたと思う。[plc]
-
+その場所にいれるかどうかっていうのは、環境ってのがすごく大事だという話はしたと思う。[plc]
 
 それの一つに、逃げ道って物がある。[plc]
 
 
+どんなに居心地良い場所だって、他に何処にも行けなければ息苦しさを感じてしまう。[plc]
 
-どんなに居心地良い場所だって、[r]
-他に何処にも行けなければ息苦しさを感じてしまう。[plc]
-
-
-逆に居心地が悪くても、逃げ道さえあれば……[plc]
+逆に居心地が悪くても、逃げ道さえあれば……。[plc]
 
 
 
@@ -37,12 +32,11 @@
 [strans storage="hoken_e" time="500" method="universal" rule="left_right"]
 ――ガララッ。[plc]
 
-保健室の扉を開けると、[lr]
-快適で涼しい空気が俺を出迎えてくれた。[plc]
+
+保健室の扉を開けると、快適で涼しい空気が俺を出迎えてくれた。[plc]
 
 
-[shownametag name="大樹" visible=true]
-「……すみませーん」[plc]
+[shownametag name="大樹" visible=true]「……すみませーん」[plc]
 
 
 恐る恐る声をかけるが、返事がない。[plc]
@@ -52,8 +46,7 @@
 
 
 [strans storage="black" time="400" method="universal" rule="left_right"]
-じっくりと３分待ってから、[lr]
-俺は保健室に滑り込んだ。[plc]
+じっくりと３分待ってから、俺は保健室に滑り込んだ。[plc]
 
 ;[時間演出]
 
@@ -93,17 +86,14 @@
 人間、案外単純だ。[plc]
 
 
-例えば今も、『仲間じゃない』と一蹴したガイアの[r]
-『今日は保険の先生はいないぞ』という言葉でここにいるわけで。[plc]
+例えば今も、『仲間じゃない』と一蹴したガイアの『今日は保険の先生はいないぞ』という言葉で俺はここにいるわけで。[plc]
 
 [shownametag name="大樹" visible=true]「……」[plc]
 
 
-あの後、わざわざ追ってきてそれを伝えるガイアもガイアだが、[lr]
-それでここに来る俺も相当だ。[plc]
+あの後、わざわざ追ってきてそれを伝えるガイアもガイアだが、それでここに来る俺も相当だ。[plc]
 
-そう考えると、ノコノコと学校に来てしまった俺は[r]
-誰かさんの掌の上で踊っているだけなのかもしれない。[plc]
+そう考えると、ノコノコと学校に来てしまった俺は誰かさんの掌の上で踊っているだけなのかもしれない。[plc]
 
 [shownametag name="大樹" visible=true]「ぁー……くそっ」[plc]
 
@@ -151,30 +141,24 @@
 菩薩の様な川崎先生から『ババ糞』の馬場に。[plc]
 
 
-保健室といえば、[lr]
-俺みたいなメンタル弱小系の最後の砦みたいなもんだが、[plc]
+保健室といえば、俺みたいなメンタル弱小系の最後の砦みたいなもんだが、この学校には『昼休みの後』だというのに誰もいない。[plc]
 
-この学校には『昼休みの後』だというのに誰もいない。[lr]
-これもババ糞の人徳の成せる技だ。[plc]
+これもババ糞の人徳の成せる技だぜ。[plc]
 
 
-[shownametag name="大樹" visible=true]
-「……そういや、その頃だったっけ」[plc]
+[shownametag name="大樹" visible=true]「……そういや、その頃だったっけ」[plc]
 
 
-俺が、学校を休み始めたのは……。[plc]
+俺が、学校を休みガチになったのは。[plc]
 
 
-
-[shownametag name="大樹" visible=true]
-「……っ」[plc]
+[shownametag name="大樹" visible=true]「……ッ」[plc]
 
 
 もう一度、頭を掻く。[plc]
 
 
-アホか俺は、せっかく不愉快な場所から逃げ出したのに。[lr]
-自分から不愉快になるやつがあるか。[plc]
+アホか俺は、せっかく不愉快な場所から逃げ出したのに自分から不愉快になるやつがあるか。[plc]
 
 寝よ寝よ。[plc]
 
@@ -188,8 +172,8 @@
 [strans storage="naruse_hyokkori"]
 [shownametag name="大樹" visible=true]「……ん？」[plc]
 
-……というタイミングで、俺は寝返りを打った視線の先に[r]
-ヒョコヒョコと踊る謎の物体を見つけたわけで。[plc]
+
+……というタイミングで、俺は寝返りを打った視線の先にヒョコヒョコと踊る謎の物体を見つけたわけで。[plc]
 
 [shownametag name="大樹" visible=true]「何だ……これ？」[plc]
 
@@ -216,14 +200,12 @@
 [shownametag name="大樹" visible=true]「…ぇ」[plc]
 
 
-[shownametag name="？？？" visible=true]
-「違います。違いますババ先生！　サボリじゃないんですよ！！[lr]
-ほんと、今日は私――」[plc]
+[shownametag name="？？？" visible=true]「違います。違いますババ先生！　サボリじゃないんですよ！！　ほんと、今日は私―」[plc]
 
 [shownametag name="大樹" visible=true]「……」[plc]
 
 
-[shownametag name="？？？" visible=true]「――ちょっと重くて……」[plc]
+[shownametag name="？？？" visible=true]「―せい……」[plc]
 
 
 [shownametag name="大樹" visible=true]「……」[plc]
@@ -232,8 +214,7 @@
 [shownametag name="？？？" visible=true]「……あんた、誰？」[plc]
 
 
-そのときやっと、[lr]
-俺はベッドに俺以外の膨らみがあったことに気が付いたのだった。[plc]
+そのときやっと、俺はベッドに俺以外の膨らみがあったことに気が付いたのだった。[plc]
 
 
 ;[場面転換]
@@ -245,14 +226,12 @@
 [shownametag name="？？？" bust="naruse" visible=true]「で、あんた誰なのよ？」[plc]
 
 
-小一時間ほど無言で見つめ合った後、[lr]
-金髪にウ○コみたいな髪型をした女生徒は訝しげにそう尋ねてきた。[plc]
+小一時間ほど無言で見つめ合った後、金髪にウ○コみたいな髪型をした女生徒は訝しげにそう尋ねてきた。[plc]
 
 [shownametag name="大樹" visible=true]「……」[plc]
 
 
-金髪に、巻き髪……ここ…公立、だよな？[lr]
-いや、私立でだって許されないと思うんだけど……。[plc]
+金髪に、巻き髪……ここ…公立、だよな？　いや、私立でだって許されないと思うんだけど……。[plc]
 
 [shownametag name="巻き髪" bust="naruse" visible=true]「……」[plc]
 
@@ -272,8 +251,7 @@
 [shownametag name="大樹" visible=true]「ぁ」[plc]
 
 
-いかんいかん。[lr]
-あまりの事（というか髪型）に絶句していた。[plc]
+いかんいかん、あまりの事（というか髪型）に絶句していた。[plc]
 
 
 [shownametag name="大樹" visible=true]「……２のC、谷口です」[plc]
@@ -284,14 +262,11 @@
 
 [shownametag name="巻き髪" bust="naruse" visible=true]「……谷口？」[plc]
 
+
 名乗ると、校則違反丸出しの巻き髪金髪女は訝しげな顔をした。[plc]
 
 
 [shownametag name="大樹" visible=true]「……？」[plc]
-
-
-[shownametag name="巻き髪" bust="naruse" visible=true]
-「んー…」[plc]
 
 
 なんだ？[plc]
@@ -309,7 +284,7 @@
 [shownametag name="巻き髪" bust="naruse" visible=true]「…よね。そうよね。うん」[plc]
 
 
-巻き髪はホッとしたように安堵の表情を見せて。[plc]
+そう言って、巻き髪はホッとしたように安堵の表情を見せて。[plc]
 
 
 [shownametag name="巻き髪" bust="naruse" visible=true]「まったく、驚かせないで欲しいわ」[plc]
@@ -324,8 +299,7 @@
 なんだ、コイツ？[plc]
 
 
-[shownametag name="巻き髪" bust="naruse" visible=true]
-「……で、どういう了見ですの？　私の御髪を引っ張ったりして」[plc]
+[shownametag name="巻き髪" bust="naruse" visible=true]「……で、どういう了見ですの？　私の御髪を引っ張ったりして」[plc]
 
 [shownametag name="大樹" visible=true]「……ぁ、いや」[plc]
 
@@ -336,8 +310,7 @@
 [shownametag name="巻き髪" bust="naruse" visible=true]「……」[plc]
 
 
-答えあぐねていると、[lr]
-巻き髪はジッと値踏みするように俺を上下に眺めた。[plc]
+答えあぐねていると、巻き髪はジッと値踏みするように俺を上下に眺めた。[plc]
 
 [shownametag name="巻き髪" bust="naruse" visible=true]「……あなた、谷口って。もしかして 谷口 大樹？」[plc]
 
@@ -348,35 +321,34 @@
 [shownametag name="巻き髪" bust="naruse" visible=true]「なるほどね」[plc]
 
 
-そう言って、[lr]
-『よく分かった』という顔でその女は立ち上がった。[plc]
+そう言って、『よく分かった』という顔でその女は立ち上がった。[plc]
 
 @fadebgm time="300" volume="0"
 @playse storage="sinzou1"
 [shownametag name="巻き髪" bust="naruse" visible=true]「……ってことは貴方、今日は来れたのね」[plc]
 
 
-[shownametag name="大樹" visible=true]「――っ」[plc]
+[shownametag name="大樹" visible=true]「ッ」[plc]
 
 
 時が、止まったかと思った。[plc]
 
 
+な、なんで知って……。[plc]
+
+
 [shownametag name="巻き髪" bust="naruse" visible=true]「結構、有名ですわよ」[plc]
 
 
-俺が何か言うより先に、[r]
-先回りするようにそう言う。[plc]
+俺が何か言うより先に、先回りするようにそう言う。[plc]
 
 
 [shownametag name="大樹" visible=true]「……」[plc]
 
 
-そう……なのか。[lr]
-不登校とか、もっとポピュラーなもんかと思ってたけど。[plc]
+そう……なのか。不登校とか、もっとポピュラーなもんかと思ってたけど。[plc]
 
-じゃぁ、俺、学校うろつくと。[lr]
-結構、バレバレなのか。[plc]
+じゃぁ、俺、学校うろつくと。結構、バレバレなのか。[plc]
 
 
 [shownametag name="大樹" visible=true]「……」[plc]
@@ -385,8 +357,7 @@
 [shownametag name="巻き髪" bust="naruse" visible=true]「ふふ」[plc]
 
 
-俺の顔に何を思ったのか、[lr]
-巻き髪は急に笑顔になった。[plc]
+俺の顔に何を思ったのか、巻き髪は急に笑顔になった。[plc]
 
 
 [shownametag name="巻き髪" bust="naruse" visible=true]「ほほほ、冗談冗談！」[plc]
@@ -404,9 +375,7 @@
 そう言って、豪快に笑って。[plc]
 
 
-[shownametag name="巻き髪" bust="naruse" visible=true]
-「落ち込まない落ち込まない。[lr]
-せっかく来たんじゃありませんの！」[plc]
+[shownametag name="巻き髪" bust="naruse" visible=true]「落ち込まない落ち込まない。せっかく来たんじゃありませんの！」[plc]
 
 バシバシと、背中を叩いてくる。[plc]
 
@@ -447,15 +416,12 @@
 ……あぁ、くそ。ほんとに似てやがる。[plc]
 
 
-[shownametag name="巻き髪" bust="naruse" visible=true]
-「ほっほっほ、私と似てらっしゃるなんて。[lr]
-それはそれは『素敵な』先輩なんでしょうねぇ」[plc]
+[shownametag name="巻き髪" bust="naruse" visible=true]「ほっほっほ、私と似てらっしゃるなんて。それはそれは『素敵な』先輩なんでしょうねぇ」[plc]
 
 [shownametag name="大樹" visible=true]「……」[plc]
 
 
-『素敵な』をやたらと強調してくるが。[lr]
-……ま、否定はしないよ。[plc]
+『素敵な』をやたらと強調してくるが……ま、否定はしないよ。[plc]
 
 
 
@@ -471,12 +437,10 @@
 いつの間にか、チャイムが鳴っていた。[plc]
 @fadeoutse time="500"
 
-[shownametag name="巻き髪" bust="naruse" visible=true]
-「あら？　肝心な事を聞いてませんけれど……まぁいいわ」[plc]
+[shownametag name="巻き髪" bust="naruse" visible=true]「あら？　肝心な事を聞いてませんけれど……まぁいいわ」[plc]
 
 
-[shownametag name="巻き髪" bust="naruse" visible=true]
-「谷口 大樹 君！」[plc]
+[shownametag name="巻き髪" bust="naruse" visible=true]「谷口 大樹 君！」[plc]
 
 
 [shownametag name="大樹" visible=true]「！？」[plc]
@@ -485,8 +449,7 @@
 急に、巻き髪は命令するような口調になった。[plc]
 
 
-[shownametag name="成瀬" visible=true]
-「３のE 成瀬 なるみ。　この学校の、女王になる女ですわ！」[plc]
+[shownametag name="成瀬" visible=true]「３のE 成瀬 なるみ。　この学校の、女王になる女ですわ！」[plc]
 
 そう言って、胸を張って。[plc]
 
@@ -494,16 +457,13 @@
 [shownametag name="大樹" visible=true]「女、女王……？」[plc]
 
 
-まともなのかと一瞬思ったけど、[lr]
-やっぱ頭おかしいだろこの女。[plc]
+まともなのかと一瞬思ったけど、やっぱ頭おかしいだろこの女。[plc]
 
 
-[shownametag name="成瀬" visible=true]
-「女王、女王ですわ……女王には、色々と責務がありますの」[plc]
+[shownametag name="成瀬" visible=true]「女王、女王ですわ……女王には、色々と責務がありますの」[plc]
 
 
-[shownametag name="成瀬" visible=true]
-「迷える子羊を導くのも。その一つ」[plc]
+[shownametag name="成瀬" visible=true]「迷える子羊を導くのも。その一つ」[plc]
 
 
 [shownametag name="大樹" visible=true]「……」[plc]
@@ -512,8 +472,7 @@
 はぁ？[plc]
 
 
-[shownametag name="成瀬" visible=true]
-「３のE……何かあったら、お尋ねなさい」[plc]
+[shownametag name="成瀬" visible=true]「３のE……何かあったら、お尋ねなさい」[plc]
 
 
 そう言って、颯爽と背を向けて。[plc]
@@ -531,18 +490,15 @@
 [shownametag name="大樹" visible=true]「へ？」[plc]
 
 
-[shownametag name="成瀬" visible=true]
-「そんな顔で見るのやめて下さる？　これは、地毛ですわ」[plc]
+[shownametag name="成瀬" visible=true]「そんな顔で見るのやめて下さる？　これは、地毛ですわ」[plc]
 
 @dis_all_chara_fade
-そのまま、『おサボリは１限までがこの学校の伝統ですわよ』[r]
-と立ち去って行く。[plc]
+そのまま、『おサボリは１限までがこの学校の伝統ですわよ』と立ち去って行く。[plc]
 
 [shownametag name="大樹" visible=true]「……」[plc]
 
 
-[shownametag name="大樹" visible=true]
-「……何が地毛だよ。めっちゃブリーチ色じゃん」[plc]
+[shownametag name="大樹" visible=true]「……何が地毛だよ。めっちゃブリーチ色じゃん」[plc]
 
 
 ……どうも、俺は心配されたらしい。[plc]
