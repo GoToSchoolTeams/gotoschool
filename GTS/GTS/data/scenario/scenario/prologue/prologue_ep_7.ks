@@ -1,26 +1,27 @@
 [SetupMessageWindow]
 
-@fadeinbgm storage="daily1 bgm"
-@strans storage="roji_dt"
+
+;@strans storage="roji_dt"
 
 [playse storage="hit_p09"]
 [quake hmax="50" vmax="50" time="500"]
 [strans storage="black" method="universal" rule="216" time="150"]
 [strans storage="sky003_day" method="universal" rule="216" time="150"]
-――――――ガッ！！！！！！！[plc]
+;――――――ガッ！！！！！！！[plc]
+
+[shownametag name="大樹" visible=true]
+「※％＆”＃＄％＆’＠＊！！！？」[plc]
 
 
-
-
-空が見えた。グーだった。[plc]
+空が見えた。[lr]
+それはとても爽やかな…[l]…グーパンチだった。
+@fadeinbgm storage="daily1 bgm" time="800"
+[plc]
 
 
 ;[ドンガラガッシャン 的なSE。つか、ここは演出過多にしたほうが良いかも]
 
 
-
-[shownametag name="大樹" visible=true]
-「――――ッッ！！？」[plc]
 
 [strans storage="black" method="universal" rule="216" time="150"]
 [strans storage="roji_dt" method="universal" rule="216" time="150"]
@@ -80,7 +81,7 @@
 「まぁ、これで許してあげるよ」[plc]
 
 
-そう言うと、先輩は満足気に頷く。[plc]
+そう言って、先輩は茶目っ気たっぷりに頷いて。[plc]
 
 
 [shownametag name="大樹" visible=true]
@@ -117,7 +118,8 @@
 「何？」[plc]
 
 
-どうしてこの女、図々しくも俺のチャリの後部席に乗ってやがるんだ？[plc]
+どうしてこの女、[lr]
+図々しくも俺のチャリの後部席に乗ってやがるんだ？[plc]
 
 [shownametag name="大樹" visible=true]
 「退いてくれないと、行けないんですけど」[plc]
@@ -152,10 +154,13 @@
 ぼ、暴力には弱いんだよぉっ！！！[plc]
 
 [shownametag name="大樹" visible=true]
-「な、なんすか。もぅ……さ、さっきので許してくれたんじゃないんすか？」[plc]
+「な、なんすか。もぅ……。[lr]
+さ、さっきので許してくれたんじゃないんすか？」[plc]
+
 
 [showstandimage who=haruka pose=1 face=magao size=l]
-殆どすがるようにそう言うと、先輩はちょっと考えこむような仕草を取り。[plc]
+殆どすがるようにそう言うと、[lr]
+先輩はちょっと考えこむような仕草を取り。[plc]
 
 [showstandimage who=haruka pose=1 face=niyaniya size=l]
 [shownametag name="先輩" visible=true]
@@ -166,7 +171,8 @@
 
 
 [shownametag name="先輩" visible=true]
-「そうだねぇ、どうしてこんな時間にこんな所に居るのかなぁ……と思って」[plc]
+「そうだねぇ、そうしても良いけど。でも、[lr]
+どうしてこんな時間にこんな所に居るのかなぁ……と思って」[plc]
 
 [shownametag name="大樹" visible=true]
 「うっ」[plc]
@@ -249,7 +255,8 @@
 
 
 [shownametag name="大樹" visible=true]
-「機会が有れば、マジで菓子折り持って謝りに行きますんで。お互い学校云々も有りますし……もう良いですか？」[plc]
+「機会が有れば、マジで菓子折り持って謝りに行きますんで。[lr]
+お互い学校云々も有りますし……もう良いですか？」[plc]
 
 [dis_all_chara]
 ひと悶着の間に、もう町は動き出していた。[lr]
@@ -288,7 +295,8 @@
 
 
 [shownametag name="先輩" visible=true]
-「んで、優しくて美人で、スタイル抜群の先輩としては迎えに行ってあげようかなーってなって、その娘のお家まで行ってたの」[plc]
+「んで、優しくて美人で、スタイル抜群の先輩としては[lr]
+迎えに行ってあげようかなーって、その娘のお家まで行ってたの」[plc]
 
 [showstandimage who=haruka pose=1 face=raku size=l]
 [shownametag name="先輩" visible=true]
@@ -298,7 +306,9 @@
 [shownametag name="大樹" visible=true]
 「は、はぁ」[plc]
 
-『分かった？』とウィンクなんかしてくるが、だからなんだと言うんだ。頭がおかしいのか、この女？[plc]
+
+『分かった？』とウィンクなんかしてくるが、[lr]
+だからなんだと言うんだ。頭がおかしいのか、この女？[plc]
 
 [showstandimage who=haruka pose=1 face=ki]
 [shownametag name="先輩" visible=true]
@@ -387,8 +397,8 @@
 [shownametag name="大樹" visible=true]
 「……」[plc]
 
-
-あぁ、もう！　ぁあぁああああ、もうっ！！！[plc]
+あぁ、もう！[r]
+ぁあぁああああ、もうっ！！！[plc]
 
 [showstandimage who=haruka pose=1 face=niyaniya size=l]
 [shownametag name="先輩" visible=true]
@@ -426,9 +436,13 @@
 
 
 [shownametag name="先輩" visible=true]
-「貧弱、貧弱ゥッ……って、やってる場合じゃないよ！　めっちゃ追いつかれそうだよっ！！！！？」[plc]
+「貧弱、貧弱ゥッ……って、やってる場合じゃないよ！[lr]
+めっちゃ追いつかれそうだよっ！！！！？」[plc]
 
-青春の一ページに『補導』の項目が追加されそうなのは、もう殆ど明らかだったけど。[plc]
+
+青春の一ページに『補導』の項目が追加されそうなのは、[lr]
+もう殆ど明らかだったけど。[plc]
+
 
 
 ;[→顔面おろしはロリの味]
