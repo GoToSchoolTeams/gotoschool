@@ -35,9 +35,11 @@
 『えー、本日は７限目のかわりに、全校集会を行います』[plc]
 
 [strans storage="_taiikukan"]
-額が後退し始めた教頭が喋り始める。が、かわりもクソも今日は本当は６限だ。[plc]
+額が後退し始めた教頭が喋り始める。[lr]
+が、かわりもクソも今日は本当は６限だ。[plc]
 
-[shownametag name="大樹" visible=true]「死ねよ」[plc]
+[shownametag name="大樹" visible=true]
+「死ねよ」[plc]
 
 
 呪いを込めてそう呟いたが、意外と俺以外の生徒は乗り気で。[lr]
@@ -45,29 +47,39 @@
 
 
 [fadeinse storage="ambientA@08" time="1000"]
-[shownametag name="男子生徒A" visible=true]「うぉー、楽しみだよなぁ。今日で決まるのかー！」[plc]
+[shownametag name="男子生徒A" visible=true]
+「うぉー、楽しみだよなぁ。今日で決まるのかー！」[plc]
 
 
-[shownametag name="男子生徒B" visible=true]「馬鹿、もうやり合うメンツは決まってるんだよ。今日は単なる中間発表」[plc]
+[shownametag name="男子生徒B" visible=true]
+「馬鹿、もうやり合うメンツは決まってるんだよ。[lr]
+今日は単なる中間発表」[plc]
 
-[shownametag name="男子生徒A" visible=true]「どーせ俺らには分かってねーんだから一緒だろうが」[plc]
-
-
-[shownametag name="男子生徒B" visible=true]「ま、確かに」[plc]
-
-
-[shownametag name="バスケ好きの男子" visible=true]「そんな事よりバスケしようぜ！」[plc]
+[shownametag name="男子生徒A" visible=true]
+「どーせ俺らには分かってねーんだから一緒だろうが」[plc]
 
 
-[shownametag name="男子A" visible=true]「誰になるかな？」[plc]
+[shownametag name="男子生徒B" visible=true]
+「ま、確かに」[plc]
+
+
+[shownametag name="バスケ好きの男子" visible=true]
+「そんな事よりバスケしようぜ！」[plc]
+
+
+[shownametag name="男子A" visible=true]
+「誰になるかな？」[plc]
 
 
 [shownametag name="男子B" visible=true]「んー、こればっかりは始まってみねぇとなぁ……」[plc]
 
 
-[shownametag name="バスケ" visible=true]「なぁなぁ、聞いてくれよ！　俺さ、島行ったんだよ島！！お姉ちゃんとこ訪ねてさ。そんでさ、そこさ。可愛い女の子が一杯いてさ。んで、その学校この学校の分校だったんだぜ！」[plc]
+[shownametag name="バスケ" visible=true]
+「なぁなぁ、聞いてくれよ！　俺さ、島行ったんだよ島！！お姉ちゃんとこ訪ねてさ。そんでさ、そこさ。可愛い女の子が一杯いてさ。んで、その学校この学校の分校だったんだぜ！」[plc]
 
-[shownametag name="男子A" visible=true]「はいはい、分かった分かった。お前何べんその話すりゃ気が済むわけ？」[plc]
+[shownametag name="男子A" visible=true]
+「はいはい、分かった分かった。[lr]
+お前何べんその話すりゃ気が済むわけ？」[plc]
 
 [shownametag name="男子B" visible=true]「ま、順当にハルカ様だろ」[plc]
 
@@ -75,7 +87,9 @@
 [shownametag name="男子A" visible=true]「当然だな」[plc]
 
 
-[shownametag name="バスケ" visible=true]「聞けよ！　俺の一夏のアバンチュールッ！！　ウチの分校の話だぞっ！！！　せめて、バスケさせてくれっ！！！！」[plc]
+[shownametag name="バスケ" visible=true]
+「聞けよ！　俺の一夏のアバンチュールッ！！
+ウチの分校の話だぞっ！！！　せめて、バスケさせてくれっ！！」[plc]
 
 [shownametag name="男子A" visible=true]「放課後まで待てよ」[plc]
 
@@ -92,7 +106,8 @@
 俺にはさっぱりだ。[plc]
 
 [showstandimage who=gaia pose=1 face=normal]
-[shownametag name="ガイア" visible=true]「ふっ、この状況……わけが分からんという顔をしているな」[plc]
+[shownametag name="ガイア" visible=true]
+「ふっ、この状況……わけが分からんという顔をしているな」[plc]
 
 呼ばれてもいないのにわざわざ出て来るな。[plc]
 
@@ -103,7 +118,8 @@
 [shownametag name="ガイア" visible=true]「ははは、」[plc]
 
 
-こいつは、自分の存在自体が他人を不愉快にさせているということを、ちゃんと理解しているのだろうか？[plc]
+自分の存在自体が他人を不愉快にさせているということを、[lr]
+コイツはちゃんと理解しているのだろうか？[plc]
 
 [shownametag name="ガイア" visible=true]「はっはっはっはっは」[plc]
 
@@ -111,7 +127,8 @@
 してないだろうな。[plc]
 
 [showstandimage who=gaia pose=1 face=kangaeru]
-[shownametag name="ガイア" visible=true]「手厳しいな、兄弟。俺は兄弟が望む情報を持っているぞ」[plc]
+[shownametag name="ガイア" visible=true]
+「手厳しいな、兄弟。俺は兄弟が望む情報を持っているぞ」[plc]
 
 
 [shownametag name="大樹" visible=true]「黙れ」[plc]
@@ -123,26 +140,37 @@
 話聞けよコイツ。[plc]
 
 [showstandimage who=gaia pose=1 face=kangaeru]
-[shownametag name="ガイア" visible=true]「兄弟が居なかった間に、生徒会選挙が始まったのは知っていたか？」[plc]
+[shownametag name="ガイア" visible=true]
+「兄弟が居なかった間に、[lr]
+生徒会選挙が始まったのは知っているか？」[plc]
 
 [shownametag name="大樹" visible=true]「……」[plc]
 
 
-知らん……ってか、この学校この時期にそんな事をしてたのか。[plc]
+
+知らん……ってか、[lr]
+この学校この時期にそんな事をしてたのか。[plc]
+
 
 
 普通、前年の冬とかにやるんじゃないのか？[plc]
 
 [showstandimage who=gaia pose=1 face=normal]
-[shownametag name="ガイヤ" visible=true]「ふふ、そこはまぁ色々と思惑があるのだろう」[plc]
+[shownametag name="ガイヤ" visible=true]
+「ふふ、そこはまぁ色々と思惑があるのだろう」[plc]
 
 
 勝手に心を読むんじゃない。[plc]
 
 [showstandimage who=gaia pose=1 face=kangaeru]
-[shownametag name="ガイヤ" visible=true]「ここの学校の選挙は変わっていてな。全体投票で会長候補を二人に絞ってから、他の役員共々決戦投票する」[plc]
+[shownametag name="ガイヤ" visible=true]
+「ここの学校の選挙は変わっていてな。全体投票で会長候補を[r]
+二人に絞ってから、他の役員共々決戦投票する」[plc]
 
-[shownametag name="ガイア" visible=true]「既に全体投票は終わったから、今日は残りの役員候補の発表日というわけだ」[plc]
+
+[shownametag name="ガイア" visible=true]
+「既に全体投票は終わったから、[lr]
+今日は残りの役員候補の発表日というわけだ」[plc]
 
 そう言って、自信満々にガイアは鼻を鳴らした。[plc]
 
@@ -159,7 +187,8 @@
 [shownametag name="大樹" visible=true]「もう満足か？」[plc]
 
 [showstandimage who=gaia pose=1 face=normal]
-[shownametag name="ガイア" visible=true]「ふふ、兄弟も疑問に思っているようだな。それにしちゃちょっと生徒の熱気が高すぎる。単に『候補』の発表なのにな」[plc]
+[shownametag name="ガイア" visible=true]
+「ふふ、兄弟も疑問に思っているようだな。それにしちゃちょっと生徒の熱気が高すぎる。単に『候補』の発表なのにな」[plc]
 
 [showstandimage who=gaia pose=1 face=kangaeru]
 [shownametag name="ガイア" visible=true]「不思議だとは思わんかね？」[plc]
@@ -171,7 +200,8 @@
 殺したろか。[plc]
 
 [showstandimage who=gaia pose=1 face=serious]
-[shownametag name="ガイヤ" visible=true]「実はな、この学校の生徒会選挙。一応、役員も投票で決めるような形を取っているが、実質は会長が独断で委任するんだ」[plc]
+[shownametag name="ガイヤ" visible=true]
+「実はな、この学校の生徒会選挙。一応、役員も投票で決めるような形を取っているが、実質は会長が独断で委任するんだ」[plc]
 
 [shownametag name="大樹" visible=true]「なぁ、頼むから今すぐハム工場に――」[plc]
 
@@ -197,9 +227,13 @@
 俺の思考の先を行くように、ガイアは嬉しそうに続けた。[plc]
 
 [showstandimage who=gaia pose=1 face=normal]
-[shownametag name="ガイア" visible=true]「生徒会長自体は、全校生徒の選挙で決められるが、そっからはほぼ会長の独裁が出来るんだよこの学校の生徒会は」[plc]
+[shownametag name="ガイア" visible=true]
+「生徒会長自体は、全校生徒の選挙で決められるが、[lr]
+そっからはほぼ会長の独裁が出来るんだよこの学校の生徒会は」[plc]
 
-[shownametag name="ガイア" visible=true]「勿論、風紀だとか図書だとかの委員会の任命権も持ってる……ここじゃ単なる下部組織だからな」[plc]
+[shownametag name="ガイア" visible=true]
+「勿論、風紀だとか図書だとかの委員会の任命権も持ってる。[lr]
+……ここじゃ単なる下部組織だからな」[plc]
 
 [shownametag name="大樹" visible=true]「……ふーん」[plc]
 
@@ -207,17 +241,25 @@
 そいつはすげぇな。確かに。[plc]
 
 
-[shownametag name="大樹" visible=true]「でも、周りの連中に関係ないだろ？」[plc]
+[shownametag name="大樹" visible=true]
+「でも、周りの連中に関係ないだろ？」[plc]
 
 [showstandimage who=gaia pose=1 face=kangaeru]
-[shownametag name="ガイヤ" visible=true]「わかっとらんな兄弟。権力が云々以前に、この学校の生徒会選挙はお祭りみたいなものだ」[plc]
+[shownametag name="ガイヤ" visible=true]
+「わかっとらんな兄弟。権力が云々以前に、[lr]
+この学校の生徒会選挙はお祭りみたいなものだ」[plc]
 
-[shownametag name="ガイヤ" visible=true]「わざわざ会長候補を二人立ててから役員候補を発表させるような選挙だぞ？」[plc]
+[shownametag name="ガイヤ" visible=true]
+「わざわざ会長候補を二人立ててから[r]
+役員候補を発表させるような選挙だぞ？」[plc]
 
-[shownametag name="ガイヤ" visible=true]「当然、今後の選挙活動はチーム戦になって、ガチンコでやり合う事になる」[plc]
+[shownametag name="ガイヤ" visible=true]
+「当然、今後の選挙活動はチーム戦になって、[lr]
+ガチンコでやり合う事になる」[plc]
 
 [showstandimage who=gaia pose=1 face=normal]
-[shownametag name="ガイヤ" visible=true]「待ちに待った対戦カードの発表に、みんな喜んでるのさ」[plc]
+[shownametag name="ガイヤ" visible=true]
+「待ちに待った対戦カードの発表に、みんな喜んでるのさ」[plc]
 
 
 [shownametag name="大樹" visible=true]「……なるほど」[plc]
@@ -233,23 +275,33 @@
 が、それにしちゃ……。[plc]
 
 [showstandimage who=gaia pose=1 face=kangaeru]
-[shownametag name="ガイア" visible=true]「……そう、女子がやたらと大人しいよな。あっちを見てみろ、兄弟」[plc]
+[shownametag name="ガイア" visible=true]
+「……そう、女子がやたらと大人しいよな。[lr]
+あっちを見てみろ、兄弟」[plc]
 
 [strans storage="taiikukan_right"]
-思考を読まれた様で不愉快だったが、見てみると、何処か思いつめた様な顔で祈るように手を合わせてる女子が居る。[plc]
+思考を読まれた様で不愉快だったが、見てみると、[lr]
+何処か思いつめた様な顔で祈るように手を合わせてる女子が居る。[plc]
 
 それも、一人、二人……結構いるな。[lr]
 おいおい、あいつ震えてんぞ。[plc]
 
 [strans storage="_taiikukan"]
 [showstandimage who=gaia pose=1 face=normal]
-[shownametag name="ガイア" visible=true]「ふ、可愛いものだろう？　役員候補に選ばれるのは、女子だからな」[plc]
+[shownametag name="ガイア" visible=true]
+「ふ、可愛いものだろう？[lr]
+役員候補に選ばれるのは、女子だからな」[plc]
 
-[shownametag name="大樹" visible=true]「それで期待して祈ってるってか？　馬鹿か。そんなもん、身内で事前に固めてるに決まってるだろ」[plc]
+[shownametag name="大樹" visible=true]
+「それで期待して祈ってるってか？[lr]
+馬鹿か。そんなもん、身内で事前に固めてるに決まってるだろ」[plc]
 
-[shownametag name="ガイア" visible=true]「そりゃそうだ。だが、『絶対に有り得ないわけじゃない』ってなると、期待してしまうのが人情ってもんだろ」[plc]
+[shownametag name="ガイア" visible=true]
+「そりゃそうだ。だが、『絶対に有り得ないわけじゃない』[lr]
+ってなると、期待してしまうのが人情ってもんだろ」[plc]
 
-[shownametag name="大樹" visible=true]「そーかい」[plc]
+[shownametag name="大樹" visible=true]
+「そーかい」[plc]
 
 [strans storage="taiikukan_right"]
 答えて。[lr]
@@ -260,28 +312,40 @@
 
 [strans storage="_taiikukan"]
 [showstandimage who=gaia pose=1 face=normal]
-[shownametag name="ガイア" visible=true]「ここの生徒会の権力は絶大だ。それに、男子の俺達には分からんが、女子にとってこの『旗立』の生徒会役員ってのは物凄いステータスらしいからな」[plc]
+[shownametag name="ガイア" visible=true]
+「ここの生徒会の権力は絶大だ」[plc]
 
-[shownametag name="大樹" visible=true]「あぁ、そう」[plc]
+[shownametag name="ガイア" visible=true]
+「それに、男子の俺達には分からんが、女子にとってこの『旗立』の生徒会役員ってのは物凄いステータスらしいからな」[plc]
+
+[shownametag name="大樹" visible=true]
+「あぁ、そう」[plc]
 
 
 どちらにしろ、馬鹿には変わりない。[plc]
 
 [showstandimage who=gaia pose=1 face=kangaeru]
-[shownametag name="ガイア" visible=true]「それになぁ、下馬評で会長当選確実って言われてるハルカ様は、かなりの破天荒で。今年はガチで勝手に決めてるって噂だ」[plc]
+[shownametag name="ガイア" visible=true]
+「それになぁ、下馬評で会長当選確実って言われてるハルカ様は、かなりの破天荒で。今年はガチで勝手に決めてるって噂だ」[plc]
 
-[shownametag name="ガイア" visible=true]「『何かの間違い』に対する期待もひとしおなんだろう。女子であれば、選ばれる可能性が無いとは言い切れないからな」[plc]
+[shownametag name="ガイア" visible=true]
+「『何かの間違い』に対する期待もひとしおなんだろう。[lr]
+女子であれば、選ばれる可能性が無いとは言い切れないからな」[plc]
+
 
 [showstandimage who=gaia pose=1 face=normal]
-[shownametag name="ガイア" visible=true]「まぁ、どちらにせよ男子である俺達には関係の無い事だがな」[plc]
+[shownametag name="ガイア" visible=true]
+「まぁ、どちらにせよ男子である俺達には関係の無い事だがな」[plc]
 
 [shownametag name="大樹" visible=true]「……そうかよ」[plc]
 
 [showstandimage who=gaia pose=1 face=egao]
-[shownametag name="ガイア" visible=true]「だから、ま、俺達はお祭りとして楽しむとしようじゃないか」[plc]
+[shownametag name="ガイア" visible=true]
+「だから、ま、俺達はお祭りとして楽しむとしようじゃないか」[plc]
 
 [dis_all_chara_fade]
-そんな風に言いたい事を言うだけ言って、ガイアは引っ込んだ。[plc]
+そんな風に言いたい事を言うだけ言って、[lr]
+ガイアは引っ込んだ。[plc]
 
 
 [shownametag name="大樹" visible=true]「……」[plc]
@@ -301,7 +365,9 @@
 [shownametag name="生徒Ｂ" visible=true]「ワクワクするぜ！」[plc]
 
 [fadeoutse time="500"]
-伸びて間の抜けた様なマイク越しの教頭の声に、体育館内の熱気が更に増す。[plc]
+伸びて間の抜けた様なマイク越しの教頭の声に、[lr]
+体育館内の熱気が更に増す。[plc]
+
 
 
 『えー、ではまず、総務――』[plc]
@@ -323,7 +389,12 @@
 それらを見ていると、どうも出来レースに思えない。[plc]
 
 
-確かにその殆どが元々生徒会に所属していた連中の様だったが、感激して泣き出す奴まで居る始末で、ガイアの言ってた今年はガチってのはあながち間違いじゃないかもしれない。[plc]
+
+確かにその殆どが元々生徒会に所属していた連中の様だったが、[lr]
+感激して泣き出す奴まで居る始末で。[plc]
+
+ガイアの言ってた今年はガチってのは、[lr]
+あながち間違いじゃないかもしれない。[plc]
 
 @playse storage="sinzou1"
 [shownametag name="大樹" visible=true]「……」[plc]
@@ -382,7 +453,8 @@
 会計ということは、役員だ。[lr]
 役員って事は、部下を持つ責任者だ。[plc]
 
-それを入学してきたばっかりの一年に任せるなんて、ハルカ様ってのの破天荒ぶりもかなりのもんだ。[plc]
+それを入学してきたばっかりの一年に任せるなんて、[lr]
+ハルカ様ってのの破天荒ぶりもかなりのもんだ。[plc]
 
 [shownametag name="大樹" visible=true]「何だか、ほんとに楽しくなって――」[plc]
 
@@ -397,15 +469,19 @@
 思わず吹き出してしまう。[plc]
 
 
-え？　あの小娘？　あの顔面おろし娘が役員っ！！？[plc]
+え？　あの小娘？[lr]
+あの顔面おろし娘が役員っ！！？[plc]
 
 ;[showstandimage who=satori pose=1 face=naki size=s]
-[shownametag name="悟" visible=true]「す、すみません。遅れて、遅刻しまして、あの、すみませんすみません！！」[plc]
+[shownametag name="悟" visible=true]
+「す、すみません。遅れて、遅刻しまして、[lr]
+あの、すみませんすみません！！」[plc]
 
 『ぁー、新会計候補さん。謝罪は良いので、抱負とかを――』[plc]
 
 
-[shownametag name="悟" visible=true]「ごめんなさい！　すみません！！」[plc]
+[shownametag name="悟" visible=true]
+「ごめんなさい！　すみません！！」[plc]
 ;[dis_all_chara_fade]
 
 そのまま、謝罪娘は壇上から降りていった。[plc]
@@ -441,14 +517,17 @@
 
 唖然とする会場を他所に、俺は笑いを堪えるので必死だ。[plc]
 
-
 何だ。こんな小さな事で楽しめる。[lr]
-笑っちまう。楽しい事は転がってたのに、閉ざしてたのは自分だ。[plc]
+笑っちまう。[plc]
+
+楽しい事は転がってたのに、閉ざしてたのは自分だ。[plc]
+
 
 ちょっと、ちょっとだけと、試しに来てみた学校。[lr]
 でも、何だか少しだけ、あの気持ちを思い出せそうで。[plc]
 
-[shownametag name="大樹" visible=true]「こりゃ、ほんとに少しくらいは、学校が楽しく――」[plc]
+[shownametag name="大樹" visible=true]
+「こりゃ、ほんとに少しくらいは、学校が楽しく――」[plc]
 
 
 言いかけて、[plc]
@@ -469,13 +548,17 @@
 
 [shownametag name="縁" visible=true]「――はい」[plc]
 
-だがそれに臆した様子もなく、凛と、鈴の様な声を鳴らして、彼女は立ち上がった。[plc]
+
+だがそれに臆した様子もなく、凛と、鈴の様な声を鳴らして、[lr]
+彼女は立ち上がった。[plc]
+
 
 [fadebgm volume="100" time="1000"]
 列を抜けて……俺の横を抜けて……壇上へと向かっていく。[lr]
 こちらなど、振り返ろうともしない。[plc]
 
-気品さえ感じるその凛々しさに、俺は――。[plc]
+気品さえ感じるその凛々しさに、[lr]
+俺は――。[plc]
 
 
 [shownametag name="大樹" visible=true]「…………ｸｿｯ」[plc]
@@ -497,9 +580,11 @@
 女子の数が圧倒的に多い。[plc]
 
 [fadeoutse time="3000"]
-そんな中で女子に人気があるというのは、ほぼ全校生徒全てを掌握したに等しい。[plc]
+そんな中で女子に人気があるというのは、[lr]
+ほぼ全校生徒全てを掌握したに等しい。[plc]
 
-会長に成っていないのも、単に学年の所為にしか思えなかった。[plc]
+会長に成っていないのも、[lr]
+単に学年の所為にしか思えなかった。[plc]
 
 
 いや、そんな事はどうでもいい。[plc]
@@ -508,10 +593,13 @@
 『えー、では一言、抱負などをお願いします』[plc]
 
 ;[showstandimage who=najimi pose=1 face=raku size=s]
-[shownametag name="縁" visible=true]「分かりました。……まずは皆さん、私を選んでくれてありがとう。私は――」[plc]
+[shownametag name="縁" visible=true]
+「分かりました。……まずは皆さん、[lr]
+私を選んでくれてありがとう。私は――」[plc]
 
 [strans storage="_taiikukan"]
-こいつが、コイツが『副会長』ってのが気に入らない。[plc]
+こいつが、[lr]
+コイツが『副会長』ってのが気に入らない。[plc]
 
 
 この女が上に立てるような人間か？[lr]
@@ -519,7 +607,8 @@
 
 急速に、冷めていく自分を感じた。[plc]
 
-[shownametag name="大樹" visible=true]「……会長でなかっただけマシか」[plc]
+[shownametag name="大樹" visible=true]
+「……会長でなかっただけマシか」[plc]
 
 
 ……来年は最悪だな。[plc]
@@ -528,7 +617,8 @@
 [shownametag name="ガイア" visible=true]「ん、どうした兄弟？」[plc]
 
 
-俺が壇上とは真逆に振り向いたのに気が付いたのか、ガイアが呼びかけてくる。[plc]
+俺が壇上に背を向けたのに気が付いたのか、[lr]
+ガイアが呼びかけてくる。[plc]
 
 ほんとに、コイツはうぜぇ奴だな。[plc]
 
@@ -607,10 +697,12 @@
 
 [strans storage="senpai_hurikaeri"]
 ;[showstandimage pose=1 face=ki who=haruka size=s]
-[shownametag name="先輩" visible=true]「おーっし！　今日は来てた居たみたいだね、偉い偉い！」[plc]
+[shownametag name="先輩" visible=true]
+「おーっし！　今日は来てた居たみたいだね、偉い偉い！」[plc]
 
 ;[showstandimage pose=1 face=niyaniya who=haruka size=s]
-[shownametag name="先輩" visible=true]「でも、途中退席はいけないなぁ」[plc]
+[shownametag name="先輩" visible=true]
+「でも、途中退席はいけないなぁ」[plc]
 
 
 からかう様に笑うその声は、[lr]
@@ -634,10 +726,13 @@
 [shownametag name="先輩" visible=true]「ぉ……」[plc]
 
 
-体育館全体の目線が自分に集中していることに気づいたのか、先輩は芝居ががった調子で胸を張り、ピッと額に指をあて、言った。[plc]
+体育館全体の目線が自分に集中していることに気づいたのか、[lr]
+先輩は芝居ががった調子で胸を張り、ピッと額に指をあて、言った。[plc]
 
 ;[showstandimage pose=1 who=haruka face=raku size=s]
-[shownametag name="先輩" visible=true]「おっと、みなさま失礼しました！　この度、旗立高校第１０１代目の会長に立候補致しました――」[plc]
+[shownametag name="先輩" visible=true]
+「おっと、みなさま失礼しました！
+この度、旗立高校第１０１代目の会長に立候補致しました――」[plc]
 
 ;[showstandimage pose=1 who=haruka face=ki size=s]
 [shownametag name="遥香" visible=true]「――　恋ヶ旗　遥香です！　よろしくぅ！！」[plc]
@@ -661,18 +756,21 @@
 
 ;[デカ字で]
 [showstandimage who=orutega pose=1 face=odoroki size=l]
-[shownametag name="オルテガ" visible=true]「[font size=50]は、ハルカたんナイス巨乳ナリィイイイイイイイイイイッ！！！！！！！[font size=32]」[plc]
+[shownametag name="オルテガ" visible=true]
+「[font size=50]は、ハルカたんナイス巨乳ナリィイイイイイイイイイイッ！！！！！！！[font size=32]」[plc]
 
 [showstandimage who=mash pose=1 face=odoroki size=l]
-[shownametag name="マッシュ" visible=true]「[font size=50]せ、拙者。ハルカ殿の体を天下統一したいでござる！[font size=32]」[plc]
+[shownametag name="マッシュ" visible=true]
+「[font size=50]せ、拙者。ハルカ殿の体を天下統一したいでござる！[font size=32]」[plc]
 
 [dis_all_chara_fade]
 気づけば、豚二匹もブヒブヒ鳴いている。[lr]
-オルテガに至っては、唖然としてこちらを見つめている始末。[plc]
+ガイアに至っては、唖然としてこちらを見つめている始末。[plc]
 
 [strans storage="senpai_hurikaeri"]
 ;[showstandimage pose=1 who=haruka face=ki size=s]
-[shownametag name="遥香" visible=true]「さて、じゃぁ、最後の役員候補の発表に移らせて貰おうかな」[plc]
+[shownametag name="遥香" visible=true]
+「さて、じゃぁ、最後の役員候補の発表に移らせて貰おうかな」[plc]
 
 『こら、勝手に――』[plc]
 
@@ -680,22 +778,26 @@
 [shownametag name="遥香" visible=true]「はい、松っちゃんうるさいよぉ」[plc]
 
 
-先輩がそう言って指を鳴らすと、仕込んでいたのか教頭のマイクの電源が勝手に落ちた。[plc]
+先輩がそう言って指を鳴らすと、[lr]
+仕込んでいたのか教頭のマイクの電源が勝手に落ちた。[plc]
 
 ;[showstandimage pose=1 who=haruka face=raku size=s]
-[shownametag name="遥香" visible=true]「旗立高校第１０１代、書記、最後の候補は――」[plc]
+[shownametag name="遥香" visible=true]
+「旗立高校第１０１代、書記、最後の候補は――」[plc]
 [fadebgm volume=75 time="500"]
 [playse storage="sinzou2"]
 心臓が、止まるかと思った。[lr]
 予想だにしなかった予感が、体中を突き抜けていた。[plc]
 
-それが、良いのか悪いのか、今はまだ全然分からないけど――。[plc]
+それが、良いのか悪いのか、[lr]
+今はまだ全然分からないけど――。[plc]
 [fadeoutse time="500"]
 
 ;[showstandimage pose=1 who=haruka face=ki size=s]
 [playse storage="howling"]
 [stopbgm]
-[shownametag name="遥香" visible=true]「――二年、Ｃ組。男子！　谷口　大樹っ！！」[plc]
+[shownametag name="遥香" visible=true]
+「――二年、Ｃ組。男子！　谷口　大樹っ！！」[plc]
 
 [strans storage="_taiikukan"]
 ;[dis_all_chara]
@@ -716,7 +818,8 @@
 [strans storage="taiikukan_center"]
 [fadeoutse time="1000"]
 ;[showstandimage pose=1 who=haruka face=do size=s]
-[shownametag name="遥香" visible=true]「新書記候補さん、壇上へ」[plc]
+[shownametag name="遥香" visible=true]
+「新書記候補さん、壇上へ」[plc]
 
 
 そう言って、先輩は俺を促す。[plc]
@@ -725,21 +828,27 @@
 [shownametag name="大樹" visible=true]「いや、俺……」[plc]
 
 
-が、口が渇いて、喋る事さえままならなくて。[plc]
+
+が、口が渇いて、[lr]
+喋る事さえままならなくて。[plc]
 
 ;[showstandimage pose=1 who=haruka face=keibetsu size=s]
-[shownametag name="遥香" visible=true]「さっき、帰ろうとしたでしょ？」[plc]
+[shownametag name="遥香" visible=true]
+「さっき、帰ろうとしたでしょ？」[plc]
 
 
 ふいに、先輩が言った。[plc]
 
 ;[showstandimage pose=1 who=haruka face=do size=s]
-[shownametag name="遥香" visible=true]「また、帰ろうとしたでしょ？　駄目だよ。賭けに負けちゃったからって、イジケちゃうなんて男の子らしくない」[plc]
+[shownametag name="遥香" visible=true]
+「また、帰ろうとしたでしょ？　駄目だよ。[lr]
+賭けに負けたからって、イジケちゃうなんて男の子らしくない」[plc]
 
 俺は、やっぱり答える事が出来なくて。[plc]
 
 ;[showstandimage pose=1 who=haruka face=ki size=s]
-[shownametag name="遥香" visible=true]「大丈夫だって、心配すんなって、怖がんなって」[plc]
+[shownametag name="遥香" visible=true]
+「大丈夫だって、心配すんなって、怖がんなって」[plc]
 
 ;[showstandimage pose=1 who=haruka face=ki size=s]
 [shownametag name="遥香" visible=true]「ほら――」[plc]
@@ -750,9 +859,97 @@
 
 それは、[plc]
 
+
+
 それは――。[plc]
 
-[strans storage="white"]
-[JumpChapter storage="prologue_ep_10.ks"]
+
+
+;[回想開始]
+
+
+
+[fadeoutse time="1000"]
+[fadeoutbgm time="1000"]
+[strans storage="white" time="2000"]
+
+
+
+;[上手い事現実とダブってる様な回想にして欲しい。lostみたいな？]
+
+[fadeinbgm storage="evening" time="2000"]
+[showstandimage who=haruka face=raku pose=1 notrans=true page=back]
+[strans storage="campus_ev" noclear=true time="1000"]
+あの後、坂道のデッドレースの後。[plc]
+
+
+
+当然の様に俺は賭けに負けたんだけど、[lr]
+蹲ってる俺に向かって先輩は言う。[plc]
+
+[shownametag name="遥香" visible=true]
+「ねぇ、後輩君。君、明日からまた学校来なよ」[plc]
+
+
+[shownametag name="大樹" visible=true]「……」[plc]
+
+
+確か俺は、首を振ったんだ。[plc]
+
+
+ヘバってて、声が出せなくて。[lr]
+それでも、無理だってちゃんと伝えたくて。[plc]
+
+この人に嘘は付きたくなくて。[plc]
+
+
+だけど、[plc]
+
+[showstandimage who=haruka pose=1 face=do]
+[shownametag name="遥香" visible=true]「だめだよ、負け犬くん」[plc]
+
+[showstandimage who=haruka pose=1 face=niyaniya]
+[shownametag name="遥香" visible=true]「いや、もう『うんこ垂れうんこ垂れ蔵』くんか」[plc]
+[showstandimage who=haruka pose=1 face=ki]
+[shownametag name="遥香" visible=true]
+「……ちょっと長いね、この名前」[plc]
+
+
+舌を出しながら苦笑して、クルッとターンする。[plc]
+
+
+と、そこには学校が。[lr]
+『旗立』の校門があって。[plc]
+
+そうして、先輩は、[plc]
+
+[showstandimage who=haruka pose=1 face=ki size=l]
+[shownametag name="遥香" visible=true]「大丈夫だって、心配すんなって、怖がんなって」[plc]
+
+
+[shownametag name="遥香" visible=true]「ほら――」[plc]
+
+
+手を伸ばして――[plc]
+
+[fadeoutbgm time="2000"]
+[strans storage="white" time="2000"]
+;[回想終わり]
+
+[showstandimage who=haruka pose=1 face=raku notrans=true page=back size=s]
+[strans storage="taiikukan_center" time="2000" noclear=true]
+――言ってくれたんだ。[plc]
+
+[strans storage="iti"]
+[shownametag name="遥香" visible=true]「――学校に行こう！」[plc]
+
+[playbgm storage="opening_2"]
+[strans storage="white" time="5000"]
+[fadeoutbgm time="5000"]
+[wt]
+[JumpChapter storage="senpai_ep_1.ks"]
+
+;[→OP]
+
 ;[瞬間的な場面転換]
 ;[走馬灯っぽいと入れるといいかも]
