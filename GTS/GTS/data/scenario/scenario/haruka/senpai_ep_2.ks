@@ -1,13 +1,10 @@
-///memo(松戸さん指摘):
-//ep2_クソ引きこもり不登校野郎
-//大樹が
-//・気持ちよくなって喋る下りを減らしたい。[plc]
+[SetupMessageWindow]
+[strans storage="taiikukan_center"]
 
-
-
-
+[showstandimage who=haruka pose=1 face=magao size=l]
 [shownametag name="遥香" visible=true]
 「はい、マイク」[plc]
+
 
 
 [shownametag name="大樹" visible=true]
@@ -17,15 +14,15 @@
 [shownametag name="遥香" visible=true]
 「ほら、しっかり、みんな見てるよ」[plc]
 
-
+[strans storage="_taiikukan"]
 [shownametag name="大樹" visible=true]
 「ぅ……」[plc]
-
-
 
 見下ろすと、[lr]
 確かに全校生徒が目下に揃っていた。[plc]
 
+
+[strans storage="taiikukan_center"]
 [shownametag name="大樹" visible=true]
 「ぁ、ぅ」[plc]
 
@@ -34,18 +31,20 @@
 それはどうも、先輩の冗談ってわけじゃなさそうで。[lr]
 横目で不快そうに見ている教頭も、別に俺を止めやしない。[plc]
 
+[showstandimage who=najimi pose=1 face=ikari]
 [shownametag name="縁" visible=true]
 「……」[plc]
 
-
+[strans storage="taiikukan_right"]
+[showstandimage who=gaia pose=1 face=odoroki]
 [shownametag name="ガイヤ" visible=true]
 「……兄弟」[plc]
 
 
-
+[strans storage="taiikukan_center"]
 他の誰も、縁でさえ俺を止めない。[plc]
 
-
+[fadeinbgm storage="sad_1" time="3000"]
 [shownametag name="大樹" visible=true]
 「……あぁ、うぅ」[plc]
 
@@ -66,8 +65,8 @@
 「……ぁ」[plc]
 
 
-
-――キーン。;[ハウリング]
+[playse storage="howling"]
+――キーン。[plc]
 
 
 
@@ -126,8 +125,8 @@
 「――っ！」[plc]
 
 
-
-――キーン。;[ハウリング]
+[playse storage="howling"]
+――キーン。[plc]
 
 
 
@@ -142,7 +141,8 @@
 恥ずかしい。[plc]
 
 
-
+[strans storage="_taiikukan"]
+[fadeinse storage="ambientA@08" time="1000"]
 ――ザワザワッ。[plc]
 
 
@@ -151,7 +151,7 @@
 
 
 
-『アイツってあれだろ？』
+『アイツってあれだろ？』[lr]
 『毎朝、通学路でギャーギャー騒いでうるせぇ』[plc]
 
 
@@ -159,7 +159,7 @@
 
 
 
-『おいもう引っ込めよ、いいよもう見たくねーよお前なんか』
+『おいもう引っ込めよ、いいよもう見たくねーよお前なんか』[lr]
 『降りちまえよ、今ならギャグで許してくれるって』[plc]
 
 
@@ -170,7 +170,8 @@
 声が、段々大きくなっていく。[lr]
 悪意が、罵倒が大きくなっていく。[plc]
 
-
+[strans storage="taiikukan_center"]
+[fadeinse storage="ambientA@08" time="1000"]
 ――ザワザワザワザワッ！[plc]
 
 
@@ -178,7 +179,7 @@
 「……」[plc]
 
 
-
+[strans storage="taiikukan_center" blur="true"]
 あぁ、そりゃそうか。[lr]
 俺は、どこに出しても恥ずかしい不登校野郎だ。[plc]
 
@@ -190,7 +191,9 @@
 そりゃ、そうだな。うん、そりゃそうだ。[lr]
 こうやって、悪意を受けるのは、[plc]
 
-
+[fadeoutse time="1000"]
+[strans storage="white" time="500"]
+[strans storage="kyositu_m" time="500" grayscale=true]
 ;[過去回想的演出]
 
 
@@ -202,7 +205,8 @@
 ;[過去回想的演出]
 
 
-
+[strans storage="white" time="500"]
+[strans storage="school-cafeteria01" time="500" grayscale=true]
 慣れて……。[plc]
 
 
@@ -215,15 +219,15 @@
 
 
 
-いつも。[lr]
+いつも。[plc]
 ;[回想的演出]
 
 
-いつも、いつも。[lr]
+いつも、いつも。[plc]
 ;[回想的演出]
 
 
-いつも、いつも、いつも。[lr]
+いつも、いつも、いつも。[plc]
 ;[回想的演出]
 
 
