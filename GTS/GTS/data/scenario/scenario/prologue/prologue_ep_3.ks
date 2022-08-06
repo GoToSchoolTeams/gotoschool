@@ -145,7 +145,7 @@
 @fadebgm volume="50" time="300"
 [showstandimage who="haruka" pose=1 face=ki size=l]
 [shownametag name="女子高生" visible=true bust="senpai"]
-女子高生「……どーも♪」[plc]
+「……どーも♪」[plc]
 
 [shownametag name="大樹" visible=true]
 「――」[plc]

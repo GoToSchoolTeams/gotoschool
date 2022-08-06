@@ -3,8 +3,6 @@
 結論。[lr]
 結局、何だかんだで俺はサツを撒けた。[plc]
 
-@jump target="*sakuraEffectTest"
-
 @strans storage="takadai_dt"
 @fadeinbgm storage="prologue" time="2000"
 [shownametag name="先輩" noBust=true]「おー、やるじゃんっ！」[plc]
