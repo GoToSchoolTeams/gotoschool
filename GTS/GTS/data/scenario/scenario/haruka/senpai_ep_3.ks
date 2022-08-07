@@ -1,8 +1,11 @@
+[SetupMessageWindow]
+
 
 と、言うことがあったのさ。[plc]
 
 
-
+[strans storage="_taiikukan" grayscale=true]
+[fadeinse storage="ambientA@08" time="1000"]
 その後はもう、アレだよ。[lr]
 物を投げるもの、壇上に登って殴りかかってくるもの。[plc]
 
@@ -10,7 +13,7 @@
 暴れる男子。叫ぶ女子。[lr]
 止めようとぶん殴られる教師に、乱入する体育教師。[plc]
 
-
+[strans storage="campus_ev" grayscale=true]
 もうちょっとで引きずり降ろされてフクロにされるところで、[lr]
 命からがら体育館を抜けだして。[plc]
 
@@ -22,7 +25,7 @@
 「谷口ぃいいいっ！」[plc]
 
 
-
+[strans storage="black"]
 どうも、俺達（というか、殆ど俺）は
 学校始まって以来の珍事を引き起こしたらしい。[plc]
 
@@ -32,7 +35,10 @@
 
 
 ;[現実に戻ってくる感じ]
-
+[showstandimage who=najimi face=ikari notrans="true" page="back"]
+[strans storage="seitokai" noclear="true"]
+[fadeinse storage="semi" time="1000"]
+[fadeinbgm storage="serious_2" time="1000"]
 
 [shownametag name="縁" visible=true]
 「ヘラヘラ笑うな！」[plc]
@@ -41,15 +47,15 @@
 
 おー、怖。[plc]
 
-
+[showstandimage who=haruka pose=1 face=kuno]
 [shownametag name="遥香" visible=true]
 「でもまぁ、なんとかなったんだしさぁ」[plc]
 
-
+[showstandimage who=najimi face=do pose=1]
 [shownametag name="縁" visible=true]
 「全然！　なんとも！！　なってないでしょ！！！」[plc]
 
-
+[showstandimage who=najimi face=ikari pose=1]
 [shownametag name="縁" visible=true]
 「私達が全員で必死に謝って、[lr]
 どうにか立候補取り消しを免除になっただけじゃないですか！」[plc]
@@ -71,9 +77,10 @@
 先輩の立候補取り消しは無しになった。[plc]
 
 
-まぁ、俺が一年間教員トイレを清掃し続けるという犠牲は払ったが
+まぁ、俺が一年間教員トイレを清掃し続けるという犠牲は払ったが[r]
 （というか、十割俺のせいだし妥当だとは思う）。[plc]
 
+[showstandimage who=najimi face=do pose=1]
 [shownametag name="縁" visible=true]
 「問題は、そこじゃないです！　問題は、」[plc]
 
@@ -82,7 +89,8 @@
 「見てくださいよ、これを！！！」[plc]
 
 
-
+[fadeinse storage="kami_gasa" time="300"]
+[strans storage="seitokai_board"]
 そう言って、縁はA1用紙を広げた。[plc]
 
 
@@ -98,19 +106,25 @@
 数字だけじゃなく、折れ線グラフとか、円グラフとかあって。[lr]
 パッと見ただけで状況が一目でわかる。[plc]
 
+[strans storage="seitokai"]
 [shownametag name="大樹" visible=true]
 「すごいな、これお前が作ったのか？」[plc]
 
-
+[showstandimage who=najimi face=do pose=1]
 [shownametag name="縁" visible=true]
-「なわけないでしょ、新聞部からくすね……貰ってきたのよ」[plc]
+「なわけないでしょ、
+[showstandimage who=najimi face=futsu pose=1]
+新聞部からくすね……
+
+[showstandimage who=najimi face=do pose=1]
+貰ってきたのよ」[plc]
 
 
 
 ちょっと咳払いしながら、縁はそう言い繕う。[plc]
 
 
-
+[strans storage="seitokai_board"]
 なるほど、ね……しかし、すげぇな。[lr]
 これちゃんと昨日の出来事による推移も載ってるぞ。[plc]
 
@@ -124,7 +138,8 @@
 
 やっぱりな！[plc]
 
-
+[strans storage="seitokai"]
+[showstandimage who=najimi face=jitome pose=1]
 [shownametag name="縁" visible=true]
 「……」[plc]
 
@@ -132,7 +147,7 @@
 
 不快そうに鼻を鳴らすと、縁はクルッと用紙を一回転させた。[plc]
 
-
+[strans storage="seitokai_board"]
 [shownametag name="大樹" visible=true]
 「……おぉ、絶壁じゃないか」[plc]
 
@@ -157,18 +172,20 @@
 おい、見ろよ。[lr]
 教師の票がゼロになってるぞ。[plc]
 
+[showstandimage who=najimi pose=1 face=ikari notrans="true" page=back] 
+[strans storage="seitokai" noclear="true"]
 [shownametag name="大樹" visible=true]
 「あっはっはっはっは！」[plc]
 
 
 [shownametag name="縁" visible=true]
-「笑うな！」[plc]
+「笑うな！」[playse storage="don"][quake hmax="5" time="200"][plc]
 
 
 
 殴られた。[plc]
 
-
+[showstandimage who=haruka face=raku pose=1]
 [shownametag name="遥香" visible=true]
 「いや、でも、これは、本当に困ったねぇ」[plc]
 
@@ -177,6 +194,8 @@
 本当に困ってるのか？[lr]
 という顔で、先輩は笑う。[plc]
 
+[fadebgm time="500" volume="50"]
+[showstandimage who=najimi face=futsu pose=1]
 [shownametag name="縁" visible=true]
 「――遥香先輩」[plc]
 
@@ -185,20 +204,21 @@
 急に、縁が真剣な顔になった。[plc]
 
 
-
+[playse storage="asioto_folks"]
 後ろから、モブ連中（先輩陣営の主要面子）も出てくる。[plc]
 
 
 [shownametag name="縁" visible=true]
-「私達、集まって相談したんです。もう、この際――」[lr]
+「私達、集まって相談したんです。もう、この際――」[plc]
 ;[いい感じに演出な]
 
+[showstandimage who=najimi face=ikari pose=1 time="100" size=l]
 [shownametag name="縁" visible=true]
-「――コイツを！　」[lr]
+「――コイツを！」[lr]
 ;[メッセージを更新してくような感じで]
 
 [shownametag name="縁" visible=true]
-「――コイツを！　――コイツを！！」[plc]
+「――コイツを！　――コイツを！！」[lr]
 
 
 [shownametag name="縁" visible=true]
@@ -216,7 +236,7 @@
 
 ……よっぽど、文句が言いたかったらしいな。[plc]
 
-
+[showstandimage who=najimi face=do pose=1 time="100" size=l]
 [shownametag name="縁" visible=true]
 「いますぐ！　コイツを追い出してください！！」[plc]
 
@@ -228,9 +248,10 @@
 
 合わせるように、モブ連も叫んだ。[plc]
 
-
+[dis_all_chara_fade]
+[showstandimage who=haruka pose=1 face=kuno]
 [shownametag name="遥香" visible=true]
-「うーん」[lr]
+「うーん」[plc]
 ;[真顔]
 
 [shownametag name="大樹" visible=true]
@@ -241,10 +262,11 @@
 ………………。[lr]
 …………。[plc]
 
-
 たっぷり余白を取れるぐらいの時間が経過してから。[plc]
 
 
+[fadebgm volume="100" time="300"]
+[showstandimage who=haruka pose=1 face=ki]
 [shownametag name="遥香" visible=true]
 「嫌かな」[plc]
 
@@ -252,27 +274,28 @@
 
 と、先輩は言った。[plc]
 
-
+[showstandimage who=najimi face=do pose=1]
 [shownametag name="縁" visible=true]
 「せんぱぁーーーーーっいッッッ！！！！！」[plc]
 
-
+[showstandimage who=haruka pose=1 face=kuno]
 [shownametag name="遥香" visible=true]
 「いやいや、縁ちゃんちょっと落ち着いてよ」[plc]
 
-
+[showstandimage who=najimi face=do pose=1]
 [shownametag name="縁" visible=true]
 「落ち着けるわけないでしょ！」[plc]
 
 
-
+[dis_all_chara_fade]
+[fadeinse storage="ambientA@08" time="500"]
 ザワザワと、縁の後ろに従ってたモブ連も同様激しい。[plc]
 
 
 
 だが、当然だ。[lr]
 とうの俺も、めちゃくちゃビックリしてる。[plc]
-
+[fadeoutse time="500"]
 
 ……え？　俺、クビになんないの？[plc]
 
@@ -282,13 +305,15 @@
 
 
 
-正直、『あんたクビ』って言葉を聞きに
+正直、『あんたクビ』って言葉を聞きに[r]
 今日ここに来たくらいだから。なんていうか、[plc]
 
 
 それはとっても驚きだった。[plc]
 
-
+[showstandimage who=najimi face=do pos=l notrans="true" page=back]
+[showstandimage who=haruka face=magao pos=r notrans="true" page=back layer="2"]
+[strans storage="seitokai" noclear="true"]
 [shownametag name="縁" visible=true]
 「ふざけないでくださいよ！
 こいつを入れてたら、絶対にみんな私達に投票しませんよ！！」[plc]
@@ -299,32 +324,37 @@
 
 [shownametag name="縁" visible=true]
 「変わりますよ！　如実に変わりますよ！！
-いますぐコイツを放り出して…いや、いっそ切腹させましょう！」[plc]
+
+[showstandimage who=najimi pose=1 face=futsu pos=l]
+いますぐコイツを放り出して…
+
+[showstandimage who=najimi pose=1 face=do pos=l]
+いや、いっそ切腹させましょう！」[plc]
 
 [shownametag name="縁" visible=true]
 「そうれば、女子票ならすぐ戻ってきますよ！！！」[plc]
 
-
+[showstandimage who=najimi pose=1 face=ikari pos=l]
 [shownametag name="縁" visible=true]
-「というか、そうしないと、誰の票も戻ってきませんよ！
+「というか、そうしないと、誰の票も戻ってきませんよ！[lr]
 聞いてました！？　コイツのほざいてた暴言！！！」[plc]
 
 [shownametag name="縁" visible=true]
 「あんなの、絶対許されませんよ！？」[plc]
 
-
+[showstandimage who=haruka pose=1 face=kuno pos=r layer="2"]
 [shownametag name="遥香" visible=true]
 「うーん」[plc]
 
-
+[showstandimage who=najimi pose=1 face=do pos=l]
 [shownametag name="縁" visible=true]
 「それに、そもそも書記に男子を選ぶのがおかしいんですよ！」[plc]
 
-
+[showstandimage who=najimi pose=1 face=ikari pos=l]
 [shownametag name="縁" visible=true]
 「ここは、女子校なんですよ！？」[plc]
 
-
+[showstandimage who=haruka pose=1 face=ai pos=r layer="2"]
 [shownametag name="遥香" visible=true]
 「……いや、共学だよ。ココ？」[plc]
 
@@ -332,7 +362,8 @@
 [shownametag name="縁" visible=true]
 「似たようなもんです！」[plc]
 
-
+[dis_all_chara_fade]
+[strans storage="seitokai" blur="true"]
 [shownametag name="大樹" visible=true]
 「……」[plc]
 
@@ -365,6 +396,7 @@
 つまり、そもそも役員候補に『男子を入れる』
 ということがご法度なのである。そしてそれ以前に、[plc]
 
+[strans storage="seitokai_left"]
 [shownametag name="女子生徒" visible=true]
 「この子の評価、最悪なのよねぇ……」[plc]
 
@@ -421,7 +453,7 @@
 「……」[plc]
 
 
-
+[strans storage="seitokai" blur="true"]
 そうなのだ。[lr]
 そもそもが、俺の評価は最悪なのだ。[plc]
 
@@ -433,6 +465,8 @@
 となれば、女子には嫌われまくるに決まってる。[lr]
 ついでに男子にも。[plc]
 
+[strans storage="seitokai"]
+[showstandimage who=haruka pose=1 face=magao]
 [shownametag name="遥香" visible=true]
 「ふむ」[plc]
 
@@ -448,19 +482,21 @@
 
 俺は、とりあえずヘラっと笑ってみることにする。[plc]
 
-
+[showstandimage who=haruka pose=1 face=kuno]
 [shownametag name="遥香" visible=true]
 「見たとこ、暴行を加えられた様子もないし、[lr]
 みんなもう忘れてんじゃないかな？」[plc]
 
+[showstandimage who=najimi face=do pose=1]
 [shownametag name="縁" visible=true]
 「そんなわけないでしょ、鶏じゃないんですから！」[plc]
 
-
+[showstandimage who=najimi face=ikari pose=1]
 [shownametag name="縁" visible=true]
 「コイツは、今日は授業に出てないんですよ！
 裏門から、コソコソと、ここにだけ出席してるんですよ！！」[plc]
 
+[showstandimage who=haruka face=magao pose=1]
 [shownametag name="遥香" visible=true]
 「あらま」[plc]
 
@@ -474,18 +510,20 @@
 
 
 
+[showstandimage who=haruka face=jitome pose=1]
 ヘラっと笑うと、とても残念そうな顔をされた。[plc]
 
-
+[showstandimage who=najimi face=do pose=1]
 [shownametag name="縁" visible=true]
-「とにかく！　いますぐコイツを追い出して私達は何も
+「とにかく！　いますぐコイツを追い出して私達は何も[r]
 関係ありませんアピールしないと、選挙は大敗することに――」[plc]
 
 
 縁がさらにヒートしかけたタイミングで、[plc]
 
 
-
+[fadeoutbgm time="500"]
+[playse storage="door"]
 「――ごめんあそばせ」[lr]
 ;[SE：ガチャ]
 
@@ -493,5 +531,6 @@
 突然、会議室のドアが開いたのだった。[plc]
 
 
-
 ;[時間経過]
+[wipe storage="seitokai"]
+[JumpChapter storage="senpai_ep_4.ks"]
