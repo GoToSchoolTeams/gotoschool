@@ -5,10 +5,11 @@
 
 [strans storage="seitokai" noclear="true"]
 
-[shownametag name="" visible=true]
+[showstandimage who=naruse pose=2 face=futsu]
+[shownametag name="？？？" visible=true]
 「……あらあら、取り込み中だったかしら」[plc]
 
-
+[fadeinbgm time="1500" storage="serious_2"]
 突然開いた会議室のドア先には、一人の女生徒が立っていた。[plc]
 
 [shownametag name="遥香" visible=true]
@@ -25,15 +26,19 @@
 その様子に、俺は驚いてしまった。[lr]
 だって、[plc]
 
-[showstandimage who=naruse pose=2 face=futsu size=s]
 [shownametag name="成瀬" visible=true]「……」[plc]
 
-
+[strans storage="white"]
+[showstandimage who=naruse pose=2 face=futsu page="back" notrans="true" grayscale="true"]
+[strans noclear="true" storage="hoken_e" time="1000" grayscale=true]
 あれは、確か……保健室の。[plc]
 
+[strans storage="white"]
+[showstandimage who=naruse pose=2 face=futsu page="back" notrans="true"]
+[strans noclear="true" storage="seitokai"]
 [shownametag name="成瀬" visible=true]「どうも」[plc]
 
-保健室にいた巻き髪の女……成瀬先輩は、[lr]
+保健室にいた巻き髪の女……成瀬さんは、[lr]
 俺の視線には答えずに先輩に向かってそう言った。[plc]
 
 [showstandimage who=haruka face=keibetsu]
@@ -135,7 +140,7 @@
 [shownametag name="縁" visible=true]
 「……」[plc]
 
-[showstandimage who=haruka face=odoroki notrans="true" page="back"]
+[showstandimage who=haruka face=keibetsu notrans="true" page="back"]
 [strans storage="seitokai_board" noclear="true"]
 [shownametag name="遥香" visible=true]
 「……」[plc]
@@ -155,7 +160,7 @@
 
 言いながらも、成瀬先輩はこちらを一瞥もしない。[plc]
 
-
+[strans storage="seitokai" blur="true"]
 [shownametag name="大樹" visible=true]
 「……」[plc]
 
@@ -172,16 +177,19 @@
 こんな……。[lr]
 こんな言い方って……。[plc]
 
-
+[strans storage="white"]
+[showstandimage who=naruse pose=2 face=futsu page="back" notrans="true" grayscale="true"]
+[strans noclear="true" storage="hoken_e" time="1000" grayscale=true]
 『３のE……何かあったら、お尋ねなさい』[plc]
 
-
+[strans storage="white"]
+[strans storage="seitokai"]
 [shownametag name="大樹" visible=true]
 「……」[plc]
 
 舌を、噛む。[plc]
 
-何だったんだよ、アレは。
+何だったんだよ、アレは。[plc]
 
 [showstandimage who=najimi face=ikari notrans="true" page="back"]
 [strans storage="seitokai_left" noclear="true"]
@@ -275,7 +283,6 @@
 [shownametag name="成瀬" visible=true]
 「……」[plc]
 
-成瀬先……いや、[lr]
 成瀬がなにやらイラついてるので、よしとしよう。[plc]
 
 [showstandimage who=haruka face=magao]
@@ -313,7 +320,7 @@
 
 ;[ダンッ！！]
 [playse storage="don"]
-[strans storage="black" method="universal" rule="left_right" time=100]
+[strans storage="white" method="universal" rule="left_right" time=100]
 [showstandimage who=najimi face=do page="back" notrans="true"]
 [strans storage="seitokai_left" rule="left_right" method="universal" noclear="true" time=100]
 [shownametag name="縁" visible=true]

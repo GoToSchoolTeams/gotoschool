@@ -34,6 +34,7 @@
 [eval exp="Storages.addAutoPath('image/title/')"]
 [eval exp="Storages.addAutoPath('image/message/')"]
 [eval exp="Storages.addAutoPath('image/old_system/')"]
+[eval exp="Storages.addAutoPath('image/message_face/')"]
 
 ;—§‚¿ŠG
 [eval exp="Storages.addAutoPath('fgimage/haruka/')"]

@@ -259,30 +259,6 @@ function GetStandFileInfo(who, pose, face, size, pos, tere)
 	return info;
 }
 
-function SaveStandInfo(who, pose, face)
-{
-	var dispname = tf.CharaNameKanziMap[who];
-	delete(f.lastShowStandImageinfo[dispname]);
-	f.lastShowStandImageinfo[dispname] = new global.StandImageInfo(who, pose, face);
-}
-
-function DeleteStandInfo(who)
-{
-	var dispname = tf.CharaNameKanziMap[who];
-	delete f.lastShowStandImageinfo[dispname];
-}
-
-function GetBustUpImageNameFromStandInfo(who)
-{
-	var info = f.lastShowStandImageinfo[who];
-
-	if(info != void) {
-		return global.GetStandFileName(info.name, info.pause, info.face, "S"/*B‚ª—v‚é*/);
-	}
-	
-	return null;
-}
-
 function ClearSystemMessage()
 {
 	var elm = new Dictionary();

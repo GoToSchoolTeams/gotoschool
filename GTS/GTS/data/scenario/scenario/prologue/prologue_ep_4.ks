@@ -139,8 +139,6 @@
 
 幸せな奴らだ。[plc]
 
-[dis_all_chara_fade_message]
-[SetupMessageWindow]
 [shownametag name="大樹" visible=true]「……」[plc]
 
 

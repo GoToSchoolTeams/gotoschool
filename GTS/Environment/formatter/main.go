@@ -17,6 +17,23 @@ import (
 
 const dest = "./"
 
+var MAIN_CHARACTER_NAMES = [14]string{
+	"大樹",
+	"遥香",
+	"縁",
+	"悟",
+	"ガイア",
+	"マッシュ",
+	"オルテガ",
+	"十二単",
+	"マル",
+	"松戸",
+	"高橋",
+	"成瀬",
+	"御厨",
+	"聡",
+}
+
 func main() {
 	//! ファイル名を抜き出して宛先ファイルを作成
 	var source = os.Args[1]
@@ -91,8 +108,14 @@ func addMWindowMacro(dist *string) {
 	findDialog := func(s string) string {
 		name := strings.Split(s, "#")[1]
 		name = strings.ReplaceAll(name, "\r\n", "")
-		log.Println(name)
-		tagedDialog := fmt.Sprintf("[shownametag name=\"%s\" visible=true]\r\n", name)
+		f_str := "[shownametag name=\"%s\" visible=true bust=\"false\"]\r\n"
+		for i := 0; i < len(MAIN_CHARACTER_NAMES); i++ {
+			if MAIN_CHARACTER_NAMES[i] == name {
+				f_str = "[shownametag name=\"%s\" visible=true]\r\n"
+				break
+			}
+		}
+		tagedDialog := fmt.Sprintf(f_str, name)
 		return tagedDialog
 	}
 

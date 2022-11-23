@@ -1,8 +1,8 @@
-
 ;【絹虫印、plcマクロ。改ページ（ｐ）、セーブラベル、クリアーメッセージ。】
 [macro name="plc"]
 [p]
 [shownametag visible=false]
+[layopt layer=9 visible="false"]
 [label]
 [current layer="message1"]
 [er]
@@ -63,6 +63,13 @@
 [layopt layer="6" page="back" visible="false"]
 [trans method="crossfade" time=%time|500]
 [wt]
+[endmacro]
+
+[macro name="show_message_fade"]
+[backlay]
+[position layer="message0" visible="false" page="back"]
+[position layer="message1" visible="false" page="back"]
+[position layer="message2" visible="false" page="back"]
 [endmacro]
 
 
@@ -155,7 +162,7 @@
 	[locate x=563 y=685]
 	[button graphic="save"]
 	;顔レイヤも一旦非表示
-	[layopt layer=9 top=420 left="-50" page="fore" visible="false"]
+	[layopt layer=9 top=452 left=50 page="fore" visible="false"]
 	;メッセージレイヤ設定
 	[current layer="message1"]
 	[deffont size=30]
@@ -225,27 +232,41 @@
 	[endif]
 	;メッセージウィンドウにバストアップ表示(有効なら)
 	[if exp="mp.nobust != 'true'"]
-		[showbustup who="&mp.who" pose="&mp.pose" fase="&mp.face"]
+		[showbustup who="&mp.who" pose="&mp.pose" face="&mp.face" tere="&mp.tere" visible=true]
 	[endif]
 	[kagtag who=%who pose=%pose|1 face=%face notrans=%notrans tere=%tere page=%page size=%size]
 [endmacro]
 
 ;;名前欄を表示する
+;;bust=バストアップ画像の有無, 論理値
 [macro name="shownametag"]
 	[position layer="message1" visible=%visible|true]
-	;[layopt layer=8 visible=%visible|true]
 	[if exp="mp.visible != 'false'"]
 		[nowait]
 		[current layer="message1"]
 		[emb exp="mp.name"]
 		[current layer="message0"]
+		[if exp="mp.bust != 'false' && mp.name != '大樹'"]
+			[layopt layer=9 visible="true"]
+		[endif]
 		[endnowait]
 	[endif]
+[kagtag bust=%bust]
 [endmacro]
 
 ;;バストアップ画像を表示する
 [macro name="showbustup"]
-	;[image layer=9 storage="&global.GetStandFileInfo(mp.who, mp.pose, mp.face, 'm')" visible=%visible]
+	[layopt layer=9 visible=%visible]
+	[if exp="mp.visible != 'false'"]
+		[eval exp="tf.face_g = 'f_' + mp.who + '_' + 'pose' + mp.pose + '_' + mp.face + '.png'"]
+		[if exp="mp.tere == 'true'"]
+			[eval exp="tf.face_g = 'f_' + mp.who + '_' + 'pose' + mp.pose + '_tere_' + mp.face + '.png'"]
+		[endif]
+		[image layer=9 storage="&tf.face_g" visible=true]
+	[else]
+		[freeimage layer=9]
+	[endif]
+	[kagtag who=%who pose=%pose|1 face=%face tere=%tere]
 [endmacro]
 
 ;;バストアップ画像を非表示にする
@@ -265,13 +286,14 @@
 
 [macro name="SetupBrunch"]
 @dis_all_message
-@position layer="message0" width=800 height=120 top=20  left=240 opacity="128" page="fore" visible="false"
-@position layer="message1" width=800 height=120 top=160 left=240 opacity="128" page="fore" visible="false"
-@position layer="message2" width=800 height=120 top=300 left=240 opacity="128" page="fore" visible="false"
-@position layer="message3" width=800 height=120 top=440 left=240 opacity="128" page="fore" visible="false"
-@position layer="message4" width=800 height=120 top=560 left=240 opacity="128" page="fore" visible="false"
+@position layer="message0" width=800 height=120 top=20  left=240 opacity="128" page="fore" visible="false" margint="40"
+@position layer="message1" width=800 height=120 top=160 left=240 opacity="128" page="fore" visible="false" margint="40"
+@position layer="message2" width=800 height=120 top=300 left=240 opacity="128" page="fore" visible="false" margint="40"
+@position layer="message3" width=800 height=120 top=440 left=240 opacity="128" page="fore" visible="false" margint="40"
+@position layer="message4" width=800 height=120 top=560 left=240 opacity="128" page="fore" visible="false" margint="40"
 @eval exp="f.Brunch[mp.name] = 0"
 @eval exp="tf.Brunch.clear()"
+[kagtag name=%name]
 [endmacro]
 
 [macro name="AddBrunch"]
@@ -279,30 +301,32 @@
 @eval exp="tf.temp['text'] = mp.text"
 @eval exp="tf.temp['storage'] = mp.storage"
 @eval exp="tf.temp['target'] = mp.target"
-@eval exp="tf.Brunch.add(tf.temp)""
+@eval exp="tf.temp['disable'] = mp.disable"
+@eval exp="tf.Brunch.add(tf.temp)"
+[kagtag text="%text" storage=%storage target=%target disable=%disable]
 [endmacro]
 
 [macro name="ShowBrunch"]
 [if exp="tf.Brunch.count == 1"]
-	@RenderBruch layer="message2" text="&tf.Brunch[0].text" storage="&tf.Brunch[0].storage" target="&tf.Brunch[0].target"
+	@RenderBruch layer="message2" text="&tf.Brunch[0].text" storage="&tf.Brunch[0].storage" target="&tf.Brunch[0].target" disable="&tf.Brunch[0].disable"
 [elsif exp="tf.Brunch.count == 2"]
-	@RenderBruch layer="message1" text="&tf.Brunch[0].text" storage="&tf.Brunch[0].storage" target="&tf.Brunch[0].target"
-	@RenderBruch layer="message3" text="&tf.Brunch[1].text" storage="&tf.Brunch[1].storage" target="&tf.Brunch[1].target"
+	@RenderBruch layer="message1" text="&tf.Brunch[0].text" storage="&tf.Brunch[0].storage" target="&tf.Brunch[0].target" disable="&tf.Brunch[0].disable"
+	@RenderBruch layer="message3" text="&tf.Brunch[1].text" storage="&tf.Brunch[1].storage" target="&tf.Brunch[1].target" disable="&tf.Brunch[1].disable"
 [elsif exp="tf.Brunch.count == 3"]
-	@RenderBruch layer="message1" text="&tf.Brunch[0].text" storage="&tf.Brunch[0].storage" target="&tf.Brunch[0].target"
-	@RenderBruch layer="message2" text="&tf.Brunch[1].text" storage="&tf.Brunch[1].storage" target="&tf.Brunch[1].target"
-	@RenderBruch layer="message3" text="&tf.Brunch[2].text" storage="&tf.Brunch[2].storage" target="&tf.Brunch[2].target"
+	@RenderBruch layer="message1" text="&tf.Brunch[0].text" storage="&tf.Brunch[0].storage" target="&tf.Brunch[0].target" disable="&tf.Brunch[0].disable"
+	@RenderBruch layer="message2" text="&tf.Brunch[1].text" storage="&tf.Brunch[1].storage" target="&tf.Brunch[1].target" disable="&tf.Brunch[1].disable"
+	@RenderBruch layer="message3" text="&tf.Brunch[2].text" storage="&tf.Brunch[2].storage" target="&tf.Brunch[2].target" disable="&tf.Brunch[2].disable"
 [elsif exp="tf.Brunch.count == 4"]
-	@RenderBruch layer="message0" text="&tf.Brunch[0].text" storage="&tf.Brunch[0].storage" target="&tf.Brunch[0].target"
-	@RenderBruch layer="message1" text="&tf.Brunch[1].text" storage="&tf.Brunch[1].storage" target="&tf.Brunch[1].target"
-	@RenderBruch layer="message2" text="&tf.Brunch[2].text" storage="&tf.Brunch[2].storage" target="&tf.Brunch[2].target"
-	@RenderBruch layer="message3" text="&tf.Brunch[3].text" storage="&tf.Brunch[3].storage" target="&tf.Brunch[3].target"
+	@RenderBruch layer="message0" text="&tf.Brunch[0].text" storage="&tf.Brunch[0].storage" target="&tf.Brunch[0].target" disable="&tf.Brunch[0].disable"
+	@RenderBruch layer="message1" text="&tf.Brunch[1].text" storage="&tf.Brunch[1].storage" target="&tf.Brunch[1].target" disable="&tf.Brunch[1].disable"
+	@RenderBruch layer="message2" text="&tf.Brunch[2].text" storage="&tf.Brunch[2].storage" target="&tf.Brunch[2].target" disable="&tf.Brunch[2].disable"
+	@RenderBruch layer="message3" text="&tf.Brunch[3].text" storage="&tf.Brunch[3].storage" target="&tf.Brunch[3].target" disable="&tf.Brunch[3].disable"
 [elsif exp="tf.Brunch.count == 5"]
-	@RenderBruch layer="message0" text="&tf.Brunch[0].text" storage="&tf.Brunch[0].storage" target="&tf.Brunch[0].target"
-	@RenderBruch layer="message1" text="&tf.Brunch[1].text" storage="&tf.Brunch[1].storage" target="&tf.Brunch[1].target"
-	@RenderBruch layer="message2" text="&tf.Brunch[2].text" storage="&tf.Brunch[2].storage" target="&tf.Brunch[2].target"
-	@RenderBruch layer="message3" text="&tf.Brunch[3].text" storage="&tf.Brunch[3].storage" target="&tf.Brunch[3].target"
-	@RenderBruch layer="message4" text="&tf.Brunch[4].text" storage="&tf.Brunch[4].storage" target="&tf.Brunch[4].target"
+	@RenderBruch layer="message0" text="&tf.Brunch[0].text" storage="&tf.Brunch[0].storage" target="&tf.Brunch[0].target" disable="&tf.Brunch[0].disable"
+	@RenderBruch layer="message1" text="&tf.Brunch[1].text" storage="&tf.Brunch[1].storage" target="&tf.Brunch[1].target" disable="&tf.Brunch[1].disable"
+	@RenderBruch layer="message2" text="&tf.Brunch[2].text" storage="&tf.Brunch[2].storage" target="&tf.Brunch[2].target" disable="&tf.Brunch[2].disable"
+	@RenderBruch layer="message3" text="&tf.Brunch[3].text" storage="&tf.Brunch[3].storage" target="&tf.Brunch[3].target" disable="&tf.Brunch[3].disable"
+	@RenderBruch layer="message4" text="&tf.Brunch[4].text" storage="&tf.Brunch[4].storage" target="&tf.Brunch[4].target" disable="&tf.Brunch[4].disable"
 [endif]
 [endmacro]
 
@@ -312,11 +336,17 @@
 	@current layer="%layer"
 	@font size=32
 	@style align="center"
-	@link storage="%storage" target="%target"
-	@emb exp="mp.text"
-	@endlink
+	[if exp="mp.disable == 'true'"]
+		[font color="0xFF0000"]
+		@emb exp="mp.text"
+	[else]
+		@link storage="%storage" target="%target"
+		@emb exp="mp.text"
+		@endlink
+	[endif]
 	@endnowait
 [endnowait]
+[kagtag disable=%disable]
 [endmacro]
 
 ;;画像ぼかし
@@ -374,25 +404,40 @@
 [kagtag staff=%staff transbase=%transbase|false playop=%playop|false]
 [endmacro]
 
-;;デバッグジャンプの補佐マクロ
-;;bg=[必須] 背景画像を指定する\nデフォルトはblack, 画像ファイル名
-;;bgm=[必須] 再生する曲\n演奏する BGM ファイル名または CD トラック番号を指定します, BGMファイル名;1以上の値
-[macro name=setup_debug]
-[SetupMessageWindow]
-[playbgm storage=%bgm]
-[strans storage=%bg]
-[endmacro]
 
 ;;ワイプ
 ;;time=トランジションにかかる時間
-;;storage=背景画像を指定する\nデフォルトはblack, 画像ファイル名
+;;storage=背景画像を指定する\nデフォルトはwhite, 画像ファイル名
 [macro name=wipe]
+[fadebgm volume="0" time="500" cond="mp.fadebgm == 'true'"]
 [dis_all_chara_fade_message time=500]
 [strans storage="black" method="universal" rule="left_right" time="250"]
 [strans storage="eyecatch" method="universal" rule="left_right" time="250"]
 [wait time=%time|1000 canskip="false"]
 [strans storage=%storage method="universal" rule="left_right" time="250"]
 [SetupMessageWindow]
+[fadebgm volume="100" time="500" cond="mp.fadebgm == 'true'"]
+[kagtag fadebgm=%fadebgm]
+[endmacro]
+
+
+;;デバッグジャンプの補佐マクロ
+;;bg=[必須] 背景画像を指定する\nデフォルトはblack, 画像ファイル名
+;;bgm=[必須] 再生する曲\n演奏する BGM ファイル名または CD トラック番号を指定します, BGMファイル名;1以上の値
+[macro name=setup_debug]
+[SetupMessageWindow]
+[if exp="mp.bg != ''"]
+	[strans storage=%bg]
+[endif]
+
+[if exp="mp.bgm != ''"]
+	[playbgm storage=%bgm]
+[endif]
+[endmacro]
+
+
+;;薄黒い膜の演出をしたい
+[macro name=filter]
 [endmacro]
 
 ;EOF

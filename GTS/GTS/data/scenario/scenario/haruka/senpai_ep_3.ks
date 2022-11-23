@@ -41,12 +41,13 @@
 [fadeinbgm storage="serious_2" time="1000"]
 
 [shownametag name="縁" visible=true]
-「ヘラヘラ笑うな！」[plc]
+「ヘラヘラ笑うな！」[playse storage="don"][quake hmax="5" time="200"][plc]
 
 
 
 おー、怖。[plc]
 
+[fadeoutse time="1000"]
 [showstandimage who=haruka pose=1 face=kuno]
 [shownametag name="遥香" visible=true]
 「でもまぁ、なんとかなったんだしさぁ」[plc]

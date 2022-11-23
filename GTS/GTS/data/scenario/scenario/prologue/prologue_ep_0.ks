@@ -44,7 +44,7 @@
 
 
 ;[ガチャッ：自転車を反転させる音]
-
+[showbustup who=najimi pose=1 face=futsu]
 [shownametag name="縁" visible=true]
 「……また？」[plc]
 
@@ -62,6 +62,7 @@
 
 鼻歌まじりに出発しようとすると、[plc]
 
+[showbustup who=najimi pose=1 face=do]
 [quake hmax=4 vmax=4 time="200"]
 [shownametag name="縁" visible=true]
 「ちょっと」[plc]

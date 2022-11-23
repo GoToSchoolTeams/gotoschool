@@ -43,7 +43,7 @@
 [shownametag name="成瀬" visible=true]
 「いや、ほんと！　ほんとよ！　凄いわ、素晴らしい演技力！！」[plc]
 
-[showstandimage who=naruse face=futsu pose=2 size=l]
+[showstandimage who=naruse face=futsu pose=2]
 [shownametag name="成瀬" visible=true]
 「ほんと、俳優になれるんじゃなくて？[lr]
 この、情けない空気ったら――」[plc]
@@ -90,6 +90,10 @@
 
 [shownametag name="大樹" visible=true]「……」[plc]
 
+[backlay]
+[image layer="12" left=352 top=180 visible="true" page="back" storage="dorill"]
+[trans method="crossfade" time="2000"]
+[wt]
 
 これ……ドリル？　小学生向けだ。[plc]
 
@@ -147,12 +151,10 @@
 
 
 俺自身、俺が。[plc]
-
 [shownametag name="大樹" visible=true]「……酷いっすね」[plc]
 
 
 ここまで無能だとは。[plc]
-
 [strans storage="seitokai"]
 [shownametag name="遥香" visible=true]「……」[plc]
 
@@ -160,7 +162,6 @@
 俺の嘆きを、どう思ったのかは分からない。[lr]
 分からないが、[plc]
 
-[showstandimage who=haruka face=magao]
 [shownametag name="遥香" visible=true]「谷口君」[plc]
 
 
@@ -169,7 +170,7 @@
 
 [shownametag name="大樹" visible=true]「……」[plc]
 
-
+[showstandimage who=haruka face=magao]
 [shownametag name="遥香" visible=true]「今日は、もう解散しよっか」[plc]
 
 [fadeoutbgm time="1000"]
