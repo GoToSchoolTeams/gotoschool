@@ -234,7 +234,7 @@
 	[if exp="mp.nobust != 'true'"]
 		[showbustup who="&mp.who" pose="&mp.pose" face="&mp.face" tere="&mp.tere" visible=true]
 	[endif]
-	[kagtag who=%who pose=%pose|1 face=%face notrans=%notrans tere=%tere page=%page size=%size]
+	[kagtag who=%who pose=%pose|1 face=%face notrans=%notrans tere=%tere page=%page size=%size nobust=%nobust]
 [endmacro]
 
 ;;名前欄を表示する
@@ -403,6 +403,23 @@
 [wt canskip="false"]
 [kagtag staff=%staff transbase=%transbase|false playop=%playop|false]
 [endmacro]
+
+;;gadgetの表示・非表示
+;;storage=背景画像を指定する\nデフォルトはblack, 画像ファイル名
+;;time=トランジション時間\nデフォルトは1000, ミリ秒時間
+;;show=ガジェットを表示するかしないかを指定します, 論理値
+[macro name=gadget]
+[backlay]
+[if exp="mp.show == 'true'"]
+	[image layer="12" left=352 top=180 visible="true" page="back" storage=%storage]
+[else]
+	[layopt layer=12 page="back" visible="false"]
+[endif]
+[trans layer="base" time=%time|1000 method="crossfade"]
+[wt]
+[kagtag show=%show]
+[endmacro]
+
 
 
 ;;ワイプ
