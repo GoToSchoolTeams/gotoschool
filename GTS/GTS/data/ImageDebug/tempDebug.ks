@@ -45,7 +45,7 @@
 ――クスクスクス。[plc]
 
 
-[shownametag name="女生徒" visible=true]
+[shownametag name="女生徒" visible=true bust="false"]
 「それっ」[plc]
 
 ――コツン。[plc]
@@ -56,7 +56,7 @@
 
 
 
-授業中は、俺はみんなのゴミ箱だったけど。[plc]
+授業中はみんなのゴミ箱だったけど。[plc]
 
 [dis_all_message]
 ;暗転
@@ -74,36 +74,55 @@
 
 
 あの日の先輩の弁当で。[r][l]
-ワリと全部どうでもよくなっていた。[plc]
+ワリと全部どうでもよくなっていて……。[plc]
 
 
-その他にも、机の中身がぶちまけられていたり、[lr]
-カバンがゴミ箱に突っ込んであったり、[plc]
+[backlay]
+[layopt layer=12 page="back" visible="false"]
+[trans layer="base" time="1000" method="crossfade"]
+[wt]
 
 
-机そのものが廊下にでていたりと、[plc]
+;[dis_all_message]
+;;暗転
+;[strans storage="black" time="800"]
+;
+;;メッセージ復帰
+;[SetupMessageWindow]
 
+その他にも、[plc]
 
+;教室
+[strans storage="kyositu_m" time="500"]
+
+[showstandimage who=najimi face=do]
 [shownametag name="縁" visible=true]
-「……」[plc]
+「――っ！　――――ッ！！」[plc]
 
 
+[dis_all_chara_fade]
+まぁ、色々あったが……。[plc]
 
-色々あったが、[plc]
+[nowait]
+[showstandimage who=gaia face=egao time="0" nobust="true"]
+「よう、きょうだ――」[plc]
+
+[strans storage="black" time="0"]
+[dis_all_message]
+[dis_all_chara_fade]
+[wait time="200"]
 
 
-[shownametag name="ガイア" visible=true]
-「よう、きょうだ（省」[plc]
-
-
-
+;メッセージ復帰
+[SetupMessageWindow]
+[strans storage="okujo_m"]
 色々とあったが、あっという間に放課後がやってきた。[plc]
 
 
 
 ;[場面転換、屋上]
 
-
+[showstandimage who=haruka face=keibetsu]
 [shownametag name="遥香" visible=true]
 「さて、」[plc]
 
@@ -111,6 +130,7 @@
 [shownametag name="大樹" visible=true]
 「……」[plc]
 
+[dis_all_chara_fade]
 
 
 午後になっても、相変わらずここは風が強い。[plc]
@@ -127,10 +147,10 @@
 
 もしかすると、結構ひと目を気にするひとなのかもしれない。[plc]
 
-
+[showstandimage who=haruka face=keibetsu time="0"]
 [shownametag name="遥香" visible=true]
 「思ったんだけどさ。手伝ってくれてた全員を、[lr]
-一人一人説得したところで、時間ばっかり掛かっちゃうんだよね」[plc]
+　一人一人説得したところで、時間ばっかり掛かっちゃうんだよね」[plc]
 
 [shownametag name="遥香" visible=true]
 「そもそも、自分の意志じゃ決められない子もいると思う」[plc]
