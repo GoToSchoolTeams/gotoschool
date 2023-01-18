@@ -4,7 +4,7 @@
 [strans storage="white"  time="4000" canskip="false"]
 
 ;1秒待機
-[wait time="1000" canskip="false"]f2
+[wait time="1000" canskip="false"]
 
 ;シネマモードON
 [cinema time=3000]

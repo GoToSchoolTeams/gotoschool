@@ -16,6 +16,13 @@
 [locate x=0 y=620]
 [button graphic="back" storage="title.ks"]
 
+
+;temp
+;‚¨‚µÀ‘•—p
+[locate x=1100 y=620]
+[button graphic="tempDebug" storage="tempDebug.ks"]
+
+
 ;—y
 [locate x=80 y=40]
 [button graphic="harukaDebug" storage="harukaDebug.ks"]
