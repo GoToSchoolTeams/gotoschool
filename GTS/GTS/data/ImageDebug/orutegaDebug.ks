@@ -5,38 +5,36 @@
 [SetupMessageWindow]
 
 ;立ち絵と名前欄の表示
-[showstandimage who=satori face=futsu]
-[shownametag name="悟" visible=true]
-「満目　悟です。[l][r]
-　表情差分を見ていきます」[plc]
+[showstandimage who=orutega face=normal]
+[shownametag name="オルテガ" visible=true]
+「オルテガにゃん。[l][r]
+　表情差分を見てくニャリ」[plc]
 
+;kanasii
+[showstandimage who=orutega face=kanasii]
+[shownametag name="オルテガ" visible=true]
+「kanasii」[plc]
 
-;【pose1】
-[showstandimage who=satori face=naki]
-[shownametag name="悟" visible=true]
-「私はpose1しかありませぇん。[l][r]
-　表情も三つだけですぅ」[plc]
+;normal
+[showstandimage who=orutega face=normal]
+[shownametag name="オルテガ" visible=true]
+「normal」[plc]
 
-;futsu
-[showstandimage who=satori face=futsu]
-[shownametag name="悟" visible=true]
-「futsu」[plc]
+;normal2
+[showstandimage who=orutega face=normal2]
+[shownametag name="オルテガ" visible=true]
+「normal2」[plc]
 
-;naki
-[showstandimage who=satori face=naki]
-[shownametag name="悟" visible=true]
-「naki」[plc]
-
-;otyokuri
-[showstandimage who=satori face=otyokuri]
-[shownametag name="悟" visible=true]
-「otyokuri」[plc]
+;odoroki
+[showstandimage who=orutega face=odoroki]
+[shownametag name="オルテガ" visible=true]
+「odoroki」[plc]
 
 ;締め
-[showstandimage who=satori face=naki]
-[shownametag name="悟" visible=true]
-「テレ差分もありませーん！[l][r]
-　お疲れさまでした」[plc]
+[showstandimage who=orutega face=normal]
+[shownametag name="オルテガ" visible=true]
+「テレ差分は無いニャリ。[l][r]
+　お疲れにゃ～ん！」[plc]
 
 
 [jump storage="ImageDebug.ks"]

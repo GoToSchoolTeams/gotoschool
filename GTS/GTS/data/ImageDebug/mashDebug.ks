@@ -5,38 +5,36 @@
 [SetupMessageWindow]
 
 ;立ち絵と名前欄の表示
-[showstandimage who=satori face=futsu]
-[shownametag name="悟" visible=true]
-「満目　悟です。[l][r]
-　表情差分を見ていきます」[plc]
+[showstandimage who=mash face=normal]
+[shownametag name="マッシュ" visible=true]
+「マッシュでござる。[l][r]
+　表情差分を見ていきますぞ」[plc]
 
+;doya
+[showstandimage who=mash face=doya]
+[shownametag name="マッシュ" visible=true]
+「kanasii」[plc]
 
-;【pose1】
-[showstandimage who=satori face=naki]
-[shownametag name="悟" visible=true]
-「私はpose1しかありませぇん。[l][r]
-　表情も三つだけですぅ」[plc]
+;ikari
+[showstandimage who=mash face=ikari]
+[shownametag name="マッシュ" visible=true]
+「ikari」[plc]
 
-;futsu
-[showstandimage who=satori face=futsu]
-[shownametag name="悟" visible=true]
-「futsu」[plc]
+;normal
+[showstandimage who=mash face=normal]
+[shownametag name="マッシュ" visible=true]
+「normal」[plc]
 
-;naki
-[showstandimage who=satori face=naki]
-[shownametag name="悟" visible=true]
-「naki」[plc]
-
-;otyokuri
-[showstandimage who=satori face=otyokuri]
-[shownametag name="悟" visible=true]
-「otyokuri」[plc]
+;odoroki
+[showstandimage who=mash face=odoroki]
+[shownametag name="マッシュ" visible=true]
+「odoroki」[plc]
 
 ;締め
-[showstandimage who=satori face=naki]
-[shownametag name="悟" visible=true]
-「テレ差分もありませーん！[l][r]
-　お疲れさまでした」[plc]
+[showstandimage who=mash face=normal]
+[shownametag name="マッシュ" visible=true]
+「テレ差分はござらん。[l][r]
+　お疲れですぞ！」[plc]
 
 
 [jump storage="ImageDebug.ks"]
