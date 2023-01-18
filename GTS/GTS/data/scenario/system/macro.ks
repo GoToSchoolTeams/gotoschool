@@ -104,6 +104,28 @@
 [backlay]
 [endmacro]
 
+;【メッセージレイヤの全削除】
+[macro name="dis_all_message_fade"]
+	[backlay]
+	;生成してるメッセージレイヤをすべて非表示に
+	[layopt layer="message0" page=back visible=false]
+	[layopt layer="message1" page=back visible=false]
+	[layopt layer="message2" page=back visible=false]
+	[layopt layer="message3" page=back visible=false]
+	[layopt layer="message4" page=back visible=false]
+	[layopt layer="message5" page=back visible=false]
+	[layopt layer="message6" page=back visible=false]
+	[layopt layer="message7" page=back visible=false]
+	[layopt layer="message8" page=back visible=false]
+	[layopt layer="message9" page=back visible=false]
+	[layopt layer="message10" page=back visible=false]
+	;各種パーツも
+	[layopt layer=7 page="back" visible="false"]
+	[layopt layer=8 page="back" visible="false"]
+	[layopt layer=9 page="back" visible="false"]
+	[trans method="crossfade" time=%time|500]
+[endmacro]
+
 ;;トランジションマクロ\n
 ;;用例:@strans storage="背景名" method=crossfade time=1500
 ;;storage=背景画像を指定する\nデフォルトはblack, 画像ファイル名
