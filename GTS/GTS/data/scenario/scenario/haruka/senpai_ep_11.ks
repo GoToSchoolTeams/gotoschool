@@ -216,29 +216,36 @@
 「……」[plc]
 
 
-
 額を抑えながら、先輩はあの時のメンバーの名前を上げた。[plc]
+[jump storage="senpai_ep_11.ks" target="*Brunch"]
 ;//【選択肢】
-[SetupBrunch name="prologue_ep_11_0"]
-[AddBrunch text="1.旗立 縁" storage="senpai_ep_12.ks"]
-[AddBrunch text="2.安倍 みゆき（一年の中心人物）" storage="senpai_ep_12.ks"]
-[AddBrunch text="3.寺門 あかね（二年の中心人物）" storage="senpai_ep_12.ks"]
-[AddBrunch text="4.福岡 桜子（三年の中心人物）" storage="senpai_ep_12.ks"]
-[ShowBrunch]
-[s]
+
+
 
 ;//【二回目以降の本文（ただし、縁を選択するときは要らない）】
 ;//【というか、縁イベントには選択すること無く勝手に進む】
 
-
-;そうして、あっという間に放課後がやってきた。[lr]
-;正直、今日も辛い日々だった。[plc]
-
-
-;さて、[plc]
+*After
+そうして、あっという間に放課後がやってきた。[lr]
+正直、今日も辛い日々だった。[plc]
 
 
-;[shownametag name="遥香" visible=true]
-;「誰を説得しに行こうか？」[plc]
+さて、[plc]
 
 
+[shownametag name="遥香" visible=true]
+「誰を説得しに行こうか？」[plc]
+
+*Brunch
+[SetupBrunch name="prologue_ep_11_0"]
+[AddBrunch text="安倍 みゆき（一年の中心人物）" storage="senpai_ep_12_miyuki.ks"]
+[AddBrunch text="寺門 あかね（二年の中心人物）" storage="senpai_ep_12_akane.ks"]
+[AddBrunch text="福岡 桜子（三年の中心人物）" storage="senpai_ep_12_sakurako.ks"]
+[ShowBrunch]
+[s]
+
+*AllClear
+[SetupBrunch name="prologue_ep_11_1"]
+[AddBrunch text="旗立 縁" storage="senpai_ep_12.ks"]
+[ShowBrunch]
+[s]

@@ -1,6 +1,5 @@
 [SetupMessageWindow]
 [strans storage="okujo_m"]
-
 [fadeinbgm storage="evening" time="1000"]
 [showstandimage who=haruka face=kuno]
 [shownametag name="—y" visible=true]

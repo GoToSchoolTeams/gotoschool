@@ -135,7 +135,9 @@
 [macro name="SetupMessageWindow"]
 	;全削除
 	[dis_all_message]
-	[dis_all_chara]
+	[if exp="mp.left_chara!=1"]
+		[dis_all_chara]
+	[endif]
 	[eval exp="global.ClearSystemMessage()"]
 	[backlay]
 	;メッセージレイヤ画像表示
@@ -178,6 +180,7 @@
 	[fadese volume="100" time="1"]
 	;historyを有効化する
 	[history enabled="true" output="true"]
+	[kagtag left_chara=%left_chara|1]
 [endmacro]
 
 [macro name="SetupSelectWindow"]
@@ -291,11 +294,12 @@
 @position layer="message2" width=800 height=120 top=300 left=240 opacity="128" page="fore" visible="false" margint="40"
 @position layer="message3" width=800 height=120 top=440 left=240 opacity="128" page="fore" visible="false" margint="40"
 @position layer="message4" width=800 height=120 top=560 left=240 opacity="128" page="fore" visible="false" margint="40"
-@eval exp="f.Brunch[mp.name] = 0"
 @eval exp="tf.Brunch.clear()"
 [kagtag name=%name]
 [endmacro]
 
+;;選択肢を追加する
+;;storage=シナリオファイル名\nジャンプ先のシナリオファイルを指定します, シナリオファイル名
 [macro name="AddBrunch"]
 @eval exp="tf.temp = new Dictionary()"
 @eval exp="tf.temp['text'] = mp.text"

@@ -1,0 +1,1083 @@
+
+
+
+
+
+――ボーン、ボーンボーン。[plc]
+
+
+[shownametag name="遥香" visible=true]
+「さぁーって」[plc]
+
+
+[shownametag name="大樹" visible=true]
+「お昼ですね」[plc]
+
+
+[shownametag name="遥香" visible=true]
+「昼ですね」[plc]
+
+
+
+――ボーン、ボーンボーン。[plc]
+
+
+
+昼食を告げるチャイムが、軽やかに鳴る。[plc]
+
+
+
+昼が始まる直前に抜け出して、俺達は屋上に集まっていた。[plc]
+
+
+[shownametag name="遥香" visible=true]
+「んっしょ」[plc]
+
+
+
+俺は辛いから抜けたんだけど、先輩は何故か居た。[plc]
+
+
+[shownametag name="遥香" visible=true]
+「はい、谷口君のぶん」[plc]
+
+
+[shownametag name="大樹" visible=true]
+「ぁ、ども」[plc]
+
+
+
+あの日から、[lr]
+俺と先輩は昼休みは屋上に集まって飯を食うことになったのだが、[plc]
+
+[shownametag name="遥香" visible=true]
+「つーか、食費。請求したいんだけど」[plc]
+
+
+[shownametag name="大樹" visible=true]
+「ぇー」[plc]
+
+
+
+いつまで経っても弁当を持ってこない俺に、[lr]
+先輩は弁当を作ってきてくれるようになっていた。[plc]
+
+[shownametag name="遥香" visible=true]
+「毎回、たかられちゃたまんないからね」[plc]
+
+
+
+とは言うが、これは正直嬉しい。[lr]
+頑張った甲斐があった。[plc]
+
+[shownametag name="遥香" visible=true]
+「もっと別のところを頑張ってよね」[plc]
+
+
+
+思考が、ダダ漏れだったらしい。[plc]
+
+
+[shownametag name="大樹" visible=true]
+「すんません」[plc]
+
+
+
+謝りながらも、弁当のフタを開ける。[plc]
+
+
+
+うむ、今日は形もまずまずじゃないか。[plc]
+
+
+[shownametag name="大樹" visible=true]
+「……うん、」[plc]
+
+
+
+美味い。今日はちゃんと美味いぞ。[plc]
+
+
+
+はじめの頃は、下手くそともなんとも言えない
+平均以下の食い物が陳列してある、という感じだったが、[plc]
+
+
+今日は見た目も、味も並以上はある。[lr]
+着実に、成長している。[plc]
+
+[shownametag name="大樹" visible=true]
+「……」[plc]
+
+
+
+ちょっと感動した。[plc]
+
+
+[shownametag name="遥香" visible=true]
+「……ね、どう今日のは？[lr]
+割りと良い出来だと思ってるんだけど」[plc]
+
+
+俺の好感触を察したのか、先輩はウキウキとそう尋ねてくる。[plc]
+
+
+[shownametag name="大樹" visible=true]
+「……」[plc]
+
+
+
+ここで、『美味い』と言ってしまうのは容易い。[plc]
+
+
+
+容易いが、はたしてそれでいいのだろうか？[lr]
+それが、先輩のためになるのだろうか？[plc]
+
+
+ここで満足してしまっては、コレで終わりではないか？[plc]
+
+
+
+いや、むしろ、ここが到達点となり、[lr]
+劣化してしまうのではないか？[plc]
+
+
+それはいかん、それはイカンぞ！！[plc]
+
+
+[shownametag name="大樹" visible=true]
+「１０段階評価で言うなら、６＋というところでしょうか」[plc]
+
+
+[shownametag name="遥香" visible=true]
+「あっそ」[plc]
+
+
+
+取り上げられた。[plc]
+
+
+[shownametag name="大樹" visible=true]
+「美味いです。超美味いです。返して下さい」[plc]
+
+
+[shownametag name="遥香" visible=true]
+「はい」[plc]
+
+
+
+満足気な顔をして、先輩は弁当箱をよこした。[plc]
+
+
+
+イカンね、どうも。[lr]
+妙な邪推は俺には全然向かないね。[plc]
+
+[shownametag name="遥香" visible=true]
+「……」[plc]
+
+
+
+バクバクと弁当に喰らいつく俺を、[lr]
+先輩は満足気な顔で見ていたが。[plc]
+
+[shownametag name="遥香" visible=true]
+「……ぁ」[plc]
+
+
+
+ハッと気付いた様な顔で、先輩は俺の弁当を再び取り上げた。[plc]
+
+
+[shownametag name="大樹" visible=true]
+「――＃＄＠※＊＆＆％％％ッ！！！」[plc]
+
+
+[shownametag name="遥香" visible=true]
+「飲み込みなさい」[plc]
+
+
+
+グッと、喉の奥に飯を押し込む。[plc]
+
+
+[shownametag name="大樹" visible=true]
+「ちょ、先輩なにす――」[plc]
+
+
+[shownametag name="遥香" visible=true]
+「ご飯を食べる前に、やることがあるわ」[plc]
+
+
+[shownametag name="大樹" visible=true]
+「は？」[plc]
+
+
+
+なんだろう、体操なら食後にしてほしいものだが。[plc]
+
+
+[shownametag name="大樹" visible=true]
+「やるって、何を――」[plc]
+
+
+[shownametag name="遥香" visible=true]
+「縁ちゃんとこ行くわよ」[plc]
+
+
+
+ピタリと、言葉が止まった。[plc]
+
+
+[shownametag name="遥香" visible=true]
+「縁ちゃんは、放課後すぐ部活に行っちゃうし、それに……」[plc]
+
+
+[shownametag name="遥香" visible=true]
+「……もう、縁ちゃんしか残ってないわ」[plc]
+
+
+[shownametag name="大樹" visible=true]
+「……」[plc]
+
+
+
+『断る！』と言ってしまいたかったが、[plc]
+
+
+[shownametag name="大樹" visible=true]
+「……」[plc]
+
+
+
+確かに、もう縁しか残っていない。[plc]
+
+
+[shownametag name="大樹" visible=true]
+「だけど、あいつ……」[plc]
+
+
+[shownametag name="遥香" visible=true]
+「言いたいことがあるのは分かるわ」[plc]
+
+
+[shownametag name="遥香" visible=true]
+「だけど、文句はやってからにしましょうよ。ね？」[plc]
+
+
+[shownametag name="大樹" visible=true]
+「……」[plc]
+
+
+
+ウィンクする先輩に、[lr]
+言いたいことは山ほどあったが、[plc]
+
+[shownametag name="大樹" visible=true]
+「……わかりましたよ」[plc]
+
+
+
+悲しいかな、それらは全部。[lr]
+単なる感情論だった。[plc]
+
+
+
+
+
+
+;[場面転換、食堂]
+
+
+
+縁は、食堂に居た。[plc]
+
+
+[shownametag name="ガイア" visible=true]
+「おう！　兄弟じゃないか、最近どこに――」[plc]
+
+
+[shownametag name="大樹" visible=true]
+「黙ってろ」[plc]
+
+
+[shownametag name="縁" visible=true]
+「……」[plc]
+
+
+
+縁は、一人で素うどんを食べている。[plc]
+
+
+
+横には、小さなタッパーの様な物を持ち込んでいたが、[lr]
+メインは食堂で食べる、という感じだった。[plc]
+
+[shownametag name="大樹" visible=true]
+「……ふーん」[plc]
+
+
+
+食堂で食べるのか。一人で。[plc]
+
+
+[shownametag name="縁" visible=true]
+「……」[plc]
+
+
+[shownametag name="大樹" visible=true]
+「……」[plc]
+
+
+
+黙々と、縁は素うどんを口に運ぶ。[plc]
+
+
+
+そういや縁の学校での動向なんて、[lr]
+全く気にしたこともなかった。[plc]
+
+
+そのせいか、[lr]
+『食堂で素うどんを一人で食べてる』ってだけで、何か新鮮だ。[plc]
+
+
+一人、一人か……。[lr]
+;[なんか、演出がほしいところ]
+
+
+こいつ、ずっと一人だよな。[plc]
+
+
+[shownametag name="大樹" visible=true]
+「……ボッチってわけじゃ、ないんだろうけどな」[plc]
+
+
+[shownametag name="ガイア" visible=true]
+「どうした兄弟？　ポッチがなんだって？？」[plc]
+
+
+
+鳴き喚く豚にニードロップをかますと、[lr]
+その横を先輩がすり抜けていく。[plc]
+
+[shownametag name="遥香" visible=true]
+「ここ、座るわね」[plc]
+
+
+
+そのまま、縁の前の席に座る。[lr]
+その手は、いつの間にか注文していた肉うどんがあった。[plc]
+
+[shownametag name="縁" visible=true]
+「……遥香先輩」[plc]
+
+
+
+縁は、驚いているようだった。[plc]
+
+
+
+それは、先輩が登場したからというよりは、[lr]
+誰かが自分に声を掛けたからという感じで。[plc]
+
+[shownametag name="縁" visible=true]
+「どうぞ」[plc]
+
+
+
+スッと、姿勢を正した。[plc]
+
+
+[shownametag name="遥香" visible=true]
+「何、いつも一人なの？」[plc]
+
+
+[shownametag name="縁" visible=true]
+「……大体」[plc]
+
+
+[shownametag name="遥香" visible=true]
+「もしかして、誰か待ってるとか？」[plc]
+
+
+[shownametag name="縁" visible=true]
+「……」[plc]
+
+
+
+それは、完全な先輩の軽口だったが、[plc]
+
+
+[shownametag name="縁" visible=true]
+「……違います」[plc]
+
+
+
+ちょっと思案して、縁は否定した。[plc]
+
+
+[shownametag name="遥香" visible=true]
+「……そっか」[plc]
+
+
+
+それ自体は、先輩はどうでも良さそうだった。[plc]
+
+
+
+俺だってどうでもいい。[plc]
+
+
+[shownametag name="ガイア" visible=true]
+「おい、兄弟何を見て――」[plc]
+
+
+
+じんちゅうってどこだったっけ？[plc]
+
+
+[shownametag name="遥香" visible=true]
+「……うーん」[plc]
+
+
+
+先輩は、なにごとかいいあぐねているようで。[plc]
+
+
+[shownametag name="縁" visible=true]
+「あの、先輩……」[plc]
+
+
+
+いつの間にか、縁は箸を置いていた。[plc]
+
+
+[shownametag name="縁" visible=true]
+「今朝は、すみませんでした」[plc]
+
+
+[shownametag name="遥香" visible=true]
+「え？　……あ、うん。なんかしたっけ？」[plc]
+
+
+[shownametag name="縁" visible=true]
+「いえ、……」[plc]
+
+
+
+今日の縁は、やけに大人しい。[plc]
+
+
+
+この間なんか、先輩にむかってアレほど噛み付いたっていうのに。[lr]
+今日はまるで借りてきた猫のようだ。[plc]
+
+
+いや、怯えてるのか、ありゃ？[plc]
+
+
+[shownametag name="縁" visible=true]
+「……先輩、あの。毎朝なんですか？」[plc]
+
+
+[shownametag name="遥香" visible=true]
+「へ？」[plc]
+
+
+[shownametag name="縁" visible=true]
+「その、だいちゃ……谷口君と」[plc]
+
+
+[shownametag name="遥香" visible=true]
+「ぇ……あ、うん。あ、朝の登校？　うん、毎日だよ」[plc]
+
+
+[shownametag name="縁" visible=true]
+「なんで？」[plc]
+
+
+[shownametag name="遥香" visible=true]
+「だってほら、谷口君。逃げんじゃん」[plc]
+
+
+[shownametag name="縁" visible=true]
+「あぁ」[plc]
+
+
+
+『なるほど』と呟いて、縁は納得した様だった。[plc]
+
+
+[shownametag name="大樹" visible=true]
+「……」[plc]
+
+
+
+あらゆる方面から信用ないな、俺。[plc]
+
+
+[shownametag name="遥香" visible=true]
+「それがどうかした？」[plc]
+
+
+[shownametag name="縁" visible=true]
+「いや、その……できれば、いや」[plc]
+
+
+[shownametag name="遥香" visible=true]
+「？」[plc]
+
+
+
+ハッキリしない縁の態度に、[lr]
+先輩はワケが分からんという顔をした。[plc]
+
+
+俺は、[plc]
+
+
+[shownametag name="大樹" visible=true]
+「……」[plc]
+
+
+[shownametag name="ガイア" visible=true]
+「見ろ兄弟、これが学食の食材全てをぶち込んだ新世界の学食！」[plc]
+
+
+[shownametag name="ガイア" visible=true]
+「我ら三位一体となって、別々に注文し。[lr]
+足し合わせることで新世界の扉を開く」[plc]
+
+[shownametag name="ガイア" visible=true]
+「その名も――」[plc]
+
+
+[shownametag name="ガ・マ・オ" visible=true bust="false"]
+「「「――バベル・カレーッ！！！！！」」」」[plc]
+
+
+[shownametag name="大樹" visible=true]
+「おらっ」[plc]
+
+
+[shownametag name="ガ・マ・オ" visible=true bust="false"]
+「「「――＃＄＠※＊＆＆％％％ッ！！！」」」[plc]
+
+
+
+新世界を頭から叩きこんでやると、[lr]
+豚三匹はキャンキャン鳴いてどこかに消え失せた。[plc]
+
+[shownametag name="縁" visible=true]
+「……あの、もう別に。一緒に行くことは構わないんです」[plc]
+
+
+[shownametag name="遥香" visible=true]
+「？」[plc]
+
+
+[shownametag name="縁" visible=true]
+「でも……」[plc]
+
+
+
+縁が、余計な事を言いそうになっているのは、[lr]
+もう明らかで。[plc]
+
+[shownametag name="大樹" visible=true]
+「……おい」[plc]
+
+
+[shownametag name="縁" visible=true]
+「！？」[plc]
+
+
+
+俺の登場に、縁は驚いたようだった。[plc]
+
+
+[shownametag name="遥香" visible=true]
+「……ち、」[plc]
+
+
+
+先輩は何やら舌打ちしてるし。[lr]
+……まぁ、そんな事はどうでもいい。[plc]
+
+[shownametag name="大樹" visible=true]
+「関係ねぇだろ、お前には」[plc]
+
+
+[shownametag name="縁" visible=true]
+「……」[plc]
+
+
+
+縁は答えない。[lr]
+が、[plc]
+
+
+小さく、『そうね』と唇を結んで。[plc]
+
+
+[shownametag name="大樹" visible=true]
+「先輩、もう昼休みも終わります。本題、入って下さい」[plc]
+
+
+[shownametag name="遥香" visible=true]
+「ちょっと、谷口君……ごめんね、いきなり。あのね、」[plc]
+
+
+[shownametag name="大樹" visible=true]
+「先輩が戻ってきて欲しいんだってさ。[lr]
+お前、戻ってくる気ある？」[plc]
+
+
+先輩に言わせると長くなりそうだったので、[lr]
+さっさと俺が言ってしまう。[plc]
+
+
+睨まれている気がするが、知ったことか。[plc]
+
+
+[shownametag name="縁" visible=true]
+「その答えは、もう言った筈だわ」[plc]
+
+
+[shownametag name="大樹" visible=true]
+「そうかよ」[plc]
+
+
+
+言い捨てて、[lr]
+縁のトレーに２８０円を叩きつけた。[plc]
+
+[shownametag name="大樹" visible=true]
+「おら、長話で素うどん伸びちまったろ？　新しく買えばいい」[plc]
+
+
+[shownametag name="縁" visible=true]
+「……あんた、」[plc]
+
+
+[shownametag name="遥香" visible=true]
+「ちょっと谷口君！　いくらなんでも――」[plc]
+
+
+
+先輩の声を遮るように、手を振る。[plc]
+
+
+[shownametag name="大樹" visible=true]
+「先輩、こんなのといくら話してても無駄ですよ」[plc]
+
+
+[shownametag name="遥香" visible=true]
+「だからって―」[plc]
+
+
+[shownametag name="大樹" visible=true]
+「そんなことより俺、弁当の続きが食いたいです」[plc]
+
+
+[shownametag name="大樹" visible=true]
+「さっさと行きましょ」[plc]
+
+
+
+先輩の言葉を完全に聞き流して、[lr]
+引っ張っていこうとすると、[plc]
+
+[shownametag name="縁" visible=true]
+「……弁当？」[plc]
+
+
+
+縁が呟いた。[plc]
+
+
+[shownametag name="遥香" visible=true]
+「ぁ、私作るようになって……縁ちゃんも食べる？」[plc]
+
+
+
+それを好機と捉えたのか、先輩は言葉を出すが、[plc]
+
+
+[shownametag name="縁" visible=true]
+「……へぇ」[plc]
+
+
+
+縁は、それを聞いてはいなかった。[plc]
+
+
+[shownametag name="縁" visible=true]
+「弁当、嫌いじゃなかったんだ」[plc]
+
+
+[shownametag name="大樹" visible=true]
+「……ひとは変わるんだよ」[plc]
+
+
+
+――ボーン、ボーンボーン。[plc]
+
+
+
+これは、終了のチャイムか。[plc]
+
+
+[shownametag name="大樹" visible=true]
+「ちっ」[plc]
+
+
+
+随分長いこと、話していたらしい。[plc]
+
+
+
+もう昼休みも終わりか、残念だな。[lr]
+こんな不愉快な奴との会話で終わっちまった。[plc]
+
+[shownametag name="大樹" visible=true]
+「先輩、後で食わしてくださいよ。弁当」[plc]
+
+
+[shownametag name="遥香" visible=true]
+「え？　ちょ―」[plc]
+
+
+
+強引に上書きして、縁に背を向ける。[plc]
+
+
+
+後ろからは、先輩の叱責が聞こえてくるが、[lr]
+知ったことか。[plc]
+
+
+結局、縁は説得に応じなかった。[lr]
+それでいい。[plc]
+
+[shownametag name="大樹" visible=true]
+「……」[plc]
+
+
+
+だけど、なんで俺はこんなイライラしてるんだろう？[plc]
+
+
+[shownametag name="大樹" visible=true]
+「くそ――」[plc]
+
+
+
+イライラを、声に出してぶつける前に。[plc]
+
+
+[shownametag name="遥香" visible=true]
+「――聞けよ！　この引きこもりやろうッッッ！！！」[lr]
+;[ガスッ！]
+
+
+先輩に、思いっきりケツを蹴り飛ばされていた。[plc]
+
+
+
+
+
+
+
+;[時間経過]
+
+
+
+結局、その日は授業になんて全く集中できなかった。[plc]
+
+
+
+いや、もともと集中はしてなかったが、イライラが酷くて、[lr]
+授業中にクラスメイトに何をされたのかさえ覚えていなかった。[plc]
+
+
+縁が目に入るたびに、むかっ腹が立って。[plc]
+
+
+
+授業が終わると、肩にはゴミクズが一杯で。[plc]
+
+
+
+まぁ、先輩に蹴り飛ばされた時に
+すっ転んだ額の傷の方が深刻だったけど、とにかく。[plc]
+
+
+あっと、いう間に放課後になった。[plc]
+
+
+
+で。[lr]
+;[場面転換、屋上]
+
+[shownametag name="大樹" visible=true]
+「――なんでコイツがいるんすか？」[plc]
+
+
+[shownametag name="縁" visible=true]
+「……」[plc]
+
+
+
+放課後。[lr]
+いつもの様に屋上に行ったら、縁が居た。[plc]
+
+[shownametag name="遥香" visible=true]
+「ん……入ってくれるって」[plc]
+
+
+[shownametag name="大樹" visible=true]
+「お前、さっきは…」[plc]
+
+
+[shownametag name="縁" visible=true]
+「ひとは変わるものよ」[plc]
+
+
+[shownametag name="大樹" visible=true]
+「てめぇ！」[plc]
+
+
+[shownametag name="遥香" visible=true]
+「まーまーまー、落ち着いて谷口君」[plc]
+
+
+[shownametag name="遥香" visible=true]
+「というか、君には何も言う資格は無いよ」[plc]
+
+
+[shownametag name="大樹" visible=true]
+「……」[plc]
+
+
+
+先輩にそう言われたら、黙るしかない。[plc]
+
+
+[shownametag name="縁" visible=true]
+「……」[plc]
+
+
+
+んだよ、睨むんじゃねーよ。[plc]
+
+
+[shownametag name="遥香" visible=true]
+「ま、要はさ――」[plc]
+
+
+
+先輩の説明によると。[lr]
+あの後、先輩にやっぱり戻りたいという旨を伝えたらしい。[plc]
+
+
+実はここまでのボイコットは、[lr]
+正直したくなかったとかなんとか。[plc]
+
+
+本当かよ。[plc]
+
+
+[shownametag name="縁" visible=true]
+「嘘はないわ」[plc]
+
+
+[shownametag name="大樹" visible=true]
+「嘘は、だろ」[plc]
+
+
+
+黙ってる事はあるはずだ。[plc]
+
+
+[shownametag name="遥香" visible=true]
+「噛み付くねぇ、谷口君」[plc]
+
+
+[shownametag name="大樹" visible=true]
+「……」[plc]
+
+
+
+こればっかりは、どうしようもない。[plc]
+
+
+[shownametag name="遥香" visible=true]
+「ま、何にせよ。一歩前進した！」[plc]
+
+
+
+そう言って、先輩はおどけて拍手した。[plc]
+
+
+[shownametag name="大樹" visible=true]
+「……」[plc]
+
+
+
+とてもする気にはなれないが、[plc]
+
+
+[shownametag name="縁" visible=true]
+「……」[plc]
+
+
+
+縁のやろうはしていやがるので、やるしかないだろう。[plc]
+
+
+
+パチパチと三人だけの拍手が虚しく響いたあと、先輩は続けた。[plc]
+
+
+[shownametag name="遥香" visible=true]
+「それで、今後の方針なんだけど」[plc]
+
+
+[shownametag name="縁" visible=true]
+「どうしますか？」[plc]
+
+
+[shownametag name="遥香" visible=true]
+「正直、縁ちゃんの力を借りたいわ」[plc]
+
+
+[shownametag name="縁" visible=true]
+「……」[plc]
+
+
+
+懇願するように、先輩は縁に言う。[plc]
+
+
+[shownametag name="縁" visible=true]
+「というと？」[plc]
+
+
+[shownametag name="遥香" visible=true]
+「実は縁ちゃんとこ行く前に、大方のところには行ったのよ」[plc]
+
+
+[shownametag name="縁" visible=true]
+「それで？」[plc]
+
+
+[shownametag name="遥香" visible=true]
+「これ」[plc]
+
+
+
+そう言って、先輩は胸の前で小さくバッテンを作る。[plc]
+
+
+[shownametag name="縁" visible=true]
+「でしょうねぇ…」[plc]
+
+
+[shownametag name="遥香" visible=true]
+「ま、ちょっととんでもないお荷物が居たこともあってね」[plc]
+
+
+[shownametag name="大樹" visible=true]
+「……」[plc]
+
+
+
+その呟きは、ちょっと酷くないっすか先輩。[plc]
+
+
+[shownametag name="縁" visible=true]
+「……」[plc]
+
+
+
+少し思案してから、縁は言った。[plc]
+
+
+[shownametag name="縁" visible=true]
+「やれるかぎりやりましょう……。[lr]
+一応、あの時のリーダーは私でしたし」[plc]
+
+[shownametag name="遥香" visible=true]
+「そうしてくれる？」[plc]
+
+
+[shownametag name="縁" visible=true]
+「ええ、遥香先輩のためなら」[plc]
+
+
+
+その笑顔は、見たこともないくらい優しい笑顔で。[plc]
+
+
+[shownametag name="大樹" visible=true]
+「……」[plc]
+
+
+
+なんかムカついた。[plc]
+
+
+[shownametag name="縁" visible=true]
+「できれば、あの時のメンバーをもう一度集めて貰えますか？[lr]
+あのメンバーが納得すれば、全員納得すると思います」[plc]
+
+[shownametag name="遥香" visible=true]
+「そうだね、それは任せて」[plc]
+
+
+
+トントン拍子で、話が進んでいく。[plc]
+
+
+[shownametag name="縁" visible=true]
+「どうにかしますよ」[plc]
+
+
+
+その様子が、何か誇らしげで、[plc]
+
+
+[shownametag name="大樹" visible=true]
+「……」[plc]
+
+
+
+気に入らねぇな。[plc]
+
+
+
+俺がいじけている間に、計画は決まっていき。[plc]
+
+
+[shownametag name="遥香" visible=true]
+「じゃ、お願いね！」[plc]
+
+
+[shownametag name="縁" visible=true]
+「任せてください」[plc]
+
+
+[shownametag name="大樹" visible=true]
+「……」[plc]
+
+
+
+俺が小さく舌打ちしたことは、誰にも気づいて貰えなかった。[plc]
+
+
+
+;[→縁の傲慢]
+
