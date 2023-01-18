@@ -25,4 +25,7 @@
 [locate x=500 y=500]
 [button graphic="title_config" storage="Config.ks"]
 
+[locate x=500 y=600]
+[button graphic="ImageDebug" storage="ImageDebug.ks"]
+
 [endnowait]
