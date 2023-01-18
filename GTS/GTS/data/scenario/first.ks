@@ -56,6 +56,10 @@
 [eval exp="Storages.addAutoPath('bgimage/event_cg/')"]
 [eval exp="Storages.addAutoPath('bgimage/tuning/')"]
 
+;ImageDebug用(by Mahiro)
+;dataフォルダのImageDebugに素材もスクリプトも全部あります。（後で消しやすいよう）
+[eval exp="Storages.addAutoPath('ImageDebug/')"]
+
 ;-------------------------
 ; 導入
 ;-------------------------
