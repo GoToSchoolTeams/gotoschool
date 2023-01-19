@@ -126,7 +126,7 @@
 	[trans method="crossfade" time=%time|500]
 [endmacro]
 
-;;トランジションマクロ\n
+;;【トランジションマクロ】\n
 ;;用例:@strans storage="背景名" method=crossfade time=1500
 ;;storage=背景画像を指定する\nデフォルトはblack, 画像ファイル名
 ;;method=トランジション方法\nデフォルトはcrossfade, トランジションタイプ
@@ -152,7 +152,7 @@
 [kagtag noclear=%noclear blur=%blur]
 [endmacro]
 
-;;メッセージレイヤの初期化
+;;【メッセージレイヤの初期化】
 ;;シナリオ表示前に呼び出してください
 [macro name="SetupMessageWindow"]
 	;全削除
@@ -205,6 +205,7 @@
 	[kagtag left_chara=%left_chara|1]
 [endmacro]
 
+;;【選択し系？】
 [macro name="SetupSelectWindow"]
 	;メッセージ系は隠す
 	[position layer="message0" visible="false"]
@@ -212,7 +213,7 @@
 	[position layer="message2" visible="false"]
 [endmacro]
 
-;;システムレイヤのON・OFF
+;;【システムレイヤのON・OFF】
 ;; flagでtrue falseを指定してください
 [macro name="SystemMessageVisible"]
 	[position layer="message8"  visible="%flag"]
@@ -220,10 +221,11 @@
 	[position layer="message10" visible="%flag"]
 [endmacro]
 
-;;立ち絵表示のマクロ
-;;who=人物名, haruka, najimi, naruse, gaia, orutega, mash, satori
-;;pose=ポーズ番号
-;;face=表情番号
+;;【立ち絵表示のマクロ】
+;;who=人物名, haruka;najimi;naruse;gaia;orutega;mash;satori
+;;pose=ポーズ番号, 1;2
+;;face=表情名
+;;tere=照れてるかどうか, 論理値
 ;;page=画面\n指定しない場合はback, fore;back
 ;;layer=表示したい前景レイヤ番号, 前景レイヤ
 ;;pos=前景レイヤ位置\nレイヤ位置を自動的に決定します, レイヤ位置
@@ -262,7 +264,7 @@
 	[kagtag who=%who pose=%pose|1 face=%face notrans=%notrans tere=%tere page=%page size=%size nobust=%nobust]
 [endmacro]
 
-;;名前欄を表示する
+;;【名前欄を表示する】
 ;;bust=バストアップ画像の有無, 論理値
 [macro name="shownametag"]
 	[position layer="message1" visible=%visible|true]
@@ -279,7 +281,11 @@
 [kagtag bust=%bust]
 [endmacro]
 
-;;バストアップ画像を表示する
+;;【バストアップ画像を表示する】
+;;who=人物名, haruka;najimi;naruse;gaia;orutega;mash;satori
+;;pose=ポーズ番号, 1;2
+;;face=表情名
+;;tere=照れてるかどうか, 論理値
 [macro name="showbustup"]
 	[layopt layer=9 visible=%visible]
 	[if exp="mp.visible != 'false'"]
@@ -294,12 +300,12 @@
 	[kagtag who=%who pose=%pose|1 face=%face tere=%tere]
 [endmacro]
 
-;;バストアップ画像を非表示にする
+;;【バストアップ画像を非表示にする】
 [macro name="hidebust"]
 	[layopt layer=9 page="fore" visible=%visible]
 [endmacro]
 
-;;指定したシナリオにジャンプする(デバッグ中ならチャプター選択画面に飛ぶ)
+;;【指定したシナリオにジャンプする(デバッグ中ならチャプター選択画面に飛ぶ)】
 ;;storage=シナリオファイル名\nジャンプ先のシナリオファイルを指定します, シナリオファイル名
 [macro name="JumpChapter"]
 [if exp="tf.isDebug == true"]
@@ -309,6 +315,7 @@
 [endif]
 [endmacro]
 
+;;【ブランチを作る？】
 [macro name="SetupBrunch"]
 @dis_all_message
 @position layer="message0" width=800 height=120 top=20  left=240 opacity="128" page="fore" visible="false" margint="40"
@@ -320,7 +327,7 @@
 [kagtag name=%name]
 [endmacro]
 
-;;選択肢を追加する
+;;【選択肢を追加する
 ;;storage=シナリオファイル名\nジャンプ先のシナリオファイルを指定します, シナリオファイル名
 [macro name="AddBrunch"]
 @eval exp="tf.temp = new Dictionary()"
