@@ -17,6 +17,7 @@
 [link color="0xFFFFFF" exp="global.DebugJump('senpai_ep_9.ks')"]HARUKA_EP9(C)[r][endlink]
 [link color="0xFFFFFF" exp="global.DebugJump('senpai_ep_10.ks')"]HARUKA_EP10(C)[r][endlink]
 [link color="0xFFFFFF" exp="global.DebugJump('senpai_ep_11.ks')"]HARUKA_EP11(C)[r][endlink]
+[link color="0xFFFFFF" exp="global.DebugJump('senpai_ep_12_akane.ks')"]HARUKA_EP12_akane(C)[r][endlink]
 
 [locate x=200 y=35]
 ;[link color="0xFFFFFF" exp="global.DebugJump('senpai_ep_10.ks')"]HARUKA_EP10(N)[r][endlink]
