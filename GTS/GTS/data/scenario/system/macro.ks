@@ -224,7 +224,7 @@
 ;;【立ち絵表示のマクロ】
 ;;who=人物名, haruka;najimi;naruse;gaia;orutega;mash;satori
 ;;pose=ポーズ番号, 1;2
-;;face=表情名
+;;face=表情名, 画像ファイル名
 ;;tere=照れてるかどうか, 論理値
 ;;page=画面\n指定しない場合はback, fore;back
 ;;layer=表示したい前景レイヤ番号, 前景レイヤ
@@ -284,7 +284,7 @@
 ;;【バストアップ画像を表示する】
 ;;who=人物名, haruka;najimi;naruse;gaia;orutega;mash;satori
 ;;pose=ポーズ番号, 1;2
-;;face=表情名
+;;face=表情名, 画像ファイル名
 ;;tere=照れてるかどうか, 論理値
 [macro name="showbustup"]
 	[layopt layer=9 visible=%visible]
