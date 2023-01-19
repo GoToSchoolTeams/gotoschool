@@ -17,7 +17,7 @@
 
 
 ‹¹‚ğ’£‚Á‚Ä“š‚¦‚é‚ÆB[l][r]
-[showstandimage who=haruka face=ai nobust=true]
+[showstandimage who=haruka face=ai nobust=true time="300"]
 æ”y‚Í”æ‚ê‚½‚æ‚¤‚ÈŠç‚ğ‚µ‚½‚ªA[plc]
 
 [dis_all_chara]

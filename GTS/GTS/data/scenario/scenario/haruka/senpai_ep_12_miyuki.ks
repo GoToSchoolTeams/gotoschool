@@ -1,7 +1,13 @@
+
+[call storage="Initialize.ks"]
+[strans storage="okujo_m" time=0]
+
+[SetupMessageWindow left_chara=1]
+
 [shownametag name="大樹" visible=true]
 「――安倍 みゆき さんが良いとおもいます！」[plc]
 
-
+[showstandimage who=haruka face=magao]
 [shownametag name="遥香" visible=true]
 「なんで？」[plc]
 
@@ -11,19 +17,26 @@
 
 
 
-元気一杯に答えると、先輩はとても残念そうな顔をしたが、[plc]
+元気一杯に答えると、[l][r]
+[showstandimage who=haruka face=kuno nobust=true time="300"]
+先輩はとても残念そうな顔をしたが、[plc]
 
 
-[shownametag name="遥香" visible=true]
+[dis_all_chara]
+
+[showbustup who=haruka face=keibetsu pose=1]
+[shownametag name="遥香" visible=true bust="false"]
 「……」[plc]
-
-
 
 溜息一つで、俺の意見に従ってくれた。[plc]
 
 
 
 ;[場面転換、教室]
+[dis_all_chara_fade_message]
+[strans storage="black" time="500"]
+[strans storage="kyositu_m" time="500"]
+[SetupMessageWindow]
 
 
 
@@ -59,15 +72,16 @@
 俺達の学年と比べて、男子の数が多い。[plc]
 
 
-昨今の共学化の流れもあって、『なんちゃって女子校』
+昨今の共学化の流れもあって、『なんちゃって女子校』[r]
 の異名をとっていた旗立高校も、年々、男子の数が増えている。[plc]
 
 
 それでも女子の数が圧倒的に多いが、[lr]
 なんだかちょっとだけ男臭いように感じた。[plc]
 
+[showbustup who="haruka" face=ki pose="1"]
 [shownametag name="遥香" visible=true]
-「……」[plc]
+「――」[plc]
 
 
 
@@ -97,7 +111,7 @@
 [shownametag name="大樹" visible=true]
 「……おぉ、」[plc]
 
-
+[showbustup who="haruka" face=keibetsu pose="1"]
 [shownametag name="遥香" visible=true]
 「……」[plc]
 
@@ -106,12 +120,11 @@
 先輩に睨み付けられるが、思わず溜息を漏らしてしまう。[plc]
 
 
-
-デカイ。これは……デカイぞ！！[plc]
+デカイ。[l]これは……デカイぞ！！[plc]
 
 
 [shownametag name="安倍" visible=true bust="false"]
-「それで、遥香先輩、」[plc]
+「それで遥香先輩、」[plc]
 
 
 
@@ -122,29 +135,41 @@
 「なんでしょう？」[plc]
 
 
+[showstandimage who="haruka" pose="1" face=ki]
 [shownametag name="遥香" visible=true]
 「あのね…」[plc]
 
 
+先輩は何か言いかけたが、[plc]
 
-先輩は、何か言いかけたが、[plc]
-
-
+[showstandimage who="haruka" pose="1" face=raku time="200"]
 [shownametag name="遥香" visible=true]
-「……だめだね、こりゃ」[plc]
+「……[l]
+[showstandimage who="haruka" pose="1" face=magao time="200"]
+……[l]
+[showstandimage who="haruka" pose="1" face=suttoboke time="200"]
+……[l]
+[showstandimage who="haruka" pose="1" face=kuno time="200"]
+……。[l]
+[showstandimage who="haruka" pose="1" face=keibetsu time="0"]
+だめだね、こりゃ」[plc]
 
-
+[dis_all_chara]
 
 そのまま飲み込んだ。[plc]
 
 
+[showstandimage who="haruka" pose="1" face=raku time="200"]
 [shownametag name="遥香" visible=true]
-「いや、なんていうか。色々と考えてたんだけどね」[plc]
+「いや、なんていうか。[l]色々と考えてたんだけどね。[lr]
+[showstandimage who="haruka" pose="1" face=ki time="200"]
+　いざとなると、全部言い訳がましくなっちゃう」[plc]
 
-
+[showstandimage who="haruka" pose="1" face=keibetsu time="200"]
 [shownametag name="遥香" visible=true]
-「いざとなると、全部言い訳がましくなっちゃうね。[lr]
-説得の言葉って」[plc]
+「『説得の言葉』って」[plc]
+
+[dis_all_chara]
 
 [shownametag name="安倍" visible=true bust="false"]
 「そうでしょうね」[plc]
@@ -157,7 +182,7 @@
 [shownametag name="安倍" visible=true bust="false"]
 「私も、よくそう思います」[plc]
 
-
+[showbustup who="haruka" pose="1" face=raku]
 [shownametag name="遥香" visible=true]
 「……安倍さん、頭良いからね」[plc]
 
@@ -166,13 +191,14 @@
 先輩は少し思案した様子だったが、[lr]
 やがて諦めたのか。[plc]
 
+[showstandimage who="haruka" pose="1" face=ki time="200"]
 [shownametag name="遥香" visible=true]
 「どうすればいいかな？」[plc]
 
 
 
 と、ストレートにそう言った。[plc]
-
+[dis_all_chara]
 
 [shownametag name="大樹" visible=true]
 「……」[plc]
@@ -195,13 +221,14 @@
 
 
 [shownametag name="安倍" visible=true bust="false"]
-「正直、何も求めてはないんです。ただ、納得できれば良くて」[plc]
+「正直、何も求めてはないんです。[lr]
+　ただ、納得できれば良くて」[plc]
 
 
 [shownametag name="安倍" visible=true bust="false"]
 「先輩のことは、大好きなんですよ」[plc]
 
-
+[showbustup who="haruka" pose="1" face=ki]
 [shownametag name="遥香" visible=true]
 「……」[plc]
 
@@ -234,14 +261,10 @@
 そのまま、安倍さんはこちらに背を向けた。[plc]
 
 
-[shownametag name="遥香" visible=true]
-「……」[plc]
-
-
-
 ワラワラと、虫のように男たちが群がっていく。[lr]
 その様子を眺めながら、[plc]
 
+[showstandimage who="haruka" pose="1" face=keibetsu]
 [shownametag name="遥香" visible=true]
 「フラれたね」[plc]
 
@@ -257,7 +280,7 @@
 
 ありゃぁ、何度来てもダメだろうな。[plc]
 
-
+[showstandimage who="haruka" pose="1" face=kuno]
 [shownametag name="遥香" visible=true]
 「うーん」[plc]
 
@@ -269,15 +292,15 @@
 [shownametag name="大樹" visible=true]
 「どうしました？」[plc]
 
-
+[showstandimage who="haruka" pose="1" face=ai]
 [shownametag name="遥香" visible=true]
 「いや、ちょっと……ああいう顔されたのは、はじめてでさ。[lr]
-あれってさ、どんな顔なんだろ？」[plc]
+　あれってさ、どんな顔なんだろ？」[plc]
 
 [shownametag name="大樹" visible=true]
 「……」[plc]
 
-
+[dis_all_chara]
 
 思い返すが、[plc]
 
@@ -298,6 +321,7 @@
 てきとーに、それっぽいことを言うと。[plc]
 
 
+[showstandimage who="haruka" pose="1" face=raku]
 [shownametag name="遥香" visible=true]
 「なるほど！」[plc]
 
@@ -306,6 +330,7 @@
 妙に納得された。[plc]
 
 
+[showstandimage who="haruka" pose="1" face=niyaniya]
 [shownametag name="遥香" visible=true]
 「『コブ』かぁ」[plc]
 
@@ -313,10 +338,17 @@
 [shownametag name="大樹" visible=true]
 「ジロジロみないでくださいよ」[plc]
 
-
+[dis_all_chara]
 
 刺さる様な一年坊の視線に耐えられなくなって、[lr]
 俺達はその場を後にした。[plc]
 
+[fadeoutbgm time="1000"]
+[dis_all_chara_fade_message]
+[strans storage="white" time="1000"]
+
+;[JumpChapter storage="senpai_ep_11.ks"]
+
 
 ;[→登校風景]
+
