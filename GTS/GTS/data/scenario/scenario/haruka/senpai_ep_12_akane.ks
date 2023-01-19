@@ -1,9 +1,7 @@
-
-[call storage="Initialize.ks"]
-[strans storage="okujo_m" time=0]
-
 [SetupMessageWindow left_chara=1]
 
+[fadeinbgm storage="evening" time="1000"]
+[strans storage="okujo_m" time=0]
 [shownametag name="大樹" visible=true]
 「――寺門 あかね さんが良いと思います！」[plc]
 
@@ -35,7 +33,8 @@
 
 
 
-;[場面転換、教室]
+;[場面転換、教室
+[fadeoutbgm time="1000"]
 [dis_all_chara_fade_message]
 [strans storage="black" time="500"]
 [strans storage="kyositu_m" time="500"]
@@ -47,6 +46,7 @@
 ……全く知らなかった。[plc]
 
 
+[fadeinbgm storage="serious_2"]
 [shownametag name="寺門" visible=true bust="false"]
 「……」[plc]
 
@@ -260,7 +260,7 @@
 
 そう言って、寺門さんはこっちを指さして。[plc]
 
-
+[fadeoutbgm time="500"]
 [shownametag name="寺門" visible=true bust="false"]
 「――コイツを、クビにして下さい」[plc]
 
@@ -270,7 +270,7 @@
 
 [dis_all_message_fade time=0]
 [strans storage="rouka2_dt" time="0"]
-
+[playse storage="class_door_short"]
 ――ピシャッ。[plc]
 
 
@@ -304,8 +304,7 @@
 [fadeoutbgm time="1000"]
 [dis_all_chara_fade_message]
 [strans storage="white" time="1000"]
-
-;[JumpChapter storage="senpai_ep_11.ks"]
+[JumpChapter storage="senpai_ep_12_1.ks"]
 
 
 ;[→登校風景]

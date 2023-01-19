@@ -256,6 +256,7 @@
 「誰を説得しに行こうか？」[plc]
 
 *Brunch
+[fadeoutbgm time="1000"]
 [SetupBrunch name="prologue_ep_11_0"]
 [AddBrunch text="安倍 みゆき（一年の中心人物）" storage="senpai_ep_12_miyuki.ks"]
 [AddBrunch text="寺門 あかね（二年の中心人物）" storage="senpai_ep_12_akane.ks"]
@@ -265,6 +266,6 @@
 
 *AllClear
 [SetupBrunch name="prologue_ep_11_1"]
-[AddBrunch text="旗立 縁" storage="senpai_ep_12.ks"]
+[AddBrunch text="旗立 縁" storage="senpai_ep_13.ks"]
 [ShowBrunch]
 [s]
