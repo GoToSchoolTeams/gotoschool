@@ -4,7 +4,7 @@
 
 [SetupMessageWindow]
 [fadeinse storage="chaim" time="1000"]
-先輩にも止められたことで、俺はなんとか落ち着きを取り戻した。[plc]
+先輩にも止められたことで、[l]俺はなんとか落ち着きを取り戻した。[plc]
 
 [fadeoutse time="1000"]
 [fadeinbgm storage="serious_2" time="1000"]
@@ -30,7 +30,9 @@
 
 
 [strans storage="black"]
-授業中は、俺はみんなのゴミ箱だったけど。[lr]
+俺はみんなのゴミ箱だったけど。[plc]
+
+
 先輩の弁当で、割りと全部どうでもよくなっていた。[plc]
 
 
@@ -49,25 +51,32 @@
 [strans storage="black"]
 色々あったが、[plc]
 
-[strans storage="kyositu_m"]
-[showstandimage who=gaia face=egao]
-[shownametag name="ガイア" visible=true]
-「よう、きょうだ（省」[plc]
+[strans storage="kyositu_m" time="100"]
+[nowait]
+[showstandimage who=gaia face=egao time="0" nobust=true]
+[nowait]
+「よう、きょうだ――」[plc]
 
-*debug
-[setup_debug bg="black" bgm="serious_2"]
-[strans storage="black" time="250"]
-[fadeoutbgm time=250]
+
+[dis_all_chara_fade_message time=0]
+[strans storage="black" time="0"]
+[wait time="400"]
+[show_message_fade]
+[stopbgm]
+
+
+
+[SetupMessageWindow]
 色々とあったが、あっという間に放課後がやってきた。[plc]
-
 
 
 ;[場面転換、屋上]
 
+
 [fadeinse storage="wind" time="1000"]
 [strans storage="okujo_m"]
 [fadeinbgm storage="evening" time="1000"]
-[showstandimage who=haruka face=magao]
+[showstandimage who=haruka face=keibetsu]
 [shownametag name="遥香" visible=true]
 「さて、」[plc]
 
@@ -75,26 +84,29 @@
 [shownametag name="大樹" visible=true]
 「……」[plc]
 
-
+[dis_all_chara_fade_message time="200"]
 [fadeoutse time="1000"]
+[wait time="1000"]
+[SetupMessageWindow]
 午後になっても、相変わらずここは風が強い。[plc]
 
 
 
-先輩と俺は、放課後にも会議室でなく屋上に集まっていた。[plc]
+先輩と俺は、放課後でも会議室でなく屋上に集まっていた。[plc]
 
 
 
-会議室は、今でも俺達の為に空いてはいるのだが、[lr]
+会議室は今でも俺達の為に空いてはいるのだが、[lr]
 先輩の希望でここになった。[plc]
 
 
-もしかすると、結構ひと目を気にするひとなのかもしれない。[plc]
+もしかすると、[r]
+結構ひと目を気にするひとなのかもしれない。[plc]
 
 [showstandimage who=haruka face=kuno]
 [shownametag name="遥香" visible=true]
-「思ったんだけどさ。手伝ってくれてた全員を、[r]
-一人一人説得したところで、時間ばっかり掛かっちゃうんだよね」[plc]
+「思ったんだけどさ。[l]一人一人説得したところで、[r]
+　時間ばっかり掛かっちゃうと思うんだよね」[plc]
 
 [shownametag name="遥香" visible=true]
 「そもそも、自分の意志じゃ決められない子もいると思う」[plc]
@@ -103,7 +115,7 @@
 [shownametag name="大樹" visible=true]
 「……」[plc]
 
-
+[dis_all_chara]
 
 それは、そうなのだろう。[plc]
 
@@ -113,7 +125,7 @@
 組織の人間ってのは、自分の意志のみで動くんじゃない。[plc]
 
 
-誰か強いひとの意志に賛同して、動くのだ。[lr]
+誰か強いひとの意志に賛同して動くのだ。[lr]
 つまり、殆どの連中は単なる承認行動に過ぎない。[plc]
 
 
@@ -125,47 +137,52 @@
 「だからまぁ、とりあえずリーダーの縁ちゃんを――」[plc]
 
 [shownametag name="大樹" visible=true]
-「――待った！」[plc]
+「――待った！」
+[showstandimage who=haruka face=odoroki nobust=true time="200" size=l]
+[plc]
 
-
-[showstandimage who=haruka face=odoroki nobust=true]
-俺は、力強く叫んだ。[plc]
+俺は、力強く叫んだ。
+[plc]
 
 [showstandimage who=haruka face=magao]
 [shownametag name="遥香" visible=true]
-「はい、谷口君」[plc]
+「……はい、谷口君」[plc]
 
 
 [shownametag name="大樹" visible=true]
-「縁……いや、旗立さんは駄目っすよ先輩！
-先輩も見たでしょ、あの剣幕！！　あの憎悪！！！」[plc]
+「縁……いや、旗立さんは駄目っすよ先輩！[l][r]
+[showstandimage who=haruka face=keibetsu nobust=true]
+　先輩も見たでしょ、あの剣幕！！　あの憎悪！！！」[plc]
 
 [shownametag name="大樹" visible=true]
-「冷静な話し合いなんか出来っこない！」[plc]
+「冷静な話し合いなんか、出来っこない！」[plc]
 
+[showstandimage who=haruka face=kuno nobust=true]
 
 [shownametag name="大樹" visible=true]
-「そもそもがアイツは、俺憎しでやってるんです！
-俺が居る限り、説得なんか出来るわけありません！！」[plc]
+「そもそもがアイツは、俺憎しでやってるんです！[r]
+　俺が居る限り、説得なんか出来るわけありません！！」[plc]
 
-[shownametag name="遥香" visible=true]
+[shownametag name="遥香" visible=true bust="false"]
 「……」[plc]
 
+[dis_all_chara]
 
-
-俺の剣幕に、先輩は少し驚いた様だったが、[plc]
+俺の剣幕に先輩は少し呆れた様子だったが、[plc]
 
 [showstandimage who=haruka face=ai]
 [shownametag name="遥香" visible=true]
-「……こっちも冷静な話し合いは出来ないみたいだし」[plc]
+「……こっちも冷静な話し合いは出来ないみたいね」[plc]
 
 
 
 チラリと俺を一瞥してから、そう呟いた。[plc]
 
+
+[dis_all_chara]
+
 [shownametag name="大樹" visible=true]
 「……」[plc]
-
 
 
 大人げないのか？　……でも、でもしょうがない。[lr]
@@ -187,17 +204,18 @@
 [shownametag name="大樹" visible=true]
 「……そうですね」[plc]
 
-[showstandimage who=haruka face=kuno]
+[showstandimage who=haruka face=keibetsu]
 [shownametag name="遥香" visible=true]
 「……さて、誰にしようかしら。谷口君……考えある？」[plc]
 
 
+[dis_all_chara]
 
 さて、どうしようか。[plc]
 
 
 
-……うん、その前に、聞かなきゃいけない事があるな。[plc]
+……うん、その前に聞かなきゃいけない事があるな。[plc]
 
 
 [shownametag name="大樹" visible=true]
@@ -209,13 +227,14 @@
 
 
 [shownametag name="大樹" visible=true]
-「名前が分かりません」[plc]
+「名前が分かりません」
+[plc]
 
-[showstandimage who=haruka face=jitome]
+[showstandimage who=haruka face=jitome time="200"]
 [shownametag name="遥香" visible=true]
 「……」[plc]
 
-
+[dis_all_chara]
 額を抑えながら、先輩はあの時のメンバーの名前を上げた。[plc]
 [jump storage="senpai_ep_11.ks" target="*Brunch"]
 ;//【選択肢】
