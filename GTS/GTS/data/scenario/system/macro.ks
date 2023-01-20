@@ -1,3 +1,56 @@
+;;【メッセージレイヤの初期化】
+;;シナリオ表示前に呼び出してください
+[macro name="SetupMessageWindow"]
+	;全削除
+	[dis_all_message]
+	[if exp="mp.left_chara!=1"]
+		[dis_all_chara]
+	[endif]
+	[eval exp="global.ClearSystemMessage()"]
+	[backlay]
+	;メッセージレイヤ画像表示
+	[image layer=7 top=470 opacity=256 storage="message_window" page="fore" visible="true"]
+	;名前レイヤは一旦非表示
+	[position layer="message1" top=528 left=300 width=700 height=200 opacity=0 visible="false" page="fore" marginb="0" marginl="0" marginr="0" margint="0"]
+	;平文レイヤは表示
+	[position layer="message0" top=567 left=310 width=970 height=153 opacity=0 visible="true"  page="fore" marginb="0" marginl="0" marginr="182" margint="0"]
+	;ボタンレイヤも表示
+	[position layer="message2" top="0" left="0" width="1280" height=720 opacity=0 visible="true" page="fore" marginb="0" marginl="0" marginr="0" margint="0"]
+	[current layer="message2"]
+	[locate x=1205 y=685]
+	[button graphic="x"]
+	[locate x=1098 y=685]
+	[button graphic="system"]
+	[locate x=991 y=685]
+	[button graphic="log"]
+	[locate x=884 y=685]
+	[button graphic="skip"]
+	[locate x=777 y=685]
+	[button graphic="auto"]
+	[locate x=670 y=685]
+	[button graphic="load"]
+	[locate x=563 y=685]
+	[button graphic="save"]
+	;顔レイヤも一旦非表示
+	[layopt layer=9 top=452 left=50 page="fore" visible="false"]
+	;メッセージレイヤ設定
+	[current layer="message1"]
+	[deffont size=30]
+	[current layer="message0"]
+	[deffont size=26]
+	[font size=26]
+	;クリック待ちグリフ変更
+	[glyph line="sakura" page="sakura" fix="true" top=48 left=810]
+	;裏にも適用
+	[backlay]
+	;BGMとSEのボリュームをもとに戻す
+	[fadebgm volume="100" time="1"]
+	[fadese volume="100" time="1"]
+	;historyを有効化する
+	[history enabled="true" output="true"]
+	[kagtag left_chara=%left_chara|1]
+[endmacro]
+
 ;【絹虫印、plcマクロ。改ページ（ｐ）、セーブラベル、クリアーメッセージ。】
 [macro name="plc"]
 [p]
@@ -65,14 +118,6 @@
 [wt]
 [endmacro]
 
-[macro name="show_message_fade"]
-[backlay]
-[position layer="message0" visible="false" page="back"]
-[position layer="message1" visible="false" page="back"]
-[position layer="message2" visible="false" page="back"]
-[endmacro]
-
-
 ;;【エフェクトマクロ】
 ;;一瞬だけ画像を表示\n
 ;;storage=背景画像を指定する\n, 画像ファイル名
@@ -126,6 +171,18 @@
 	[trans method="crossfade" time=%time|500]
 [endmacro]
 
+;;【メッセージウィンドウをフェードインで表示する】dis_all_messageで隠したレイヤを表示したいときに使ってください
+;;time=トランジション時間\nデフォルトは1000, ミリ秒時間
+[macro name="show_message_fade"]
+[backlay]
+[position layer="message0" visible="true" page="back"]
+[position layer="message1" visible="true" page="back"]
+[position layer="message2" visible="true" page="back"]
+[layopt layer=7 page="back" visible="true"]
+[trans layer="base" method="crossfade" time=%time|1000]
+[wt]
+[endmacro]
+
 ;;【トランジションマクロ】\n
 ;;用例:@strans storage="背景名" method=crossfade time=1500
 ;;storage=背景画像を指定する\nデフォルトはblack, 画像ファイル名
@@ -152,66 +209,8 @@
 [kagtag noclear=%noclear blur=%blur]
 [endmacro]
 
-;;【メッセージレイヤの初期化】
-;;シナリオ表示前に呼び出してください
-[macro name="SetupMessageWindow"]
-	;全削除
-	[dis_all_message]
-	[if exp="mp.left_chara!=1"]
-		[dis_all_chara]
-	[endif]
-	[eval exp="global.ClearSystemMessage()"]
-	[backlay]
-	;メッセージレイヤ画像表示
-	[image layer=7 top=470 opacity=256 storage="message_window" page="fore" visible="true"]
-	;名前レイヤは一旦非表示
-	[position layer="message1" top=528 left=300 width=700 height=200 opacity=0 visible="false" page="fore" marginb="0" marginl="0" marginr="0" margint="0"]
-	;平文レイヤは表示
-	[position layer="message0" top=567 left=310 width=970 height=153 opacity=0 visible="true"  page="fore" marginb="0" marginl="0" marginr="182" margint="0"]
-	;ボタンレイヤも表示
-	[position layer="message2" top="0" left="0" width="1280" height=720 opacity=0 visible="true" page="fore" marginb="0" marginl="0" marginr="0" margint="0"]
-	[current layer="message2"]
-	[locate x=1205 y=685]
-	[button graphic="x"]
-	[locate x=1098 y=685]
-	[button graphic="system"]
-	[locate x=991 y=685]
-	[button graphic="log"]
-	[locate x=884 y=685]
-	[button graphic="skip"]
-	[locate x=777 y=685]
-	[button graphic="auto"]
-	[locate x=670 y=685]
-	[button graphic="load"]
-	[locate x=563 y=685]
-	[button graphic="save"]
-	;顔レイヤも一旦非表示
-	[layopt layer=9 top=452 left=50 page="fore" visible="false"]
-	;メッセージレイヤ設定
-	[current layer="message1"]
-	[deffont size=30]
-	[current layer="message0"]
-	[deffont size=26]
-	[font size=26]
-	;クリック待ちグリフ変更
-	[glyph line="sakura" page="sakura" fix="true" top=48 left=810]
-	;裏にも適用
-	[backlay]
-	;BGMとSEのボリュームをもとに戻す
-	[fadebgm volume="100" time="1"]
-	[fadese volume="100" time="1"]
-	;historyを有効化する
-	[history enabled="true" output="true"]
-	[kagtag left_chara=%left_chara|1]
-[endmacro]
 
-;;【選択し系？】
-[macro name="SetupSelectWindow"]
-	;メッセージ系は隠す
-	[position layer="message0" visible="false"]
-	[position layer="message1" visible="false"]
-	[position layer="message2" visible="false"]
-[endmacro]
+
 
 ;;【システムレイヤのON・OFF】
 ;; flagでtrue falseを指定してください

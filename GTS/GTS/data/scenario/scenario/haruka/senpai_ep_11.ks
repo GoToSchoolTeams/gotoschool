@@ -61,12 +61,11 @@
 [dis_all_chara_fade_message time=0]
 [strans storage="black" time="0"]
 [wait time="400"]
-[show_message_fade]
 [stopbgm]
 
 
 
-[SetupMessageWindow]
+[show_message_fade time="500"]
 色々とあったが、あっという間に放課後がやってきた。[plc]
 
 
