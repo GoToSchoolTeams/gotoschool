@@ -291,7 +291,7 @@
 
 ラストの坂を前にして、予鈴が鳴る。[plc]
 
-[showstandimage who="haruka" pose="1" face=ai size="l"]
+[showstandimage who="haruka" pose="1" face=ai size="l" time="200"]
 ;[showbustup who="haruka" pose="1" face=ai]
 [shownametag name="遥香" visible=true]
 「ちょっとぉおおおおおおー！！」[plc]
