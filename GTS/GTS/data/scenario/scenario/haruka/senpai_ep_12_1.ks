@@ -246,12 +246,16 @@
 「結局、やるこた決まってるんだから。[lr]
 　嘆いたってしょうがないでしょう」[plc]
 
+[dis_all_chara]
+
+ほんとかよ。[plc]
+
 [showbustup who="haruka" pose="1" face=keibetsu]
 [shownametag name="遥香" visible=true]
 「――そんな事より」[plc]
 
 
-
+[quake time="200"]
 ポンと、先輩は俺のつむじのあたりをぶっ叩く。[plc]
 
 
@@ -293,7 +297,9 @@
 
 [showstandimage who="haruka" pose="1" face=ai size="l" time="200"]
 ;[showbustup who="haruka" pose="1" face=ai]
+[quake time="400"]
 [shownametag name="遥香" visible=true]
+[nowait]
 「ちょっとぉおおおおおおー！！」[plc]
 
 [dis_all_chara]

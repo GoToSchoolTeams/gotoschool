@@ -302,6 +302,8 @@
 
 [showstandimage who="haruka" pose="1" face=ai size="l" time="0"]
 [shownametag name="遥香" visible=true]
+[quake time="400"]
+[nowait]
 「谷口くぅううううううーんッ！！！！」[plc]
 [dis_all_chara]
 
