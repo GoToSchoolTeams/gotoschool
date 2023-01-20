@@ -237,7 +237,7 @@
 ;;zoom=拡大率\n拡大率を指定します, パーセント値
 ;;notrans=トランジションの有無, 論理値
 ;;nobust=バスト画像を出さない, 論理値
-;;size=s,m,l
+;;size=サイズ, s;m;l
 [macro name="showstandimage"]
 	;トランジションの有無によってパラメータを切り替え
 	[if exp="mp.notrans != 'true'"]

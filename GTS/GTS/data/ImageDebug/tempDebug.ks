@@ -2,7 +2,7 @@
 [call storage="Initialize.ks"]
 [strans storage="house_d"]
 
-[call target="*De"]
+;[call target="*De"]
 
 [SetupMessageWindow left_chara=1]
 
@@ -101,7 +101,7 @@
 [shownametag name="大樹" visible=true]
 「っていうか、いつまで来るんですか？」[plc]
 
-[showbustup who="haruka" face=keibetsu pose="1"]
+[showstandimage who="haruka" face=keibetsu pose="1" size="l"]
 [shownametag name="遥香" visible=true]
 「わたしが聞きたいよ、これ凄く面倒なんだよ」[plc]
 
@@ -109,7 +109,7 @@
 [shownametag name="大樹" visible=true]
 「じゃ、来なくていいんですよ」[plc]
 
-[showbustup who="haruka" face=do pose="1"]
+[showstandimage who="haruka" face=do pose="1" size="l" time=100]
 [shownametag name="遥香" visible=true]
 「それじゃ、君が来ないでしょ」[plc]
 
@@ -117,7 +117,7 @@
 [shownametag name="大樹" visible=true]
 「……」[plc]
 
-
+[dis_all_chara]
 
 『そんなことない』と言い返したかったが、黙ってしまう。[plc]
 
@@ -125,7 +125,7 @@
 
 実際、そんなことあるかもしれない。[plc]
 
-
+[showbustup who="haruka" pose="1" face=do]
 [shownametag name="遥香" visible=true]
 「……ほんと、君は信用ならないね」[plc]
 
@@ -213,11 +213,9 @@
 [shownametag name="大樹" visible=true]
 「ぁー……結局うまく行くんすかね？」[plc]
 
-*De
-[setup_debug bg="sakamichi"]
 
 
-苦しみを紛らわす為に呟く。[lr]
+苦しみを紛らわす為に呟く。[plc]
 と、先輩はその話題に食いついたようだった。[plc]
 
 [showbustup who="haruka" pose="1" face=magao]
@@ -267,11 +265,12 @@
 [shownametag name="大樹" visible=true]
 「痛いです」[plc]
 
-[showbustup who="haruka" pose="1" face=ki]
+[showstandimage who="haruka" pose="1" face=ki size="l" time="200"]
+;[showbustup who="haruka" pose="1" face=ki]
 [shownametag name="遥香" visible=true]
 「あっそ、それよりも時計見て」[plc]
 
-
+[dis_all_chara]
 
 あっそ、って……毛根大事なんすけど。[plc]
 
@@ -287,7 +286,7 @@
 
 というか、物凄くヤバかった。[plc]
 
-[showbustup who="haruka" pose="1" face=raku]
+[showbustup who="haruka" pose="1" face=do]
 [shownametag name="遥香" visible=true]
 「ほら、早く早く！」[plc]
 
@@ -299,10 +298,12 @@
 
 ラストの坂を前にして、予鈴が鳴る。[plc]
 
-[showbustup who="haruka" pose="1" face=do]
+[showstandimage who="haruka" pose="1" face=ai size="l"]
+;[showbustup who="haruka" pose="1" face=ai]
 [shownametag name="遥香" visible=true]
-「ちょっとぉおおー！！」[plc]
+「ちょっとぉおおおおおおー！！」[plc]
 
+[dis_all_chara]
 
 [shownametag name="大樹" visible=true]
 「んがぁああああああああああっ！！！」[plc]
@@ -313,20 +314,26 @@
 
 
 
-そんな不安を、払拭するように、俺達は坂を駆け上って。[plc]
+そんな不安を払拭するように、俺達は坂を駆け上って。[plc]
 
 
+[dis_all_chara_fade_message]
+[strans storage="white" method="universal" rule="look_up" time="500"]
+[SetupMessageWindow]
 
 
-
-
-
+[nowait]
 ――ボーン、ボーンボーン。[plc]
 
 
 
 結局、その日も遅刻した。[plc]
 
+[fadeoutbgm time="1000"]
+[dis_all_chara_fade_message]
+[strans storage="white" time="1000"]
+
+;[JumpChapter storage="senpai_ep_11.ks"]
 
 
 ;[→説得失敗]
