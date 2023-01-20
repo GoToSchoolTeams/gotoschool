@@ -1,294 +1,289 @@
 
 [call storage="Initialize.ks"]
-[strans storage="house_d"]
+[strans storage="cicle_load"]
 
 ;[call target="*De"]
 
 [SetupMessageWindow left_chara=1]
 
-
-朝起きると、[l]
-[showstandimage who=haruka face=ki nobust="true" time="200"]
-やっぱり見知った顔があった。[plc]
-
-[showstandimage who=haruka face=raku time="200"]
+[showstandimage who="haruka" pose="1" face=keibetsu size="l"]
 [shownametag name="遥香" visible=true]
-「――おはよ」[plc]
-
-
-[shownametag name="大樹" visible=true]
-「……」[plc]
-
-家から出ると、先輩がいた。[plc]
-
-
-[shownametag name="大樹" visible=true]
-「今日もですか」[plc]
-
-[showstandimage who=haruka face=ki]
-[shownametag name="遥香" visible=true]
-「今日もですよ」[plc]
-
-[dis_all_chara]
-
-これで、３日目になる。[plc]
+「……相変わらず、遅いね」[plc]
 
 
 
-あの日、先輩が家の前で待ち構えていた時から、[lr]
-いまのとこ毎朝、先輩は俺の家の前で待っているわけで……。[plc]
+しみじみと、先輩はそう言う。[plc]
 
-[showstandimage who=haruka face=ki]
-[shownametag name="遥香" visible=true]
-「ほら、さっさと行こうよ」[plc]
-[dis_all_chara]
-
-[shownametag name="大樹" visible=true]
-「はぁーい」[plc]
-
-
-
-気のない返事を返しながら、[lr]
-俺は先輩の乗ったチャリを発進させた。[plc]
-
-
-
-
-
-
-;[場面転換]
+;【松戸へ】
+;たぶんここ（下）は文章消して、メッセージも消して音ならすべき
 [dis_all_chara_fade_message]
-[strans storage="black" time="800"]
-[strans storage="sakamichi" time="800"]
+[wait time="600"]
 [SetupMessageWindow]
 
+――キィ……キィ…。[plc]
 
 
 
+朝。登校時間。[lr]
+今日も、俺は先輩を運ぶ車輪となっていた。[plc]
 
 [shownametag name="大樹" visible=true]
-「――ぐっ」[plc]
+「すんませんねー」[plc]
 
 
 
-重い。[plc]
+文句を言ったところで黙らされるのが落ちなので、[lr]
+適当に謝っておく。[plc]
 
 
+と、先輩は楽しげに笑った。[plc]
 
-今日もきょうとて、[lr]
-旗立の通学路が激しく俺の太ももを苦しめてくる。[plc]
-
-
-数日程度じゃ、[lr]
-俺の筋肉は全く肥大化をみせていないようであった。[plc]
-[showbustup who="haruka" face=magao pose="1"]
+[showstandimage who="haruka" pose="1" face=niyaniya size="l"]
 [shownametag name="遥香" visible=true]
-「あいかわらず遅いねぇ」[plc]
-
-
-[shownametag name="大樹" visible=true]
-「先輩がどいてくれれば、多少マシになるんですが」[plc]
-
-[showbustup who="haruka" face=ki pose="1"]
-[shownametag name="遥香" visible=true]
-「やだね」[plc]
+「おぉ、反省の色が見え始めてきたね」[plc]
 
 
 
-あっけらかんと、先輩はそう言う。[plc]
-
-
-[shownametag name="大樹" visible=true]
-「っていうか、いつまで来るんですか？」[plc]
-
-[showstandimage who="haruka" face=keibetsu pose="1" size="l"]
-[shownametag name="遥香" visible=true]
-「わたしが聞きたいよ、これ凄く面倒なんだよ」[plc]
-
-
-[shownametag name="大樹" visible=true]
-「じゃ、来なくていいんですよ」[plc]
-
-[showstandimage who="haruka" face=do pose="1" size="l" time=100]
-[shownametag name="遥香" visible=true]
-「それじゃ、君が来ないでしょ」[plc]
-
-
-[shownametag name="大樹" visible=true]
-「……」[plc]
+うぜぇ。[plc]
 
 [dis_all_chara]
 
-『そんなことない』と言い返したかったが、黙ってしまう。[plc]
-
-
-
-実際、そんなことあるかもしれない。[plc]
-
-[showbustup who="haruka" pose="1" face=do]
-[shownametag name="遥香" visible=true]
-「……ほんと、君は信用ならないね」[plc]
-
-
 [shownametag name="大樹" visible=true]
-「はぁ」[plc]
+「しっかし、いつになったら信頼してくれるんすかー？」[plc]
 
 
 
-適当に返事を返しながら、呟く。[plc]
-
-
-
-――キィ……キィ…。[plc]
-
-
-
-俺の意志を代弁するかのように、自転車が軋みを上げて。[plc]
-
-
-[shownametag name="大樹" visible=true]
-「……」[plc]
-
-
-
-朝日が、妙に眩しい。[lr]
-通学路沿いに植えてある木々が、朝独特の匂いを発している。[plc]
-
-
-土の匂いというのだろうか？[lr]
-それは清々しいと表現してもいいもので。[plc]
-
-
-だけれども、まったく心踊らなかった。[plc]
-
+もう何日目だろう？　手伝いもしてるわけだし。[lr]
+いい加減、信頼してくれても良いと思う。[plc]
 
 [shownametag name="遥香" visible=true]
-「大体君ね。可愛い『美少女』と朝から一緒に登校できるんだから、[r]
-　もっと嬉しそうにしなさいよ」[plc]
-
-[shownametag name="大樹" visible=true]
-「その表現好きですね」[plc]
+「ちっ、ちっ、ちっ。[l]甘いね谷口君」[plc]
 
 
 
-軽口を叩きながら、必死でペダルを漕ぐ。[plc]
+そんな俺の考えを見透かしてか、先輩は言う。[plc]
 
-
-
-たしかに、それはまぁ、[lr]
-ちったぁ嬉しくないこともない。[plc]
-
-
-暗黒そのものの俺の青春に、[lr]
-ちっとばっかし明かりが付いたと言わんでもない。[plc]
-
-
-ないけれど、[plc]
-
-
-
-――キィ……キィ…。[plc]
-
-
-[shownametag name="大樹" visible=true]
-「……いや、ちょっと、洒落になってない辛さなんすけど」[plc]
-
-
-
-太ももが、爆発しそうだった。[plc]
-
-
-
-毎日毎日筋肉痛でのたうち回るのが青春だというなら、[lr]
-俺は迷わず布団に潜るね。[plc]
-
-[shownametag name="遥香" visible=true]
-「遅いよ、もう。ノロマなのは頭だけにしてよ！」[plc]
-
-
-
-後頭部からは容赦なく罵倒が降ってくるしな。[plc]
-
-
-[shownametag name="大樹" visible=true]
-「ぁー……結局うまく行くんすかね？」[plc]
-
-
-
-苦しみを紛らわす為に呟く。[plc]
-と、先輩はその話題に食いついたようだった。[plc]
-
-[showbustup who="haruka" pose="1" face=magao]
-[shownametag name="遥香" visible=true]
-「んー、どうなんだろうねぇ。なんとも言えないねぇ」[plc]
-
-
-[shownametag name="遥香" visible=true]
-「もっと、サクサク事が運ぶんじゃないかと思ってたけど。[lr]
-[showbustup who="haruka" pose="1" face=keibetsu]
-　どうも妄想だったみたい」[plc]
-
-[shownametag name="大樹" visible=true]
-「なんとも頼りない返事で」[plc]
-
-
-
-どうしたもんかね。[plc]
-
-
-[shownametag name="遥香" visible=true]
-「でもま、昨日の子はちょっと頑固な子だったから。[lr]
 [showbustup who="haruka" pose="1" face=raku]
-　今日の子はきっとうまくいくよ」[plc]
+[shownametag name="遥香" visible=true]
+「信頼ってね、そんな簡単に得られるもんじゃないよ」[plc]
 
-[shownametag name="大樹" visible=true]
-「はぁ」[plc]
+[showbustup who="haruka" pose="1" face=niyaniya]
+[shownametag name="遥香" visible=true]
+「ぶっ壊すのは簡単だけど、[lr]
+　組み立てんのはやたらと時間がかかるというか」[plc]
 
 
-
-楽観視じゃないのか、それ？[plc]
+また、お説教タイムかよ。[plc]
 
 [showbustup who="haruka" pose="1" face=ki]
 [shownametag name="遥香" visible=true]
-「結局、やるこた決まってるんだから。[lr]
-　嘆いたってしょうがないでしょう」[plc]
-
-[showbustup who="haruka" pose="1" face=keibetsu]
-[shownametag name="遥香" visible=true]
-「――そんな事より」[plc]
-
-
-
-ポンと、先輩は俺のつむじのあたりをぶっ叩く。[plc]
+「いっくら時間かけても、戻んない時もあるしねぇ」[plc]
 
 
 [shownametag name="大樹" visible=true]
-「痛いです」[plc]
+「だとしたら俺のコレも徒労なんでしょうか？」[plc]
 
-[showstandimage who="haruka" pose="1" face=ki size="l" time="200"]
-;[showbustup who="haruka" pose="1" face=ki]
+
 [shownametag name="遥香" visible=true]
-「あっそ、それよりも時計見て」[plc]
-
-[dis_all_chara]
-
-あっそ、って……毛根大事なんすけど。[plc]
+「それは相手次第だね」[plc]
 
 
 
-言われたとおりに時計を見ると、結構ヤバかった。[plc]
+つまり、あなたの胸先三寸なわけね。[plc]
 
 
 [shownametag name="大樹" visible=true]
-「……ヤバい」[plc]
+「ハァ」[plc]
 
 
 
-というか、物凄くヤバかった。[plc]
+大きく息を吐く。[plc]
 
-[showbustup who="haruka" pose="1" face=do]
+
+
+――キィ……キィ…。[plc]
+
+
+
+と、俺の車輪も悲鳴を上げた。[plc]
+
+[showbustup who="haruka" pose="1" face=raku]
 [shownametag name="遥香" visible=true]
-「ほら、早く早く！」[plc]
+「はいはい、そんな声ださないの。[lr]
+[showbustup who="haruka" pose="1" face=ki]
+　幸せが逃げるっていうでしょー？」[plc]
+
+[shownametag name="大樹" visible=true]
+「婆さんみたいな言い分ですね[l][effect storage="white" time="400"]……アテッ」[plc]
+
+
+
+叩かれた。[plc]
+
+
+[showstandimage who="haruka" pose="1" face=keibetsu size="l" time="200"]
+[shownametag name="遥香" visible=true]
+「じゃ、単に私が不愉快だからでもいいよ」[plc]
+
+
+[shownametag name="大樹" visible=true]
+「……はい」[plc]
+
+
+
+やっぱり、文句言うだけ徒労だな。[plc]
+
+
+[shownametag name="大樹" visible=true]
+「……」[plc]
+
+
+[shownametag name="遥香" visible=true]
+「……」[plc]
+
+
+
+しばらく車輪に集中すると、先輩も黙った。[plc]
+
+
+
+風が吹く。[lr]
+今日は、まぁ、気持ち良いと言ってもいい。[plc]
+
+
+少しずつ、肌寒さはなくなりかけていた。[plc]
+
+
+[shownametag name="大樹" visible=true]
+「……」[plc]
+
+
+
+ふと、思う。[plc]
+
+
+
+いま、こうしてるぶんには俺はまぁいいが。[lr]
+はたして、本当に良いのだろうか？[plc]
+
+
+説得は、ハッキリ言って全く上手く行ってない。[lr]
+それどころか、そっけないもんだ。[plc]
+
+
+それに、説得できることなんて単なる必須条件で、[lr]
+本当にやらなきゃいけない事はその先にある。[plc]
+
+
+そう、先輩は……俺達は、選挙活動をしているのだ。[plc]
+
+
+
+ハッキリいって、俺と先輩だけになってから、[lr]
+それらしい事はまったくしてない。[plc]
+
+
+屋上に集まって、あーだこーだ言って。[lr]
+とりあえず、説得に行く。[plc]
+
+
+そして、もれなく振られる。[plc]
+
+
+
+うーん、こいつぁ……。[plc]
+
+
+[shownametag name="遥香" visible=true]
+「なんか、考え事してるね？」[plc]
+
+
+
+思考が詰まりかけた時、先輩が覗きこんできた。[plc]
+
+
+[shownametag name="大樹" visible=true]
+「……先輩、それ危ないっすよ」[plc]
+
+
+
+実際、先輩ののぞき込み方はかなり危ない。[lr]
+俺の頭上を越えて、覆いかぶさるように覗いてくる。[plc]
+
+
+それでもフラつかなくなったのは、素直に俺の成長なのだろう。[plc]
+
+
+[shownametag name="遥香" visible=true]
+「考えてもしょうがないよ」[plc]
+
+
+
+体を元の体勢に戻しながら、先輩は呟く。[plc]
+
+
+[shownametag name="遥香" visible=true]
+「やるこたぁ、やってるんだし」[plc]
+
+
+[shownametag name="大樹" visible=true]
+「……」[plc]
+
+
+
+そうなのだろうか？[lr]
+……そうなのかもしれない。[plc]
+
+
+俺は全然、先輩との活動以外はしていないが、[lr]
+先輩はどうもなにやら一人で色々やっているらしい。[plc]
+
+
+それが生徒に向けてなのか、[lr]
+教師に向けてなのかは分からないが。[plc]
+
+
+そういや最近は、教師は俺の事を無視してくれるようになったな。[plc]
+
+
+[shownametag name="大樹" visible=true]
+「……ねぇ、先輩」[plc]
+
+
+[shownametag name="遥香" visible=true]
+「どしたのー？」[plc]
+
+
+[shownametag name="大樹" visible=true]
+「……やっぱ、いいです」[plc]
+
+
+[shownametag name="遥香" visible=true]
+「？」[plc]
+
+
+
+前に、チラッと探りを入れたけど、答えてはくれなかった。[lr]
+いまもそうだろう。[plc]
+
+
+たぶん、単純に、時間が足りない。[plc]
+
+
+[shownametag name="大樹" visible=true]
+「……」[plc]
+
+
+
+……信頼、信頼？[plc]
+
+
+
+これが、信頼ってやつなのかね？[plc]
+
+
+
+一人納得していると、[plc]
 
 
 
@@ -296,44 +291,40 @@
 
 
 
-ラストの坂を前にして、予鈴が鳴る。[plc]
+予鈴が鳴った。[plc]
 
-[showstandimage who="haruka" pose="1" face=ai size="l"]
-;[showbustup who="haruka" pose="1" face=ai]
+
 [shownametag name="遥香" visible=true]
-「ちょっとぉおおおおおおー！！」[plc]
+「谷口くぅううーんッ！！！！」[plc]
 
-[dis_all_chara]
 
 [shownametag name="大樹" visible=true]
-「んがぁああああああああああっ！！！」[plc]
+「うぉおおおおおおおおおおおおおおッ！！！！」[plc]
 
 
 
-一体どうなるんだろう？[plc]
+全力で翔ばす。[lr]
+そう、飛翔するように。[plc]
+
+
+答えは、まぁそのうち出るだろう。[plc]
 
 
 
-そんな不安を払拭するように、俺達は坂を駆け上って。[plc]
+時間さえ有れば――[plc]
 
 
-[dis_all_chara_fade_message]
-[strans storage="white" method="universal" rule="look_up" time="500"]
-[SetupMessageWindow]
 
 
-[nowait]
+
+
+
 ――ボーン、ボーンボーン。[plc]
 
 
 
-結局、その日も遅刻した。[plc]
+尚、時間はやっぱり足りなかった。[plc]
 
-[fadeoutbgm time="1000"]
-[dis_all_chara_fade_message]
-[strans storage="white" time="1000"]
-
-;[JumpChapter storage="senpai_ep_11.ks"]
 
 
 ;[→説得失敗]

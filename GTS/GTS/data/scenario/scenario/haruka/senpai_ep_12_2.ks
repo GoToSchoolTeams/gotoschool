@@ -1,3 +1,12 @@
+
+[call storage="Initialize.ks"]
+[strans storage="house_d"]
+
+;[call target="*De"]
+
+[SetupMessageWindow left_chara=1]
+
+
 [shownametag name="遥香" visible=true]
 「……相変わらず、遅いね」[plc]
 
@@ -43,7 +52,7 @@
 いい加減、信頼してくれても良いと思う。[plc]
 
 [shownametag name="遥香" visible=true]
-「ちっ、ちっ、ちっ、甘いね谷口君」[plc]
+「ちっ、ちっ、ちっ。[l]甘いね谷口君」[plc]
 
 
 
@@ -56,7 +65,7 @@
 
 [shownametag name="遥香" visible=true]
 「ぶっ壊すのは簡単だけど、[lr]
-組み立てんのはやたらと時間がかかるというか」[plc]
+　組み立てんのはやたらと時間がかかるというか」[plc]
 
 
 また、お説教タイムかよ。[plc]
@@ -67,7 +76,7 @@
 
 
 [shownametag name="大樹" visible=true]
-「だとしたら、俺のコレも徒労なんでしょうか？」[plc]
+「だとしたら俺のコレも徒労なんでしょうか？」[plc]
 
 
 [shownametag name="遥香" visible=true]
@@ -96,7 +105,7 @@
 
 [shownametag name="遥香" visible=true]
 「はいはい、そんな声ださないの。[lr]
-幸せが逃げるっていうでしょー？」[plc]
+　幸せが逃げるっていうでしょー？」[plc]
 
 [shownametag name="大樹" visible=true]
 「婆さんみたいな言い分ですね……アテッ」[plc]
