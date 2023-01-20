@@ -6,23 +6,17 @@
 
 [SetupMessageWindow left_chara=1]
 
-
 朝起きると、
 [showstandimage who=haruka face=ki nobust="true" size="l"]
+[l]
 やっぱり見知った顔があった。[plc]
 
 [showstandimage who=haruka face=raku size="l"]
 [shownametag name="遥香" visible=true]
 「――おはよ」[plc]
 
-
 [shownametag name="大樹" visible=true]
-「……」[plc]
-家から出ると、先輩がいた。[plc]
-
-
-[shownametag name="大樹" visible=true]
-「今日もですか」[plc]
+「……[l]……[l]今日もですか」[plc]
 
 [showstandimage who=haruka face=ki]
 [shownametag name="遥香" visible=true]
@@ -37,7 +31,7 @@
 あの日、先輩が家の前で待ち構えていた時から、[lr]
 いまのとこ毎朝、先輩は俺の家の前で待っているわけで……。[plc]
 
-[showstandimage who=haruka face=ki]
+[showstandimage who=haruka face=raku]
 [shownametag name="遥香" visible=true]
 「ほら、さっさと行こうよ」[plc]
 [dis_all_chara]
