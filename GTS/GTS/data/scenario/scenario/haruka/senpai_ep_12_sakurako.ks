@@ -56,8 +56,10 @@
 
 
 [dis_all_chara_fade_message]
-[strans storage="kyositu_m" time="500" method="universal" rule="left_right"]
+[strans storage="white" method="universal" rule="look_up" time="400"]
+[strans storage="kyositu_m" method="universal" rule="look_up" time="400"]
 [SetupMessageWindow]
+
 
 [shownametag name="福岡" visible=true bust="false"]
 「ん？　遥香、」[plc]
@@ -73,7 +75,7 @@
 
 俺の顔を認めると、すぐに嫌悪感を露わにした。[plc]
 
-[showstandimage who="haruka" face=ki pose="1" time="200" nobust="true"]
+[showstandimage who="haruka" face=keibetsu pose="1" time="200" nobust="true"]
 [shownametag name="遥香" visible=true bust="false"]
 「桜子、単刀直入に言うわ」[plc]
 
