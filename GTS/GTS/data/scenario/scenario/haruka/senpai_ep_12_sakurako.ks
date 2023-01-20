@@ -56,7 +56,7 @@
 
 
 [dis_all_chara_fade_message]
-[strans storage="kyositu_m" time="500" method="crossfade"]
+[strans storage="kyositu_m" time="500" method="universal" rule="left_right"]
 [SetupMessageWindow]
 
 [shownametag name="•Ÿ‰ª" visible=true bust="false"]
