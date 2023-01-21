@@ -6,10 +6,10 @@
 
 [SetupMessageWindow left_chara=1]
 
-[showstandimage who="haruka" pose="1" face=keibetsu size="l"]
+[showstandimage who="haruka" pose="1" face=keibetsu size="l" time="200"]
 [shownametag name="遥香" visible=true]
 「……相変わらず、遅いね」[plc]
-
+[dis_all_chara]
 
 
 しみじみと、先輩はそう言う。[plc]
@@ -38,7 +38,7 @@
 
 と、先輩は楽しげに笑った。[plc]
 
-[showstandimage who="haruka" pose="1" face=niyaniya size="l"]
+[showbustup who="haruka" pose="1" face=odoroki]
 [shownametag name="遥香" visible=true]
 「おぉ、反省の色が見え始めてきたね」[plc]
 
@@ -46,7 +46,6 @@
 
 うぜぇ。[plc]
 
-[dis_all_chara]
 
 [shownametag name="大樹" visible=true]
 「しっかし、いつになったら信頼してくれるんすかー？」[plc]
@@ -56,18 +55,17 @@
 もう何日目だろう？　手伝いもしてるわけだし。[lr]
 いい加減、信頼してくれても良いと思う。[plc]
 
-[shownametag name="遥香" visible=true]
+[showbustup who="haruka" pose="1" face=jitome]
 「ちっ、ちっ、ちっ。[l]甘いね谷口君」[plc]
 
 
 
 そんな俺の考えを見透かしてか、先輩は言う。[plc]
 
-[showbustup who="haruka" pose="1" face=raku]
+[showbustup who="haruka" pose="1" face=keibetsu]
 [shownametag name="遥香" visible=true]
 「信頼ってね、そんな簡単に得られるもんじゃないよ」[plc]
 
-[showbustup who="haruka" pose="1" face=niyaniya]
 [shownametag name="遥香" visible=true]
 「ぶっ壊すのは簡単だけど、[lr]
 　組み立てんのはやたらと時間がかかるというか」[plc]
@@ -114,9 +112,10 @@
 　幸せが逃げるっていうでしょー？」[plc]
 
 [shownametag name="大樹" visible=true]
-「婆さんみたいな言い分ですね[l][effect storage="white" time="400"]……アテッ」[plc]
-
-
+「婆さんみたいな言い方ですね……[l]
+[effect storage="white" time="200"]
+[nowait]
+アイタッ！」[plc]
 
 叩かれた。[plc]
 
@@ -124,7 +123,7 @@
 [showstandimage who="haruka" pose="1" face=keibetsu size="l" time="200"]
 [shownametag name="遥香" visible=true]
 「じゃ、単に私が不愉快だからでもいいよ」[plc]
-
+[dis_all_chara]
 
 [shownametag name="大樹" visible=true]
 「……はい」[plc]
@@ -137,15 +136,16 @@
 [shownametag name="大樹" visible=true]
 「……」[plc]
 
-
-[shownametag name="遥香" visible=true]
+[shownametag name="遥香" visible=true bust="false"]
 「……」[plc]
 
 
 
 しばらく車輪に集中すると、先輩も黙った。[plc]
 
-
+[dis_all_chara_fade_message]
+[wait time="600"]
+[SetupMessageWindow]
 
 風が吹く。[lr]
 今日は、まぁ、気持ち良いと言ってもいい。[plc]
@@ -189,11 +189,12 @@
 
 そして、もれなく振られる。[plc]
 
-
+;*De
+;[setup_debug bg="cicle_load"]
 
 うーん、こいつぁ……。[plc]
 
-
+[showstandimage who="haruka" pose="1" face=keibetsu size="l" time="100"]
 [shownametag name="遥香" visible=true]
 「なんか、考え事してるね？」[plc]
 
@@ -205,7 +206,7 @@
 [shownametag name="大樹" visible=true]
 「……先輩、それ危ないっすよ」[plc]
 
-
+[dis_all_chara]
 
 実際、先輩ののぞき込み方はかなり危ない。[lr]
 俺の頭上を越えて、覆いかぶさるように覗いてくる。[plc]
@@ -221,7 +222,7 @@
 
 体を元の体勢に戻しながら、先輩は呟く。[plc]
 
-
+[showbustup who="haruka" pose="1" face=magao]
 [shownametag name="遥香" visible=true]
 「やるこたぁ、やってるんだし」[plc]
 
@@ -258,16 +259,19 @@
 「……やっぱ、いいです」[plc]
 
 
+[showbustup who="haruka" pose="1" face=odoroki]
 [shownametag name="遥香" visible=true]
 「？」[plc]
 
 
 
-前に、チラッと探りを入れたけど、答えてはくれなかった。[lr]
+前に、チラッと探りを入れたけど。[r]
+答えてはくれなかった。[plc]
+
 いまもそうだろう。[plc]
 
 
-たぶん、単純に、時間が足りない。[plc]
+たぶん、単純に、[l]時間が足りない。[plc]
 
 
 [shownametag name="大樹" visible=true]
@@ -286,6 +290,9 @@
 一人納得していると、[plc]
 
 
+[dis_all_chara_fade_message]
+[wait time="600"]
+[SetupMessageWindow]
 
 ――ボーン、ボーンボーン。[plc]
 
@@ -293,10 +300,10 @@
 
 予鈴が鳴った。[plc]
 
-
+[showstandimage who="haruka" pose="1" face=ai size="l" time="0"]
 [shownametag name="遥香" visible=true]
-「谷口くぅううーんッ！！！！」[plc]
-
+「谷口くぅううううううーんッ！！！！」[plc]
+[dis_all_chara]
 
 [shownametag name="大樹" visible=true]
 「うぉおおおおおおおおおおおおおおッ！！！！」[plc]
@@ -315,15 +322,27 @@
 
 
 
+[dis_all_chara_fade_message]
+[strans storage="white"]
+[SetupMessageWindow]
 
 
-
-
+[nowait]
 ――ボーン、ボーンボーン。[plc]
 
 
 
-尚、時間はやっぱり足りなかった。[plc]
+尚、時間はやっぱり足りなくて。[plc]
+
+[strans storage="black"]
+
+結局、その日も遅刻した。[plc]
+
+[fadeoutbgm time="1000"]
+[dis_all_chara_fade_message]
+[strans storage="white" time="1000"]
+
+;[JumpChapter storage="senpai_ep_11.ks"]
 
 
 
