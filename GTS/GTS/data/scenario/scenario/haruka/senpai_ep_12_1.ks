@@ -11,6 +11,7 @@
 [l]
 やっぱり見知った顔があった。[plc]
 
+[fadeinbgm storage="daily1 bgm" time="1000"]
 [showstandimage who=haruka face=raku size="l"]
 [shownametag name="遥香" visible=true]
 「――おはよ」[plc]
@@ -50,6 +51,7 @@
 
 
 ;[場面転換]
+[fadebgm volume=0 time="800"]
 [dis_all_chara_fade_message]
 [strans storage="black" time="800"]
 [strans storage="sakamichi" time="800"]
@@ -58,7 +60,7 @@
 
 
 
-
+[fadebgm volume="100" time="1000"]
 [shownametag name="大樹" visible=true]
 「――ぐっ」[plc]
 
@@ -284,7 +286,7 @@
 「ほら、早く早く！」[plc]
 
 
-
+[fadeinse storage="chaim_far_single" time="500"]
 ――ボーン、ボーンボーン。[plc]
 
 
@@ -316,6 +318,7 @@
 
 
 [nowait]
+[fadeinse storage="chaim_far_single" time="500"]
 ――ボーン、ボーンボーン。[plc]
 
 
@@ -325,8 +328,7 @@
 [fadeoutbgm time="1000"]
 [dis_all_chara_fade_message]
 [strans storage="white" time="1000"]
-
-;[JumpChapter storage="senpai_ep_11.ks"]
+[JumpChapter storage="senpai_ep_11.ks"]
 
 
 ;[→説得失敗]
