@@ -1,12 +1,17 @@
-
 [call storage="Initialize.ks"]
-[strans storage="cicle_load"]
+;[strans storage="cicle_load"]
 
 ;[call target="*De"]
+;[fadeinbgm storage="prologue" time="2000"]
+[SetupMessageWindow]
+[dis_all_message]
+[playse storage="chain_kishimi" loop="true"]
+[wait time="1000"]
 
-[SetupMessageWindow left_chara=1]
-
-[showstandimage who="haruka" pose="1" face=keibetsu size="l" time="200"]
+;[showstandimage who="haruka" pose="1" face=keibetsu size="l" time="200"]
+[show_message_fade time="2000"]
+[fadeoutse time="1000"]
+[showbustup who="haruka" pose="1" face=ai]
 [shownametag name="遥香" visible=true]
 「……相変わらず、遅いね」[plc]
 [dis_all_chara]
@@ -16,13 +21,10 @@
 
 ;【松戸へ】
 ;たぶんここ（下）は文章消して、メッセージも消して音ならすべき
-[dis_all_chara_fade_message]
-[wait time="600"]
-[SetupMessageWindow]
+;――キィ……キィ…。[plc]
 
-――キィ……キィ…。[plc]
-
-
+[fadeinbgm storage="prologue" time="1000"]
+[strans storage="cicle_load"]
 
 朝。登校時間。[lr]
 今日も、俺は先輩を運ぶ車輪となっていた。[plc]
@@ -56,6 +58,7 @@
 いい加減、信頼してくれても良いと思う。[plc]
 
 [showbustup who="haruka" pose="1" face=jitome]
+[shownametag name="遥香" visible=true]
 「ちっ、ちっ、ちっ。[l]甘いね谷口君」[plc]
 
 
@@ -98,7 +101,7 @@
 大きく息を吐く。[plc]
 
 
-
+[playse storage="chain_kishimi"]
 ――キィ……キィ…。[plc]
 
 
@@ -113,6 +116,7 @@
 
 [shownametag name="大樹" visible=true]
 「婆さんみたいな言い方ですね……[l]
+[playse storage="bosu04"]
 [effect storage="white" time="200"]
 [nowait]
 アイタッ！」[plc]
@@ -132,28 +136,31 @@
 
 やっぱり、文句言うだけ徒労だな。[plc]
 
-
+[playse storage="chain_kishimi"]
 [shownametag name="大樹" visible=true]
 「……」[plc]
 
 [shownametag name="遥香" visible=true bust="false"]
 「……」[plc]
 
-
-
 しばらく車輪に集中すると、先輩も黙った。[plc]
 
-[dis_all_chara_fade_message]
-[wait time="600"]
-[SetupMessageWindow]
+*debug
+[setup_debug bgm="prologue" bg="sakamichi"]
+[strans storage="black" time="500"]
+[strans storage="sakamichi" time="500"]
+[fadeinse storage="wind" time="1000"]
 
+[show_message_fade time="500"]
 風が吹く。[lr]
 今日は、まぁ、気持ち良いと言ってもいい。[plc]
 
 
 少しずつ、肌寒さはなくなりかけていた。[plc]
 
-
+[fadeoutse time="1000"]
+[fadebgm volume=50 time="1000"]
+[strans storage="sakamichi" blur="true"]
 [shownametag name="大樹" visible=true]
 「……」[plc]
 
@@ -194,6 +201,8 @@
 
 うーん、こいつぁ……。[plc]
 
+[fadebgm volume="100" time="100"]
+[strans storage="sakamichi" time="100"]
 [showstandimage who="haruka" pose="1" face=keibetsu size="l" time="100"]
 [shownametag name="遥香" visible=true]
 「なんか、考え事してるね？」[plc]
@@ -290,10 +299,7 @@
 一人納得していると、[plc]
 
 
-[dis_all_chara_fade_message]
-[wait time="600"]
-[SetupMessageWindow]
-
+[fadeinse storage="chaim_far_single" time="500"]
 ――ボーン、ボーンボーン。[plc]
 
 
@@ -302,7 +308,7 @@
 
 [showstandimage who="haruka" pose="1" face=ai size="l" time="0"]
 [shownametag name="遥香" visible=true]
-[quake time="400"]
+[quake hmax="5" vmax="5" time="400"]
 [nowait]
 「谷口くぅううううううーんッ！！！！」[plc]
 [dis_all_chara]
@@ -311,7 +317,7 @@
 「うぉおおおおおおおおおおおおおおッ！！！！」[plc]
 
 
-
+[fadeoutse time="1000"]
 全力で翔ばす。[lr]
 そう、飛翔するように。[plc]
 
@@ -323,28 +329,28 @@
 時間さえ有れば――[plc]
 
 
-
+[fadeoutbgm time="1000"]
 [dis_all_chara_fade_message]
 [strans storage="white"]
-[SetupMessageWindow]
 
-
+[show_message_fade time="500"]
 [nowait]
+[playse storage="chaim_far_single"]
 ――ボーン、ボーンボーン。[plc]
 
 
 
 尚、時間はやっぱり足りなくて。[plc]
 
-[strans storage="black"]
+;[strans storage="black"]
 
 結局、その日も遅刻した。[plc]
 
-[fadeoutbgm time="1000"]
+[fadeoutse time="1000"]
 [dis_all_chara_fade_message]
 [strans storage="white" time="1000"]
 
-;[JumpChapter storage="senpai_ep_11.ks"]
+[JumpChapter storage="senpai_ep_11.ks"]
 
 
 

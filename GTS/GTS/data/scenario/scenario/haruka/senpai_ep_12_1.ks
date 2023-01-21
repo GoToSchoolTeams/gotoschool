@@ -133,7 +133,7 @@
 適当に返事を返しながら、呟く。[plc]
 
 
-
+[fadeinse storage="chain_kishimi"]
 ――キィ……キィ…。[plc]
 
 
@@ -248,16 +248,12 @@
 「結局、やるこた決まってるんだから。[lr]
 　嘆いたってしょうがないでしょう」[plc]
 
-[dis_all_chara]
-
-ほんとかよ。[plc]
-
 [showbustup who="haruka" pose="1" face=keibetsu]
 [shownametag name="遥香" visible=true]
 「――そんな事より」[plc]
 
 
-[quake time="200"]
+
 ポンと、先輩は俺のつむじのあたりをぶっ叩く。[plc]
 
 
@@ -297,11 +293,9 @@
 
 ラストの坂を前にして、予鈴が鳴る。[plc]
 
-[showstandimage who="haruka" pose="1" face=ai size="l" time="200"]
+[showstandimage who="haruka" pose="1" face=ai size="l"]
 ;[showbustup who="haruka" pose="1" face=ai]
-[quake time="400"]
 [shownametag name="遥香" visible=true]
-[nowait]
 「ちょっとぉおおおおおおー！！」[plc]
 
 [dis_all_chara]

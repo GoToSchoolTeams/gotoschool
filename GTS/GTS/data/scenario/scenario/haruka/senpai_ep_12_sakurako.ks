@@ -6,6 +6,7 @@
 
 [SetupMessageWindow left_chara=1]
 
+[fadeinbgm storage="evening" time="1000"]
 [shownametag name="大樹" visible=true]
 「――福岡 桜子 さんが良いとおもいます！」[plc]
 
@@ -29,11 +30,11 @@
 
 
 ;[場面転換、教室]
+[fadeoutbgm time="1000"]
 [dis_all_chara_fade_message]
 [strans storage="black" time="500"]
-[strans storage="kyositu_m" time="500"]
+[strans storage="rouka2_dt" time="500"]
 [SetupMessageWindow]
-
 
 [nowait]
 どうも、福岡さんは先輩のクラスメイトだったらしい。[plc]
@@ -43,7 +44,6 @@
 [wt]
 
 三年生のその教室に、先輩はズカズカと入っていく。[plc]
-
 [dis_all_chara_fade]
 
 
@@ -56,11 +56,11 @@
 
 
 [dis_all_chara_fade_message]
-[strans storage="white" method="universal" rule="look_up" time="400"]
-[strans storage="kyositu_m" method="universal" rule="look_up" time="400"]
+[strans storage="black" method="universal" rule="left_right" time="400"]
+[strans storage="kyositu_m" method="universal" rule="left_right" time="400"]
 [SetupMessageWindow]
 
-
+[fadeinbgm storage="serious_2" time="1000"]
 [shownametag name="福岡" visible=true bust="false"]
 「ん？　遥香、」[plc]
 
@@ -328,7 +328,8 @@
 [dis_all_chara_fade_message]
 [strans storage="white" time="1000"]
 
-;[JumpChapter storage="senpai_ep_11.ks"]
+
+[JumpChapter storage="senpai_ep_11.ks"]
 
 
 ;[→登校風景]

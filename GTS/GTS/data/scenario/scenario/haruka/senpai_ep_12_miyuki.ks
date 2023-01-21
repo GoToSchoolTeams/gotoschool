@@ -1,9 +1,9 @@
-
 [call storage="Initialize.ks"]
 [strans storage="okujo_m" time=0]
 
 [SetupMessageWindow left_chara=1]
 
+[fadeinbgm storage="evening" time="1000"]
 [shownametag name="大樹" visible=true]
 「――安倍 みゆき さんが良いとおもいます！」[plc]
 
@@ -34,14 +34,14 @@
 
 ;[場面転換、教室]
 [dis_all_chara_fade_message]
+[fadeoutbgm time="1000"]
 [strans storage="black" time="500"]
 [strans storage="kyositu_m" time="500"]
 [SetupMessageWindow]
 
 
-
+[fadeinse storage="ambientA@08" time="1000"]
 一年の教室にいくと、安倍さんは男子に囲まれていた。[plc]
-
 
 [shownametag name="男子A" visible=true bust="false"]
 「ねぇ、安倍さん。これはどうするの？」[plc]
@@ -59,9 +59,9 @@
 「えー、自分でやりなさいよー」[plc]
 
 
-
+[fadeoutse time="1000"]
+[fadeinbgm storage="serious_2" time="1000"]
 なんか、男子の人気者らしかった。[plc]
-
 
 [shownametag name="大樹" visible=true]
 「……」[plc]
@@ -108,6 +108,7 @@
 周りに群がる男子を適当にあしらいながら、[lr]
 安倍さんはやってきた。[plc]
 
+[strans storage="kyositu_m_door"]
 [shownametag name="大樹" visible=true]
 「……おぉ、」[plc]
 
@@ -257,10 +258,9 @@
 「それじゃ」[plc]
 
 
-
 そのまま、安倍さんはこちらに背を向けた。[plc]
 
-
+[strans storage="kyositu_m"]
 ワラワラと、虫のように男たちが群がっていく。[lr]
 その様子を眺めながら、[plc]
 
@@ -347,7 +347,7 @@
 [dis_all_chara_fade_message]
 [strans storage="white" time="1000"]
 
-;[JumpChapter storage="senpai_ep_11.ks"]
+[JumpChapter storage="senpai_ep_11.ks"]
 
 
 ;[→登校風景]

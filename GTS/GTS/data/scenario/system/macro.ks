@@ -51,6 +51,8 @@
 	[kagtag left_chara=%left_chara|1]
 [endmacro]
 
+
+
 ;【絹虫印、plcマクロ。改ページ（ｐ）、セーブラベル、クリアーメッセージ。】
 [macro name="plc"]
 [p]
@@ -146,7 +148,7 @@
 [layopt layer=7 page="fore" visible="false"]
 [layopt layer=8 page="fore" visible="false"]
 [layopt layer=9 page="fore" visible="false"]
-[backlay]
+;[backlay]
 [endmacro]
 
 ;【メッセージレイヤの全削除】
@@ -181,6 +183,7 @@
 [layopt layer=7 page="back" visible="true"]
 [trans layer="base" method="crossfade" time=%time|1000]
 [wt]
+[SetupMessageWindow]
 [endmacro]
 
 ;;【トランジションマクロ】\n
