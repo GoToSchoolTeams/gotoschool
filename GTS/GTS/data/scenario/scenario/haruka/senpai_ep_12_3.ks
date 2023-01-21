@@ -1,4 +1,12 @@
 
+
+[call storage="Initialize.ks"]
+[strans storage="house_d"]
+
+;[call target="*De"]
+
+[SetupMessageWindow left_chara=1]
+
 今日も、朝は見知った顔を見ることで始まった。[plc]
 
 
