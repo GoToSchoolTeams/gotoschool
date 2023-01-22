@@ -30,7 +30,7 @@
 驚いた。[lr]
 俺、挨拶してるよ。[plc]
 
-[showbustup who="najimi" pose="1" face=odoroki]
+[showbustup who="najimi" pose="1" face=odoroki2]
 [shownametag name="縁" visible=true]
 「――っ」[plc]
 
