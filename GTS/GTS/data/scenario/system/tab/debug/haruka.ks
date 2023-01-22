@@ -1,6 +1,7 @@
-@current layer="message10"
+[current layer="message10"]
 
-[position layer="message10" left=200 top=50]
+[position layer="message10" left=200 top=50 opacity=0 width="340"]
+[position layer="message11" left=540 top=50 opacity=0 width="340" visible="true"]
 [nowait]
 [font edge="true" color="0xFFFFFF" size="26"]
 —öƒ–Šø—y‰Ô •Ò
@@ -21,10 +22,10 @@
 [link color="0xFFFFFF" exp="global.DebugJump('senpai_ep_12_1.ks')"]HARUKA_EP12_1(C)[r][endlink]
 [link color="0xFFFFFF" exp="global.DebugJump('senpai_ep_12_miyuki.ks')"]HARUKA_EP12_miyuki(C)[r][endlink]
 [link color="0xFFFFFF" exp="global.DebugJump('senpai_ep_12_2.ks')"]HARUKA_EP12_2(C)[r][endlink]
-[link color="0xFFFFFF" exp="global.DebugJump('senpai_ep_12_sakurako.ks')"]HARUKA_EP12_sakurako(C)[r][endlink]
 
-[locate x=200 y=35]
-;[link color="0xFFFFFF" exp="global.DebugJump('senpai_ep_10.ks')"]HARUKA_EP10(N)[r][endlink]
+[current layer="message11"]
+[r]
+[link color="0xFFFFFF" exp="global.DebugJump('senpai_ep_12_sakurako.ks')"]HARUKA_EP12_sakurako(C)[r][endlink]
 [endnowait]
 
 [return]
