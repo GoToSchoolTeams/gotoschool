@@ -13,7 +13,7 @@
 
 ただし、[plc]
 
-[showstandimage who="najimi" pose="1" face=futsu size="l" time="200"]
+[showstandimage who="najimi" pose="1" face=futsu metojisize="l" time="200"]
 [shownametag name="縁" visible=true]
 「……」[plc]
 
@@ -30,20 +30,20 @@
 驚いた。[lr]
 俺、挨拶してるよ。[plc]
 
-[showbustup who="najimi" pose="2" face=futsu]
+[showbustup who="najimi" pose="1" face=odoroki]
 [shownametag name="縁" visible=true]
 「――っ」[plc]
 
 
 
 それは、相手も同じだったようだ。[lr]
-すこし、目元が動揺していた。[plc]
+動揺していた。[plc]
 
 [shownametag name="大樹" visible=true]
 「……」[plc]
 
 
-[showbustup who="najimi" pose="1" face=futsu size="l"]
+[showbustup who="najimi" pose="1" face=odoroki]
 [shownametag name="縁" visible=true]
 「……」[plc]
 
