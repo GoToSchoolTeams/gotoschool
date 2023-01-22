@@ -30,8 +30,9 @@
 驚いた。[lr]
 俺、挨拶してるよ。[plc]
 
+[showbustup who="najimi" pose="2" face=futsu]
 [shownametag name="縁" visible=true]
-「……」[plc]
+「――っ」[plc]
 
 
 
@@ -42,6 +43,7 @@
 「……」[plc]
 
 
+[showbustup who="najimi" pose="1" face=futsu size="l"]
 [shownametag name="縁" visible=true]
 「……」[plc]
 
