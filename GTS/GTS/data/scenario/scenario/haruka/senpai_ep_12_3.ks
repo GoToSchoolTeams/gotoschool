@@ -1,5 +1,5 @@
 
-
+[fadeinse storage="bird" time="1000"]
 [call storage="Initialize.ks"]
 [strans storage="house_d"]
 
@@ -21,7 +21,8 @@
 
 今日は先輩じゃなくて、お隣さんだったけど。[plc]
 
-
+[fadeoutse time="1000"]
+[fadeinbgm storage="serious_2" time="1000"]
 [shownametag name="大樹" visible=true]
 「……おはよう」[plc]
 
@@ -341,14 +342,14 @@
 ;[setup_debug bg="house_d"]
 
 ;[場面転換]
-[fadebgm volume=0 time="800"]
+[fadeoutbgm time="800"]
 [dis_all_chara_fade_message]
 [strans storage="black" time="800"]
 [strans storage="sakamichi" time="800"]
 [SetupMessageWindow]
 
 
-
+[playse storage="chain_kishimi" loop=true]
 [shownametag name="大樹" visible=true]
 「……ひぃ、ひぃ」[plc]
 
@@ -357,6 +358,7 @@
 漕ぐ。[lr]
 漕ぐ漕ぐ漕ぐ。[plc]
 
+[fadeoutse time="500"]
 [showbustup who="haruka" pose=1 face=magao]
 [shownametag name="遥香" visible=true]
 「……」[plc]
@@ -370,14 +372,14 @@
 一心不乱に漕ぐ。[plc]
 
 
-
+[playse storage="chain_kishimi"]
 ――キィ……キィ…。[plc]
 
 
 
 その甲斐あってか、今日はかなりいいペースで進んでいた。[plc]
 
-
+[fadeinbgm time="2000" storage="prologue"]
 [shownametag name="大樹" visible=true]
 「……せんぱ……今日は、まにあい……そうですよ」[plc]
 

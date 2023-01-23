@@ -145,8 +145,6 @@
 
 ‚µ‚Î‚ç‚­Ô—Ö‚ÉW’†‚·‚é‚ÆAæ”y‚à–Ù‚Á‚½B[plc]
 
-*debug
-[setup_debug bgm="prologue" bg="sakamichi"]
 [strans storage="black" time="500"]
 [strans storage="sakamichi" time="500"]
 [fadeinse storage="wind" time="1000"]
