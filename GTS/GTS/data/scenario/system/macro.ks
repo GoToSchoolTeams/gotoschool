@@ -225,12 +225,12 @@
 
 ;;【立ち絵表示のマクロ】
 ;;who=人物名, haruka;najimi;naruse;gaia;orutega;mash;satori
-;;pose=ポーズ番号, 1;2
+;;pose=ポーズ番号, 0;1;2
 ;;face=表情名, 画像ファイル名
 ;;tere=照れてるかどうか, 論理値
 ;;page=画面\n指定しない場合はback, fore;back
 ;;layer=表示したい前景レイヤ番号, 前景レイヤ
-;;pos=前景レイヤ位置\nレイヤ位置を自動的に決定します, レイヤ位置
+;;pos=前景レイヤ位置\nレイヤ位置を自動的に決定します, l;c;r
 ;;visible=レイヤの可視・不可視\nlayer 属性で指定したレイヤを表示するか、しないかを指定します, 論理値
 ;;grayscale=画像をグレースケールにするか\nlayer , 論理値
 ;;index=重ね合わせ順序\n背景レイヤには指定しないでください, 1以上の値
@@ -264,7 +264,7 @@
 	[if exp="mp.nobust != 'true'"]
 		[showbustup who="&mp.who" pose="&mp.pose" face="&mp.face" tere="&mp.tere" visible=true]
 	[endif]
-	[kagtag who=%who pose=%pose|1 face=%face notrans=%notrans tere=%tere page=%page size=%size nobust=%nobust]
+	[kagtag who=%who pose=%pose|1 face=%face notrans=%notrans tere=%tere page=%page size=%size nobust=%nobust pos=%pos]
 [endmacro]
 
 ;;【名前欄を表示する】
