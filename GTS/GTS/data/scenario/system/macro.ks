@@ -225,7 +225,7 @@
 
 ;;【立ち絵表示のマクロ】
 ;;who=人物名, haruka;najimi;naruse;gaia;orutega;mash;satori;sakurako
-;;pose=ポーズ番号, 1;2;3
+;;pose=ポーズ番号, 1;2
 ;;face=表情名, 画像ファイル名
 ;;tere=照れてるかどうか, 論理値
 ;;page=画面\n指定しない場合はback, fore;back
@@ -264,7 +264,7 @@
 	[if exp="mp.nobust != 'true'"]
 		[showbustup who="&mp.who" pose="&mp.pose" face="&mp.face" tere="&mp.tere" visible=true]
 	[endif]
-	[kagtag who=%who pose=%pose|1 face=%face notrans=%notrans tere=%tere page=%page size=%size nobust=%nobust pos=%pos]
+	[kagtag who=%who pose=%pose|1 face=%face notrans=%notrans tere=%tere page=%page size=%size nobust=%nobust pos=%pos layer=%layer|0]
 [endmacro]
 
 ;;【名前欄を表示する】
