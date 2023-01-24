@@ -7,7 +7,7 @@
 
 [show_message_fade time="500"]
 [nowait]
-[playse storage="chaim_far_single" ]
+;[playse storage="chaim_far_single" ]
 
 
 [strans storage="seitokai"]

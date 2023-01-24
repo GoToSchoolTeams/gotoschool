@@ -1,477 +1,242 @@
 
-
-[call storage="Initialize.ks"]
-
-[fadeoutbgm time="1000"]
-[strans storage="white"]
-
-[show_message_fade time="500"]
-[nowait]
-[playse storage="chaim_far_single" ]
-
-
-[strans storage="seitokai"]
-
-;[call target=*De]
-
-[showbustup who="sakurako" pose="1" face=magao]
-[shownametag name="福岡" visible=true bust="false"]
-「――断るわ」[plc]
-
-[dis_all_chara]
-
-会議の始まりの第一声は、単純な拒絶の言葉だった。[plc]
-
-[showstandimage who="najimi" pose="1" face=ikari]
-[shownametag name="縁" visible=true]
-「……まだ何も話してないんですが」[plc]
-
-[dis_all_chara]
-[shownametag name="寺門" visible=true bust="false"]
-「話す必要なんて、あるの？」[plc]
-
-
-[shownametag name="安倍" visible=true bust="false"]
-「同感です」[plc]
+それから、俺を、[plc]
 
 
 
-静かに、他の二人も同意する。[plc]
+いや、俺達を取り巻く環境が大きく変わった。[plc]
 
 
 
-時刻は、もう５時を回っていた。[lr]
-太陽の傾きが、既に顕著になっていて。[plc]
+まず、屋上から会議室に戻ってきた。[lr]
+それに、[plc]
+
+[shownametag name="ガイア" visible=true]
+「兄弟！」[plc]
 
 
-会議室のカーテンに色付けられた光が、縁の顔を染めた。[plc]
-
-[showbustup who="sakurako" pose="1" face=magao]
-[shownametag name="福岡" visible=true bust="false"]
-「全員集められて、前に立ったのが旗立さん……」[plc]
-
-[showbustup who="sakurako" pose="1" face=magao]
-[shownametag name="福岡" visible=true bust="false"]
-「……話の内容は、大体予想は付くわ」[plc]
-
-[dis_all_chara]
-[shownametag name="安倍" visible=true bust="false"]
-「縁さんが説得されたのには、ちょっと意外でしたけど」[plc]
+[shownametag name="マッシュ" visible=true]
+「拙者たちの助けが！」[plc]
 
 
-[shownametag name="寺門" visible=true bust="false"]
-「この女は、こんなもんだろ」[plc]
-
-
-
-軽口を叩く寺門さんを、キッと縁は睨みつける。[plc]
+[shownametag name="オルテガ" visible=true]
+「必要ニャリねん☆」[plc]
 
 
 [shownametag name="大樹" visible=true]
-「……」[plc]
+「せんぱいやっぱ……」[plc]
 
 
-
-あれ？　こいつら……。[plc]
-
-
-[showbustup who="haruka" pose="1" face=ai]
 [shownametag name="遥香" visible=true]
-「……」[plc]
+「ダメ」[plc]
 
 
 
-先輩も、気付いているようだった。[lr]
-不安げに、こちらを見てくる。[plc]
-[dis_all_chara]
+豚三匹と、[plc]
 
-やっぱり、こいつら……。[plc]
 
-[showbustup who="sakurako" pose="1" face=magao]
-[shownametag name="福岡" visible=true bust="false"]
-「ま、とにかく旗立さんがそっちに行こうがいくまいが、[lr]
-　私達には関係ないわ」[plc]
-[dis_all_chara]
-[shownametag name="寺門" visible=true bust="false"]
-「とうぜんでしょ」[plc]
-
-
-[shownametag name="安倍" visible=true bust="false"]
-「というか、ねぇ」[plc]
-
-
-
-嘲笑するように、安倍さんは声をひそめた。[plc]
-
-
-[shownametag name="安倍" visible=true bust="false"]
-「……なにか、勘違いしてらしたんじゃ？」[plc]
-
-
-
-勿論、隠す気などサラサラ無いのだろう。[plc]
-
-[showbustup who="sakurako" pose="1" face=magao]
-[shownametag name="福岡" visible=true bust="false"]
-「みゆきちゃん……ちょっとそれは言い過ぎ、[lr]
-　確かにあの時は、旗立さんに前に出てもらったからね」[plc]
-
-[showbustup who="sakurako" pose="1" face=magao]
-[shownametag name="福岡" visible=true bust="false"]
-「でも、ま。あなたがリーダーだったわけじゃないわ」[plc]
-
-[dis_all_chara]
-[shownametag name="寺門" visible=true bust="false"]
-「よーは、ちょうどいい、拡声器だったんだよ」[plc]
-
-[showstandimage who="najimi" pose="1" face=do]
-[shownametag name="縁" visible=true]
-「……あなたたち」[plc]
-
-
-
-縁は、怒りにうち震えている。[plc]
-[dis_all_chara]
-
-[shownametag name="大樹" visible=true]
-「……」[plc]
-
-
-[showbustup who="haruka" pose="1" face=kuno]
-[shownametag name="遥香" visible=true]
-「……」[plc]
-
-
-
-先輩と、顔を見合わせた。[plc]
-
-
-――こいつら、糞仲悪いんだけど！！[plc]
-
-[showstandimage who="haruka" pose="1" face=ai]
-[shownametag name="遥香" visible=true]
-「えっと……[l]
-[showstandimage who="haruka" pose="1" face=ki]
-えっとね、君たち」[plc]
-
-
-[showstandimage who="najimi" pose="1" face=do time="0" size="l"]
-[shownametag name="縁" visible=true]
-[nowait]
-「遥香先輩は、黙っててください！」[plc]
-
-[showbustup who="sakurako" pose="1" face=magao]
-[shownametag name="福岡" visible=true bust="false"]
-「そうね、遥香の出る幕じゃないわね」[plc]
-
-[dis_all_chara]
-
-[showbustup who="haruka" pose="1" face=kuno]
-[shownametag name="遥香" visible=true]
-「うぅ」[plc]
-
-
-
-先輩も全然把握してなかったらしい。[lr]
-右往左往と、アタフタしている。[plc]
-
-
-こりゃ、クーデターも起こるわ。[plc]
-
-[showstandimage who="najimi" pose="1" face=ikari size="m"]
-[shownametag name="縁" visible=true]
-「……私が、これほど頼んでもダメだっていうんですか？」[plc]
-
-
-[showbustup who="sakurako" pose="1" face=magao]
-[shownametag name="福岡" visible=true bust="false"]
-「あなたのどこが頼んでる態度だっていうのよ」[plc]
-[dis_all_chara]
-
-
-全くだ。[plc]
-
-[showstandimage who="najimi" pose="1" face=metoji time="200" size="m"]
-[shownametag name="縁" visible=true]
-「そう、分かったわ」[plc]
-
-
-
-何が……分かったんだろう？[plc]
-
-
-[shownametag name="大樹" visible=true]
-「……」[plc]
-
-
-
-コイツ、高校になってマシになったのかと思ったら、[lr]
-ひょっとすると今でもコミュ障なんじゃ……。[plc]
-
-[showstandimage who="najimi" pose="1" face=futsu size="m"]
-[shownametag name="縁" visible=true]
-「あなた達に頼ろうとした私が愚かだったわ。[lr]
-　もう、消えていいわよ」[plc]
-
-[dis_all_chara]
-[shownametag name="安倍" visible=true bust="false"]
-「消えていい……どの口でそんな事を？」[plc]
-
-
-[shownametag name="寺門" visible=true bust="false"]
-「ハッ、わざわざ呼び出しておいてその態度かよ」[plc]
-
-
-[showbustup who="sakurako" pose="1" face=magao]
-[shownametag name="福岡" visible=true bust="false"]
-「もういいわ、帰りましょうよ」[plc]
-
-
-[shownametag name="寺門" visible=true bust="false"]
-「いやだ。私はだいたい、もとからコイツが気に入らなかったんだ。[lr]
-　……確かに、少しは仕事はできるけど、チヤホヤされてさ」[plc]
-
-[shownametag name="寺門" visible=true bust="false"]
-「ほとんど一人でブツブツやってるだけのくせに」[plc]
-
-
-[showbustup who="sakurako" pose="1" face=magao]
-[shownametag name="福岡" visible=true bust="false"]
-「あっそう。私は帰るわ」[plc]
-
-
-[shownametag name="安倍" visible=true bust="false"]
-「あ、私も帰ります」[plc]
-
-
-[shownametag name="寺門" visible=true bust="false"]
-「ちょ、ちょっとまって！　置いてかないでよ！！」[plc]
-
-
-
-そのまま、三人はさっさと帰っていた。[plc]
-
-
-
-;[ドア閉めるSE]
-
-[showstandimage who="najimi" pose="1" face=ikari size="m"]
 [shownametag name="縁" visible=true]
 「……」[plc]
 
-
-
-縁は、怒りにプルプルと震えていて。[plc]
-[dis_all_chara]
-
-[shownametag name="大樹" visible=true]
-「塩でも撒くか？」[plc]
-
-
-[quake time="400"]
-――ゴッ！[plc]
-
-
-
-ぶん殴られた。[plc]
-
-[showstandimage who="satori" pose="1" face=naki size="l"]
-[shownametag name="悟" visible=true]
-「す、すすす、スミマセーン！　遅刻しましたぁ！！！」[plc]
-
-
-[dis_all_chara]
-痛みに悶えていると、唐突に閉じたドアが開いた。[plc]
-
-
-
-見上げると、それは例の顔面すりおろし娘で。[plc]
-
-
-[shownametag name="大樹" visible=true]
-「……え、おま―」[plc]
-
-
-[showstandimage who="najimi" pose="1" face=do tere="true" time="0" size="l"]
-[nowait]
-[shownametag name="縁" visible=true]
-[quake time="400"]
-「――満目さんっ！」[plc]
-
-
-
-突き飛ばされた。[plc]
-
-[showstandimage who="najimi" pose="1" face=futsu tere="true" time="200" size="m"]
-[shownametag name="縁" visible=true]
-「満目さん、あなた……」[plc]
-
-[showstandimage who="satori" pose="1" face=naki time="200" size="m"]
-[shownametag name="悟" visible=true]
-「ひっ、縁さ……そ、その、遅刻したのはわざとじゃなくて。[lr]
-　あと、その……無断欠席も、わざとじゃなくて」[plc]
 
 [shownametag name="悟" visible=true]
-「寝てたとか、気付いたら終わってたとか[r]
-　そういうことじゃなくて……えぇと」[plc]
-
-[showstandimage who="najimi" pose="1" face=do tere="true" time="200" size="m"]
-[shownametag name="縁" visible=true]
-「満目さん！」[plc]
+「ご、ごめんなさい。遅刻しましたぁー！」[plc]
 
 
 
-縁は、おろし娘のよく分からん言い訳など聞いていない。[plc]
+縁と、悟。[plc]
 
 
 
-ガッチリと、満目 悟の両脇をホールドした。[plc]
+そんな感じで、急に大所帯になった。[plc]
 
 
-[showstandimage who="satori" pose="1" face=futsu time="200" size="m"]
-[shownametag name="悟" visible=true]
-「は、はひっ！？」[plc]
-
-[showstandimage who="najimi" pose="1" face=futsu tere="true" time="200" size="m"]
-[shownametag name="縁" visible=true]
-「満目さん、あなた……手伝ってくれるのね？」[plc]
-
-[showstandimage who="satori" pose="1" face=futsu time="200" size="m"]
-[shownametag name="悟" visible=true]
-「へ？」[plc]
-
-[showstandimage who="najimi" pose="1" face=do tere="true" time="200" size="l"]
-[shownametag name="縁" visible=true]
-[quake time="400"]
-「満目 悟さん。あなた、私達を手伝ってくれるのね！？」[plc]
-
-
-[showstandimage who="satori" pose="1" face=futsu time="200" size="l"]
-[shownametag name="悟" visible=true]
-「ふぇ！？……は、[quake time="200"]」[plc]
-
-[dis_all_chara]
-
-
-『はい』と、頷いたのか首が落ちたのか。[plc]
-
-;*De
-;[setup_debug bg="seitokai"]
-
-
-満目 悟は同意した。[plc]
-
-;余りにも合う表情がないので付けない。
-[shownametag name="縁" visible=true bust="false"]
-「せ、せんぱぁぃいい……」[plc]
-
-[showstandimage who="satori" pose="1" face=naki time="200" size="s" nobust="true"]
-[shownametag name="縁" visible=true bust="false"]
-「……こ、この子しか」[plc]
-[dis_all_chara]
-
-
-
-縁は今まで聞いたこともないような声で、[lr]
-縁は両脇をホールドした満目 悟を差し出して……。[plc]
-
-……って、縁のやつ、泣いてやがるぞ！[plc]
-
-[showstandimage who="haruka" pose="1" face=keibetsu size="m"]
 [shownametag name="遥香" visible=true]
-「……」[plc]
+「ギリギリね」[plc]
 
 
 
-その様子を見て、先輩は覚悟を決めたようだった。[plc]
+必要な人数には、正直全然足りないけどな。[plc]
 
-[showstandimage who="haruka" pose="1" face=raku size="l"]
-[shownametag name="遥香" visible=true]
-「谷口君」[plc]
-
-
-[shownametag name="大樹" visible=true]
-「はぃ」[plc]
-
-[showstandimage who="haruka" pose="1" face=ki size="l" time="200"]
-[shownametag name="遥香" visible=true]
-「例の、あの豚三匹。[l]呼んできて」[plc]
-
-
-[shownametag name="大樹" visible=true]
-「え？　……へ？」[plc]
-
-[dis_all_chara]
-
-マジで？[plc]
-
-[showstandimage who="haruka" pose="1" face=magao size="m"]
-[shownametag name="遥香" visible=true]
-「私と、谷口君と、縁ちゃんと、この子……」[plc]
-
-[showstandimage who="haruka" pose="1" face=raku size="m"]
-[shownametag name="遥香" visible=true]
-「……あと三人いれば、どうにか回るわ。ギリギリだけど」[plc]
-
-[dis_all_chara]
-
-え？　嘘まじで？　マジでマジか！！？[plc]
-
-
-
-『嘘だろ！』と叫びたかったが。[plc]
-
-[showstandimage who="haruka" pose="1" face=ki size="m" time="200"]
-[shownametag name="遥香" visible=true]
-「……」[plc]
-
-[dis_all_chara]
-
-先輩の目は、本気そのもので。[plc]
-
-[showbustup who="satori" face=futsu pose="1"]
-[shownametag name="悟" visible=true]
-「？　？？」[plc]
-
-
-
-満目 悟 はわけわからんという顔で疑問符を飛ばしているし。[lr]
-縁は号泣、俺は、[plc]
-
-
-俺は、[plc]
-
-
-[showstandimage who="haruka" pose="1" face=ki size="l" tere="true"]
-[shownametag name="遥香" visible=true]
-「――私、あなた達を信じる事にするわ！」[plc]
-
-[dis_all_chara]
-
-沈みゆく、夕日の中。[lr]
-力強く総宣言する先輩の姿に。[plc]
 
 [shownametag name="大樹" visible=true]
 「……」[plc]
 
 
 
-『初心を取り戻して逃げられたらなぁ』と、そんな、[plc]
+変わったのはそれだけじゃない。[lr]
+例えば、活動が変わった。[plc]
+
+[shownametag name="遥香" visible=true]
+「谷口くーん、ちょっとこれやって」[plc]
+
+
+[shownametag name="大樹" visible=true]
+「ぁ、はーい」[plc]
+
+
+[shownametag name="縁" visible=true]
+「……それ、間違ってる」[plc]
+
+
+[shownametag name="大樹" visible=true]
+「……」[plc]
+
+
+[shownametag name="悟" visible=true]
+「――ひ、ひやぁあああああああ！」[lr]
+;[どんがらがっしゃーん]
+
+[shownametag name="大樹" visible=true]
+「縁、呼ばれてるぞ」[plc]
+
+
+[shownametag name="縁" visible=true]
+「……ハァ」[plc]
+
+
+[shownametag name="ガイア" visible=true]
+「遥香どの、俺達は何をすれば？」[plc]
+
+
+[shownametag name="遥香" visible=true]
+「とりあえず、お世話になるとこに挨拶まわりに」[plc]
+
+
+[shownametag name="マッシュ" visible=true]
+「御意」[plc]
+
+
+[shownametag name="オルテガ" visible=true]
+「ら☆ジャー♪」[plc]
+
+
+[shownametag name="遥香" visible=true]
+「ぁ、ちょっと書類忘れないでよ！」[plc]
 
 
 
-そんな情けない考えに、襲われ始めていたのであった。[plc]
+こんな風に、活動が選挙に関わるものになった。[plc]
 
 
 
-[fadeoutse time="1000"]
-[dis_all_chara_fade_message]
-[strans storage="white" time="1000"]
-
-;[JumpChapter storage="senpai_ep_11.ks"]
+先輩と二人だけだったときは、[lr]
+不毛な議論ばかりでどうしようもなかったが。[plc]
 
 
+今のコレは、あの時よりは確実に進んでいるといえる。[lr]
+言えるが、[plc]
+
+[shownametag name="大樹" visible=true]
+「……いや、ちょ多すぎね」[plc]
 
 
 
-;[→新たな日常]
+……ちょっと、仕事多すぎないっすかね？[plc]
+
+
+[shownametag name="遥香" visible=true]
+「いやー、谷口君と二人のときは何にも仕事してなかったからね」[plc]
+
+
+
+先輩は、カラカラと笑う。[plc]
+
+
+
+え？　ちょっと待ってよ！
+ちょっと描写でこっそり仕事してますよオーラ出てたじゃん！[plc]
+
+
+なんか、信頼がうんたらとか言ってたじゃん！[plc]
+
+
+[shownametag name="遥香" visible=true]
+「いやー、遠いね」[plc]
+
+
+[shownametag name="大樹" visible=true]
+「……」[plc]
+
+
+[shownametag name="遥香" visible=true]
+「終わるの」[plc]
+
+
+
+そういう意味かよ！[plc]
+
+
+[shownametag name="縁" visible=true]
+「遥香先輩、こっちお願いしまーす」[plc]
+
+
+[shownametag name="遥香" visible=true]
+「はぁーい」[plc]
+
+
+[shownametag name="大樹" visible=true]
+「……」[plc]
+
+
+
+結局、俺達は。[lr]
+暫くの間はずっと、書類仕事に追われた。[plc]
+
+
+相変わらず、俺の普段の学校生活は最悪で。[lr]
+何度も逃げ出したくなったけど、まぁ逃げずにやっている。[plc]
+
+
+なんだかんだで、忙しいってのは、充実してるって事で。[lr]
+充実してるって事は。[plc]
+
+[shownametag name="大樹" visible=true]
+「……」[plc]
+
+
+
+――コツン。[plc]
+
+
+
+――クスクスクスクス。[plc]
+
+
+
+些細なことじゃぁ、気にならないって事で。[plc]
+
+
+
+この時、俺は楽観していた。[lr]
+俺達なのか、俺なのかは確かめようがないけれど。[plc]
+
+
+とにかく、楽観していた。[plc]
+
+
+
+このまま、うまくいくんじゃないかって。[plc]
+
+
+
+まぁ、大成功とはいわずとも、[lr]
+誤魔化しが効くぐらいにはどうにかなるんじゃないかって。[plc]
+
+
+そう、思っていた。[plc]
+
+
+
+今の日々の雑務は、些細な事だけど。[lr]
+『些細な事じゃぁない』んだって、どこで安心していた。[plc]
+
+
+安心できると思っていた。[plc]
+
+
+
+そう、思っていたんだ。[plc]
+
+
+
+;[→成瀬の秘密]
