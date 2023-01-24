@@ -46,30 +46,6 @@ tf.DELETE_SIZE_H = 50;
 //立ち絵用(セーブデータ)
 f.lastShowStandImageinfo = new Dictionary();
 
-// 立ち絵情報
-class StandImageInfo {
-	var name;  //!< 人物名
-	var pose; //!< 立ち絵のポーズ
-	var face;  //!< 立ち絵の表情
-	
-	function StandImageInfo(n, p, f)
-	{
-		name = n;
-		pose = p;
-		face = f;
-	}
-}
-
-tf.CharaNameKanziMap = new Dictionary();
-tf.CharaNameKanziMap["senpai"]  = "先輩";
-tf.CharaNameKanziMap["haruka"]  = "先輩";
-tf.CharaNameKanziMap["najimi"]  = "縁";
-tf.CharaNameKanziMap["satori"]  = "悟";
-tf.CharaNameKanziMap["gaia"]    = "ガイア";
-tf.CharaNameKanziMap["mash"]    = "マッシュ";
-tf.CharaNameKanziMap["orutega"] = "オルテガ";
-tf.CharaNameKanziMap["naruse"] = "成瀬";
-
 //! 各立ち絵のLEFT計算のための値
 tf.RectSize = 1280;
 tf.PosToNum = %["l"=>0, "lc"=>1, "c"=>2, "rc"=>3, "r"=>4];
@@ -141,6 +117,12 @@ tf.StandTopMap["orutega"]["1"] = new Dictionary();
 tf.StandTopMap["orutega"]["1"]["s"] = 37;
 tf.StandTopMap["orutega"]["1"]["m"] = -110;
 tf.StandTopMap["orutega"]["1"]["l"] = -271;
+
+tf.StandTopMap["sakurako"] = new Dictionary();
+tf.StandTopMap["sakurako"]["1"] = new Dictionary();
+tf.StandTopMap["sakurako"]["1"]["s"] = 0;
+tf.StandTopMap["sakurako"]["1"]["m"] = 0;
+tf.StandTopMap["sakurako"]["1"]["l"] = 0;
 
 tf.StandPositionMap = new Dictionary();
 tf.StandPositionMap["s"] = new Dictionary();
