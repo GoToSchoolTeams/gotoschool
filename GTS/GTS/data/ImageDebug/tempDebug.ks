@@ -13,6 +13,7 @@
 
 ;[call target=*De]
 
+[showstandimage who="sakurako" face=magao pose="1" size="m" layer="1"]
 
 ‚»‚ê‚©‚ç‰´‚ğA[plc]
 
