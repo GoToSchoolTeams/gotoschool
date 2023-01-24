@@ -224,7 +224,7 @@
 [endmacro]
 
 ;;【立ち絵表示のマクロ】
-;;who=人物名, haruka;najimi;naruse;gaia;orutega;mash;satori
+;;who=人物名, haruka;najimi;naruse;gaia;orutega;mash;satori;sakurako
 ;;pose=ポーズ番号, 0;1;2
 ;;face=表情名, 画像ファイル名
 ;;tere=照れてるかどうか, 論理値
