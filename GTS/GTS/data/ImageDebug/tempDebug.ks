@@ -1,11 +1,26 @@
 
-それから、俺を、[plc]
+
+[call storage="Initialize.ks"]
+
+[fadeoutbgm time="1000"]
+[strans storage="white"]
+
+[show_message_fade time="500"]
+[nowait]
+;[playse storage="chaim_far_single" ]
+
+[strans storage="okujo_m"]
+
+;[call target=*De]
+
+
+それから俺を、[plc]
 
 
 
 いや、俺達を取り巻く環境が大きく変わった。[plc]
 
-
+[strans storage="seitokai"]
 
 まず、屋上から会議室に戻ってきた。[lr]
 それに、[plc]
