@@ -225,7 +225,7 @@
 
 ;;【立ち絵表示のマクロ】
 ;;who=人物名, haruka;najimi;naruse;gaia;orutega;mash;satori;sakurako
-;;pose=ポーズ番号, 0;1;2
+;;pose=ポーズ番号, 1;2;3
 ;;face=表情名, 画像ファイル名
 ;;tere=照れてるかどうか, 論理値
 ;;page=画面\n指定しない場合はback, fore;back

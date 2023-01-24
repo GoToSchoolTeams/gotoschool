@@ -20,32 +20,33 @@
 
 いや、俺達を取り巻く環境が大きく変わった。[plc]
 
+
 [strans storage="seitokai"]
 
 まず、屋上から会議室に戻ってきた。[lr]
 それに、[plc]
 
+[showstandimage layer=3 who="gaia" pose=1 face=egao size=l time="200" pos="c"]
 [shownametag name="ガイア" visible=true]
 「兄弟！」[plc]
 
-
+[showstandimage layer=2 who="mash" pose=1 face=normal size=l time="200" pos="l"]
 [shownametag name="マッシュ" visible=true]
 「拙者たちの助けが！」[plc]
 
-
+[showstandimage layer=1 who="orutega" pose=1 face=odoroki size=l time="200" pos="r"]
 [shownametag name="オルテガ" visible=true]
 「必要ニャリねん☆」[plc]
 
-
+;[dis_all_chara]
 [shownametag name="大樹" visible=true]
-「せんぱいやっぱ……」[plc]
+「……[l]せんぱいやっぱ」[plc]
 
-
+[showbustup who="haruka" pose=1 face=ki]
 [shownametag name="遥香" visible=true]
 「ダメ」[plc]
 
-
-
+[dis_all_chara]
 豚三匹と、[plc]
 
 
