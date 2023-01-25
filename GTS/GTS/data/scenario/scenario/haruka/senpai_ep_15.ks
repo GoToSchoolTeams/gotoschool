@@ -12,7 +12,7 @@
 [strans storage="okujo_m"]
 
 ;[call target=*De]
-
+[haruka_stand face="suttoboke"]
 
 ‚»‚ê‚©‚ç‰´‚ğA[plc]
 

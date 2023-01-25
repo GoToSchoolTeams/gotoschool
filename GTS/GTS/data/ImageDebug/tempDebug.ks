@@ -9,290 +9,397 @@
 [nowait]
 ;[playse storage="chaim_far_single" ]
 
-[strans storage="okujo_m"]
+;[商店街]
+
+[strans storage="fumikiri_op_dt"]
 
 ;[call target=*De]
 
-[showstandimage who="sakurako" face=magao pose="1" size="m" layer="1"]
 
-それから俺を、[plc]
+――ザワザワッ。[plc]
 
-
-
-いや、俺達を取り巻く環境が大きく変わった。[plc]
-
-
-[strans storage="seitokai"]
-
-まず、屋上から会議室に戻ってきた。[lr]
-それに、[plc]
-
-[showstandimage layer=3 who="gaia" pose=1 face=egao size=l time="200" pos="c"]
-[shownametag name="ガイア" visible=true]
-「兄弟！」[plc]
-
-[showstandimage layer=2 who="mash" pose=1 face=normal size=l time="200" pos="l"]
-[shownametag name="マッシュ" visible=true]
-「拙者たちの助けが！」[plc]
-
-[showstandimage layer=1 who="orutega" pose=1 face=odoroki size=l time="200" pos="r"]
-[shownametag name="オルテガ" visible=true]
-「必要ニャリねん☆」[plc]
-
-;[dis_all_chara]
-[shownametag name="大樹" visible=true]
-「……せんぱいやっぱ」[plc]
-
-[showbustup who="haruka" pose=1 face=ki]
-[shownametag name="遥香" visible=true]
-「ダメ」[plc]
-
-[dis_all_chara]
-豚三匹と、[plc]
-
-
-[showstandimage layer="0" who="najimi" pose=1 face=metoji size=m pos="lc"]
-[shownametag name="縁" visible=true]
-「……」[plc]
-
-[showstandimage layer=1 who="satori" pose=1 face=naki size=m pos="rc"]
-[shownametag name="悟" visible=true]
-「ご、ごめんなさい。遅刻しましたぁー！」[plc]
-
-
-
-縁と、悟。[plc]
-
-[dis_all_chara]
-
-そんな感じで、急に大所帯になった。[plc]
-
-[showstandimage who="haruka" face=keibetsu pose="1"]
-[shownametag name="遥香" visible=true]
-「ギリギリね」[plc]
-
-[dis_all_chara]
-
-
-
-必要な人数には、正直全然足りないけどな。[plc]
-
-[strans storage="black"]
-
-[shownametag name="大樹" visible=true]
-「……」[plc]
-
-
-
-変わったのはそれだけじゃない。[lr]
-例えば、活動が変わった。[plc]
-
-[strans storage="seitokai" rule="003"]
-
-[showstandimage who="haruka" face=raku pose="1"]
-[shownametag name="遥香" visible=true]
-「谷口くーん、ちょっとこれやって」[plc]
+;[喧騒の音]
 
 
 [shownametag name="大樹" visible=true]
-「ぁ、はーい」[plc]
+「……先輩、腰が爆発しそうです」[plc]
 
-[showstandimage who="najimi" face=futsu pose="1" time="200"]
-[shownametag name="縁" visible=true]
-[nowait]
-「……それ、間違ってる」[plc]
+[haruka_stand time=400]
+[shownametag name="遥香" visible=true]
+「ほんと、モヤシボーイだね君は」[plc]
+
+[dis_all_chara]
+
+放課後。[plc]
+
+
+
+コピー用紙やらインクやらその他もろもろの雑貨品が足りなくて、[lr]
+俺と先輩は商店街に買い出しにでていた。[plc]
+
+
+酷い人手不足の俺達には、[lr]
+常日頃からの備品チェックなど出来るはずもなく……。[plc]
+
+
+;[回想]
+
+[haruka_face]
+[shownametag name="遥香" visible=true]
+「ぁ、足りない」[plc]
 
 
 [shownametag name="大樹" visible=true]
-「……」[plc]
+「何が足りなくなりました？」[plc]
 
 
-[showstandimage who="satori" face=naki pose="1" size="l" time="200"]
-[shownametag name="悟" visible=true]
-[quake time="400"]
-「――ひ、ひやぁあああああああ！」[plc]
-;[どんがらがっしゃーん
-
-[dis_all_chara]
-[shownametag name="大樹" visible=true]
-「縁、呼ばれてるぞ」[plc]
-
-[showstandimage who="najimi" face=jitome pose="1" size="m" time="200"]
-[shownametag name="縁" visible=true]
-「……ハァ」[plc]
-[dis_all_chara]
-
-
-[showstandimage who="gaia" face=normal pose="1" size="m"]
-[shownametag name="ガイア" visible=true]
-「遥香どの、俺達は何をすれば？」[plc]
-
-
-[showbustup who="haruka" face=raku pose="1" size="m"]
 [shownametag name="遥香" visible=true]
-「とりあえず、お世話になるとこに挨拶まわりに」[plc]
+「……一言で言うのは難しいかなー」[plc]
 
-[showstandimage who="mash" face=doya pose="1" size="m" pos="l" layer="1" time="200"]
-[shownametag name="マッシュ" visible=true]
-「御意」[plc]
 
-[showstandimage who="orutega" face=odoroki pose="1" size="m" pos="r" layer="2" time="200"]
-[shownametag name="オルテガ" visible=true]
-「ら☆ジャー♪」[plc]
 
-[dis_all_chara]
+;[回想、終]
 
-[showstandimage who="haruka" face=magao pose="1" size="m" time="200"]
+
+
+……突然、何もかもが足りなくなったわけで。[plc]
+
+
+
+今日に限って縁も悟もあのバカ三匹も忙しいとかなんとかで、[lr]
+荷物運びは俺しか居ない。[plc]
+
 [shownametag name="遥香" visible=true]
-「…………。[l]
-[showstandimage who="haruka" face=odoroki pose="1" size="l" time="200"]
-ぁ、ちょっと書類忘れないでよ！」[plc]
-
-[dis_all_chara]
+「頑張れ頑張れオトコノコ～♪」[plc]
 
 
 
-
-こんな風に、活動が選挙に関わるものになった。[plc]
-
+……いや、もう一人いるにはいるんだけどさ。[plc]
 
 
-先輩と二人だけだったときは、[lr]
-不毛な議論ばかりでどうしようもなかったが。[plc]
-
-
-今のコレは、あの時よりは確実に進んでいるといえる。[lr]
-言えるが、[plc]
-
-[shownametag name="大樹" visible=true]
-「……いや、ちょ多すぎね」[plc]
-
-
-
-……ちょっと、仕事多すぎないっすかね？[plc]
-
-[showstandimage who="haruka" face=ki pose="1" size="l"]
 [shownametag name="遥香" visible=true]
-「いやー、谷口君と二人のときは何にも仕事してなかったからね」[plc]
+「いやー、谷口くんも使いようだねぇ」[plc]
 
 
 
-先輩は、カラカラと笑う。[plc]
-
-[dis_all_chara]
-
-え？　ちょっと待ってよ！[lr]
-ちょっと描写でこっそり仕事してますよオーラ出てたじゃん！[plc]
-
-
-なんか、信頼がうんたらとか言ってたじゃん！[plc]
-
-[showstandimage who="haruka" face=ki pose="1" size="m"]
-[shownametag name="遥香" visible=true]
-「いやー、遠いね」[plc]
-
-
-[shownametag name="大樹" visible=true]
-「……」[plc]
-
-[showstandimage who="haruka" face=raku pose="1" size="m" time="200"]
-[shownametag name="遥香" visible=true]
-「終わるの」[plc]
-
-
-
-そういう意味かよ！[plc]
-
-[dis_all_chara]
-
-;*De
-;[setup_debug bg="seitokai"]
-
-[showbustup who="najimi" face=futsu pose="1"]
-[shownametag name="縁" visible=true]
-[nowait]
-「遥香先輩、こっちお願いしまーす！」[plc]
-
-[showstandimage who="haruka" face=ki pose="1" size="m" time="200"]
-[shownametag name="遥香" visible=true]
-「はぁーい」[plc]
-[dis_all_chara]
-
-[shownametag name="大樹" visible=true]
-「……」[plc]
-
-;[場面転換]
-[strans storage="black"]
-
-
-結局、俺達は。[lr]
-暫くの間はずっと、書類仕事に追われた。[plc]
-
-
-相変わらず、俺の普段の学校生活は最悪で。[lr]
-何度も逃げ出したくなったけど、まぁ逃げずにやっている。[plc]
-
-
-なんだかんだで、忙しいってのは充実してるって事で。[lr]
-充実してるって事は。[plc]
-
-;[場面転換]
-[strans storage="kyositu_m"]
+なかなかの上機嫌でスキップなどかましながら、[lr]
+先輩は俺を先導していく。[plc]
 
 [shownametag name="大樹" visible=true]
 「……」[plc]
 
 
 
-――コツン。[plc]
+;[回想]
+
+
+[shownametag name="遥香" visible=true]
+「谷口君だけじゃ何にもわからないだろうから、[lr]
+付いて行ってあげるよ」[plc]
+
+[shownametag name="遥香" visible=true]
+「もちろん、荷物は持たないけどね」[plc]
 
 
 
-――クスクスクスクス。[plc]
+;[回想、終]
 
 
 
-些細なことじゃぁ、気にならないって事で。[plc]
+というわけで、手伝いはしないけど先輩も付いて来てると、[lr]
+そういうわけだった。[plc]
 
-[strans storage="black"]
-
-この時、俺は楽観していた。[lr]
-俺達なのか、俺なのかは確かめようがないけれど。[plc]
-
-
-とにかく、楽観していた。[plc]
+[shownametag name="大樹" visible=true]
+「……まさか本当に手伝わないとは思わなかったけど」[plc]
 
 
-
-このまま、うまくいくんじゃないかって。[plc]
-
-
-
-まぁ、大成功とはいわずとも、[lr]
-誤魔化しが効くぐらいにはどうにかなるんじゃないかって。[plc]
+[shownametag name="遥香" visible=true]
+「何か言った？」[plc]
 
 
-[strans storage="seitokai"]
-
-日々の雑務は、些細な事だけど。[lr]
-『些細な事じゃぁない』んだって、どこで安心していた。[plc]
-
-[showstandimage who="najimi" face=futsu pose="1" size="m" pos="l" nobust="true"]
-[showstandimage who="satori" face=naki pose="1" size="m" pos="r" nobust="true"]
-[showstandimage who="haruka" face=ki pose="1" size="m" pos="c" nobust="true"]
-
-安心できると思っていた。[plc]
-
-[strans storage="black"]
-
-そう、思っていたんだ。[plc]
-
-[fadeoutse time="1000"]
-[dis_all_chara_fade_message]
-[strans storage="white" time="1000"]
-
-[JumpChapter storage="senpai_ep_16.ks"]
+[shownametag name="大樹" visible=true]
+「……いえ」[plc]
 
 
 
-;[→成瀬の秘密]
+言っても無駄だろうな。[plc]
+
+
+[shownametag name="大樹" visible=true]
+「はぁ」[plc]
+
+
+
+溜息を付きながら、抱えている荷物の具合を確認する。[plc]
+
+
+[shownametag name="大樹" visible=true]
+「……」[plc]
+
+
+
+見ためにも分かりやすく、うず高く積み上がっていた。[plc]
+
+
+[shownametag name="大樹" visible=true]
+「あと、どれくらいですか？」[plc]
+
+
+[shownametag name="遥香" visible=true]
+「えーっと、あと３件も回れば終わりかな。[lr]
+荷物的には、いまの量の二倍ぐらいだよ」[plc]
+
+[shownametag name="大樹" visible=true]
+「へ？」[plc]
+
+
+
+マジで言ってんのかよ、このアマ。[plc]
+
+
+[shownametag name="大樹" visible=true]
+「持てるわけ無いっすよ！　無理っすよ！！」[plc]
+
+
+
+『腰が爆発しそうだ』つってんだろうが！！[plc]
+
+
+[shownametag name="遥香" visible=true]
+「貧弱だねぇ……まだ谷口君の体重の20％くらいでしょ？[lr]
+労務省によると40％以下ならいけるって事だけど」[plc]
+
+[shownametag name="大樹" visible=true]
+「それはプロの基準でしょう！？」[plc]
+
+
+[shownametag name="遥香" visible=true]
+「『無理っていうのは嘘つきの言葉だ』って聞いたこと無い？」[plc]
+
+
+[shownametag name="大樹" visible=true]
+「それこそ僕には無理です！」[plc]
+
+
+[shownametag name="遥香" visible=true]
+「……意外と博識だね」[plc]
+
+
+
+『ということで行こうか』と、先輩はさっさと歩いて行って。[plc]
+
+
+[shownametag name="大樹" visible=true]
+「……なにが『ということで』だよ」[plc]
+
+
+
+議論するだけ無駄だったな。[plc]
+
+
+[shownametag name="大樹" visible=true]
+「はぁ」[plc]
+
+
+
+諦めて付いていこうとすると、視界の端に見知った顔が見えた。[plc]
+
+
+[shownametag name="大樹" visible=true]
+「ん？　……あれは？」[plc]
+
+
+
+なる……せ？[plc]
+
+
+[shownametag name="？？？" visible=true bust="false"]
+「……」[lr]
+;[黒髪成瀬]
+
+
+たぶん。いや、間違いなく成瀬だ。[lr]
+金髪じゃないけど……まぁ、２秒でバレるブリーチ金髪だったしな。[plc]
+
+[shownametag name="大樹" visible=true]
+「地毛だとか、ぬかしてやがったくせに」[plc]
+
+
+
+風紀に煩い癖に率先して校則違反してるじゃないかよ。[plc]
+
+
+[shownametag name="遥香" visible=true]
+「どうしたの？」[plc]
+
+
+
+俺が立ち止まった事に気付いたのか、先輩が戻ってきていた。[plc]
+
+
+[shownametag name="大樹" visible=true]
+「いや、あれ。成瀬っすよ」[plc]
+
+
+[shownametag name="遥香" visible=true]
+「んー？」[plc]
+
+
+
+アゴで成瀬の方を指し示すと、先輩は妙な顔をした。[plc]
+
+
+[shownametag name="大樹" visible=true]
+「あれ成瀬っすよね？　こんなとこで何やって……」[plc]
+
+
+[shownametag name="遥香" visible=true]
+「いや、成瀬じゃないわね」[plc]
+
+
+[shownametag name="大樹" visible=true]
+「え？」[plc]
+
+
+[shownametag name="遥香" visible=true]
+「だってほら、金髪じゃないじゃない」[plc]
+
+
+
+んな馬鹿な。[plc]
+
+
+[shownametag name="大樹" visible=true]
+「いや、先輩。アレが地毛なわけ無いでしょ！
+普段は染めてるんですって！！」[plc]
+
+[shownametag name="遥香" visible=true]
+「だとしても違うわ」[plc]
+
+
+[shownametag name="大樹" visible=true]
+「いやいやいやいやいや、あの特徴的な髪型は間違いなく……」[plc]
+
+
+[shownametag name="遥香" visible=true]
+「成瀬じゃない」[plc]
+
+
+
+なぜだか、断定するような物言いで。[plc]
+
+
+[shownametag name="大樹" visible=true]
+「……」[plc]
+
+
+
+何も、言えなくなってしまう。[plc]
+
+
+[shownametag name="成瀬？" visible=true bust="false"]
+「……」[plc]
+
+
+
+挙動不審なほどに辺りを確認して、[lr]
+そのまま、成瀬は妙な形の建物に入っていってしまった。[plc]
+
+
+やっぱ、あれは……。[plc]
+
+
+[shownametag name="大樹" visible=true]
+「……成瀬だよなぁ」[plc]
+
+
+
+納得いかずにそう呟くと、[plc]
+
+
+[shownametag name="遥香" visible=true]
+「違う……そういう事にしときなさい」[plc]
+
+
+
+そう言われて、先輩に抱えていた荷物の一部をひったくられた。[plc]
+
+
+[shownametag name="遥香" visible=true]
+「半分……とは言わないけど、いくらか持ってあげるわよ」[plc]
+
+
+[shownametag name="遥香" visible=true]
+「さ、行こう」[plc]
+
+
+
+そう言って、先輩は歩き出そうとして。[plc]
+
+
+[shownametag name="大樹" visible=true]
+「ちょ、待ってくださ…」[plc]
+
+
+
+ピタッと、歩を止めた。[plc]
+
+
+[shownametag name="遥香" visible=true]
+「前に行ったよね」[plc]
+
+
+[shownametag name="大樹" visible=true]
+「？」[plc]
+
+
+[shownametag name="遥香" visible=true]
+「物事は一面的じゃないって」[plc]
+
+
+[shownametag name="大樹" visible=true]
+「……」[plc]
+
+
+[shownametag name="遥香" visible=true]
+「そういうことよ」[plc]
+
+
+
+言い切ると、先輩はさっさと歩いて行って。[plc]
+
+
+[shownametag name="大樹" visible=true]
+「……」[plc]
+
+
+
+振り返る。[lr]
+成瀬が入っていった場所は……。[plc]
+
+[shownametag name="大樹" visible=true]
+「……障害者施設？」[plc]
+
+
+[shownametag name="遥香" visible=true]
+「はやく行こうよ！」[plc]
+
+
+[shownametag name="大樹" visible=true]
+「ぁ、はい！」[plc]
+
+
+
+先輩の背中を追いかけながら、[plc]
+
+
+
+そういや、弟がいるって言ってたなぁ……。[plc]
+
+
+
+なんて、そんな事を思い出していた。[plc]
+
+
+
+;[成瀬の秘密、終]

@@ -264,7 +264,7 @@
 	[if exp="mp.nobust != 'true'"]
 		[showbustup who="&mp.who" pose="&mp.pose" face="&mp.face" tere="&mp.tere" visible=true]
 	[endif]
-	[kagtag who=%who pose=%pose|1 face=%face notrans=%notrans tere=%tere page=%page size=%size nobust=%nobust pos=%pos layer=%layer|0]
+	[kagtag who=%who pose=%pose|1 face=%face notrans=%notrans tere=%tere page=%page size=%size nobust=%nobust|false pos="%pos|c" layer="%layer|0" visible="%visible|true"]
 [endmacro]
 
 ;;【名前欄を表示する】
@@ -330,7 +330,7 @@
 [kagtag name=%name]
 [endmacro]
 
-;;【選択肢を追加する
+;;【選択肢を追加する】
 ;;storage=シナリオファイル名\nジャンプ先のシナリオファイルを指定します, シナリオファイル名
 [macro name="AddBrunch"]
 @eval exp="tf.temp = new Dictionary()"
@@ -493,5 +493,37 @@
 [macro name=filter]
 [endmacro]
 
+
+[kagtag who=%who pose=%pose|1 face=%face notrans=%notrans tere=%tere page=%page size=%size nobust=%nobust|false pos="%pos|c" layer="%layer|0"]
+
+
+;;【追加マクロ(byMahiro)】
+;;[haruka立ち絵用]
+;;pose=ポーズ番号, 0;1;2
+;;face=表情名, magao;ki;do;ai;raku;jitome;keibetsu;kuno;niyaniya;odoroki;suttoboke
+;;size=サイズ, s;m;l
+;;nobust=バスト画像を出さない, 論理値
+;;tere=照れてるかどうか, 論理値
+;;pos=前景レイヤ位置\nレイヤ位置を自動的に決定します, l;c;r
+;;layer=表示したい前景レイヤ番号, 前景レイヤ;0;1;2
+;;page=画面\n指定しない場合はback, fore;back
+;;time=トランジション時間\nデフォルトは500, ミリ秒時間
+;;notrans=トランジションの有無, 論理値
+;;visible=レイヤの可視・不可視\nlayer 属性で指定したレイヤを表示するか、しないかを指定します, 論理値
+[macro name="haruka_stand"]
+[showstandimage who="haruka" pose="%pose|1"  face="%face|magao" size="%size|m" nobust="%nobust|false" tere="%tere|false" pos="%pos|c" layer="%layer|0" page="%page|back" notrans="%notrans|false" time="%time|400" visible="%visible|true"]
+[kagtag who="haruka" pose="%pose|1"  face="%face|magao" size="%size|m" nobust="%nobust|false" tere="%tere|false" pos="%pos|c" layer="%layer|0" page="%page|back" notrans="%notrans|false" time="%time|400" visible="%visible|true"]
+[endmacro]
+
+;;【追加マクロ(byMahiro)】
+;;[haruka立ち絵用]
+;;pose=ポーズ番号, 0;1;2
+;;face=表情名, magao;ki;do;ai;raku;jitome;keibetsu;kuno;niyaniya;odoroki;suttoboke
+;;tere=照れてるかどうか, 論理値
+;;visible=レイヤの可視・不可視\nlayer 属性で指定したレイヤを表示するか、しないかを指定します, 論理値
+[macro name="haruka_face"]
+[showbustup who="haruka" face="%face|magao" pose="%pose|1" tere="%tere|false" visible="%visible|true"]
+[kagtag who="haruka" face="%face|magao" pose="%pose|1" tere="%tere|false" visible="%visible|true"]
+[endmacro]
 ;EOF
 [return]
