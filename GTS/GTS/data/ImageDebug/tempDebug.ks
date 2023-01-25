@@ -77,7 +77,7 @@
 
 俺達は、会議室に集められていた。[plc]
 
-
+[naruse_face face="futsu" pose="2"]
 [shownametag name="成瀬" visible=true]
 「……」[plc]
 
@@ -94,18 +94,19 @@
 長ったらしい教師の説明が終わると、[lr]
 先輩と成瀬は互いに一歩前に進み出た。[plc]
 
+[haruka_stand face="raku"]
 [shownametag name="遥香" visible=true]
 「……」[plc]
 
 
 
 先輩は、腕をまくる。[plc]
-
+[dis_all_chara]
 
 
 その様子を見て、嘲る様に成瀬が笑った。[plc]
 
-
+[naruse_stand face="futsu"]
 [shownametag name="成瀬" visible=true]
 「……正直なところ。[lr]
 　今日まで出馬をリタイアしなかったことには、驚きですわ」[plc]

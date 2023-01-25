@@ -555,5 +555,35 @@
 [kagtag who="najimi" face="%face|futsu" pose="%pose|1" tere="%tere|false" visible="%visible|true"]
 [endmacro]
 
+;;【追加マクロ(byMahiro)】
+;;[naruse立ち絵用]
+;;pose=ポーズ番号, 0;1;2
+;;face=表情名, futsu;hohoho
+;;size=サイズ, s;m;l
+;;nobust=バスト画像を出さない, 論理値
+;;tere=照れてるかどうか, 論理値
+;;pos=前景レイヤ位置\nレイヤ位置を自動的に決定します, l;c;r
+;;layer=表示したい前景レイヤ番号, 前景レイヤ;0;1;2
+;;page=画面\n指定しない場合はback, fore;back
+;;time=トランジション時間\nデフォルトは500, ミリ秒時間
+;;notrans=トランジションの有無, 論理値
+;;visible=レイヤの可視・不可視\nlayer 属性で指定したレイヤを表示するか、しないかを指定します, 論理値
+[macro name="naruse_stand"]
+[showstandimage who="naruse" pose="%pose|1"  face="%face|futsu" size="%size|m" nobust="%nobust|false" tere="%tere|false" pos="%pos|c" layer="%layer|0" page="%page|back" notrans="%notrans|false" time="%time|400" visible="%visible|true"]
+[kagtag who="naruse" pose="%pose|1"  face="%face|futsu" size="%size|m" nobust="%nobust|false" tere="%tere|false" pos="%pos|c" layer="%layer|0" page="%page|back" notrans="%notrans|false" time="%time|400" visible="%visible|true"]
+[endmacro]
+
+;;【追加マクロ(byMahiro)】
+;;[naruse立ち絵用]
+;;pose=ポーズ番号, 0;1;2
+;;face=表情名, futsu;hohoho
+;;tere=照れてるかどうか, 論理値
+;;visible=レイヤの可視・不可視\nlayer 属性で指定したレイヤを表示するか、しないかを指定します, 論理値
+[macro name="naruse_face"]
+[showbustup who="naruse" face="%face|futsu" pose="%pose|1" tere="%tere|false" visible="%visible|true"]
+[kagtag who="naruse" face="%face|futsu" pose="%pose|1" tere="%tere|false" visible="%visible|true"]
+[endmacro]
+
+
 ;EOF
 [return]
