@@ -184,7 +184,7 @@ tf.eyeInfo[0] = %["fg"=>"s_gaia_pose1_egao.png", "bg"=>"eyelevel_gaia.png"];
 tf.eyeInfo[1] = %["fg"=>"s_gaia_yosyouki_pose1_chinsyaku.png", "bg"=>"eyelevel_gaia_yousyouki.png"];
 tf.eyeInfo[2] = %["fg"=>"s_haruka_pose1_ai.png", "bg"=>"eyelevel_haruka_pose1.png"];
 tf.eyeInfo[3] = %["fg"=>"s_haruka_pose2_ai.png", "bg"=>"eyelevel_harula_pose2.png"];
-tf.eyeInfo[4] = %["fg"=>"s_masshu_pose1_doya.png", "bg"=>"eyelevel_masshu.png"];
+tf.eyeInfo[4] = %["fg"=>"s_mash_pose1_doya.png", "bg"=>"eyelevel_masshu.png"];
 tf.eyeInfo[5] = %["fg"=>"s_najimi_pose1_do.png", "bg"=>"eyelevel_najimi_pose1.png"];
 tf.eyeInfo[6] = %["fg"=>"s_najimi_pose2_do.png", "bg"=>"eyelevel_najimi_pose2.png"];
 tf.eyeInfo[7] = %["fg"=>"s_naruse_pose1_hohoho.png", "bg"=>"eyelevel_naruse_pose1.png"];
