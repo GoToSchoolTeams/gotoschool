@@ -38,7 +38,7 @@
 
 ;—§‚¿ŠG
 [eval exp="Storages.addAutoPath('fgimage/haruka/')"]
-[eval exp="Storages.addAutoPath('fgimage/nazimi/')"]
+[eval exp="Storages.addAutoPath('fgimage/najimi/')"]
 [eval exp="Storages.addAutoPath('fgimage/naruse/')"]
 [eval exp="Storages.addAutoPath('fgimage/satori/')"]
 [eval exp="Storages.addAutoPath('fgimage/gaia/')"]
