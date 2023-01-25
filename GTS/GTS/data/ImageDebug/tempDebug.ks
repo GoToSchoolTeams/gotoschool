@@ -13,7 +13,7 @@
 
 [strans storage="fumikiri_op_dt"]
 
-;[call target=*De]
+[call target=*De]
 
 
 ――ザワザワッ。[plc]
@@ -24,7 +24,7 @@
 [shownametag name="大樹" visible=true]
 「……先輩、腰が爆発しそうです」[plc]
 
-[haruka_stand time=400]
+[haruka_stand time=400 face="keibetsu"]
 [shownametag name="遥香" visible=true]
 「ほんと、モヤシボーイだね君は」[plc]
 
@@ -43,36 +43,43 @@
 
 
 ;[回想]
+;[場面転換]
+[dis_all_chara_fade_message]
+[strans storage="black" time="400"]
+[strans storage="seitokai" time="400" method="universal" rule="001"]
+[SetupMessageWindow]
 
-[haruka_face]
+[haruka_stand face="odoroki"]
 [shownametag name="遥香" visible=true]
+[nowait]
 「ぁ、足りない」[plc]
 
-
+[dis_all_chara]
 [shownametag name="大樹" visible=true]
 「何が足りなくなりました？」[plc]
 
-
+[haruka_stand face="jitome" time="200"]
 [shownametag name="遥香" visible=true]
 「……一言で言うのは難しいかなー」[plc]
+[dis_all_chara]
 
-
-
+[strans storage="black"]
 ;[回想、終]
 
 
 
 ……突然、何もかもが足りなくなったわけで。[plc]
 
-
+[strans storage="fumikiri_op_dt"]
 
 今日に限って縁も悟もあのバカ三匹も忙しいとかなんとかで、[lr]
 荷物運びは俺しか居ない。[plc]
 
+[haruka_stand face="ki" size="l"]
 [shownametag name="遥香" visible=true]
 「頑張れ頑張れオトコノコ～♪」[plc]
 
-
+[dis_all_chara]
 
 ……いや、もう一人いるにはいるんだけどさ。[plc]
 
@@ -91,28 +98,34 @@
 
 
 ;[回想]
+;[場面転換]
+[dis_all_chara_fade_message]
+[strans storage="black" time="400"]
+[strans storage="seitokai" time="400" method="universal" rule="001"]
+[SetupMessageWindow]
 
-
+[haruka_stand face="raku" size="m"]
 [shownametag name="遥香" visible=true]
 「谷口君だけじゃ何にもわからないだろうから、[lr]
-付いて行ってあげるよ」[plc]
+　付いて行ってあげるよ」[plc]
 
+[haruka_stand face="ki" size="l"]
 [shownametag name="遥香" visible=true]
 「もちろん、荷物は持たないけどね」[plc]
 
 
 
 ;[回想、終]
-
+[strans storage="fumikiri_op_dt"]
 
 
 というわけで、手伝いはしないけど先輩も付いて来てると、[lr]
 そういうわけだった。[plc]
 
 [shownametag name="大樹" visible=true]
-「……まさか本当に手伝わないとは思わなかったけど」[plc]
+「……まさか本当に手伝わないとは」[plc]
 
-
+[haruka_face face="ki"]
 [shownametag name="遥香" visible=true]
 「何か言った？」[plc]
 
@@ -123,6 +136,9 @@
 
 
 言っても無駄だろうな。[plc]
+
+*De
+[setup_debug bg="fumikiri_op_dt"]
 
 
 [shownametag name="大樹" visible=true]
