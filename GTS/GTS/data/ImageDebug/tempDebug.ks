@@ -55,11 +55,13 @@
 
 いや、実際、今から始まる。[plc]
 
-
+[haruka_face face="magao"]
 [shownametag name="遥香" visible=true]
 「……」[plc]
 
+[dis_all_chara]
 
+[najimi_face face="futsu"]
 [shownametag name="縁" visible=true]
 「……」[plc]
 
@@ -106,7 +108,7 @@
 
 [shownametag name="成瀬" visible=true]
 「……正直なところ。[lr]
-今日まで出馬をリタイアしなかったことには、驚きですわ」[plc]
+　今日まで出馬をリタイアしなかったことには、驚きですわ」[plc]
 
 [shownametag name="遥香" visible=true]
 「そもそも、リタイア無いでしょこれ」[plc]

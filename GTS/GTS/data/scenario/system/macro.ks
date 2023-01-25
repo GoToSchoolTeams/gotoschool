@@ -525,5 +525,35 @@
 [showbustup who="haruka" face="%face|magao" pose="%pose|1" tere="%tere|false" visible="%visible|true"]
 [kagtag who="haruka" face="%face|magao" pose="%pose|1" tere="%tere|false" visible="%visible|true"]
 [endmacro]
+
+;;【追加マクロ(byMahiro)】
+;;[najimi立ち絵用]
+;;pose=ポーズ番号, 0;1;2
+;;face=表情名, futsu;ki;do;ikari;raku;jitome;metoji;odoroki;odoroki2;raku
+;;size=サイズ, s;m;l
+;;nobust=バスト画像を出さない, 論理値
+;;tere=照れてるかどうか, 論理値
+;;pos=前景レイヤ位置\nレイヤ位置を自動的に決定します, l;c;r
+;;layer=表示したい前景レイヤ番号, 前景レイヤ;0;1;2
+;;page=画面\n指定しない場合はback, fore;back
+;;time=トランジション時間\nデフォルトは500, ミリ秒時間
+;;notrans=トランジションの有無, 論理値
+;;visible=レイヤの可視・不可視\nlayer 属性で指定したレイヤを表示するか、しないかを指定します, 論理値
+[macro name="najimi_stand"]
+[showstandimage who="najimi" pose="%pose|1"  face="%face|futsu" size="%size|m" nobust="%nobust|false" tere="%tere|false" pos="%pos|c" layer="%layer|0" page="%page|back" notrans="%notrans|false" time="%time|400" visible="%visible|true"]
+[kagtag who="najimi" pose="%pose|1"  face="%face|futsu" size="%size|m" nobust="%nobust|false" tere="%tere|false" pos="%pos|c" layer="%layer|0" page="%page|back" notrans="%notrans|false" time="%time|400" visible="%visible|true"]
+[endmacro]
+
+;;【追加マクロ(byMahiro)】
+;;[najimi立ち絵用]
+;;pose=ポーズ番号, 0;1;2
+;;face=表情名, futsu;ki;do;ikari;raku;jitome;metoji;odoroki;odoroki2;raku
+;;tere=照れてるかどうか, 論理値
+;;visible=レイヤの可視・不可視\nlayer 属性で指定したレイヤを表示するか、しないかを指定します, 論理値
+[macro name="najimi_face"]
+[showbustup who="najimi" face="%face|futsu" pose="%pose|1" tere="%tere|false" visible="%visible|true"]
+[kagtag who="najimi" face="%face|futsu" pose="%pose|1" tere="%tere|false" visible="%visible|true"]
+[endmacro]
+
 ;EOF
 [return]
