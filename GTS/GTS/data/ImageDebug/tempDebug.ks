@@ -137,8 +137,6 @@
 
 言っても無駄だろうな。[plc]
 
-*De
-[setup_debug bg="fumikiri_op_dt"]
 
 
 [shownametag name="大樹" visible=true]
@@ -160,10 +158,10 @@
 [shownametag name="大樹" visible=true]
 「あと、どれくらいですか？」[plc]
 
-
+[haruka_face face="magao"]
 [shownametag name="遥香" visible=true]
 「えーっと、あと３件も回れば終わりかな。[lr]
-荷物的には、いまの量の二倍ぐらいだよ」[plc]
+　荷物的には、いまの量の二倍ぐらいだよ」[plc]
 
 [shownametag name="大樹" visible=true]
 「へ？」[plc]
@@ -180,15 +178,16 @@
 
 『腰が爆発しそうだ』つってんだろうが！！[plc]
 
-
+[haruka_stand face="jitome" time="200"]
 [shownametag name="遥香" visible=true]
 「貧弱だねぇ……まだ谷口君の体重の20％くらいでしょ？[lr]
-労務省によると40％以下ならいけるって事だけど」[plc]
+[haruka_stand face="raku"]
+　労務省によると40％以下ならいけるって事だけど」[plc]
 
 [shownametag name="大樹" visible=true]
 「それはプロの基準でしょう！？」[plc]
 
-
+[haruka_stand face="ki" size="l"]
 [shownametag name="遥香" visible=true]
 「『無理っていうのは嘘つきの言葉だ』って聞いたこと無い？」[plc]
 
@@ -196,7 +195,8 @@
 [shownametag name="大樹" visible=true]
 「それこそ僕には無理です！」[plc]
 
-
+[dis_all_chara]
+[haruka_face face="jitome"]
 [shownametag name="遥香" visible=true]
 「……意外と博識だね」[plc]
 
@@ -224,7 +224,8 @@
 [shownametag name="大樹" visible=true]
 「ん？　……あれは？」[plc]
 
-
+*De
+[setup_debug bg="fumikiri_op_dt"]
 
 なる……せ？[plc]
 
