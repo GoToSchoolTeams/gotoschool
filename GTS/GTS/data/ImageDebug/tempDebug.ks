@@ -13,7 +13,7 @@
 
 [strans storage="seitokai"]
 
-[call target=*De]
+;[call target=*De]
 
 
 [shownametag name="教師" visible=true bust="false"]
@@ -826,12 +826,9 @@
 
 [dis_all_chara]
 
-*De
-[setup_debug bg="okujo_m"]
 
 
-
-ふーん、なんか、派手にやってる割には、[lr]
+ふーん。[l]なんか、派手にやってる割には、[lr]
 内容は毎年しょっぱい事になってそうだな。[plc]
 
 
@@ -845,27 +842,29 @@
 [shownametag name="大樹" visible=true]
 「じゃ、そのじゃんけんで運命が決まっちゃいますね」[plc]
 
-
+[haruka_stand face="ai" size="l"]
 [shownametag name="遥香" visible=true]
-「そー、なのよねー。例年だったら
-どうしようもないって程でもないんだけど、今年はね……」[plc]
+「そー、なのよねー。[l]例年だったら[r]
+　どうしようもないって程でもないんだけど、[l]今年はね……」[plc]
 
+[haruka_stand face="kuno" size="l"]
 [shownametag name="遥香" visible=true]
 「……一応、もしスポーツイベントになった時のために、[lr]
-運動部とはずっと交流してきたんだけど」[plc]
+　運動部とはずっと交流してきたんだけど」[plc]
 
+[najimi_face face="futsu"]
 [shownametag name="縁" visible=true]
 「……あんたの嫌われ方が酷くてね」[plc]
 
 
 [shownametag name="大樹" visible=true]
 「……」[plc]
-
+[dis_all_chara]
 
 
 だろうなぁ……脳筋さんには洒落がきかないから。[plc]
 
-
+[najimi_face face="metoji"]
 [shownametag name="縁" visible=true]
 「加えて、文化部とは疎遠になってしまいましたしね」[plc]
 
@@ -873,19 +872,20 @@
 
 後悔するように、縁は言う。[plc]
 
-
+[haruka_stand face="magao"]
 [shownametag name="遥香" visible=true]
 「うーん、しゃーないよ。[lr]
-なんか、あいつら成瀬にべったりだったし……」[plc]
+　なんか、あいつら成瀬にべったりだったし……」[plc]
 
+[haruka_stand face="raku"]
 [shownametag name="遥香" visible=true]
 「ま、文化イベント自体はアタリだから」[plc]
 
-
+[najimi_face face="futsu"]
 [shownametag name="縁" visible=true]
 「それは、そうなんですが」[plc]
 
-
+[dis_all_chara]
 
 へー、そんな各部活との交流とかしてたんだ全然知らんかった。[plc]
 
@@ -909,10 +909,10 @@
 
 チャイムが鳴った。[plc]
 
-
+[haruka_stand face="magao"]
 [shownametag name="遥香" visible=true]
 「あ、これ予鈴じゃない？」[plc]
-
+[dis_all_chara]
 
 [shownametag name="大樹" visible=true]
 「……ほんとだ」[plc]
@@ -934,13 +934,17 @@
 こっちに関しては、[lr]
 いまさら焦ったところでどうしようもないようだった。[plc]
 
-
-
+;*De
+;[setup_debug bg="okujo_m"]
 
 
 
 ;[場面転換、回想復帰]
-
+[fadeoutbgm time="1000"]
+[dis_all_chara_fade_message]
+[strans storage="black" time="500"]
+[strans storage="seitokai" time="500"]
+[SetupMessageWindow]
 
 
 
@@ -953,11 +957,11 @@
 
 会議室に、威勢の良い声が響く。[plc]
 
-
+[naruse_face face="futsu" pose="2"]
 [shownametag name="成瀬" visible=true]
 「――」[plc]
 
-
+[haruka_face face="magao"]
 [shownametag name="遥香" visible=true]
 「――」[plc]
 
@@ -968,24 +972,27 @@
 
 
 季節は、まだ梅雨前だ。[lr]
-だけど、ぼくらは梅雨に入ってしまったのかもしれない。[plc]
+だけど、俺たちは梅雨に入ってしまったのかもしれない。[plc]
 
 
 要は、先輩が負けた。[plc]
 
-
+[naruse_stand face="futsu" pose="1"]
 [shownametag name="成瀬" visible=true]
-「――ふふ、ふふふふふふふふふ。勝ちましたわ！」[plc]
-
-
+「――ふふ、[l]ふふふふふふふふふ。[l]
+[naruse_stand face="hohoho" pose="1"]
+勝ちましたわ！」[plc]
+[dis_all_chara]
+[haruka_face face="magao"]
 [shownametag name="遥香" visible=true]
 「……」[plc]
 
-
+[naruse_stand face="hohoho" pose="1" size="l"]
 [shownametag name="成瀬" visible=true]
-「ホホ、ホーホッホッ……ゲホッ、[lr]
-ご、ごほっ……か、勝ちましたわよ！」[plc]
-
+「ホホ、ホーホッホッ……。[lr]
+[naruse_stand face="futsu" pose="2" size="l"]
+　ゲホッ、ご、ごほっ……か、勝ちましたわよ！」[plc]
+[dis_all_chara]
 
 お嬢様笑いをしようとして咳き込みながら、[lr]
 成瀬は高らかに宣言する。[plc]
@@ -998,6 +1005,8 @@
 うん、あれ人類の笑い方じゃないからね。[lr]
 あんな声で高笑いなんて、出来るわけがない。[plc]
 
+
+[haruka_stand face="ai" size="l"]
 [shownametag name="遥香" visible=true]
 「……うーん、ごめん負けちゃったわ」[plc]
 
@@ -1006,6 +1015,7 @@
 一方、先輩は自分の拳を不思議そうに眺めながら、[lr]
 こちらに戻ってきた。[plc]
 
+[haruka_stand face="ai" size="m"]
 [shownametag name="遥香" visible=true]
 「おまじないって効かないね」[plc]
 
@@ -1014,6 +1024,7 @@
 「なんのまじないをしたんですか？」[plc]
 
 
+[haruka_stand face="magao"]
 [shownametag name="遥香" visible=true]
 「腕めくった」[plc]
 
@@ -1021,7 +1032,7 @@
 
 それはただ気合いを入れただけでしょう……。[plc]
 
-
+[naruse_stand face="hohoho"]
 [shownametag name="成瀬" visible=true]
 「見たかしら皆さん、あの、恋ヶ旗 遥香のあっけないこと！」[plc]
 
@@ -1033,11 +1044,11 @@
 [shownametag name="取り巻きB" visible=true bust="false"]
 「素晴らしいですわ！」[plc]
 
-
+[najimi_stand face="ikari" time="200"]
 [shownametag name="縁" visible=true]
 「……じゃんけんは、あっけないもんでしょうが」[plc]
 
-
+[dis_all_chara]
 
 縁の呟きは、聞こえているのか聞こえていないのか。[plc]
 
@@ -1045,11 +1056,11 @@
 [shownametag name="教師" visible=true bust="false"]
 「それでは、勝った方が担当を決めなさい」[plc]
 
-
+[naruse_stand face="futsu" pose="2"]
 [shownametag name="成瀬" visible=true]
 「……分かりました」[plc]
 
-
+[dis_all_chara]
 
 取り巻きにおだてられて調子にのっていた成瀬だが、[lr]
 教師に促されてキリッとした態度に戻った。[plc]
@@ -1070,13 +1081,16 @@
 ま、これで俺達はスポーツイベントになるなぁ。[lr]
 先輩が言ってた交流とやらがどこまで影響するか――。[plc]
 
+[naruse_stand face="futsu"]
 [shownametag name="成瀬" visible=true]
-「そうですね、私達は――スポーツイベントの方をやりますわ」[plc]
+「そうですね、私達は[l]
+[naruse_stand face="hohoho"]
+――スポーツイベントの方をやりますわ！」[plc]
 
 
 [shownametag name="大樹" visible=true]
 「――！？」[plc]
-
+[dis_all_chara]
 
 
 なに、なんだと。いまコイツなんて言った？[plc]
@@ -1093,23 +1107,24 @@
 
 が、ちょっと、ちょっと待てよ。[plc]
 
-
+[haruka_stand face="odoroki" size="l"]
 [shownametag name="遥香" visible=true]
 「……」[plc]
 
-
+[najimi_stand face="odoroki" size=l]
 [shownametag name="縁" visible=true]
 「……」[plc]
 
-
+[dis_all_chara]
 
 驚愕したのは、先輩も縁も同じようだった。[lr]
 驚いて硬直している間に、事務手続きは進んでいって。[plc]
 
+[naruse_stand face="futsu"]
 [shownametag name="成瀬" visible=true]
 「それではみなさん、ごきげんよう」[plc]
 
-
+[dis_all_chara]
 
 あっという間に、成瀬は去っていく。[plc]
 
@@ -1117,7 +1132,7 @@
 
 俺達は、それを唖然と見送って。[plc]
 
-
+[strans storage="black" time="800"]
 
 ;[雨が降り始める？]
 
@@ -1126,5 +1141,9 @@
 その日の午後から、季節は梅雨に入ったのだった。[lr]
 ;[演出よろ]
 
+[fadeoutbgm time="1000"]
+[dis_all_chara_fade_message]
+[strans storage="white" time="1000"]
+;[JumpChapter storage="senpai_ep_12_1.ks"]
 
 ;[→梅雨入り]
