@@ -90,6 +90,15 @@ func addPLN(dist *string) {
 	*(dist) = strings.ReplaceAll(*dist, "！\r\n\r\n", "！[plc]\r\n\r\n")
 	*(dist) = strings.ReplaceAll(*dist, "、\r\n\r\n", "、[plc]\r\n\r\n")
 	*(dist) = strings.ReplaceAll(*dist, "―\r\n\r\n", "―[plc]\r\n\r\n")
+
+	//! 改行 + コメントもPLCの対象
+	*(dist) = strings.ReplaceAll(*dist, "。\r\n;", "。[plc]\r\n;")
+	*(dist) = strings.ReplaceAll(*dist, "」\r\n;", "」[plc]\r\n;")
+	*(dist) = strings.ReplaceAll(*dist, "？\r\n;", "？[plc]\r\n;")
+	*(dist) = strings.ReplaceAll(*dist, "』\r\n;", "』[plc]\r\n;")
+	*(dist) = strings.ReplaceAll(*dist, "！\r\n;", "！[plc]\r\n;")
+	*(dist) = strings.ReplaceAll(*dist, "、\r\n;", "、[plc]\r\n;")
+	*(dist) = strings.ReplaceAll(*dist, "―\r\n;", "―[plc]\r\n;")
 }
 
 func addLR(dist *string) {
