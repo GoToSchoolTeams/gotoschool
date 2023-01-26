@@ -13,7 +13,7 @@
 
 [strans storage="seitokai"]
 
-;[call target=*De]
+[call target=*De]
 
 
 [shownametag name="教師" visible=true bust="false"]
@@ -94,7 +94,7 @@
 長ったらしい教師の説明が終わると、[lr]
 先輩と成瀬は互いに一歩前に進み出た。[plc]
 
-[haruka_stand face="raku"]
+[haruka_stand face="do"]
 [shownametag name="遥香" visible=true]
 「……」[plc]
 
@@ -106,39 +106,42 @@
 
 その様子を見て、嘲る様に成瀬が笑った。[plc]
 
-[naruse_stand face="futsu"]
+[naruse_stand pose="1" face="futsu"]
 [shownametag name="成瀬" visible=true]
 「……正直なところ。[lr]
 　今日まで出馬をリタイアしなかったことには、驚きですわ」[plc]
 
+[haruka_face face="keibetsu"]
 [shownametag name="遥香" visible=true]
 「そもそも、リタイア無いでしょこれ」[plc]
 
-
+[naruse_stand pose="1" face="hohoho"]
 [shownametag name="成瀬" visible=true]
 「そうでしたかしら？」[plc]
 
 
 
 素知らぬ顔で言って、成瀬は髪をひるがえす。[plc]
+[dis_all_chara]
 
-
+[naruse_stand pose="2" face="futsu"]
 [shownametag name="成瀬" visible=true]
 「でも、本番はこれが終わってからですからね」[plc]
 
-
+[haruka_face face="keibetsu"]
 [shownametag name="遥香" visible=true]
 「はいはい」[plc]
 
+[dis_all_chara]
 
 [shownametag name="教師" visible=true bust="false"]
 「……私語はそのくらいで、はじめてください」[plc]
 
-
+[haruka_face face="do"]
 [shownametag name="遥香" visible=true]
 「――」[plc]
 
-
+[naruse_face face="futsu"]
 [shownametag name="成瀬" visible=true]
 「――」[plc]
 
@@ -146,25 +149,28 @@
 
 教師の促しで、二人は真剣な顔になった。[plc]
 
-
+[naruse_stand face="futsu" pose="2" size="l"]
 [shownametag name="成瀬" visible=true]
 「じゃん！」[plc]
 
-
+[haruka_stand face="do" size="l"]
 [shownametag name="遥香" visible=true]
 「けん！」[plc]
 
 
 
-
+*De
+[setup_debug bg="seitokai"]
 
 
 
 
 ;[場面転換、回想]
-
-
-
+[fadebgm volume=0 time="800"]
+[dis_all_chara_fade_message]
+[strans storage="black" time="800"]
+[strans storage="okujo_m" time="800"]
+[SetupMessageWindow]
 
 
 
@@ -186,6 +192,7 @@
 
 授業をいつも通り早めにフケた俺達は、[lr]
 例の体育校舎の立入禁止の屋上で昼食を取っていた。[plc]
+
 
 [shownametag name="遥香" visible=true]
 「そ、じゃんけん」[plc]

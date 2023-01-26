@@ -557,7 +557,7 @@
 
 ;;【追加マクロ(byMahiro)】
 ;;[naruse立ち絵用]
-;;pose=ポーズ番号, 0;1;2
+;;pose=ポーズ番号, 1;2
 ;;face=表情名, futsu;hohoho
 ;;size=サイズ, s;m;l
 ;;nobust=バスト画像を出さない, 論理値
@@ -575,7 +575,7 @@
 
 ;;【追加マクロ(byMahiro)】
 ;;[naruse立ち絵用]
-;;pose=ポーズ番号, 0;1;2
+;;pose=ポーズ番号, 1;2
 ;;face=表情名, futsu;hohoho
 ;;tere=照れてるかどうか, 論理値
 ;;visible=レイヤの可視・不可視\nlayer 属性で指定したレイヤを表示するか、しないかを指定します, 論理値
