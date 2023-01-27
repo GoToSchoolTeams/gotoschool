@@ -17,9 +17,12 @@
 
 ;[call target=*De]
 [image storage="s_sakurako_pose1_magao" layer="0" visible="true"]
+[showstandimage who="sakurako" face=magao layer="1" size="s"]
 [l]
 [image storage="m_sakurako_pose1_magao" layer="0" visible="true"]
+[showstandimage who="sakurako" face=magao layer="1" size="m"]
 [l]
 [image storage="l_sakurako_pose1_magao" layer="0" visible="true"]
-
-
+[l]
+[showstandimage who="sakurako" face=magao layer="1" size="l"]
+[l]
