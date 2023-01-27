@@ -124,14 +124,12 @@ tf.StandTopMap["sakurako"]["1"]["s"] = 0;
 tf.StandTopMap["sakurako"]["1"]["m"] = 0;
 tf.StandTopMap["sakurako"]["1"]["l"] = 0;
 
-tf.StandTopMap = new Dictionary();
 tf.StandTopMap["takahashi"] = new Dictionary();
 tf.StandTopMap["takahashi"]["1"] = new Dictionary();
 tf.StandTopMap["takahashi"]["1"]["s"] = 120;
 tf.StandTopMap["takahashi"]["1"]["m"] = 90;
 tf.StandTopMap["takahashi"]["1"]["l"] = 60;
 
-tf.StandTopMap = new Dictionary();
 tf.StandTopMap["miyabi"] = new Dictionary();
 tf.StandTopMap["miyabi"]["1"] = new Dictionary();
 tf.StandTopMap["miyabi"]["1"]["s"] = 200;

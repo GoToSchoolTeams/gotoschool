@@ -208,6 +208,7 @@
 *De
 [setup_debug bg="sityoukakusitsu_n"]
 
+[takahashi_face face="futsu"]
 [shownametag name="男子生徒" visible=true bust="false"]
 「あのー……」[plc]
 
@@ -219,33 +220,36 @@
 [shownametag name="遥香" visible=true]
 「はい、なんでしょう」[plc]
 
-
+[takahashi_stand face="futsu"]
 [shownametag name="男子生徒" visible=true bust="false"]
-「話って……それなんすかね？」[lr]
+「話って……それなんすかね？」[plc]
 ;[べいべー]
 
 
 立ち上がったのはロン毛の、[lr]
 一昔前のフォークシンガーのような、妙にチャラい男だった。[plc]
 
+[dis_all_chara]
+
+[haruka_stand face="raku"]
 [shownametag name="遥香" visible=true]
 「はい……今日は、私達の顔見せもありますけど」[plc]
 
-
+[takahashi_face face="futsu"]
 [shownametag name="ロン毛" visible=true bust="false"]
 「……なるほどね」[plc]
 
-
+[dis_all_chara]
 
 ロン毛は得心したという顔で肩を竦めた。[lr]
 その言葉に、ザワザワと声が漏れる。[plc]
 
 
-『なんだ……わざわざ集められたから何事かと思ったら』
+『なんだ……わざわざ集められたから何事かと思ったら』[r]
 『関係ない話じゃないか』[plc]
 
 
-『おぃおぃ、無駄足かよ』
+『おぃおぃ、無駄足かよ』[r]
 『帰ろ帰ろ』[plc]
 
 
@@ -259,11 +263,11 @@
 
 慌てたが、[plc]
 
-
+[haruka_face face="keibetsu"]
 [shownametag name="遥香" visible=true]
 「……」[plc]
 
-
+[najimi_face face="ikari"]
 [shownametag name="縁" visible=true]
 「……」[plc]
 
@@ -283,17 +287,19 @@
 
 サッと、何かが俺の顔の前に割り込んできて。[plc]
 
-
+[miyabi_stand face="futsu" size="l"]
 [shownametag name="" visible=true bust="false"]
 「――いともそでにて、あだになりぬるをや」[plc]
 
 
 
-せ、扇子？？[lr]
+せ、扇子？？[plc]
 ;[センス画像のポップアップでも出すか？]
 
+
+[miyabi_stand face="futsu" size="m"]
 [shownametag name="女生徒" visible=true bust="false"]
-「おやめなさい、無駄……ということぞ」[lr]
+「おやめなさい、無駄[l]……ということぞ」[plc]
 ;[十二単 雅]
 
 
