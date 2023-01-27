@@ -1,5 +1,5 @@
 
-
+;[派閥という壁]
 [call storage="Initialize.ks"]
 
 [fadeoutbgm time="1000"]
@@ -15,7 +15,7 @@
 [strans storage="sityoukakusitsu_n"]
 
 
-[call target=*De]
+;[call target=*De]
 
 
 ――ザーッ。[plc]
@@ -200,13 +200,8 @@
 縁が何事か呟くが。[plc]
 
 
-
 え？　どうしてここまで反応が……。[plc]
 
-
-
-*De
-[setup_debug bg="sityoukakusitsu_n"]
 
 [takahashi_face face="futsu"]
 [shownametag name="男子生徒" visible=true bust="false"]
@@ -267,7 +262,7 @@
 [shownametag name="遥香" visible=true]
 「……」[plc]
 
-[najimi_face face="ikari"]
+[najimi_face face="metoji"]
 [shownametag name="縁" visible=true]
 「……」[plc]
 
@@ -312,8 +307,11 @@
 
 
 ;[場面転換]
-
-
+[fadebgm volume=0 time="800"]
+[dis_all_chara_fade_message time=800]
+[strans storage="black" time="800"]
+[strans storage="sityoukakusitsu_n" time="800"]
+[SetupMessageWindow]
 
 
 
@@ -330,10 +328,11 @@
 後ろに居た文化部連中は、すっかり消え失せて。[lr]
 室内の湿度は……。[plc]
 
+[miyabi_stand face="futsu" size="l" nobust="true"]
 [shownametag name="大樹" visible=true]
 「……っていうか、なんなんだお前は！！？」[plc]
 
-
+[miyabi_face face="futsu"]
 [shownametag name="女生徒" visible=true bust="false"]
 「……」[plc]
 
@@ -345,12 +344,12 @@
 
 なに？　なにこの、『オモロー』な生物！！？[plc]
 
-
+[miyabi_face face="futsu"]
 [shownametag name="女生徒" visible=true bust="false"]
 「無礼な殿方じゃの」[plc]
 
 
-
+[dis_all_chara]
 不快そうに言いながら、[lr]
 パンっと扇子を広げて口元を隠す。[plc]
 
@@ -367,21 +366,21 @@
 袖がやたらと長くて地面を引きずってるし……。[plc]
 
 
-……っていうか、その前に着物！？　学校で！！？[plc]
+……っていうか、その前に着物！？[l]　学校で！！？[plc]
 
 
 [shownametag name="大樹" visible=true]
 「制服は……」[plc]
 
-
+[miyabi_face face="futsu"]
 [shownametag name="女生徒" visible=true bust="false"]
 「――花の袂をよそほひ」[plc]
-
+[dis_all_chara]
 
 [shownametag name="大樹" visible=true]
 「へ？」[plc]
 
-
+[miyabi_stand face="futsu" size="l" time="200"]
 [shownametag name="女生徒" visible=true bust="false"]
 「これが乙女の正装じゃぞ」[plc]
 
@@ -389,31 +388,34 @@
 
 なに言ってんだコイツ？[plc]
 
-
+[haruka_face face="ai"]
 [shownametag name="遥香" visible=true]
 「谷口君、谷口君ちょっと……」[plc]
 
-
+[dis_all_chara]
 
 言いたい事が山ほどあったが、[lr]
 先輩に呼ばれたので一時撤退する。[plc]
 
+[haruka_stand face="keibetsu"]
 [shownametag name="遥香" visible=true]
-「……十二単さんの服装に、[lr]
-いまさら突っ込んだってしょうがないでしょ」[plc]
+「……十二単さんの服装に、[r]
+　いまさら突っ込んだってしょうがないでしょ」[plc]
 
 [shownametag name="大樹" visible=true]
 「いや、いまさらって……」[plc]
 
+[dis_all_chara]
 
 
+[miyabi_stand face="futsu" size="l" time="200" nobust="true"]
 アレに反応するなっていうのか！[plc]
 
-
+[najimi_face face="metoji"]
 [shownametag name="縁" visible=true]
 「……」[plc]
 
-
+[gaia_face face="normal"]
 [shownametag name="ガイア" visible=true]
 「……」[plc]
 
@@ -425,25 +427,26 @@
 [shownametag name="大樹" visible=true]
 「……あれ？」[plc]
 
-
+[haruka_stand face="do"]
 [shownametag name="遥香" visible=true]
-「十二単 雅 さんは、入学した時からあの格好よ」[lr]
+「十二単 雅 さんは、入学した時からあの格好よ」[plc]
 ;[ルビおなしゃす！]
 
 [shownametag name="大樹" visible=true]
 「へ？」[plc]
+[dis_all_chara]
 
-
+[gaia_face face="komari"]
 [shownametag name="ガイア" visible=true]
 「というか、兄弟……今まで知らなかったのか？」[plc]
 
-
+[najimi_face face="jitome"]
 [shownametag name="縁" visible=true]
 「無知ね」[plc]
 
-
+[satori_face face="otyokuri"]
 [shownametag name="悟" visible=true]
-「……」[lr]
+「……」[plc]
 ;[ｺｸｺｸ]
 
 
@@ -461,18 +464,18 @@
 [shownametag name="大樹" visible=true]
 「いや、でも、制服……」[plc]
 
-
+[haruka_stand face="magao"]
 [shownametag name="遥香" visible=true]
-「最初はね、先生達も、制服着せようとしたらしいんだけど」[plc]
+「最初はね、[l]先生達も制服着せようとしたらしいんだけど」[plc]
 
-
+[haruka_stand face="kuno"]
 [shownametag name="遥香" visible=true]
 「色々あって、ご両親を呼んだら、[lr]
-似たような格好だったらしくてね」[plc]
+　似たような格好だったらしくてね」[plc]
 
 [shownametag name="大樹" visible=true]
 「……」[plc]
-
+[dis_all_chara]
 
 
 諦めたのか……良いのかそれで？[plc]
@@ -481,15 +484,19 @@
 [shownametag name="大樹" visible=true]
 「……」[plc]
 
-
+[miyabi_stand face="futsu"]
 [shownametag name="十二単" visible=true]
-「……」[lr]
+「……」[plc]
 ;[すまし顔]
+
+[dis_all_chara]
+
 
 
 正直、成瀬に最初にあったときも相当なおもしろ生物だと思った。[lr]
 が、これは人智を超えてるぞ。[plc]
 
+[miyabi_stand face="futsu"]
 [shownametag name="十二単" visible=true]
 「――ここちよげなるを」[plc]
 
@@ -497,87 +504,89 @@
 [shownametag name="大樹" visible=true]
 「ぁあ？」[plc]
 
-
+[miyabi_stand face="futsu" size="l"]
 [shownametag name="十二単" visible=true]
 「……もうよいかの？」[plc]
 
 
+[haruka_face face="ki"]
 [shownametag name="遥香" visible=true]
 「あぁ、ごめんなさいね」[plc]
 
-
+[dis_all_chara]
 
 イチイチ意味が分からん言葉で責め立てられて、[lr]
 俺はもうわけが分からん。[plc]
 
+[haruka_stand face="raku"]
 [shownametag name="遥香" visible=true]
 「それで、お願いなんだけれど」[plc]
 
-
+[miyabi_stand face="futsu" time="200" size="l"]
 [shownametag name="十二単" visible=true]
 「――お断りする」[plc]
-
+[dis_all_chara]
 
 
 妙な単語を紡がずに、十二単はハッキリ言った。[plc]
 
-
+[najimi_stand face="odoroki" time="200"]
 [shownametag name="縁" visible=true]
 「……っ」[plc]
 
-
+[dis_all_chara]
 
 その言葉には縁も驚いたようだった。[plc]
 
-
+[haruka_stand face="odoroki" time="200"]
 [shownametag name="遥香" visible=true]
 「でも、それじゃ……」[plc]
 
-
+[miyabi_stand face="futsu" time="200" size="l"]
 [shownametag name="十二単" visible=true]
 「勘違いなさるな、文化祭はやろう」[plc]
 
-
+[haruka_stand face="do" time="200"]
 [shownametag name="遥香" visible=true]
 「なら、」[plc]
 
-
+[dis_all_chara]
 
 スッと袖から、小さく手を突き出して。[plc]
 
-
+[miyabi_stand face="futsu" time="200" size="l"]
 [shownametag name="十二単" visible=true]
 「……必要な書類をこちらに」[plc]
 
 
-
+[dis_all_chara]
 と、十二単は言う。[plc]
 
-
+[haruka_face face="odoroki"]
 [shownametag name="遥香" visible=true]
 「え、……あの」[plc]
 
-
+[miyabi_stand face="futsu" time="200" size="l"]
 [shownametag name="十二単" visible=true]
 「文化祭はやろう。だが、そち達と一緒にやるのは断る」[plc]
 
-
+[miyabi_stand face="futsu" time="200" size="l"]
 [shownametag name="十二単" visible=true]
 「それが、我らの結論じゃ」[plc]
 
-
+[dis_all_chara]
 
 パンっと、十二単は扇子を広げた。[plc]
 
-
+[haruka_face face="odoroki"]
 [shownametag name="遥香" visible=true]
 「……」[plc]
 
-
+[najimi_face face="odoroki"]
 [shownametag name="縁" visible=true]
 「……」[plc]
 
-
+[gaia_face face="odoroki"]
 [shownametag name="ガイア" visible=true]
 「……」[plc]
 
@@ -597,26 +606,30 @@
 [shownametag name="一同" visible=true bust="false"]
 『――――』[plc]
 
+;*De
+;[setup_debug bg="sityoukakusitsu_n"]
 
 
 残った文化部連中は、本気のようだった。[plc]
 
-
+[najimi_stand face="do" size="l" time="200"]
 [shownametag name="縁" visible=true]
-「そんなこと、できるわけ……」[plc]
+「そんなこと、できるわけ――」[plc]
 
+[dis_all_chara]
 
+[miyabi_face face="futsu"]
 [shownametag name="十二単" visible=true]
 「確認は、取った」[plc]
 
-
+[haruka_stand face="kuno" size="l"]
 [shownametag name="遥香" visible=true]
 「……そうなんでしょうね」[plc]
 
 
 
 先輩は、何か心当たりがあるようで。[plc]
-
+[dis_all_chara]
 
 [shownametag name="大樹" visible=true]
 「……」[plc]
@@ -634,17 +647,19 @@
 と扇子を閉じる音が鳴って、[lr]
 残りの文化部連中も立ち上がった。[plc]
 
+[miyabi_stand face="futsu" size="l"]
 [shownametag name="十二単" visible=true]
 「渡さぬのなら、自分で都合致す」[plc]
 
-
+[miyabi_stand face="futsu" size="m" ]
 [shownametag name="十二単" visible=true]
 「では、参ろうか」[plc]
 
+[dis_all_chara]
 
+そのまま、一団を引き連れて出て行って。[plc]
 
-そのまま、一団を引き連れて出て行って。[lr]
-やたらと長い袖は、付き人みたいな連中が抱えて行ったけど。[plc]
+……やたらと長い袖は、付き人みたいな連中が抱えて行ったけど。[plc]
 
 [shownametag name="大樹" visible=true]
 「……どうなっちゃうんだ？」[plc]
@@ -657,17 +672,24 @@
 
 俺の呟きをかき消すように、扉が閉まって。[plc]
 
-
+[haruka_stand face="kuno" size="l"]
 [shownametag name="遥香" visible=true]
 「……どうなっちゃうんだろうねぇ」[plc]
 
-
+[dis_all_chara]
 
 ――ザーッ。[plc]
 
 
 
-雨足が、やけに強くなったように感じた。[plc]
+雨足が、[l]やけに強くなったように感じた。[plc]
+
+
+[fadeoutse time="1000"]
+[dis_all_chara_fade_message]
+[strans storage="white" time="1000"]
+
+[JumpChapter storage="senpai_ep_20.ks"]
 
 
 
