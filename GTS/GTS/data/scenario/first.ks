@@ -45,7 +45,7 @@
 [eval exp="Storages.addAutoPath('fgimage/mash/')"]
 [eval exp="Storages.addAutoPath('fgimage/orutega/')"]
 [eval exp="Storages.addAutoPath('fgimage/gaia_kids/')"]
-[eval exp="Storages.addAutoPath('fgimage/junihitoe/')"]
+[eval exp="Storages.addAutoPath('fgimage/miyabi/')"]
 [eval exp="Storages.addAutoPath('fgimage/maru/')"]
 [eval exp="Storages.addAutoPath('fgimage/takahashi/')"]
 [eval exp="Storages.addAutoPath('fgimage/matsudo/')"]

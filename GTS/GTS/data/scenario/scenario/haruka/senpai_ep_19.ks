@@ -1,4 +1,23 @@
 
+
+[call storage="Initialize.ks"]
+
+[fadeoutbgm time="1000"]
+[strans storage="white"]
+
+[show_message_fade time="500"]
+[nowait]
+;[playse storage="chaim_far_single" ]
+
+;[会議室]
+
+;【byMahiro】
+[strans storage="sityoukakusitsu_n"]
+
+
+;[call target=*De]
+
+
 ――ザーッ。[plc]
 
 
