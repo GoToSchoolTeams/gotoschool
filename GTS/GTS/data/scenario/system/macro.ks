@@ -173,6 +173,7 @@
 	[layopt layer=8 page="back" visible="false"]
 	[layopt layer=9 page="back" visible="false"]
 	[trans method="crossfade" time=%time|500]
+	[wt]
 [endmacro]
 
 ;;【メッセージウィンドウをフェードインで表示する】dis_all_messageで隠したレイヤを表示したいときに使ってください
@@ -412,6 +413,13 @@
 [wm canskip="false"]
 [endmacro]
 
+[macro name=cinema_off]
+[image layer=5 page="fore" top=620 storage="black" visible="true"]
+[image layer=6 page="fore" top=-620 storage="black" visible="true"]
+[move layer=5 accel="-6" page="fore" path=(0,720,255) time=%time]
+[move layer=6 accel="-6" page="fore" path=(0,-720,255) time=%time]
+[wm canskip="false"]
+[endmacro]
 ;;time=トランジションにかかる時間
 ;;layer=対象レイヤ\n対象となるレイヤを指定します, 背景レイヤ;前景レイヤ;メッセージレイヤ
 ;;staff=表示させたいスタッフの名前

@@ -347,10 +347,17 @@
 [strans storage="black" time="800"]
 [wipe time=1600 storage="temp_cicle_park"]
 [SetupMessageWindow]
+
+
+*debug
+[SetupMessageWindow]
+
+[backlay]
+[image layer=3 storage="temp_cicle_park" top="0" left="0" page="back" visible="true"]
+[trans method="crossfade" time="1000"]
+[wt]
+
 [cinema time=400]
-
-
-
 ――ザーッ。[plc]
 
 
@@ -364,32 +371,24 @@
 
 
 梅雨時に多い、典型的なにわか雨――。[plc]
-
-[image layer=7 top=470 opacity=256 storage="message_window" page="fore" visible="false"]
-[position layer="message2" top="0" left="0" width="1280" height=720 opacity=0 visible="false" page="fore" marginb="0" marginl="0" marginr="0" margint="0"]
-
+[dis_all_message_fade time=1000]
 
 ;スクロール開始
-;ちょっとだいぶ適当です。
-;[image storage="sky" top=-1440 layer="3" page="fore" visible="true" opacity="0"]
+[backlay]
 [wait time="500" canskip="false"]
-[move layer=base path=(0,-510,255) time=5000 page="fore"]
+[move layer=3 path=(0,-510,255) time=5000 page="fore"]
 [wm]
-[cinema_stop]
-[wait time="400"]
-[move layer=base path=(0,0,255) time=0 page="back"]
-[wait time="200"]
-[strans storage="temp_cicle_park_cg" time="0"]
-[wait time="400"]
 
-[image layer=7 top=470 opacity=256 storage="message_window" page="fore" visible="true"]
-[position layer="message2" top="0" left="0" width="1280" height=720 opacity=0 visible="true" page="fore" marginb="0" marginl="0" marginr="0" margint="0"]
+;スクロール終わり処理
+[cinema_off time=400]
+[strans storage="temp_cicle_park_cg" time="1"]
+[show_message_fade time="400"]
+
 
 [haruka_face face="ai"]
 [shownametag name="遥香" visible=true]
+[backlay]
 「……う、わぁ。ずぶずぶだぁ」[plc]
-
-[dis_all_chara]
 
 ――だけれど、俺達を濡らすには十分だったらしい。[plc]
 

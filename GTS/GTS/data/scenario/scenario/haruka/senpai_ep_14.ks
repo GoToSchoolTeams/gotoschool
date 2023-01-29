@@ -1,11 +1,8 @@
-
-
 [call storage="Initialize.ks"]
+[SetupMessageWindow]
+[dis_all_message]
 
-[fadeoutbgm time="1000"]
 [strans storage="white"]
-
-[show_message_fade time="500"]
 [nowait]
 ;[playse storage="chaim_far_single" ]
 
@@ -13,7 +10,7 @@
 [strans storage="seitokai"]
 
 ;[call target=*De]
-
+[show_message_fade time="500"]
 [showbustup who="sakurako" pose="1" face=magao]
 [shownametag name="福岡" visible=true bust="false"]
 「――断るわ」[plc]
@@ -22,6 +19,7 @@
 
 会議の始まりの第一声は、単純な拒絶の言葉だった。[plc]
 
+[fadeinbgm time="2000" storage="serious_2"]
 [showstandimage who="najimi" pose="1" face=ikari]
 [shownametag name="縁" visible=true]
 「……まだ何も話してないんですが」[plc]
@@ -254,7 +252,8 @@
 
 
 ;[ドア閉めるSE]
-
+[stopbgm]
+[playse storage="class_door_short"]
 [showstandimage who="najimi" pose="1" face=ikari size="m"]
 [shownametag name="縁" visible=true]
 「……」[plc]
@@ -268,12 +267,13 @@
 「塩でも撒くか？」[plc]
 
 
-[quake time="400"]
+[quake time="400" hmax="5" vmax="5"]
 ――ゴッ！[plc]
 
 
 
 ぶん殴られた。[plc]
+
 
 [showstandimage who="satori" pose="1" face=naki size="l"]
 [shownametag name="悟" visible=true]

@@ -3,8 +3,8 @@
 function ApplyVolume()
 {
 	var per = sf.masterVolume / 100;
-	kag.bgm.buf1.volume2 = sf.bgmVolume * per;
-	kag.se[0].volume2 	 = sf.seVolume * per;
+	kag.bgm.buf1.volume2 = 100;
+	kag.se[0].volume2 	 = 100;
 }
 
 function OnChangeVolumeInSlider(vol, isDrag)
