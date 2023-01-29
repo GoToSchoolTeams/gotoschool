@@ -26,7 +26,7 @@
 	[locate x=884 y=685]
 	[button graphic="skip"]
 	[locate x=777 y=685]
-	[button graphic="auto"]
+	[button graphic="auto" exp="global.toggleAutoMode()"]
 	[locate x=670 y=685]
 	[button graphic="load"]
 	[locate x=563 y=685]
@@ -144,6 +144,7 @@
 [layopt layer="message8" page=fore visible=false]
 [layopt layer="message9" page=fore visible=false]
 [layopt layer="message10" page=fore visible=false]
+[layopt layer="message11" page=fore visible=false]
 ;各種パーツも
 [layopt layer=7 page="fore" visible="false"]
 [layopt layer=8 page="fore" visible="false"]
@@ -166,6 +167,7 @@
 	[layopt layer="message8" page=back visible=false]
 	[layopt layer="message9" page=back visible=false]
 	[layopt layer="message10" page=back visible=false]
+	[layopt layer="message11" page=back visible=false]
 	;各種パーツも
 	[layopt layer=7 page="back" visible="false"]
 	[layopt layer=8 page="back" visible="false"]

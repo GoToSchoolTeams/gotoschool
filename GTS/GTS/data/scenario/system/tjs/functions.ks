@@ -271,6 +271,15 @@ function ClearSystemMessage()
 	}
 }
 
+function toggleAutoMode()
+{
+	if(kag.autoMode == false) {
+		kag.autoModeMenuItem.click();
+	} else {
+		kag.autoMode = false;
+	}
+}
+
 //-----------------
 //! デバッグ用関数
 //-----------------

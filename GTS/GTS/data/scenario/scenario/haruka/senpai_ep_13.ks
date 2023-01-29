@@ -1,22 +1,17 @@
-
-
 [call storage="Initialize.ks"]
+[SetupMessageWindow]
+[dis_all_message]
 
-[fadeoutbgm time="1000"]
 [strans storage="white"]
-
-[show_message_fade time="500"]
-[nowait]
-[playse storage="chaim_far_single" ]
-
+[fadeinse storage="chaim" time="1000"]
 
 [strans storage="okujo_m"]
 
-;[call target=*De]
-
+[show_message_fade time="1000"]
 ――ボーン、ボーンボーン。[plc]
 
-
+[fadeoutse time="1000"]
+[fadeinbgm storage="prologue" time="1000"]
 [showbustup who="haruka" pose="1" face=raku]
 [shownametag name="遥香" visible=true]
 「さぁーって」[plc]
@@ -30,9 +25,8 @@
 「昼ですね」[plc]
 
 
-
+[playse storage="chaim"]
 ――ボーン、ボーンボーン。[plc]
-
 
 
 昼食を告げるチャイムが、軽やかに鳴る。[plc]
@@ -40,6 +34,8 @@
 
 
 昼が始まる直前に抜け出して、俺達は屋上に集まっていた。[plc]
+
+[fadeoutse time="1000"]
 
 [showstandimage who="haruka" pose="1" face=magao]
 [shownametag name="遥香" visible=true]
@@ -52,10 +48,12 @@
 [shownametag name="遥香" visible=true]
 「はい、谷口君のぶん」[plc]
 
-
+[gadget storage="bento" show="true" time="250"]
 [shownametag name="大樹" visible=true]
 「ぁ、ども」[plc]
-[dis_all_chara]
+
+[gadget show="false" time=250]
+;[dis_all_chara_fade time=500]
 
 
 あの日から、[lr]
@@ -209,6 +207,7 @@
 ハッと気付いた様な顔で、先輩は俺の弁当を再び取り上げた。[plc]
 
 [dis_all_chara]
+[quake hmax="5" vmax="5" time="200"]
 [shownametag name="大樹" visible=true]
 「――＃＄＠※＊＆＆％％％ッ！！！」[plc]
 
@@ -240,10 +239,10 @@
 [shownametag name="大樹" visible=true]
 「やるって、何を――」[plc]
 
+[stopbgm]
 [showstandimage who="haruka" pose="1" face=do time="200"]
 [shownametag name="遥香" visible=true]
 「縁ちゃんとこ行くわよ」[plc]
-
 
 
 ピタリと、言葉が止まった。[plc]
@@ -257,6 +256,7 @@
 「……もう、縁ちゃんしか残ってないわ」[plc]
 
 [dis_all_chara]
+[fadeinbgm storage="prologue" time="2000"]
 [shownametag name="大樹" visible=true]
 「……」[plc]
 
@@ -301,20 +301,19 @@
 単なる感情論だった。[plc]
 
 
-
-
-
 ;[場面転換、食堂]
 ;[場面転換]
-[fadebgm volume=0 time="800"]
+[fadeoutbgm time="800"]
 [dis_all_chara_fade_message]
 [strans storage="black" time="800"]
 [strans storage="school-cafeteria01" time="800"]
-[SetupMessageWindow]
-
+[show_message_fade time="800"]
+[fadeinse storage="ambientA@08" time="1000"]
 
 縁は、食堂に居た。[plc]
 
+[fadeoutse time=1000]
+[playbgm storage="daily_2"]
 [showstandimage who="gaia" pose="1" face=egao time="0"]
 [shownametag name="ガイア" visible=true]
 [nowait]
@@ -370,6 +369,7 @@
 一人、一人か……。[plc]
 ;[なんか、演出がほしいところ]
 ;[今は適当に演出して、後でもっと良いのに差し替えたい]
+[fadebgm volume="50" time="1000"]
 [strans storage="white"]
 [showstandimage who=najimi face=do pose=1 size="m" page="back" notrans="true" grayscale="true"  nobust="true"]
 [strans storage="house_n" grayscale=true noclear="true"]
@@ -380,6 +380,8 @@
 [strans storage="white"]
 [strans storage="school-cafeteria01" time="800"]
 [SetupMessageWindow]
+
+[fadebgm volume="100" time="1000"]
 [shownametag name="大樹" visible=true]
 「……ボッチってわけじゃ、ないんだろうけど」[plc]
 
@@ -389,11 +391,12 @@
 「どうした兄弟？　ポッチがなんだって？？」[plc]
 
 [dis_all_chara]
-
+[playse storage="attack"]
+[quake hmax="5" vmax="5" time="500"]
 鳴き喚く豚にニードロップをかますと、[lr]
 その横を先輩がすり抜けていく。[plc]
 
-
+[strans storage="school-cafeteria01_edge"]
 [showstandimage who="haruka" pose="1" face=raku]
 [shownametag name="遥香" visible=true]
 「ここ、座るね」[plc]
@@ -468,6 +471,7 @@
 
 俺だってどうでもいい。[plc]
 
+[strans storage="school-cafeteria01"]
 [showstandimage who="gaia" pose="1" face=egao time="0"]
 [shownametag name="ガイア" visible=true]
 [nowait]
@@ -479,6 +483,7 @@
 
 じんちゅうってどこだったっけ？[plc]
 
+[strans storage="school-cafeteria01_edge"]
 [showbustup who="haruka" pose="1" face=kuno]
 [shownametag name="遥香" visible=true]
 「……うーん」[plc]
@@ -580,10 +585,10 @@
 俺は、[plc]
 
 
-
 [shownametag name="大樹" visible=true]
 「……」[plc]
 
+[strans storage="school-cafeteria01"]
 [showstandimage who="gaia" pose="1" face=normal time="200"]
 [shownametag name="ガイア" visible=true]
 「見ろ兄弟、これが学食の食材全てをぶち込んだ新世界の学食！」[plc]
@@ -603,7 +608,7 @@
 「その名も――」[plc]
 [dis_all_chara]
 
-;[SetupMessageWindow]
+
 @playse storage="syakeeen"
 [effect storage="white" time="100"]
 @backlay
@@ -621,6 +626,7 @@
 [shownametag name="大樹" visible=true]
 「おらっ」[plc]
 
+[playse storage="hit_p09"]
 [quake hmax="5" vmax="5" time="800"]
 [shownametag name="ガ・マ・オ" visible=true bust="false"]
 「「「――＃＄＠※＊＆＆％％％ッ！！！」」」[plc]
@@ -630,6 +636,7 @@
 新世界を頭から叩きこんでやると、[lr]
 豚三匹はキャンキャン鳴いてどこかに消え失せた。[plc]
 
+[strans storage="school-cafeteria01_edge"]
 [showstandimage who="najimi" pose="1" face=futsu]
 [shownametag name="縁" visible=true]
 「……あの、もう別に。一緒に行くことは構わないんです」[plc]
@@ -644,11 +651,15 @@
 
 [dis_all_chara]
 
+[fadebgm volume="50" time="100"]
+[strans storage="school-cafeteria01"]
 縁が余計な事を言いそうになっている。[plc]
 
 
 まったくよ。[plc]
 
+[strans storage="school-cafeteria01_edge"]
+[fadebgm volume="100" time="100"]
 [dis_all_chara]
 [shownametag name="大樹" visible=true]
 「……おい」[plc]
@@ -677,8 +688,6 @@
 [shownametag name="縁" visible=true]
 「……」[plc]
 
-;*De
-;[setup_debug bg="school-cafeteria01"]
 
 縁は答えない。[lr]
 が、[plc]
@@ -715,7 +724,8 @@
 「そうかよ」[plc]
 [dis_all_chara]
 
-
+[fadese volume="100" time="1" buf="0"]
+[playse storage="coin"]
 言い捨てて、[lr]
 縁のトレーに２８０円を叩きつけた。[plc]
 
@@ -792,14 +802,14 @@
 「……ひとは変わるんだよ」[plc]
 
 [dis_all_chara]
-
+[playse storage="chaim"]
 ――ボーン、ボーンボーン。[plc]
 
 
 
 これは、終了のチャイムか。[plc]
 
-
+[fadeoutse time="1000"]
 [shownametag name="大樹" visible=true]
 「ちっ」[plc]
 
@@ -822,6 +832,7 @@
 [dis_all_chara]
 [strans storage="black" method="universal" rule="300" time="500"]
 
+[fadebgm volume="50" time="100"]
 強引に上書きして、縁に背を向ける。[plc]
 
 
@@ -849,24 +860,22 @@
 [strans storage="school-cafeteria01" method="universal" rule="306" time="200"]
 [showbustup who="haruka" pose="1" face=do]
 [shownametag name="遥香" visible=true]
-[quake time="600"]
+[quake hmax="10" vmax="10" time="1000"]
+[playse storage="bosu04"]
 「――聞けよ！　この引きこもりやろうッッッ！！！」[plc]
 ;[ガスッ！]
 
 
-先輩に、思いっきりケツを蹴り飛ばされていた。[plc]
-
-
-
-
+先輩に、思いっきりケツを蹴り飛ばされていた。[plc]6
 
 
 
 ;[場面転換]
-[fadebgm volume=0 time="800"]
+[fadeoutbgm time="800"]
 [dis_all_chara_fade_message]
 [strans storage="black" time="800"]
-[strans storage="kyositu_m" time="800"]
+[strans storage="kyositu_m" time="800" grayscale=true]
+[fadeinbgm storage="serious_2" time="1000"]
 [SetupMessageWindow]
 
 
@@ -893,6 +902,7 @@
 
 あっと、いう間に放課後になった。[plc]
 
+[fadeoutbgm time="400"]
 [strans storage="black" time="400"]
 
 で。[lr]
@@ -904,6 +914,7 @@
 [strans storage="okujo_m" time="600"]
 [SetupMessageWindow]
 
+[fadeinbgm storage="chill" time="400"]
 [showstandimage who="najimi" pose="1" face=metoji time="400" size="l" nobust="true"]
 [quake time="400"]
 [shownametag name="大樹" visible=true]
@@ -1079,8 +1090,6 @@
 
 [dis_all_chara]
 
-;*De
-;[setup_debug bg="okujo_m"]
 
 その呟きは、ちょっと酷くないっすか先輩。[plc]
 
@@ -1169,13 +1178,12 @@
 
 俺が小さく舌打ちしたことは、誰にも気づいて貰えなかった。[plc]
 
-[fadeoutse time="1000"]
+[fadeoutbgm time="1000"]
 [dis_all_chara_fade_message]
 [strans storage="white" time="1000"]
 
-;[JumpChapter storage="senpai_ep_11.ks"]
+[JumpChapter storage="senpai_ep_14.ks"]
 
-
-
+[auto
 ;[→縁の傲慢]
 
