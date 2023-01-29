@@ -589,9 +589,6 @@
 [shownametag name="大樹" visible=true]
 「……」[plc]
 
-*De
-[setup_debug bg="temp_cicle_park_cg"]
-
 
 毎朝一緒に登校しといて、[lr]
 今更気にすることじゃなかろうに……[plc]
@@ -637,7 +634,7 @@
 
 
 
-なんだか、先輩とこうやってボケーっと
+なんだか、先輩とこうやってボケーっと[r]
 会話するのは久しぶりな気がする。[plc]
 
 
@@ -666,7 +663,6 @@
 [haruka_face face="magao"]
 [shownametag name="遥香" visible=true]
 「んー？」[plc]
-
 
 
 そこで、ちょっと気になることがあったことを思い出した。[plc]
@@ -765,7 +761,7 @@
 
 なんで、この人はここまでしてくれるんだろう？[plc]
 
-
+[haruka_face face="magao"]
 [shownametag name="遥香" visible=true]
 「なに？」[plc]
 
@@ -825,6 +821,10 @@
 「……」[plc]
 
 
+*De
+[setup_debug bg="temp_cicle_park_cg"]
+
+
 
 先輩は、溜息をつくように身を起こした。[plc]
 
@@ -864,9 +864,12 @@
 [shownametag name="大樹" visible=true]
 「あめ、止みましたね」[plc]
 
-
+[strans storage="sky003_day"]
 
 あてずっぽうだったけれど、ほんとに雨は止んでいて。[plc]
+
+
+
 
 [haruka_face face="odoroki"]
 [shownametag name="遥香" visible=true]
@@ -882,7 +885,7 @@
 
 
 [shownametag name="大樹" visible=true]
-「はい」[lr]
+「はい」[plc]
 ;[チャリが発進するSE]
 
 
@@ -918,12 +921,12 @@
 
 でも、その変わり、思うところが出来て。[plc]
 
-[strans storage=
+[strans storage="bg_tyurinIriguchi"]
 
-
+[haruka_stand face="raku" size="l"]
 [shownametag name="遥香" visible=true]
 「じゃ、また放課後ね」[plc]
-
+[dis_all_chara]
 
 [shownametag name="大樹" visible=true]
 「……」[plc]
@@ -965,6 +968,8 @@
 自分自身が抱いた好意が何者なのか、[lr]
 分からないが。[plc]
 
+[strans storage="bg_tyurin"]
+
 [shownametag name="大樹" visible=true]
 「……チャリ多すぎ」[plc]
 
@@ -984,6 +989,13 @@
 
 『雨の日なのになぁ』と呟いた空は、[lr]
 腹立たしいほどに澄んだ色をしていた。[plc]
+
+[fadeoutse time="1000"]
+[dis_all_chara_fade_message]
+[strans storage="white" time="1000"]
+
+[JumpChapter storage="senpai_ep_21.ks"]
+
 
 
 ;[→梅雨明けは遠く]
