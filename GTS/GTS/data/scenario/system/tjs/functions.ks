@@ -232,7 +232,7 @@ function CreateButtonHintName(hint, num)
 	return returnName;
 }
 
-function GetStandFileInfo(who, pose, face, size, pos, tere)
+function GetStandFileInfo(who, pose, face, size, pos, tere, nopos)
 {
 	//! 名前と渡された情報から表示すべき立ち絵にまつわる全情報を計算
 	//! left = 位置/位置の分割数 * ( (画面横サイズ - 2マージン) - 立ち絵の横サイズ ) - 立ち絵の余白 + マージン
@@ -256,6 +256,12 @@ function GetStandFileInfo(who, pose, face, size, pos, tere)
 
 	//! Dictionaryで情報をまとめて返す
 	var info = %["file"=>filename.toLowerCase(), "left"=>pos_left, "top"=>pos_top];
+	
+	//! ポジション無視が指定されていたらleftとtopを0に
+	if(nopos == "true") {
+		info["left"] = 0;
+		info["top"] = 0;
+	}
 	return info;
 }
 

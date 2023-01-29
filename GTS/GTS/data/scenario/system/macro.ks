@@ -242,6 +242,7 @@
 ;;notrans=トランジションの有無, 論理値
 ;;nobust=バスト画像を出さない, 論理値
 ;;size=サイズ, s;m;l
+;;nopos=ポジションを適用しない, 論理値
 [macro name="showstandimage"]
 	;トランジションの有無によってパラメータを切り替え
 	[if exp="mp.notrans != 'true'"]
@@ -254,7 +255,7 @@
 	[eval exp="mp.pos='c'" cond="mp.pos == ''"]
 	[eval exp="mp.tere='false'" cond="mp.tere == ''"]
 	;表示した立ち絵情報を取得する
-	[eval exp="tf.s_info = global.GetStandFileInfo(mp.who, mp.pose, mp.face, mp.size, mp.pos, mp.tere)"]
+	[eval exp="tf.s_info = global.GetStandFileInfo(mp.who, mp.pose, mp.face, mp.size, mp.pos, mp.tere, mp.nopos)"]
 	;取得した情報に従って立ち絵を表示
 	[image storage="&tf.s_info.file" left="&tf.s_info.left" top="&tf.s_info.top" layer=%layer|0 visible="true" index=%index|1 opacity=%opacity|255 page="&mp.page" grayscale=%grayscale]
 	;トランジション(有効なら)
@@ -266,7 +267,7 @@
 	[if exp="mp.nobust != 'true'"]
 		[showbustup who="&mp.who" pose="&mp.pose" face="&mp.face" tere="&mp.tere" visible=true]
 	[endif]
-	[kagtag who=%who pose=%pose|1 face=%face notrans=%notrans tere=%tere page=%page size=%size nobust=%nobust|false pos="%pos|c" layer="%layer|0" visible="%visible|true"]
+	[kagtag nopos=%nopos who=%who pose=%pose|1 face=%face notrans=%notrans tere=%tere page=%page size=%size nobust=%nobust|false pos="%pos|c" layer="%layer|0" visible="%visible|true"]
 [endmacro]
 
 ;;【名前欄を表示する】
