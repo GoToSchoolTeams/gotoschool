@@ -499,7 +499,7 @@
 
 ;;【追加マクロ(byMahiro)】
 ;;[haruka立ち絵用]
-;;pose=ポーズ番号, 0;1;2
+;;pose=ポーズ番号, 1;2;3
 ;;face=表情名, magao;ki;do;ai;raku;jitome;keibetsu;kuno;niyaniya;odoroki;suttoboke
 ;;size=サイズ, s;m;l
 ;;nobust=バスト画像を出さない, 論理値
@@ -517,7 +517,7 @@
 
 ;;【追加マクロ(byMahiro)】
 ;;[haruka立ち絵用]
-;;pose=ポーズ番号, 0;1;2
+;;pose=ポーズ番号, 1;2;3
 ;;face=表情名, magao;ki;do;ai;raku;jitome;keibetsu;kuno;niyaniya;odoroki;suttoboke
 ;;tere=照れてるかどうか, 論理値
 ;;visible=レイヤの可視・不可視\nlayer 属性で指定したレイヤを表示するか、しないかを指定します, 論理値
@@ -528,7 +528,7 @@
 
 ;;【追加マクロ(byMahiro)】
 ;;[najimi立ち絵用]
-;;pose=ポーズ番号, 0;1;2
+;;pose=ポーズ番号, 1;2;3
 ;;face=表情名, futsu;ki;do;ikari;raku;jitome;metoji;odoroki;odoroki2;raku
 ;;size=サイズ, s;m;l
 ;;nobust=バスト画像を出さない, 論理値
@@ -546,7 +546,7 @@
 
 ;;【追加マクロ(byMahiro)】
 ;;[najimi立ち絵用]
-;;pose=ポーズ番号, 0;1;2
+;;pose=ポーズ番号, 1;2;3
 ;;face=表情名, futsu;ki;do;ikari;raku;jitome;metoji;odoroki;odoroki2;raku
 ;;tere=照れてるかどうか, 論理値
 ;;visible=レイヤの可視・不可視\nlayer 属性で指定したレイヤを表示するか、しないかを指定します, 論理値
@@ -557,7 +557,7 @@
 
 ;;【追加マクロ(byMahiro)】
 ;;[naruse立ち絵用]
-;;pose=ポーズ番号, 1;2
+;;pose=ポーズ番号, 1;2;3
 ;;face=表情名, futsu;hohoho
 ;;size=サイズ, s;m;l
 ;;nobust=バスト画像を出さない, 論理値
@@ -575,7 +575,7 @@
 
 ;;【追加マクロ(byMahiro)】
 ;;[naruse立ち絵用]
-;;pose=ポーズ番号, 1;2
+;;pose=ポーズ番号, 1;2;3
 ;;face=表情名, futsu;hohoho
 ;;tere=照れてるかどうか, 論理値
 ;;visible=レイヤの可視・不可視\nlayer 属性で指定したレイヤを表示するか、しないかを指定します, 論理値
@@ -587,7 +587,7 @@
 
 ;;【追加マクロ(byMahiro)】
 ;;[satori立ち絵用]
-;;pose=ポーズ番号, 1;2
+;;pose=ポーズ番号, 1;2;3
 ;;face=表情名, futsu;naki;otyokuri
 ;;size=サイズ, s;m;l
 ;;nobust=バスト画像を出さない, 論理値
@@ -605,7 +605,7 @@
 
 ;;【追加マクロ(byMahiro)】
 ;;[satori立ち絵用]
-;;pose=ポーズ番号, 1;2
+;;pose=ポーズ番号, 1;2;3
 ;;face=表情名, futsu;naki;otyokuri
 ;;tere=照れてるかどうか, 論理値
 ;;visible=レイヤの可視・不可視\nlayer 属性で指定したレイヤを表示するか、しないかを指定します, 論理値
@@ -616,7 +616,7 @@
 
 ;;【追加マクロ(byMahiro)】
 ;;[gaia立ち絵用]
-;;pose=ポーズ番号, 1;2
+;;pose=ポーズ番号, 1;2;3
 ;;face=表情名, egao;kangaeru;komari;normal;normal2;odoroki;serious
 ;;size=サイズ, s;m;l
 ;;nobust=バスト画像を出さない, 論理値
@@ -634,7 +634,7 @@
 
 ;;【追加マクロ(byMahiro)】
 ;;[gaia立ち絵用]
-;;pose=ポーズ番号, 1;2
+;;pose=ポーズ番号, 1;2;3
 ;;face=表情名, egao;kangaeru;komari;normal;normal2;odoroki;serious
 ;;tere=照れてるかどうか, 論理値
 ;;visible=レイヤの可視・不可視\nlayer 属性で指定したレイヤを表示するか、しないかを指定します, 論理値
@@ -645,7 +645,7 @@
 
 ;;【追加マクロ(byMahiro)】
 ;;[mash立ち絵用]
-;;pose=ポーズ番号, 1;2
+;;pose=ポーズ番号, 1;2;3
 ;;face=表情名, doya;ikari;normal;odoroki
 ;;size=サイズ, s;m;l
 ;;nobust=バスト画像を出さない, 論理値
@@ -663,7 +663,7 @@
 
 ;;【追加マクロ(byMahiro)】
 ;;[mash立ち絵用]
-;;pose=ポーズ番号, 1;2
+;;pose=ポーズ番号, 1;2;3
 ;;face=表情名, doya;ikari;normal;odoroki
 ;;tere=照れてるかどうか, 論理値
 ;;visible=レイヤの可視・不可視\nlayer 属性で指定したレイヤを表示するか、しないかを指定します, 論理値
@@ -674,7 +674,7 @@
 
 ;;【追加マクロ(byMahiro)】
 ;;[orutega立ち絵用]
-;;pose=ポーズ番号, 1;2
+;;pose=ポーズ番号, 1;2;3
 ;;face=表情名, kanasii;normal;normal2;odoroki
 ;;size=サイズ, s;m;l
 ;;nobust=バスト画像を出さない, 論理値
@@ -692,7 +692,7 @@
 
 ;;【追加マクロ(byMahiro)】
 ;;[orutega立ち絵用]
-;;pose=ポーズ番号, 1;2
+;;pose=ポーズ番号, 1;2;3
 ;;face=表情名, kanasii;normal;normal2;odoroki
 ;;tere=照れてるかどうか, 論理値
 ;;visible=レイヤの可視・不可視\nlayer 属性で指定したレイヤを表示するか、しないかを指定します, 論理値
@@ -704,7 +704,7 @@
 
 ;;【追加マクロ(byMahiro)】
 ;;[takahashi立ち絵用]
-;;pose=ポーズ番号, 1;2
+;;pose=ポーズ番号, 1;2;3
 ;;face=表情名, futsu
 ;;size=サイズ, s;m;l
 ;;nobust=バスト画像を出さない, 論理値
@@ -722,7 +722,7 @@
 
 ;;【追加マクロ(byMahiro)】
 ;;[takahashi立ち絵用]
-;;pose=ポーズ番号, 1;2
+;;pose=ポーズ番号, 1;2;3
 ;;face=表情名, futsu
 ;;tere=照れてるかどうか, 論理値
 ;;visible=レイヤの可視・不可視\nlayer 属性で指定したレイヤを表示するか、しないかを指定します, 論理値
@@ -733,7 +733,7 @@
 
 ;;【追加マクロ(byMahiro)】
 ;;[miyabi立ち絵用]
-;;pose=ポーズ番号, 1;2
+;;pose=ポーズ番号, 1;2;3
 ;;face=表情名, futsu
 ;;size=サイズ, s;m;l
 ;;nobust=バスト画像を出さない, 論理値
@@ -751,7 +751,7 @@
 
 ;;【追加マクロ(byMahiro)】
 ;;[miyabi立ち絵用]
-;;pose=ポーズ番号, 1;2
+;;pose=ポーズ番号, 1;2;3
 ;;face=表情名, futsu
 ;;tere=照れてるかどうか, 論理値
 ;;visible=レイヤの可視・不可視\nlayer 属性で指定したレイヤを表示するか、しないかを指定します, 論理値
