@@ -61,7 +61,7 @@
 
 門前払いは基本で。[plc]
 
-[strans storage="bg_sadoubu"]
+[strans storage="bg_sadobu"]
 [miyabi_stand face="futsu" size="l"]
 [shownametag name="十二単" visible=true]
 「――古池や蛙飛び込む塩の海」[plc]
