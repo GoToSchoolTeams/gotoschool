@@ -10,7 +10,7 @@
 [strans storage="okujo_m"]
 
 
-;[call target=*De]
+[call target=*De]
 
 
 それからの日々は、[lr]
@@ -168,24 +168,26 @@
 
 
 
-
-
-
 ;[場面転換]
 [fadebgm volume=0 time="800"]
 [dis_all_chara_fade_message time=800]
 [strans storage="black" time="800"]
-[wipe time=1600 storage="rika_dt"]
+[wipe time=1600 storage="rouka2_dt"]
 [SetupMessageWindow]
 
 
 
+*De
+[setup_debug bg="rouka2_dt"]
 
 
 
+
+[najimi_stand face="futsu" size="l"]
 [shownametag name="縁" visible=true]
 「……ちょっと」[plc]
 
+[dis_all_chara]
 
 [shownametag name="大樹" visible=true]
 「なんだよ？」[plc]
@@ -194,7 +196,7 @@
 
 いつものご機嫌伺いに行く途中、縁に呼び止められた。[plc]
 
-
+[najimi_stand face="metoji"]
 [shownametag name="縁" visible=true]
 「どこいくのよ」[plc]
 
@@ -202,7 +204,7 @@
 [shownametag name="大樹" visible=true]
 「わかってんだろうが、挨拶まわりだよ」[plc]
 
-
+[najimi_stand face="futsu"]
 [shownametag name="縁" visible=true]
 「どこに？」[plc]
 
@@ -218,7 +220,7 @@
 [shownametag name="大樹" visible=true]
 「チア部だよ」[plc]
 
-
+[dis_all_chara]
 
 適当に答えておく。[plc]
 
@@ -246,7 +248,7 @@
 
 自然、一番使えない俺が使いっ走りをする事になる。[plc]
 
-
+[najimi_stand face="ikari"]
 [shownametag name="縁" visible=true]
 「……」[plc]
 
@@ -266,7 +268,7 @@
 
 無視して歩き出す。[plc]
 
-
+[najimi_stand face="do"]
 [shownametag name="縁" visible=true]
 「方向が逆よ」[plc]
 
@@ -281,10 +283,16 @@
 
 
 ;[場面転換]
-
+[fadebgm volume=0 time="800"]
+[dis_all_chara_fade_message time=800]
+[strans storage="black" time="800"]
+[strans storage="black" time="800"]
+[SetupMessageWindow]
 
 
 それにしても、[plc]
+
+[strans storage="bg_sky003_day"]
 
 
 [shownametag name="大樹" visible=true]

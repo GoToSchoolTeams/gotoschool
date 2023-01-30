@@ -1,5 +1,5 @@
 ;;【メッセージレイヤの初期化】
-;;シナリオ表示前に呼び出してください
+;;シナリオ表示前に呼び出してください。
 [macro name="SetupMessageWindow"]
 	;全削除
 	[dis_all_message]
