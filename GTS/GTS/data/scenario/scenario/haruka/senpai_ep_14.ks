@@ -7,14 +7,17 @@
 ;[playse storage="chaim_far_single" ]
 
 
+;[fadeinse storage="tic" loop="true" time="1000"]
 [strans storage="seitokai"]
 
 ;[call target=*De]
+
 [show_message_fade time="500"]
 [showbustup who="sakurako" pose="1" face=magao]
 [shownametag name="福岡" visible=true bust="false"]
 「――断るわ」[plc]
 
+[stopse]
 [dis_all_chara]
 
 会議の始まりの第一声は、単純な拒絶の言葉だった。[plc]
@@ -252,8 +255,7 @@
 
 
 ;[ドア閉めるSE]
-[stopbgm]
-[playse storage="class_door_short"]
+[playse storage="door_close"]
 [showstandimage who="najimi" pose="1" face=ikari size="m"]
 [shownametag name="縁" visible=true]
 「……」[plc]
@@ -266,7 +268,7 @@
 [shownametag name="大樹" visible=true]
 「塩でも撒くか？」[plc]
 
-
+[playse storage="bosu04"]
 [quake time="400" hmax="5" vmax="5"]
 ――ゴッ！[plc]
 
@@ -275,6 +277,9 @@
 ぶん殴られた。[plc]
 
 
+;[playbgm storage="happy bgm"
+[stopbgm]
+[playse storage="door_open"]
 [showstandimage who="satori" pose="1" face=naki size="l"]
 [shownametag name="悟" visible=true]
 「す、すすす、スミマセーン！　遅刻しましたぁ！！！」[plc]
@@ -292,6 +297,7 @@
 「……え、おま―」[plc]
 
 
+[playse storage="happy bgm"]
 [showstandimage who="najimi" pose="1" face=do tere="true" time="0" size="l"]
 [nowait]
 [shownametag name="縁" visible=true]
@@ -463,12 +469,12 @@
 そんな情けない考えに、襲われ始めていたのであった。[plc]
 
 
-
+[fadeoutbgm time="1000"]
 [fadeoutse time="1000"]
 [dis_all_chara_fade_message]
 [strans storage="white" time="1000"]
 
-;[JumpChapter storage="senpai_ep_11.ks"]
+[JumpChapter storage="senpai_ep_15.ks"]
 
 
 
