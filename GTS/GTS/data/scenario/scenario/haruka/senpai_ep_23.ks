@@ -1,119 +1,181 @@
+;[器の話]
+
+
 驚いたのだが、成瀬陣営で俺はあっさりと受け入れられた。[plc]
 
 
-取り巻きA「……えっと、誰でしたかしら？」[plc]
+[shownametag name="取り巻きA" visible=true bust="false"]
+「……えっと、誰でしたかしら？」[plc]
 
 
-取り巻きB「ほら、向こうの書記の」[plc]
+[shownametag name="取り巻きB" visible=true bust="false"]
+「ほら、向こうの書記の」[plc]
 
 
-取り巻きA「あぁ、あの捨てられた！」[plc]
+[shownametag name="取り巻きA" visible=true bust="false"]
+「あぁ、あの捨てられた！」[plc]
 
 
-取り巻きB「えーっと、『ウンコ丸ウンコ垂れ蔵』さんでしたっけ？」[plc]
-
-大樹「……谷口です」[plc]
-
-
-取り巻きB「そうそう、谷口さん！」[plc]
+[shownametag name="取り巻きB" visible=true bust="false"]
+「えーっと、『ウンコ丸ウンコ垂れ蔵』さんでしたっけ？」[plc]
 
 
-取り巻きC「大変だったんだってねぇ、利用されて、散々こき使われて捨てられて」[plc]
+[shownametag name="大樹" visible=true]
+「……谷口です」[plc]
 
-取り巻きD「かわいそうに」[plc]
+
+[shownametag name="取り巻きB" visible=true bust="false"]
+「そうそう、谷口さん！」[plc]
+
+
+[shownametag name="取り巻きC" visible=true bust="false"]
+「大変だったんだってねぇ、[lr]
+利用されて、散々こき使われて捨てられて」[plc]
+
+[shownametag name="取り巻きD" visible=true bust="false"]
+「かわいそうに」[plc]
+
 
 
 ……俺は、ここではそういう事になってるのか。[plc]
 
 
-大樹「……」[lr]
+[shownametag name="大樹" visible=true]
+「……」[plc]
 ;[ちょい回想]
+
 
 真相は、大分違うけれど。[plc]
 
 
-取り巻きE「でも、成瀬先輩も誘ってしまわれるとは……」[plc]
+[shownametag name="取り巻きE" visible=true bust="false"]
+「でも、成瀬先輩も誘ってしまわれるとは……」[plc]
 
 
-成瀬「あまりにも可哀想でしたらね……お声をお掛けしたら、靴磨きでも何でもいいから使って欲しいとのことで……私、慈悲の心を忘れません事よ」[lr]
-取り巻きA「まぁ！　成瀬先輩、なんってお優しい！！」[plc]
+[shownametag name="成瀬" visible=true]
+「あまりにも可哀想でしたらね。お声をお掛けしたら、[lr]
+靴磨きでも何でもいいから使って欲しいとのことで」[plc]
+
+[shownametag name="成瀬" visible=true]
+「私、慈悲の心を忘れません事よ」[plc]
 
 
-取り巻きB「素晴らしいわぁ！！」[plc]
+[shownametag name="取り巻きA" visible=true bust="false"]
+「まぁ！　成瀬先輩、なんってお優しい！！」[plc]
 
 
-大樹「……」[plc]
+[shownametag name="取り巻きB" visible=true bust="false"]
+「素晴らしいわぁ！！」[plc]
+
+
+[shownametag name="大樹" visible=true]
+「……」[plc]
+
 
 
 本当に真相と大分違うなぁ！[plc]
 
 
-成瀬「ホーッホッホッホッホ、よくって、よくってよ！」[plc]
+[shownametag name="成瀬" visible=true]
+「ホーッホッホッホッホ、よくって、よくってよ！」[plc]
+
 
 
 成瀬は、本当に絶好調と言った具合に調子に乗っている。[plc]
 
 
-大樹「……」[plc]
+[shownametag name="大樹" visible=true]
+「……」[plc]
+
 
 
 しかっし、俺もまぁ何ノコノコ付いて来てんだろう。[lr]
 なにが悲しゅうて、逃げた頂とは真反対の頂に来にゃならんのだ。[plc]
 
-なんつーか、あの巻き髪ウンコのオーラに圧倒されてしまったというかなんというか。つか、タイミングだな。[plc]
 
-取り巻きD「はい、これ」[plc]
+なんつーか、あの巻き髪ウンコの
+オーラに圧倒されてしまったというかなんというか。[plc]
 
 
-大樹「……はい？」[plc]
+つか、タイミングだな。[plc]
+
+
+[shownametag name="取り巻きD" visible=true bust="false"]
+「はい、これ」[plc]
+
+
+[shownametag name="大樹" visible=true]
+「……はい？」[plc]
+
 
 
 唐突に渡されたのは、竹箒だった。[plc]
 
 
-取り巻きD「これで、職員室前の中庭を掃除して来てくれる？」[plc]
+[shownametag name="取り巻きD" visible=true bust="false"]
+「これで、職員室前の中庭を掃除して来てくれる？」[plc]
+
 
 
 ……はいぃい！？[plc]
 
 
-成瀬「私達、順調でしてね。あなたにわざわざやって頂く仕事は特にないんですの」[plc]
+[shownametag name="成瀬" visible=true]
+「私達、順調でしてね。[lr]
+あなたにわざわざやって頂く仕事は特にないんですの」[plc]
 
-成瀬「ほら、でもあなた、顔は売れてるから」[plc]
+[shownametag name="成瀬" visible=true]
+「ほら、でもあなた、顔は売れてるから」[plc]
 
 
-取り巻きD「そういうわけで、奉仕活動してくれる？」[plc]
+[shownametag name="取り巻きD" visible=true bust="false"]
+「そういうわけで、奉仕活動してくれる？」[plc]
 
 
-大樹「……はぁ」[plc]
+[shownametag name="大樹" visible=true]
+「……はぁ」[plc]
+
 
 
 それで、目立つ職員室前中庭で掃除か。[plc]
 
 
+
 ……なんだ、つまり俺はパンダかよ。[plc]
 
 
-成瀬「心を入れ替えて地味な仕事を……となれば、みなさんの印象も変わるはずですわ」[plc]
+[shownametag name="成瀬" visible=true]
+「心を入れ替えて地味な仕事を……となれば、[lr]
+みなさんの印象も変わるはずですわ」[plc]
 
-取り巻きD「あなたの為にもなるから」[plc]
+[shownametag name="取り巻きD" visible=true bust="false"]
+「あなたの為にもなるから」[plc]
 
 
-大樹「はぁ」[plc]
+[shownametag name="大樹" visible=true]
+「はぁ」[plc]
 
 
-受け取って、中庭に行って。[lr]
+
+受け取って、中庭に行って。[plc]
 ;[場面転換しながら]
 
-大樹「……何をやってるんだ俺は？」[plc]
+[shownametag name="大樹" visible=true]
+「……何をやってるんだ俺は？」[plc]
 
 
-本当に目立つ位置で、サボることも出来ず、まじめに掃除なんかしちゃったりして。[plc]
 
-大樹「……何をやってるんだ俺は？」[plc]
+本当に目立つ位置で、サボることも出来ず、[lr]
+まじめに掃除なんかしちゃったりして。[plc]
+
+[shownametag name="大樹" visible=true]
+「……何をやってるんだ俺は？」[plc]
 
 
-二回目のそのつぶやきにも、答えてくれる者など誰もいなかった。[plc]
+
+二回目のそのつぶやきにも、[lr]
+答えてくれる者など誰もいなかった。[plc]
+
 
 
 
@@ -125,496 +187,715 @@
 
 
 
+
+
 そんなこんなで、早くも一週間が経過した。[plc]
 
 
-成瀬「オーッホッホッホッホ！」[plc]
+[shownametag name="成瀬" visible=true]
+「オーッホッホッホッホ！」[plc]
 
 
-取り巻きA「いやですわ、もぅ～」[plc]
+[shownametag name="取り巻きA" visible=true bust="false"]
+「いやですわ、もぅ～」[plc]
 
 
-取り巻きB「成瀬先輩ったら～」[plc]
+[shownametag name="取り巻きB" visible=true bust="false"]
+「成瀬先輩ったら～」[plc]
 
 
-大樹「……」[plc]
+[shownametag name="大樹" visible=true]
+「……」[plc]
+
 
 
 時刻は、昼。[lr]
 場所は、成瀬陣営用の会議室。[plc]
 
+
 昼休みは、成瀬陣営の昼食件お茶会の時間となっていた。[plc]
 
 
-成瀬「あ、紅茶、追加でいただけるかしら？」[plc]
+[shownametag name="成瀬" visible=true]
+「あ、紅茶、追加でいただけるかしら？」[plc]
 
 
-大樹「ぁ、はい」[lr]
+[shownametag name="大樹" visible=true]
+「ぁ、はい」[plc]
 ;[コポコポ]
 
-成瀬「ん～、いい香り。あなたも、随分と紅茶を入れるのが上手くなったわね」[plc]
+[shownametag name="成瀬" visible=true]
+「ん～、いい香り。あなたも、[lr]
+随分と紅茶を入れるのが上手くなったわね」[plc]
 
-大樹「……どうも」[plc]
+[shownametag name="大樹" visible=true]
+「……どうも」[plc]
+
 
 
 手慣れた。手慣れてしまった。[plc]
 
 
+
 だって毎日紅茶入れさせられんだもん。[lr]
 学校内にポットとガスコンロ持参なんだもんこの人達。[plc]
 
-取り巻きA「ぁ、私も」[plc]
+[shownametag name="取り巻きA" visible=true bust="false"]
+「ぁ、私も」[plc]
 
 
-取り巻きB「私もお願いしまーす」[plc]
+[shownametag name="取り巻きB" visible=true bust="false"]
+「私もお願いしまーす」[plc]
 
 
-大樹「……」[lr]
+[shownametag name="大樹" visible=true]
+「……」[plc]
 ;[コポコポコポ]
 
-すっかり手慣れた手つきで入れながら、思う。[plc]
+
+すっかり手慣れた手つきで淹れながら、思う。[plc]
 
 
-……なんだろう、ここ。妙に居心地がいいんだけど。[plc]
 
+……なんだろう、ここ。[lr]
+妙に居心地がいいんだけど。[plc]
 
-大樹「……」[lr]
+[shownametag name="大樹" visible=true]
+「……」[plc]
 ;[コポコポコポ]
 
-そうなのだ。予想をもの凄く裏切って、妙に居心地がいい。[plc]
+
+そうなのだ。[lr]
+予想をもの凄く裏切って、妙に居心地がいい。[plc]
 
 
-成瀬の印象的にもっと陰湿な集団だと思ってたんだけど、やけに優しくて、むしろクラスの連中の方がずっと陰湿だ。[plc]
-
-その成瀬も、先輩のとこに居たときは他人を蔑む事しか出来ない生き物なのかと思っていたが、実際、そうじゃない。[plc]
-
-成瀬「あなたも、座って紅茶を楽しんだら？」[plc]
+成瀬の印象的にもっと陰湿な集団だと思ってたんだけど、[lr]
+やけに優しくて、むしろクラスの連中の方がずっと陰湿だ。[plc]
 
 
-大樹「……いえ」[plc]
+その成瀬も、先輩の前に居るときは
+他人を蔑む事しか出来ない生き物なのかと思っていたが、[plc]
+
+
+実際、そうじゃない。[plc]
+
+
+[shownametag name="成瀬" visible=true]
+「あなたも、座って紅茶を楽しんだら？」[plc]
+
+
+[shownametag name="大樹" visible=true]
+「……いえ」[plc]
+
 
 
 むしろ、身内には無茶苦茶やさしい。[plc]
 
 
+
 喋り方や見た目はともかく、[lr]
 気配りできるいい先輩なんだよこの人。[plc]
 
-取り巻きA「もしかして、谷口君恥ずかしがってる？」[plc]
+[shownametag name="取り巻きA" visible=true bust="false"]
+「もしかして、谷口君恥ずかしがってる？」[plc]
 
 
-取り巻きB「うわー、照れ屋さんだー！」[plc]
+[shownametag name="取り巻きB" visible=true bust="false"]
+「うわー、照れ屋さんだー！」[plc]
 
 
-成瀬「こらこら、やめなさい」[plc]
+[shownametag name="成瀬" visible=true]
+「こらこら、やめなさい」[plc]
 
 
-大樹「……」[plc]
+[shownametag name="大樹" visible=true]
+「……」[plc]
+
 
 
 一人一人も、どっちかと言えば良い人が多い。[plc]
 
 
-こうやって昼に集まってるのだって、集団の結束を強めるというよりは仲良しだから集まってるのだろう。[plc]
 
-まぁ、もっとも、成瀬に限らず、この集団は『恋ヶ旗遥香憎し』で結束しているらしくて、結束力は妙に強い。[plc]
+こうやって昼に集まってるのだって、[lr]
+集団の結束を強めるというより仲良しだから集まってるのだろう。[plc]
+
+
+まぁ、もっとも、成瀬に限らず、この集団は
+『恋ヶ旗遥香憎し』で結束しているらしくて、結束力は妙に強い。[plc]
+
 
 つか、結構嫌われてんだな、先輩。[plc]
 
 
-大樹「……」[lr]
+[shownametag name="大樹" visible=true]
+「……」[plc]
 ;[ちょい先輩の立ち絵出る？]
+
 
 ……まぁ、敵を作りまくりながら生きてそうなひとだしなぁ。[plc]
 
 
-成瀬「ところで、その後どう？　クラスの方は」[plc]
+[shownametag name="成瀬" visible=true]
+「ところで、その後どう？　クラスの方は」[plc]
 
 
-大樹「え、あ、はい……何事も無く」[plc]
+[shownametag name="大樹" visible=true]
+「え、あ、はい……何事も無く」[plc]
 
 
-成瀬「それはよろしいわ」[plc]
+[shownametag name="成瀬" visible=true]
+「それはよろしいわ」[plc]
+
 
 
 満足気に、成瀬は紅茶をすする。[plc]
 
 
-大樹「……」[plc]
+[shownametag name="大樹" visible=true]
+「……」[plc]
 
 
-そう……そうなんだよ。さらに驚くべきことがある。[plc]
+
+そう……そうなんだよ。[lr]
+さらに驚くべきことがある。[plc]
 
 
-ここ入ってから、クラスでの俺の扱いが変わった。いや、勿論冷たいままではあるが、あからさまないじめとかは無くなった。[plc]
+ここ入ってから、クラスでの俺の扱いが変わった。[lr]
+いや、勿論冷たいままではあるが、[plc]
 
-結構前……先輩のとこに入る前くらい……は、言い過ぎかもしれないけど、その程度になった。[plc]
 
-成瀬「やはり奉仕活動をすると、みなさんの印象が変わりますわね」[plc]
+あからさまないじめとかは無くなった。[plc]
+
+
+
+結構前……先輩のとこに入る前くらい……。[lr]
+というのは言い過ぎかもしれないけど、その程度になった。[plc]
+
+[shownametag name="成瀬" visible=true]
+「やはり奉仕活動をすると、みなさんの印象が変わりますわね」[plc]
+
+
 
 マジで、校庭の掃除が効いてんのか？[plc]
 
 
-成瀬「……」[plc]
+[shownametag name="成瀬" visible=true]
+「……」[plc]
 
 
-大樹「……」[plc]
+[shownametag name="大樹" visible=true]
+「……」[plc]
+
 
 
 いや、それだけじゃねぇだろ絶対。[plc]
 
 
-成瀬「特に何もしてなくてよ」[plc]
+[shownametag name="成瀬" visible=true]
+「特に何もしてなくてよ」[plc]
 
 
-俺の視線で見ぬいたように、成瀬は言う。[plc]
+
+俺の視線で察したのか、成瀬は言う。[plc]
 
 
-大樹「……でも、」[plc]
+[shownametag name="大樹" visible=true]
+「……でも、」[plc]
 
 
-成瀬「みなさん、プライドがありますのよ。分不相応の者が分不相応の地位にいると……そういう扱いを受ける」[plc]
+[shownametag name="成瀬" visible=true]
+「みなさん、プライドがありますのよ。[lr]
+不相応な者が不相応な地位にいると……そういう扱いを受ける」[plc]
 
-成瀬「人には……このカップのように……器って物がありまして、入りきれないものは入りませんわ」[plc]
+[shownametag name="成瀬" visible=true]
+「人には……このカップのように……器って物がありまして、[lr]
+入りきれないものは入りませんわ」[plc]
 
-成瀬「はみ出したお湯は、手を火傷させますからね……周りも、撒き散らしたものを掃除させられては、迷惑でしょう？」[plc]
+[shownametag name="成瀬" visible=true]
+「はみ出したお湯は、手を火傷させますからね……。[lr]
+周りも、撒き散らしたものを掃除させられては、迷惑でしょう？」[plc]
 
-成瀬「収まるべき量に収まっていれば……収まるべきとこに収まっていれば、普通、人は文句は言いませんわ」[plc]
+[shownametag name="成瀬" visible=true]
+「収まるべき量に収まっていれば……。[lr]
+収まるべきとこに収まっていれば」[plc]
+
+[shownametag name="成瀬" visible=true]
+「普通、人は文句は言いませんわ」[plc]
+
+
 
 満足気に言って、成瀬はカップの紅茶を飲み干した。[plc]
 
 
-大樹「……」[plc]
+[shownametag name="大樹" visible=true]
+「……」[plc]
+
 
 
 つまり、俺は校庭の掃除が分相応ってことかよ。[plc]
 
 
-成瀬「……おかわりお願いできるかしら？」[plc]
+[shownametag name="成瀬" visible=true]
+「……おかわりお願いできるかしら？」[plc]
 
 
-大樹「……」[lr]
+[shownametag name="大樹" visible=true]
+「……」[plc]
 ;[コポコポ]
+
 
 言いたいことは分からんでもないが、納得は出来んな。[plc]
 
 
-大樹「どうぞ」[plc]
+[shownametag name="大樹" visible=true]
+「どうぞ」[plc]
 
 
-成瀬「どうも」[plc]
+[shownametag name="成瀬" visible=true]
+「どうも」[plc]
+
 
 
 コイツ、自分の器はどの程度だと思ってやがるんだろうか。[plc]
 
 
+
 「――こころよきかな」[plc]
+
 
 
 不意に、後ろから妙な声がかかった。[plc]
 
 
-成瀬「……あら、雅じゃない」[plc]
+[shownametag name="成瀬" visible=true]
+「……あら、雅じゃない」[plc]
 
 
-十二単「ごきげんなようね、なるみ」[plc]
+[shownametag name="十二単" visible=true]
+「ごきげんなようね、なるみ」[plc]
+
 
 
 いつの間にか、後ろに例のあの『オモロー』生物がいた。[plc]
 
 
-十二単「……」[plc]
+[shownametag name="十二単" visible=true]
+「……」[plc]
 
 
-大樹「……」[plc]
+[shownametag name="大樹" visible=true]
+「……」[plc]
+
 
 
 な、なにしに来やがった。[plc]
 
 
+
 ジッとこちらを見つめてくる。[lr]
 糞暑い着物を来てやがるのに、汗一つかいていない。[plc]
 
+
 後ろには、袖を持つための付き人が……。[plc]
+
 
 
 ……って、やっぱなんもかんもおかしいだろコイツ！！[plc]
 
 
-成瀬「……相変わらずの格好ねぇ」[plc]
+[shownametag name="成瀬" visible=true]
+「……相変わらずの格好ねぇ」[plc]
+
 
 
 呆れた調子で成瀬は言う。[lr]
 さすがの巻き髪ウンコドリルも、コイツには言っても良いと思う。[plc]
 
+
 その言葉は無視して、十二単は続けた。[plc]
 
 
-十二単「どうしても、先方は書類は渡したくないようでの」[plc]
+[shownametag name="十二単" visible=true]
+「どうしても、先方は書類は渡したくないようでの」[plc]
 
 
-成瀬「……でしょうね、良いわ。ちゃんと仕入れておく。良ければ準備もするけれど？」[plc]
+[shownametag name="成瀬" visible=true]
+「……でしょうね、良いわ。ちゃんと仕入れておく。[lr]
+良ければ準備もするけれど？」[plc]
 
-十二単「そこまではよい」[plc]
+[shownametag name="十二単" visible=true]
+「そこまではよい」[plc]
+
 
 
 言って、チラリとこちらを一瞥した。[plc]
 
 
-十二単「ほんに、がんこでのう」[plc]
+[shownametag name="十二単" visible=true]
+「ほんに、がんこでのう」[plc]
 
 
-成瀬「はいはい、みないみない。彼のせいじゃないんだから」[plc]
+[shownametag name="成瀬" visible=true]
+「はいはい、見ない見ない。彼のせいじゃないんだから」[plc]
 
 
-十二単「それだけではないぞ……私は反対じゃ」[plc]
+[shownametag name="十二単" visible=true]
+「それだけではないぞ……私は反対じゃ」[plc]
+
 
 
 言って、ピッと扇子を俺に向けた。[plc]
 
 
-十二単「獅子身中の虫……ということもある。間者かもしれん」[plc]
+[shownametag name="十二単" visible=true]
+「獅子身中の虫……ということもある。間者かもしれん」[plc]
 
 
-成瀬「はっ」[plc]
+[shownametag name="成瀬" visible=true]
+「はっ」[plc]
+
 
 
 成瀬は、楽しげに笑った。[plc]
 
 
-成瀬「無理よ、あの女……恋ヶ旗遥香程度に、そんなことできっこないわ」[plc]
+[shownametag name="成瀬" visible=true]
+「無理よ、あの女……恋ヶ旗遥香程度に、[lr]
+そんなことできっこないわ」[plc]
 
-成瀬「まんまと踊っちゃうような、おバカさんなんですもん」[plc]
+[shownametag name="成瀬" visible=true]
+「まんまと踊っちゃうような、おバカさんなんですもん」[plc]
 
 
-成瀬「ま、避けようは無かったけどね」[plc]
+[shownametag name="成瀬" visible=true]
+「ま、避けようは無かったけどね」[plc]
+
 
 
 言い捨てるように、そう言って。[plc]
 
 
+
 それで、さすがの俺でもピンと来た。[plc]
 
 
-大樹「……」[plc]
+[shownametag name="大樹" visible=true]
+「……」[plc]
 
 
-ああね、なるほど。そういう構図か、ああね、なるほどね。[plc]
+
+ああね、なるほど。[lr]
+そういう構図か、ああね、なるほどね。[plc]
 
 
-まさか一番馬鹿げてると思った予想が、的中するとは思わなかった。[lr]
+まさか一番馬鹿げてると思った予想が、[lr]
+的中するとは思わなかった。[plc]
+
+
 だけど、[plc]
 
-成瀬「ホーッホッホッホッ！」[plc]
+
+[shownametag name="成瀬" visible=true]
+「ホーッホッホッホッ！」[plc]
 
 
-取り巻きA「ほほほほ」[plc]
+[shownametag name="取り巻きA" visible=true bust="false"]
+「ほほほほ」[plc]
 
 
-取り巻きB「ほほほほ」[plc]
+[shownametag name="取り巻きB" visible=true bust="false"]
+「ほほほほ」[plc]
+
 
 
 一週間居て、この集団の性質はよく分かった。[lr]
 だから、今はもう不思議じゃない。[plc]
 
+
 本当に、本当にこの集団は先輩が……恋ヶ旗 遥香が嫌いなんだ。[lr]
 それ以外はどうでもいいと思えるほどに、[plc]
 
-だから、先輩が苦しむなら、遠回りだろうが、馬鹿げていようが、関係ない。[plc]
+
+だから、先輩が苦しむなら、[lr]
+遠回りだろうが、馬鹿げていようが、関係ない。[plc]
+
 
 コイツらは、やる。[plc]
 
 
-成瀬「……そうでしょう、谷口君？」[plc]
+[shownametag name="成瀬" visible=true]
+「……そうでしょう、谷口君？」[plc]
+
 
 
 満足気な顔で、成瀬はこっちを見てきて。[plc]
 
 
-それで分かった。気付いた。[plc]
 
-
+それで分かった。気付いた。[lr]
 いや、ハッキリした。[plc]
 
 
 コイツ、[plc]
 
 
-大樹「……」[plc]
+[shownametag name="大樹" visible=true]
+「……」[plc]
 
 
-成瀬「ホーッホッホッホッ！」[plc]
+[shownametag name="成瀬" visible=true]
+「ホーッホッホッホッ！」[plc]
+
 
 
 慈悲の心だとか、タイミングだとか、関係ない。[plc]
 
 
+
 俺が、先輩の手駒だったから入れたんだ。[plc]
 
 
-十二単「……」[plc]
+[shownametag name="十二単" visible=true]
+「……」[plc]
+
 
 
 あまりの笑いように、十二単でさえも眉を潜めている。[plc]
 
 
-成瀬「あちらの調子は、どういう感じ？」[plc]
+[shownametag name="成瀬" visible=true]
+「あちらの調子は、どういう感じ？」[plc]
 
 
-十二単「どうにもならんようだの」[plc]
+[shownametag name="十二単" visible=true]
+「どうにもならんようだの」[plc]
 
 
-成瀬「でしょうねぇ」[plc]
+[shownametag name="成瀬" visible=true]
+「でしょうねぇ」[plc]
+
 
 
 ひとしきり笑っている成瀬に、[plc]
 
 
-成瀬「……谷口君、おかわりを」[plc]
+[shownametag name="成瀬" visible=true]
+「……谷口君、おかわりを」[plc]
 
 
-大樹「……」[plc]
+[shownametag name="大樹" visible=true]
+「……」[plc]
+
 
 
 俺はもう、給仕をする気はなくて。[plc]
 
 
-成瀬「あら、ちょっと驚いちゃったかしら」[plc]
+[shownametag name="成瀬" visible=true]
+「あら、ちょっと驚いちゃったかしら」[plc]
 
 
-そんな俺を気にもとめず、成瀬はご機嫌なようすで自分のカップにお茶をいれた。[plc]
 
-成瀬「どう？　雅も、紅茶はいかが？」[plc]
+そんな俺を気にもとめず、[lr]
+成瀬はご機嫌なようすでカップに自分でお茶をいれた。[plc]
 
-
-十二単「……紅茶は日本人が飲むものではないのぉ」[plc]
-
-
-成瀬「あなたはそればっかりね」[plc]
+[shownametag name="成瀬" visible=true]
+「どう？　雅も、紅茶はいかが？」[plc]
 
 
-ファーストネームで呼び合うコイツらは、見た目がへんてこだから波長が合っているのか、それとも……。[plc]
+[shownametag name="十二単" visible=true]
+「……紅茶は日本人が飲むものではないのぉ」[plc]
 
-成瀬「ふふふ、うふふふふ」[plc]
+
+[shownametag name="成瀬" visible=true]
+「あなたはそればっかりね」[plc]
+
+
+
+ファーストネームで呼び合うコイツらは、[lr]
+見た目がへんてこだから波長が合っているのか、それとも……。[plc]
+
+[shownametag name="成瀬" visible=true]
+「ふふふ、うふふふふ」[plc]
+
 
 
 成瀬は、やたらとご機嫌で。[lr]
 だから、調子にのったのだろうか。[plc]
 
+
 急に、妙な事を話しだした。[plc]
 
 
-成瀬「……ねぇ、谷口君知ってる？」[plc]
+[shownametag name="成瀬" visible=true]
+「……ねぇ、谷口君知ってる？」[plc]
 
 
-取り巻きA「わ、先輩またあの話ですか？」[plc]
+[shownametag name="取り巻きA" visible=true bust="false"]
+「わ、先輩またあの話ですか？」[plc]
 
 
-取り巻きB「えー、谷口君には辛くないですかぁ」[plc]
+[shownametag name="取り巻きB" visible=true bust="false"]
+「えー、谷口君には辛くないですかぁ」[plc]
 
 
-成瀬「いいじゃないの、もう関係ないんだし」[plc]
+[shownametag name="成瀬" visible=true]
+「いいじゃないの、もう関係ないんだし」[plc]
 
 
-十二単「……あまり、耳に良い話ではないの」[plc]
+[shownametag name="十二単" visible=true]
+「……あまり、耳に良い話ではないの」[plc]
 
 
-成瀬「いいじゃない、雅も聞きなさいよ」[plc]
+[shownametag name="成瀬" visible=true]
+「いいじゃない、雅も聞きなさいよ」[plc]
+
 
 
 なんだ？　何を話す気だ？　コイツ。[plc]
 
 
-成瀬「あいつねぇ、恋ヶ旗遥香はねぇ――」[plc]
+[shownametag name="成瀬" visible=true]
+「あいつねぇ、恋ヶ旗遥香はねぇ――」[plc]
 
 
-成瀬「――負け犬なのよ！」[plc]
+[shownametag name="成瀬" visible=true]
+「――負け犬なのよ！」[plc]
+
 
 
 心底楽しげに、成瀬はそう言って。[plc]
 
 
-成瀬「知ってる？　知らないわよねぇ、あの女が言うはず無いものねぇ」[plc]
+[shownametag name="成瀬" visible=true]
+「知ってる？　知らないわよねぇ、[lr]
+あの女が言うはず無いものねぇ」[plc]
 
-成瀬「あの女、最初っからこの学校に居たんじゃないの、途中で転校してきたのよ。別の学校からね……それも学年の途中に、」[plc]
+[shownametag name="成瀬" visible=true]
+「あの女、最初っからこの学校に居たんじゃないの。[lr]
+途中で転校してきたのよ。別の学校から……それも学年の途中に」[plc]
 
-成瀬「何でだと思う？　……気になる？　気になるでしょ」[plc]
+[shownametag name="成瀬" visible=true]
+「何でだと思う？　……気になる？　気になるでしょ」[plc]
+
 
 
 『興味ねぇ』と言って、ぶん殴ってやれば良かったのか。[plc]
 
 
-成瀬「逃げてきたのよあの女は……前の学校で……いじめられたかどうなんだかしらないけどね……耐えられなくて、逃げ出したの」[plc]
+[shownametag name="成瀬" visible=true]
+「逃げてきたのよあの女は……前の学校で……。[lr]
+いじめられたかどうなんだかしらないけどね……」[plc]
 
-成瀬「なんか、自分のお姉さんと随分比べられちゃったらしくてね……すごい人なんだってさ……ま、きっとたかがしれてるわ」[plc]
+[shownametag name="成瀬" visible=true]
+「耐えられなくて、逃げ出したの」[plc]
 
-成瀬「ま、とにかく……お姉さんへのコンプレックスの塊でねぇ……来たばっかりの頃は、逐一姉がどうとか言ってたわ」[plc]
 
-成瀬「それで、それでよ……笑ちゃうでしょ、そんな負け犬が、逃げてきた分際で、あの態度よ」[plc]
+[shownametag name="成瀬" visible=true]
+「なんか、自分のお姉さんと随分比べられちゃったらしくてね。[lr]
+すごい人なんだってさ……ま、きっとたかがしれてるわ」[plc]
 
-成瀬「だーれも、知らないと思っちゃって！　ほんと、笑えるわ！！」[plc]
+[shownametag name="成瀬" visible=true]
+「ま、とにかく……お姉さんへのコンプレックスの塊でねぇ。[lr]
+来たばっかりの頃は、逐一姉がどうとか言ってたわ」[plc]
+
+[shownametag name="成瀬" visible=true]
+「それで、それでよ……笑ちゃうでしょ、そんな負け犬が。[lr]
+逃げてきた分際で、あの態度よ」[plc]
+
+[shownametag name="成瀬" visible=true]
+「だーれも、知らないと思っちゃって！　ほんと、笑えるわ！！」[plc]
+
+
 
 最高に面白い、という態度で、成瀬は言う。[plc]
+
 
 
 周りも笑っていて。[plc]
 
 
-十二単「……」[plc]
+[shownametag name="十二単" visible=true]
+「……」[plc]
+
 
 
 十二単はまぁ、不快そうに鼻を鳴らしていたけど。[plc]
 
 
-成瀬「ねぇ、谷口君。さっき、器の話したでしょ？　私、あの話大好きなんだけど」[plc]
+[shownametag name="成瀬" visible=true]
+「ねぇ、谷口君。さっき、器の話したでしょ？[lr]
+私、あの話大好きなんだけど」[plc]
+
 
 完全に崩れた口調で、成瀬は続ける。[plc]
 
 
-大樹「……」[plc]
+[shownametag name="大樹" visible=true]
+「……」[plc]
+
 
 
 あぁ、そうだろうさ。大好きだろうさ。[plc]
 
 
+
 だって、おめぇは――[plc]
 
 
-成瀬「あれって、恋ヶ旗遥香にピッタリだと思わない？　ほんとそのままよ！　何処に行ったって一緒なのよあの女は！！」[plc]
+[shownametag name="成瀬" visible=true]
+「あれって、恋ヶ旗遥香にピッタリだと思わない？[lr]
+ほんとそのままよ！　何処に行ったって一緒なのよあの女は！！」[plc]
 
 
 ――最高に器が小せぇからな！[plc]
 
+
+
 気づくと、[plc]
 
 
-大樹「おい、」[plc]
+[shownametag name="大樹" visible=true]
+「おい、」[plc]
 
 
-成瀬「え？」[plc]
+[shownametag name="成瀬" visible=true]
+「え？」[plc]
 
 
-大樹「おい、こら巻き髪ウンコ」[lr]
+[shownametag name="大樹" visible=true]
+「おい、こら巻き髪ウンコ」[plc]
 ;[グイッ]
 
-成瀬「イタッ！　痛たっ！！　ちょ―」[plc]
+[shownametag name="成瀬" visible=true]
+「イタッ！　痛たっ！！　ちょ―」[plc]
+
 
 
 すっごく自然に、成瀬の髪の毛を掴んでいて。[plc]
 
 
-……んだこれ？　マジでウンコじゃねーか、こりゃ金色のよ？　何が地毛だよ、完全にヘアカラーの色だろうが、このクソが！！！[plc]
 
-大樹「なぁーにが、器だよ。ウンコ女が！」[plc]
+……んだこれ？　マジでウンコじゃねーか、金色のよぉ。[lr]
+何が地毛だよ、完全にヘアカラーの色だろうが、このクソが！[plc]
+
+[shownametag name="大樹" visible=true]
+「なぁーにが、器だよ。ウンコ女が！」[plc]
 
 
-大樹「他人の器を語る前に自分の器を知れよ！　器からウンコが漏れだしてんぞ、オラァッ！！」[plc]
+[shownametag name="大樹" visible=true]
+「他人の器を語る前に自分の器を知れよ！
+器からウンコが漏れだしてんぞ、オラァッ！！」[plc]
 
-成瀬「痛い痛い痛い！！」[plc]
+[shownametag name="成瀬" visible=true]
+「痛い痛い痛い！！」[plc]
+
 
 
 癇癪を起こして、感情がコントロール出来なくなったら暴力。[lr]
 これはイケないことなんだけどなぁ。[plc]
+
 
 やぁー困った困った。[plc]
 
@@ -622,125 +903,169 @@
 
 ――ドサッ！！[plc]
 
-成瀬「きゃっ！？」[plc]
+
+[shownametag name="成瀬" visible=true]
+「きゃっ！？」[plc]
+
 
 
 パッと手を離すと、そのまま成瀬はソファーに尻餅を付いた。[plc]
 
 
+
 あぁ、そうさ。器がちいせぇさ。[plc]
 
 
-ちっちぇーんだ。小さくて小さくてたまんねーんだ。[plc]
+
+ちっちぇーんだ。[lr]
+小さくて小さくてたまんねーんだ。[plc]
 
 
 小さくて小さくて、小さすぎてもでっかいもんが入れたくてよぉ。[lr]
 だから、すぐ漏れだしちゃうんだ。[plc]
 
-だから、すぐ逃げ出しちゃうんだ。[plc]
 
-
+だから、すぐ逃げ出しちゃうんだ。[lr]
 でもよぉ、[plc]
 
-
-取り巻きA「……ちょ、谷口君やめなさ―」[plc]
-
-
-大樹「うっせぇよ！　ウンコにまとわりつく蝿がよ！！！」[plc]
+[shownametag name="取り巻きA" visible=true bust="false"]
+「……ちょ、谷口君やめなさ―」[plc]
 
 
-取り巻きA「な……」[plc]
+[shownametag name="大樹" visible=true]
+「うっせぇよ！　ウンコにまとわりつく蝿共がよ！！！」[plc]
 
 
-あまりの事に唖然としていた取り巻きが動き出すが、知ったことかよ。[plc]
+[shownametag name="取り巻きA" visible=true bust="false"]
+「な……」[plc]
 
-大樹「収まってる量に収まってりゃ、そりゃ文句もねぇさ！　文句ねぇけど、だからなんだ！！？」[plc]
 
-大樹「もっとデカイもん収めたかったら、どうすりゃいんだよ！！！　世の中、そんなもんばっかりだっていうのに！！！」[plc]
 
-大樹「なら、ぶっこむしかねぇだろうが！　漏れたって、逃げちまったってぶっこむしかねぇんだ！！！」[plc]
+あまりの事に唖然としていた取り巻きが動き出すが、[lr]
+知ったことかよ。[plc]
 
-大樹「ぶっ壊すしかねーんだ！！！」[plc]
+[shownametag name="大樹" visible=true]
+「収まってる量に収めてりゃ、そりゃ文句もねぇさ！
+文句ねぇけど、だからなんだ！！？」[plc]
+
+[shownametag name="大樹" visible=true]
+「もっとデカイもん収めたかったら、どうすりゃいんだよ！！！　世の中、そんなもんばっかりだっていうのに！！！」[plc]
+
+[shownametag name="大樹" visible=true]
+「なら、ぶっこむしかねぇだろうが！
+漏れたって、逃げちまったってぶっこむしかねぇんだ！！！」[plc]
+
+[shownametag name="大樹" visible=true]
+「ぶっ壊すしかねーんだ！！！」[plc]
+
 
 
 ――器ごとよ！！[plc]
 
 
+
 そうだ。そうなんだよ。[plc]
 
 
-んなこた最初っから分かってたんだよ、漏れるもんを突っ込まれてたってのは、最初っから知ってんだ。[plc]
+
+んなこた最初っから分かってたんだよ、[lr]
+漏れるもんを突っ込まれてたってのは、最初っから知ってんだ。[plc]
+
 
 だけどさ、漏れるからってさ。[lr]
 逃げちまうからってさ。[plc]
 
+
 もういいだろ？　って。もういいですよね？　って。[lr]
 そんなんなるわけねーんだよ！！！[plc]
 
-頑張りましたよねって、頑張ったからいいよねって、なるわけねーんだ。なるわけねーんだよ。[plc]
+
+頑張りましたよねって、頑張ったからいいよねって、[lr]
+なるわけねーんだ。なるわけねーんだよ。[plc]
+
 
 頑張ったからって、逃げちまったら、逃げたままじゃ。[plc]
+
 
 
 なんにもがんばってねーんだよ！！！[plc]
 
 
+
 だからさ、[plc]
 
 
-大樹「ぶっ壊さなきゃイケねーんだよ！　ぶっ壊さなきゃ、器を大きく出来ねーんだよ！！」[plc]
+[shownametag name="大樹" visible=true]
+「ぶっ壊さなきゃイケねーんだよ！
+ぶっ壊さなきゃ、器を大きく出来ねーんだよ！！」[plc]
 
-大樹「器がちいさぇなら、ツギハギダラケででかくしなきゃいけねぇーんだ！！！」[plc]
+[shownametag name="大樹" visible=true]
+「器がちいさぇなら、[lr]
+ツギハギダラケででかくしなきゃいけねぇーんだ！！！」[plc]
 
-大樹「じゃないと――」[plc]
+[shownametag name="大樹" visible=true]
+「じゃないと――」[plc]
+
 
 
 じゃないと！[plc]
 
 
-大樹「――また、逃げちまうだろうが！！」[plc]
+[shownametag name="大樹" visible=true]
+「――また、逃げちまうだろうが！！」[plc]
 
 
-成瀬「……」[plc]
+[shownametag name="成瀬" visible=true]
+「……」[plc]
 
 
-叫びを叩きつけると、成瀬は震えていた。[plc]
 
-
+叫びを叩きつけると、成瀬は震えていた。[lr]
 恐怖を露わにして、震えていて。[plc]
 
 
-それは、やっぱり先輩とは似ても似つかなくて。[lr]
+それは、やっぱり先輩とは似ても似つかなくて。[plc]
 ;[無感情の先輩のフラッシュバック]
 
-大樹「……ハッ」[plc]
+[shownametag name="大樹" visible=true]
+「……ハッ」[plc]
+
 
 
 綺麗だなぁ……綺麗なもんだ、コイツ。[plc]
 
 
+
 綺麗で、綺麗な、新品同様の、[plc]
 
 
-大樹「なによりちっちぇ」[plc]
+[shownametag name="大樹" visible=true]
+「なによりちっちぇ」[plc]
+
 
 
 器。[plc]
 
 
-大樹「……」[plc]
+[shownametag name="大樹" visible=true]
+「……」[plc]
+
 
 
 パンパンと、手を払う。[lr]
 見回すと、おいおい全員震えてんよ。[plc]
 
-十二単「……」[plc]
+[shownametag name="十二単" visible=true]
+「……」[plc]
+
 
 
 おぉ、コイツは違うみたいだな。[plc]
 
 
-大樹「……おっと」[plc]
+[shownametag name="大樹" visible=true]
+「……おっと」[plc]
+
 
 
 いつの間にか握りしめていたポットを、テーブルに置く。[plc]
@@ -749,91 +1074,118 @@
 
 ――ドンッ！[plc]
 
-成瀬「……」[lr]
+
+[shownametag name="成瀬" visible=true]
+「……」[plc]
 ;[ビクッ]
+
 
 座り込んでいた成瀬は、ビクンと跳ねて頭を抱えた。[plc]
 
 
-大樹「大好きな紅茶ですよ。成瀬、『先輩』」[plc]
+[shownametag name="大樹" visible=true]
+「大好きな紅茶ですよ。成瀬、『先輩』」[plc]
 
 
-成瀬「……」[plc]
+[shownametag name="成瀬" visible=true]
+「……」[plc]
+
 
 
 ……そういや、はじめてそう呼んだ気がするな、さて、[plc]
 
 
-大樹「本当の先輩のとこに帰ろう」[plc]
+[shownametag name="大樹" visible=true]
+「本当の先輩のとこに帰ろう」[plc]
+
 
 
 くだらなかった。[lr]
 くだらない時間だった。[plc]
 
+
 結論は、最初から見えていた。[plc]
+
 
 
 ……うーん、この思考、何回目だろう？[plc]
 
 
-大樹「まー、なんどでもやるさ」[plc]
+[shownametag name="大樹" visible=true]
+「まー、なんどでもやるさ」[plc]
+
 
 
 一同に背を向けると、[plc]
 
 
-十二単「……壊した器、誰もがつながるとは限らない」[plc]
+[shownametag name="十二単" visible=true]
+「……壊した器、誰もがつながるとは限らない」[plc]
+
 
 
 んな事を言われて。[plc]
 
 
-大樹「知ってるよ」[plc]
+[shownametag name="大樹" visible=true]
+「知ってるよ」[plc]
 
 
-十二単「壊すのは簡単で」[plc]
+[shownametag name="十二単" visible=true]
+「壊すのは簡単で」[plc]
 
 
-大樹「そーだねー」[plc]
+[shownametag name="大樹" visible=true]
+「そーだねー」[plc]
 
 
-十二単「直すのは――」[plc]
+[shownametag name="十二単" visible=true]
+「直すのは――」[plc]
+
 
 
 『――あなかたし』[plc]
 
 
-大樹「……」[plc]
+[shownametag name="大樹" visible=true]
+「……」[plc]
+
 
 
 思わず振り返ってしまう。[plc]
 
 
-大樹「……」[plc]
+[shownametag name="大樹" visible=true]
+「……」[plc]
+
 
 
 ……いや、正直、言葉の意味が分からなかった。[plc]
 
 
-十二単「難しい」[plc]
+[shownametag name="十二単" visible=true]
+「難しい」[plc]
 
 
-一言言って、もう話すことはないとそっぽを向いて。[plc]
+
+一言言って、もう話すことはないとそっぽを向かれる。[plc]
 
 
-大樹「……」[plc]
+[shownametag name="大樹" visible=true]
+「……」[plc]
 
 
-ま、こっちも話すことはない。[plc]
 
-
+ま、こっちも話すことはない。[lr]
 時計を見て、[plc]
 
+[shownametag name="大樹" visible=true]
+「……うん、まだいけるわ」[plc]
 
-大樹「……うん、まだいけるわ」[plc]
 
 
 俺は走りだして。[plc]
+
 
 
 
@@ -846,180 +1198,242 @@
 
 
 
+
+
 ――バンッ！[plc]
+
+
 
 屋上に行くと、予想通り、まだ先輩たちは居た。[plc]
 
 
-遥香「……」[plc]
+[shownametag name="遥香" visible=true]
+「……」[plc]
 
 
-縁「……」[plc]
+[shownametag name="縁" visible=true]
+「……」[plc]
 
 
-悟「……」[plc]
+[shownametag name="悟" visible=true]
+「……」[plc]
 
 
-ガイア「……」[plc]
+[shownametag name="ガイア" visible=true]
+「……」[plc]
+
 
 
 おいおい、ガイアと悟までいるのかよ。[lr]
 恥ずかしいねぇ。[plc]
 
+
 突然の闖入者にビックリしたのか、みんな目を丸めていて。[plc]
 
 
-遥香「谷口く―」[plc]
+[shownametag name="遥香" visible=true]
+「谷口く―」[plc]
 
 
-大樹「先輩！　すみませんでした！！！」[plc]
+[shownametag name="大樹" visible=true]
+「先輩！　すみませんでした！！！」[plc]
+
 
 
 有無を言わさず、土下座した。[plc]
 
 
-遥香「……」[plc]
+[shownametag name="遥香" visible=true]
+「……」[plc]
+
 
 
 先輩は、驚いているようだった。[plc]
 
 
-縁「……」[plc]
+[shownametag name="縁" visible=true]
+「……」[plc]
+
 
 
 いや、それ以上に縁が驚いている。[plc]
 
 
+
 そうか、そういやそうだな、俺は……。[plc]
 
 
-その前に、コイツに謝らないとな。[plc]
+
+何より先に、コイツに謝らないとな。[plc]
+
 
 
 方向転換し、縁に向かった。[plc]
 
 
-縁「……」[plc]
+[shownametag name="縁" visible=true]
+「……」[plc]
 
 
-大樹「縁……旗立 縁さん。悪かった」[plc]
+[shownametag name="大樹" visible=true]
+「縁……旗立 縁さん。悪かった」[plc]
+
 
 
 アレは、完全なルール違反だな。[plc]
 
 
-大樹「殴るなら、殴ってくれ」[plc]
+[shownametag name="大樹" visible=true]
+「殴るなら、殴ってくれ」[plc]
 
 
-縁「……」[plc]
+[shownametag name="縁" visible=true]
+「……」[plc]
 
 
-その言葉は、本当に、たいそう縁を驚かせたらしくて。[plc]
 
+その言葉は、本当に。[lr]
+たいそう縁を驚かせたらしくて。[plc]
 
-縁「だ、……大ちゃん」[plc]
+[shownametag name="縁" visible=true]
+「だ、……大ちゃん」[plc]
+
 
 
 フラフラと近寄ってきて。[plc]
 
 
-大樹「いや、おい」[plc]
+[shownametag name="大樹" visible=true]
+「いや、おい」[plc]
 
 
 
 ――おいおい、縁！？　マジで殴る気？[plc]
 
+
+
 俺がちょっと身構えた事で、ハッと縁は我に返った。[plc]
 
 
-縁「……許す」[plc]
+[shownametag name="縁" visible=true]
+「……許す」[plc]
+
 
 
 一言そう言って、元に位置に戻る。[plc]
 
 
-大樹「……」[plc]
+[shownametag name="大樹" visible=true]
+「……」[plc]
+
 
 
 助かったかな？[plc]
 
 
+
 さて、[plc]
 
 
-遥香「……」[plc]
+[shownametag name="遥香" visible=true]
+「……」[plc]
 
 
-大樹「……」[plc]
+[shownametag name="大樹" visible=true]
+「……」[plc]
+
 
 
 こっからが本番だ。[plc]
 
 
-大樹「俺、無茶苦茶しました」[plc]
+[shownametag name="大樹" visible=true]
+「俺、無茶苦茶しました」[plc]
 
 
-遥香「うん」[plc]
+[shownametag name="遥香" visible=true]
+「うん」[plc]
 
 
-大樹「先輩裏切って、逃げました」[plc]
+[shownametag name="大樹" visible=true]
+「先輩裏切って、逃げました」[plc]
 
 
-遥香「うん」[plc]
+[shownametag name="遥香" visible=true]
+「うん」[plc]
 
 
-大樹「ついでに、成瀬んとこ行きました」[plc]
+[shownametag name="大樹" visible=true]
+「ついでに、成瀬んとこ行きました」[plc]
 
 
-遥香「うん」[plc]
+[shownametag name="遥香" visible=true]
+「うん」[plc]
 
 
-大樹「なんか、ちょっと居心地いいなぁと、思っちゃいました」[plc]
+[shownametag name="大樹" visible=true]
+「なんか、ちょっと居心地いいなぁと、思っちゃいました」[plc]
 
 
-遥香「そうかい」[plc]
+[shownametag name="遥香" visible=true]
+「そうかい」[plc]
 
 
-大樹「それで――えっーっと――」[plc]
+[shownametag name="大樹" visible=true]
+「それで――えっーっと――」[plc]
 
 
 
 ――ええい！　覚悟を決めんかい！！[plc]
 
-大樹「――ごめんなさい！」[plc]
+
+[shownametag name="大樹" visible=true]
+「――ごめんなさい！」[plc]
+
 
 
 深々と、[plc]
 
 
-遥香「……」[plc]
+[shownametag name="遥香" visible=true]
+「……」[plc]
 
 
-縁「……」[plc]
+[shownametag name="縁" visible=true]
+「……」[plc]
 
 
-悟「……」[plc]
+[shownametag name="悟" visible=true]
+「……」[plc]
 
 
-ガイア「……」[plc]
+[shownametag name="ガイア" visible=true]
+「……」[plc]
+
 
 
 おそらく、はじめて心から、[plc]
 
 
-遥香「そっか」[plc]
+[shownametag name="遥香" visible=true]
+「そっか」[plc]
+
 
 
 誰かに謝ったわけで。[plc]
 
 
-大樹「……」[plc]
+[shownametag name="大樹" visible=true]
+「……」[plc]
+
 
 
 恐る恐る見上げると、[plc]
 
 
-遥香「……」[plc]
+[shownametag name="遥香" visible=true]
+「……」[plc]
+
 
 
 先輩は、例のあの顔で。[plc]
@@ -1028,40 +1442,54 @@
 
 ――ははは、本当に全く感情が見えないわ！！！[plc]
 
-遥香「続きは？」[plc]
+
+[shownametag name="遥香" visible=true]
+「続きは？」[plc]
 
 
-大樹「へ？」[plc]
+[shownametag name="大樹" visible=true]
+「へ？」[plc]
 
 
-遥香「縁ちゃんを見る限り、続きがあるでしょ？」[plc]
+[shownametag name="遥香" visible=true]
+「縁ちゃんを見る限り、続きがあるでしょ？」[plc]
 
 
-大樹「ぁ……はぁ」[plc]
+[shownametag name="大樹" visible=true]
+「ぁ……はぁ」[plc]
+
 
 
 ってーことは、やっぱり、あれなんすかね？[plc]
 
 
-大樹「……な、殴っていいっすよ」[plc]
+[shownametag name="大樹" visible=true]
+「……な、殴っていいっすよ」[plc]
 
 
-遥香「よし」[plc]
+[shownametag name="遥香" visible=true]
+「よし」[plc]
+
 
 
 急に感情を露わにして、先輩は腕をめくった。[plc]
 
 
+
 マジで？　めっちゃ笑顔なんすけど。[plc]
 
 
-遥香「歯ぁ食いしばりなさい、目もつぶってね」[plc]
+[shownametag name="遥香" visible=true]
+「歯ぁ食いしばりなさい、目もつぶってね」[plc]
 
 
-大樹「……」[plc]
+[shownametag name="大樹" visible=true]
+「……」[plc]
+
 
 
 言われたとおり目をつぶり、歯を食いしばる。[plc]
+
 
 
 ……ビンタかな？[plc]
@@ -1071,15 +1499,17 @@
 
 
 
+
 ――グシャッ！;[SE]
 
 
+[shownametag name="大樹" visible=true]
+「――ぶべぇッッ！？」[plc]
 
 
-大樹「――ぶべぇッッ！？」[plc]
 
-
-器と一緒に、鼻も壊れた気がした。;[空にパンとかしたい]
+器と一緒に、鼻も壊れた気がした。[plc]
+;[空にパンとかしたい]
 
 
 ;[謝罪編、完。『北』塔編へ]

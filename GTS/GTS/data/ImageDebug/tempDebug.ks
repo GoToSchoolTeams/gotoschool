@@ -1,74 +1,109 @@
-;[→雨宿りの道に]
+;[梅雨明けは遠く]
 [call storage="Initialize.ks"]
 
 [fadeoutbgm time="1000"]
 [strans storage="white"]
 
 [show_message_fade time="500"]
-[nowait]
 ;[playse storage="chaim_far_single" ]
 
-[strans storage="cicle_load"]
+[strans storage="okujo_m"]
 
 
 [call target=*De]
 
 
-[haruka_stand face="do" size="l"]
-[shownametag name="遥香" visible=true]
-「遅ぃ、遅いおそい、遅い！　時速３０キロで走ってよ！！」[plc]
+それからの日々は、[lr]
+本当にストレスばかりが振りかかる日々で。[plc]
 
 
-[shownametag name="大樹" visible=true]
-「無茶言わんでください！」[plc]
-
-[dis_all_chara]
-
-――キィ……キィ…。[plc]
+『以前とやることは一緒』と言っても、実際は全く違っていた。[plc]
 
 
 
-梅雨になっても先輩との朝の登校は続いていた。[plc]
-
-[haruka_face face="raku"]
-[shownametag name="遥香" visible=true]
-「今日は晴れたねぇ」[plc]
+そりゃぁ、そうだ。[lr]
+説得に応じてくれなかったとはいえ、前のは身内だ。[plc]
 
 
-[shownametag name="大樹" visible=true]
-「そっすね」[plc]
+身内に挨拶にいくのと、敵地のに乗り込むのでは、[lr]
+そりゃぁ全く違ってくる。[plc]
 
-
-
-雨の日は中止だが、[lr]
-こうやって晴れた日は以前と同じく先輩を乗せて坂を登る。[plc]
-
-
-今日も縁が何か言いたげに見ていたような気がするが、[lr]
-こちらの知ったことではなかった。[plc]
-
-[shownametag name="大樹" visible=true]
-「……晴れましたね」[plc]
+[strans storage="rika_dt"]
 
 [haruka_face face="magao"]
 [shownametag name="遥香" visible=true]
-「そうだね」[plc]
+「あの、」[plc]
+
+
+[shownametag name="文化部男子" visible=true bust="false"]
+「――悪いけど」[plc]
+
+[strans storage="artroom_dt"]
+
+[najimi_face face="futsu"]
+[shownametag name="縁" visible=true]
+「今日は、」[plc]
+
+
+[shownametag name="文化部女子" visible=true bust="false"]
+「今日も明日もないわ」[plc]
+
+[strans storage="bg_ongakushitsu"]
+
+[shownametag name="大樹" visible=true]
+「あのですね、」[plc]
+
+
+[shownametag name="吹奏楽部部長" visible=true bust="false"]
+「――君は、大変目障りだ。消えたまえ」[plc]
+
+[strans storage="black" time="200"]
+
+門前払いは基本で。[plc]
+
+[strans storage="bg_sadobu"]
+[miyabi_stand face="futsu" size="l"]
+[shownametag name="十二単" visible=true]
+「――古池や蛙飛び込む塩の海」[plc]
+
+[dis_all_chara]
+[shownametag name="大樹" visible=true]
+「……」[plc]
+
+
+[shownametag name="文化部女子" visible=true bust="false"]
+「あの、部長」[plc]
+
+[miyabi_stand face="futsu" size="l" time="200"]
+[shownametag name="十二単" visible=true]
+[nowait]
+「塩撒きなさい」[plc]
+
+[dis_all_chara]
+[strans storage="black" time="200"]
+
+顔面に塩をぶつけられるような事もあって。[plc]
+
+[strans storage="kyositu_m"]
+
+――ヒソヒソ。[plc]
 
 
 
-意味もなく、同じ話題を繰り返す。[plc]
+[shownametag name="女子生徒A" visible=true bust="false"]
+「ねぇねぇ、知ってる？　アイツさ」[plc]
+
+
+[shownametag name="女子生徒B" visible=true bust="false"]
+「知ってる知ってる、全部ぶっ壊しちゃったんでしょ？[lr]
+　ひとりで……結局、文化部は勝手にやるんだって」[plc]
+
+[shownametag name="女子生徒A" visible=true bust="false"]
+「さっすが、運命力がある人は違うよね」[plc]
 
 
 
-確かに晴れた。[plc]
-
-
-
-手入れの届いてない車輪は、[lr]
-泥をまき散らしながらも水溜りを越えていくし、[plc]
-
-
-その飛沫が朝の光を反射する。[plc]
+――クスクスクス。[plc]
 
 
 [shownametag name="大樹" visible=true]
@@ -76,95 +111,19 @@
 
 
 
-たしかに、景色は晴れていた。[plc]
-
-
-[shownametag name="遥香" visible=true bust="false"]
-「……」[plc]
+どこで漏れたのか、漏らしたのか、漏らされたのか。[plc]
 
 
 
-だけれども、正直、[lr]
-心の中は土砂降りに等しくて。[plc]
-
-[dis_all_chara]
-[shownametag name="大樹" visible=true]
-「ねぇ、先輩」[plc]
+――コツン。[plc]
 
 
-[shownametag name="遥香" visible=true bust="false"]
-「んー？」[plc]
+[shownametag name="男子生徒A" visible=true bust="false"]
+「……よっし、頭にあたった。３点な」[plc]
 
 
-[shownametag name="大樹" visible=true]
-「これからどうすんすか？」[plc]
-
-[dis_all_chara]
-[shownametag name="遥香" visible=true bust="false"]
-「……」[plc]
-
-
-
-
-
-先輩がいま、どういう顔をしているのかは分からない。[plc]
-
-
-
-分からないが……ただ、なんていうか……。[lr]
-状況はよろしくない。[plc]
-
-
-頼りにしていた全員に、そっぽを向かれる。[lr]
-この状況は、なんだかどっかで見たような気がする。[plc]
-
-[shownametag name="大樹" visible=true]
-「……なーんか、[lr]
-　二人しかいなかったときと似たような感じになってますね」[plc]
-
-[haruka_face face="raku"]
-[shownametag name="遥香" visible=true]
-「そうだねー」[plc]
-
-
-
-ほんとにそうだ。[lr]
-この八方ふさがりな感じ、懐かしい。[plc]
-
-[shownametag name="大樹" visible=true]
-「……」[plc]
-
-
-
-まぁ、良い思い出ではないが。[plc]
-
-[haruka_face face="keibetsu"]
-[shownametag name="遥香" visible=true]
-「……となると、ま、やることも一緒なのかしらね」[plc]
-
-
-[shownametag name="大樹" visible=true]
-「やっぱ、そっすか……」[plc]
-
-
-
-ひとりひとり説得……が、ベターか。[lr]
-というか、それしかやれることが無い。[plc]
-
-
-――バシャッ。[plc]
-
-
-
-窪んだ地面にぬかるんで、飛沫がはねた。[plc]
-
-[haruka_stand face="odoroki" size="l" time="200"]
-[shownametag name="遥香" visible=true]
-「おぉ」[plc]
-[dis_all_chara]
-
-
-驚きの声が漏れる。[plc]
+[shownametag name="男子生徒B" visible=true bust="false"]
+「あー、くっそ！　あいつが動きやがるから」[plc]
 
 
 [shownametag name="大樹" visible=true]
@@ -172,173 +131,39 @@
 
 
 
-なんなく抜けれた事に、俺自身驚いたけど。[lr]
-ま、前とは変わった事もあるという事で。[plc]
+消しカスが紙くずに変わって点数制が導入されるくらいには、[lr]
+俺に対する風当たりも悪くなっていて。[plc]
 
 
-[shownametag name="大樹" visible=true]
-「説得するにしても、どうします？」[plc]
-
-[haruka_face face="ai"]
-[shownametag name="遥香" visible=true]
-「そうねぇ……十二単さんは避けられないんだろうねぇ」[plc]
-
-
-[haruka_face face="ai"]
-[shownametag name="遥香" visible=true]
-「なんか、中心人物みたいだし」[plc]
-
-
-
-あの『オモロー』とまた対決するのか。[plc]
-
-
-[shownametag name="大樹" visible=true]
-「……そういえば、」[plc]
-
-
-
-と思い出す。[plc]
-
-
-[shownametag name="大樹" visible=true]
-「あの途中で抜けた連中はどうなんすか？」[plc]
-
-
-
-十二単 雅のインパクトに負けて忘れてたけど、[lr]
-そんな連中もいたじゃないか。[plc]
-
-[haruka_stand face="keibetsu" size="l"]
-[shownametag name="遥香" visible=true]
-「……ぁあ、あれ？　[l]ダメダメ、ありゃ」[plc]
-[dis_all_chara]
-
-
-俺のそのアイディアは、ピシャリと否定されてしまった。[plc]
-
-
-[shownametag name="大樹" visible=true]
-「なんでですか？」[plc]
-
-[haruka_face face="keibetsu"]
-[shownametag name="遥香" visible=true]
-「あいつらはね、幽霊部なのよ」[plc]
-
-
-
-幽霊部……？　[l]幽霊部員ならず、幽霊部って。[plc]
-
-
-[shownametag name="大樹" visible=true]
-「それなんすか？」[plc]
-
-
-[haruka_stand face="magao" size="l"]
-[shownametag name="遥香" visible=true]
-「幽霊部員の部活版ってとこね。[lr]
-　存在はしてるんだけど、活動もしなけりゃ行事の手伝いもしない」[plc]
-
-[haruka_stand face="keibetsu" size="l"]
-[shownametag name="遥香" visible=true]
-「学校に、所属してるだけの部活よ」[plc]
-
-[shownametag name="遥香" visible=true]
-「『部活』ごと、何もしないの」[plc]
-[dis_all_chara]
-
-[shownametag name="大樹" visible=true]
-「……へー」[plc]
-
-
-
-そんな部活、あったんだ……ほんとにウチの学校は緩いなぁ。[plc]
-
-[haruka_face face="magao"]
-[shownametag name="遥香" visible=true]
-「文化祭にも参加しないし、だから協力もしないでしょうね」[plc]
-
-
-[shownametag name="遥香" visible=true]
-「それでもなにかの役に立つかと思って呼んだけど。[lr]
-[haruka_face face="keibetsu"]
-　……ま、期待しちゃダメよ」[plc]
-
-[shownametag name="大樹" visible=true]
-「……」[plc]
-
-
-
-
-それはまぁ確かに、何の期待もできなさそうだ。[plc]
-
-
-[shownametag name="大樹" visible=true]
-「となると、期待できそうな部活は……」[plc]
-
-[haruka_face face="magao"]
-[shownametag name="遥香" visible=true]
-「演劇部に吹奏楽部にチア部、放送部に美術部に書道部。[lr]
-　合唱部に家政部に被服部……」[plc]
-
-[haruka_face face="keibetsu"]
-[shownametag name="遥香" visible=true]
-「……そして、華道部ね」[plc]
-
-
-
-あの『オモロー』がいるとこか。[plc]
-
-
-[shownametag name="大樹" visible=true]
-「華道部が中心ってのも、面白いっすけどね」[plc]
-
-[haruka_face face="raku"]
-[shownametag name="遥香" visible=true]
-「ま、ねー。うちの文化部は最近ずーっと、[lr]
-　微妙な成績しかだせてないらしくてね」[plc]
-
-[haruka_face face="ki"]
-[shownametag name="遥香" visible=true]
-「対外的に唯一実績出してる華道部が、一番偉そうだわ」[plc]
+いや、それとは正直関係なく。[plc]
 
 
 [shownametag name="大樹" visible=true]
 「……」[plc]
 
-[haruka_face face="magao"]
-[shownametag name="遥香" visible=true]
-「十二単さん、見た目は『オモロー』だけど[lr]
-　その界隈じゃ天才って呼ばれてるらしいわよ」[plc]
 
 
-天才ってのは頭がイカれてるもんだからな。[lr]
-納得した。[plc]
-[dis_all_chara]
-
-――ポトッ、ポトポトッ。[plc]
-
-[haruka_face face="odoroki"]
-[shownametag name="遥香" visible=true]
-「ぁ……」[plc]
+挨拶に行っては、つっ返されるだけの、[lr]
+暖簾を押しているような毎日に。[plc]
 
 
-
-不意に、雨が降ってきて。[plc]
+俺は、[plc]
 
 
 [shownametag name="大樹" visible=true]
-「マジか」[plc]
+「……」[plc]
+;[コンッ]
 
-[haruka_stand face="do" size="l"]
-[shownametag name="遥香" visible=true]
-「谷口君、とりあえず公園に！」[plc]
+[shownametag name="男子生徒A" visible=true bust="false"]
+「よっしゃー！　ターキーだ！！」[plc]
 
-[dis_all_chara]
 
-いつものサイクリングロード沿いの公園に、[lr]
-俺達は避難したのであった。[plc]
+[shownametag name="男子生徒B" visible=true bust="false"]
+「……くそ、負けた」[plc]
 
+
+
+自分が急速に冷めていくのを感じていた。[plc]
 
 
 
@@ -347,557 +172,115 @@
 [fadebgm volume=0 time="800"]
 [dis_all_chara_fade_message time=800]
 [strans storage="black" time="800"]
-[wipe time=1600 storage="temp_cicle_park"]
+[wipe time=1600 storage="rouka2_dt"]
 [SetupMessageWindow]
-[cinema time=400]
 
-
-
-――ザーッ。[plc]
-
-
-
-唐突に降ってきた雨は、景色の色を変える程ではなかった。[plc]
-
-
-
-暗雲立ちこめるというよりは、[lr]
-晴れ間の雲が運ぶ小雨の様なもので。[plc]
-
-
-梅雨時に多い、典型的なにわか雨――。[plc]
-
-[image layer=7 top=470 opacity=256 storage="message_window" page="fore" visible="false"]
-[position layer="message2" top="0" left="0" width="1280" height=720 opacity=0 visible="false" page="fore" marginb="0" marginl="0" marginr="0" margint="0"]
-
-
-;スクロール開始
-;ちょっとだいぶ適当です。
-;[image storage="sky" top=-1440 layer="3" page="fore" visible="true" opacity="0"]
-[wait time="500" canskip="false"]
-[move layer=base path=(0,-510,255) time=5000 page="fore"]
-[wm]
-[cinema_stop]
-[wait time="400"]
-[move layer=base path=(0,0,255) time=0 page="back"]
-[wait time="200"]
-[strans storage="temp_cicle_park_cg" time="0"]
-[wait time="400"]
-
-[image layer=7 top=470 opacity=256 storage="message_window" page="fore" visible="true"]
-[position layer="message2" top="0" left="0" width="1280" height=720 opacity=0 visible="true" page="fore" marginb="0" marginl="0" marginr="0" margint="0"]
-
-[haruka_face face="ai"]
-[shownametag name="遥香" visible=true]
-「……う、わぁ。ずぶずぶだぁ」[plc]
-
-[dis_all_chara]
-
-――だけれど、俺達を濡らすには十分だったらしい。[plc]
-
-
-[shownametag name="大樹" visible=true]
-「こっちもっすね」[plc]
-
-[shownametag name="遥香" visible=true]
-「どーしよ、着替え無いや……」[plc]
-
-
-[shownametag name="大樹" visible=true]
-「帰ります？」[plc]
-
-[haruka_face face="do"]
-[shownametag name="遥香" visible=true]
-「馬鹿言わないでよ、この大変な時に」[plc]
-
-
-[shownametag name="大樹" visible=true]
-「ですよねー」[plc]
-
-
-
-日差しの中降ってくる雨を眺めながら、ぼやく。[plc]
-
-
-
-狐の嫁入りってやつかな……？[lr]
-正直、この時期には珍しくもなんともない。[plc]
-
-
-雨のベールに屈折されながら、光はいろんな色を届けてきて。[plc]
-
-
-
-ちょっとだけ、幻想的だ。[plc]
-
-[haruka_face face="kuno"]
-[shownametag name="遥香" visible=true]
-「ぁー、もぅ……」[plc]
-
-
-
-ボヤきながら、先輩は頭を掻く。[plc]
-
-
-[shownametag name="遥香" visible=true]
-「こりゃ、今日も遅刻か」[plc]
-
-
-[shownametag name="大樹" visible=true]
-「ですねー」[plc]
-
-
-
-雨の切れ間は、今のとこ見えそうにない。[plc]
-
-
-雨音で聞こえないが、[lr]
-そろそろ、チャイムが鳴ってもおかしくない時間だった。[plc]
-
-
-[haruka_face face=kuno]
-[shownametag name="遥香" visible=true]
-「はぁー」[plc]
-
-
-
-諦めたように、先輩は公園のベンチに転がる。[plc]
-
-
-
-雫が、盛大に跳ねて飛んだ。[plc]
-
-
-[shownametag name="大樹" visible=true]
-「……先輩、やっぱり今日はお休みにしませんか？」[plc]
-
-[haruka_face face="keibetsu"]
-[shownametag name="遥香" visible=true]
-「だぁめ」[plc]
-
-
-
-二度目の提案も、むげなく断らて。[plc]
-
-
-
-――ザーッ。[plc]
-
-
-[shownametag name="大樹" visible=true]
-「……」[plc]
-
-
-
-シトシトと、小さな雫が上から落ちてくる。[plc]
-
-
-
-ここは、公園の真ん中くらいにあるテーブル席のような場所で。[plc]
-
-
-
-しっかりとした屋根らしき物はなくて、[lr]
-計算されてはえているツタ植物の葉が屋根代わりのスペースだ。[plc]
-
-
-[haruka_face face="magao"]
-[shownametag name="遥香" visible=true]
-「そういえば、私、ここ入るのはじめてかも……」[plc]
-
-
-[shownametag name="大樹" visible=true]
-「……俺もですね」[plc]
-
-
-
-そう言えばそうだ。[plc]
-
-
-
-ここの前は散々通ったのだけれど、実際に入るのは初めてで。[plc]
-
-[shownametag name="遥香" visible=true]
-「……不思議ね、こんだけ学校に近いのに」[plc]
-
-
-[shownametag name="大樹" visible=true]
-「そっすね」[plc]
-
-
-
-多分、そんな奴ばかりなんじゃないだろうか。[plc]
-
-[haruka_face face="keibetsu"]
-[shownametag name="遥香" visible=true]
-「……ねぇ」[plc]
-
-
-
-ムクリと、先輩は体を起こす。[plc]
-
-[haruka_face face="do"]
-[shownametag name="遥香" visible=true]
-「ここ、デートスポットとかじゃないよね？」[plc]
-
-
-
-唐突に、先輩はそんな事を言った。[plc]
-
-
-[shownametag name="大樹" visible=true]
-「へぇ？」[plc]
-
-
-
-……どうなんだろう？　そんな話は、聞いたこと無いな。[plc]
-
-
-[shownametag name="大樹" visible=true]
-「暴走族の集会場としては大人気らしいですが」[plc]
-
-
-[haruka_face face="raku"]
-[shownametag name="遥香" visible=true]
-「……そ、なら良かった」[plc]
-
-
-
-コロンっと、安心したように先輩は転がる。[plc]
-
-
-[shownametag name="大樹" visible=true]
-「……」[plc]
-
-
-
-んだよ、腹立つなぁ。[plc]
-
-
-[shownametag name="大樹" visible=true]
-「不服ですか？」[plc]
-
-[haruka_face face="magao"]
-[shownametag name="遥香" visible=true]
-「そりゃそうよ」[plc]
-
-
-
-即答された。[plc]
-
-
-[shownametag name="大樹" visible=true]
-「……」[plc]
-
-
-毎朝一緒に登校しといて、[lr]
-今更気にすることじゃなかろうに……[plc]
-
-
-……でもま、こういう人だしな。[plc]
-
-[haruka_face face="keibetsu"]
-[shownametag name="遥香" visible=true]
-「ぁー、もう谷口君のせいで遅刻だわ」[plc]
-
-
-[shownametag name="大樹" visible=true]
-「天気のせいでしょ」[plc]
-
-[haruka_face face="do"]
-[shownametag name="遥香" visible=true]
-「んなことないよ、谷口君がもっと速く自転車を漕ぐか、[lr]
-　もっと早起きしてれば十分間に合ったよ」[plc]
-
-[shownametag name="大樹" visible=true]
-「……そんなこと言ったって」[plc]
-
-
-
-理不尽だなぁ。[plc]
-
-
-
-――ザーッ。[plc]
-
-
-
-不毛な会話をしている間にも、雨足は緩くなっていくようで。[plc]
-
-
-[shownametag name="大樹" visible=true]
-「……」[plc]
-
-[haruka_face face="magao"]
-[shownametag name="遥香" visible=true]
-「……」[plc]
-
-
-
-なんだか、先輩とこうやってボケーっと[r]
-会話するのは久しぶりな気がする。[plc]
-
-
-活動し始めてからこっち、忙しかったりシリアスだったりで、[lr]
-割りと常にストレスのある会話をしていた。[plc]
-
-
-――ザーッ。[plc]
-
-
-[shownametag name="大樹" visible=true]
-「……」[plc]
-
-
-
-ムカつく雨だが、妙な偶然に少し感謝する。[plc]
-
-
-
-ま、そもそも先輩と会話するようになったということ自体が、[lr]
-妙な偶然の産物なんだけれども。[plc]
-
-[shownametag name="大樹" visible=true]
-「……先輩」[plc]
-
-[haruka_face face="magao"]
-[shownametag name="遥香" visible=true]
-「んー？」[plc]
-
-
-そこで、ちょっと気になることがあったことを思い出した。[plc]
-
-
-[shownametag name="大樹" visible=true]
-「あんとき……」[plc]
-
-;【最初の出会いフラッシュバック】
-;本スクリプトで付ける。
-
-いや、[plc]
-
-
-[shownametag name="大樹" visible=true]
-「……先輩の家って、どのへんなんすか？」[plc]
-
-
-
-ちょっと思案して、質問を変える。[plc]
-
-[haruka_face face="raku"]
-[shownametag name="遥香" visible=true]
-「あっち」[plc]
-
-
-
-無造作に指さした先は、[plc]
-
-
-[shownametag name="大樹" visible=true]
-「皿品じゃないっすか！」[plc]
-
-
-
-ほぼ俺の家とは反対の場所だった。[plc]
-
-[haruka_face face="raku"]
-[shownametag name="遥香" visible=true]
-「そうだよー」[plc]
-
-
-[shownametag name="大樹" visible=true]
-「じゃ、毎朝……」[plc]
-
-[haruka_face face="ki"]
-[shownametag name="遥香" visible=true]
-「そうだよー、アホみたいに時間をかけて、[lr]
-　君の家に行ってるわけだよ」[plc]
-
-[shownametag name="大樹" visible=true]
-「……」[plc]
-
-
-
-単純に、驚いた。[lr]
-毎朝来るから、通学途中に俺の家があるのかと思っていた。[plc]
-
-
-先輩の家があるところは、比較的所得が多い世帯がいる場所で。[lr]
-坂が少なく、地面も平らで駅も近くにある。[plc]
-
-
-俺の家がある住宅地とは、ちょうど学校挟んで真反対のところだ。[plc]
-
-
-
-つまり、俺がチャリで乗せていく距離の倍近く、[lr]
-先輩は毎朝歩いてる事になる。[plc]
-
-[haruka_face face="niyaniya"]
-[shownametag name="遥香" visible=true]
-「感謝してほしいよね」[plc]
-
-
-
-茶化すように、先輩はそう言う。[plc]
-
-
-[shownametag name="大樹" visible=true]
-「……」[plc]
-
-
-
-横で寝転がって笑っている人が、別人のように見えた。[plc]
-
-
-[shownametag name="大樹" visible=true]
-「先輩、」[plc]
-
-
-
-なんだろう。[lr]
-前から思ってはいたけれど、考えないようにしてきたんだけれど。[plc]
-
-
-なんで、この人はここまでしてくれるんだろう？[plc]
-
-[haruka_face face="magao"]
-[shownametag name="遥香" visible=true]
-「なに？」[plc]
-
-
-
-寝っ転がったまま、先輩はこっちを見ない。[plc]
-
-
-
-こっちを見つめない瞳は、[lr]
-何を見て、何を思ってこんな事をしているのか。[plc]
-
-[haruka_face face="keibetsu"]
-[shownametag name="遥香" visible=true]
-「なによ？」[plc]
-
-
-[shownametag name="大樹" visible=true]
-「……」[plc]
-
-
-
-相変わらず、先輩はこっちを見ない。[plc]
-
-
-
-俺は、そんな先輩を見つめる。[plc]
-
-
-[haruka_face face="keibetsu"]
-[shownametag name="遥香" visible=true]
-「……」[plc]
-
-
-[shownametag name="大樹" visible=true]
-「……」[plc]
-
-
-
-自分でも、よく分からない感情だった。[plc]
-
-
-
-惚れてる惚れてないで言えば、[lr]
-……まぁ、惚れてると言ってもいいんだろうけど。[plc]
-
-
-恋愛的なものかと言われれば、ちょっと、大分違う。[lr]
-違う、気がする。[plc]
-
-
-恋愛と、性欲を持つ好意の違いが、俺にはよく分からないが。[lr]
-でも、前者じゃない気がした。[plc]
-
-[haruka_face face="jitome"]
-[shownametag name="遥香" visible=true]
-「……」[plc]
 
 
 *De
-[setup_debug bg="temp_cicle_park_cg"]
+[setup_debug bg="rouka2_dt"]
 
 
 
-先輩は、溜息をつくように身を起こした。[plc]
 
-[haruka_face face="raku"]
-[shownametag name="遥香" visible=true]
-「何？　谷口君」[plc]
+[najimi_stand face="futsu" size="l"]
+[shownametag name="縁" visible=true]
+「……ちょっと」[plc]
 
+[dis_all_chara]
 
-
-その様子は、雨にも濡れてるし、服も透けてるしで、[lr]
-それなりに情欲的だ。[plc]
-
-
-情欲的、なんだけれども。[plc]
+[shownametag name="大樹" visible=true]
+「なんだよ？」[plc]
 
 
 
-なんだ、けれど。[plc]
+いつものご機嫌伺いに行く途中、縁に呼び止められた。[plc]
+
+[najimi_stand face="metoji"]
+[shownametag name="縁" visible=true]
+「どこいくのよ」[plc]
+
+
+[shownametag name="大樹" visible=true]
+「わかってんだろうが、挨拶まわりだよ」[plc]
+
+[najimi_stand face="futsu"]
+[shownametag name="縁" visible=true]
+「どこに？」[plc]
+
+
+[shownametag name="大樹" visible=true]
+「今日は」[plc]
+
+
+
+どこだったかな……。[plc]
+
+
+[shownametag name="大樹" visible=true]
+「チア部だよ」[plc]
+
+[dis_all_chara]
+
+適当に答えておく。[plc]
+
+
+
+最近では、[lr]
+みんな揃って協力を求めに行くことは殆ど無くなっていた。[plc]
+
+
+一通り回ってしまった、というのも勿論あるが、[lr]
+実際のとこ、物資の搬入の為の書類とか、色々な許可の申請とか。[plc]
+
+
+事務仕事は山ほどあって。[plc]
+
+
+
+そして、大体において、[lr]
+それはすぐにやらなきゃいけない緊急の仕事だった。[plc]
+
+
+文化部の連中も勝手にやってるんだろうけど、[lr]
+こっちもこっちでやっておかないと本当にお話にならなくなる。[plc]
+
+
+自然、一番使えない俺が使いっ走りをする事になる。[plc]
+
+[najimi_stand face="ikari"]
+[shownametag name="縁" visible=true]
+「……」[plc]
+
+
+
+縁はなにやら訝しげだった。[plc]
+
+
+
+……コイツは、昔から鬱陶しいところに勘がいいからな。[plc]
 
 
 [shownametag name="大樹" visible=true]
 「……」[plc]
 
-[haruka_face face=do]
-[shownametag name="遥香" visible=true]
-「だから、何よ谷口君！」[plc]
+
+
+無視して歩き出す。[plc]
+
+[najimi_stand face="do"]
+[shownametag name="縁" visible=true]
+「方向が逆よ」[plc]
 
 
 [shownametag name="大樹" visible=true]
-「……ぁ」[plc]
+「トイレに寄るんだよ」[plc]
 
 
 
-肩を揺さぶられて、正気にもどった。[plc]
+言い捨てて、俺は足早にその場を去った。[plc]
 
 
-[shownametag name="大樹" visible=true]
-「あめ、止みましたね」[plc]
-
-[strans storage="sky003_day"]
-
-あてずっぽうだったけれど、ほんとに雨は止んでいて。[plc]
-
-
-
-
-[haruka_face face="odoroki"]
-[shownametag name="遥香" visible=true]
-「ぉ、ほんとだ」[plc]
-
-
-
-先輩は、時計を確認する。[plc]
-
-[haruka_face face="ki"]
-[shownametag name="遥香" visible=true]
-「うん、完全な遅刻だね……ゆっくり行こうか」[plc]
-
-
-[shownametag name="大樹" visible=true]
-「はい」[plc]
-;[チャリが発進するSE]
-
-
-先輩をのせて、えっちらおっちらチャリを発進させて。[plc]
-
-
-
-
-
-
-
-;[時間経過]
 
 ;[場面転換]
 [fadebgm volume=0 time="800"]
@@ -907,95 +290,594 @@
 [SetupMessageWindow]
 
 
-『先輩がどうしてここまでしてくれるのか？』なんて疑問は、[lr]
-学校につく頃には消えていた。[plc]
+それにしても、[plc]
+
+[strans storage="bg_sky003_day"]
 
 
-そうした疑問は持たないほうが良いと、[lr]
-この短い人生経験の中でも散々教えこまれてきたわけで。[plc]
+[shownametag name="大樹" visible=true]
+「……あの女、勘がいい」[plc]
 
 
-他人の好意を、深く考えてはいけない。[lr]
-考えたところで、失うことはあっても得ることなどなんにもない。[plc]
+
+梅雨が明けない空を眺めながら、そうぼやく。[plc]
 
 
-でも、その変わり、思うところが出来て。[plc]
 
-[strans storage="bg_tyurinIriguchi"]
+もしかして、バレバレなのかもしれない。[plc]
 
-[haruka_stand face="raku" size="l"]
+
+[shownametag name="大樹" visible=true]
+「ぁー」[plc]
+
+
+
+縁に背を向けたその足で、俺はいつもの屋上に来ていた。[plc]
+
+
+
+梅雨に入ってから、もういつものでは無くなった筈だったが、[lr]
+少し前から俺にとっていつものに戻ってきていて。[plc]
+
+
+要は俺一人で挨拶回りし始めてからは、[lr]
+ずっとここでサボっていた。[plc]
+
+[shownametag name="大樹" visible=true]
+「……雲が、流れませんねぇ」[plc]
+
+
+
+梅雨に入ってから、空の様子が変わったと思う。[plc]
+
+
+
+ずんぐりむっくりとした雲が、ずっと頭上に浮いていて。[lr]
+やたらと雨まで振らせやがる。[plc]
+
+
+今日はまだ、降っていないけど。[plc]
+
+
+[shownametag name="大樹" visible=true]
+「……」[plc]
+
+
+
+ヤンキーだったら、ここでタバコでも吸うのかな？[plc]
+
+
+[shownametag name="大樹" visible=true]
+「……」[plc]
+;[ゴソゴソ]
+
+
+胸ポケットを探ってみたが、当然何にも入っちゃいない。[lr]
+そもそも、俺は気管支が弱い。[plc]
+
+[shownametag name="大樹" visible=true]
+「ぁー……」[plc]
+
+
+
+所在無くなって、体を丸めた。[plc]
+
+
+
+体育座りのまま見上げた空は、少しだけ小さく見えて。[plc]
+
+
+
+さらに小さくなった俺には、意味は無いな。[plc]
+
+
+[shownametag name="大樹" visible=true]
+「……」[plc]
+
+
+
+――ボーン、ボーンボーン。[plc]
+
+
+
+そのまま鐘がなるまでぼーっとするのが、[lr]
+最近の俺の日課だったわけで。[plc]
+
+
+;[暗転]
+
+
+
+で、案の定、その日にバレた。[plc]
+
+
+
+;[場面転換]
+
+
+[shownametag name="縁" visible=true]
+「……あんた、サボってたでしょ？」[plc]
+
+
+
+一通りぼんやりして戻ると、[lr]
+縁が唐突にそんな事を言ってきた。[plc]
+
+[shownametag name="大樹" visible=true]
+「……」[plc]
+
+
+
+『何の証拠があって』と言おうとしたが、[plc]
+
+
 [shownametag name="遥香" visible=true]
-「じゃ、また放課後ね」[plc]
-[dis_all_chara]
+「……」[plc]
+
+
+[shownametag name="ガイア" visible=true]
+「……」[plc]
+
+
+
+どうも、ネタは上がってるっぽかった。[plc]
+
 
 [shownametag name="大樹" visible=true]
 「……」[plc]
 
 
 
-軽く手を振って、先輩と別れて駐輪場へ向かう。[plc]
+どうしようかと思ったが、[plc]
+
+
+[shownametag name="大樹" visible=true]
+「そうだけど」[plc]
 
 
 
-……何で、俺は、こんな頑張ってんだ？[plc]
+なんだかもう全部めんどくさくなって。[plc]
+
+
+[shownametag name="縁" visible=true]
+「悪びれもなく」[plc]
+
+
+[shownametag name="大樹" visible=true]
+「だって無駄じゃん」[plc]
+
+
+[shownametag name="縁" visible=true]
+「無駄かどうかは…」[plc]
+
+
+[shownametag name="大樹" visible=true]
+「無駄だよ！　無駄！！」[plc]
 
 
 
-最近、俺は頑張ってる。[lr]
-頑張ってるって、言っても良いと思う。[plc]
+自分でも分かるくらいに、ヤケになっていた。[plc]
+
+
+[shownametag name="大樹" visible=true]
+「全部回ったじゃん？　みんなで回ったじゃん、全部。[lr]
+それで全部に振られた段階で、もう終わってんだって！」[plc]
+
+[shownametag name="大樹" visible=true]
+「終わり、ゲームオーバー！」[plc]
+
+
+[shownametag name="遥香" visible=true]
+「……」[plc]
+
+
+
+先輩の視線が突きささったが、もう止まらなくて。[plc]
+
+
+[shownametag name="大樹" visible=true]
+「疲れたよ！　俺、もう疲れた！！」[plc]
+
+
+[shownametag name="縁" visible=true]
+「疲れてんのは…」[plc]
+
+
+[shownametag name="大樹" visible=true]
+「みんな一緒ってことでしょ？　みんな一緒！
+だから俺も疲れてんの！！」[plc]
+
+[shownametag name="大樹" visible=true]
+「そんな悪い？　俺、そんな悪いか？？[lr]
+やっても無駄な事やらなくて、本当すみませんでしたね！」[plc]
+
+[shownametag name="縁" visible=true]
+「……」[plc]
+
+
+
+縁は、何も言わなくなる。[lr]
+その顔は、敵意に満ちていて、[plc]
+
+
+いいんだよ別によ！　お前なんかどうでもよ！！！[plc]
+
+
+[shownametag name="大樹" visible=true]
+「ははは、」[plc]
+
+
+
+自分でも呆れるくらいに、荒れていたと思う。[plc]
+
+
+
+正直なところ、もう限界だったんだ。[plc]
+
+
+
+何故学校に来れてるかも分からないくらい、[lr]
+ストレスで張り裂けそうだった。[plc]
+
+
+だってそうだろ？[lr]
+何処に行ったって同じじゃないか。[plc]
+
+
+怒鳴られて、怒鳴られて、怒鳴られて、怒鳴られて。[lr]
+なじられて、なじられて、なじられて、なじられて。[plc]
+
+
+黙ってる連中はゴミを投げやがる。[plc]
+
+
+[shownametag name="遥香" visible=true]
+「……」[plc]
+
+
+
+その様子に、先輩は何も言わなくて。[plc]
+
+
+
+何の感情も、浮かんでるようには見えなくて。[plc]
+
+
+
+笑っちまう。[plc]
+
+
+[shownametag name="大樹" visible=true]
+「……ねぇ、先輩まだっすか？」[plc]
+
+
+[shownametag name="大樹" visible=true]
+「まだなんすか？　もういいでしょ？？」[plc]
+
+
+[shownametag name="遥香" visible=true]
+「……」[plc]
+
+
+[shownametag name="大樹" visible=true]
+「ねぇ、俺頑張ってません？」[plc]
+
+
+[shownametag name="大樹" visible=true]
+「頑張ってますよね？　頑張っちゃってますよね？？」[plc]
+
+
+[shownametag name="遥香" visible=true]
+「……」[plc]
+
+
+[shownametag name="大樹" visible=true]
+「頑張ってるって――」[plc]
+
+
+
+――頑張ってるって、だから――。[plc]
+
+
+[shownametag name="大樹" visible=true]
+「――言ってもらえませんかね？」[plc]
+
+
+[shownametag name="遥香" visible=true]
+「……」[plc]
+
+
+
+完全に、何を言ってるのか分からなくなっていた。[plc]
+
+
+
+感情がドバドバ溢れてきて、[lr]
+涙と鼻水が情けないくらいに漏れてきて。[plc]
+
+[shownametag name="ガイア" visible=true]
+「おい、兄弟」[plc]
+
+
+[shownametag name="大樹" visible=true]
+「うるせぇ！　テメェはお呼びじゃないんだよ！！」[plc]
+
+
+
+――ドガッ！[plc]
+
+
+[shownametag name="ガイア" visible=true]
+「ぐっ」[plc]
+
+
+
+デブが、みっともなく転がった。[plc]
+
+
+[shownametag name="悟" visible=true]
+「……ひぃ」[plc]
+
+
+
+いつものスキンシップとは違う暴力に、[lr]
+悟が小さく悲鳴をあげる。[plc]
+
+
+それでも、[plc]
+
+
+[shownametag name="遥香" visible=true]
+「……」[plc]
+
+
+
+先輩の表情は、全く変化がなくて。[plc]
+
+
+[shownametag name="縁" visible=true]
+「……呆れるわ」[plc]
+
+
+
+小さく、縁が呟いた。[plc]
+
+
+[shownametag name="縁" visible=true]
+「自分の非を……嘆いて、泣いて、媚びて。[lr]
+……まったく向きあおうともしないなんて」[plc]
+
+[shownametag name="縁" visible=true]
+「それが通らないと、癇癪を起こして、[lr]
+感情がコントロール出来なくなったら暴力」[plc]
+
+
+その表情は、[plc]
+
+
+[shownametag name="縁" visible=true]
+「酷い」[plc]
+
+
+
+本当に、軽蔑そのもので。[plc]
+
+
+
+そのとき、気付いた。[plc]
+
+
+[shownametag name="大樹" visible=true]
+「は、」[plc]
+
+
+
+こりゃぁ、[plc]
+
+
+[shownametag name="大樹" visible=true]
+「ははは」[plc]
+
+
+
+こりゃぁおもしれぇや！[plc]
+
+
+[shownametag name="大樹" visible=true]
+「そりゃぁ、そうだよな！　醜いよな！！」[plc]
+
+
+
+ガシッと、縁の肩を掴んだ。[plc]
+
+
+[shownametag name="縁" visible=true]
+「……」[plc]
+
+
+
+ビクッと震えられるが、無理やり引き寄せる。[plc]
+
+
+
+そう、俺、気がつけた。[lr]
+俺、[plc]
+
+[shownametag name="大樹" visible=true]
+「醜いさ！　軽蔑もしちまうよ！！　だって、これはよ――」[plc]
+
+
+
+まだ、冷静だったんだ。[plc]
+
+
+[shownametag name="大樹" visible=true]
+「――お前がやってたことだもんな！！」[plc]
+
+
+
+叫ぶと、縁の表情が崩れた。[plc]
+
+
+
+そう、『崩れた』[plc]
+
+
+[shownametag name="縁" visible=true]
+「――」[plc]
+
+
+
+逃れようともがく縁を、もっと強く引き寄せる。[plc]
+
+
+[shownametag name="縁" visible=true]
+「……」[plc]
+
+
+
+おいおい、どうしたんだよ。[lr]
+なんつー顔してんだよ。[plc]
+
+[shownametag name="大樹" visible=true]
+「懐かしいなぁ、おい！」[plc]
+
+
+
+もっと笑えよ――。[plc]
+
+
+[shownametag name="縁" visible=true]
+「……やめて…」[plc]
+
+
+[shownametag name="大樹" visible=true]
+「――はっはっはっはっは！」[plc]
+
+
+
+想い出話だろうが！！[plc]
+
+
+[shownametag name="縁" visible=true]
+「……やめて、やめてよ」[plc]
+
+
+
+縁は、いまにも泣きそうで。[plc]
+
+
+[shownametag name="大樹" visible=true]
+「ふ、ふふふ」[plc]
+
+
+
+いや、泣いてやがる。[plc]
+
+
+
+泣きゃぁいいと思ってやがる！！！[plc]
+
+
+[shownametag name="大樹" visible=true]
+「お前が――」[plc]
+
+
+
+
+
+
+
+――パンッ！;[SE]
+
+
+
+
+
+
+
+言葉の暴力は、[plc]
+
+
+[shownametag name="遥香" visible=true]
+「――谷口君は、頑張ってるよ」[plc]
+
+
+[shownametag name="大樹" visible=true]
+「……せんぱ」[plc]
+
+
+[shownametag name="遥香" visible=true]
+「頑張ってるから、ほんとよく頑張ったから、」[plc]
+
+
+[shownametag name="遥香" visible=true]
+「だから……」[plc]
+
+
+[shownametag name="遥香" visible=true]
+「……逃げてもいいって、そう言って欲しいわけ？」[plc]
+
+
+
+より強い言葉で押し返されて。[plc]
+
+
+[shownametag name="大樹" visible=true]
+「ぁ、う」[plc]
+
+
+[shownametag name="遥香" visible=true]
+「帰んなさい」[plc]
+
+
+[shownametag name="大樹" visible=true]
+「……」[plc]
+
+
+[shownametag name="遥香" visible=true]
+「帰りなさいよ」[plc]
+
+
+
+その言葉に、有無はなくて。[plc]
+
+
+[shownametag name="縁" visible=true]
+「……」[plc]
+
+
+[shownametag name="悟" visible=true]
+「……ｸﾞｽ」[plc]
+
+
+[shownametag name="ガイア" visible=true]
+「……」[plc]
+
+
+
+悟は、泣きべそをかいていて。[lr]
+ガイアはうずくまっったまま、縁は表情が見えない。[plc]
+
+[shownametag name="遥香" visible=true]
+「……」[plc]
+
 
 [shownametag name="大樹" visible=true]
 「……」[plc]
 
 
 
-他人の為に頑張ることには碌な事がないって、[lr]
-そんな体験を、[plc]
+先輩は、こちらを向いたまま、[plc]
 
 
-この短い人生でも味わったっていうのに。[plc]
-
-
-
-いったい何をやってるんだろうか、俺は？[plc]
-
-
-[shownametag name="大樹" visible=true]
-「俺は…」[plc]
+[shownametag name="遥香" visible=true]
+「……」[plc]
 
 
 
-自分自身が抱いた好意が何者なのか、[lr]
-分からないが。[plc]
-
-[strans storage="bg_tyurin"]
-
-[shownametag name="大樹" visible=true]
-「……チャリ多すぎ」[plc]
+俺を、見てはいなかった。[plc]
 
 
 
-満杯の駐輪場へ履いた言葉で、そんな思考は霧散してしまって。[plc]
-
-
-
-……だから、多分、きっとたいした事はない。[plc]
-
-
-[shownametag name="大樹" visible=true]
-「……はぁ」[plc]
-
-
-
-『雨の日なのになぁ』と呟いた空は、[lr]
-腹立たしいほどに澄んだ色をしていた。[plc]
-
-[fadeoutse time="1000"]
-[dis_all_chara_fade_message]
-[strans storage="white" time="1000"]
-
-[JumpChapter storage="senpai_ep_21.ks"]
-
-
-
-;[→梅雨明けは遠く]
+;[→勧誘]

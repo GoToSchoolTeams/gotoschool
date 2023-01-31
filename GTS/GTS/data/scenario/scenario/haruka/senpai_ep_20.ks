@@ -349,6 +349,9 @@
 [SetupMessageWindow]
 
 
+*debug
+[SetupMessageWindow]
+
 [backlay]
 [image layer=3 storage="temp_cicle_park" top="0" left="0" page="back" visible="true"]
 [trans method="crossfade" time="1000"]
