@@ -98,8 +98,8 @@
 ;BGMとSE音量のセッティング
 ;初回のみ
 [if exp="sf.first!=1"]
-	[eval exp="sf.sound=60000"]
-	[eval exp="sf.se=60000"]
+	[eval exp="sf.sound=100000"]
+	[eval exp="sf.se=100000"]
 	[eval exp="sf.LatestTab=0"]
 	[eval exp="sf.first=1"]
 [endif]

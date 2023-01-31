@@ -2,9 +2,9 @@
 //! @brief Šeíƒ{ƒŠƒ…[ƒ€İ’è‚Ì“Ç‚İ‚İ
 function ApplyVolume()
 {
-	var per = sf.masterVolume / 100;
-	kag.bgm.buf1.volume2 = 100;
-	kag.se[0].volume2 	 = 100;
+	//var per = sf.masterVolume / 100;
+	//kag.bgm.buf1.volume2 = 100;
+	//kag.se[0].volume2 	 = 100;
 }
 
 function OnChangeVolumeInSlider(vol, isDrag)
