@@ -177,8 +177,7 @@
 
 
 
-*De
-[setup_debug bg="rouka2_dt"]
+
 
 
 
@@ -366,7 +365,8 @@
 
 体育座りのまま見上げた空は、少しだけ小さく見えて。[plc]
 
-
+*De
+[setup_debug bg="bg_okujo_m"]
 
 さらに小さくなった俺には、意味は無いな。[plc]
 
@@ -383,18 +383,17 @@
 そのまま鐘がなるまでぼーっとするのが、[lr]
 最近の俺の日課だったわけで。[plc]
 
-
+[strans storage="black"]
 ;[暗転]
 
 
-
 で、案の定、その日にバレた。[plc]
-
-
+[dis_all_message]
+[strans storage="bg_kaigisitsu" method="universal" rule="001"]
 
 ;[場面転換]
-
-
+[SetupMessageWindow]
+[najimi_stand face="ikari" size="l"]
 [shownametag name="縁" visible=true]
 「……あんた、サボってたでしょ？」[plc]
 
