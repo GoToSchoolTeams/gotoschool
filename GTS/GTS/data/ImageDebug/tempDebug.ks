@@ -30,7 +30,7 @@
 
 [strans storage="rika_dt"]
 
-[haruka_face face="magao"]
+[haruka_face face="keibetsu"]
 [shownametag name="遥香" visible=true]
 「あの、」[plc]
 
@@ -365,8 +365,6 @@
 
 体育座りのまま見上げた空は、少しだけ小さく見えて。[plc]
 
-*De
-[setup_debug bg="bg_okujo_m"]
 
 さらに小さくなった俺には、意味は無いな。[plc]
 
@@ -388,56 +386,55 @@
 
 
 で、案の定、その日にバレた。[plc]
-[dis_all_message]
-[strans storage="bg_kaigisitsu" method="universal" rule="001"]
-
 ;[場面転換]
+[dis_all_message]
+[strans storage="bg_seitokai" method="universal" rule="001"]
+
+
+
 [SetupMessageWindow]
 [najimi_stand face="ikari" size="l"]
 [shownametag name="縁" visible=true]
 「……あんた、サボってたでしょ？」[plc]
 
-
-
 一通りぼんやりして戻ると、[lr]
 縁が唐突にそんな事を言ってきた。[plc]
+
+
+[dis_all_chara]
+
 
 [shownametag name="大樹" visible=true]
 「……」[plc]
 
 
-
 『何の証拠があって』と言おうとしたが、[plc]
 
-
+[haruka_face face="keibetsu"]
 [shownametag name="遥香" visible=true]
 「……」[plc]
 
-
+[gaia_face face="serious"]
 [shownametag name="ガイア" visible=true]
 「……」[plc]
 
 
 
-どうも、ネタは上がってるっぽかった。[plc]
+どうも、ネタは上がってるっぽくて。[plc]
 
 
 [shownametag name="大樹" visible=true]
 「……」[plc]
 
 
-
-どうしようかと思ったが、[plc]
-
-
 [shownametag name="大樹" visible=true]
-「そうだけど」[plc]
+「そうだけど？」[plc]
 
 
 
-なんだかもう全部めんどくさくなって。[plc]
+なんだかもう全部めんどくさくなった。[plc]
 
-
+[najimi_stand face="do" size="l"]
 [shownametag name="縁" visible=true]
 「悪びれもなく」[plc]
 
@@ -453,6 +450,9 @@
 [shownametag name="大樹" visible=true]
 「無駄だよ！　無駄！！」[plc]
 
+[dis_all_chara]
+
+
 
 
 自分でも分かるくらいに、ヤケになっていた。[plc]
@@ -460,12 +460,12 @@
 
 [shownametag name="大樹" visible=true]
 「全部回ったじゃん？　みんなで回ったじゃん、全部。[lr]
-それで全部に振られた段階で、もう終わってんだって！」[plc]
+　それで全部に振られた段階で、もう終わってんだって！」[plc]
 
 [shownametag name="大樹" visible=true]
 「終わり、ゲームオーバー！」[plc]
 
-
+[haruka_face face="keibetsu"]
 [shownametag name="遥香" visible=true]
 「……」[plc]
 
@@ -477,19 +477,21 @@
 [shownametag name="大樹" visible=true]
 「疲れたよ！　俺、もう疲れた！！」[plc]
 
-
+[najimi_stand face="do" size="l"]
 [shownametag name="縁" visible=true]
-「疲れてんのは…」[plc]
+「疲れてんのは―」[plc]
 
+[dis_all_chara]
 
 [shownametag name="大樹" visible=true]
-「みんな一緒ってことでしょ？　みんな一緒！
-だから俺も疲れてんの！！」[plc]
+「みんな一緒ってことでしょ？　みんな一緒！[lr]
+　だから俺も疲れてんの！！」[plc]
 
 [shownametag name="大樹" visible=true]
 「そんな悪い？　俺、そんな悪いか？？[lr]
-やっても無駄な事やらなくて、本当すみませんでしたね！」[plc]
+　やっても無駄な事やらなくて、本当すみませんでしたね！」[plc]
 
+[najimi_stand face="ikari" size="l"]
 [shownametag name="縁" visible=true]
 「……」[plc]
 
@@ -498,6 +500,7 @@
 縁は、何も言わなくなる。[lr]
 その顔は、敵意に満ちていて、[plc]
 
+[dis_all_chara]
 
 いいんだよ別によ！　お前なんかどうでもよ！！！[plc]
 
@@ -530,10 +533,12 @@
 黙ってる連中はゴミを投げやがる。[plc]
 
 
+;この顔じゃねぇええええええええええええええええ！
+[haruka_stand face="keibetsu" size="l"]
 [shownametag name="遥香" visible=true]
 「……」[plc]
 
-
+[dis_all_chara]
 
 その様子に、先輩は何も言わなくて。[plc]
 
@@ -553,7 +558,7 @@
 [shownametag name="大樹" visible=true]
 「まだなんすか？　もういいでしょ？？」[plc]
 
-
+[haruka_face face="keibetsu"]
 [shownametag name="遥香" visible=true]
 「……」[plc]
 
@@ -565,7 +570,7 @@
 [shownametag name="大樹" visible=true]
 「頑張ってますよね？　頑張っちゃってますよね？？」[plc]
 
-
+[haruka_face face="keibetsu"]
 [shownametag name="遥香" visible=true]
 「……」[plc]
 
@@ -581,11 +586,11 @@
 [shownametag name="大樹" visible=true]
 「――言ってもらえませんかね？」[plc]
 
-
+[haruka_stand face="keibetsu" size="l"]
 [shownametag name="遥香" visible=true]
 「……」[plc]
 
-
+[dis_all_chara]
 
 完全に、何を言ってるのか分からなくなっていた。[plc]
 
@@ -594,18 +599,20 @@
 感情がドバドバ溢れてきて、[lr]
 涙と鼻水が情けないくらいに漏れてきて。[plc]
 
+[gaia_stand face="serious"]
 [shownametag name="ガイア" visible=true]
 「おい、兄弟」[plc]
 
+[dis_all_chara]
 
 [shownametag name="大樹" visible=true]
 「うるせぇ！　テメェはお呼びじゃないんだよ！！」[plc]
 
 
-
+[quake time="400"]
 ――ドガッ！[plc]
 
-
+[gaia_face  face="serious"]
 [shownametag name="ガイア" visible=true]
 「ぐっ」[plc]
 
@@ -614,7 +621,7 @@
 デブが、みっともなく転がった。[plc]
 
 
-[shownametag name="悟" visible=true]
+[shownametag name="悟" visible=true bust="false"]
 「……ひぃ」[plc]
 
 
@@ -625,39 +632,43 @@
 
 それでも、[plc]
 
-
+[haruka_face face="keibetsu"]
 [shownametag name="遥香" visible=true]
 「……」[plc]
+
+*De
+[setup_debug bg="bg_seitokai"]
 
 
 
 先輩の表情は、全く変化がなくて。[plc]
 
-
+[najimi_stand face="metoji"]
 [shownametag name="縁" visible=true]
 「……呆れるわ」[plc]
 
-
+[dis_all_chara]
 
 小さく、縁が呟いた。[plc]
 
-
+[najimi_stand face="futsu"]
 [shownametag name="縁" visible=true]
 「自分の非を……嘆いて、泣いて、媚びて。[lr]
-……まったく向きあおうともしないなんて」[plc]
+　……まったく向きあおうともしないなんて」[plc]
 
+[najimi_stand face="do"]
 [shownametag name="縁" visible=true]
 「それが通らないと、癇癪を起こして、[lr]
-感情がコントロール出来なくなったら暴力」[plc]
-
+　感情がコントロール出来なくなったら暴力」[plc]
+[dis_all_chara]
 
 その表情は、[plc]
 
-
+[najimi_stand face="futsu"]
 [shownametag name="縁" visible=true]
 「酷い」[plc]
 
-
+[dis_all_chara]
 
 本当に、軽蔑そのもので。[plc]
 
@@ -689,7 +700,7 @@
 
 ガシッと、縁の肩を掴んだ。[plc]
 
-
+[najimi_stand face="ikari" size="l"]
 [shownametag name="縁" visible=true]
 「……」[plc]
 
@@ -713,7 +724,7 @@
 [shownametag name="大樹" visible=true]
 「――お前がやってたことだもんな！！」[plc]
 
-
+[dis_all_chara]
 
 叫ぶと、縁の表情が崩れた。[plc]
 
@@ -722,7 +733,7 @@
 そう、『崩れた』[plc]
 
 
-[shownametag name="縁" visible=true]
+[shownametag name="縁" visible=true bust="false"]
 「――」[plc]
 
 
@@ -730,7 +741,7 @@
 逃れようともがく縁を、もっと強く引き寄せる。[plc]
 
 
-[shownametag name="縁" visible=true]
+[shownametag name="縁" visible=true bust="false"]
 「……」[plc]
 
 
@@ -746,7 +757,7 @@
 もっと笑えよ――。[plc]
 
 
-[shownametag name="縁" visible=true]
+[shownametag name="縁" visible=true bust="false"]
 「……やめて…」[plc]
 
 
@@ -758,7 +769,7 @@
 想い出話だろうが！！[plc]
 
 
-[shownametag name="縁" visible=true]
+[shownametag name="縁" visible=true bust="false"]
 「……やめて、やめてよ」[plc]
 
 
@@ -786,9 +797,9 @@
 
 
 
-
-――パンッ！;[SE]
-
+[quake time="400"]
+――パンッ！[plc]
+;[音付けたら消す？]
 
 
 
@@ -797,27 +808,25 @@
 
 言葉の暴力は、[plc]
 
-
+[haruka_stand face="raku" size="l"]
 [shownametag name="遥香" visible=true]
 「――谷口君は、頑張ってるよ」[plc]
 
-
+[dis_all_chara]
 [shownametag name="大樹" visible=true]
 「……せんぱ」[plc]
 
-
+[haruka_stand face="raku" size="l"]
 [shownametag name="遥香" visible=true]
 「頑張ってるから、ほんとよく頑張ったから、」[plc]
-
 
 [shownametag name="遥香" visible=true]
 「だから……」[plc]
 
-
+[haruka_stand face="ki" size="l" time="200"]
 [shownametag name="遥香" visible=true]
 「……逃げてもいいって、そう言って欲しいわけ？」[plc]
-
-
+[dis_all_chara]
 
 より強い言葉で押し返されて。[plc]
 
@@ -825,7 +834,7 @@
 [shownametag name="大樹" visible=true]
 「ぁ、う」[plc]
 
-
+[haruka_stand face="ki" size="l"]
 [shownametag name="遥香" visible=true]
 「帰んなさい」[plc]
 
@@ -840,17 +849,18 @@
 
 
 その言葉に、有無はなくて。[plc]
+[dis_all_chara]
 
 
-[shownametag name="縁" visible=true]
+[shownametag name="縁" visible=true bust="false"]
 「……」[plc]
 
 
-[shownametag name="悟" visible=true]
+[shownametag name="悟" visible=true bust="false"]
 「……ｸﾞｽ」[plc]
 
 
-[shownametag name="ガイア" visible=true]
+[shownametag name="ガイア" visible=true bust="false"]
 「……」[plc]
 
 
@@ -858,6 +868,7 @@
 悟は、泣きべそをかいていて。[lr]
 ガイアはうずくまっったまま、縁は表情が見えない。[plc]
 
+[haruka_stand face="ki" size="l"]
 [shownametag name="遥香" visible=true]
 「……」[plc]
 
@@ -870,6 +881,7 @@
 先輩は、こちらを向いたまま、[plc]
 
 
+[haruka_stand face="ki" size="l"]
 [shownametag name="遥香" visible=true]
 「……」[plc]
 
@@ -877,6 +889,11 @@
 
 俺を、見てはいなかった。[plc]
 
+[fadeoutse time="1000"]
+[dis_all_chara_fade_message]
+[strans storage="white" time="1000"]
+
+[JumpChapter storage="senpai_ep_22.ks"]
 
 
 ;[→勧誘]

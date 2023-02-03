@@ -35,6 +35,7 @@
 [link color="0xFFFFFF" exp="global.DebugJump('senpai_ep_18.ks')"]HARUKA_EP18(C)[r][endlink]
 [link color="0xFFFFFF" exp="global.DebugJump('senpai_ep_19.ks')"]HARUKA_EP19(C)[r][endlink]
 [link color="0xFFFFFF" exp="global.DebugJump('senpai_ep_20.ks')"]HARUKA_EP20(C)[r][endlink]
+[link color="0xFFFFFF" exp="global.DebugJump('senpai_ep_21.ks')"]HARUKA_EP21(C)[r][endlink]
 [endnowait]
 
 [return]
