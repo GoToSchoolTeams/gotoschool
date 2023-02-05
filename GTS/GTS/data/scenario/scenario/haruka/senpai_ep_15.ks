@@ -1,6 +1,6 @@
-
-
 [call storage="Initialize.ks"]
+[SetupMessageWindow]
+[dis_all_message]
 
 [fadeoutbgm time="1000"]
 [strans storage="white"]
@@ -9,10 +9,7 @@
 [nowait]
 ;[playse storage="chaim_far_single" ]
 
-[strans storage="okujo_m"]
-
-;[call target=*De]
-[haruka_stand face="suttoboke"]
+;[strans storage="okujo_m"]
 
 それから俺を、[plc]
 
@@ -22,7 +19,7 @@
 
 
 [strans storage="seitokai"]
-
+[fadeinbgm storage="daily1 bgm" time="1000"]
 まず、屋上から会議室に戻ってきた。[lr]
 それに、[plc]
 
@@ -76,8 +73,10 @@
 
 必要な人数には、正直全然足りないけどな。[plc]
 
+[fadeoutbgm time="1000"]
 [strans storage="black"]
 
+[fadebgm volume="50" time="500"]
 [shownametag name="大樹" visible=true]
 「……」[plc]
 
@@ -86,8 +85,9 @@
 変わったのはそれだけじゃない。[lr]
 例えば、活動が変わった。[plc]
 
-[strans storage="seitokai" rule="003"]
 
+[strans storage="seitokai" rule="003"]
+[fadebgm volume="100" time="500"]
 [showstandimage who="haruka" face=raku pose="1"]
 [shownametag name="遥香" visible=true]
 「谷口くーん、ちょっとこれやって」[plc]
@@ -106,8 +106,10 @@
 「……」[plc]
 
 
+
 [showstandimage who="satori" face=naki pose="1" size="l" time="200"]
 [shownametag name="悟" visible=true]
+[playse storage="crash"]
 [quake time="400"]
 「――ひ、ひやぁあああああああ！」[plc]
 ;[どんがらがっしゃーん
@@ -150,8 +152,6 @@
 [dis_all_chara]
 
 
-
-
 こんな風に、活動が選挙に関わるものになった。[plc]
 
 
@@ -162,6 +162,7 @@
 
 今のコレは、あの時よりは確実に進んでいるといえる。[lr]
 言えるが、[plc]
+
 
 [shownametag name="大樹" visible=true]
 「……いや、ちょ多すぎね」[plc]
@@ -222,7 +223,7 @@
 
 ;[場面転換]
 [strans storage="black"]
-
+[fadebgm volume="50" time="500"]
 
 結局、俺達は。[lr]
 暫くの間はずっと、書類仕事に追われた。[plc]
@@ -242,7 +243,7 @@
 「……」[plc]
 
 
-
+[playse storage="knock"]
 ――コツン。[plc]
 
 
@@ -272,7 +273,7 @@
 
 
 [strans storage="seitokai"]
-
+[fadebgm volume="100" time="1000"]
 日々の雑務は、些細な事だけど。[lr]
 『些細な事じゃぁない』んだって、どこで安心していた。[plc]
 
@@ -286,7 +287,7 @@
 
 そう、思っていたんだ。[plc]
 
-[fadeoutse time="1000"]
+[fadeoutbgm time="1000"]
 [dis_all_chara_fade_message]
 [strans storage="white" time="1000"]
 
