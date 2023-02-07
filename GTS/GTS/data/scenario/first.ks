@@ -52,6 +52,7 @@
 [eval exp="Storages.addAutoPath('fgimage/satoshi/')"]
 [eval exp="Storages.addAutoPath('fgimage/mikuriya/')"]
 [eval exp="Storages.addAutoPath('fgimage/sakurako/')"]
+[eval exp="Storages.addAutoPath('fgimage/old/')"]
 
 ;背景
 [eval exp="Storages.addAutoPath('bgimage/event_cg/')"]
@@ -112,9 +113,9 @@
 [eval exp="kag.se[0].volume2=sf.se"]
 
 ;起動時にウィンドウサイズをリセットする
-[iscript]
-kag.setInnerSize(1280,720);
-[endscript]
+;[iscript]
+;kag.setInnerSize(1280,720);
+;[endscript]
 
 ;title画面へ
 [jump storage="title.ks"]
