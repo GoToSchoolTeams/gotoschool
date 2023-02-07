@@ -52,6 +52,7 @@
 [eval exp="Storages.addAutoPath('fgimage/satoshi/')"]
 [eval exp="Storages.addAutoPath('fgimage/mikuriya/')"]
 [eval exp="Storages.addAutoPath('fgimage/sakurako/')"]
+[eval exp="Storages.addAutoPath('fgimage/old/')"]
 
 ;îwåi
 [eval exp="Storages.addAutoPath('bgimage/event_cg/')"]
