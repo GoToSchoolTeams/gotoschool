@@ -12,7 +12,8 @@
 [strans storage="bg_sakamichi"]
 
 
-;[call target=*De]
+[call target=*De]
+
 [quake time="400"]
 [shownametag name="大樹" visible=true]
 「ひゃっほーい！」[plc]
@@ -90,6 +91,7 @@
 見給え、この躍動感。[plc]
 
 
+
 コレだ！[lr]
 これこそが答えだったのだ！！！[plc]
 
@@ -97,13 +99,16 @@
 「ハッハッハ！　ハ―」[plc]
 
 [strans storage="bg_black"]
+*De
+[setup_debug bg="bg_black"]
+
 
 笑い切るより先に、[plc]
-[dis_all_message_fade]
+
 
 [strans storage="bg_jyuutaku_dt"]
 
-[show_message_fade]
+[show_message_fade time="400"]
 
 
 [shownametag name="大樹" visible=true]
