@@ -113,9 +113,9 @@
 [eval exp="kag.se[0].volume2=sf.se"]
 
 ;起動時にウィンドウサイズをリセットする
-;[iscript]
-;kag.setInnerSize(1280,720);
-;[endscript]
+[iscript]
+kag.setInnerSize(1280,720);
+[endscript]
 
 ;title画面へ
 [jump storage="title.ks"]

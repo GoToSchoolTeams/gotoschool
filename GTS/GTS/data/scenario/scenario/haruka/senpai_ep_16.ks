@@ -264,6 +264,7 @@
 
 
 [haruka_face face="odoroki"]
+[haruka_face face="jitome"]
 アゴで成瀬の方を指し示すと、先輩は妙な顔をした。[plc]
 
 

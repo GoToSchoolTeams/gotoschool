@@ -73,9 +73,7 @@
 
 必要な人数には、正直全然足りないけどな。[plc]
 
-[fadeoutbgm time="1000"]
 [strans storage="black"]
-
 [fadebgm volume="50" time="500"]
 [shownametag name="大樹" visible=true]
 「……」[plc]
