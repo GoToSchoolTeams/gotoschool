@@ -11,7 +11,7 @@
 [strans storage="bg_naruseRoom"]
 
 
-;[call target=*De]
+[call target=*De]
 
 
 
@@ -194,8 +194,7 @@
 まじめに掃除なんかしちゃったりして。[plc]
 
 [shownametag name="大樹" visible=true]
-「……何をやってるんだ俺は？」[plc]
-
+「何をやってるんだ俺は？」[plc]
 
 
 二回目のそのつぶやきにも、[lr]
@@ -207,7 +206,7 @@
 
 
 ;[場面経過、時間経過]
-
+[wipe storage="bg_naruseRoom" time=800]
 
 
 
@@ -216,10 +215,10 @@
 
 そんなこんなで、早くも一週間が経過した。[plc]
 
-
+[naruse_stand face="hohoho"]
 [shownametag name="成瀬" visible=true]
 「オーッホッホッホッホ！」[plc]
-
+[dis_all_chara]
 
 [shownametag name="取り巻きA" visible=true bust="false"]
 「いやですわ、もぅ～」[plc]
@@ -240,7 +239,7 @@
 
 昼休みは、成瀬陣営の昼食件お茶会の時間となっていた。[plc]
 
-
+[naruse_stand face="futsu"]
 [shownametag name="成瀬" visible=true]
 「あ、紅茶、追加でいただけるかしら？」[plc]
 
@@ -249,14 +248,15 @@
 「ぁ、はい」[plc]
 ;[コポコポ]
 
+[naruse_stand face="hohoho"]
 [shownametag name="成瀬" visible=true]
-「ん～、いい香り。あなたも、[lr]
-随分と紅茶を入れるのが上手くなったわね」[plc]
+「ん～、いい香り。[l]あなたも、[r]
+　随分と紅茶を入れるのが上手くなったわね」[plc]
 
 [shownametag name="大樹" visible=true]
 「……どうも」[plc]
 
-
+[dis_all_chara]
 
 手慣れた。手慣れてしまった。[plc]
 
@@ -298,13 +298,13 @@
 やけに優しくて、むしろクラスの連中の方がずっと陰湿だ。[plc]
 
 
-その成瀬も、先輩の前に居るときは
+その成瀬も、先輩の前に居るときは[r]
 他人を蔑む事しか出来ない生き物なのかと思っていたが、[plc]
 
 
 実際、そうじゃない。[plc]
 
-
+[naruse_stand face="futsu" pose="2"]
 [shownametag name="成瀬" visible=true]
 「あなたも、座って紅茶を楽しんだら？」[plc]
 
@@ -312,7 +312,7 @@
 [shownametag name="大樹" visible=true]
 「……いえ」[plc]
 
-
+[dis_all_chara]
 
 むしろ、身内には無茶苦茶やさしい。[plc]
 
@@ -328,7 +328,7 @@
 [shownametag name="取り巻きB" visible=true bust="false"]
 「うわー、照れ屋さんだー！」[plc]
 
-
+[naruse_face face="futsu" pose="1"]
 [shownametag name="成瀬" visible=true]
 「こらこら、やめなさい」[plc]
 
@@ -346,16 +346,25 @@
 集団の結束を強めるというより仲良しだから集まってるのだろう。[plc]
 
 
-まぁ、もっとも、成瀬に限らず、この集団は
+まぁ、成瀬に限らず、[l]この集団は[r]
 『恋ヶ旗遥香憎し』で結束しているらしくて、結束力は妙に強い。[plc]
 
 
 つか、結構嫌われてんだな、先輩。[plc]
 
+[strans storage="bg_black"]
+[haruka_stand face="raku" nobust="true"]
 
 [shownametag name="大樹" visible=true]
-「……」[plc]
+「……」[l]
+[haruka_stand face="ki" nobust="true"]
+[plc]
 ;[ちょい先輩の立ち絵出る？]
+
+[strans storage="bg_naruseRoom"]
+
+*De
+[setup_debug bg="bg_nakaniwa_m"]
 
 
 ……まぁ、敵を作りまくりながら生きてそうなひとだしなぁ。[plc]
