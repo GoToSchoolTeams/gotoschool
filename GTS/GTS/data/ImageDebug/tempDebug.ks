@@ -364,12 +364,12 @@
 [strans storage="bg_naruseRoom"]
 
 *De
-[setup_debug bg="bg_nakaniwa_m"]
+[setup_debug bg="bg_naruseRoom"]
 
 
 ……まぁ、敵を作りまくりながら生きてそうなひとだしなぁ。[plc]
 
-
+[naruse_stand face="futsu"]
 [shownametag name="成瀬" visible=true]
 「ところで、その後どう？　クラスの方は」[plc]
 
@@ -377,11 +377,11 @@
 [shownametag name="大樹" visible=true]
 「え、あ、はい……何事も無く」[plc]
 
-
+[naruse_stand face="hohoho" time="200"]
 [shownametag name="成瀬" visible=true]
 「それはよろしいわ」[plc]
 
-
+[dis_all_chara]
 
 満足気に、成瀬は紅茶をすする。[plc]
 
@@ -406,14 +406,15 @@
 結構前……先輩のとこに入る前くらい……。[lr]
 というのは言い過ぎかもしれないけど、その程度になった。[plc]
 
+[naruse_stand face="futsu"]
 [shownametag name="成瀬" visible=true]
 「やはり奉仕活動をすると、みなさんの印象が変わりますわね」[plc]
 
-
+[dis_all_chara]
 
 マジで、校庭の掃除が効いてんのか？[plc]
 
-
+[naruse_stand face="futsu"]
 [shownametag name="成瀬" visible=true]
 「……」[plc]
 
@@ -422,10 +423,10 @@
 「……」[plc]
 
 
-
+[dis_all_chara]
 いや、それだけじゃねぇだろ絶対。[plc]
 
-
+[naruse_stand face="futsu"]
 [shownametag name="成瀬" visible=true]
 「特に何もしてなくてよ」[plc]
 
@@ -437,27 +438,29 @@
 [shownametag name="大樹" visible=true]
 「……でも、」[plc]
 
-
+[naruse_stand face="hohoho"]
 [shownametag name="成瀬" visible=true]
 「みなさん、プライドがありますのよ。[lr]
-不相応な者が不相応な地位にいると……そういう扱いを受ける」[plc]
+[naruse_stand face="futsu"]
+　不相応な者が不相応な地位にいると[l]……そういう扱いを受ける」[plc]
 
 [shownametag name="成瀬" visible=true]
 「人には……このカップのように……器って物がありまして、[lr]
-入りきれないものは入りませんわ」[plc]
+　入りきれないものは入りませんわ」[plc]
 
 [shownametag name="成瀬" visible=true]
 「はみ出したお湯は、手を火傷させますからね……。[lr]
-周りも、撒き散らしたものを掃除させられては、迷惑でしょう？」[plc]
+　周りも、撒き散らしたものを掃除させられては、[l]迷惑でしょう？」[plc]
 
 [shownametag name="成瀬" visible=true]
 「収まるべき量に収まっていれば……。[lr]
-収まるべきとこに収まっていれば」[plc]
+　収まるべきとこに収まっていれば」[plc]
 
+[naruse_stand face="hohoho"]
 [shownametag name="成瀬" visible=true]
 「普通、人は文句は言いませんわ」[plc]
 
-
+[dis_all_chara]
 
 満足気に言って、成瀬はカップの紅茶を飲み干した。[plc]
 
@@ -469,7 +472,7 @@
 
 つまり、俺は校庭の掃除が分相応ってことかよ。[plc]
 
-
+[naruse_face face="futsu" pose="2"]
 [shownametag name="成瀬" visible=true]
 「……おかわりお願いできるかしら？」[plc]
 
@@ -485,7 +488,7 @@
 [shownametag name="大樹" visible=true]
 「どうぞ」[plc]
 
-
+[naruse_face face="futsu" pose="1"]
 [shownametag name="成瀬" visible=true]
 「どうも」[plc]
 
