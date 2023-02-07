@@ -1,16 +1,11 @@
-
-
-[call storage="Initialize.ks"]
-
-[fadeoutbgm time="1000"]
+[SetupMessageWindow hide_window="true"]
 [strans storage="white"]
-
+[fadeinse storage="ambientA@08" time="1000"]
 [show_message_fade time="500"]
 [nowait]
 ;[playse storage="chaim_far_single" ]
 
 ;[商店街]
-
 [strans storage="fumikiri_op_dt"]
 
 ;[call target=*De]
@@ -18,8 +13,9 @@
 
 ――ザワザワッ。[plc]
 
+[fadeinbgm storage="daily_2" time="1000"]
+[fadeoutse time="1000"]
 ;[喧騒の音]
-
 
 [shownametag name="大樹" visible=true]
 「……先輩、腰が爆発しそうです」[plc]
@@ -44,14 +40,15 @@
 
 ;[回想]
 ;[場面転換]
+[fadebgm volume="60" time="500"]
 [dis_all_chara_fade_message]
 [strans storage="black" time="400"]
 [strans storage="seitokai" time="400" method="universal" rule="001"]
-[SetupMessageWindow]
-
+[show_message_fade time="100"]
 [haruka_stand face="odoroki"]
-[shownametag name="遥香" visible=true]
+
 [nowait]
+[shownametag name="遥香" visible=true]
 「ぁ、足りない」[plc]
 
 [dis_all_chara]
@@ -70,6 +67,7 @@
 
 ……突然、何もかもが足りなくなったわけで。[plc]
 
+[fadebgm volume="100" time="1000"]
 [strans storage="fumikiri_op_dt"]
 
 今日に限って縁も悟もあのバカ三匹も忙しいとかなんとかで、[lr]
@@ -99,11 +97,12 @@
 
 ;[回想]
 ;[場面転換]
+[fadebgm volume="50" time="1000"]
 [dis_all_chara_fade_message]
 [strans storage="black" time="400"]
 [strans storage="seitokai" time="400" method="universal" rule="001"]
-[SetupMessageWindow]
 
+[show_message_fade time="100"]
 [haruka_stand face="raku" size="m"]
 [shownametag name="遥香" visible=true]
 「谷口君だけじゃ何にもわからないだろうから、[lr]
@@ -116,6 +115,7 @@
 
 
 ;[回想、終]
+[fadebgm volume="100" time="1000"]
 [strans storage="fumikiri_op_dt"]
 
 
@@ -220,7 +220,7 @@
 
 諦めて付いていこうとすると、視界の端に見知った顔が見えた。[plc]
 
-
+[strans storage="bg_fumikiri_op_dt_zoom"]
 [shownametag name="大樹" visible=true]
 「ん？　……あれは？」[plc]
 
@@ -245,6 +245,7 @@
 
 風紀に煩い癖に率先して校則違反してるじゃないかよ。[plc]
 
+[strans storage="fumikiri_op_dt"]
 [haruka_stand face="magao"]
 [shownametag name="遥香" visible=true]
 「どうしたの？」[plc]
@@ -257,18 +258,19 @@
 [shownametag name="大樹" visible=true]
 「いや、あれ。成瀬っすよ」[plc]
 
-[haruka_face face="jitome"]
+[strans storage="bg_fumikiri_op_dt_zoom"]
 [shownametag name="遥香" visible=true]
 「んー？」[plc]
 
 
-
+[haruka_face face="odoroki"]
 アゴで成瀬の方を指し示すと、先輩は妙な顔をした。[plc]
 
 
 [shownametag name="大樹" visible=true]
 「あれ成瀬っすよね？　こんなとこで何やって……」[plc]
 
+[strans storage="fumikiri_op_dt"]
 [haruka_stand face="raku" time="200" size="l"]
 [shownametag name="遥香" visible=true]
 「いや、成瀬じゃないわね」[plc]
@@ -281,9 +283,8 @@
 [shownametag name="遥香" visible=true]
 「だってほら、金髪じゃないじゃない」[plc]
 
-[dis_all_chara]
 
-
+[strans storage="bg_fumikiri_op_dt_zoom"]
 んな馬鹿な。[plc]
 
 
@@ -327,7 +328,7 @@
 
 やっぱ、あれは……。[plc]
 
-
+[strans storage="fumikiri_op_dt"]
 [shownametag name="大樹" visible=true]
 「……成瀬だよなぁ」[plc]
 
@@ -364,9 +365,9 @@
 
 ピタッと、歩を止めた。[plc]
 
-
+[fadebgm volume="50" time="500"]
 [shownametag name="遥香" visible=true]
-「前に行ったよね」[plc]
+「前に言ったよね」[plc]
 
 
 [shownametag name="大樹" visible=true]
@@ -393,13 +394,15 @@
 「……」[plc]
 
 
-
+[strans storage="bg_fumikiri_op_dt_zoom"]
 振り返る。[lr]
 成瀬が入っていった場所は……。[plc]
 
 [shownametag name="大樹" visible=true]
 「……障害者施設？」[plc]
 
+[fadebgm volume="100" time="500"]
+[strans storage="fumikiri_op_dt"]
 [haruka_stand face="do" size="l"]
 [shownametag name="遥香" visible=true]
 [nowait]
@@ -421,7 +424,7 @@
 
 なんて、そんな事を思い出していた。[plc]
 
-[fadeoutse time="1000"]
+[fadeoutbgm time="1000"]
 [dis_all_chara_fade_message]
 [strans storage="white" time="1000"]
 

@@ -1,5 +1,8 @@
 ;;【メッセージレイヤの初期化】
 ;;シナリオ表示前に呼び出してください。
+;;left_chara=立ち絵の消去を行わない, 1;0
+;;hide_window=メッセージウィンドウを隠す, 論理値
+;;vol_noreset=ボリュームのリセットをしない, 論理値
 [macro name="SetupMessageWindow"]
 	;全削除
 	[dis_all_message]
@@ -44,11 +47,16 @@
 	;裏にも適用
 	[backlay]
 	;BGMとSEのボリュームをもとに戻す
-	[fadebgm volume="100" time="1"]
-	[fadese volume="100" time="1"]
+	[if exp="mp.vol_noreset != 'true'"]
+		[fadebgm volume="100" time="1"]
+		[fadese volume="100" time="1"]
+	[endif]
 	;historyを有効化する
 	[history enabled="true" output="true"]
-	[kagtag left_chara=%left_chara|1]
+	[if exp="mp.hide_window == 'true'"]
+		[dis_all_message]
+	[endif]
+	[kagtag left_chara=%left_chara|1 hide_window=%hide_window vol_noreset=%vol_noreset]
 [endmacro]
 
 
@@ -186,7 +194,7 @@
 [layopt layer=7 page="back" visible="true"]
 [trans layer="base" method="crossfade" time=%time|1000]
 [wt]
-[SetupMessageWindow]
+[SetupMessageWindow vol_noreset="true"]
 [endmacro]
 
 ;;【トランジションマクロ】\n
