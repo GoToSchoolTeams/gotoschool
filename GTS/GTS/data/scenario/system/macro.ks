@@ -588,7 +588,7 @@
 ;;tere=照れてるかどうか, 論理値
 ;;visible=レイヤの可視・不可視\nlayer 属性で指定したレイヤを表示するか、しないかを指定します, 論理値
 [macro name="back_najimi_face"]
-[showbustup who="najimi" face="%face|futsu" pose="%pose|1" tere="%tere|false" visible="%visible|true"]
+[showbustup who="back_najimi" face="%face|futsu" pose="%pose|1" tere="%tere|false" visible="%visible|true"]
 [kagtag who="najimi" face="%face|futsu" pose="%pose|1" tere="%tere|false" visible="%visible|true"]
 [endmacro]
 
