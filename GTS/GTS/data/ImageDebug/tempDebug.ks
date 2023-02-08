@@ -11,7 +11,7 @@
 [strans storage="bg_naruseRoom"]
 
 
-[call target=*De]
+;[call target=*De]
 
 
 
@@ -1306,8 +1306,8 @@
 「……うん、まだいけるわ」[plc]
 
 
-*De
-[setup_debug bg="bg_naruseRoom"]
+;*De
+;[setup_debug bg="bg_naruseRoom"]
 
 
 
@@ -1333,24 +1333,25 @@
 
 
 
-屋上に行くと、予想通り、まだ先輩たちは居た。[plc]
+屋上に行くと、[lr]
+予想通り、まだ先輩たちは居た。[plc]
 
-[haruka_stand face="magao"]
-[shownametag name="遥香" visible=true]
+[haruka_stand face="odoroki" nobust="true"]
+[shownametag name="遥香" visible=true bust="false"]
 「……」[plc]
 [dis_all_chara]
 
-[najimi_new_stand face="raku" pos="l" time="200"]
-[shownametag name="縁" visible=true]
+[image storage="m_n_najimi_pose1_odoroki" layer="1" visible="true" left="-250"]
+[shownametag name="縁" visible=true bust="false"]
 「……」[plc]
 [dis_all_chara]
 
-[satori_stand face="raku" pos="r" time="200"]
-[shownametag name="悟" visible=true]
+[image storage="m_satori_pose1_odoroki" layer="1" visible="true" left="250"]
+[shownametag name="悟" visible=true bust="false"]
 「……」[plc]
 [dis_all_chara]
 
-[gaia_face face="normal"]
+[gaia_face face="odoroki"]
 [shownametag name="ガイア" visible=true]
 「……」[plc]
 
@@ -1362,7 +1363,7 @@
 
 突然の闖入者にビックリしたのか、みんな目を丸めていて。[plc]
 
-
+[haruka_stand face="odoroki" size="l"]
 [shownametag name="遥香" visible=true]
 「谷口く―」[plc]
 
@@ -1370,11 +1371,11 @@
 [shownametag name="大樹" visible=true]
 「先輩！　すみませんでした！！！」[plc]
 
-
+[dis_all_chara]
 
 有無を言わさず、土下座した。[plc]
 
-
+[haruka_face face="odoroki"]
 [shownametag name="遥香" visible=true]
 「……」[plc]
 
@@ -1382,7 +1383,7 @@
 
 先輩は、驚いているようだった。[plc]
 
-
+[najimi_new_stand face="odoroki" size="l"]
 [shownametag name="縁" visible=true]
 「……」[plc]
 
@@ -1390,6 +1391,7 @@
 
 いや、それ以上に縁が驚いている。[plc]
 
+[dis_all_chara]
 
 
 そうか、そういやそうだな、俺は……。[plc]
@@ -1402,14 +1404,13 @@
 
 方向転換し、縁に向かった。[plc]
 
-
+[najimi_new_stand face="odoroki"]
 [shownametag name="縁" visible=true]
 「……」[plc]
 
 
 [shownametag name="大樹" visible=true]
 「縁……旗立 縁さん。悪かった」[plc]
-
 
 
 アレは、完全なルール違反だな。[plc]
@@ -1419,18 +1420,21 @@
 「殴るなら、殴ってくれ」[plc]
 
 
+
+[najimi_new_stand face="akire"]
 [shownametag name="縁" visible=true]
 「……」[plc]
 
-
+[dis_all_chara]
 
 その言葉は、本当に。[lr]
 たいそう縁を驚かせたらしくて。[plc]
 
+[najimi_new_stand face="akire" tere="true" size="l"]
 [shownametag name="縁" visible=true]
 「だ、……大ちゃん」[plc]
 
-
+[dis_all_chara]
 
 フラフラと近寄ってきて。[plc]
 
@@ -1446,11 +1450,11 @@
 
 俺がちょっと身構えた事で、ハッと縁は我に返った。[plc]
 
-
+[najimi_new_stand face="do" tere="true" size="l" time="200"s]
 [shownametag name="縁" visible=true]
 「……許す」[plc]
 
-
+[dis_all_chara]
 
 一言そう言って、元に位置に戻る。[plc]
 
@@ -1466,7 +1470,7 @@
 
 さて、[plc]
 
-
+[haruka_stand face="magao"]
 [shownametag name="遥香" visible=true]
 「……」[plc]
 
@@ -1474,7 +1478,7 @@
 [shownametag name="大樹" visible=true]
 「……」[plc]
 
-
+[dis_all_chara]
 
 こっからが本番だ。[plc]
 
@@ -1482,7 +1486,7 @@
 [shownametag name="大樹" visible=true]
 「俺、無茶苦茶しました」[plc]
 
-
+[haruka_face face="magao"]
 [shownametag name="遥香" visible=true]
 「うん」[plc]
 
@@ -1490,7 +1494,7 @@
 [shownametag name="大樹" visible=true]
 「先輩裏切って、逃げました」[plc]
 
-
+[haruka_face face="magao"]
 [shownametag name="遥香" visible=true]
 「うん」[plc]
 
@@ -1498,7 +1502,7 @@
 [shownametag name="大樹" visible=true]
 「ついでに、成瀬んとこ行きました」[plc]
 
-
+[haruka_face face="magao"]
 [shownametag name="遥香" visible=true]
 「うん」[plc]
 
@@ -1506,7 +1510,7 @@
 [shownametag name="大樹" visible=true]
 「なんか、ちょっと居心地いいなぁと、思っちゃいました」[plc]
 
-
+[haruka_face face="magao"]
 [shownametag name="遥香" visible=true]
 「そうかい」[plc]
 
@@ -1514,7 +1518,7 @@
 [shownametag name="大樹" visible=true]
 「それで――えっーっと――」[plc]
 
-
+[dis_all_chara]
 
 ――ええい！　覚悟を決めんかい！！[plc]
 
@@ -1526,19 +1530,19 @@
 
 深々と、[plc]
 
-
+[haruka_face face="magao"]
 [shownametag name="遥香" visible=true]
 「……」[plc]
 
-
+[najimi_new_face face="futsu"]
 [shownametag name="縁" visible=true]
 「……」[plc]
 
-
+[satori_face face="futsu"]
 [shownametag name="悟" visible=true]
 「……」[plc]
 
-
+[gaia_face face="normal2"]
 [shownametag name="ガイア" visible=true]
 「……」[plc]
 
@@ -1546,7 +1550,7 @@
 
 おそらく、はじめて心から、[plc]
 
-
+[haruka_face face="magao"]
 [shownametag name="遥香" visible=true]
 「そっか」[plc]
 
@@ -1562,7 +1566,7 @@
 
 恐る恐る見上げると、[plc]
 
-
+[haruka_stand face="ki"]
 [shownametag name="遥香" visible=true]
 「……」[plc]
 
@@ -1574,7 +1578,7 @@
 
 ――ははは、本当に全く感情が見えないわ！！！[plc]
 
-
+[haruka_stand face="ki"]
 [shownametag name="遥香" visible=true]
 「続きは？」[plc]
 
@@ -1582,7 +1586,7 @@
 [shownametag name="大樹" visible=true]
 「へ？」[plc]
 
-
+[haruka_stand face="ki"]
 [shownametag name="遥香" visible=true]
 「縁ちゃんを見る限り、続きがあるでしょ？」[plc]
 
@@ -1590,7 +1594,7 @@
 [shownametag name="大樹" visible=true]
 「ぁ……はぁ」[plc]
 
-
+[dis_all_chara]
 
 ってーことは、やっぱり、あれなんすかね？[plc]
 
@@ -1598,11 +1602,11 @@
 [shownametag name="大樹" visible=true]
 「……な、殴っていいっすよ」[plc]
 
-
+[haruka_stand face="raku" size="l"]
 [shownametag name="遥香" visible=true]
 「よし」[plc]
 
-
+[dis_all_chara]
 
 急に感情を露わにして、先輩は腕をめくった。[plc]
 
@@ -1610,7 +1614,7 @@
 
 マジで？　めっちゃ笑顔なんすけど。[plc]
 
-
+[haruka_stand face="ki" size=l]
 [shownametag name="遥香" visible=true]
 「歯ぁ食いしばりなさい、目もつぶってね」[plc]
 
@@ -1618,7 +1622,8 @@
 [shownametag name="大樹" visible=true]
 「……」[plc]
 
-
+[dis_all_chara]
+[strans storage="bg_black" time="200"]
 
 言われたとおり目をつぶり、歯を食いしばる。[plc]
 
@@ -1626,13 +1631,15 @@
 
 ……ビンタかな？[plc]
 
+[quake time="800"]
+[strans storage="bg_sky003_day" time="200"]
 
 
 
 
 
-
-――グシャッ！;[SE]
+――グシャッ！[plc]
+;[SE]
 
 
 [shownametag name="大樹" visible=true]
@@ -1642,6 +1649,14 @@
 
 器と一緒に、鼻も壊れた気がした。[plc]
 ;[空にパンとかしたい]
+
+[fadeoutse time="1000"]
+[dis_all_chara_fade_message]
+[strans storage="white" time="1000"]
+
+[JumpChapter storage="senpai_ep_22.ks"]
+
+
 
 
 ;[謝罪編、完。『北』塔編へ]

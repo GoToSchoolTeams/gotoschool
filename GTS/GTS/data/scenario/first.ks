@@ -115,7 +115,7 @@
 
 ;起動時にウィンドウサイズをリセットする
 [iscript]
-kag.setInnerSize(1280,720);
+//kag.setInnerSize(1280,720);
 [endscript]
 
 ;title画面へ
