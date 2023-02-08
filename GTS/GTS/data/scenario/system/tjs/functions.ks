@@ -269,7 +269,7 @@ function GetStandFileInfo(who, pose, face, size, pos, tere, nopos)
 	
 	//! ポジション無視が指定されていたらleftとtopを0に
 	//! これ消すと真ん中に出ないので残す。 
-	if(nopos == "true") {
+	if(nopos == "true" || who == "satori") {
 		info["left"] = 0;
 		info["top"] = 0;
 	}

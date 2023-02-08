@@ -80,9 +80,9 @@ tf.StandTopMap["najimi"]["2"]["l"] = -219;
 
 tf.StandTopMap["satori"] = new Dictionary();
 tf.StandTopMap["satori"]["1"] = new Dictionary();
-tf.StandTopMap["satori"]["1"]["s"] = 35;
-tf.StandTopMap["satori"]["1"]["m"] = -153;
-tf.StandTopMap["satori"]["1"]["l"] = -345;
+tf.StandTopMap["satori"]["1"]["s"] = 0;
+tf.StandTopMap["satori"]["1"]["m"] = 0;
+tf.StandTopMap["satori"]["1"]["l"] = 0;
 
 tf.StandTopMap["naruse"] = new Dictionary();
 tf.StandTopMap["naruse"]["1"] = new Dictionary();

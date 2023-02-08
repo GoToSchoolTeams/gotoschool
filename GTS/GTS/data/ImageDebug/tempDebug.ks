@@ -363,8 +363,6 @@
 
 [strans storage="bg_naruseRoom"]
 
-*De
-[setup_debug bg="bg_naruseRoom"]
 
 
 ……まぁ、敵を作りまくりながら生きてそうなひとだしなぁ。[plc]
@@ -483,13 +481,14 @@
 ;[コポコポ]
 
 
+
 言いたいことは分からんでもないが、納得は出来んな。[plc]
 
 
 [shownametag name="大樹" visible=true]
 「どうぞ」[plc]
 
-[naruse_face face="futsu" pose="1"]
+[naruse_stand face="futsu" pose="1"]
 [shownametag name="成瀬" visible=true]
 「どうも」[plc]
 
@@ -497,7 +496,7 @@
 
 コイツ、自分の器はどの程度だと思ってやがるんだろうか。[plc]
 
-
+[dis_all_chara]
 
 「――こころよきかな」[plc]
 
@@ -506,10 +505,11 @@
 不意に、後ろから妙な声がかかった。[plc]
 
 
+[naruse_face face="futsu" pose="1"]
 [shownametag name="成瀬" visible=true]
 「……あら、雅じゃない」[plc]
 
-
+[miyabi_stand face="futsu" size="l"]
 [shownametag name="十二単" visible=true]
 「ごきげんなようね、なるみ」[plc]
 
@@ -525,7 +525,7 @@
 [shownametag name="大樹" visible=true]
 「……」[plc]
 
-
+[dis_all_chara]
 
 な、なにしに来やがった。[plc]
 
@@ -538,14 +538,13 @@
 後ろには、袖を持つための付き人が……。[plc]
 
 
-
 ……って、やっぱなんもかんもおかしいだろコイツ！！[plc]
 
-
+[naruse_stand face="futsu" pose="2"]
 [shownametag name="成瀬" visible=true]
 「……相変わらずの格好ねぇ」[plc]
 
-
+[dis_all_chara]
 
 呆れた調子で成瀬は言う。[lr]
 さすがの巻き髪ウンコドリルも、コイツには言っても良いと思う。[plc]
@@ -553,63 +552,66 @@
 
 その言葉は無視して、十二単は続けた。[plc]
 
-
+[miyabi_stand face="futsu"]
 [shownametag name="十二単" visible=true]
 「どうしても、先方は書類は渡したくないようでの」[plc]
 
-
+[naruse_face face="futsu" pose=2]
 [shownametag name="成瀬" visible=true]
 「……でしょうね、良いわ。ちゃんと仕入れておく。[lr]
-良ければ準備もするけれど？」[plc]
+　良ければ準備もするけれど？」[plc]
 
+
+[miyabi_stand face="futsu"]
 [shownametag name="十二単" visible=true]
 「そこまではよい」[plc]
 
 
-
+[dis_all_chara]
 言って、チラリとこちらを一瞥した。[plc]
 
-
+[miyabi_face face="futsu"]
 [shownametag name="十二単" visible=true]
 「ほんに、がんこでのう」[plc]
 
-
+[naruse_stand face="futsu"]
 [shownametag name="成瀬" visible=true]
 「はいはい、見ない見ない。彼のせいじゃないんだから」[plc]
 
-
+[miyabi_face face="futsu"]
 [shownametag name="十二単" visible=true]
 「それだけではないぞ……私は反対じゃ」[plc]
 
-
+[dis_all_chara]
 
 言って、ピッと扇子を俺に向けた。[plc]
 
-
+[miyabi_stand face="futsu" size="l"]
 [shownametag name="十二単" visible=true]
-「獅子身中の虫……ということもある。間者かもしれん」[plc]
+「獅子身中の虫……ということもある。[l]間者かもしれん」[plc]
 
-
+[naruse_stand face="futsu" pose="2" time="200"]
 [shownametag name="成瀬" visible=true]
 「はっ」[plc]
 
-
+[dis_all_chara]
 
 成瀬は、楽しげに笑った。[plc]
 
-
+[naruse_stand face="futsu"]
 [shownametag name="成瀬" visible=true]
 「無理よ、あの女……恋ヶ旗遥香程度に、[lr]
-そんなことできっこないわ」[plc]
+　そんなことできっこないわ」[plc]
 
+[naruse_stand face="hohoho"]
 [shownametag name="成瀬" visible=true]
 「まんまと踊っちゃうような、おバカさんなんですもん」[plc]
 
-
+[naruse_stand face="futsu"]
 [shownametag name="成瀬" visible=true]
 「ま、避けようは無かったけどね」[plc]
 
-
+[dis_all_chara]
 
 言い捨てるように、そう言って。[plc]
 
@@ -633,7 +635,7 @@
 
 だけど、[plc]
 
-
+[naruse_stand face="hohoho" size="l"]
 [shownametag name="成瀬" visible=true]
 「ホーッホッホッホッ！」[plc]
 
@@ -645,13 +647,13 @@
 [shownametag name="取り巻きB" visible=true bust="false"]
 「ほほほほ」[plc]
 
-
+[dis_all_chara]
 
 一週間居て、この集団の性質はよく分かった。[lr]
 だから、今はもう不思議じゃない。[plc]
 
 
-本当に、本当にこの集団は先輩が……恋ヶ旗 遥香が嫌いなんだ。[lr]
+本当に、本当にこの集団は先輩が……[l]恋ヶ旗 遥香が嫌いなんだ。[lr]
 それ以外はどうでもいいと思えるほどに、[plc]
 
 
@@ -662,6 +664,10 @@
 コイツらは、やる。[plc]
 
 
+
+
+
+[naruse_stand face="futsu" pose="1"]
 [shownametag name="成瀬" visible=true]
 「……そうでしょう、谷口君？」[plc]
 
@@ -681,11 +687,11 @@
 [shownametag name="大樹" visible=true]
 「……」[plc]
 
-
+[naruse_stand face="hohoho" pose="1" size="l"]
 [shownametag name="成瀬" visible=true]
 「ホーッホッホッホッ！」[plc]
 
-
+[dis_all_chara]
 
 慈悲の心だとか、タイミングだとか、関係ない。[plc]
 
@@ -693,7 +699,9 @@
 
 俺が、先輩の手駒だったから入れたんだ。[plc]
 
+[dis_all_chara]
 
+[miyabi_face face="futsu"]
 [shownametag name="十二単" visible=true]
 「……」[plc]
 
@@ -701,27 +709,29 @@
 
 あまりの笑いように、十二単でさえも眉を潜めている。[plc]
 
-
+[naruse_stand face="futsu"]
 [shownametag name="成瀬" visible=true]
 「あちらの調子は、どういう感じ？」[plc]
 
-
+[miyabi_face face="futsu"]
 [shownametag name="十二単" visible=true]
 「どうにもならんようだの」[plc]
 
-
+[naruse_stand face="futsu" pose="2"]
 [shownametag name="成瀬" visible=true]
 「でしょうねぇ」[plc]
+
+[dis_all_chara]
 
 
 
 ひとしきり笑っている成瀬に、[plc]
 
-
+[naruse_stand face="futsu" pose="1"]
 [shownametag name="成瀬" visible=true]
 「……谷口君、おかわりを」[plc]
 
-
+[dis_all_chara]
 [shownametag name="大樹" visible=true]
 「……」[plc]
 
@@ -730,34 +740,38 @@
 俺はもう、給仕をする気はなくて。[plc]
 
 
+[naruse_stand face="hohoho" pose="1"]
 [shownametag name="成瀬" visible=true]
 「あら、ちょっと驚いちゃったかしら」[plc]
 
-
+[dis_all_chara]
 
 そんな俺を気にもとめず、[lr]
 成瀬はご機嫌なようすでカップに自分でお茶をいれた。[plc]
 
+[naruse_face face="hohoho"]
 [shownametag name="成瀬" visible=true]
 「どう？　雅も、紅茶はいかが？」[plc]
 
-
+[miyabi_face face="futsu"]
 [shownametag name="十二単" visible=true]
 「……紅茶は日本人が飲むものではないのぉ」[plc]
 
 
+[naruse_face face="futsu" pose="2"]
 [shownametag name="成瀬" visible=true]
 「あなたはそればっかりね」[plc]
 
 
 
 ファーストネームで呼び合うコイツらは、[lr]
-見た目がへんてこだから波長が合っているのか、それとも……。[plc]
+見た目がへんてこだから波長が合っているのか、[l]それとも……。[plc]
 
+[naruse_stand face="hohoho" size=l]
 [shownametag name="成瀬" visible=true]
 「ふふふ、うふふふふ」[plc]
 
-
+[dis_all_chara]
 
 成瀬は、やたらとご機嫌で。[lr]
 だから、調子にのったのだろうか。[plc]
@@ -765,7 +779,7 @@
 
 急に、妙な事を話しだした。[plc]
 
-
+[naruse_stand face="futsu" pose=2 size="l"]
 [shownametag name="成瀬" visible=true]
 「……ねぇ、谷口君知ってる？」[plc]
 
@@ -777,27 +791,28 @@
 [shownametag name="取り巻きB" visible=true bust="false"]
 「えー、谷口君には辛くないですかぁ」[plc]
 
-
+[naruse_stand face="hohoho" pose=1 size="l"]
 [shownametag name="成瀬" visible=true]
 「いいじゃないの、もう関係ないんだし」[plc]
 
-
+[miyabi_face face="futsu"]
 [shownametag name="十二単" visible=true]
 「……あまり、耳に良い話ではないの」[plc]
 
-
+[naruse_face face="hohoho"]
 [shownametag name="成瀬" visible=true]
 「いいじゃない、雅も聞きなさいよ」[plc]
 
-
+[dis_all_chara]
 
 なんだ？　何を話す気だ？　コイツ。[plc]
 
 
+[naruse_stand face="futsu" pose="2" size="l"]
 [shownametag name="成瀬" visible=true]
 「あいつねぇ、恋ヶ旗遥香はねぇ――」[plc]
 
-
+[naruse_stand face="hohoho" pose="1" size="l" time="200"]
 [shownametag name="成瀬" visible=true]
 「――負け犬なのよ！」[plc]
 
@@ -808,23 +823,25 @@
 
 [shownametag name="成瀬" visible=true]
 「知ってる？　知らないわよねぇ、[lr]
-あの女が言うはず無いものねぇ」[plc]
+　あの女が言うはず無いものねぇ」[plc]
 
+[naruse_stand face="futsu" pose="2" size="l" time="200"]
 [shownametag name="成瀬" visible=true]
 「あの女、最初っからこの学校に居たんじゃないの。[lr]
-途中で転校してきたのよ。別の学校から……それも学年の途中に」[plc]
+　途中で転校してきたのよ。別の学校から[l]……それも学年の途中に」[plc]
 
+[naruse_stand face="hohoho" pose="1" size="l" time="200"]
 [shownametag name="成瀬" visible=true]
 「何でだと思う？　……気になる？　気になるでしょ」[plc]
 
-
+[dis_all_chara]
 
 『興味ねぇ』と言って、ぶん殴ってやれば良かったのか。[plc]
 
-
+[naruse_stand face="futsu" pose="2" size="l" time="200"]
 [shownametag name="成瀬" visible=true]
 「逃げてきたのよあの女は……前の学校で……。[lr]
-いじめられたかどうなんだかしらないけどね……」[plc]
+　いじめられたかどうなんだかしらないけどね……」[plc]
 
 [shownametag name="成瀬" visible=true]
 「耐えられなくて、逃げ出したの」[plc]
@@ -832,19 +849,22 @@
 
 [shownametag name="成瀬" visible=true]
 「なんか、自分のお姉さんと随分比べられちゃったらしくてね。[lr]
-すごい人なんだってさ……ま、きっとたかがしれてるわ」[plc]
+　すごい人なんだってさ……ま、きっとたかがしれてるわ」[plc]
 
+[naruse_stand face="futsu" pose="1" size="l" time="200"]
 [shownametag name="成瀬" visible=true]
 「ま、とにかく……お姉さんへのコンプレックスの塊でねぇ。[lr]
-来たばっかりの頃は、逐一姉がどうとか言ってたわ」[plc]
+　来たばっかりの頃は、逐一姉がどうとか言ってたわ」[plc]
 
 [shownametag name="成瀬" visible=true]
 「それで、それでよ……笑ちゃうでしょ、そんな負け犬が。[lr]
-逃げてきた分際で、あの態度よ」[plc]
+　逃げてきた分際で、あの態度よ」[plc]
 
+[naruse_stand face="hohoho" pose="1" size="l" time="200"]
 [shownametag name="成瀬" visible=true]
 「だーれも、知らないと思っちゃって！　ほんと、笑えるわ！！」[plc]
 
+[dis_all_chara]
 
 
 最高に面白い、という態度で、成瀬は言う。[plc]
@@ -853,19 +873,20 @@
 
 周りも笑っていて。[plc]
 
-
+[miyabi_stand face="futsu" size="l"]
 [shownametag name="十二単" visible=true]
 「……」[plc]
-
+[dis_all_chara]
 
 
 十二単はまぁ、不快そうに鼻を鳴らしていたけど。[plc]
 
-
+[naruse_face face="hohoho"]
 [shownametag name="成瀬" visible=true]
 「ねぇ、谷口君。さっき、器の話したでしょ？[lr]
-私、あの話大好きなんだけど」[plc]
+　私、あの話大好きなんだけど」[plc]
 
+[dis_all_chara]
 
 完全に崩れた口調で、成瀬は続ける。[plc]
 
@@ -881,15 +902,16 @@
 
 だって、おめぇは――[plc]
 
-
+[naruse_stand face="futsu" size="l" pose="2"]
 [shownametag name="成瀬" visible=true]
 「あれって、恋ヶ旗遥香にピッタリだと思わない？[lr]
-ほんとそのままよ！　何処に行ったって一緒なのよあの女は！！」[plc]
+[naruse_stand face="hohoho" size="l" pose=1 time="200"]
+　ほんとそのままよ！　何処に行ったって一緒なのよあの女は！！」[plc]
 
 
 ――最高に器が小せぇからな！[plc]
 
-
+[dis_all_chara]
 
 気づくと、[plc]
 
@@ -897,15 +919,16 @@
 [shownametag name="大樹" visible=true]
 「おい、」[plc]
 
-
+[naruse_face face="hohoho"]
 [shownametag name="成瀬" visible=true]
 「え？」[plc]
 
-
+[quake time="200"]
 [shownametag name="大樹" visible=true]
 「おい、こら巻き髪ウンコ」[plc]
 ;[グイッ]
 
+[naruse_face face="futsu" pose="2"]
 [shownametag name="成瀬" visible=true]
 「イタッ！　痛たっ！！　ちょ―」[plc]
 
@@ -923,20 +946,30 @@
 
 
 [shownametag name="大樹" visible=true]
-「他人の器を語る前に自分の器を知れよ！
-器からウンコが漏れだしてんぞ、オラァッ！！」[plc]
+「他人の器を語る前に自分の器を知れよ！[lr]
+[quake time="200"]
+　器からウンコが漏れだしてんぞ、オラァッ！！」[plc]
 
 [shownametag name="成瀬" visible=true]
 「痛い痛い痛い！！」[plc]
 
+[shownametag name="大樹" visible=true]
+「お前が先輩を―」[plc]
 
 
-癇癪を起こして、感情がコントロール出来なくなったら暴力。[lr]
-これはイケないことなんだけどなぁ。[plc]
+;[回想]
+[strans storage="bg_black" time="200"]
 
+[najimi_stand face="do" nobust="true"]
+[shownametag name="縁" visible=true bust="false"]
+[nowait]
+「癇癪を起こして、感情がコントロール出来なくなったら暴力―」[plc]
 
-やぁー困った困った。[plc]
+[dis_all_chara]
 
+[strans storage="bg_naruseRoom" time="200"]
+
+……ちっ。[plc]
 
 
 ――ドサッ！！[plc]
@@ -983,15 +1016,16 @@
 知ったことかよ。[plc]
 
 [shownametag name="大樹" visible=true]
-「収まってる量に収めてりゃ、そりゃ文句もねぇさ！
-文句ねぇけど、だからなんだ！！？」[plc]
+「収まってる量に収めてりゃ、そりゃ文句もねぇさ！[lr]
+　文句ねぇけど、だからなんだ！！？」[plc]
 
 [shownametag name="大樹" visible=true]
-「もっとデカイもん収めたかったら、どうすりゃいんだよ！！！　世の中、そんなもんばっかりだっていうのに！！！」[plc]
+「もっとデカイもん収めたかったら、どうすりゃ良いんだよ！！！[lr]
+　世の中、そんなもんばっかりだっていうのに！！！」[plc]
 
 [shownametag name="大樹" visible=true]
-「なら、ぶっこむしかねぇだろうが！
-漏れたって、逃げちまったってぶっこむしかねぇんだ！！！」[plc]
+「なら、ぶっこむしかねぇだろうが！[lr]
+　漏れたって、逃げちまったってぶっこむしかねぇんだ！！！」[plc]
 
 [shownametag name="大樹" visible=true]
 「ぶっ壊すしかねーんだ！！！」[plc]
@@ -1006,7 +1040,7 @@
 
 
 
-んなこた最初っから分かってたんだよ、[lr]
+んなこた最初っから分かってたんだよ。[lr]
 漏れるもんを突っ込まれてたってのは、最初っから知ってんだ。[plc]
 
 
@@ -1014,19 +1048,19 @@
 逃げちまうからってさ。[plc]
 
 
-もういいだろ？　って。もういいですよね？　って。[lr]
-そんなんなるわけねーんだよ！！！[plc]
+もういいだろ？　って。[l]もういいですよね？　って。[lr]
+そんな風になるわけねーんだよ！！！[plc]
 
 
 頑張りましたよねって、頑張ったからいいよねって、[lr]
-なるわけねーんだ。なるわけねーんだよ。[plc]
+なるわけねーんだ。[l]なるわけないんだよ。[plc]
 
 
 頑張ったからって、逃げちまったら、逃げたままじゃ。[plc]
 
 
-
-なんにもがんばってねーんだよ！！！[plc]
+[nowait]
+なんにもがんばってないんだよ！！！[plc]
 
 
 
@@ -1034,12 +1068,12 @@
 
 
 [shownametag name="大樹" visible=true]
-「ぶっ壊さなきゃイケねーんだよ！
-ぶっ壊さなきゃ、器を大きく出来ねーんだよ！！」[plc]
+「ぶっ壊さなきゃイケねーんだよ！[lr]
+　ぶっ壊さなきゃ、器を大きく出来ねーんだよ！！」[plc]
 
 [shownametag name="大樹" visible=true]
 「器がちいさぇなら、[lr]
-ツギハギダラケででかくしなきゃいけねぇーんだ！！！」[plc]
+　ツギハギダラケででかくしなきゃいけねぇーんだ！！！」[plc]
 
 [shownametag name="大樹" visible=true]
 「じゃないと――」[plc]
@@ -1048,12 +1082,12 @@
 
 じゃないと！[plc]
 
-
+[quake time="200"]
 [shownametag name="大樹" visible=true]
 「――また、逃げちまうだろうが！！」[plc]
 
 
-[shownametag name="成瀬" visible=true]
+[shownametag name="成瀬" visible=true bust="false"]
 「……」[plc]
 
 
@@ -1061,13 +1095,60 @@
 叫びを叩きつけると、成瀬は震えていた。[lr]
 恐怖を露わにして、震えていて。[plc]
 
+[strans storage="bg_black" time="200"]
 
-それは、やっぱり先輩とは似ても似つかなくて。[plc]
+それは、[l]
+[haruka_stand face="ki" nobust="true"]
+
+やっぱり先輩とは似ても似つかなくて。[plc]
+
+
 ;[無感情の先輩のフラッシュバック]
+;[松戸さん演出お願いします！]
+
+[strans storage="bg_naruseRoom" time="200"]
+
+
+それで、随分と冷静になった。[plc]
 
 [shownametag name="大樹" visible=true]
-「……ハッ」[plc]
+「…………はぁ。くそ」[plc]
 
+なんだ……なにやってんだろ、俺。[plc]
+
+[shownametag name="成瀬" visible=true bust="false"]
+「……」[plc]
+
+そりゃ、腹立たしいけど。[lr]
+許せないくらい愚弄された気分だけど。[plc]
+
+仮にも、[plc]
+
+[strans storage="bg_bookoff" time="200"]
+[wait time="200"]
+[naruse_stand face="futsu" pose="2" nobust="true"]
+[wait time="300"]
+[naruse_stand face="futsu" nobust="true"]
+[wait time="300"]
+[naruse_stand face="hohoho" nobust="true"]
+[wait time="600"]
+[strans storage="bg_naruseRoom" time="200"]
+
+
+お世話になった相手だろうに。[plc]
+
+
+[shownametag name="大樹" visible=true]
+「……ぁー、あの」[plc]
+
+[shownametag name="成瀬" visible=true bust="false"]
+「……ﾋッ」[plc]
+
+成瀬はすっかり怯えてしまっていた。[plc]
+
+
+[shownametag name="大樹" visible=true]
+「……」[plc]
 
 
 綺麗だなぁ……綺麗なもんだ、コイツ。[plc]
@@ -1086,13 +1167,14 @@
 
 
 [shownametag name="大樹" visible=true]
-「……」[plc]
+「……よいしょっと」[plc]
 
 
 
-パンパンと、手を払う。[lr]
-見回すと、おいおい全員震えてんよ。[plc]
+パンパンと、手を払って立ち上がる。[lr]
+見回すと、おいおい全員震えてるじゃねーか。[plc]
 
+[miyabi_stand face="futsu" size="l"]
 [shownametag name="十二単" visible=true]
 「……」[plc]
 
@@ -1100,32 +1182,40 @@
 
 おぉ、コイツは違うみたいだな。[plc]
 
+[dis_all_chara]
 
 [shownametag name="大樹" visible=true]
 「……おっと」[plc]
 
 
 
-いつの間にか握りしめていたポットを、テーブルに置く。[plc]
+いつの間にか握りしめていたポットを、[lr]
+テーブルに置く。[plc]
 
 
-
+[quake time="200"]
 ――ドンッ！[plc]
 
+丁寧に置いたつもりが、随分荒々しくなってしまった。[plc]
 
-[shownametag name="成瀬" visible=true]
-「……」[plc]
+
+[naruse_face pose="2" face="futsu"]
+[shownametag name="成瀬" visible=true bust="false"]
+「……うぅ」[plc]
 ;[ビクッ]
 
 
-座り込んでいた成瀬は、ビクンと跳ねて頭を抱えた。[plc]
+座り込んでいた成瀬は、[l]ビクンと跳ねて頭を抱える。[plc]
+
+あーぁ。[lr]
+もうこうなったらしょうがねーか。[plc]
 
 
 [shownametag name="大樹" visible=true]
-「大好きな紅茶ですよ。成瀬、『先輩』」[plc]
+「お世話になりました。[l]成瀬、[l]『先輩』」[plc]
 
 
-[shownametag name="成瀬" visible=true]
+[shownametag name="成瀬" visible=true bust="false"]
 「……」[plc]
 
 
@@ -1156,11 +1246,11 @@
 
 一同に背を向けると、[plc]
 
-
+[miyabi_stand face="futsu" size=l]
 [shownametag name="十二単" visible=true]
 「……壊した器、誰もがつながるとは限らない」[plc]
 
-
+[dis_all_chara]
 
 んな事を言われて。[plc]
 
@@ -1168,7 +1258,7 @@
 [shownametag name="大樹" visible=true]
 「知ってるよ」[plc]
 
-
+[miyabi_stand face="futsu" size=l]
 [shownametag name="十二単" visible=true]
 「壊すのは簡単で」[plc]
 
@@ -1176,11 +1266,11 @@
 [shownametag name="大樹" visible=true]
 「そーだねー」[plc]
 
-
+[miyabi_stand face="futsu" size=l time="200"]
 [shownametag name="十二単" visible=true]
 「直すのは――」[plc]
 
-
+[dis_all_chara]
 
 『――あなかたし』[plc]
 
@@ -1193,14 +1283,9 @@
 思わず振り返ってしまう。[plc]
 
 
-[shownametag name="大樹" visible=true]
-「……」[plc]
+……いや、[l]正直、言葉の意味が分からなかった。[plc]
 
-
-
-……いや、正直、言葉の意味が分からなかった。[plc]
-
-
+[miyabi_face face="futsu"]
 [shownametag name="十二単" visible=true]
 「難しい」[plc]
 
@@ -1221,6 +1306,10 @@
 「……うん、まだいけるわ」[plc]
 
 
+*De
+[setup_debug bg="bg_naruseRoom"]
+
+
 
 俺は走りだして。[plc]
 
@@ -1231,9 +1320,11 @@
 
 
 ;[場面転換、屋上]
-
-
-
+[dis_all_message_fade time=400]
+[strans storage="bg_black" time="400"]
+[wait time="400"]
+[strans storage="bg_okujo_m" time="400"]
+[show_message_fade time="400"]
 
 
 
@@ -1244,19 +1335,22 @@
 
 屋上に行くと、予想通り、まだ先輩たちは居た。[plc]
 
-
+[haruka_stand face="magao"]
 [shownametag name="遥香" visible=true]
 「……」[plc]
+[dis_all_chara]
 
-
+[najimi_new_stand face="raku" pos="l" time="200"]
 [shownametag name="縁" visible=true]
 「……」[plc]
+[dis_all_chara]
 
-
+[satori_stand face="raku" pos="r" time="200"]
 [shownametag name="悟" visible=true]
 「……」[plc]
+[dis_all_chara]
 
-
+[gaia_face face="normal"]
 [shownametag name="ガイア" visible=true]
 「……」[plc]
 
