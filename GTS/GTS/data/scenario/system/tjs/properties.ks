@@ -136,6 +136,22 @@ tf.StandTopMap["miyabi"]["1"]["s"] = 200;
 tf.StandTopMap["miyabi"]["1"]["m"] = 160;
 tf.StandTopMap["miyabi"]["1"]["l"] = 120;
 
+//nopos=true�̏ꍇ(byMahiro)
+tf.StandTopMap["nopos"] = new Dictionary();
+tf.StandTopMap["nopos"]["1"] = new Dictionary();
+tf.StandTopMap["nopos"]["2"] = new Dictionary();
+tf.StandTopMap["nopos"]["3"] = new Dictionary();
+tf.StandTopMap["nopos"]["1"]["s"] = 0;
+tf.StandTopMap["nopos"]["1"]["m"] = 0;
+tf.StandTopMap["nopos"]["1"]["l"] = 0;
+tf.StandTopMap["nopos"]["2"]["s"] = 0;
+tf.StandTopMap["nopos"]["2"]["m"] = 0;
+tf.StandTopMap["nopos"]["2"]["l"] = 0;
+tf.StandTopMap["nopos"]["3"]["s"] = 0;
+tf.StandTopMap["nopos"]["3"]["m"] = 0;
+tf.StandTopMap["nopos"]["3"]["l"] = 0;
+
+
 tf.StandPositionMap = new Dictionary();
 tf.StandPositionMap["s"] = new Dictionary();
 tf.StandPositionMap["s"]["l"] = 10;

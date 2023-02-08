@@ -237,10 +237,20 @@ function GetStandFileInfo(who, pose, face, size, pos, tere, nopos)
 	//! 名前と渡された情報から表示すべき立ち絵にまつわる全情報を計算
 	//! left = 位置/位置の分割数 * ( (画面横サイズ - 2マージン) - 立ち絵の横サイズ ) - 立ち絵の余白 + マージン
 	var left = tf.StandLeftParam;
-	var tops = tf.StandTopMap[who];
+	//var tops = tf.StandTopMap[who];
+	var tops;
+	//noposなら、leftとtopを0にした辞書を受け取る
+	//でないと、n_najimiみたいな名前にした際に辞書にないのでエラーが出る。
+	if(nopos == "true")
+	{
+		tops = tf.StandTopMap["nopos"];
+	} else {
+		tops = tf.StandTopMap[who];
+	}
 	var mag = tf.PosToNum[pos] / (left["split"] - 1);
 	var rect = tf.RectSize - (left["margin"] * 2);
 	var pos_left = (rect - left[size]["width"]) * mag - left[size]["space"] + left["margin"];
+
 	
 	//! top = 画像ごとに違うので計算済み(ポーズ、サイズ別)
 	var pos_top = tops[pose][size];
@@ -258,6 +268,7 @@ function GetStandFileInfo(who, pose, face, size, pos, tere, nopos)
 	var info = %["file"=>filename.toLowerCase(), "left"=>pos_left, "top"=>pos_top];
 	
 	//! ポジション無視が指定されていたらleftとtopを0に
+	//! これ消すと真ん中に出ないので残す。 
 	if(nopos == "true") {
 		info["left"] = 0;
 		info["top"] = 0;

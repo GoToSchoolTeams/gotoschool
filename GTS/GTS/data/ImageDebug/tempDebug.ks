@@ -373,8 +373,7 @@
 [shownametag name="成瀬" visible=true]
 「ところで、その後どう？　クラスの方は」[plc]
 
-;[najimi_new_stand face="ai"]
-[showstandimage who="n_najimi" face=do pose="1" nopos="true"]
+[najimi_new_stand face="ai"]
 
 [shownametag name="大樹" visible=true]
 「え、あ、はい……何事も無く」[plc]
