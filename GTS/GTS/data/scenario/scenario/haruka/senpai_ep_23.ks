@@ -958,7 +958,7 @@
 ;[回想]
 [strans storage="bg_black" time="200"]
 
-[najimi_stand face="do" nobust="true"]
+[old_najimi_stand face="do" nobust="true"]
 [shownametag name="縁" visible=true bust="false"]
 [nowait]
 「癇癪を起こして、感情がコントロール出来なくなったら暴力―」[plc]
@@ -1381,7 +1381,7 @@
 
 先輩は、驚いているようだった。[plc]
 
-[najimi_new_stand face="odoroki" size="l"]
+[old_najimi_new_stand face="odoroki" size="l"]
 [shownametag name="縁" visible=true]
 「……」[plc]
 
@@ -1402,7 +1402,7 @@
 
 方向転換し、縁に向かった。[plc]
 
-[najimi_new_stand face="odoroki"]
+[old_najimi_new_stand face="odoroki"]
 [shownametag name="縁" visible=true]
 「……」[plc]
 
@@ -1419,7 +1419,7 @@
 
 
 
-[najimi_new_stand face="akire"]
+[old_najimi_new_stand face="akire"]
 [shownametag name="縁" visible=true]
 「……」[plc]
 
@@ -1428,7 +1428,7 @@
 その言葉は、本当に。[lr]
 たいそう縁を驚かせたらしくて。[plc]
 
-[najimi_new_stand face="akire" tere="true" size="l"]
+[old_najimi_new_stand face="akire" tere="true" size="l"]
 [shownametag name="縁" visible=true]
 「だ、……大ちゃん」[plc]
 
@@ -1448,7 +1448,7 @@
 
 俺がちょっと身構えた事で、ハッと縁は我に返った。[plc]
 
-[najimi_new_stand face="do" tere="true" size="l" time="200"s]
+[old_najimi_new_stand face="do" tere="true" size="l" time="200"s]
 [shownametag name="縁" visible=true]
 「……許す」[plc]
 
@@ -1532,7 +1532,7 @@
 [shownametag name="遥香" visible=true]
 「……」[plc]
 
-[najimi_new_face face="futsu"]
+[old_najimi_new_face face="futsu"]
 [shownametag name="縁" visible=true]
 「……」[plc]
 

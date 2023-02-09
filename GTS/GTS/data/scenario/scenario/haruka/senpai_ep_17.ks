@@ -61,7 +61,7 @@
 
 [dis_all_chara]
 
-[najimi_face face="futsu"]
+[old_najimi_face face="futsu"]
 [shownametag name="縁" visible=true]
 「……」[plc]
 
@@ -254,7 +254,7 @@
 [shownametag name="遥香" visible=true]
 「……は？」[plc]
 
-[najimi_stand face="jitome" size="l"]
+[old_najimi_stand face="jitome" size="l"]
 [shownametag name="縁" visible=true]
 「無知ね」[plc]
 
@@ -264,7 +264,7 @@
 横から現れた縁がストレートに俺を罵倒した。[plc]
 
 
-[najimi_stand face="metoji" size="m"]
+[old_najimi_stand face="metoji" size="m"]
 [shownametag name="縁" visible=true]
 「普段から何も考えてないから、いつまで経っても無知なのよ」[plc]
 
@@ -280,7 +280,7 @@
 [shownametag name="大樹" visible=true]
 「来たんですか、旗立 縁 さん」[plc]
 
-[najimi_face face="metoji"]
+[old_najimi_face face="metoji"]
 [shownametag name="縁" visible=true]
 「来ましたよ、谷口 大樹 くん」[plc]
 
@@ -305,7 +305,7 @@
 [shownametag name="遥香" visible=true]
 「はい、縁ちゃん。お茶」[plc]
 
-[najimi_face face="raku"]
+[old_najimi_face face="raku"]
 [shownametag name="縁" visible=true]
 「ありがとうございます」[plc]
 
@@ -318,7 +318,7 @@
 [shownametag name="遥香" visible=true]
 「……縁ちゃんの弁当、やっぱり美味しそうだね」[plc]
 
-[najimi_face face="raku"]
+[old_najimi_face face="raku"]
 [shownametag name="縁" visible=true]
 「いえ、自炊に慣れてるだけですよ」[plc]
 
@@ -334,7 +334,7 @@
 [shownametag name="遥香" visible=true]
 「いっこ貰っていい？」[plc]
 
-[najimi_face face="raku"]
+[old_najimi_face face="raku"]
 [shownametag name="縁" visible=true]
 「どうぞ」[plc]
 
@@ -343,7 +343,7 @@
 [shownametag name="大樹" visible=true]
 「……」[plc]
 
-[najimi_stand face="metoji" size="l" time="200"]
+[old_najimi_stand face="metoji" size="l" time="200"]
 [shownametag name="縁" visible=true]
 「……あんたもいる？」[plc]
 
@@ -365,7 +365,7 @@
 舌打ちして先輩の弁当をかっ込む。[plc]
 
 
-[najimi_stand face="futsu" size="m"]
+[old_najimi_stand face="futsu" size="m"]
 [shownametag name="縁" visible=true]
 「……」[plc]
 
@@ -401,7 +401,7 @@
 
 慣れてしまったのか、先輩は無関心で。[plc]
 
-[najimi_stand face="metoji" size="l" time="200"]
+[old_najimi_stand face="metoji" size="l" time="200"]
 [shownametag name="縁" visible=true]
 「……じゃんけんは、担当する学校行事を決めるために行うのよ」[plc]
 
@@ -418,7 +418,7 @@
 「そう……この選挙活動もそうだけど、[lr]
 　この学校は学校行事を生徒に任せたがる」[plc]
 
-[najimi_stand face="futsu" size="l" time="200"]
+[old_najimi_stand face="futsu" size="l" time="200"]
 [shownametag name="縁" visible=true]
 「夏に、２つ。でっかいイベントがあるのは知ってるわね？」[plc]
 
@@ -435,7 +435,7 @@
 
 と言っても、[plc]
 
-[najimi_stand face="metoji" size="l" time="200"]
+[old_najimi_stand face="metoji" size="l" time="200"]
 [shownametag name="縁" visible=true]
 「夏期講習期間中にやる、あの馬鹿げたイベントよ」[plc]
 
@@ -459,7 +459,7 @@
 
 だからフケましたけどね。[plc]
 
-[najimi_stand face="futsu" size="m" time="200"]
+[old_najimi_stand face="futsu" size="m" time="200"]
 [shownametag name="縁" visible=true]
 「あのあと、生徒会選挙の投票やるじゃない？」[plc]
 
@@ -473,7 +473,7 @@
 
 [shownametag name="縁" visible=true]
 「つまり、あれ。選挙活動の一貫なのよ。[lr]
-[najimi_stand face="metoji" size="m" time="200"]
+[old_najimi_stand face="metoji" size="m" time="200"]
 　ま、知ってるでしょうけどね」[plc]
 
 [dis_all_chara]
@@ -491,7 +491,7 @@
 [shownametag name="大樹" visible=true]
 「……」[plc]
 
-[najimi_stand face="jitome" size="l" time="200"]
+[old_najimi_stand face="jitome" size="l" time="200"]
 [shownametag name="縁" visible=true]
 「……あんた、本当に学校きてた？」[plc]
 
@@ -503,7 +503,7 @@
 
 俺の表情で全てわかったらしい縁は、深くため息を付いた。[plc]
 
-[najimi_face face="jitome"]
+[old_najimi_face face="jitome"]
 [shownametag name="縁" visible=true]
 「……あのね」[plc]
 
@@ -512,7 +512,7 @@
 「そこからは、私が説明するわ。[r]
 　縁ちゃんご飯食べれなくなるよ」[plc]
 
-[najimi_face face="futsu"]
+[old_najimi_face face="futsu"]
 [shownametag name="縁" visible=true]
 「ぁ……お願いします」[plc]
 
@@ -700,7 +700,7 @@
 「……よくこれで学校からのストップが入らないっすねぇ。[lr]
 　俺達、絶対失敗しそうなのに」[plc]
 
-[najimi_stand face="futsu"]
+[old_najimi_stand face="futsu"]
 [shownametag name="縁" visible=true]
 「それも折り込み済みの行事だからよ」[plc]
 
@@ -708,12 +708,12 @@
 
 疑問を口にすると、弁当を食べ終わっていた縁が答えた。[plc]
 
-[najimi_stand face="futsu"]
+[old_najimi_stand face="futsu"]
 [shownametag name="縁" visible=true]
 「……実際、両方成功する年は殆ど無いわ。[lr]
 　両方失敗する年もあるくらい」[plc]
 
-[najimi_stand face="metoji"]
+[old_najimi_stand face="metoji"]
 [shownametag name="縁" visible=true]
 「失敗して情けない姿を晒すのも、教育だってことらしいわ」[plc]
 [dis_all_chara]
@@ -729,12 +729,12 @@
 [shownametag name="大樹" visible=true]
 「全部自己責任かよ」[plc]
 
-[najimi_stand face="futsu"]
+[old_najimi_stand face="futsu"]
 [shownametag name="縁" visible=true]
 「そうね。両方失敗してまともなイベントにありつけなかったら、[lr]
 　まともな候補を選べなかった一般生徒の責任ってとこよ」[plc]
 
-[najimi_stand face="metoji"]
+[old_najimi_stand face="metoji"]
 [shownametag name="縁" visible=true]
 「だから、無難にこなすのが普通だし。[lr]
 　無難にこなしただけで十分だったりするわ」[plc]
@@ -777,7 +777,7 @@
 [shownametag name="大樹" visible=true]
 「？」[plc]
 
-[najimi_stand face="futsu" size="l"]
+[old_najimi_stand face="futsu" size="l"]
 [shownametag name="縁" visible=true]
 「スポーツイベントは運動部が協力し、文化イベントは[r]
 　文化部が協力する……っていうのが、例年通りの流れよ」[plc]
@@ -805,18 +805,18 @@
 [shownametag name="大樹" visible=true]
 「……文化イベントが有利なんじゃね？」[plc]
 
-[najimi_stand face="futsu" size="m"]
+[old_najimi_stand face="futsu" size="m"]
 [shownametag name="縁" visible=true]
 「そうね、発表の場がそこしかない人達もいるからやる気が違う。[lr]
 　毎年変わらず『文化祭』をやってるってのも大きい」[plc]
 
 
-[najimi_stand face="metoji" size="m"]
+[old_najimi_stand face="metoji" size="m"]
 [shownametag name="縁" visible=true]
 「スポーツイベントは毎年、『球技大会』になったり[r]
 　『ダンス大会』になったりで安定してない」[plc]
 
-[najimi_stand face="futsu" size="m"]
+[old_najimi_stand face="futsu" size="m"]
 [shownametag name="縁" visible=true]
 「さっきも言ったけど、失敗しないことの方が大事だから……。[lr]
 　単純に参加者が慣れてるほうが有利だわ」[plc]
@@ -852,7 +852,7 @@
 「……一応、もしスポーツイベントになった時のために、[lr]
 　運動部とはずっと交流してきたんだけど」[plc]
 
-[najimi_face face="futsu"]
+[old_najimi_face face="futsu"]
 [shownametag name="縁" visible=true]
 「……あんたの嫌われ方が酷くてね」[plc]
 
@@ -864,7 +864,7 @@
 
 だろうなぁ……脳筋さんには洒落がきかないから。[plc]
 
-[najimi_face face="metoji"]
+[old_najimi_face face="metoji"]
 [shownametag name="縁" visible=true]
 「加えて、文化部とは疎遠になってしまいましたしね」[plc]
 
@@ -881,7 +881,7 @@
 [shownametag name="遥香" visible=true]
 「ま、文化イベント自体はアタリだから」[plc]
 
-[najimi_face face="futsu"]
+[old_najimi_face face="futsu"]
 [shownametag name="縁" visible=true]
 「それは、そうなんですが」[plc]
 
@@ -1044,7 +1044,7 @@
 [shownametag name="取り巻きB" visible=true bust="false"]
 「素晴らしいですわ！」[plc]
 
-[najimi_stand face="ikari" time="200"]
+[old_najimi_stand face="ikari" time="200"]
 [shownametag name="縁" visible=true]
 「……じゃんけんは、あっけないもんでしょうが」[plc]
 
@@ -1111,7 +1111,7 @@
 [shownametag name="遥香" visible=true]
 「……」[plc]
 
-[najimi_stand face="odoroki" size=l]
+[old_najimi_stand face="odoroki" size=l]
 [shownametag name="縁" visible=true]
 「……」[plc]
 

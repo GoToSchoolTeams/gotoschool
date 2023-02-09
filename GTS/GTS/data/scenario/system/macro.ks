@@ -822,12 +822,12 @@
 
 ;;[oldâè]
 [macro name="old_najimi_stand"]
-[showstandimage who="old_najimi" pose="%pose|1"  face="%face|futsu" size="%size|m" nobust="%nobust|false" tere="%tere|false" pos="%pos|c" layer="%layer|0" page="%page|back" notrans="%notrans|false" time="%time|400" visible="%visible|true"  nopos="%nopos|true"]
-[kagtag who="old_najimi" pose="%pose|1"  face="%face|futsu" size="%size|m" nobust="%nobust|false" tere="%tere|false" pos="%pos|c" layer="%layer|0" page="%page|back" notrans="%notrans|false" time="%time|400" visible="%visible|true"  nopos="%nopos|true"]
+[showstandimage who="old_najimi" pose="%pose|1"  face="%face|futsu" size="%size|m" nobust="%nobust|false" tere="%tere|false" pos="%pos|c" layer="%layer|0" page="%page|back" notrans="%notrans|false" time="%time|400" visible="%visible|true"  nopos="%nopos|false"]
+[kagtag who="old_najimi" pose="%pose|1"  face="%face|futsu" size="%size|m" nobust="%nobust|false" tere="%tere|false" pos="%pos|c" layer="%layer|0" page="%page|back" notrans="%notrans|false" time="%time|400" visible="%visible|true"  nopos="%nopos|false"]
 [endmacro]
 [macro name="najimi_new_face"]
-[showbustup who="old_najimi" face="%face|futsu" pose="%pose|1" tere="%tere|false" visible="%visible|true"]
-[kagtag who="old_najimi" face="%face|futsu" pose="%pose|1" tere="%tere|false" visible="%visible|true"]
+[showbustup who="old_najimi" face="%face|futsu" pose="%pose|1" tere="%tere|false" visible="%visible|false"]
+[kagtag who="old_najimi" face="%face|futsu" pose="%pose|1" tere="%tere|false" visible="%visible|false"]
 [endmacro]
 
 ;EOF

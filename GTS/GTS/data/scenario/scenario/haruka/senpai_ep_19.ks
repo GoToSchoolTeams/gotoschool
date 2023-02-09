@@ -85,7 +85,7 @@
 あれ？[lr]
 これは、思ってたよりは好感触？[plc]
 
-[najimi_face face="metoji" time="200"]
+[old_najimi_face face="metoji" time="200"]
 [shownametag name="縁" visible=true]
 「……ふん」[plc]
 
@@ -163,7 +163,7 @@
 [shownametag name="大樹" visible=true]
 「……」[plc]
 
-[najimi_face face="metoji"]
+[old_najimi_face face="metoji"]
 [shownametag name="縁" visible=true]
 「……」[plc]
 
@@ -191,7 +191,7 @@
 
 全然、反応が無い。[plc]
 
-[najimi_face face="ikari"]
+[old_najimi_face face="ikari"]
 [shownametag name="縁" visible=true]
 「……やっぱり」[plc]
 
@@ -262,7 +262,7 @@
 [shownametag name="遥香" visible=true]
 「……」[plc]
 
-[najimi_face face="metoji"]
+[old_najimi_face face="metoji"]
 [shownametag name="縁" visible=true]
 「……」[plc]
 
@@ -411,7 +411,7 @@
 [miyabi_stand face="futsu" size="l" time="200" nobust="true"]
 アレに反応するなっていうのか！[plc]
 
-[najimi_face face="metoji"]
+[old_najimi_face face="metoji"]
 [shownametag name="縁" visible=true]
 「……」[plc]
 
@@ -440,7 +440,7 @@
 [shownametag name="ガイア" visible=true]
 「というか、兄弟……今まで知らなかったのか？」[plc]
 
-[najimi_face face="jitome"]
+[old_najimi_face face="jitome"]
 [shownametag name="縁" visible=true]
 「無知ね」[plc]
 
@@ -530,7 +530,7 @@
 
 妙な単語を紡がずに、十二単はハッキリ言った。[plc]
 
-[najimi_stand face="odoroki" time="200"]
+[old_najimi_stand face="odoroki" time="200"]
 [shownametag name="縁" visible=true]
 「……っ」[plc]
 
@@ -582,7 +582,7 @@
 [shownametag name="遥香" visible=true]
 「……」[plc]
 
-[najimi_face face="odoroki"]
+[old_najimi_face face="odoroki"]
 [shownametag name="縁" visible=true]
 「……」[plc]
 
@@ -612,7 +612,7 @@
 
 残った文化部連中は、本気のようだった。[plc]
 
-[najimi_stand face="do" size="l" time="200"]
+[old_najimi_stand face="do" size="l" time="200"]
 [shownametag name="縁" visible=true]
 「そんなこと、できるわけ――」[plc]
 

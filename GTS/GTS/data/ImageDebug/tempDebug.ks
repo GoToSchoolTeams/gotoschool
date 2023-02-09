@@ -13,14 +13,7 @@
 
 ;[call target=*De]
 
-001[plc]
-[strans storage="_taiikukan" method="universal" rule="001"]
-002[plc]
-[strans storage="bg_naruseRoom" method="universal" rule="002"]
-003[plc]
-[strans storage="_taiikukan" method="universal" rule="003"]
-004[plc]
-[strans storage="bg_naruseRoom" method="universal" rule="004"]
+[old_najimi_stand face=futsu]
 
 
 

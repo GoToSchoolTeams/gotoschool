@@ -77,6 +77,16 @@ tf.StandTopMap["najimi"]["1"]["l"] = -221;
 tf.StandTopMap["najimi"]["2"]["s"] = 46;
 tf.StandTopMap["najimi"]["2"]["m"] = -88;
 tf.StandTopMap["najimi"]["2"]["l"] = -219;
+//old
+tf.StandTopMap["old_najimi"] = new Dictionary();
+tf.StandTopMap["old_najimi"]["1"] = new Dictionary();
+tf.StandTopMap["old_najimi"]["2"] = new Dictionary();
+tf.StandTopMap["old_najimi"]["1"]["s"] = 47;
+tf.StandTopMap["old_najimi"]["1"]["m"] = -128;
+tf.StandTopMap["old_najimi"]["1"]["l"] = -221;
+tf.StandTopMap["old_najimi"]["2"]["s"] = 46;
+tf.StandTopMap["old_najimi"]["2"]["m"] = -88;
+tf.StandTopMap["old_najimi"]["2"]["l"] = -219;
 
 tf.StandTopMap["satori"] = new Dictionary();
 tf.StandTopMap["satori"]["1"] = new Dictionary();
