@@ -40,7 +40,7 @@
 
 [strans storage="artroom_dt"]
 
-[najimi_face face="futsu"]
+[old_najimi_face face="futsu"]
 [shownametag name="縁" visible=true]
 「今日は、」[plc]
 
@@ -182,7 +182,7 @@
 
 
 
-[najimi_stand face="futsu" size="l"]
+[old_najimi_stand face="futsu" size="l"]
 [shownametag name="縁" visible=true]
 「……ちょっと」[plc]
 
@@ -195,7 +195,7 @@
 
 いつものご機嫌伺いに行く途中、縁に呼び止められた。[plc]
 
-[najimi_stand face="metoji"]
+[old_najimi_stand face="metoji"]
 [shownametag name="縁" visible=true]
 「どこいくのよ」[plc]
 
@@ -203,7 +203,7 @@
 [shownametag name="大樹" visible=true]
 「わかってんだろうが、挨拶まわりだよ」[plc]
 
-[najimi_stand face="futsu"]
+[old_najimi_stand face="futsu"]
 [shownametag name="縁" visible=true]
 「どこに？」[plc]
 
@@ -247,7 +247,7 @@
 
 自然、一番使えない俺が使いっ走りをする事になる。[plc]
 
-[najimi_stand face="ikari"]
+[old_najimi_stand face="ikari"]
 [shownametag name="縁" visible=true]
 「……」[plc]
 
@@ -267,7 +267,7 @@
 
 無視して歩き出す。[plc]
 
-[najimi_stand face="do"]
+[old_najimi_stand face="do"]
 [shownametag name="縁" visible=true]
 「方向が逆よ」[plc]
 
@@ -393,7 +393,7 @@
 
 
 [SetupMessageWindow]
-[najimi_stand face="ikari" size="l"]
+[old_najimi_stand face="ikari" size="l"]
 [shownametag name="縁" visible=true]
 「……あんた、サボってたでしょ？」[plc]
 
@@ -434,7 +434,7 @@
 
 なんだかもう全部めんどくさくなった。[plc]
 
-[najimi_stand face="do" size="l"]
+[old_najimi_stand face="do" size="l"]
 [shownametag name="縁" visible=true]
 「悪びれもなく」[plc]
 
@@ -477,7 +477,7 @@
 [shownametag name="大樹" visible=true]
 「疲れたよ！　俺、もう疲れた！！」[plc]
 
-[najimi_stand face="do" size="l"]
+[old_najimi_stand face="do" size="l"]
 [shownametag name="縁" visible=true]
 「疲れてんのは―」[plc]
 
@@ -491,7 +491,7 @@
 「そんな悪い？　俺、そんな悪いか？？[lr]
 　やっても無駄な事やらなくて、本当すみませんでしたね！」[plc]
 
-[najimi_stand face="ikari" size="l"]
+[old_najimi_stand face="ikari" size="l"]
 [shownametag name="縁" visible=true]
 「……」[plc]
 
@@ -643,7 +643,7 @@
 
 先輩の表情は、全く変化がなくて。[plc]
 
-[najimi_stand face="metoji"]
+[old_najimi_stand face="metoji"]
 [shownametag name="縁" visible=true]
 「……呆れるわ」[plc]
 
@@ -651,12 +651,12 @@
 
 小さく、縁が呟いた。[plc]
 
-[najimi_stand face="futsu"]
+[old_najimi_stand face="futsu"]
 [shownametag name="縁" visible=true]
 「自分の非を……嘆いて、泣いて、媚びて。[lr]
 　……まったく向きあおうともしないなんて」[plc]
 
-[najimi_stand face="do"]
+[old_najimi_stand face="do"]
 [shownametag name="縁" visible=true]
 「それが通らないと、癇癪を起こして、[lr]
 　感情がコントロール出来なくなったら暴力」[plc]
@@ -664,7 +664,7 @@
 
 その表情は、[plc]
 
-[najimi_stand face="futsu"]
+[old_najimi_stand face="futsu"]
 [shownametag name="縁" visible=true]
 「酷い」[plc]
 
@@ -700,7 +700,7 @@
 
 ガシッと、縁の肩を掴んだ。[plc]
 
-[najimi_stand face="ikari" size="l"]
+[old_najimi_stand face="ikari" size="l"]
 [shownametag name="縁" visible=true]
 「……」[plc]
 

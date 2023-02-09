@@ -1381,7 +1381,7 @@
 
 先輩は、驚いているようだった。[plc]
 
-[old_najimi_new_stand face="odoroki" size="l"]
+[najimi_stand face="odoroki" size="l"]
 [shownametag name="縁" visible=true]
 「……」[plc]
 
@@ -1402,7 +1402,7 @@
 
 方向転換し、縁に向かった。[plc]
 
-[old_najimi_new_stand face="odoroki"]
+[najimi_stand face="odoroki"]
 [shownametag name="縁" visible=true]
 「……」[plc]
 
@@ -1419,7 +1419,7 @@
 
 
 
-[old_najimi_new_stand face="akire"]
+[najimi_stand face="akire"]
 [shownametag name="縁" visible=true]
 「……」[plc]
 
@@ -1428,7 +1428,7 @@
 その言葉は、本当に。[lr]
 たいそう縁を驚かせたらしくて。[plc]
 
-[old_najimi_new_stand face="akire" tere="true" size="l"]
+[najimi_stand face="akire" tere="true" size="l"]
 [shownametag name="縁" visible=true]
 「だ、……大ちゃん」[plc]
 
@@ -1448,7 +1448,7 @@
 
 俺がちょっと身構えた事で、ハッと縁は我に返った。[plc]
 
-[old_najimi_new_stand face="do" tere="true" size="l" time="200"s]
+[najimi_stand face="do" tere="true" size="l" time="200"s]
 [shownametag name="縁" visible=true]
 「……許す」[plc]
 
@@ -1532,7 +1532,7 @@
 [shownametag name="遥香" visible=true]
 「……」[plc]
 
-[old_najimi_new_face face="futsu"]
+[najimi_face face="futsu"]
 [shownametag name="縁" visible=true]
 「……」[plc]
 
