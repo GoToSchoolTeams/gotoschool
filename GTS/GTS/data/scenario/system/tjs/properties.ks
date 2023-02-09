@@ -209,7 +209,7 @@ tf.TabInfo = new TabInfo();
 //------------------
 tf.eyeInfo = new Array();
 tf.eyeInfo[0] = %["fg"=>"s_gaia_pose1_egao.png", "bg"=>"eyelevel_gaia.png"];
-tf.eyeInfo[1] = %["fg"=>"s_gaia_yosyouki_pose1_chinsyaku.png", "bg"=>"eyelevel_gaia_yousyouki.png"];
+tf.eyeInfo[1] = %["fg"=>"s_gaia_kids_pose1_chinsyaku.png", "bg"=>"eyelevel_gaia_yousyouki.png"];
 tf.eyeInfo[2] = %["fg"=>"s_haruka_pose1_ai.png", "bg"=>"eyelevel_haruka_pose1.png"];
 tf.eyeInfo[3] = %["fg"=>"s_haruka_pose2_ai.png", "bg"=>"eyelevel_harula_pose2.png"];
 tf.eyeInfo[4] = %["fg"=>"s_mash_pose1_doya.png", "bg"=>"eyelevel_masshu.png"];
