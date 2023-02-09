@@ -557,8 +557,8 @@
 ;;visible=レイヤの可視・不可視\nlayer 属性で指定したレイヤを表示するか、しないかを指定します, 論理値
 ;;nopos=ポジションを適用しない, 論理値
 [macro name="najimi_stand"]
-[showstandimage who="n_najimi" pose="%pose|1"  face="%face|futsu" size="%size|m" nobust="%nobust|false" tere="%tere|false" pos="%pos|c" layer="%layer|0" page="%page|back" notrans="%notrans|false" time="%time|400" visible="%visible|true"  nopos="%nopos|true"]
-[kagtag who="n_najimi" pose="%pose|1"  face="%face|futsu" size="%size|m" nobust="%nobust|false" tere="%tere|false" pos="%pos|c" layer="%layer|0" page="%page|back" notrans="%notrans|false" time="%time|400" visible="%visible|true"  nopos="%nopos|true"]
+[showstandimage who="najimi" pose="%pose|1"  face="%face|futsu" size="%size|m" nobust="%nobust|false" tere="%tere|false" pos="%pos|c" layer="%layer|0" page="%page|back" notrans="%notrans|false" time="%time|400" visible="%visible|true"  nopos="%nopos|true"]
+[kagtag who="najimi" pose="%pose|1"  face="%face|futsu" size="%size|m" nobust="%nobust|false" tere="%tere|false" pos="%pos|c" layer="%layer|0" page="%page|back" notrans="%notrans|false" time="%time|400" visible="%visible|true"  nopos="%nopos|true"]
 [endmacro]
 
 ;;【追加マクロ(byMahiro)】
@@ -569,8 +569,8 @@
 ;;visible=レイヤの可視・不可視\nlayer 属性で指定したレイヤを表示するか、しないかを指定します, 論理値
 ;;nopos=ポジションを適用しない, 論理値
 [macro name="najimi_face"]
-[showbustup who="n_najimi" face="%face|futsu" pose="%pose|1" tere="%tere|false" visible="%visible|true"]
-[kagtag who="n_najimi" face="%face|futsu" pose="%pose|1" tere="%tere|false" visible="%visible|true"]
+[showbustup who="najimi" face="%face|futsu" pose="%pose|1" tere="%tere|false" visible="%visible|true"]
+[kagtag who="najimi" face="%face|futsu" pose="%pose|1" tere="%tere|false" visible="%visible|true"]
 [endmacro]
 
 ;;【追加マクロ(byMahiro)】
