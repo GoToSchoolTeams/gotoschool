@@ -35,7 +35,7 @@
 [eval exp="Storages.addAutoPath('image/message/')"]
 [eval exp="Storages.addAutoPath('image/old_system/')"]
 [eval exp="Storages.addAutoPath('image/message_face/')"]
-[eval exp="Storages.addAutoPath('image/message_face/old/')"]
+[eval exp="Storages.addAutoPath('image/message_face/0_face_old/')"]
 
 ;立ち絵
 [eval exp="Storages.addAutoPath('fgimage/haruka/')"]
@@ -53,14 +53,21 @@
 [eval exp="Storages.addAutoPath('fgimage/satoshi/')"]
 [eval exp="Storages.addAutoPath('fgimage/mikuriya/')"]
 [eval exp="Storages.addAutoPath('fgimage/sakurako/')"]
-[eval exp="Storages.addAutoPath('fgimage/old/')"]
+[eval exp="Storages.addAutoPath('fgimage/0_fg_old/')"]
 
 ;背景
 [eval exp="Storages.addAutoPath('bgimage/event_cg/')"]
 [eval exp="Storages.addAutoPath('bgimage/tuning/')"]
-[eval exp="Storages.addAutoPath('bgimage/bg_old/')"]
-[eval exp="Storages.addAutoPath('bgimage/bg_old/event_cg/')"]
-[eval exp="Storages.addAutoPath('bgimage/bg_old/tuning/')"]
+[eval exp="Storages.addAutoPath('bgimage/0_bg_old/')"]
+[eval exp="Storages.addAutoPath('bgimage/0_bg_old/event_cg/')"]
+[eval exp="Storages.addAutoPath('bgimage/0_bg_old/tuning/')"]
+
+;BGM
+[eval exp="Storages.addAutoPath('bgm/0_bgm_old/')"]
+
+;Sound
+[eval exp="Storages.addAutoPath('sound/0_se_old/')"]
+
 
 ;ImageDebug用(by Mahiro)
 ;dataフォルダのImageDebugに素材もスクリプトも全部あります。（後で消しやすいよう）
