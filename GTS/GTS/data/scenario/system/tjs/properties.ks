@@ -100,11 +100,11 @@ tf.StandTopMap["gaia"]["1"]["s"] = 40;
 tf.StandTopMap["gaia"]["1"]["m"] = -117;
 tf.StandTopMap["gaia"]["1"]["l"] = -273;
 
-tf.StandTopMap["gaia_you"] = new Dictionary();
-tf.StandTopMap["gaia_you"]["1"] = new Dictionary();
-tf.StandTopMap["gaia_you"]["1"]["s"] = -45;
-tf.StandTopMap["gaia_you"]["1"]["m"] = -319;
-tf.StandTopMap["gaia_you"]["1"]["l"] = -598;
+tf.StandTopMap["gaia_kids"] = new Dictionary();
+tf.StandTopMap["gaia_kids"]["1"] = new Dictionary();
+tf.StandTopMap["gaia_kids"]["1"]["s"] = -45;
+tf.StandTopMap["gaia_kids"]["1"]["m"] = -319;
+tf.StandTopMap["gaia_kids"]["1"]["l"] = -598;
 
 tf.StandTopMap["mash"] = new Dictionary();
 tf.StandTopMap["mash"]["1"] = new Dictionary();
