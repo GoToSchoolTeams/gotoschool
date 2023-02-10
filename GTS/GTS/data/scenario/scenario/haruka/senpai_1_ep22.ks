@@ -1117,7 +1117,7 @@
 [shownametag name="成瀬" visible=true bust="false"]
 「……」[plc]
 
-そりゃ、腹立たしいけど。[lr]
+そりゃ、腹立たしいさ。[lr]
 許せないくらい愚弄された気分だけど。[plc]
 
 仮にも、[plc]
