@@ -258,7 +258,7 @@
 
 
 朝起きたら、先輩がチャリの後部座席に座っていた。[plc]
-[JumpChapter storage="senpai_ep_8.ks"]
+[JumpChapter storage="senpai_1_ep2.ks"]
 
 
 ;[→朝の風景]

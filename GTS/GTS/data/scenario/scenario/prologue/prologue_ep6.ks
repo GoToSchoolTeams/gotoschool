@@ -576,4 +576,4 @@
 ;[¨Šç–Ê‚¨‚ë‚µ‚ÍƒƒŠ‚Ì–¡
 @strans storage="black" time="800"
 @fadeoutbgm time="2000"]
-[JumpChapter storage="prologue_ep_7.ks"]
+[JumpChapter storage="prologue_ep7.ks"]

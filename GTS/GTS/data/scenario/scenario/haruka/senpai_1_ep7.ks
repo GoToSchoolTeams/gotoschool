@@ -328,7 +328,7 @@
 [fadeoutbgm time="1000"]
 [dis_all_chara_fade_message]
 [strans storage="white" time="1000"]
-[JumpChapter storage="senpai_ep_11.ks"]
+[JumpChapter storage="senpai_1_ep8_akane.ks"]
 
 
 ;[¨à“¾¸”s]

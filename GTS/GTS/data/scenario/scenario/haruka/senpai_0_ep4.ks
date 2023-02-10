@@ -564,4 +564,4 @@
 
 [fadeoutbgm time="1000"]
 [strans storage="white" time="1000"]
-[JumpChapter storage="senpai_ep_5.ks"]
+[JumpChapter storage="senpai_0_ep5.ks"]

@@ -178,5 +178,5 @@
 [wt]
 [fadebgm volume=100 time=1]
 [dis_all_chara_fade]
-[JumpChapter storage="senpai_ep_3.ks"]
+[JumpChapter storage="senpai_0_ep6.ks"]
 ;［→【前】迷いのドリル］

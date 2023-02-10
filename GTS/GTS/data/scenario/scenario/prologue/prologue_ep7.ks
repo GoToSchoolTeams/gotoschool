@@ -446,5 +446,6 @@
 
 
 ;[¨Šç–Ê‚¨‚ë‚µ‚ÍƒƒŠ‚Ì–¡]
-@fadeoutbgm time="1500"
-[JumpChapter storage="common_ep_6.ks"]
+@strans storage="black" time="800"
+@fadeoutbgm time="2000"]
+[JumpChapter storage="prologue_ep8.ks"]

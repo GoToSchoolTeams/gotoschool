@@ -671,7 +671,7 @@
 [dis_all_chara_fade_message]
 [strans storage="white" time="1000"]
 
-[JumpChapter storage="senpai_ep_11.ks"]
+[JumpChapter storage="senpai_1_ep12_najimi.ks"]
 
 
 ;[¨à“¾¸”siŠø—§ ‰j]

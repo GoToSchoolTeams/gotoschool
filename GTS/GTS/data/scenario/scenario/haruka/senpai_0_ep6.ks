@@ -81,4 +81,4 @@
 
 *all
 [fadeoutbgm time="1000"]
-[JumpChapter storage="senpai_ep_7.ks"]
+[JumpChapter storage="senpai_1_ep1.ks"]

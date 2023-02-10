@@ -334,7 +334,7 @@
 [dis_all_chara_fade_message]
 [strans storage="white" time="1000"]
 
-[JumpChapter storage="senpai_ep_19.ks"]
+[JumpChapter storage="senpai_1_ep18.ks"]
 
 
 

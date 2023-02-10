@@ -459,7 +459,7 @@
 [fadeoutbgm time="2000"]
 [strans storage="white" time="2000"]
 [stopquake]
-[JumpChapter storage="senpai_ep_3.ks"]
+[JumpChapter storage="senpai_0_ep3.ks"]
 ;[‰æ–Ê‚ğ·‘å‚É—h‚ç‚·]
 
 ;[¨µ‚©‚ê‚´‚éÒ_Œã•Ò]

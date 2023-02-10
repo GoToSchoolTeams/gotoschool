@@ -534,4 +534,4 @@
 
 ;[ŠÔŒo‰ß]
 [wipe storage="seitokai"]
-[JumpChapter storage="senpai_ep_4.ks"]
+[JumpChapter storage="senpai_0_ep4.ks"]

@@ -746,5 +746,5 @@
 Š£‚¢‚½–Ø‹›‚Ì—l‚È‰õ‰¹‚ªAt‚Ì‹ó‚É‹¿‚¢‚½B[plc]
 
 
-[JumpChapter storage="senpai_ep_10.ks"]
+[JumpChapter storage="senpai_1_ep4.ks"]
 ;[¨’‹‚Ìà‹³]

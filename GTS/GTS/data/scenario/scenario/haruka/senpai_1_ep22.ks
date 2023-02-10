@@ -1652,7 +1652,7 @@
 [dis_all_chara_fade_message]
 [strans storage="white" time="1000"]
 
-[JumpChapter storage="senpai_ep_24.ks"]
+[JumpChapter storage="senpai_2_ep1.ks"]
 
 
 

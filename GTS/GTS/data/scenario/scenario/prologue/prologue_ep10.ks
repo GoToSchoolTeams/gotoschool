@@ -947,7 +947,7 @@
 [strans storage="white" time="5000"]
 [fadeoutbgm time="5000"]
 [wt]
-[JumpChapter storage="senpai_ep_1.ks"]
+[JumpChapter storage="senpai_0_ep1.ks"]
 
 ;[¨OP]
 

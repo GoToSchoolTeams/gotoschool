@@ -1182,7 +1182,7 @@
 [dis_all_chara_fade_message]
 [strans storage="white" time="1000"]
 
-[JumpChapter storage="senpai_ep_14.ks"]
+[JumpChapter storage="senpai_1_ep13.ks"]
 
 [auto
 ;[¨‰‚Ì˜ü–]

@@ -265,6 +265,6 @@
 
 *AllClear
 [SetupBrunch name="prologue_ep_11_1"]
-[AddBrunch text="Šø—§ ‰" storage="senpai_ep_13.ks"]
+[AddBrunch text="Šø—§ ‰" storage="senpai_1_ep6_miyuki.ks"]
 [ShowBrunch]
 [s]

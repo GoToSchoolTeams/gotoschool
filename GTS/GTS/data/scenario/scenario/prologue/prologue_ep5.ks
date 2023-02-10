@@ -405,4 +405,4 @@
 
 
 @fadeoutbgm time="1500"
-[JumpChapter storage="prologue_ep_6.ks"]
+[JumpChapter storage="prologue_ep6.ks"]

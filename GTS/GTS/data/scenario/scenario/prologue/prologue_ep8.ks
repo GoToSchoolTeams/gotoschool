@@ -314,9 +314,9 @@
 やたら甲高い悲鳴を聞きながら、[lr]
 俺はその名前が付けられた時を思い返していた。[plc]
 
-@fadeoutbgm time="3000"
-@strans storage="black" time="3000"
-@JumpChapter storage="prologue_ep_8.ks"
+@strans storage="black" time="800"
+@fadeoutbgm time="2000"]
+[JumpChapter storage="prologue_ep9.ks"]
 ;[回想に入るような演出]
 ;[→春風と共に]
 

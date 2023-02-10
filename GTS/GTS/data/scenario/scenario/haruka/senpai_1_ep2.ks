@@ -1284,6 +1284,6 @@
 
 [fadeoutse time="1000"]
 [strans storage="white"]
-[JumpChapter storage="senpai_ep_9.ks"]
+[JumpChapter storage="senpai_1_ep3.ks"]
 ;[¨‚¢‚Â‚Ô‚è‚ÌŠwZ]
 

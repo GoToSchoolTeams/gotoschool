@@ -689,7 +689,7 @@
 [dis_all_chara_fade_message]
 [strans storage="white" time="1000"]
 
-[JumpChapter storage="senpai_ep_20.ks"]
+[JumpChapter storage="senpai_1_ep19.ks"]
 
 
 
