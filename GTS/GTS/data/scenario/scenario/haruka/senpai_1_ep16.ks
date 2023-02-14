@@ -1062,19 +1062,18 @@
 
 ま、これで俺達はスポーツイベントになるなぁ。[lr]
 先輩が言ってた交流とやらがどこまで影響するか――。[plc]
-
+[fadebgm volume="50" time="800"]
 [naruse_stand face="futsu"]
 [shownametag name="成瀬" visible=true]
 「そうですね、私達は[l]
 [naruse_stand face="hohoho"]
 ――スポーツイベントの方をやりますわ！」[plc]
 
-[fadebgm volume="50" time="800"]
 [shownametag name="大樹" visible=true]
 「――！？」[plc]
 [dis_all_chara]
 
-
+[fadebgm volume="100" time="800"]
 なに、なんだと。いまコイツなんて言った？[plc]
 
 
