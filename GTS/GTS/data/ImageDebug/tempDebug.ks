@@ -57,10 +57,12 @@
 ガイアが長々と解説し終わる頃には、[lr]
 俺達は部活『北』塔についていた。そして、[plc]
 
+[dis_all_chara]
+
 
 ;[場面転換、部活『北』塔]
-
-
+[strans storage="bg_kitaRouka"]
+[SetupMessageWindow]
 
 絶句した。[plc]
 
