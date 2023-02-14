@@ -913,10 +913,6 @@
 「……」[plc]
 
 
-
-*debug
-[setup_debug bg="okujo_m" bgm="chill"]
-
 こっちに関しては、[lr]
 いまさら焦ったところでどうしようもないようだった。[plc]
 
