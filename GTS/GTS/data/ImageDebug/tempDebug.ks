@@ -8,1132 +8,751 @@
 [nowait]
 ;[playse storage="chaim_far_single" ]
 
-[strans storage="seitokai"]
+[strans storage="bg_black"]
 
 
-[call target=*De]
+;[call target=*De]
 
 
 
-[gaia_stand face="komari" size="l"]
+
+『部活塔』……とは、旧校舎の事だ。[plc]
+
+
+
+戦前に建てられた木造校舎だが、[lr]
+耐震補強も行って、今でもこの学校では現役で使われている。[plc]
+
+
+と言っても普段の授業では使わずに、主に倉庫だとか部活動のための部室として使われているらしい。[plc]
+
+
+なので、『部活塔』。[plc]
+
+
+
+新校舎は部活塔を覆うように建っており、[lr]
+普通に各階の渡り廊下で渡れる。[plc]
+
+
+だから『旧校舎』とは言ってもそんなにアングラな感じではない。[lr]
+ない……のだが、それは部活『南』塔の話らしい。[plc]
+
+
+渡り廊下が南側からしか入れないようになっており、[lr]
+かつ、旧校舎の中にさらに渡り廊下がある。[plc]
+
+
+だから『北』側は行くだけで結構面倒くさい。[plc]
+
+
+
+そのため地位の高い部活ほど『南』に集まり、地位の低い部活……特に文化部のあまり活動してない部活は『北』へ。[plc]
+
 [shownametag name="ガイア" visible=true]
-「……なぁ、兄弟。俺は謝られてない気がするんだが」[plc]
-
-[dis_all_chara]
-
-久しぶりの会議の第一声は、[l]そんなどうでもいいものだった。[plc]
+「……つまりは、ゴミ溜めだな」[plc]
 
 
-[shownametag name="大樹" visible=true]
-「うるせぇな。今大事な話をしてんだろうが、黙ってろよ」[plc]
 
-[gaia_stand face="komari" size="m"]
-[shownametag name="ガイア" visible=true]
-「いや、これも相当に結構大事な話だと思うんだが」[plc]
+ガイアが長々と解説し終わる頃には、[lr]
+俺達は部活『北』塔についていた。そして、[plc]
 
 
-[gaia_stand face="serious" size="m" time="200"]
-[shownametag name="ガイア" visible=true]
-「かなり本気めに殴られたしな、今回は」[plc]
+;[場面転換、部活『北』塔]
 
 
-ちっ、鬱陶しい男だな。[plc]
+
+絶句した。[plc]
 
 
 [shownametag name="大樹" visible=true]
 「……」[plc]
 
-[gaia_stand face="serious" size="m" time="200"]
-[shownametag name="ガイア" visible=true]
-「……」[plc]
-[dis_all_chara]
-
-[shownametag name="大樹" visible=true]
-「………………悪かったよ」[plc]
 
 
+こ、これは……。[plc]
+;[se:ゲーッゲッゲッ　BGMはもちろん、スラムだよスラム]
 
-どうにかこうにか、そう口にする。[plc]
-
-
-[shownametag name="大樹" visible=true]
-「これで文句ねぇだろ？」[plc]
-
-
-
-顎をしゃくってやると、尚も不満そうだった。[plc]
-
-[gaia_stand face="komari" size="m" time="200"]
-[shownametag name="ガイア" visible=true]
-「………………ま、兄弟にしては譲歩したほうか」[plc]
-
-
-
-うるせぇよ。[plc]
-[dis_all_chara]
-
-
-[haruka_face face="do"]
 [shownametag name="遥香" visible=true]
-「はいはい、ちゃんと集中して！」[plc]
+「……」[plc]
+
+
+[shownametag name="縁" visible=true]
+「……」[plc]
+
+
+[shownametag name="悟" visible=true]
+「……へ、へぇ？」[plc]
 
 
 
-先輩が手を叩いて、俺とガイアの戯言を止めた。[plc]
+先輩と縁も、『聞いてはいたが』という顔で絶句している。[lr]
+悟に至っては、もう涙目だ。[plc]
+
+[shownametag name="ガイア・マッシュ・オルテガ" visible=true bust="false"]
+「「「……」」」[plc]
+
+
+
+慣れているのか、三匹はすました顔だが……。[plc]
 
 
 [shownametag name="大樹" visible=true]
-「ほーら、お前のせいで怒られたじゃねーか」[plc]
+「……」[plc]
 
-[gaia_stand face="serious" time="200"]
+
+
+お、おい……なんだよ、なんだよココはよ？[lr]
+ここは本当に学校の中なのかよ！！？[plc]
+
 [shownametag name="ガイア" visible=true]
-「……世知辛い」[plc]
+「驚いたか、兄弟？」[plc]
 
-[mash_stand face="doya" layer="1" pos="l" time="200"]
+
+
+そら、驚くよ！　だって、お前、壁には落書きばっかりだし！
+窓ガラスは殆ど割れて黒いビニール袋で補強されてるし！！[plc]
+
+
+いや、ここまでなら、まだいい……。[lr]
+まだ県下一の不良高校とかでありえるレベルだ。[plc]
+
+
+だけど、[plc]
+
+
+[shownametag name="大樹" visible=true]
+「あれ……」[plc]
+
+
+
+おそるおそる指差した先では、[lr]
+『ヒャッハー』な連中がドラム缶に火を焚いて踊っている。[plc]
+
+[shownametag name="大樹" visible=true]
+「室内だぞ？」[plc]
+
+
+[shownametag name="ガイア" visible=true]
+「……ああ、『奇行部』か。大丈夫だ。今日は世紀末らしいな」[plc]
+
+
 [shownametag name="マッシュ" visible=true]
-「佐様」[plc]
+「明日には違うことやってるでござる」[plc]
 
-[orutega_stand face="normal2" layer="2" pos="r" time="200"]
+
 [shownametag name="オルテガ" visible=true]
-「ニャリ☆」[plc]
-
-[dis_all_chara]
-
-
-テキトーにガイアの話を流して、先輩の話に集中する。[plc]
-
-
-
-結局あの後[l]……先輩に鼻をへし折られた後。[plc]
-
-
-
-なんだかんだで許してもらって、俺達は会議室に集まっていた。[lr]
-勿論、もう放課後になっているが。[plc]
-
-
-
-
-
-
-;[SE:なんか音]
-
-
-
+「髪型も変わるニャリ☆」[plc]
 
 
 [shownametag name="大樹" visible=true]
-「……」[plc]
+「いや、おい、奇行部って―」[plc]
+
+
+[shownametag name="浮浪者っぽい生徒" visible=true bust="false"]
+「……んひぃ！？　こ、これは…」[plc]
 
 
 
-成瀬陣営が荒れている音が校舎を超えて聞こえてくるが、[lr]
-気にしない。[plc]
+俺が叫びだすより先に、北塔の入り口付近で蹲っていた浮浪者のような男子生徒が立ち上がった。[plc]
+
+[shownametag name="浮浪者っぽい生徒" visible=true bust="false"]
+「ぉひ、おんな……女の匂ひだぁ！」[plc]
 
 
 
-
-[haruka_stand face="kuno"]
-[shownametag name="遥香" visible=true]
-「ま、私らがうまくいかないのも[l]
-[haruka_stand face="keibetsu" time="200"]
-……谷口君が逃げちゃったのも」[plc]
-
-[haruka_stand face="ai"]
-[shownametag name="遥香" visible=true time="200"]
-「結局、見通しが甘かったってことだよね」[plc]
-
-
-[shownametag name="遥香" visible=true time="200"]
-「時間が立てば、説得できるんじゃと思ってたけど」[plc]
-
-[haruka_stand face="kuno"]
-[shownametag name="遥香" visible=true time="200"]
-「谷口君の話じゃ、無理そうだしねぇ」[plc]
-
-[dis_all_chara]
-
+ピョーンと飛び上がると、[lr]
+カエルのような体勢で俺達の前に着地する。[plc]
 
 [shownametag name="大樹" visible=true]
-「……」[plc]
+「！！！？」[plc]
 
 
 
-まぁ、無理だろうな。[lr]
-ちゃんと結託してるって感じだったからな。[plc]
+こ、こいつ……左右の目の大きさが違う。[plc]
 
 
-先輩が嫌いとか、俺がどうとか、っていうレベルでなく、[lr]
-しっかりメリットがある取引……って感じだった。[plc]
+[shownametag name="浮浪者っぽい生徒" visible=true bust="false"]
+「しかも、この匂ひ……お、おまえぇ……」[plc]
 
-[najimi_face  face="futsu"]
-[shownametag name="縁" visible=true]
-「……となると、こっちもメリットを出さないといけませんね」[plc]
 
-[haruka_stand face="kuno"]
-[shownametag name="遥香" visible=true]
-「だけどねぇ……メリットってねぇ。[lr]
-　実弾バラ撒くわけにもいかないしねぇ」[plc]
-
-[shownametag name="大樹" visible=true]
-「実弾？」[plc]
-
-[haruka_stand face="raku" time="200"]
-[shownametag name="遥香" visible=true]
-「現金の事だよ」[plc]
-
-[dis_all_chara]
-
-そりゃぁ、たしかに無理だ。[lr]
-学校の選挙だし。[plc]
-
-[satori_stand face="odoroki" size="l"]
 [shownametag name="悟" visible=true]
-「たれ蔵先輩は本当に無知なんですねぇ」[plc]
+「ひ……ぁわわぁ！？」[plc]
 
 
 
-しんそこ感心した顔で、悟が言う。[plc]
+悟の方を指さすと、ニヤッと歪な顔で笑った。[plc]
+
+
+[shownametag name="浮浪者っぽい生徒" visible=true bust="false"]
+「――まだキテないなぁぁあああああッ！！」[plc]
+
+
+[shownametag name="悟" visible=true]
+「――ひぃいいいいいいいいいいいいいっ！！！？」[plc]
+
+
+
+;[音と演出]
+
+
+
+逃げ出す悟を追って、[lr]
+浮浪者のような男子生徒はそのまま駆けて行った。[plc]
+
+
+四足で。[plc]
+
+
+[shownametag name="大樹" visible=true]
+「――――っ！？」[plc]
+
+
+
+――ハ！？　しまった！！
+あまりの出来事に呆気にとられてしまった！！！[plc]
+
+[shownametag name="縁" visible=true]
+「ぁ」[plc]
+
+
+[shownametag name="遥香" visible=true]
+「いけない、追わないと！」[plc]
+
+
+
+それは先輩たちも同じだったようで、[lr]
+慌てて悟を追おうとすると、呼び止められた。[plc]
+
+[shownametag name="" visible=true bust="false"]
+「その必要はないよ、恋ヶ旗 遥香さん」[plc]
+
+
+
+それは、[plc]
+
+
+[shownametag name="大樹" visible=true]
+「……お前、」[plc]
+
+
+
+あんときの。[plc]
+
+
+[shownametag name="ロン毛" visible=true bust="false"]
+「――ジャジャジャ、ジャーン！」[plc]
+
+
+
+弦の無いギターを自分の口で掻き鳴らして、[lr]
+ロン毛の男は片目でウィンクをしてみせるのだった。[plc]
+
+
+
+
+
+
+;[場面転換、時間経過]
+
+
+
+
+
+
+[shownametag name="大樹" visible=true]
+「お前」[plc]
+
+
+
+それは、あの時の。[lr]
+文化部からの協力を断られた時にいたロン毛だった。[plc]
+
+[shownametag name="ロン毛" visible=true bust="false"]
+「――ボン、ボロボロボロ、ボーン！」[plc]
+
+
+
+尚も、男は口でギターを掻き鳴らす。[plc]
+
+
+
+いや、手も動いちゃいるのだが、[plc]
 
 
 [shownametag name="大樹" visible=true]
 「……」[plc]
 
-[dis_all_chara]
 
-あれ？　……ちょっと言葉がきつくない？[plc]
+[shownametag name="ロン毛" visible=true bust="false"]
+「――ズギャーン！！！……ド、ドドドドドッ！！！！」[plc]
 
 
 
-[orutega_stand face="normal2" size="l"]
-[shownametag name="オルテガ" visible=true]
-「ニャリ☆」[plc]
+ギターに弦が付いてない。[plc]
 
-[dis_all_chara]
 
-珍しく、オルテガ（白シャツデブ）が手を上げた。[plc]
+[shownametag name="ロン毛" visible=true bust="false"]
+「――ド、ドゥビィドゥバァッ！　ボッ、ボボボボッ！！」[plc]
 
-[haruka_face face="raku"]
-[shownametag name="遥香" visible=true]
-「はい、えーと……鈴木君」[plc]
+
+
+いや、つーか、エレキになったり、アコギになったり、[lr]
+ベースになったりで……大丈夫かコイツは？[plc]
+
+[shownametag name="大樹" visible=true]
+「……ッ！」[plc]
+
+
+
+――ハ！？　だから、こんな男にかまってる場合じゃない！！[plc]
 
 
 [shownametag name="大樹" visible=true]
-「！！？」[plc]
+「せ、先輩、悟を――」[plc]
+
+
+[shownametag name="ロン毛" visible=true bust="false"]
+「だから、大丈夫って言ってるでしょー」[plc]
 
 
 
-コイツ！　鈴木って名前だったのか！！[plc]
+うるせぇんだよ、イカレポンチがッ！！！[plc]
 
-[orutega_stand face="normal" size="l"]
-[shownametag name="オルテガ（鈴木）" visible=true bust="false"]
-「オルテガでいいニャリ☆」[plc]
 
-[haruka_face face="keibetsu"]
+[shownametag name="ガイア" visible=true]
+「……大丈夫だ兄弟。さっきのやつは、[lr]
+　ああやって迷い込んだ女子生徒を驚かすのが趣味なんだ」[plc]
+
+[shownametag name="ガイア" visible=true]
+「ちょっと追っかけたら、すぐに飽きて追うのをやめる」[plc]
+
+
+
+ガイアが、溜息を吐くようにそう言った。[plc]
+
+
+[shownametag name="ロン毛" visible=true bust="false"]
+「そうなんだよねー、あの目も服も、いわゆる特殊メイクってやつなんだよねぇ……あの動きも、え・ん・ぎ」[plc]
+
+[shownametag name="ロン毛" visible=true bust="false"]
+「なんでも、とある映画のワンシーンを再現したいんだとさ」[plc]
+
+
+[shownametag name="ロン毛" visible=true bust="false"]
+「――ズビビビ、ビーンッ！！」[plc]
+
+
+[shownametag name="大樹" visible=true]
+「……」[plc]
+
+
+
+……お前は何を再現したいんだよ。[plc]
+
+
+[shownametag name="ロン毛" visible=true bust="false"]
+「ボクかい？　ボクは……魂、かな？」[plc]
+
+
+[shownametag name="大樹" visible=true]
+「心理描写に答えなくていい」[plc]
+
+
+[shownametag name="ロン毛" visible=true bust="false"]
+「はははっ！」[plc]
+
+
+
+高笑いするように笑って、ロン毛は前髪をはねとばした。[plc]
+
+
+
+;[ファサァ！]
+
+
+[shownametag name="大樹" visible=true]
+「……」[plc]
+
+
+
+この学校、こんなにおもしろ生物が一杯居たんだ。[plc]
+
+
+
+くだらん事に悩んで学校休んでた俺がバカみてーじゃねーか！[plc]
+
+
 [shownametag name="遥香" visible=true]
-「うん、分かったから。言って鈴木くん」[plc]
+「ねぇ、黒井君……ほんとに、悟を追いかけなくて大丈夫なの？」[plc]
 
-[orutega_stand face="odoroki" size="l"]
-[shownametag name="オルテガ（鈴木）" visible=true bust="false"]
-「――遥香先輩がおっぱいを見せれば」[plc]
 
-[dis_all_chara]
+[shownametag name="ガイア" visible=true]
+「おそらくは……それに悟嬢にはここは辛そうだからな」[plc]
 
-[haruka_face face="ki"]
+
+[shownametag name="ロン毛" visible=true bust="false"]
+「心配症だね、姫は……ほーら、戻ってきたよ」[plc]
+
+
+[shownametag name="小デブ" visible=true bust="false"]
+「おぉ、まだここに居たのかいこの御一行は」[plc]
+;[松戸]
+
+
+それは、なんかよく分からん小デブだった。[plc]
+
+
+[shownametag name="大樹" visible=true]
+「誰？？」[plc]
+
+
+[shownametag name="ロン毛" visible=true bust="false"]
+「さっきの男だよ」[plc]
+
+
+[shownametag name="大樹" visible=true]
+「へ？」[plc]
+
+
+
+マジでッ！！？[plc]
+
+
+[shownametag name="ロン毛" visible=true bust="false"]
+「彼らに、ボクの、――ビィッイイイット！　を聞かせていたのさ」[plc]
+
+[shownametag name="ロン毛" visible=true bust="false"]
+「――ボロロローン！　……べいべぇー」[plc]
+
+
+[shownametag name="小デブ" visible=true bust="false"]
+「耳に心地良ひぃ……素晴らしい演奏だな」[plc]
+
+
+[shownametag name="小デブ" visible=true bust="false"]
+「『耳が幸せ』とは、まさに、この事だ」[plc]
+
+
+[shownametag name="ロン毛" visible=true bust="false"]
+「ありがとう、だがね……ボクがこんな演奏が出来たのも……。[lr]
+　君の、素晴らしぃ、演技あってこそ」[plc]
+
+[shownametag name="ロン毛" visible=true bust="false"]
+「ボクの、――ビィッイイイット！　は、君が揺らしたんだ」[plc]
+
+
+[shownametag name="小デブ" visible=true bust="false"]
+「ふ」[plc]
+
+
+
+――グッ。[plc]
+;[ここは、SEだけにするかも]
+
+
+二人は、互いに突き合わせるように親指を立てた。[plc]
+
+
+
+なんだコイツら。[plc]
+
+
 [shownametag name="遥香" visible=true]
-「黙ろうか、鈴木くん」[plc]
+「あの、ちょっとそこのひと」[plc]
 
-[orutega_stand face="normal" size="l"]
-[shownametag name="オルテガ" visible=true]
-「♪」[plc]
 
-[dis_all_chara]
+[shownametag name="小デブ" visible=true bust="false"]
+「む？」[plc]
 
-やっぱこんなもんか。[plc]
 
-[mash_stand face="doya" size="l"]
+[shownametag name="遥香" visible=true]
+「けっきょく、悟は―」[plc]
+
+
+[shownametag name="小デブ" visible=true bust="false"]
+「――黙って！」[plc]
+
+
+
+ギラリと目を光らせて、小デブは叫ぶ。[plc]
+
+
+[shownametag name="遥香" visible=true]
+「へ？」[plc]
+
+
+[shownametag name="小デブ" visible=true bust="false"]
+「――」[plc]
+;[スッ]
+
+
+そのまま、すっごく自然な動作で、[lr]
+先輩のスカートを両手でたくし上げた。[plc]
+
+[shownametag name="縁" visible=true]
+「――」[plc]
+
+
+[shownametag name="大樹" visible=true]
+「――」[plc]
+
+
+[shownametag name="ガイア" visible=true]
+「――」[plc]
+
+
+[shownametag name="ロン毛" visible=true bust="false"]
+「べいべぇ」[plc]
+
+
+[shownametag name="小デブ" visible=true bust="false"]
+「……素晴らしい」[plc]
+;[小さな声]
+
+[shownametag name="小デブ" visible=true bust="false"]
+「――思ったとおりだ！」[plc]
+
+
+[shownametag name="遥香" visible=true]
+「――」[plc]
+
+
+[shownametag name="遥香" visible=true]
+「…―」[plc]
+
+
+[shownametag name="遥香" visible=true]
+「……」[plc]
+
+
+
+あまりに自然体な動きで、誰も何の反応も出来なくて。[plc]
+
+
+[shownametag name="遥香" visible=true]
+「―ッ！？」[plc]
+;[ブンッ！]
+
+[shownametag name="小デブ" visible=true bust="false"]
+「……遅い、すべてが、なにもかも」[plc]
+;[残像見せてかわせば？]
+
+
+我に返った先輩が拳をふるった時には、小デブは既に先輩のパンツをたっぷり堪能して射程外に逃げた後だった。[plc]
+
+[shownametag name="小デブ" visible=true bust="false"]
+「……ぁあ！　なんたる感動！！
+　全てが、いま、ボクの全てが震えてくるよ！！！」[plc]
+
+[shownametag name="小デブ" visible=true bust="false"]
+「――Ecstasy……イきそうだぁ」[plc]
+
+
+[shownametag name="ロン毛" visible=true bust="false"]
+「べいべぇ」[plc]
+
+
+[shownametag name="大樹" visible=true]
+「――くそ、なんて奴だ！　見たかおい！！？」[plc]
+
+
+[shownametag name="ガイア" visible=true]
+「すまんが」[plc]
+
+
 [shownametag name="マッシュ" visible=true]
-「……」[plc]
+「拙者たちの側では」[plc]
 
 
-
-うぉ！　今度はマッシュが手を上げたぞ。[plc]
-
-[haruka_face face="keibetsu"]
-[shownametag name="遥香" visible=true]
-「はい、登別君」[plc]
-
-
-
-登別か……へぇ。[plc]
-
-[mash_stand face="ikari" size="l"]
-[shownametag name="マッシュ（登別）" visible=true bust="false"]
-「――縁殿も乳を見せれば」[plc]
-
-[najimi_stand face="do" size="l" time="200"]
-[shownametag name="縁" visible=true]
-「殺すわよ」[plc]
-
-[mash_stand face="odoroki" size=l]
-[shownametag name="マッシュ（登別）" visible=true bust="false"]
-「無念」[plc]
-
-[dis_all_chara]
-
-
-
-
-
-ん……この流れ。[plc]
-
-[gaia_stand face="serious" time="800"]
-
-
-
-
-
-
-[shownametag name="ガイア" visible=true]
-「……」[plc]
-
-
-
-当然のように、スッとガイアが手を上げた。[plc]
-
-[haruka_face face="keibetsu"]
-[shownametag name="遥香" visible=true]
-「……」[plc]
-
-
-
-勿論、先輩はもう当てない。[plc]
-
-[gaia_stand face="normal"]
-[shownametag name="ガイア" visible=true]
-「では、言わせてもらうと」[plc]
-
-
-[shownametag name="大樹" visible=true]
-「……言わんでいい」[plc]
-
-[gaia_stand face="normal2" time="200"]
-[shownametag name="ガイア" visible=true]
-「いいのか？　俺は兄弟が望む情報を持っているぞ」[plc]
-
-
-[shownametag name="大樹" visible=true]
-「絶対持ってね―だろ！　黙ってろ！！」[plc]
-
-[gaia_stand face="serious" time="200"]
-[shownametag name="ガイア" visible=true]
-「そんなことはない。いいか？[lr]
-　世の中には、嗜好というものがあるんだ」[plc]
-
-[gaia_stand face="normal" time="200"]
-[shownametag name="ガイア" visible=true]
-「……つまりだな、悟嬢も――」[plc]
-
-
-[shownametag name="大樹" visible=true]
-「――黙れっつてんだろ！！」[plc]
-
-[gaia_stand face="kangaeru" time="200"]
-[shownametag name="ガイア" visible=true]
-「いいや、黙らんね！
-　世の中の真理というものはいつだって――」[plc]
-
-
-また、馬鹿げた茶番が始まろうとして、[plc]
-
-[satori_stand face="ki" time="200"]
-[shownametag name="悟" visible=true]
-「……あははは、先輩たち醜いですぅ」[plc]
-
-
-
-辛辣な後輩の一言で、止まった。[plc]
-[dis_all_chara]
-
-[shownametag name="大樹" visible=true]
-「……」[plc]
-
-[gaia_face face="normal"]
-[shownametag name="ガイア" visible=true]
-「……」[plc]
-
-[satori_stand face="futsu" time="200"]
-[shownametag name="悟" visible=true]
-「ほんと、お二人はどうしようもないですね」[plc]
-
-
-
-純真そのものと言った顔で、唯一の後輩は楽しげに言う。[plc]
-
-[dis_all_chara]
-[shownametag name="大樹" visible=true]
-「……」[plc]
-
-
-
-これは……もう勘違いじゃない。[plc]
-
-
-
-やっぱり、こいつ。こいつ態度が変わった！[lr]
-帰って来てから、態度が変わった！！[plc]
-
-[satori_stand face="futsu"]
-[shownametag name="悟" visible=true]
-「……」[plc]
-
-
-
-睨みつけると、[l]
-[satori_stand face="akire" time="200"]
-鬱陶しそうに後輩は手を降った。[plc]
-
-
-[satori_stand face="ai" time="200"]
-[shownametag name="悟" visible=true]
-「やめてくださいよー熱心にこっちみるの、恥ずかしい」[plc]
-
-
-
-このガキャぁ。[plc]
-[dis_all_chara]
-
-
-[haruka_stand face="do" size="l"]
-[shownametag name="遥香" visible=true]
-「――はいそこまで！」[plc]
-
-[dis_all_chara]
-
-パンパンと、先輩はもう一度手を叩いた。[plc]
-
-[haruka_stand face="keibetsu"]
-[shownametag name="遥香" visible=true]
-「……何回やらすのよ君たちは」[plc]
-
-[satori_face face="ai"]
-[shownametag name="悟" visible=true]
-「ご、ごめんなさい」[plc]
-
-[dis_all_chara]
-[shownametag name="大樹" visible=true]
-「……すみません」[plc]
-
-
-
-
-……結構、ショックだなぁ。[plc]
-
-
-[najimi_stand face="do" size="l" time="200"]
-[shownametag name="縁" visible=true]
-「で、」[plc]
-
-[dis_all_chara]
-
-先輩が断ち切ったのに合わせて、促すように縁は言う。[plc]
-
-
-[najimi_stand face="futsu"]
-[shownametag name="縁" visible=true]
-「だい……[l]
-[najimi_stand face="do" tere="true"]
-いや、谷口君は『裏切って』向こうに居たんだから、[lr]
-　何か打開策はないのかしら？」[plc]
-
-
-[dis_all_chara]
-[shownametag name="大樹" visible=true]
-「……」[plc]
-
-
-
-『裏切って』をやたらと強調するあたり、やたらと刺があるな。[lr]
-そんなに気に食わなかったのかよ。[plc]
-
-
-ま、しゃーないけど。[lr]
-態度が変わったのは後輩だけじゃないってことね。[plc]
-
-
-さて、[plc]
-
-
-[shownametag name="大樹" visible=true]
-「……」[plc]
-
-
-
-ちょっと、思い返してみる。[plc]
-
-
-
-……[l]打開策ねぇ。[plc]
-
-
-[shownametag name="大樹" visible=true]
-「無いな」[plc]
-
-[najimi_face face="futsu"]
-[shownametag name="縁" visible=true]
-「無能ね」[plc]
-
-[satori_face face="futsu"]
-[shownametag name="悟" visible=true]
-「そうですね」[plc]
-
-
-
-……単純に口の悪さが移っただけなんじゃないのか？[plc]
-
-
-
-
-[haruka_stand face="magao"]
-[shownametag name="遥香" visible=true]
-「……」[plc]
-
-[dis_all_chara]
-
-俺達がそんな話をしている間にも、[lr]
-先輩は何かを考えているようだった。[plc]
-
-
-
-唇に指を当て、離して、今度は中指を額へ。[plc]
-
-[haruka_stand face="magao"]
-[shownametag name="遥香" visible=true]
-「……ねぇ、十二単さん。[l]なんか言ってなかった？」[plc]
-
-[dis_all_chara]
-
-ポツリと、先輩はそう言った。[plc]
-
-
-[shownametag name="大樹" visible=true]
-「え？　あの、『オモロー』ですか？」[plc]
-
-[haruka_stand face="raku"]
-[shownametag name="遥香" visible=true]
-「そう、あのオモロー……」[plc]
-
-[haruka_stand face="magao" time="200"]
-[shownametag name="遥香" visible=true]
-「メリットを出してまとまってるってことは、[lr]
-　成瀬んとこ文化部に対して何かしてるわけじゃない？」[plc]
-
-[haruka_stand face="keibetsu" time="200"]
-[shownametag name="遥香" visible=true]
-「でも、成瀬のとこだって学校の選挙なわけだし、[lr]
-　そんな妨害に関わるようなメリットを出せるわけがないのよね」[plc]
-
-[shownametag name="大樹" visible=true]
-「はぁ」[plc]
-
-
-
-そういや……そうだな。[plc]
-
-
-
-成瀬んとこが噛み付いてくるのは、[lr]
-『先輩憎し』だったわけなんだけれど、[plc]
-
-
-文化部のメリットがそんなもののわけはない。[plc]
-
-
-
-
-文化部全体が……一部には居るかもしれないが。[lr]
-そんなもんでまとまるとは思えない。[plc]
-
-[haruka_stand face="magao"]
-[shownametag name="遥香" visible=true]
-「目的は別だけど……手段は一緒だからやってるだけ。[lr]
-　……ってことでしょう多分？」[plc]
-
-[shownametag name="大樹" visible=true]
-「そうですねぇ……」[plc]
-
-[haruka_stand face="raku"]
-[shownametag name="遥香" visible=true]
-「それなら、その目的……メリットが分かれば、[lr]
-　何か突破口が見つかるかもしれないかもと思って」[plc]
-
-[shownametag name="大樹" visible=true]
-「……そうなんすか？」[plc]
-
-[dis_all_chara]
-
-[najimi_face face="do" size="l" time="200"]
-
-[shownametag name="縁" visible=true]
-「馬鹿なの？　成瀬が提供出来てるメリットなんだから、[lr]
-　私達にも提供できるかもしれないでしょ」[plc]
-
-[shownametag name="大樹" visible=true]
-「……」[plc]
-
-[dis_all_chara]
-
-うっせーな、いま気付くとこだったんだよ！[plc]
-
-[haruka_stand face="ki" time="200"]
-[shownametag name="遥香" visible=true]
-「で、何か言ってなかった？」[plc]
-
-
-[shownametag name="大樹" visible=true]
-「そうですねぇ」[plc]
-
-[dis_all_chara]
-
-
-
-
-
-思い返してみる。[plc]
-
-
-
-;[回想in]
-[strans storage="bg_naruseRoom" method="universal" rule="035"]
-
-
-
-[naruse_stand face="futsu" pose=2 time="200"]
-[shownametag name="成瀬" visible=true]
-「……でしょうね。[l]良いわ、ちゃんと仕入れておく。[lr]
-　良ければ準備もするけれど？」[plc]
-
-[miyabi_stand face="futsu" size="l"]
-[shownametag name="十二単" visible=true]
-「そこまではよい」[plc]
-
-[dis_all_chara]
-
-;[回想out]
-[strans storage="bg_seitokai" method="universal" rule="035"]
-
-
-
-
-[shownametag name="大樹" visible=true]
-「なんか、[l]どうしても自分たち『だけ』でやりたい。[lr]
-　……って感じでしたね」[plc]
-
-[shownametag name="大樹" visible=true]
-「あと、」[plc]
-
-
-
-;[回想in]
-[strans storage="bg_naruseRoom" method="universal" rule="035"]
-
-[miyabi_stand face="futsu" size=l time="200"]
-[shownametag name="十二単" visible=true]
-「……壊した器、誰もがつながるとは限らない」[plc]
-
-[shownametag name="十二単" visible=true]
-「壊すのは簡単で」[plc]
-
-[shownametag name="十二単" visible=true]
-「直すのは――」[plc]
-
-[dis_all_chara]
-
-;[回想out]
-[strans storage="bg_seitokai" method="universal" rule="035"]
-
-
-
-[shownametag name="大樹" visible=true]
-「……」[plc]
-
-[haruka_stand face="magao"]
-[shownametag name="遥香" visible=true]
-「何？」[plc]
-
-
-[shownametag name="大樹" visible=true]
-「……いや、こっちは多分関係ないと思います」[plc]
-
-[haruka_stand face="keibetsu"]
-[shownametag name="遥香" visible=true]
-「……そう」[plc]
-
-[dis_all_chara]
-
-先輩は何か言いたげだったが、[lr]
-それ以上は追求してはこなかった。[plc]
-
-
-[najimi_face face="futsu"]
-[shownametag name="縁" visible=true]
-「……変ですね。自分たちでやると言ったって。[lr]
-　毎年、こっちは部間の調整程度で殆ど」[plc]
-
-[najimi_face face="ai"]
-[shownametag name="縁" visible=true]
-「いつも自分たちでやっているようなものなのに」[plc]
-
-[haruka_stand face="ai"]
-[shownametag name="遥香" visible=true]
-「そうねぇ……去年、何かあったのかしら？」[plc]
-
-
-[shownametag name="大樹" visible=true]
-「あの、」[plc]
-
-[dis_all_chara]
-
-不思議そうな様子の縁と先輩に、俺はちょっと疑問を持つ。[plc]
-
-
-[shownametag name="大樹" visible=true]
-「先輩や縁は……去年何があったのか知らないんですか？」[plc]
-
-
-
-俺は参加しなかったから全然知らないけど、[lr]
-二人は運営側に居たわけだし、知っててもいいと思うが。[plc]
-
-
-[haruka_stand face="odoroki"]
-[shownametag name="遥香" visible=true]
-「それがねぇ、普通だったのよ」[plc]
-
-
-[shownametag name="大樹" visible=true]
-「普通？」[plc]
-
-[haruka_stand face="magao"]
-[shownametag name="遥香" visible=true]
-「そう、ごくフツーの文化祭……[l]なんの変哲もない。[lr]
-　なんの面白みもない」[plc]
-
-[haruka_stand face="kuno"]
-[shownametag name="遥香" visible=true]
-「ま、私達が押してた先輩はそれに負けちゃったんだけど……」[plc]
-
-[najimi_face face="ai"]
-[shownametag name="縁" visible=true]
-「……こっちはお通夜でしたからね」[plc]
-
-
-[dis_all_chara]
-
-[shownametag name="遥香＆縁" visible=true bust="false"]
-「「……」」[plc]
-
-
-
-眉間にしわを寄せて、先輩と縁は唸る。[lr]
-どうやらあんまりいい思い出じゃないらしい。[plc]
-
-[haruka_stand face="magao"]
-[shownametag name="遥香" visible=true]
-「実際の運営がどうだったかは……。[lr]
-　ちょっと私達じゃ分からないわね」[plc]
-
-[haruka_stand face="keibetsu"]
-[shownametag name="遥香" visible=true]
-「担いでる方がスポーツ担当になっちゃったし」[plc]
-
-[dis_all_chara]
-
-[najimi_face face="futsu"]
-[shownametag name="縁" visible=true]
-「ただ、最初は凄い盛り上がってたのに。[lr]
-　フタを開けたら普通だった。という印象よ」[plc]
-
-[haruka_stand face="ai"]
-[shownametag name="遥香" visible=true]
-「……前評判に、こっちは力みすぎちゃってねぇ」[plc]
-
-
-[shownametag name="大樹" visible=true]
-「……」[plc]
-
-[dis_all_chara]
-
-うまくいかないもんだ。[plc]
-
-
-[najimi_face face="futsu"]
-[shownametag name="縁" visible=true]
-「そのときに、向こうの運営と一悶着あったのかもしれないわ」[plc]
-
-[haruka_stand face="magao"]
-[shownametag name="遥香" visible=true]
-「でも、向こうの中心メンバーって、[lr]
-　いまの成瀬のとこじゃなかったっけ？」[plc]
-
-[najimi_face face="ai"]
-[shownametag name="縁" visible=true]
-「……そう、それが不思議なんですよね」[plc]
-
-
-[shownametag name="大樹" visible=true]
-「……」[plc]
-
-[dis_all_chara]
-
-確執あったにしては、仲が良すぎるよなぁ。[plc]
-
-
-[shownametag name="大樹" visible=true]
-「……本当に、普通そのものの文化祭だったんですか？」[plc]
-
-[gaia_stand face="serious" size="l" time="200"]
-[shownametag name="ガイア" visible=true]
-「いや違う」[plc]
-[dis_all_chara]
-
-[quake time="200"]
-[shownametag name="遥香＆縁＆大樹" visible=true bust="false"]
-「「「！！！？」」」
-[plc]
-
-[dis_all_chara]
-
-急に参加してきたガイアに、俺も先輩も縁もビビってしまう。[plc]
-
-[gaia_stand face="serious" size="l" time="200"]
-[shownametag name="ガイア" visible=true]
-「去年の文化祭は、例年にないほど多くの文化部が参加した」[plc]
-
-
-[shownametag name="ガイア" visible=true]
-「また、１０年ぶりに外部にも開放し、[lr]
-　生徒達だけでなく外部からの参加者の出店を許可し」[plc]
-
-[shownametag name="ガイア" visible=true]
-「メディアにも注目され。[lr]
-　地方自治体に申請を求める程の大きなイベントとなった」[plc]
-
-[najimi_stand face="akire"]
-[shownametag name="縁" visible=true]
-「そんな馬鹿な」[plc]
-
-[haruka_stand face="odoroki"]
-[shownametag name="遥香" visible=true]
-「そうよ、忙しくてチラっと見に行っただけだったけど。[lr]
-　……そんな大規模イベントになんてなってはなかったはずよ」[plc]
-
-[gaia_stand face="normal" size="l" time="200"]
-[shownametag name="ガイア" visible=true]
-「……と、これには書いてある」[plc]
-
-
-[dis_all_chara]
-そう言って、ガイアは一枚の紙切れをとりだす。[plc]
-
-[haruka_stand face="odoroki"]
-[shownametag name="遥香" visible=true]
-「……これ」[plc]
-
-
-[dis_all_chara]
-それは、ビッシリと書かれた文化祭用のプレゼン用紙で。[plc]
-
-
-
-赤文字で走り書きのように、『草案』と書いてあった。[plc]
-
-[najimi_face face="futsu"]
-[shownametag name="縁" visible=true]
-「これは去年の」[plc]
-
-[gaia_stand face="serious"]
-[shownametag name="ガイア" visible=true]
-「文化部にちょっと知り合いがいてな。[lr]
-　去年渡されてたのを思い出して持ってきた」[plc]
-
-[gaia_stand face="normal2"]
-[shownametag name="ガイア" visible=true]
-「……もっとも、そいつは『夢見がちの馬鹿がいる』[lr]
-　と笑っていたんだが」[plc]
-
-[najimi_face face="futsu"]
-[shownametag name="縁" visible=true]
-「……」[plc]
-
-[haruka_face face="magao"]
-[shownametag name="遥香" visible=true]
-「……そうね」[plc]
-
-[dis_all_chara]
-
-その草案を眺めながら、遠慮がちに先輩はそう言う。[plc]
-
-
-
-確かにそれは、俺からみても単なる妄想の産物に見えた。[plc]
-
-
-[shownametag name="大樹" visible=true]
-「……」[plc]
-
-
-
-まぁ、すげー頑張って書いたってのは、[lr]
-よく分かるんだけどな。[plc]
-
-
-
-[gaia_stand face="normal"]
-[shownametag name="ガイア" visible=true]
-「その影響も多少はあったのだろう」[plc]
-
-[gaia_stand face="normal2"]
-[shownametag name="ガイア" visible=true]
-「確かに、当日に配られたしおりには、[lr]
-　例年よりも多くの文化部の名前が連なっていたよ」[plc]
-
-[gaia_stand face="normal"]
-[shownametag name="ガイア" visible=true]
-「実際にブースにいたのは、いつもの連中だけだったが」[plc]
-
-[haruka_face face="ai"]
-[shownametag name="遥香" visible=true]
-「……」[plc]
-
-[najimi_face face="ai"]
-[shownametag name="縁" visible=true]
-「……」[plc]
-
-
-[shownametag name="大樹" visible=true]
-「……」[plc]
-
-[dis_all_chara]
-
-世知辛いもんだな、世の中は。[plc]
-
-
-[haruka_stand face="raku"]
-[shownametag name="遥香" visible=true]
-「でも、ハッキリしたわね……去年、何かあったんだわ」[plc]
-
-
-パンと柏手を打って、先輩は続ける。[plc]
-
-[haruka_stand face="ki"]
-[shownametag name="遥香" visible=true]
-「えー、黒井……」[plc]
-
-[gaia_stand face="normal"]
-[shownametag name="ガイア" visible=true]
-「ガイアでいい」[plc]
-
-[haruka_stand face="ai"]
-[shownametag name="遥香" visible=true]
-「いや、あの」[plc]
-
-[gaia_stand face="normal2" size="m"]
-[shownametag name="ガイア" visible=true]
-「ガイアでいい」[plc]
-
-
-[shownametag name="大樹" visible=true]
-「……」[plc]
-
-[dis_all_chara]
-
-[haruka_face face="kuno"]
-[shownametag name="遥香" visible=true]
-「ぁー」[plc]
-
-
-[gaia_stand face="egao" size="l"]
-[shownametag name="ガイア" visible=true]
-「ガイアでいい」[plc]
-
-[dis_all_chara]
-
-
-
-
-ガイアの有無を言わせぬ物言いに、[plc]
-
-
-
-
-
-[haruka_stand face="ai"]
-[shownametag name="遥香" visible=true]
-「じゃ、が[l]
-[haruka_stand face="ki"]
-……ガイアくん！」[plc]
-
-先輩は根負けしたようだった。[plc]
-
-[haruka_stand face="raku"]
-[shownametag name="遥香" visible=true]
-「その文化部のお友達のとこに連れていってくれない？[lr]
-　いろいろ話を聞きたいから」[plc]
-
-[gaia_face face="serious"]
-[shownametag name="ガイア" visible=true]
-「かまわんが……」[plc]
-
-
-[mash_face face="ikari"]
-[shownametag name="マッシュ" visible=true]
-「……」[plc]
-
-[orutega_face face="normal2"]
 [shownametag name="オルテガ" visible=true]
-「……」[plc]
-
-[dis_all_chara]
-
-少し探るように、ガイアは他の三匹と顔を見合わせた。[plc]
-
-
-[shownametag name="大樹" visible=true]
-「んだよ、勿体ぶってんじゃねーよ」[plc]
+「見えなかったニャリ☆」[plc]
 
 
 
-豚のくせによ。[plc]
-
-[gaia_stand face="normal2"]
-[shownametag name="ガイア" visible=true]
-「いや、兄弟だけなら問題無いのだがな」[plc]
-
-[gaia_stand face="kangaeru"]
-[shownametag name="ガイア" visible=true]
-「いま、放課後だろう？[lr]
-[gaia_stand face="komari"]
- 　……女性を連れて行くのはどうかと思ってな」[plc]
-
-[dis_all_chara]
-
-……は？？[plc]
-
-
-[gaia_stand face="kangaeru"]
-[shownametag name="ガイア" visible=true]
-「この時間だったらアイツは部活だ……」[plc]
+――くっそ！　なんて奴だ！！[plc]
 
 
 [shownametag name="大樹" visible=true]
-「なら、部活塔に行けば？」[plc]
-
-[gaia_stand face="komari"]
-[shownametag name="ガイア" visible=true]
-「……部活塔は部活塔だが、[l]部活『北』塔だぞ？」[plc]
+「――ちくしょぉおおおおおッ！！」[plc]
 
 
-[shownametag name="大樹" visible=true]
-「ぁあ？」[plc]
-
-[dis_all_chara]
-
-
-
-北とか、南とか関係あるのかよ。[plc]
-
-
-
-[haruka_stand face="jitome"]
-[shownametag name="遥香" visible=true]
-「……なるほど、そっちの『文化部』なのね」[plc]
-
-[najimi_stand face="akire"]
 [shownametag name="縁" visible=true]
+「……」[plc]
+;[ゴスッ！]
+
+[shownametag name="大樹" visible=true]
+「なんで殴るんだよ！！？」[plc]
+
+
+[shownametag name="縁" visible=true]
+「ふん」[plc]
+
+
+[shownametag name="小デブ" visible=true bust="false"]
+「愚かな」[plc]
+
+
+[shownametag name="ロン毛" visible=true bust="false"]
+「べいべー」[plc]
+
+
+[shownametag name="遥香" visible=true]
 「……」[plc]
 
 
-[dis_all_chara]
+
+先輩はもう一度拳を構えたが、[plc]
 
 
-*De
-[setup_debug bg="bg_seitokai"]
-
-
-俺は疑問バリバリだったが、先輩と縁は納得したようで。[plc]
-
-[satori_stand face="futsu"]
-[shownametag name="悟" visible=true]
-「？？？」[plc]
-
-
-
-俺以外では唯一、悟もよく分かっていないようだった。[plc]
-
-
-[haruka_stand face="do" size="l"]
 [shownametag name="遥香" visible=true]
-「しょーがないわよ、行きましょう」[plc]
+「……それで、さっき追いかけた女の子は？」[plc]
 
 
-[najimi_stand face="do"]
+
+諦めたのか、そのまま拳をおろした。[plc]
+
+
+[shownametag name="小デブ" visible=true bust="false"]
+「――思ったとおりだ！　下着どおりの聡明な……」[plc]
+
+
+[shownametag name="遥香" visible=true]
+「――はよ、答えろや！」[plc]
+
+
+
+小デブは『ふっ』と肩をすくめて、[lr]
+やれやれといった調子でクビを左右にふった。[plc]
+
+[shownametag name="小デブ" visible=true bust="false"]
+「……ふむ、あの、キャストとして協力してくれたキテないお嬢さんなら、『北』から出たあたりからは追ってないよ」[plc]
+
+[shownametag name="小デブ" visible=true bust="false"]
+「……本来なら、精○をぶっかけてやっとシーンが完成するんだが　……流石に学内なのでね」[plc]
+;[ピー音入れてもいいかも]
 [shownametag name="縁" visible=true]
-「しかたないわ」[plc]
+「言葉を選びなさいよ！」[plc]
+
+
+[shownametag name="小デブ" visible=true bust="false"]
+「おや失礼、スペ○マの方がよかったかな？」[plc]
+
+
+[shownametag name="縁" visible=true]
+「……」[plc]
+;[絶句]
+
+
+ダメだこりゃ。[plc]
+
+
+[shownametag name="遥香" visible=true]
+「……で、コイツらがその『文化部』なの？」[plc]
 
 
 
-溜息を付きながら、先輩たちは立ち上がるが、[plc]
+スカートを直しながら、先輩はガイアに尋ねる。[plc]
 
-[dis_all_chara]
+
+[shownametag name="ガイア" visible=true]
+「いや、違うな。こいつらはここの中心メンバーだが、[lr]
+　俺の友人ではない」[plc]
+
+[shownametag name="小デブ" visible=true bust="false"]
+「Exactly」[plc]
+
+
+[shownametag name="ロン毛" visible=true bust="false"]
+「確かに、ボクと君は面識がある程度さ」[plc]
+
+
+[shownametag name="遥香" visible=true]
+「じゃぁ、さっさと行きましょう」[plc]
+
+
+
+『不愉快だわ』と言って突き進もうとする先輩の前に、[lr]
+小デブが立ちはだかった。[plc]
+
+[shownametag name="小デブ" visible=true bust="false"]
+「――待った！」[plc]
+
+
+[shownametag name="遥香" visible=true]
+「ッ！？」[plc]
+
+
+
+先輩は即座にスカートを押さえたが、[lr]
+そこでがら空きになった胸を小デブは揉んだ。[plc]
+
+[shownametag name="小デブ" visible=true bust="false"]
+「――tender 間違いない、これは―」[plc]
+
+
+[shownametag name="小デブ" visible=true bust="false"]
+「――朝日のような夕日をつれてッ！！？」[plc]
+;[演出よろ]
+
+
+即座に殴った縁に殴り飛ばされた。[plc]
+
+
+[shownametag name="ロン毛" visible=true bust="false"]
+「べいべぇ……この『北』は、深く、果てしない。[lr]
+　お嬢さんがたを連れて歩くには……きっと案内役が必要だ」[plc]
+
+[shownametag name="ロン毛" visible=true bust="false"]
+「彼は、そう言いたかったんじゃないかな。ベイベー」[plc]
+
+
+
+そう言って、ロン毛は『ジャジャーン』と口ずさむ。[plc]
+
+
+[shownametag name="遥香" visible=true]
+「……もう好きにして」[plc]
+
+
+[shownametag name="ガイア" visible=true]
+「『釣り部』を探してるんだが」[plc]
 
 
 [shownametag name="大樹" visible=true]
-「……え？　ちょ、ちょっと」[plc]
+「……」[plc]
 
 
 
-なに？　なんなの？[lr]
-この学校、禁断の地でもあったの？？[plc]
+『釣り部』……か。[lr]
+結構、レアな部活だが、こいつらに比べたらマシな気がする。[plc]
 
-[haruka_face face="keibetsu"]
-[shownametag name="遥香" visible=true]
-「行けば分かるわよ、谷口君」[plc]
+[shownametag name="ロン毛" visible=true bust="false"]
+「あぁ、『釣り部』か……。[lr]
+　だが、彼は毎日ポイントを変えるからね」[plc]
 
-[gaia_face face="serious"]
-[shownametag name="ガイア" visible=true]
-「行くぞ、兄弟」[plc]
-
-[mash_face face="normal"]
-[shownametag name="マッシュ" visible=true]
-「然り」[plc]
-
-[orutega_face face="normal2"]
-[shownametag name="オルテガ" visible=true]
-「ニャーン♪」[plc]
-
-[satori_stand face="futsu" size="s" nobust="true"]
-[shownametag name="大樹＆悟" visible=true bust="false"]
-「？？？」[plc]
-
-[najimi_stand face="akire" size="l"]
-[shownametag name="縁" visible=true]
-「あんたたちはねぇ…」[plc]
-
-[dis_all_chara]
-
-生意気になった後輩と一緒に疑問符を飛ばしながら、[lr]
-俺はガイアの背中に付いていくしかなかった。[plc]
-
-[fadeoutse time="1000"]
-[dis_all_chara_fade_message]
-[strans storage="white" time="1000"]
-
-[JumpChapter storage="senpai_2_ep2.ks"]
+[shownametag name="ロン毛" visible=true bust="false"]
+「そうなると、『北』全体の案内が必要になるねぇ」[plc]
 
 
 
-;[→部活『北』塔]
+え……なんで？　つか、ポイントって？　は？？[plc]
 
+
+[shownametag name="ロン毛" visible=true bust="false"]
+「ベイベー！　いいよ、ボクに付いて来て」[plc]
+
+
+[shownametag name="ロン毛" visible=true bust="false"]
+「迷ったら、ボクの魂の音に耳を傾ければいい」[plc]
+
+
+
+『ジャン、ジャカジャカジャカ』と口ずさみながら、[lr]
+ロン毛のイカレポンチは『北』の奥に消えていくのだった。[plc]
+
+
+
+;[→『北』の部活達]
 
 
