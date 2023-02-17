@@ -13,7 +13,7 @@
 
 ;[call target=*De]
 
-
+[najimi_stand face="ai"]
 
 
 『部活塔』……とは、旧校舎の事だ。[plc]
