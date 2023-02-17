@@ -94,15 +94,15 @@ tf.StandTopMap["satori"]["1"]["s"] = 0;
 tf.StandTopMap["satori"]["1"]["m"] = 0;
 tf.StandTopMap["satori"]["1"]["l"] = 0;
 
-tf.StandTopMap["naruse"] = new Dictionary();
-tf.StandTopMap["naruse"]["1"] = new Dictionary();
-tf.StandTopMap["naruse"]["2"] = new Dictionary();
-tf.StandTopMap["naruse"]["1"]["s"] = 35;
-tf.StandTopMap["naruse"]["1"]["m"] = -87;
-tf.StandTopMap["naruse"]["1"]["l"] = -292;
-tf.StandTopMap["naruse"]["2"]["s"] = 32;
-tf.StandTopMap["naruse"]["2"]["m"] = -135;
-tf.StandTopMap["naruse"]["2"]["l"] = -302;
+tf.StandTopMap["old_naruse"] = new Dictionary();
+tf.StandTopMap["old_naruse"]["1"] = new Dictionary();
+tf.StandTopMap["old_naruse"]["2"] = new Dictionary();
+tf.StandTopMap["old_naruse"]["1"]["s"] = 35;
+tf.StandTopMap["old_naruse"]["1"]["m"] = -87;
+tf.StandTopMap["old_naruse"]["1"]["l"] = -292;
+tf.StandTopMap["old_naruse"]["2"]["s"] = 32;
+tf.StandTopMap["old_naruse"]["2"]["m"] = -135;
+tf.StandTopMap["old_naruse"]["2"]["l"] = -302;
 
 tf.StandTopMap["gaia"] = new Dictionary();
 tf.StandTopMap["gaia"]["1"] = new Dictionary();

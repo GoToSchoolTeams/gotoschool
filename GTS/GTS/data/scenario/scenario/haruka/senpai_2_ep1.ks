@@ -608,7 +608,7 @@
 
 
 
-[naruse_stand face="futsu" pose=2 time="200"]
+[old_naruse_stand face="futsu" pose=2 time="200"]
 [shownametag name="成瀬" visible=true]
 「……でしょうね。[l]良いわ、ちゃんと仕入れておく。[lr]
 　良ければ準備もするけれど？」[plc]

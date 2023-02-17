@@ -66,7 +66,7 @@
 
 俺達は、会議室に集められていた。[plc]
 
-[naruse_face face="futsu" pose="2"]
+[old_naruse_face face="futsu" pose="2"]
 [shownametag name="成瀬" visible=true]
 「……」[plc]
 
@@ -95,7 +95,7 @@
 
 その様子を見て、嘲る様に成瀬が笑った。[plc]
 
-[naruse_stand pose="1" face="futsu"]
+[old_naruse_stand pose="1" face="futsu"]
 [shownametag name="成瀬" visible=true]
 「……正直なところ。[lr]
 　今日まで出馬をリタイアしなかったことには、驚きですわ」[plc]
@@ -104,7 +104,7 @@
 [shownametag name="遥香" visible=true]
 「そもそも、リタイア無いでしょこれ」[plc]
 
-[naruse_stand pose="1" face="hohoho"]
+[old_naruse_stand pose="1" face="hohoho"]
 [shownametag name="成瀬" visible=true]
 「そうでしたかしら？」[plc]
 
@@ -113,7 +113,7 @@
 素知らぬ顔で言って、成瀬は髪をひるがえす。[plc]
 [dis_all_chara]
 
-[naruse_stand pose="2" face="futsu"]
+[old_naruse_stand pose="2" face="futsu"]
 [shownametag name="成瀬" visible=true]
 「でも、本番はこれが終わってからですからね」[plc]
 
@@ -131,7 +131,7 @@
 [shownametag name="遥香" visible=true]
 「――」[plc]
 
-[naruse_face face="futsu"]
+[old_naruse_face face="futsu"]
 [shownametag name="成瀬" visible=true]
 「――」[plc]
 
@@ -139,7 +139,7 @@
 
 教師の促しで、二人は真剣な顔になった。[plc]
 
-[naruse_stand face="futsu" pose="2" size="l"]
+[old_naruse_stand face="futsu" pose="2" size="l"]
 [shownametag name="成瀬" visible=true]
 「じゃん！」[plc]
 
@@ -939,7 +939,7 @@
 [fadeinse storage="semi" time="1000" loop="true"]
 会議室に、威勢の良い声が響く。[plc]
 
-[naruse_face face="futsu" pose="2"]
+[old_naruse_face face="futsu" pose="2"]
 [shownametag name="成瀬" visible=true]
 「――」[plc]
 
@@ -959,20 +959,20 @@
 要は、先輩が負けた。[plc]
 
 [fadeinbgm storage="serious_2" time="1000"]
-[naruse_stand face="futsu" pose="1"]
+[old_naruse_stand face="futsu" pose="1"]
 [shownametag name="成瀬" visible=true]
 「――ふふ、[l]ふふふふふふふふふ。[l]
-[naruse_stand face="hohoho" pose="1"]
+[old_naruse_stand face="hohoho" pose="1"]
 勝ちましたわ！」[plc]
 [dis_all_chara]
 [haruka_face face="magao"]
 [shownametag name="遥香" visible=true]
 「……」[plc]
 
-[naruse_stand face="hohoho" pose="1" size="l"]
+[old_naruse_stand face="hohoho" pose="1" size="l"]
 [shownametag name="成瀬" visible=true]
 「ホホ、ホーホッホッ……。[lr]
-[naruse_stand face="futsu" pose="2" size="l"]
+[old_naruse_stand face="futsu" pose="2" size="l"]
 　ゲホッ、ご、ごほっ……か、勝ちましたわよ！」[plc]
 [dis_all_chara]
 
@@ -1014,7 +1014,7 @@
 
 それはただ気合いを入れただけでしょう……。[plc]
 
-[naruse_stand face="hohoho"]
+[old_naruse_stand face="hohoho"]
 [shownametag name="成瀬" visible=true]
 「見たかしら皆さん、あの、恋ヶ旗 遥香のあっけないこと！」[plc]
 
@@ -1038,7 +1038,7 @@
 [shownametag name="教師" visible=true bust="false"]
 「それでは、勝った方が担当を決めなさい」[plc]
 
-[naruse_stand face="futsu" pose="2"]
+[old_naruse_stand face="futsu" pose="2"]
 [shownametag name="成瀬" visible=true]
 「……分かりました」[plc]
 
@@ -1063,10 +1063,10 @@
 ま、これで俺達はスポーツイベントになるなぁ。[lr]
 先輩が言ってた交流とやらがどこまで影響するか――。[plc]
 [fadebgm volume="50" time="800"]
-[naruse_stand face="futsu"]
+[old_naruse_stand face="futsu"]
 [shownametag name="成瀬" visible=true]
 「そうですね、私達は[l]
-[naruse_stand face="hohoho"]
+[old_naruse_stand face="hohoho"]
 ――スポーツイベントの方をやりますわ！」[plc]
 
 [shownametag name="大樹" visible=true]
@@ -1102,7 +1102,7 @@
 驚愕したのは、先輩も縁も同じようだった。[lr]
 驚いて硬直している間に、事務手続きは進んでいって。[plc]
 
-[naruse_stand face="futsu"]
+[old_naruse_stand face="futsu"]
 [shownametag name="成瀬" visible=true]
 「それではみなさん、ごきげんよう」[plc]
 
