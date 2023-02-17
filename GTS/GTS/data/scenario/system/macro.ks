@@ -798,9 +798,22 @@
 [showstandimage who="old_najimi" pose="%pose|1"  face="%face|futsu" size="%size|m" nobust="%nobust|false" tere="%tere|false" pos="%pos|c" layer="%layer|0" page="%page|back" notrans="%notrans|false" time="%time|400" visible="%visible|true"  nopos="%nopos|false"]
 [kagtag who="old_najimi" pose="%pose|1"  face="%face|futsu" size="%size|m" nobust="%nobust|false" tere="%tere|false" pos="%pos|c" layer="%layer|0" page="%page|back" notrans="%notrans|false" time="%time|400" visible="%visible|true"  nopos="%nopos|false"]
 [endmacro]
-[macro name="najimi_new_face"]
+;;[oldâèÉoÉXÉg]
+[macro name="old_najimi_face"]
 [showbustup who="old_najimi" face="%face|futsu" pose="%pose|1" tere="%tere|false" visible="%visible|false"]
 [kagtag who="old_najimi" face="%face|futsu" pose="%pose|1" tere="%tere|false" visible="%visible|false"]
+[endmacro]
+
+
+
+;;[oldê¨ê£]
+[macro name="old_naruse_stand"]
+[showstandimage who="old_naruse" pose="%pose|1"  face="%face|futsu" size="%size|m" nobust="%nobust|false" tere="%tere|false" pos="%pos|c" layer="%layer|0" page="%page|back" notrans="%notrans|false" time="%time|400" visible="%visible|true"  nopos="%nopos|false"]
+[kagtag who="old_naruse" pose="%pose|1"  face="%face|futsu" size="%size|m" nobust="%nobust|false" tere="%tere|false" pos="%pos|c" layer="%layer|0" page="%page|back" notrans="%notrans|false" time="%time|400" visible="%visible|true"  nopos="%nopos|false"]
+[endmacro]
+[macro name="old_naruse_face"]
+[showbustup who="old_naruse" face="%face|futsu" pose="%pose|1" tere="%tere|false" visible="%visible|false"]
+[kagtag who="old_naruse" face="%face|futsu" pose="%pose|1" tere="%tere|false" visible="%visible|false"]
 [endmacro]
 
 ;EOF
