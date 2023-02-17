@@ -13,7 +13,7 @@
 
 ;[call target=*De]
 
-[old_naruse_stand face=futsu]
+[naruse_stand face="futsu"]
 
 『部活塔』……とは、旧校舎の事だ。[plc]
 
