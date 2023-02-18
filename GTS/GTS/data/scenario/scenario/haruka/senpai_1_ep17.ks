@@ -1,11 +1,6 @@
-
-
-[call storage="Initialize.ks"]
-
-[fadeoutbgm time="1000"]
+[SetupMessageWindow hide_window="true"]
 [strans storage="white"]
-
-[show_message_fade time="500"]
+[fadeinse storage="rain" time="2000"]
 [nowait]
 ;[playse storage="chaim_far_single" ]
 
@@ -19,14 +14,15 @@
 ;[call target=*De]
 
 
-
+[show_message_fade time="500"]
 ――ザーッ。[plc]
 
 
 
 突然に降りだした雨は一定のリズムを刻む。[plc]
 
-
+[fadeoutse time="1000"]
+[fadeinbgm storage="serious_2" time="1000"]
 [shownametag name="大樹" visible=true]
 「……」[plc]
 
@@ -226,11 +222,12 @@
 「……」[plc]
 
 [dis_all_chara]
-
+[fadeinse storage="rain" time="1000"]
 ――ザーッ。[plc]
 
-
 雨が、少しだけ強くなったような気がして。[plc]
+
+[fadeoutse time="1000"]
 
 [haruka_stand face="kuno"]
 [shownametag name="遥香" visible=true]
@@ -330,7 +327,7 @@
 俺達には分からなかった。[plc]
 
 
-[fadeoutse time="1000"]
+[fadeoutbgm time="1000"]
 [dis_all_chara_fade_message]
 [strans storage="white" time="1000"]
 
