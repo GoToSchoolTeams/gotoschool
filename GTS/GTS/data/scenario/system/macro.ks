@@ -545,7 +545,7 @@
 ;;【追加マクロ(byMahiro)】
 ;;[najimi立ち絵用]
 ;;pose=ポーズ番号, 1;2;3
-;;face=表情名, ki;do;ai;raku;doya;odoroki;futsu;akire
+;;face=表情名, ki;do;do_kuchiake;do_shizuka;ai;raku;doya;odoroki;futsu;akire
 ;;size=サイズ, s;m;l
 ;;nobust=バスト画像を出さない, 論理値
 ;;tere=照れてるかどうか, 論理値

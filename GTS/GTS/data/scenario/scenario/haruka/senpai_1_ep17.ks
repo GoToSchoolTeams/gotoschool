@@ -42,7 +42,7 @@
 [shownametag name="遥香" visible=true]
 「……どういうことだと思う？」[plc]
 
-[old_najimi_face face="metoji"]
+[najimi_face face="metoji"]
 [shownametag name="縁" visible=true]
 「……」[plc]
 
@@ -118,7 +118,7 @@
 
 選ぶ意味が分からない。[plc]
 
-[old_najimi_stand face="futsu"]
+[najimi_stand face="futsu"]
 [shownametag name="縁" visible=true]
 「……普通に考えれば、罠という事になるけど」[plc]
 
@@ -193,7 +193,7 @@
 [shownametag name="大樹" visible=true]
 「……」[plc]
 
-[old_najimi_face face="metoji"]
+[najimi_face face="metoji"]
 [shownametag name="縁" visible=true]
 「……」[plc]
 
@@ -290,7 +290,7 @@
 [shownametag name="悟" visible=true]
 「あのぉ、縁先輩ぃ……よく分からなかったんですが」[plc]
 
-[old_najimi_face face="metoji"]
+[najimi_face face="metoji"]
 [shownametag name="縁" visible=true]
 「あなたは頭で考えても無駄だから肌で感じなさい」[plc]
 

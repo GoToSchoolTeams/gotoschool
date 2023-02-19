@@ -1,22 +1,20 @@
-
 ;[派閥という壁]
-[call storage="Initialize.ks"]
+[SetupMessageWindow hide_window="true"]
 
 [fadeoutbgm time="1000"]
 [strans storage="white"]
 
-[show_message_fade time="500"]
 [nowait]
 ;[playse storage="chaim_far_single" ]
 
 ;[会議室]
+[fadeinse storage="rain" time="2000"]
 
 ;【byMahiro】
 [strans storage="sityoukakusitsu_n"]
 
-
+[show_message_fade time="500"]
 ;[call target=*De]
-
 
 ――ザーッ。[plc]
 
@@ -24,7 +22,9 @@
 
 結局、その日も雨だった。[plc]
 
+[fadeoutse time="1000"]
 [haruka_stand face="ki"]
+[fadeinbgm storage="serious_2" time="1000"]
 [shownametag name="遥香" visible=true]
 「――みなさん、今日は集まってくれてありがとう」[plc]
 
@@ -38,6 +38,7 @@
 [dis_all_chara]
 
 
+[fadeinse storage="rain" time="1000"]
 ――ザーッ。[plc]
 
 
@@ -45,7 +46,7 @@
 雨は昨日から降り続いていて、[lr]
 ただでさえ高い室内の湿度を更にあげていた。[plc]
 
-
+[fadeoutse time="1000"]
 時刻は、放課後だ。[lr]
 場所は校舎から職員室を越えた先にある視聴覚室になる。[plc]
 
@@ -85,7 +86,7 @@
 あれ？[lr]
 これは、思ってたよりは好感触？[plc]
 
-[old_najimi_face face="metoji" time="200"]
+[najimi_face face="metoji" time="200"]
 [shownametag name="縁" visible=true]
 「……ふん」[plc]
 
@@ -191,7 +192,7 @@
 
 全然、反応が無い。[plc]
 
-[old_najimi_face face="ikari"]
+[najimi_face face="do"]
 [shownametag name="縁" visible=true]
 「……やっぱり」[plc]
 
@@ -236,6 +237,7 @@
 
 [dis_all_chara]
 
+[fadeinse storage="ambientA@08" time="2000"]
 ロン毛は得心したという顔で肩を竦めた。[lr]
 その言葉に、ザワザワと声が漏れる。[plc]
 
@@ -247,7 +249,7 @@
 『おぃおぃ、無駄足かよ』[r]
 『帰ろ帰ろ』[plc]
 
-
+[fadeoutse time="1000"]
 後ろの方でたむろしていた連中が、急に立ち上がる。[plc]
 
 
@@ -297,45 +299,37 @@
 「おやめなさい、無駄[l]……ということぞ」[plc]
 ;[十二単 雅]
 
-
 目の前に、着物を着た。[lr]
 随分とイカれた女が立ちふさがったのであった。[plc]
 
 
 
-
-
-
 ;[場面転換]
-[fadebgm volume=0 time="800"]
+[fadeoutbgm time="1000"]
 [dis_all_chara_fade_message time=800]
 [strans storage="black" time="800"]
+[fadeinse storage="rain" time="2000"]
 [strans storage="sityoukakusitsu_n" time="800"]
-[SetupMessageWindow]
 
-
-
-
-
+[show_message_fade time="800"]
 ――ザーッ。[plc]
 
 
 
 雨は、降り続いていた。[plc]
 
-
-
 後ろに居た文化部連中は、すっかり消え失せて。[lr]
 室内の湿度は……。[plc]
 
+[fadeoutse time="1000"]
 [miyabi_stand face="futsu" size="l" nobust="true"]
 [shownametag name="大樹" visible=true]
 「……っていうか、なんなんだお前は！！？」[plc]
 
+[fadeinbgm storage="serious_2" time="1000"]
 [miyabi_face face="futsu"]
 [shownametag name="女生徒" visible=true bust="false"]
 「……」[plc]
-
 
 
 このクッソ蒸し暑い中、着物！？[lr]
@@ -530,7 +524,7 @@
 
 妙な単語を紡がずに、十二単はハッキリ言った。[plc]
 
-[old_najimi_stand face="odoroki" time="200"]
+[najimi_stand face="bibiri" time="200"]
 [shownametag name="縁" visible=true]
 「……っ」[plc]
 
@@ -582,7 +576,7 @@
 [shownametag name="遥香" visible=true]
 「……」[plc]
 
-[old_najimi_face face="odoroki"]
+[najimi_face face="bibiri"]
 [shownametag name="縁" visible=true]
 「……」[plc]
 
@@ -612,7 +606,7 @@
 
 残った文化部連中は、本気のようだった。[plc]
 
-[old_najimi_stand face="do" size="l" time="200"]
+[najimi_stand face="do_kuchiake" size="l" time="200"]
 [shownametag name="縁" visible=true]
 「そんなこと、できるわけ――」[plc]
 
@@ -642,8 +636,7 @@
 
 ――パチンッ。[plc]
 
-
-
+[playse storage="asioto_folks"]
 と扇子を閉じる音が鳴って、[lr]
 残りの文化部連中も立ち上がった。[plc]
 
@@ -656,7 +649,6 @@
 「では、参ろうか」[plc]
 
 [dis_all_chara]
-
 そのまま、一団を引き連れて出て行って。[plc]
 
 ……やたらと長い袖は、付き人みたいな連中が抱えて行ったけど。[plc]
@@ -665,7 +657,7 @@
 「……どうなっちゃうんだ？」[plc]
 
 
-
+[playse storage="door_close"]
 ――バタンッ！[plc]
 
 
@@ -676,8 +668,8 @@
 [shownametag name="遥香" visible=true]
 「……どうなっちゃうんだろうねぇ」[plc]
 
+[fadeinse storage="rain" time="800"]
 [dis_all_chara]
-
 ――ザーッ。[plc]
 
 
@@ -686,6 +678,7 @@
 
 
 [fadeoutse time="1000"]
+[fadeoutbgm time="1000"]
 [dis_all_chara_fade_message]
 [strans storage="white" time="1000"]
 
