@@ -545,7 +545,7 @@
 ;;【追加マクロ(byMahiro)】
 ;;[najimi立ち絵用]
 ;;pose=ポーズ番号, 1;2;3
-;;face=表情名, ki;do;do_kuchiake;do_shizuka;ai;raku;doya;odoroki;futsu;akire
+;;face=表情名, ai;akire;bibiri;do;do_kuchiake;do_shizuka;doya;futsu;ki;metoji;metoji_kuchiake;odoroki;raku
 ;;size=サイズ, s;m;l
 ;;nobust=バスト画像を出さない, 論理値
 ;;tere=照れてるかどうか, 論理値
@@ -564,7 +564,7 @@
 ;;【追加マクロ(byMahiro)】
 ;;[najimi立ち絵用]
 ;;pose=ポーズ番号, 1;2;3
-;;face=表情名, ki;do;ai;raku;doya;odoroki;futsu;akire
+;;face=表情名, ai;akire;bibiri;do;do_kuchiake;do_shizuka;doya;futsu;ki;metoji;metoji_kuchiake;odoroki;raku
 ;;tere=照れてるかどうか, 論理値
 ;;visible=レイヤの可視・不可視\nlayer 属性で指定したレイヤを表示するか、しないかを指定します, 論理値
 ;;nopos=ポジションを適用しない, 論理値
@@ -576,7 +576,7 @@
 ;;【追加マクロ(byMahiro)】
 ;;[naruse立ち絵用]
 ;;pose=ポーズ番号, 1;2;3
-;;face=表情名, futsu;hohoho
+;;face=表情名, ai;akire;do;doya;futsu;hohoho;ki;odoroki;raku
 ;;size=サイズ, s;m;l
 ;;nobust=バスト画像を出さない, 論理値
 ;;tere=照れてるかどうか, 論理値
@@ -594,7 +594,7 @@
 ;;【追加マクロ(byMahiro)】
 ;;[naruse立ち絵用]
 ;;pose=ポーズ番号, 1;2;3
-;;face=表情名, futsu;hohoho
+;;face=表情名, ai;akire;do;doya;futsu;hohoho;ki;odoroki;raku
 ;;tere=照れてるかどうか, 論理値
 ;;visible=レイヤの可視・不可視\nlayer 属性で指定したレイヤを表示するか、しないかを指定します, 論理値
 [macro name="naruse_face"]
