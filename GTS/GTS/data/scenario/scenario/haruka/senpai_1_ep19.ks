@@ -1,19 +1,17 @@
 ;[→雨宿りの道に]
-[call storage="Initialize.ks"]
-
+[SetupMessageWindow hide_window="true"]
 [fadeoutbgm time="1000"]
 [strans storage="white"]
 
 [show_message_fade time="500"]
 [nowait]
-;[playse storage="chaim_far_single" ]
 
+[fadeinse storage="bird" time="1000"]
 [strans storage="cicle_load"]
 
 
 ;[call target=*De]
-
-
+[fadeinbgm time="1000" storage="prologue"]
 [haruka_stand face="do" size="l"]
 [shownametag name="遥香" visible=true]
 「遅ぃ、遅いおそい、遅い！　時速３０キロで走ってよ！！」[plc]
@@ -39,7 +37,7 @@
 「そっすね」[plc]
 
 
-
+[fadeoutse time="1000"]
 雨の日は中止だが、[lr]
 こうやって晴れた日は以前と同じく先輩を乗せて坂を登る。[plc]
 
@@ -151,7 +149,7 @@
 ひとりひとり説得……が、ベターか。[lr]
 というか、それしかやれることが無い。[plc]
 
-
+[playse storage="basha"]
 ――バシャッ。[plc]
 
 
@@ -228,7 +226,6 @@
 
 
 幽霊部……？　[l]幽霊部員ならず、幽霊部って。[plc]
-
 
 [shownametag name="大樹" visible=true]
 「それなんすか？」[plc]
@@ -311,11 +308,11 @@
 「十二単さん、見た目は『オモロー』だけど[lr]
 　その界隈じゃ天才って呼ばれてるらしいわよ」[plc]
 
-
 天才ってのは頭がイカれてるもんだからな。[lr]
 納得した。[plc]
 [dis_all_chara]
 
+[playse storage="rain_beginning"]
 ――ポトッ、ポトポトッ。[plc]
 
 [haruka_face face="odoroki"]
@@ -342,19 +339,24 @@
 
 
 ;[場面転換]
-[fadebgm volume=0 time="800"]
+[fadeoutse time="800"]
+[fadeoutbgm volume=0 time="800"]
 [dis_all_chara_fade_message time=800]
 [strans storage="black" time="800"]
-[wipe time=1600 storage="temp_cicle_park"]
-[SetupMessageWindow]
 
+;[ワイプ]
+[wipe time=1600 storage="white" hidemes="true"]
 
+[wait time="1000"]
+[fadeinse storage="rain" time="800"]s
+[strans storage="temp_cicle_park" time="3000"]
 [backlay]
 [image layer=3 storage="temp_cicle_park" top="0" left="0" page="back" visible="true"]
 [trans method="crossfade" time="1000"]
 [wt]
 
-[cinema time=400]
+[cinema time=800]
+[show_message_fade time="400"]
 ――ザーッ。[plc]
 
 
@@ -366,25 +368,26 @@
 暗雲立ちこめるというよりは、[lr]
 晴れ間の雲が運ぶ小雨の様なもので。[plc]
 
-
 梅雨時に多い、典型的なにわか雨――。[plc]
 [dis_all_message_fade time=1000]
 
 ;スクロール開始
 [backlay]
 [wait time="500" canskip="false"]
-[move layer=3 path=(0,-510,255) time=5000 page="fore"]
+[move layer=3 path=(0,-510,255) time=3000 page="fore" accel="-3"]
 [wm]
 
 ;スクロール終わり処理
-[cinema_off time=400]
+[wait time="1000" canskip="false"]
+[cinema_off time=800]
 [strans storage="temp_cicle_park_cg" time="1"]
 [show_message_fade time="400"]
 
-
+[fadeoutse time="1000"]
 [haruka_face face="ai"]
 [shownametag name="遥香" visible=true]
 [backlay]
+[fadeinbgm storage="kandoumaturi2" time="1500"]
 「……う、わぁ。ずぶずぶだぁ」[plc]
 
 ――だけれど、俺達を濡らすには十分だったらしい。[plc]
@@ -441,13 +444,11 @@
 「ですねー」[plc]
 
 
-
 雨の切れ間は、今のとこ見えそうにない。[plc]
 
 
 雨音で聞こえないが、[lr]
 そろそろ、チャイムが鳴ってもおかしくない時間だった。[plc]
-
 
 [haruka_face face=kuno]
 [shownametag name="遥香" visible=true]
@@ -474,7 +475,7 @@
 二度目の提案も、むげなく断らて。[plc]
 
 
-
+[fadeinse storage="ame" time="800"]
 ――ザーッ。[plc]
 
 
@@ -490,10 +491,9 @@
 ここは、公園の真ん中くらいにあるテーブル席のような場所で。[plc]
 
 
-
+[fadeoutse time="800"]
 しっかりとした屋根らしき物はなくて、[lr]
 計算されてはえているツタ植物の葉が屋根代わりのスペースだ。[plc]
-
 
 [haruka_face face="magao"]
 [shownametag name="遥香" visible=true]
@@ -611,7 +611,7 @@
 理不尽だなぁ。[plc]
 
 
-
+[fadeinse storage="ame" time="800" loop="true"]
 ――ザーッ。[plc]
 
 
@@ -635,7 +635,6 @@
 活動し始めてからこっち、忙しかったりシリアスだったりで、[lr]
 割りと常にストレスのある会話をしていた。[plc]
 
-
 ――ザーッ。[plc]
 
 
@@ -651,6 +650,7 @@
 ま、そもそも先輩と会話するようになったということ自体が、[lr]
 妙な偶然の産物なんだけれども。[plc]
 
+[fadeoutse time="800"]
 [shownametag name="大樹" visible=true]
 「……先輩」[plc]
 
@@ -815,11 +815,6 @@
 「……」[plc]
 
 
-;*De
-;[setup_debug bg="temp_cicle_park_cg"]
-
-
-
 先輩は、溜息をつくように身を起こした。[plc]
 
 [haruka_face face="raku"]
@@ -894,7 +889,6 @@
 ;[時間経過]
 
 ;[場面転換]
-[fadebgm volume=0 time="800"]
 [dis_all_chara_fade_message time=800]
 [strans storage="black" time="800"]
 [strans storage="black" time="800"]
@@ -984,6 +978,7 @@
 『雨の日なのになぁ』と呟いた空は、[lr]
 腹立たしいほどに澄んだ色をしていた。[plc]
 
+[fadeoutbgm time="1000"]
 [fadeoutse time="1000"]
 [dis_all_chara_fade_message]
 [strans storage="white" time="1000"]

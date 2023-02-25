@@ -194,7 +194,7 @@
 [layopt layer=7 page="back" visible="true"]
 [trans layer="base" method="crossfade" time=%time|1000]
 [wt]
-[SetupMessageWindow vol_noreset="true"]
+[SetupMessageWindow vol_noreset="true" left_chara="1"]
 [endmacro]
 
 ;;【トランジションマクロ】\n
@@ -480,6 +480,7 @@
 ;;ワイプ
 ;;time=トランジションにかかる時間
 ;;storage=背景画像を指定する\nデフォルトはwhite, 画像ファイル名
+;;hidemes=メッセージウィンドウを表示するかどうか, 論理値
 [macro name=wipe]
 [fadebgm volume="0" time="500" cond="mp.fadebgm == 'true'"]
 [dis_all_chara_fade_message time=500]
@@ -487,9 +488,11 @@
 [strans storage="eyecatch" method="universal" rule="left_right" time="250"]
 [wait time=%time|1000 canskip="false"]
 [strans storage=%storage method="universal" rule="left_right" time="250"]
-[SetupMessageWindow]
+[if exp="mp.hidemes != 'true'"]
+	[SetupMessageWindow]
+[endif]
 [fadebgm volume="100" time="500" cond="mp.fadebgm == 'true'"]
-[kagtag fadebgm=%fadebgm]
+[kagtag fadebgm=%fadebgm hidemes=%hidemes]
 [endmacro]
 
 
