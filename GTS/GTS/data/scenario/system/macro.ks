@@ -35,7 +35,7 @@
 	[locate x=563 y=685]
 	[button graphic="save"]
 	;顔レイヤも一旦非表示
-	[layopt layer=9 top=452 left=50 page="fore" visible="false"]
+	[layopt layer=9 top=0 left=0 page="fore" visible="false"]
 	;メッセージレイヤ設定
 	[current layer="message1"]
 	[deffont size=30]
