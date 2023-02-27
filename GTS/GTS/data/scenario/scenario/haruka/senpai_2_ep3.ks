@@ -1,12 +1,28 @@
-[shownametag name="ロン毛" visible=true bust="false"]
+;[→『北』の部活達]
+[call storage="Initialize.ks"]
+
+[fadeoutbgm time="1000"]
+[strans storage="white"]
+
+[show_message_fade time="500"]
+[nowait]
+;[playse storage="chaim_far_single" ]
+
+[strans storage="bg_kitaRouka"]
+
+
+;[call target=*De]
+
+[takahashi_stand face="futsu"]
+[show_nametag name="ロン毛" visible=true]
 「……さぁ、君の魂の音を聞かせてくれ」[plc]
 
-
-[shownametag name="ロン毛" visible=true bust="false"]
+[takahashi_stand face="futsu" size="l"]
+[show_nametag name="ロン毛" visible=true]
 「――ジャジャーン！」[plc]
 
-
-[shownametag name="大樹" visible=true]
+[dis_all_chara]
+[show_nametag name="大樹" visible=true]
 「……」[plc]
 
 

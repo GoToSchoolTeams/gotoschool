@@ -1,3 +1,5 @@
+;[【北】『tetra』と『Bee-sen』]
+
 連れて来られた場所は、最初から戦場だった。[plc]
 
 
@@ -26,7 +28,7 @@
 
 ――ワー、ワーワーワーッ！[plc]
 
-[shownametag name="大樹「……んだよ、ここは」[plc]" visible=true bust="false"]
+[show_nametag name="大樹「……んだよ、ここは」[plc]" visible=true]
 
 
 ロン毛「ん、ふふ」[plc]
@@ -44,19 +46,19 @@
 ロン毛「ここは、『tetra』と『Bee-sen』さ」[plc]
 
 
-[shownametag name="大樹「はぁ？」[plc]" visible=true bust="false"]
+[show_nametag name="大樹「はぁ？」[plc]" visible=true]
 
 
 聞いただけじゃ、全く何の部活か分からん。[plc]
 
 
-[shownametag name="大樹「……あれか？　ディベート系の」[plc]" visible=true bust="false"]
+[show_nametag name="大樹「……あれか？　ディベート系の」[plc]" visible=true]
 
 
 ロン毛「べいべぇ……良い勘をしている」[plc]
 
 
-[shownametag name="大樹「ふ」[plc]" visible=true bust="false"]
+[show_nametag name="大樹「ふ」[plc]" visible=true]
 
 
 流石に、色々な集団を見てきたからな。[plc]
@@ -65,48 +67,48 @@
 ロン毛「２つとも、ゲームを作る部活だ」[plc]
 
 
-[shownametag name="大樹「……」[plc]" visible=true bust="false"]
+[show_nametag name="大樹「……」[plc]" visible=true]
 
 
 ……全然ちげぇじゃん。[plc]
 
 
-[shownametag name="遥香「……それがまた、どうしてこんなことやってんの？」[plc]" visible=true bust="false"]
+[show_nametag name="遥香「……それがまた、どうしてこんなことやってんの？」[plc]" visible=true]
 
 
 ロン毛「ふふ、企画会議さ」[plc]
 
 
-[shownametag name="遥香「なにそれ？」[plc]" visible=true bust="false"]
+[show_nametag name="遥香「なにそれ？」[plc]" visible=true]
 
 
-[shownametag name="ガイア「ゲーム制作は個人作業じゃない。だから、ゲームを作る上で、誰もが自分が作りたいゲームを作れるとは限らん」[plc]" visible=true bust="false"]
+[show_nametag name="ガイア「ゲーム制作は個人作業じゃない。だから、ゲームを作る上で、誰もが自分が作りたいゲームを作れるとは限らん」[plc]" visible=true]
 
-[shownametag name="ガイア「同じ物を作りたいと思っている連中で集まったと思っても……実際は違うものを望んでいる場合が殆どだからな」[plc]" visible=true bust="false"]
+[show_nametag name="ガイア「同じ物を作りたいと思っている連中で集まったと思っても……実際は違うものを望んでいる場合が殆どだからな」[plc]" visible=true]
 
-[shownametag name="ガイア「だから、作り始めて互いの齟齬で揉めないように、どんなゲームを作るのかを最初に決める」[plc]" visible=true bust="false"]
+[show_nametag name="ガイア「だから、作り始めて互いの齟齬で揉めないように、どんなゲームを作るのかを最初に決める」[plc]" visible=true]
 
-[shownametag name="ガイア「それが企画会議だ」[plc]" visible=true bust="false"]
-
-
-[shownametag name="遥香「へぇー」[plc]" visible=true bust="false"]
+[show_nametag name="ガイア「それが企画会議だ」[plc]" visible=true]
 
 
-[shownametag name="大樹「……」[plc]" visible=true bust="false"]
+[show_nametag name="遥香「へぇー」[plc]" visible=true]
 
 
-[shownametag name="遥香「それってこんなにもめるの？」[plc]" visible=true bust="false"]
+[show_nametag name="大樹「……」[plc]" visible=true]
 
 
-[shownametag name="ガイア「もめるさ。ようは、ここで通った内容のゲームを作るんだからな……自分が作りたい内容のゲームを作るには、ここで押し切っておくしかない」" visible=true bust="false"]
-[shownametag name="ガイア「つまりは、まぁ『理想』という糞のぶつけ合いだ。ここで音を上げた方の理想は相手の糞まみれになって見えなくなる」[plc]" visible=true bust="false"]
+[show_nametag name="遥香「それってこんなにもめるの？」[plc]" visible=true]
+
+
+[show_nametag name="ガイア「もめるさ。ようは、ここで通った内容のゲームを作るんだからな……自分が作りたい内容のゲームを作るには、ここで押し切っておくしかない」" visible=true]
+[show_nametag name="ガイア「つまりは、まぁ『理想』という糞のぶつけ合いだ。ここで音を上げた方の理想は相手の糞まみれになって見えなくなる」[plc]" visible=true]
 
 やけに詳しいなぁ、コイツ。[plc]
 
 
 ロン毛「ん、ふふ……べいべぇ……彼らの場合は、それだけじゃぁないんだけどね」[plc]
 
-[shownametag name="大樹「……」[plc]" visible=true bust="false"]
+[show_nametag name="大樹「……」[plc]" visible=true]
 
 
 なんかまた、面倒くせぇ事情がありそうだな。[plc]
@@ -156,7 +158,7 @@
 会議は、あっという間にふたたび荒れ模様で。[plc]
 
 
-[shownametag name="大樹「……」[plc]" visible=true bust="false"]
+[show_nametag name="大樹「……」[plc]" visible=true]
 
 
 ま、大体、理由は分かった。[plc]
@@ -177,7 +179,7 @@
 
 
 ロン毛「グラは優遇されすぎてるってね……ま、実際、グラの『描ける・描けない』でシナリオの内容……つまり、ゲーム自体を変えさせられる……ってのがしょっちゅうだったらしいしね」[lr]
-[shownametag name="ガイア「まぁ、弱小集団だとよくあることだな」[plc]" visible=true bust="false"]
+[show_nametag name="ガイア「まぁ、弱小集団だとよくあることだな」[plc]" visible=true]
 
 
 ロン毛「そう……だけど、普通の弱小集団ならグラは仕事をこなすうちにうまくなる。ずっと続けるなら、うまくなるまで我慢してりゃいい」[lr]
@@ -196,7 +198,7 @@
 もうギターでもベースでもねぇな。[plc]
 
 
-[shownametag name="ガイア「学生ってのは忙しいからな」[plc]" visible=true bust="false"]
+[show_nametag name="ガイア「学生ってのは忙しいからな」[plc]" visible=true]
 
 
 ロン毛「……そう、そうなんだよねぇ。それに、ゲーム作る上で……やっぱりグラって優遇されるからね。実際、頑張らなくても、あぐらかける状態だったんだよ」[lr]
@@ -210,19 +212,19 @@
 ロン毛「――ジャカジャンッ！」[plc]
 
 
-[shownametag name="ガイア「うーむ」[plc]" visible=true bust="false"]
+[show_nametag name="ガイア「うーむ」[plc]" visible=true]
 
 
 ガイヤが納得気に頷くが。[plc]
 
 
-[shownametag name="大樹「……」[plc]" visible=true bust="false"]
+[show_nametag name="大樹「……」[plc]" visible=true]
 
 
-[shownametag name="遥香「……」[plc]" visible=true bust="false"]
+[show_nametag name="遥香「……」[plc]" visible=true]
 
 
-[shownametag name="縁「……」[plc]" visible=true bust="false"]
+[show_nametag name="縁「……」[plc]" visible=true]
 
 
 俺達には未知の話過ぎて全然分からんぞ。[plc]
@@ -230,7 +232,7 @@
 
 ガイヤ「……特に、ノベルゲーム作ってた……ってのが、問題なんだろうな」[plc]
 
-[shownametag name="ガイア「アレは、グラの量が少ないのをいかにシナリオで誤魔化すか……というものでもあるから」[plc]" visible=true bust="false"]
+[show_nametag name="ガイア「アレは、グラの量が少ないのをいかにシナリオで誤魔化すか……というものでもあるから」[plc]" visible=true]
 
 ロン毛「べいべぇ……というわけで、シナリオは真面目に仕事をしないグラを追い出した」[plc]
 
@@ -244,27 +246,27 @@
 
 ロン毛「シナリオばっかの『Bee-sen』とグラばっかの『tetra』が誕生したわけだよ、べいべぇ」[plc]
 
-[shownametag name="大樹「ふーん」[plc]" visible=true bust="false"]
+[show_nametag name="大樹「ふーん」[plc]" visible=true]
 
 
 めちゃくちゃどうでもいいわ。[plc]
 
 
-[shownametag name="ガイア「しかし、シナリオの連中は愚かだな……」[plc]" visible=true bust="false"]
+[show_nametag name="ガイア「しかし、シナリオの連中は愚かだな……」[plc]" visible=true]
 
 
-[shownametag name="大樹「……」[plc]" visible=true bust="false"]
+[show_nametag name="大樹「……」[plc]" visible=true]
 
 
-[shownametag name="ガイア「なんでか分かるか？　兄弟」[plc]" visible=true bust="false"]
+[show_nametag name="ガイア「なんでか分かるか？　兄弟」[plc]" visible=true]
 
 
 いえ、興味ないです。[plc]
 
 
-[shownametag name="ガイア「ゲーム……これを構成するのに最低限必要な物は、何か分かるか？」[plc]" visible=true bust="false"]
+[show_nametag name="ガイア「ゲーム……これを構成するのに最低限必要な物は、何か分かるか？」[plc]" visible=true]
 
-[shownametag name="大樹「知らん……なぁ、もういいだろ？」[plc]" visible=true bust="false"]
+[show_nametag name="大樹「知らん……なぁ、もういいだろ？」[plc]" visible=true]
 
 
 十分だろ？[plc]
@@ -273,47 +275,47 @@
 そんな俺の顔を無視して、ガイアは続ける。[plc]
 
 
-[shownametag name="ガイア「それは形だ……テレビゲームだろうが、トランプだろうが、ボードゲームだろうが、まずは形がなくては話しにならん」[plc]" visible=true bust="false"]
+[show_nametag name="ガイア「それは形だ……テレビゲームだろうが、トランプだろうが、ボードゲームだろうが、まずは形がなくては話しにならん」[plc]" visible=true]
 
-[shownametag name="ガイア「逆に形さえあれば、形さえ用意していれば、例えゲーム性がなくても誰かがゲーム性を作るかもしれん」[plc]" visible=true bust="false"]
+[show_nametag name="ガイア「逆に形さえあれば、形さえ用意していれば、例えゲーム性がなくても誰かがゲーム性を作るかもしれん」[plc]" visible=true]
 
-[shownametag name="ガイア「石ころでも、使い方によってはゲームになるんだからな」[plc]" visible=true bust="false"]
+[show_nametag name="ガイア「石ころでも、使い方によってはゲームになるんだからな」[plc]" visible=true]
 
 
-[shownametag name="大樹「……」[plc]" visible=true bust="false"]
+[show_nametag name="大樹「……」[plc]" visible=true]
 
 
 はぁ。[plc]
 
 
-[shownametag name="ガイア「特に、こいつらが作っているノベルゲームだなんて典型的な例じゃないか」[plc]" visible=true bust="false"]
+[show_nametag name="ガイア「特に、こいつらが作っているノベルゲームだなんて典型的な例じゃないか」[plc]" visible=true]
 
-[shownametag name="ガイア「プレイヤーがやる事と言えば……ボタンをクリックし続けるという作業だ。ま、ストーリー追って文字を読むという作業もあるが……勿論、BGMを聞くっていうのもな」" visible=true bust="false"]
-[shownametag name="ガイア「よーく考えれば、そんなもん紙芝居と一緒だ……だが、プレイヤーのなんらかのアクションで絵が動く……というだけで、これは『ゲーム』だと言い張ることが出来る」" visible=true bust="false"]
-[shownametag name="ガイア「そうだろう？」[plc]" visible=true bust="false"]
+[show_nametag name="ガイア「プレイヤーがやる事と言えば……ボタンをクリックし続けるという作業だ。ま、ストーリー追って文字を読むという作業もあるが……勿論、BGMを聞くっていうのもな」" visible=true]
+[show_nametag name="ガイア「よーく考えれば、そんなもん紙芝居と一緒だ……だが、プレイヤーのなんらかのアクションで絵が動く……というだけで、これは『ゲーム』だと言い張ることが出来る」" visible=true]
+[show_nametag name="ガイア「そうだろう？」[plc]" visible=true]
 
 
-[shownametag name="大樹「……」[plc]" visible=true bust="false"]
+[show_nametag name="大樹「……」[plc]" visible=true]
 
 
 そ、そうなの？[plc]
 
 
-[shownametag name="ガイア「ゲームを作りたいというなら……小説じゃ嫌だというのなら……喧嘩しようが、殴り合おうがかまわんが」[plc]" visible=true bust="false"]
+[show_nametag name="ガイア「ゲームを作りたいというなら……小説じゃ嫌だというのなら……喧嘩しようが、殴り合おうがかまわんが」[plc]" visible=true]
 
-[shownametag name="ガイア「追い出すべきじゃなかったな、グラを」[plc]" visible=true bust="false"]
+[show_nametag name="ガイア「追い出すべきじゃなかったな、グラを」[plc]" visible=true]
 
 
 しみじみと、ガイアはそう言った。[plc]
 
 
-[shownametag name="大樹「……」[plc]" visible=true bust="false"]
+[show_nametag name="大樹「……」[plc]" visible=true]
 
 
 なんでコイツこんなに訳知り顔なの？[plc]
 
 
-[shownametag name="ガイア「しかし、別の部なら何故同じ部屋で企画会議をしている？」[plc]" visible=true bust="false"]
+[show_nametag name="ガイア「しかし、別の部なら何故同じ部屋で企画会議をしている？」[plc]" visible=true]
 
 ロン毛「んー、それがねぇ。お互い、別れたらゲーム作れなくなっちゃってねぇ」[plc]
 
@@ -324,10 +326,10 @@
 しらねーよ。[plc]
 
 
-[shownametag name="ガイア「うむ」[plc]" visible=true bust="false"]
+[show_nametag name="ガイア「うむ」[plc]" visible=true]
 
 
-[shownametag name="大樹「……」[plc]" visible=true bust="false"]
+[show_nametag name="大樹「……」[plc]" visible=true]
 
 
 そういや、言語と絵って使ってる脳みそが真逆……ってのは聞いたことがあるな……そういうことなのか？[plc]
@@ -336,12 +338,12 @@
 
 それでまた集まって、大喧嘩かよ。まったく成長が見られないじゃねーか。[plc]
 
-[shownametag name="大樹「つーかよ、大体、ゲームって。その、ノベルなんとかってのは絵を描く奴と文章書く奴だけで作れんのかよ？」[plc]" visible=true bust="false"]
+[show_nametag name="大樹「つーかよ、大体、ゲームって。その、ノベルなんとかってのは絵を描く奴と文章書く奴だけで作れんのかよ？」[plc]" visible=true]
 
 ふつーなんかもっと別にいるじゃん？[lr]
 ていうか、ゲームってプログラマーが作るもんじゃないの？[plc]
 
-[shownametag name="ガイア「出来ないことはないが……あれを見ろ」[plc]" visible=true bust="false"]
+[show_nametag name="ガイア「出来ないことはないが……あれを見ろ」[plc]" visible=true]
 
 
 指さした先を見ると、[plc]
@@ -355,7 +357,7 @@
 議論してる集団とは離れて、遊んでる奴らが居た。[plc]
 
 
-[shownametag name="ガイア「連中が、多分そうなんだろう」[plc]" visible=true bust="false"]
+[show_nametag name="ガイア「連中が、多分そうなんだろう」[plc]" visible=true]
 
 
 ロン毛「うーん、カードゲームしてるのがシステムで、モン○ンやってるのがサウンドってとこかなぁ、べいべぇ」[plc]
@@ -363,12 +365,12 @@
 ロン毛「――ジャカジャンッ！」[plc]
 
 
-[shownametag name="ガイア「諦めたんだろうな」[plc]" visible=true bust="false"]
+[show_nametag name="ガイア「諦めたんだろうな」[plc]" visible=true]
 
 
 ロン毛「……この２つの部は、実はもう三年ほど新作を作っていないの、さ」[plc]
 
-[shownametag name="大樹「……うわぁ、世代交代してんじゃん」[plc]" visible=true bust="false"]
+[show_nametag name="大樹「……うわぁ、世代交代してんじゃん」[plc]" visible=true]
 
 
 それは酷いな。[plc]
@@ -382,22 +384,22 @@
 
 ――ワー、ワーワー！[plc]
 
-[shownametag name="大樹「……どうしたもんかね」[plc]" visible=true bust="false"]
+[show_nametag name="大樹「……どうしたもんかね」[plc]" visible=true]
 
 
 しみじみと呟くと、腕を突かれた。[plc]
 
 
-[shownametag name="遥香「ちょっと、谷口君」[plc]" visible=true bust="false"]
+[show_nametag name="遥香「ちょっと、谷口君」[plc]" visible=true]
 
 
-[shownametag name="大樹「はい？　なんすか」[plc]" visible=true bust="false"]
+[show_nametag name="大樹「はい？　なんすか」[plc]" visible=true]
 
 
-[shownametag name="遥香「いつまでやるの？　ここに釣り部いないんでしょう？」[plc]" visible=true bust="false"]
+[show_nametag name="遥香「いつまでやるの？　ここに釣り部いないんでしょう？」[plc]" visible=true]
 
 
-[shownametag name="大樹「え？　……ぁ」[plc]" visible=true bust="false"]
+[show_nametag name="大樹「え？　……ぁ」[plc]" visible=true]
 
 
 そこで、ハッと我に返る。[plc]
@@ -405,10 +407,10 @@
 
 いつの間にか、ロン毛とガイアに流されるままにしみじみと争いを眺めていた。[plc]
 
-[shownametag name="大樹「やべぇ、流されるとこだった」[plc]" visible=true bust="false"]
+[show_nametag name="大樹「やべぇ、流されるとこだった」[plc]" visible=true]
 
 
-[shownametag name="ガイア「……俺としたことが」[plc]" visible=true bust="false"]
+[show_nametag name="ガイア「……俺としたことが」[plc]" visible=true]
 
 
 ロン毛「べいべぇ……熱気とは、恐ろしいものだ。次にいこうか」[plc]
@@ -422,12 +424,12 @@
 男子B「――お前がしねぇえええええええええええ！！！」[plc]
 
 
-[shownametag name="大樹「……」[plc]" visible=true bust="false"]
+[show_nametag name="大樹「……」[plc]" visible=true]
 
 
 醜いなぁ……いくら熱気があったところで、これじゃ何も活動してない連中と一緒だよ。[plc]
 
-[shownametag name="大樹「まぁいいか」[plc]" visible=true bust="false"]
+[show_nametag name="大樹「まぁいいか」[plc]" visible=true]
 
 
 そんな事を思いながら、俺はその場を後にした。[plc]

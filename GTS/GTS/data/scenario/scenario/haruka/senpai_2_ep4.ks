@@ -1,86 +1,107 @@
-[shownametag name="大樹" visible=true]
+;[【北】音響研究会]
+[call storage="Initialize.ks"]
+
+[fadeoutbgm time="1000"]
+[strans storage="white"]
+
+[show_message_fade time="500"]
+
+;[playse storage="chaim_far_single" ]
+
+[strans storage="bg_kitaRouka"]
+
+
+;[call target=*De]
+
+
+
+[show_nametag name="大樹" visible=true]
 「……音響研究会？」[plc]
 
 
 
-小さく口に出した言葉は、やけに間抜けな響きに聞こえた。[plc]
+小さく口に出した言葉は、[l]やけに間抜けな響きに聞こえた。[plc]
 
 
-[shownametag name="ロン毛" visible=true bust="false"]
+[takahashi_stand face="futsu"]
+[show_nametag name="ロン毛" visible=true]
 「んーん、べいべぇ」[plc]
 
-
-[shownametag name="ロン毛" visible=true bust="false"]
+[takahashi_stand face="futsu" size="l" time="200"]
+[show_nametag name="ロン毛" visible=true]
 「――ジャカジャン！」[plc]
 
-
-[shownametag name="ロン毛" visible=true bust="false"]
+[takahashi_stand face="futsu" size="m"]
+[show_nametag name="ロン毛" visible=true]
 「気になるのかい？」[plc]
 
 
-[shownametag name="大樹" visible=true]
+[show_nametag name="大樹" visible=true]
 「いや、別に」[plc]
 
+[dis_all_chara]
+
+ロン毛のイカレポンチに付いていく途中、[lr]
+そんな怪しげな立て札を見つけたのだ。[plc]
 
 
-ロン毛のイカレポンチに付いていく途中、そんな怪しげな立て札を見つけたのだ。[plc]
+立て札が掛けてある教室の窓は全て黒いカーテンで覆われており、[lr]
+中の様子を伺う事は出来ない。[plc]
 
 
-立て札が掛けてある教室の窓は全て黒いカーテンで覆われており、中の様子を伺う事は出来ない。[plc]
-
-
-いや、この『北』塔の基準で考えると、[lr]
+いや、この『北』塔の基準で考えると、[r]
 全然怪しくないとも言えるが。[plc]
 
-[shownametag name="ロン毛" visible=true bust="false"]
-「んんん、ビぃぃっッッッと！　……良い勘をしているねぇ君。[lr]
-　……確かに、そこは釣り部のポイントの一つでもある」[plc]
+[takahashi_stand face="futsu"]
+[show_nametag name="ロン毛" visible=true]
+「んんん、ビぃぃっッッッと！[l]　……良い勘をしているねぇ君。[lr]
+　確かにそこは釣り部のポイントの一つでもある」[plc]
 
 
 弦の無いギターをカリカリと引っ掻いて、ロン毛はそう言う。[plc]
 
 
-[shownametag name="大樹" visible=true]
-「……なぁ、もしかしてお前の言う『ポイント』って」[plc]
+[show_nametag name="大樹" visible=true]
+「……なぁ、もしかしてお前の言う[l]『ポイント』って」[plc]
 
-
-[shownametag name="ロン毛" visible=true bust="false"]
+[takahashi_stand face="futsu" size="l" time="200"]
+[show_nametag name="ロン毛" visible=true]
 「――ギャリリリリリリリッ！」[plc]
 
-
-[shownametag name="ロン毛" visible=true bust="false"]
-「……言葉はいらない。そこに、魂はあるのかい？」[plc]
+[takahashi_stand face="futsu" size="m" time="200"]
+[show_nametag name="ロン毛" visible=true]
+「……言葉はいらない。[l]そこに、魂はあるのかい？」[plc]
 
 
 
 いや、お前の全部言葉じゃん。[plc]
 
-
-[shownametag name="ロン毛" visible=true bust="false"]
+[takahashi_stand face="futsu" size="l" time="200"]
+[show_nametag name="ロン毛" visible=true]
 「ふ」[plc]
 
+[dis_all_chara]
 
+俺の疑問など全て無視して、[r]
+ロン毛はその教室に入っていった。[plc]
 
-俺の疑問など全て無視して、ロン毛はその教室に入っていった。[plc]
-
-
-[shownametag name="ガイア" visible=true]
+[gaia_face face="egao"]
+[show_nametag name="ガイア" visible=true]
 「入ろうか、兄弟」[plc]
 
 
-[shownametag name="大樹" visible=true]
+[show_nametag name="大樹" visible=true]
 「……」[plc]
 
 
+どうにもならんようなので、[l]俺はそれに従った。[plc]
 
-どうにもならんようなので、俺はそれに従った。[plc]
-
-
+[wipe storage="bg_black"]
 
 ;[場面転換、教室]
 
 
-[shownametag name="大樹" visible=true]
+[show_nametag name="大樹" visible=true]
 「うわ、暗っ！」[plc]
 
 
@@ -92,7 +113,9 @@
 廊下側だけでなく、外の窓側にも黒いカーテンは敷き詰められ。[lr]
 教室内は全く何も見えない。[plc]
 
-[shownametag name="ロン毛" visible=true bust="false"]
+
+[takahashi_face face="futsu"]
+[show_nametag name="ロン毛" visible=true]
 「ん、んー……どうも、聴いている最中のようだね」[plc]
 
 
@@ -103,12 +126,14 @@
 
 聴いてる最中だと？？[plc]
 
+[haruka_face face="keibetsu"]
+[show_nametag name="遥香" visible=true]
+「ちょっとこれじゃ見えないじゃない……[l]
+[haruka_face face="ai"]
+あれ、スイッチが」[plc]
 
-[shownametag name="遥香" visible=true]
-「ちょっとこれじゃ見えないじゃない……あれ、スイッチが」[plc]
-
-
-[shownametag name="遥香" visible=true]
+[haruka_face face="odoroki"]
+[show_nametag name="遥香" visible=true]
 「た、谷口君！　す、スイッチが無いわよ！！」[plc]
 
 
@@ -116,8 +141,9 @@
 入り口付近で先輩がパタパタと何かやってるようすが分かるが、[lr]
 どうも電灯のスイッチが無いらしい。[plc]
 
-[shownametag name="縁" visible=true]
-「……」[plc]
+[najimi_face face="metoji_kuchiake"]
+[show_nametag name="縁" visible=true]
+「……っ」[plc]
 
 
 
@@ -131,15 +157,15 @@
 
 それで、室内のようすがわかった。[plc]
 
-
+[strans storage="bg_kitaOnkyoKennkyukai"]
 
 『『『――』』』[plc]
 
-
-[shownametag name="縁" visible=true]
+[najimi_stand face="bibiri"]
+[show_nametag name="縁" visible=true]
 「ひっ」[plc]
 
-
+[dis_all_chara]
 
 縁が、小さく悲鳴を漏らす。[plc]
 
@@ -152,15 +178,15 @@
 上半身裸で。[plc]
 
 
-[shownametag name="男子達" visible=true bust="false"]
-「――――音が、失われた」[plc]
+[show_nametag name="男子達" visible=true]
+「――――音が、[l]失われた」[plc]
 
 
 
-ポツリと、寂しそうに一言だけ、男達はそう呟く。[plc]
+ポツリと、[l]寂しそうに一言だけ、男達はそう呟く。[plc]
 
 
-[shownametag name="大樹" visible=true]
+[show_nametag name="大樹" visible=true]
 「……」[plc]
 
 
@@ -172,30 +198,32 @@
 スッと、リーダー格っぽい一人の男が立ち上がった。[plc]
 
 
-[shownametag name="リーダー" visible=true bust="false"]
-「……君たち、なにものなのか知らんが、どうして光を入れたりしたんだね？」[plc]
+[show_nametag name="リーダー" visible=true]
+「……君たち、なにものなのか知らんが、[lr]
+　どうして光を入れたりしたんだね？」[plc]
 
-[shownametag name="遥香" visible=true]
+[haruka_face face="magao"]
+[show_nametag name="遥香" visible=true]
 「いや、だって暗いから……」[plc]
 
 
-[shownametag name="リーダー" visible=true bust="false"]
+[show_nametag name="リーダー" visible=true]
 「暗い……？　廊下は明るかったろう？」[plc]
 
-
-[shownametag name="遥香" visible=true]
+[haruka_face face="odoroki"]
+[show_nametag name="遥香" visible=true]
 「えぇ、まぁ」[plc]
 
 
-[shownametag name="リーダー" visible=true bust="false"]
+[show_nametag name="リーダー" visible=true]
 「なら、あの立て札を呼んだはずだ。[lr]
-　ここは『音響研究会』……光は御法度だ」[plc]
+　ここは『音響研究会』[l]……光は御法度だ」[plc]
 
 
 『常識だろう？』と言わんばかりに、半裸の男達は眉をひそめる。[plc]
 
 
-[shownametag name="リーダー" visible=true bust="false"]
+[show_nametag name="リーダー" visible=true]
 「ふー……これが若者の幼児化か」[plc]
 
 
@@ -208,50 +236,53 @@
 
 
 
-意味が分からん、意味がわからなさ過ぎて
+意味が分からん。[plc]
+
+意味がわからなさ過ぎて、[lr]
 一体何が意味が分からないのかも分からない。[plc]
 
-[shownametag name="リーダー" visible=true bust="false"]
+[show_nametag name="リーダー" visible=true]
 「いいかい？　……音とは何だ？」[plc]
 
-
-[shownametag name="縁" visible=true]
+[najimi_face face="akire"]
+[show_nametag name="縁" visible=true]
 「音は、音でしょう」[plc]
+[dis_all_chara]
 
-
-[shownametag name="大樹" visible=true]
+[show_nametag name="大樹" visible=true]
 「そうそう」[plc]
 
-
-[shownametag name="遥香" visible=true]
+[haruka_face face="magao"]
+[show_nametag name="遥香" visible=true]
 「うん」[plc]
 
 
 
 それ以外になんかあるか？[plc]
 
-
-[shownametag name="ガイア" visible=true]
+[gaia_stand face="serious"]
+[show_nametag name="ガイア" visible=true]
 「『波』……だな」[plc]
 
 
-[shownametag name="リーダー" visible=true bust="false"]
+[show_nametag name="リーダー" visible=true]
 「……よかった。ちゃんと高校生もいるようだね」[plc]
 
-
+[dis_all_chara]
 
 安心したという顔で男はガイアを見て、[lr]
 俺達を残念そうな顔で見つめた。[plc]
 
-[shownametag name="縁" visible=true]
+[najimi_face face="do"]
+[show_nametag name="縁" visible=true]
 「……」[plc]
 
-
-[shownametag name="遥香" visible=true]
+[haruka_face face="keibetsu"]
+[show_nametag name="遥香" visible=true]
 「……それぐらい知ってるわよ」[plc]
 
 
-[shownametag name="大樹" visible=true]
+[show_nametag name="大樹" visible=true]
 「……」[plc]
 
 
@@ -259,26 +290,29 @@
 え？　そうなの？[plc]
 
 
-[shownametag name="リーダー" visible=true bust="false"]
+[show_nametag name="リーダー" visible=true]
 「そう、音とは波だ……空気……いや、媒介はなんでもいいさ。[lr]
 　媒介が振動し、波が伝わる事で僕たちは音を感じることができる」[lr]
-[shownametag name="リーダー" visible=true bust="false"]
-「そぅ……波なんだよ、波。分かるかい？　波なんだ」[plc]
 
 
-[shownametag name="大樹" visible=true]
+
+[show_nametag name="リーダー" visible=true]
+「そぅ……波なんだよ、波。[l]分かるかい？　波なんだ」[plc]
+
+
+[show_nametag name="大樹" visible=true]
 「……はぁ」[plc]
 
 
-[shownametag name="リーダー" visible=true bust="false"]
+[show_nametag name="リーダー" visible=true]
 「じゃ、光はなんだい？」[plc]
 
 
-[shownametag name="大樹" visible=true]
+[show_nametag name="大樹" visible=true]
 「光？　光は、光だろうが」[plc]
 
 
-[shownametag name="リーダ" visible=true bust="false"]
+[show_nametag name="リーダ" visible=true]
 「……」[plc]
 
 
@@ -286,11 +320,12 @@
 リーダーは、ぷるぷると首を振る。[lr]
 『おぉ、嘆かわしい』と後ろの半裸達も首を振った。[plc]
 
-[shownametag name="ガイア" visible=true]
+[gaia_stand face="kangaeru"]
+[show_nametag name="ガイア" visible=true]
 「兄弟、光も。波だ」[plc]
 
 
-[shownametag name="大樹" visible=true]
+[show_nametag name="大樹" visible=true]
 「はぁ？？　んなわけあるかよ」[plc]
 
 
@@ -298,15 +333,17 @@
 強い音あてたら物が揺れるってのはなんとなくわかるけど、[lr]
 光あてたって別にゆれねーじゃん。[plc]
 
-[shownametag name="リーダー" visible=true bust="false"]
-「光の粒子説と波としてのふるまい……まぁいい。[lr]
-　君の無知に付き合ってる暇はない。とにかく光は波だ」[plc]
+[dis_all_chara]
 
-[shownametag name="リーダー" visible=true bust="false"]
+[show_nametag name="リーダー" visible=true]
+「光の粒子説と波としてのふるまい……まぁいい。[lr]
+　君の無知に付き合ってる暇はない。[l]とにかく光は波だ」[plc]
+
+[show_nametag name="リーダー" visible=true]
 「勿論、音もだ。そして波同士は干渉する」[plc]
 
 
-[shownametag name="リーダー" visible=true bust="false"]
+[show_nametag name="リーダー" visible=true]
 「つまり、だ」[plc]
 
 
@@ -314,11 +351,11 @@
 開け放たれた黒いカーテンに向かって指を指し、半裸の男は言った。[plc]
 
 
-[shownametag name="リーダー" visible=true bust="false"]
-「君たちの心ない行いによって、失われたのだよ！
+[show_nametag name="リーダー" visible=true]
+「君たちの心ない行いによって、失われたのだよ！[lr]
 　われわれの『音』が！！」[plc]
 
-[shownametag name="リーダー" visible=true bust="false"]
+[show_nametag name="リーダー" visible=true]
 「――あぁ、憎き、太陽光線め！！！」[plc]
 
 
@@ -326,76 +363,85 @@
 そのリーダーの言葉に賛同するように、[lr]
 後ろの男達もコクコクと頷く。[plc]
 
-[shownametag name="リーダー" visible=true bust="false"]
-「分かるかい？　君たち、君たちがなにをしたのか！！
+[show_nametag name="リーダー" visible=true]
+「分かるかい？[l]　君たち、君たちがなにをしたのか！！[lr]
 　われわれが、われわれがこだわりにこだわって作った」[plc]
 
-[shownametag name="リーダー" visible=true bust="false"]
-「まっことピュアな『音』！！　それを君たちは……君たちはねぇ」[plc]
+[show_nametag name="リーダー" visible=true]
+「まっことピュアな『音』！！[lr]
+　それを君たちは……君たちはねぇ」[plc]
 
-[shownametag name="リーダー" visible=true bust="false"]
-「われわれがこの日のためにどれだけ死力を尽くしたか！
+[show_nametag name="リーダー" visible=true]
+「われわれがこの日のためにどれだけ死力を尽くしたか！[lr]
 　いいかい？　この地方の電力会社はランクC！！」[plc]
 
-[shownametag name="リーダー" visible=true bust="false"]
-「バランスの良い波を作るが、どうしても音には距離感が生まれてしまう！　それでは駄目だ！！　それではピュアには程遠い！！！」[lr]
-[shownametag name="リーダー" visible=true bust="false"]
-「だが、我々は欲したのだ！
+[show_nametag name="リーダー" visible=true]
+「バランスの良い波を作るが、[lr]
+　どうしても音には距離感が生まれてしまう！」[plc]
+
+[show_nametag name="リーダー" visible=true]
+「それでは駄目だ！！　それではピュアには程遠い！！！」[plc]
+
+[show_nametag name="リーダー" visible=true]
+「だが、我々は欲したのだ！[lr]
 　密度とSN、低域薄く……ランクはA+……そんな音を」[plc]
 
-[shownametag name="リーダー" visible=true bust="false"]
-「だが、だが！！！　ここは東北ではないッ！！！！！」[plc]
+[show_nametag name="リーダー" visible=true]
+「だが、だが！！！[l]　ここは東北ではないッ！！！！！」[plc]
 
 
-[shownametag name="リーダー" visible=true bust="false"]
-「東北電力じゃないんだよ！　ここはッ！！！！！！！！！！！！！！！！！！！！！」[plc]
+[show_nametag name="リーダー" visible=true]
+「東北電力じゃないんだよ！[lr]
+　ここはッ！！！！！！！！！！！！！！！！！！！！！」[plc]
 
-[shownametag name="リーダー" visible=true bust="false"]
-「……だが、みたまえコレを。　我々はついに回答を見つけたのだ」[plc]
+[show_nametag name="リーダー" visible=true]
+「……だが、みたまえコレを。[l]我々はついに回答を見つけたのだ」[plc]
 
-[shownametag name="リーダー" visible=true bust="false"]
+[show_nametag name="リーダー" visible=true]
 「そう、電力会社ではダメだったのだよ。[lr]
-　……電力会社から供給される波は果たして……安定には程遠い」[plc]
+　……電力会社から供給される波は果たして[l]……安定には程遠い」[plc]
 
-[shownametag name="リーダー" visible=true bust="false"]
+[show_nametag name="リーダー" visible=true]
 「安定こそが、ピュア！！　安定こそが信仰！！！！」[plc]
 
 
-[shownametag name="リーダー" visible=true bust="false"]
+[show_nametag name="リーダー" visible=true]
 「――そう、答えは電池だ！！！」[plc]
 
 
-[shownametag name="リーダー" visible=true bust="false"]
+[show_nametag name="リーダー" visible=true]
 「だが勿論、アルカリでは駄目だ。[lr]
 　乾電池では……もちろんニッケルもダメ！！」[plc]
 
-[shownametag name="リーダー" visible=true bust="false"]
+[show_nametag name="リーダー" visible=true]
 「もう分かるね……そう、答えは、」[plc]
 
 
-[shownametag name="リーダー" visible=true bust="false"]
+[show_nametag name="リーダー" visible=true]
+[quake time="200"]
 「――答えはリチウムイオン電池！！！」[plc]
-
 
 
 じゃらっと、束になって繋がった携帯の電源を取り出して。[plc]
 
 
-[shownametag name="リーダー" visible=true bust="false"]
-「簡単に説明してやろう、リチウムイオン電池ってのはなぁ……その名の通り、Li＋……つまり、リチウムイオンが正負の間を行ったり来たり―」[lr]
-[shownametag name="遥香" visible=true]
+[show_nametag name="リーダー" visible=true]
+「簡単に説明してやろう、リチウムイオン電池ってのはなぁ……その名の通り、Li＋……つまり、リチウムイオンが正負の間を行ったり来たり――」[plc]
+
+[haruka_face face="keibetsu"]
+[show_nametag name="遥香" visible=true]
+「……」[plc]
+
+[najimi_face face="metoji"]
+[show_nametag name="縁" visible=true]
+「……」[plc]
+
+[gaia_face face="kangaeru"]
+[show_nametag name="ガイア" visible=true]
 「……」[plc]
 
 
-[shownametag name="縁" visible=true]
-「……」[plc]
-
-
-[shownametag name="ガイア" visible=true]
-「……」[plc]
-
-
-[shownametag name="大樹" visible=true]
+[show_nametag name="大樹" visible=true]
 「……」[plc]
 
 
@@ -403,7 +449,7 @@
 よーは、こいつら頭おかしいのか。[plc]
 
 
-[shownametag name="大樹" visible=true]
+[show_nametag name="大樹" visible=true]
 「そろそろ、暑くなってきたからな」[plc]
 
 
@@ -411,30 +457,32 @@
 いや、分かってたけどね。[plc]
 
 
-[shownametag name="大樹" visible=true]
+[show_nametag name="大樹" visible=true]
 「ここにいるの？　釣り部」[plc]
 
-
-[shownametag name="ロン毛" visible=true bust="false"]
+[takahashi_stand face="futsu"]
+[show_nametag name="ロン毛" visible=true]
 「んーん、いーや、いないね」[plc]
 
 
-[shownametag name="ロン毛" visible=true bust="false"]
-「べいべぇ、　――ジャカジャカジャン！」[plc]
+[show_nametag name="ロン毛" visible=true]
+「べいべぇ、[l]
+[takahashi_stand face="futsu" size="l" time="200"]
+　――ジャカジャカジャン！」[plc]
+[dis_all_chara]
 
-
-[shownametag name="大樹" visible=true]
+[show_nametag name="大樹" visible=true]
 「じゃぁ、次行こうぜ」[plc]
 
 
-[shownametag name="リーダー" visible=true bust="false"]
+[show_nametag name="リーダー" visible=true]
 「だが、それだけではダメだった。そう、必要なのは……進歩にはいつだって、促進にはエネルギーが必要……」[plc]
 
-[shownametag name="リーダー" visible=true bust="false"]
+[show_nametag name="リーダー" visible=true]
 「熱だ！　熱を加えねば！！」[plc]
 
 
-[shownametag name="リーダー" visible=true bust="false"]
+[show_nametag name="リーダー" visible=true]
 「皆のもの、火をもてぃ！」[plc]
 
 
@@ -452,20 +500,24 @@
 
 
 ;[場面転換、廊下]
+[strans storage="bg_kitaRouka"]
 
 
 
 
 
-
-
+[quake time=800]
 ――ドーンッ！[plc]
 
 
 
 どこかで爆発音が聞こえた気がしたけど、気にしない事にした。[plc]
 
+[fadeoutse time="1000"]
+[dis_all_chara_fade_message]
+[strans storage="white" time="1000"]
 
+[JumpChapter storage="senpai_2_ep3.ks"]
 
 ;[→選択肢へ]
 

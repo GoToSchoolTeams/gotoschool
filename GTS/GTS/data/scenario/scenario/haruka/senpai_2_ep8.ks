@@ -1,3 +1,5 @@
+;[【北】軽音部]
+
 その後も、俺達は色んな部を見て回った。[plc]
 
 
@@ -10,7 +12,7 @@
 部員B「――フェーイクッ！」[plc]
 
 
-[shownametag name="大樹「……」[plc]" visible=true bust="false"]
+[show_nametag name="大樹「……」[plc]" visible=true]
 
 
 
@@ -25,7 +27,7 @@
 部員B「いや、そんな事よりも脚本が――」[plc]
 
 
-[shownametag name="大樹「……」[plc]" visible=true bust="false"]
+[show_nametag name="大樹「……」[plc]" visible=true]
 
 
 
@@ -44,19 +46,19 @@
 部員A「紳士の皆さんの為に、満目 悟の方もとりそろえて―」[plc]
 
 
-[shownametag name="縁「……貴様らは」[plc]" visible=true bust="false"]
+[show_nametag name="縁「……貴様らは」[plc]" visible=true]
 
 
 部員A「―げ、本人だ！！！」[plc]
 
 
-[shownametag name="縁「殺す」[plc]" visible=true bust="false"]
+[show_nametag name="縁「殺す」[plc]" visible=true]
 
 
 『うわぁ～！　散れ、散れぇええ！！』[plc]
 
 
-[shownametag name="遥香「……お盛んだねぇ」[plc]" visible=true bust="false"]
+[show_nametag name="遥香「……お盛んだねぇ」[plc]" visible=true]
 
 
 
@@ -73,7 +75,7 @@
 そして、その全てが、[plc]
 
 
-[shownametag name="大樹「……」[plc]" visible=true bust="false"]
+[show_nametag name="大樹「……」[plc]" visible=true]
 
 
 あまりにもやる気がなくて。[plc]
@@ -94,7 +96,7 @@
 そう言って、ロン毛は芝居がかった調子で両手を広げる。[plc]
 
 
-[shownametag name="大樹「……」[plc]" visible=true bust="false"]
+[show_nametag name="大樹「……」[plc]" visible=true]
 
 
 俺達は『北』の最奥にまで連れて来られたのだった。[plc]
@@ -129,7 +131,7 @@
 で。[plc]
 
 
-[shownametag name="大樹「……釣り部は？」[plc]" visible=true bust="false"]
+[show_nametag name="大樹「……釣り部は？」[plc]" visible=true]
 
 
 ロン毛「ん、んんん……見当たらないねぇ」[plc]
@@ -140,27 +142,27 @@
 そう、ということはつまり、[plc]
 
 
-[shownametag name="遥香「……」[plc]" visible=true bust="false"]
+[show_nametag name="遥香「……」[plc]" visible=true]
 
 
-[shownametag name="縁「……」[plc]" visible=true bust="false"]
+[show_nametag name="縁「……」[plc]" visible=true]
 
 
-[shownametag name="ガイア「……」[plc]" visible=true bust="false"]
+[show_nametag name="ガイア「……」[plc]" visible=true]
 
 
-[shownametag name="大樹「……」[plc]" visible=true bust="false"]
+[show_nametag name="大樹「……」[plc]" visible=true]
 
 
 俺達は、この糞ロン毛に振り回さえれただけってぇ事だ。[plc]
 
 
-[shownametag name="大樹「よし、歯ぁ食いしばれ」[plc]" visible=true bust="false"]
+[show_nametag name="大樹「よし、歯ぁ食いしばれ」[plc]" visible=true]
 
 
 ロン毛「おっとと、暴力は良くないなぁ……暴力ではビィトを刻むことは出来ないよ」[plc]
 
-[shownametag name="遥香「君の弦無しギターよりはよっぽどいい打楽器になるよ」[plc]" visible=true bust="false"]
+[show_nametag name="遥香「君の弦無しギターよりはよっぽどいい打楽器になるよ」[plc]" visible=true]
 
 
 後ずさったロン毛を、先輩は羽交い絞めにした。[plc]
@@ -172,7 +174,7 @@
 ふむ……打楽器なら、腹かな？[plc]
 
 
-[shownametag name="遥香「顔にしなよ、痕が残るよ！」[plc]" visible=true bust="false"]
+[show_nametag name="遥香「顔にしなよ、痕が残るよ！」[plc]" visible=true]
 
 
 そっか、さすが先輩だぜ。[plc]
@@ -181,25 +183,25 @@
 ロン毛「おもったよりも、えげつないねぇ姫は」[plc]
 
 
-[shownametag name="大樹「んじゃ、さっそく――」[plc]" visible=true bust="false"]
+[show_nametag name="大樹「んじゃ、さっそく――」[plc]" visible=true]
 
 
-[shownametag name="ガイア「待て、兄弟」[plc]" visible=true bust="false"]
+[show_nametag name="ガイア「待て、兄弟」[plc]" visible=true]
 
 
 殴りかかろう、というところで、ガイアに止められた。[plc]
 
 
-[shownametag name="大樹「んだよ？」[plc]" visible=true bust="false"]
+[show_nametag name="大樹「んだよ？」[plc]" visible=true]
 
 
 ロン毛「聞こえないのかね？　このビートが」[plc]
 
 
-[shownametag name="大樹「黙ってろ」[plc]" visible=true bust="false"]
+[show_nametag name="大樹「黙ってろ」[plc]" visible=true]
 
 
-[shownametag name="ガイア「……ここ、だな」[plc]" visible=true bust="false"]
+[show_nametag name="ガイア「……ここ、だな」[plc]" visible=true]
 
 
 ガイアはすっと俺達の間を通り抜けて、瓦礫を一つどかす。[plc]
@@ -217,7 +219,7 @@
 瓦礫の隙間の下、[plc]
 
 
-[shownametag name="ガイア「よう、久しぶりだな」[plc]" visible=true bust="false"]
+[show_nametag name="ガイア「よう、久しぶりだな」[plc]" visible=true]
 
 
 男子生徒「ん……おぉ、ガイアくん」[plc]
@@ -245,7 +247,7 @@
 マル「……ぁ、僕は釣り部部長のマルです」[plc]
 
 
-[shownametag name="大樹「……」[plc]" visible=true bust="false"]
+[show_nametag name="大樹「……」[plc]" visible=true]
 
 
 こいつが、[plc]
@@ -254,7 +256,7 @@
 高橋「――ジャカジャーン！」[plc]
 
 
-[shownametag name="大樹「どけ」[plc]" visible=true bust="false"]
+[show_nametag name="大樹「どけ」[plc]" visible=true]
 
 
 高橋「べいべぇ」[plc]
@@ -263,7 +265,7 @@
 うるせぇ、ゴミをどかして、マルと名乗った男子生徒に詰め寄った。[plc]
 
 
-[shownametag name="大樹「……」[plc]" visible=true bust="false"]
+[show_nametag name="大樹「……」[plc]" visible=true]
 
 
 マル「……」[plc]
@@ -272,7 +274,7 @@
 コイツ……こいつが、釣り部か。[plc]
 
 
-[shownametag name="大樹「お前が釣り部？」[plc]" visible=true bust="false"]
+[show_nametag name="大樹「お前が釣り部？」[plc]" visible=true]
 
 
 マル「えぇ」[plc]
@@ -283,7 +285,7 @@
 
 あの魑魅魍魎の中駆け抜けてここまで来ただけに、気弱そうな普通っぽい背の低い男が釣り部だとは……。[plc]
 
-[shownametag name="遥香「……なんか、他の北の部長の連中と比べると自己主張が薄いわね」[plc]" visible=true bust="false"]
+[show_nametag name="遥香「……なんか、他の北の部長の連中と比べると自己主張が薄いわね」[plc]" visible=true]
 
 マル「釣りに、自己主張は無い方がいいので」[plc]
 
@@ -293,18 +295,18 @@
 
 そう言って、マルと名乗った釣り部部長はニコニコとオモチャの魚を掲げて見せる。[plc]
 
-[shownametag name="大樹「釣りって、もしかしてやっぱ」[plc]" visible=true bust="false"]
+[show_nametag name="大樹「釣りって、もしかしてやっぱ」[plc]" visible=true]
 
 
 多分、ここだからもしかしなくても、[plc]
 
 
-[shownametag name="大樹「そのオモチャ？」[plc]" visible=true bust="false"]
+[show_nametag name="大樹「そのオモチャ？」[plc]" visible=true]
 
 
 マル「うん、主にこの『北』塔校舎の色んなポイントで釣りをしてるんだ。コイツで」[plc]
 
-[shownametag name="大樹「それで、釣り部？」[plc]" visible=true bust="false"]
+[show_nametag name="大樹「それで、釣り部？」[plc]" visible=true]
 
 
 マル「そうだよ」[plc]
@@ -320,30 +322,30 @@
 
 マル「ははは、やっぱり同じポイントで釣り続けると乱獲に繋がっちゃうからなぁ」[plc]
 
-[shownametag name="大樹「いや、お前……」[plc]" visible=true bust="false"]
+[show_nametag name="大樹「いや、お前……」[plc]" visible=true]
 
 
 ……やっぱ、頭はおかしいんだな。[plc]
 
 
-[shownametag name="大樹「……いや、うんいや、んな事はどうでもいい」[plc]" visible=true bust="false"]
+[show_nametag name="大樹「……いや、うんいや、んな事はどうでもいい」[plc]" visible=true]
 
 
 頭を振る。[lr]
 付き合ってたら、こっちまでおかしくなる。[plc]
 
-[shownametag name="大樹「釣り部！　いや、マルだっけ？　……あのな、お前に話があって来たんだよ、わざわざ」[plc]" visible=true bust="false"]
+[show_nametag name="大樹「釣り部！　いや、マルだっけ？　……あのな、お前に話があって来たんだよ、わざわざ」[plc]" visible=true]
 
 マル「え？」[plc]
 
 
-[shownametag name="大樹「あのな！　あの――　あの……」[plc]" visible=true bust="false"]
+[show_nametag name="大樹「あのな！　あの――　あの……」[plc]" visible=true]
 
 
 ……あれ？　なんだっけ？[plc]
 
 
-[shownametag name="遥香「去年の文化祭の話を聞きにきたのよ」[plc]" visible=true bust="false"]
+[show_nametag name="遥香「去年の文化祭の話を聞きにきたのよ」[plc]" visible=true]
 
 
 あぁ、そうだった。あんまり色々あって完全に忘れてた。[plc]
@@ -352,7 +354,7 @@
 マル「はぁ、…去年の文化祭ですか？」[plc]
 
 
-[shownametag name="ガイア「……去年、お前がチラシ持ってきたろう。アレ関連の話だ」[plc]" visible=true bust="false"]
+[show_nametag name="ガイア「……去年、お前がチラシ持ってきたろう。アレ関連の話だ」[plc]" visible=true]
 
 先輩にのっかるように、ガイアが続ける。[plc]
 
@@ -379,7 +381,7 @@
 高橋「そういう用事だったのかい？」[plc]
 
 
-[shownametag name="遥香「えぇ」[plc]" visible=true bust="false"]
+[show_nametag name="遥香「えぇ」[plc]" visible=true]
 
 
 間髪入れずに、先輩が答える。[plc]
@@ -400,15 +402,15 @@
 
 今までしつこく付きまとっていた高橋が、それで、あっさりといなくなった。[plc]
 
-[shownametag name="大樹「……」[plc]" visible=true bust="false"]
+[show_nametag name="大樹「……」[plc]" visible=true]
 
 
-[shownametag name="ガイア「あんなもんだ……『北』のやつらの殆どは、全く知らんか酷い目にあったかのどっちかだ」[plc]" visible=true bust="false"]
+[show_nametag name="ガイア「あんなもんだ……『北』のやつらの殆どは、全く知らんか酷い目にあったかのどっちかだ」[plc]" visible=true]
 
-[shownametag name="ガイア「他人事なのは…」[plc]" visible=true bust="false"]
+[show_nametag name="ガイア「他人事なのは…」[plc]" visible=true]
 
 
-[shownametag name="ガイア「……いや、関わっておいて他人事でいられるのは、お前ぐらいだ」[plc]" visible=true bust="false"]
+[show_nametag name="ガイア「……いや、関わっておいて他人事でいられるのは、お前ぐらいだ」[plc]" visible=true]
 
 マル「なぁるほど」[plc]
 
@@ -431,7 +433,7 @@
 マル「さーって、今日の潮の流れは、」[plc]
 
 
-[shownametag name="大樹「ちょ、お前話を…」[plc]" visible=true bust="false"]
+[show_nametag name="大樹「ちょ、お前話を…」[plc]" visible=true]
 
 
 言い切る前に、[plc]
@@ -449,7 +451,7 @@
 そこには、桜が三本あって……。[plc]
 
 
-[shownametag name="大樹「……先輩、っすか」[plc]" visible=true bust="false"]
+[show_nametag name="大樹「……先輩、っすか」[plc]" visible=true]
 
 
 驚いた。[lr]
@@ -465,7 +467,7 @@
 そこには、さっきまでとは違った、有無を言わせぬ迫力があって。[plc]
 
 
-[shownametag name="大樹「……すみません」[plc]" visible=true bust="false"]
+[show_nametag name="大樹「……すみません」[plc]" visible=true]
 
 
 マル「よろしい」[plc]
@@ -476,10 +478,10 @@
 
 マル「さて、……一応、こんなでも活動時間中なんでね。部活しながらでも構わないかな？」[plc]
 
-[shownametag name="縁「……」[plc]" visible=true bust="false"]
+[show_nametag name="縁「……」[plc]" visible=true]
 
 
-[shownametag name="遥香「えぇ、いいわよ」[plc]" visible=true bust="false"]
+[show_nametag name="遥香「えぇ、いいわよ」[plc]" visible=true]
 
 
 先輩の答えに笑顔で返して、伸びをする。[plc]
@@ -503,13 +505,13 @@
 マル「ねぇ、後輩君」[plc]
 
 
-[shownametag name="大樹「……そっすね」[plc]" visible=true bust="false"]
+[show_nametag name="大樹「……そっすね」[plc]" visible=true]
 
 
 そんな戯言を聞き流しながら、[plc]
 
 
-[shownametag name="大樹「……」[plc]" visible=true bust="false"]
+[show_nametag name="大樹「……」[plc]" visible=true]
 
 
 今日は随分と日が長いなぁ、なんて。[plc]

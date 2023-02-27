@@ -2,6 +2,7 @@
 
 [position layer="message10" left=200 top=50 opacity=0 width="340"]
 [position layer="message11" left=540 top=50 opacity=0 width="340" visible="true"]
+[position layer="message12" left=880 top=50 opacity=0 width="340" visible="true"]
 [nowait]
 [font edge="true" color="0xFFFFFF" size="26"]
 —öƒ–Šø—y‰Ô •Ò
@@ -40,6 +41,12 @@
 [link color="0xFFFFFF" exp="global.DebugJump('senpai_1_ep22.ks')"]HARUKA_1_EP22[r][endlink]
 [link color="0xFFFFFF" exp="global.DebugJump('senpai_2_ep1.ks')"]HARUKA_2_EP1[r][endlink]
 [link color="0xFFFFFF" exp="global.DebugJump('senpai_2_ep2.ks')"]HARUKA_2_EP2[r][endlink]
+
+
+[current layer="message12"]
+[r]
+[link color="0xFFFFFF" exp="global.DebugJump('senpai_2_ep3.ks')"]HARUKA_2_EP3[r][endlink]
+[link color="0xFFFFFF" exp="global.DebugJump('senpai_2_ep4.ks')"]HARUKA_2_EP4[r][endlink]
 [endnowait]
 
 [return]
