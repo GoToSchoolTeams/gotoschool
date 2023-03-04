@@ -153,6 +153,7 @@
 [layopt layer="message9" page=fore visible=false]
 [layopt layer="message10" page=fore visible=false]
 [layopt layer="message11" page=fore visible=false]
+[layopt layer="message12" page=fore visible=false]
 ;各種パーツも
 [layopt layer=7 page="fore" visible="false"]
 [layopt layer=8 page="fore" visible="false"]

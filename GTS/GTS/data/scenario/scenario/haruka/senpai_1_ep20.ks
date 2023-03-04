@@ -1,18 +1,16 @@
 ;[梅雨明けは遠く]
-[call storage="Initialize.ks"]
+[SetupMessageWindow hide_window="true"]
 
 [fadeoutbgm time="1000"]
 [strans storage="white"]
 
-[show_message_fade time="500"]
-;[playse storage="chaim_far_single" ]
-
+[fadeinse storage="wind" time="1000"]
 [strans storage="okujo_m"]
 
 
 ;[call target=*De]
 
-
+[show_message_fade time="500"]
 それからの日々は、[lr]
 本当にストレスばかりが振りかかる日々で。[plc]
 
@@ -28,8 +26,10 @@
 身内に挨拶にいくのと、敵地のに乗り込むのでは、[lr]
 そりゃぁ全く違ってくる。[plc]
 
+[fadeoutse time="1000"]
 [strans storage="rika_dt"]
 
+[fadeinbgm storage="daily_2" time="2000"]
 [haruka_face face="keibetsu"]
 [shownametag name="遥香" visible=true]
 「あの、」[plc]
@@ -40,7 +40,7 @@
 
 [strans storage="artroom_dt"]
 
-[old_najimi_face face="futsu"]
+[najimi_face face="futsu"]
 [shownametag name="縁" visible=true]
 「今日は、」[plc]
 
@@ -85,7 +85,7 @@
 顔面に塩をぶつけられるような事もあって。[plc]
 
 [strans storage="kyositu_m"]
-
+[fadeinse storage="ambientA@08" time="1000"]
 ――ヒソヒソ。[plc]
 
 
@@ -105,7 +105,7 @@
 
 ――クスクスクス。[plc]
 
-
+[fadeoutse time="1000"]
 [shownametag name="大樹" visible=true]
 「……」[plc]
 
@@ -114,7 +114,7 @@
 どこで漏れたのか、漏らしたのか、漏らされたのか。[plc]
 
 
-
+[playse storage="knock"]
 ――コツン。[plc]
 
 
@@ -150,6 +150,7 @@
 俺は、[plc]
 
 
+[playse storage="knock"]
 [shownametag name="大樹" visible=true]
 「……」[plc]
 ;[コンッ]
@@ -161,28 +162,20 @@
 [shownametag name="男子生徒B" visible=true bust="false"]
 「……くそ、負けた」[plc]
 
-
-
 自分が急速に冷めていくのを感じていた。[plc]
 
 
 
 
 ;[場面転換]
-[fadebgm volume=0 time="800"]
+[fadeoutbgm time=1600]
 [dis_all_chara_fade_message time=800]
 [strans storage="black" time="800"]
 [wipe time=1600 storage="rouka2_dt"]
 [SetupMessageWindow]
 
-
-
-
-
-
-
-
-[old_najimi_stand face="futsu" size="l"]
+[fadeinbgm storage="serious_2" time="1000"]
+[najimi_stand face="futsu" size="l"]
 [shownametag name="縁" visible=true]
 「……ちょっと」[plc]
 
@@ -195,7 +188,7 @@
 
 いつものご機嫌伺いに行く途中、縁に呼び止められた。[plc]
 
-[old_najimi_stand face="metoji"]
+[najimi_stand face="do"]
 [shownametag name="縁" visible=true]
 「どこいくのよ」[plc]
 
@@ -203,7 +196,7 @@
 [shownametag name="大樹" visible=true]
 「わかってんだろうが、挨拶まわりだよ」[plc]
 
-[old_najimi_stand face="futsu"]
+[najimi_stand face="futsu"]
 [shownametag name="縁" visible=true]
 「どこに？」[plc]
 
@@ -247,7 +240,7 @@
 
 自然、一番使えない俺が使いっ走りをする事になる。[plc]
 
-[old_najimi_stand face="ikari"]
+[najimi_stand face="do"]
 [shownametag name="縁" visible=true]
 「……」[plc]
 
@@ -267,7 +260,7 @@
 
 無視して歩き出す。[plc]
 
-[old_najimi_stand face="do"]
+[najimi_stand face="do_kuchiake"]
 [shownametag name="縁" visible=true]
 「方向が逆よ」[plc]
 
@@ -282,7 +275,7 @@
 
 
 ;[場面転換]
-[fadebgm volume=0 time="800"]
+[fadeoutbgm volume=0 time="800"]
 [dis_all_chara_fade_message time=800]
 [strans storage="black" time="800"]
 [strans storage="black" time="800"]
@@ -291,6 +284,7 @@
 
 それにしても、[plc]
 
+[fadeinbgm storage="evening" time="2000"]
 [strans storage="bg_sky003_day"]
 
 
@@ -373,7 +367,7 @@
 「……」[plc]
 
 
-
+[playse storage="chaim"]
 ――ボーン、ボーンボーン。[plc]
 
 
@@ -381,26 +375,28 @@
 そのまま鐘がなるまでぼーっとするのが、[lr]
 最近の俺の日課だったわけで。[plc]
 
+[fadeoutbgm time="1000"]
+[fadeoutse time="1000"]
 [strans storage="black"]
 ;[暗転]
 
-
 で、案の定、その日にバレた。[plc]
+
 ;[場面転換]
 [dis_all_message]
 [strans storage="bg_seitokai" method="universal" rule="001"]
 
+[fadeinse storage="semi" time="1000" loop="true"]
+[show_message_fade time="200"]
 
-
-[SetupMessageWindow]
-[old_najimi_stand face="ikari" size="l"]
+[najimi_stand face="do"]
 [shownametag name="縁" visible=true]
 「……あんた、サボってたでしょ？」[plc]
 
 一通りぼんやりして戻ると、[lr]
 縁が唐突にそんな事を言ってきた。[plc]
 
-
+[fadeoutse time="1000"]
 [dis_all_chara]
 
 
@@ -422,7 +418,7 @@
 
 どうも、ネタは上がってるっぽくて。[plc]
 
-
+[fadeinbgm storage="serious_3"]
 [shownametag name="大樹" visible=true]
 「……」[plc]
 
@@ -434,7 +430,7 @@
 
 なんだかもう全部めんどくさくなった。[plc]
 
-[old_najimi_stand face="do" size="l"]
+[najimi_stand face="do_kuchiake" size="l"]
 [shownametag name="縁" visible=true]
 「悪びれもなく」[plc]
 
@@ -477,7 +473,7 @@
 [shownametag name="大樹" visible=true]
 「疲れたよ！　俺、もう疲れた！！」[plc]
 
-[old_najimi_stand face="do" size="l"]
+[najimi_stand face="do" size="l"]
 [shownametag name="縁" visible=true]
 「疲れてんのは―」[plc]
 
@@ -491,7 +487,7 @@
 「そんな悪い？　俺、そんな悪いか？？[lr]
 　やっても無駄な事やらなくて、本当すみませんでしたね！」[plc]
 
-[old_najimi_stand face="ikari" size="l"]
+[najimi_stand face="do" size="l"]
 [shownametag name="縁" visible=true]
 「……」[plc]
 
@@ -609,9 +605,11 @@
 「うるせぇ！　テメェはお呼びじゃないんだよ！！」[plc]
 
 
-[quake time="400"]
+[quake time="400" hmax="5" vmax="5"]
+[playse storage="bosu04"]
 ――ドガッ！[plc]
 
+[playse storage="bosu38"]
 [gaia_face  face="serious"]
 [shownametag name="ガイア" visible=true]
 「ぐっ」[plc]
@@ -643,7 +641,7 @@
 
 先輩の表情は、全く変化がなくて。[plc]
 
-[old_najimi_stand face="metoji"]
+[najimi_stand face="metoji"]
 [shownametag name="縁" visible=true]
 「……呆れるわ」[plc]
 
@@ -651,12 +649,12 @@
 
 小さく、縁が呟いた。[plc]
 
-[old_najimi_stand face="futsu"]
+[najimi_stand face="futsu"]
 [shownametag name="縁" visible=true]
 「自分の非を……嘆いて、泣いて、媚びて。[lr]
 　……まったく向きあおうともしないなんて」[plc]
 
-[old_najimi_stand face="do"]
+[najimi_stand face="do"]
 [shownametag name="縁" visible=true]
 「それが通らないと、癇癪を起こして、[lr]
 　感情がコントロール出来なくなったら暴力」[plc]
@@ -664,14 +662,13 @@
 
 その表情は、[plc]
 
-[old_najimi_stand face="futsu"]
+[najimi_stand face="do_shizuka"]
 [shownametag name="縁" visible=true]
 「酷い」[plc]
 
 [dis_all_chara]
 
 本当に、軽蔑そのもので。[plc]
-
 
 
 そのとき、気付いた。[plc]
@@ -700,7 +697,7 @@
 
 ガシッと、縁の肩を掴んだ。[plc]
 
-[old_najimi_stand face="ikari" size="l"]
+[najimi_stand face="akire" size="l"]
 [shownametag name="縁" visible=true]
 「……」[plc]
 
@@ -720,32 +717,30 @@
 
 まだ、冷静だったんだ。[plc]
 
-
 [shownametag name="大樹" visible=true]
 「――お前がやってたことだもんな！！」[plc]
 
 [dis_all_chara]
-
 叫ぶと、縁の表情が崩れた。[plc]
 
 
 
 そう、『崩れた』[plc]
 
-
+[najimi_stand face="bibiri" time="500" size="m"]
 [shownametag name="縁" visible=true bust="false"]
 「――」[plc]
 
-
-
+[dis_all_chara]
+[quake time="500" hmax="3" vmax="3"]
 逃れようともがく縁を、もっと強く引き寄せる。[plc]
 
-
+[najimi_stand face="bibiri" time="500" size="l"]
 [shownametag name="縁" visible=true bust="false"]
 「……」[plc]
 
 
-
+[dis_all_chara]
 おいおい、どうしたんだよ。[lr]
 なんつー顔してんだよ。[plc]
 
@@ -756,11 +751,11 @@
 
 もっと笑えよ――。[plc]
 
-
+[najimi_stand face="do_kuchiake" size="l"]
 [shownametag name="縁" visible=true bust="false"]
 「……やめて…」[plc]
 
-
+[dis_all_chara]
 [shownametag name="大樹" visible=true]
 「――はっはっはっはっは！」[plc]
 
@@ -768,12 +763,12 @@
 
 想い出話だろうが！！[plc]
 
-
+[najimi_stand face="do" tere="true" size="l"]
 [shownametag name="縁" visible=true bust="false"]
 「……やめて、やめてよ」[plc]
 
 
-
+[dis_all_chara]
 縁は、いまにも泣きそうで。[plc]
 
 
@@ -795,9 +790,9 @@
 
 
 
-
-
-[quake time="400"]
+[stopbgm]
+[playse storage="harisen"]
+[quake time="400" hmax="10" vmax="10"]
 ――パンッ！[plc]
 ;[音付けたら消す？]
 
@@ -805,7 +800,7 @@
 
 
 
-
+[fadeinse storage="semi" time="2000" loop="true"]
 言葉の暴力は、[plc]
 
 [haruka_stand face="raku" size="l"]
@@ -828,13 +823,14 @@
 「……逃げてもいいって、そう言って欲しいわけ？」[plc]
 [dis_all_chara]
 
+[fadeoutse time="1000"]
 より強い言葉で押し返されて。[plc]
 
-
+[fadeinbgm storage="sad_2" time="2000"]
 [shownametag name="大樹" visible=true]
 「ぁ、う」[plc]
 
-[haruka_stand face="ki" size="l"]
+[haruka_stand face="keibetsu" size="l"]
 [shownametag name="遥香" visible=true]
 「帰んなさい」[plc]
 
@@ -850,7 +846,6 @@
 
 その言葉に、有無はなくて。[plc]
 [dis_all_chara]
-
 
 [shownametag name="縁" visible=true bust="false"]
 「……」[plc]
@@ -868,7 +863,7 @@
 悟は、泣きべそをかいていて。[lr]
 ガイアはうずくまっったまま、縁は表情が見えない。[plc]
 
-[haruka_stand face="ki" size="l"]
+[haruka_stand face="keibetsu" size="l"]
 [shownametag name="遥香" visible=true]
 「……」[plc]
 
@@ -881,7 +876,6 @@
 先輩は、こちらを向いたまま、[plc]
 
 
-[haruka_stand face="ki" size="l"]
 [shownametag name="遥香" visible=true]
 「……」[plc]
 
@@ -889,7 +883,7 @@
 
 俺を、見てはいなかった。[plc]
 
-[fadeoutse time="1000"]
+[fadeoutbgm time="1000"]
 [dis_all_chara_fade_message]
 [strans storage="white" time="1000"]
 
