@@ -1,3 +1,5 @@
+;[【北】文芸部と天文部]
+
 ;[【北】音響研究会]
 [call storage="Initialize.ks"]
 
@@ -8,278 +10,323 @@
 
 ;[playse storage="chaim_far_single" ]
 
-[strans storage="bg_kitaRouka"]
+[strans storage="bg_kitaHazure"]
 
 
 ;[call target=*De]
 
-
-
-[show_nametag name="大樹" visible=true]
-「……音響研究会？」[plc]
-
-
-
-小さく口に出した言葉は、[l]やけに間抜けな響きに聞こえた。[plc]
-
-
 [takahashi_stand face="futsu"]
+
 [show_nametag name="ロン毛" visible=true]
-「んーん、べいべぇ」[plc]
-
-[takahashi_stand face="futsu" size="l" time="200"]
-[show_nametag name="ロン毛" visible=true]
-「――ジャカジャン！」[plc]
-
-[takahashi_stand face="futsu" size="m"]
-[show_nametag name="ロン毛" visible=true]
-「気になるのかい？」[plc]
-
-
-[show_nametag name="大樹" visible=true]
-「いや、別に」[plc]
+「彼は静かなポイントを好むからね。[l]ここかもしれない」[plc]
 
 [dis_all_chara]
 
-ロン毛のイカレポンチに付いていく途中、[lr]
-そんな怪しげな立て札を見つけたのだ。[plc]
+そう言ってロン毛が連れてきたのは、[l]『北』の外れだった。[plc]
 
 
-立て札が掛けてある教室の窓は全て黒いカーテンで覆われており、[lr]
-中の様子を伺う事は出来ない。[plc]
+外れ……と言っても、[lr]
+『北』の奥ではなくもっと南。[plc]
 
-
-いや、この『北』塔の基準で考えると、[r]
-全然怪しくないとも言えるが。[plc]
-
-[takahashi_stand face="futsu"]
-[show_nametag name="ロン毛" visible=true]
-「んんん、ビぃぃっッッッと！[l]　……良い勘をしているねぇ君。[lr]
-　確かにそこは釣り部のポイントの一つでもある」[plc]
-
-
-弦の無いギターをカリカリと引っ掻いて、ロン毛はそう言う。[plc]
-
+どちらかと言えばより通常の学校に近い場所だ。[plc]
 
 [show_nametag name="大樹" visible=true]
-「……なぁ、もしかしてお前の言う[l]『ポイント』って」[plc]
-
-[takahashi_stand face="futsu" size="l" time="200"]
-[show_nametag name="ロン毛" visible=true]
-「――ギャリリリリリリリッ！」[plc]
-
-[takahashi_stand face="futsu" size="m" time="200"]
-[show_nametag name="ロン毛" visible=true]
-「……言葉はいらない。[l]そこに、魂はあるのかい？」[plc]
+「こんなとこに部活が？」[plc]
 
 
 
-いや、お前の全部言葉じゃん。[plc]
+ここには教室はない。[lr]
+あるのは物置のようなせっまい部屋だけだ。[plc]
 
-[takahashi_stand face="futsu" size="l" time="200"]
-[show_nametag name="ロン毛" visible=true]
-「ふ」[plc]
-
-[dis_all_chara]
-
-俺の疑問など全て無視して、[r]
-ロン毛はその教室に入っていった。[plc]
-
-[gaia_face face="egao"]
+[gaia_face face="normal"]
 [show_nametag name="ガイア" visible=true]
-「入ろうか、兄弟」[plc]
+「『北』の教室がある辺りは、治安が悪いからな」[plk]
+
+[show_nametag name="ガイア" visible=true]
+「だから、女子がいるような部活は自然とこういう場所に集まる」[plc]
+
+
+[show_nametag name="大樹" visible=true]
+「女子？」[plc]
+
+[dis_all_chara]
+
+そういえば……ここまで女子を見ていない。[plc]
+
+
+[show_nametag name="縁" visible=true]
+「そういえば……」[plc]
+
+
+[show_nametag name="遥香" visible=true]
+「……そうね。この学校。[lr]
+　よく考えたら圧倒的女子率なはずだものね」[plc]
+
+
+『男ばっかりで麻痺してきちゃったわ』と先輩は呟く。[plc]
 
 
 [show_nametag name="大樹" visible=true]
 「……」[plc]
 
 
-どうにもならんようなので、[l]俺はそれに従った。[plc]
 
-[wipe storage="bg_black"]
+そうだよ、『北』の部活に、女子が全然居なかった。[plc]
 
-;[場面転換、教室]
+
+
+この学校の生徒は女子ばっかの筈なのにな……。[plc]
 
 
 [show_nametag name="大樹" visible=true]
-「うわ、暗っ！」[plc]
+「……そうか、女子のほうが多いんだよな」[plc]
+
+
+[show_nametag name="遥香" visible=true]
+「……なに？　谷口君」[plc]
+
+
+[show_nametag name="大樹" visible=true]
+「いえ」[plc]
 
 
 
-室内は、真っ暗だった。[plc]
+そういえば……成瀬のとこ。[lr]
+あっちにゃ全然男子居なかった。[plc]
+
+
+というか、支持層も含めて……女ばっかだったよーな……。[lr]
+いや、この学校の男女比率を考えたら普通か。[plc]
+
+
+こっちの支持層が男がちょっと多めってのがそもそもおかしい。[plc]
 
 
 
-廊下側だけでなく、外の窓側にも黒いカーテンは敷き詰められ。[lr]
-教室内は全く何も見えない。[plc]
+つまり、この人はどっちかっつーと女子に嫌われてんのか。[lr]
+この女子ばっかの学校で。[plc]
+
+[show_nametag name="遥香" visible=true]
+「……な、なによ？」[plc]
+;[不服そうな顔]
 
 
-[takahashi_face face="futsu"]
+これ、最初っから負け戦なんじゃ……。[plc]
+
+
+[show_nametag name="縁" visible=true]
+「沢山居た女子は、あんたが逃したんでしょうが！」[plc]
+
+
+[show_nametag name="大樹" visible=true]
+「――あだだっ！？　耳を引っ張るなよ！！？」[plc]
+
+
+
+顔から考えが漏れていたらしい。[plc]
+
+
+[show_nametag name="遥香" visible=true]
+「ついでに、男子もメインは運動部の方だったから。[lr]
+　……ほとんど逃げたわよ」[plc]
+
+
+『君の加入でね』と先輩は追加する。[plc]
+
+
+[show_nametag name="ガイア" visible=true]
+「兄弟が焦土にした残りカス……。[lr]
+　何も考えずに残った連中の多くが男子だった……それだけだ」[plc]
+
+
+ガイアでさえ、ちょっと非難の目線をしてくる。[plc]
+
+
+[show_nametag name="大樹" visible=true]
+「ぅ、うぅ」[plc]
+
+
+
+わ、悪かったよ！　俺が悪いんだろ！！
+クソがッ！！！[plc]
+
 [show_nametag name="ロン毛" visible=true]
-「ん、んー……どうも、聴いている最中のようだね」[plc]
+「べいべぇ……残りカスかい。その言い方は、ちょっと酷いなぁ」[plc]
 
 
 
-どこかに居るロン毛が納得げにそう言う。[plc]
+;[ファサッ]
 
 
 
-聴いてる最中だと？？[plc]
+ファサッと、ロン毛は前髪を払う。[plc]
 
-[haruka_face face="keibetsu"]
-[show_nametag name="遥香" visible=true]
-「ちょっとこれじゃ見えないじゃない……[l]
-[haruka_face face="ai"]
-あれ、スイッチが」[plc]
 
-[haruka_face face="odoroki"]
-[show_nametag name="遥香" visible=true]
-「た、谷口君！　す、スイッチが無いわよ！！」[plc]
-
-
-
-入り口付近で先輩がパタパタと何かやってるようすが分かるが、[lr]
-どうも電灯のスイッチが無いらしい。[plc]
-
-[najimi_face face="metoji_kuchiake"]
-[show_nametag name="縁" visible=true]
-「……っ」[plc]
-
-
-
-――シャッ。[plc]
-
-
-
-縁が舌打ちして、黒いカーテンを退かして。[plc]
-
-
-
-それで、室内のようすがわかった。[plc]
-
-[strans storage="bg_kitaOnkyoKennkyukai"]
-
-『『『――』』』[plc]
-
-[najimi_stand face="bibiri"]
-[show_nametag name="縁" visible=true]
-「ひっ」[plc]
-
-[dis_all_chara]
-
-縁が、小さく悲鳴を漏らす。[plc]
-
-
-
-何もない教室の真ん中で、[lr]
-数人の男たちがヘッドホンを付けて座っていた。[plc]
-
-
-上半身裸で。[plc]
-
-
-[show_nametag name="男子達" visible=true]
-「――――音が、[l]失われた」[plc]
-
-
-
-ポツリと、[l]寂しそうに一言だけ、男達はそう呟く。[plc]
-
-
-[show_nametag name="大樹" visible=true]
-「……」[plc]
-
-
-
-何だ？　これ。[plc]
-
-
-
-スッと、リーダー格っぽい一人の男が立ち上がった。[plc]
-
-
-[show_nametag name="リーダー" visible=true]
-「……君たち、なにものなのか知らんが、[lr]
-　どうして光を入れたりしたんだね？」[plc]
-
-[haruka_face face="magao"]
-[show_nametag name="遥香" visible=true]
-「いや、だって暗いから……」[plc]
-
-
-[show_nametag name="リーダー" visible=true]
-「暗い……？　廊下は明るかったろう？」[plc]
-
-[haruka_face face="odoroki"]
-[show_nametag name="遥香" visible=true]
-「えぇ、まぁ」[plc]
-
-
-[show_nametag name="リーダー" visible=true]
-「なら、あの立て札を呼んだはずだ。[lr]
-　ここは『音響研究会』[l]……光は御法度だ」[plc]
-
-
-『常識だろう？』と言わんばかりに、半裸の男達は眉をひそめる。[plc]
-
-
-[show_nametag name="リーダー" visible=true]
-「ふー……これが若者の幼児化か」[plc]
-
-
-
-呆れ果てたという顔で、男達は溜息を付いた。[plc]
-
-
-
-いや……は？[plc]
-
-
-
-意味が分からん。[plc]
-
-意味がわからなさ過ぎて、[lr]
-一体何が意味が分からないのかも分からない。[plc]
-
-[show_nametag name="リーダー" visible=true]
-「いいかい？　……音とは何だ？」[plc]
-
-[najimi_face face="akire"]
-[show_nametag name="縁" visible=true]
-「音は、音でしょう」[plc]
-[dis_all_chara]
-
-[show_nametag name="大樹" visible=true]
-「そうそう」[plc]
-
-[haruka_face face="magao"]
-[show_nametag name="遥香" visible=true]
-「うん」[plc]
-
-
-
-それ以外になんかあるか？[plc]
-
-[gaia_stand face="serious"]
 [show_nametag name="ガイア" visible=true]
-「『波』……だな」[plc]
+「加えて言うと。今の支持層の男子の殆どがこの『北』の連中だ」[plc]
 
 
-[show_nametag name="リーダー" visible=true]
-「……よかった。ちゃんと高校生もいるようだね」[plc]
+[show_nametag name="大樹" visible=true]
+「……」[plc]
 
-[dis_all_chara]
 
-安心したという顔で男はガイアを見て、[lr]
-俺達を残念そうな顔で見つめた。[plc]
 
-[najimi_face face="do"]
+なんとも、ねぇ。[plc]
+
+
+[show_nametag name="ロン毛" visible=true]
+「だから、まぁ。こうやって案内してあげてるのさ……べいべぇ」[plc]
+
+
+[show_nametag name="ロン毛" visible=true]
+「――ボロロローン！」[plc]
+
+
+[show_nametag name="大樹" visible=true]
+「……」[plc]
+
+
+[show_nametag name="縁" visible=true]
+「で、じゃぁ女子がいる部活がここにあるのね？」[plc]
+
+
+
+それつつある話を、縁が修正する。[plc]
+
+
+[show_nametag name="ロン毛" visible=true]
+「そうさ、この『北』には女子がいる部……正確には女子しかいないが……２つある」[plc]
+
+[show_nametag name="ロン毛" visible=true]
+「そこに、案内しよう」[plc]
+
+
+[show_nametag name="ロン毛" visible=true]
+「――べ・いべぇ！」[plc]
+
+
+
+『――ジャカジャーン！』と口ずさんで、ロン毛は俺達を先導した。[plc]
+
+
+
+
+
+
+
+;[場面転換、物置]
+
+
+
+
+
+
+
+着いたのは、キタねぇ物置部屋だった。[plc]
+
+
+[show_nametag name="女子A" visible=true]
+「……あら、軽音部じゃないの。なんかよう？」[plc]
+
+
+[show_nametag name="ロン毛" visible=true]
+「ん、ふふふ……ちょっと客人をね」[plc]
+
+
+[show_nametag name="大樹" visible=true]
+「……」[plc]
+
+
+
+部室こそ埃っぽい汚い部屋だったが、部員らしい女子は普通だった。[plc]
+
+
+[show_nametag name="女子A" visible=true]
+「あれ、お客さん？　……私達になにかあるの？」[plc]
+
+
+
+むしろビックリしてしまった。[lr]
+拍子抜けするぐらいに、普通の女子生徒だった。[plc]
+
+[show_nametag name="女子B" visible=true]
+「んー？　なに、なに～？」[plc]
+
+
+[show_nametag name="女子C" visible=true]
+「どしたのー？」[plc]
+
+
+[show_nametag name="女子D" visible=true]
+「なにかあったの～？」[plc]
+
+
+[show_nametag name="女子E" visible=true]
+「まぜてまぜて」[plc]
+
+
+[show_nametag name="女子F" visible=true]
+「えいどりあーん！」[plc]
+
+
+[show_nametag name="大樹" visible=true]
+「……」[plc]
+
+
+
+でてくる女子でてくる女子、全員普通だ。[plc]
+
+
+
+まぁ、この狭い物置にこの人数はなかなかの密度だけれど。[plc]
+
+
+[show_nametag name="大樹" visible=true]
+「普通っすね」[plc]
+
+
+[show_nametag name="遥香" visible=true]
+「えぇ」[plc]
+
+
 [show_nametag name="縁" visible=true]
 「……」[plc]
 
-[haruka_face face="keibetsu"]
-[show_nametag name="遥香" visible=true]
-「……それぐらい知ってるわよ」[plc]
+
+
+先輩や縁も、ちょっと面食らってるようだった。[plc]
+
+
+
+そうか……それだけ、俺達は妙な連中を見せられてきたんだな。[plc]
+
+
+[show_nametag name="ロン毛" visible=true]
+「彼女たちが、文芸部であり……天文部の娘達さ」[plc]
+
+
+[show_nametag name="女子A" visible=true]
+「なーに、その紹介の仕方ぁ」[plc]
+
+
+[show_nametag name="女子B" visible=true]
+「なんかどっちつかずみたいじゃーん」[plc]
+
+
+[show_nametag name="女子C" visible=true]
+「でも、じっさいどっちか分かんないよね？」[plc]
+
+
+[show_nametag name="女子D" visible=true]
+「ぁ、それ分かる。やってること一緒だしね」[plc]
+
+
+[show_nametag name="女子E" visible=true]
+「お菓子食って、ダベるだけっつーか」[plc]
+
+
+[show_nametag name="女子F" visible=true]
+「女子力（笑）」[plc]
 
 
 [show_nametag name="大樹" visible=true]
@@ -287,238 +334,178 @@
 
 
 
-え？　そうなの？[plc]
-
-
-[show_nametag name="リーダー" visible=true]
-「そう、音とは波だ……空気……いや、媒介はなんでもいいさ。[lr]
-　媒介が振動し、波が伝わる事で僕たちは音を感じることができる」[lr]
+部室を見回す。[plc]
 
 
 
-[show_nametag name="リーダー" visible=true]
-「そぅ……波なんだよ、波。[l]分かるかい？　波なんだ」[plc]
+彼女たちが自分で言うとおり、何か活動してるような形跡は無かった。床には、菓子類の袋が散乱している。[plc]
 
 
-[show_nametag name="大樹" visible=true]
-「……はぁ」[plc]
+文芸部と言っても、机はネイル用品が転がって筆記用具は見られないし。天文部と言っても、観測器具は何処にもない。[plc]
 
 
-[show_nametag name="リーダー" visible=true]
-「じゃ、光はなんだい？」[plc]
+部活とは名ばかりの、たまり場なのだろう。[plc]
 
 
 [show_nametag name="大樹" visible=true]
-「光？　光は、光だろうが」[plc]
-
-
-[show_nametag name="リーダ" visible=true]
 「……」[plc]
 
 
 
-リーダーは、ぷるぷると首を振る。[lr]
-『おぉ、嘆かわしい』と後ろの半裸達も首を振った。[plc]
+いや、これまでもそうだったけどさ……。[lr]
+なんか別なところに情熱燃やしてる連中が多かったから。[plc]
 
-[gaia_stand face="kangaeru"]
-[show_nametag name="ガイア" visible=true]
-「兄弟、光も。波だ」[plc]
-
-
-[show_nametag name="大樹" visible=true]
-「はぁ？？　んなわけあるかよ」[plc]
-
-
-
-強い音あてたら物が揺れるってのはなんとなくわかるけど、[lr]
-光あてたって別にゆれねーじゃん。[plc]
-
-[dis_all_chara]
-
-[show_nametag name="リーダー" visible=true]
-「光の粒子説と波としてのふるまい……まぁいい。[lr]
-　君の無知に付き合ってる暇はない。[l]とにかく光は波だ」[plc]
-
-[show_nametag name="リーダー" visible=true]
-「勿論、音もだ。そして波同士は干渉する」[plc]
-
-
-[show_nametag name="リーダー" visible=true]
-「つまり、だ」[plc]
-
-
-
-開け放たれた黒いカーテンに向かって指を指し、半裸の男は言った。[plc]
-
-
-[show_nametag name="リーダー" visible=true]
-「君たちの心ない行いによって、失われたのだよ！[lr]
-　われわれの『音』が！！」[plc]
-
-[show_nametag name="リーダー" visible=true]
-「――あぁ、憎き、太陽光線め！！！」[plc]
-
-
-
-そのリーダーの言葉に賛同するように、[lr]
-後ろの男達もコクコクと頷く。[plc]
-
-[show_nametag name="リーダー" visible=true]
-「分かるかい？[l]　君たち、君たちがなにをしたのか！！[lr]
-　われわれが、われわれがこだわりにこだわって作った」[plc]
-
-[show_nametag name="リーダー" visible=true]
-「まっことピュアな『音』！！[lr]
-　それを君たちは……君たちはねぇ」[plc]
-
-[show_nametag name="リーダー" visible=true]
-「われわれがこの日のためにどれだけ死力を尽くしたか！[lr]
-　いいかい？　この地方の電力会社はランクC！！」[plc]
-
-[show_nametag name="リーダー" visible=true]
-「バランスの良い波を作るが、[lr]
-　どうしても音には距離感が生まれてしまう！」[plc]
-
-[show_nametag name="リーダー" visible=true]
-「それでは駄目だ！！　それではピュアには程遠い！！！」[plc]
-
-[show_nametag name="リーダー" visible=true]
-「だが、我々は欲したのだ！[lr]
-　密度とSN、低域薄く……ランクはA+……そんな音を」[plc]
-
-[show_nametag name="リーダー" visible=true]
-「だが、だが！！！[l]　ここは東北ではないッ！！！！！」[plc]
-
-
-[show_nametag name="リーダー" visible=true]
-「東北電力じゃないんだよ！[lr]
-　ここはッ！！！！！！！！！！！！！！！！！！！！！」[plc]
-
-[show_nametag name="リーダー" visible=true]
-「……だが、みたまえコレを。[l]我々はついに回答を見つけたのだ」[plc]
-
-[show_nametag name="リーダー" visible=true]
-「そう、電力会社ではダメだったのだよ。[lr]
-　……電力会社から供給される波は果たして[l]……安定には程遠い」[plc]
-
-[show_nametag name="リーダー" visible=true]
-「安定こそが、ピュア！！　安定こそが信仰！！！！」[plc]
-
-
-[show_nametag name="リーダー" visible=true]
-「――そう、答えは電池だ！！！」[plc]
-
-
-[show_nametag name="リーダー" visible=true]
-「だが勿論、アルカリでは駄目だ。[lr]
-　乾電池では……もちろんニッケルもダメ！！」[plc]
-
-[show_nametag name="リーダー" visible=true]
-「もう分かるね……そう、答えは、」[plc]
-
-
-[show_nametag name="リーダー" visible=true]
-[quake time="200"]
-「――答えはリチウムイオン電池！！！」[plc]
-
-
-じゃらっと、束になって繋がった携帯の電源を取り出して。[plc]
-
-
-[show_nametag name="リーダー" visible=true]
-「簡単に説明してやろう、リチウムイオン電池ってのはなぁ……その名の通り、Li＋……つまり、リチウムイオンが正負の間を行ったり来たり――」[plc]
-
-[haruka_face face="keibetsu"]
-[show_nametag name="遥香" visible=true]
-「……」[plc]
-
-[najimi_face face="metoji"]
-[show_nametag name="縁" visible=true]
-「……」[plc]
-
-[gaia_face face="kangaeru"]
 [show_nametag name="ガイア" visible=true]
 「……」[plc]
 
 
+[show_nametag name="遥香" visible=true]
+「……」[plc]
+
+
+[show_nametag name="縁" visible=true]
+「……」[plc]
+
+
+
+たぶん、全員、妙な気分になっていた。[plc]
+
+
+[show_nametag name="女子A" visible=true]
+「で、文芸部と天文部……どちらにご用事？」[plc]
+
+
+[show_nametag name="ロン毛" visible=true]
+「じつはね、君たちには用は無いんだ……釣り部を探しにね」[plc]
+
+
+[show_nametag name="女子B" visible=true]
+「えー、ひどーい」[plc]
+
+
+[show_nametag name="女子C" visible=true]
+「でもまぁ、そうだよね」[plc]
+
+
+[show_nametag name="女子D" visible=true]
+「用なんかあるわけないよねー」[plc]
+
+
+[show_nametag name="女子E" visible=true]
+「なんにもできないしねー」[plc]
+
+
+[show_nametag name="女子F" visible=true]
+「乙女なので」[plc]
+
+
+
+『ねぇー』と顔を見合わせて、彼女達は笑う。[plc]
+
+
+[show_nametag name="女子A" visible=true]
+「釣り部なら、来てないよ」[plc]
+
+
+[show_nametag name="ロン毛" visible=true]
+「そうかい、ありがとう……邪魔したね」[plc]
+
+
+[show_nametag name="ロン毛" visible=true]
+「――ジャカジャーン！　……一曲贈ろう」[plc]
+
+
+[show_nametag name="女子A" visible=true]
+「いらなーい」[plc]
+
+
+[show_nametag name="ロン毛" visible=true]
+「べいべぇ」[plc]
+
+
+
+クスクスと、彼女たちは笑って。[lr]
+飽きた娘達は、携帯を取り出したりして。[plc]
+
 [show_nametag name="大樹" visible=true]
 「……」[plc]
 
 
-よく分かった。[lr]
-よーは、こいつら頭おかしいのか。[plc]
+
+奥の子は、ゲームやってるし。[lr]
+手前のこっちの相手してる子だって、単なる暇つぶしなんだろう。[plc]
+
+
+どうなんだろう……これ。[plc]
+
+
+
+こいつらはおどけあってじゃれあって、本当に楽しそうだ。[plc]
+
+
+
+学校の施設借りて。[lr]
+好き勝手な空間作って。[plc]
+
+
+すげー楽しそうだし、その様子に惹かれない事もない。[plc]
+
+
+
+でも、なんつーか。[plc]
 
 
 [show_nametag name="大樹" visible=true]
-「そろそろ、暑くなってきたからな」[plc]
+「……」[plc]
 
 
 
-いや、分かってたけどね。[plc]
+あぁ、こういうの見たことある。[lr]
+テレビとか、漫画とか……。[plc]
+
+
+……あぁ、そうか。[plc]
+
+
+[show_nametag name="ガイア" visible=true]
+「兄弟、次行くぞ」[plc]
 
 
 [show_nametag name="大樹" visible=true]
-「ここにいるの？　釣り部」[plc]
-
-[takahashi_stand face="futsu"]
-[show_nametag name="ロン毛" visible=true]
-「んーん、いーや、いないね」[plc]
+「……あぁ」[plc]
 
 
-[show_nametag name="ロン毛" visible=true]
-「べいべぇ、[l]
-[takahashi_stand face="futsu" size="l" time="200"]
-　――ジャカジャカジャン！」[plc]
-[dis_all_chara]
+
+ふと、ガイアの声で我に返る。[plc]
+
+
+
+俺達以外は、とっくに物置から出ていた。[plc]
+
+
+[show_nametag name="女子達" visible=true]
+「「「～♪」」」」[plc]
+
+
+
+もう、誰もこちらに注視していない。[plc]
+
+
+
+……楽しそうな奴らだね、ほんと。[plc]
+
 
 [show_nametag name="大樹" visible=true]
-「じゃぁ、次行こうぜ」[plc]
-
-
-[show_nametag name="リーダー" visible=true]
-「だが、それだけではダメだった。そう、必要なのは……進歩にはいつだって、促進にはエネルギーが必要……」[plc]
-
-[show_nametag name="リーダー" visible=true]
-「熱だ！　熱を加えねば！！」[plc]
-
-
-[show_nametag name="リーダー" visible=true]
-「皆のもの、火をもてぃ！」[plc]
+「……」[plc]
 
 
 
-『――アイアイサー！！』[plc]
+関係ないか、と呟いて、俺はその場を後にした。[plc]
 
 
 
-なにやら盛り上がってる。[lr]
-邪魔しちゃ悪いし、さっさと退散するか。[plc]
-
-
-
-
-
-
-;[場面転換、廊下]
-[strans storage="bg_kitaRouka"]
-
-
-
-
-
-[quake time=800]
-――ドーンッ！[plc]
-
-
-
-どこかで爆発音が聞こえた気がしたけど、気にしない事にした。[plc]
-
-[fadeoutse time="1000"]
-[dis_all_chara_fade_message]
-[strans storage="white" time="1000"]
-
-[JumpChapter storage="senpai_2_ep3.ks"]
 
 ;[→選択肢へ]
+
 
 
