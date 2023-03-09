@@ -1,3 +1,18 @@
+
+;;ybust‰æ‘œ‚ªÁ‚¦‚È‚¢plcz
+[macro name="plk"]
+[p]
+[shownametag visible=false]
+;[layopt layer=9 visible="false"]
+[label]
+[current layer="message1"]
+[er]
+[current layer="message0"]
+[er]
+[endmacro]
+
+
+
 ;;y’Ç‰Áƒ}ƒNƒ(byMahiro)z
 ;;[haruka—§‚¿ŠG—p]
 ;;pose=ƒ|[ƒY”Ô†, 1;2;3
@@ -265,19 +280,7 @@
 [endmacro]
 
 
-
-
-;;//yˆÈ‰ºAV‹K—§‚¿ŠGz
-
-
-
-
-
-
 ;;//y*ˆÈ‰ºAold—§‚¿ŠGz
-
-
-
 ;;[old‰]
 [macro name="old_najimi_stand"]
 [showstandimage who="old_najimi" pose="%pose|1"  face="%face|futsu" size="%size|m" nobust="%nobust|false" tere="%tere|false" pos="%pos|c" layer="%layer|0" page="%page|back" notrans="%notrans|false" time="%time|400" visible="%visible|true"  nopos="%nopos|false"]
