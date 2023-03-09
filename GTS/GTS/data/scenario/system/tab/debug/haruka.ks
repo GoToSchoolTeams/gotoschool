@@ -47,6 +47,7 @@
 [r]
 [link color="0xFFFFFF" exp="global.DebugJump('senpai_2_ep3.ks')"]HARUKA_2_EP3[r][endlink]
 [link color="0xFFFFFF" exp="global.DebugJump('senpai_2_ep4.ks')"]HARUKA_2_EP4[r][endlink]
+[link color="0xFFFFFF" exp="global.DebugJump('senpai_2_ep5.ks')"]HARUKA_2_EP5[r][endlink]
 [endnowait]
 
 [return]

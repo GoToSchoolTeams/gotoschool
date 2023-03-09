@@ -1,28 +1,48 @@
 ;[【北】文芸部と天文部]
 
+;[【北】音響研究会]
+[call storage="Initialize.ks"]
+
+[fadeoutbgm time="1000"]
+[strans storage="white"]
+
+[show_message_fade time="500"]
+
+[playse storage="chaim_far_single" ]
+
+[strans storage="bg_black"]
+
+
+[takahashi_face face="futsu" size=s]
 [show_nametag name="ロン毛" visible=true]
-「……彼は、静かなポイントを好むからな。ここかもしれない」[plc]
+「彼は静かなポイントを好むからね。[l]ここかもしれない」[plc]
+
+[dis_all_chara]
+
+[strans storage="bg_kitaHazure"]
+
+[dis_all_chara]
+
+そう言ってロン毛が連れてきたのは、
+[lr]『北』の外れだった。[plc]
 
 
+外れ……と言っても、[lr]
+『北』の奥ではなくもっと南。[plc]
 
-そう言ってロン毛が連れてきたのは、『北』の外れだった。[plc]
-
-
-
-外れ……と言っても、『北』の奥ではなくもっと南。[lr]
-どっちかと言えば、より通常の学校に近い場所だった。[plc]
+どちらかと言えばより通常の学校に近い場所だ。[plc]
 
 [show_nametag name="大樹" visible=true]
 「こんなとこに部活が？」[plc]
 
 
 
-そう、ここには教室はない。[lr]
+ここには教室はない。[lr]
 あるのは物置のようなせっまい部屋だけだ。[plc]
 
+[gaia_stand face="normal"]
 [show_nametag name="ガイア" visible=true]
-「『北』の教室がある辺りは、治安が悪いからな」[plc]
-
+「『北』の教室がある辺りは、治安が悪いからな」[plk]
 
 [show_nametag name="ガイア" visible=true]
 「だから、女子がいるような部活は自然とこういう場所に集まる」[plc]
@@ -31,15 +51,15 @@
 [show_nametag name="大樹" visible=true]
 「女子？」[plc]
 
-
+[dis_all_chara]
 
 そういえば……ここまで女子を見ていない。[plc]
 
-
+[najimi_face face="akire"]
 [show_nametag name="縁" visible=true]
 「そういえば……」[plc]
 
-
+[haruka_face face="keibetsu"]
 [show_nametag name="遥香" visible=true]
 「……そうね。この学校。[lr]
 　よく考えたら圧倒的女子率なはずだものね」[plc]
@@ -63,7 +83,7 @@
 [show_nametag name="大樹" visible=true]
 「……そうか、女子のほうが多いんだよな」[plc]
 
-
+[haruka_stand face="magao"]
 [show_nametag name="遥香" visible=true]
 「……なに？　谷口君」[plc]
 
@@ -71,7 +91,7 @@
 [show_nametag name="大樹" visible=true]
 「いえ」[plc]
 
-
+[dis_all_chara]
 
 そういえば……成瀬のとこ。[lr]
 あっちにゃ全然男子居なかった。[plc]
@@ -88,14 +108,17 @@
 つまり、この人はどっちかっつーと女子に嫌われてんのか。[lr]
 この女子ばっかの学校で。[plc]
 
+[haruka_stand face="odoroki" size="m"]
 [show_nametag name="遥香" visible=true]
 「……な、なによ？」[plc]
-;[不服そうな顔]
 
 
+[dis_all_chara]
 これ、最初っから負け戦なんじゃ……。[plc]
 
 
+[quake time="300"]
+[najimi_stand face="do_kuchiake" size="l" time="200"]
 [show_nametag name="縁" visible=true]
 「沢山居た女子は、あんたが逃したんでしょうが！」[plc]
 
@@ -103,35 +126,38 @@
 [show_nametag name="大樹" visible=true]
 「――あだだっ！？　耳を引っ張るなよ！！？」[plc]
 
-
+[dis_all_chara]
 
 顔から考えが漏れていたらしい。[plc]
 
 
+
+[haruka_stand face="keibetsu"]
 [show_nametag name="遥香" visible=true]
 「ついでに、男子もメインは運動部の方だったから。[lr]
 　……ほとんど逃げたわよ」[plc]
 
+[dis_all_chara]
 
 『君の加入でね』と先輩は追加する。[plc]
 
-
+[gaia_stand face="serious"]
 [show_nametag name="ガイア" visible=true]
 「兄弟が焦土にした残りカス……。[lr]
-　何も考えずに残った連中の多くが男子だった……それだけだ」[plc]
+　何も考えずに残った連中の多くが男子だった……[l]それだけだ」[plc]
 
 
 ガイアでさえ、ちょっと非難の目線をしてくる。[plc]
-
+[dis_all_chara]
 
 [show_nametag name="大樹" visible=true]
 「ぅ、うぅ」[plc]
 
 
 
-わ、悪かったよ！　俺が悪いんだろ！！
-クソがッ！！！[plc]
+わ、悪かったよ！　俺が悪いんだろ！！　クソがッ！！！[plc]
 
+[takahashi_stand face="futsu"]
 [show_nametag name="ロン毛" visible=true]
 「べいべぇ……残りカスかい。その言い方は、ちょっと酷いなぁ」[plc]
 
@@ -143,7 +169,7 @@
 
 ファサッと、ロン毛は前髪を払う。[plc]
 
-
+[gaia_face face="kangaeru"]
 [show_nametag name="ガイア" visible=true]
 「加えて言うと。今の支持層の男子の殆どがこの『北』の連中だ」[plc]
 
@@ -151,45 +177,46 @@
 [show_nametag name="大樹" visible=true]
 「……」[plc]
 
-
+[dis_all_chara]
 
 なんとも、ねぇ。[plc]
 
-
+[takahashi_stand face="futsu"]
 [show_nametag name="ロン毛" visible=true]
 「だから、まぁ。こうやって案内してあげてるのさ……べいべぇ」[plc]
 
-
+[takahashi_stand face="futsu" size="l"]
 [show_nametag name="ロン毛" visible=true]
 「――ボロロローン！」[plc]
-
+[dis_all_chara]
 
 [show_nametag name="大樹" visible=true]
 「……」[plc]
 
-
+[najimi_stand face="futsu"]
 [show_nametag name="縁" visible=true]
-「で、じゃぁ女子がいる部活がここにあるのね？」[plc]
+「じゃぁ女子がいる部活がここにあるのね？」[plc]
 
 
-
-それつつある話を、縁が修正する。[plc]
-
-
+[takahashi_stand face="futsu"]
 [show_nametag name="ロン毛" visible=true]
-「そうさ、この『北』には女子がいる部……正確には女子しかいないが……２つある」[plc]
+「そうさ、この『北』には女子がいる部。[lr]
+　……正確には女子しかいない部が２つある」[plk]
+
 
 [show_nametag name="ロン毛" visible=true]
 「そこに、案内しよう」[plc]
 
-
+[takahashi_stand face="futsu" size="l" time="200"]
 [show_nametag name="ロン毛" visible=true]
 「――べ・いべぇ！」[plc]
 
 
 
-『――ジャカジャーン！』と口ずさんで、ロン毛は俺達を先導した。[plc]
+[dis_all_chara]
 
+『――ジャカジャーン！』と口ずさんで、[lr]
+ロン毛は俺達を先導していくのだった。[plc]
 
 
 
@@ -197,18 +224,20 @@
 
 
 ;[場面転換、物置]
+[wipe storage="bg_kitaMonoki"]
 
 
 
 
 
-
-
-着いたのは、キタねぇ物置部屋だった。[plc]
+着いたのは、汚ねぇ物置部屋だった。[plc]
 
 
 [show_nametag name="女子A" visible=true]
 「……あら、軽音部じゃないの。なんかよう？」[plc]
+
+[takahashi_face face="futsu"]
+
 
 
 [show_nametag name="ロン毛" visible=true]
@@ -266,27 +295,27 @@
 [show_nametag name="大樹" visible=true]
 「普通っすね」[plc]
 
-
+[haruka_face face="odoroki"]
 [show_nametag name="遥香" visible=true]
 「えぇ」[plc]
 
-
+[najimi_face face="akire"]
 [show_nametag name="縁" visible=true]
 「……」[plc]
 
-
+[dis_all_chara]
 
 先輩や縁も、ちょっと面食らってるようだった。[plc]
 
 
+そうか……[l]それだけ、[lr]
+俺達は妙な連中を見せられてきたんだな。[plc]
 
-そうか……それだけ、俺達は妙な連中を見せられてきたんだな。[plc]
-
-
+[takahashi_stand face="futsu"]
 [show_nametag name="ロン毛" visible=true]
-「彼女たちが、文芸部であり……天文部の娘達さ」[plc]
+「彼女たちが、文芸部であり……[l]天文部の娘達さ」[plc]
 
-
+[dis_all_chara]
 [show_nametag name="女子A" visible=true]
 「なーに、その紹介の仕方ぁ」[plc]
 
@@ -320,13 +349,18 @@
 
 
 
-彼女たちが自分で言うとおり、何か活動してるような形跡は無かった。床には、菓子類の袋が散乱している。[plc]
+彼女たちが自分で言うとおり、[lr]
+何か活動してるような形跡は無かった。[plc]
+
+床には、菓子類の袋が散乱している。[plc]
 
 
-文芸部と言っても、机はネイル用品が転がって筆記用具は見られないし。天文部と言っても、観測器具は何処にもない。[plc]
+文芸部と言っても、机には筆記用具は見られないし。[lr]
+天文部と言っても、観測器具は何処にもない。[plc]
 
 
 部活とは名ばかりの、たまり場なのだろう。[plc]
+
 
 
 [show_nametag name="大樹" visible=true]
@@ -337,18 +371,19 @@
 いや、これまでもそうだったけどさ……。[lr]
 なんか別なところに情熱燃やしてる連中が多かったから。[plc]
 
+[gaia_stand face="kangaeru"]
 [show_nametag name="ガイア" visible=true]
 「……」[plc]
 
-
+[haruka_stand face="magao"]
 [show_nametag name="遥香" visible=true]
 「……」[plc]
 
-
+[najimi_stand face="metoji"]
 [show_nametag name="縁" visible=true]
 「……」[plc]
 
-
+[dis_all_chara]
 
 たぶん、全員、妙な気分になっていた。[plc]
 
@@ -356,10 +391,10 @@
 [show_nametag name="女子A" visible=true]
 「で、文芸部と天文部……どちらにご用事？」[plc]
 
-
+[takahashi_stand face="futsu"]
 [show_nametag name="ロン毛" visible=true]
-「じつはね、君たちには用は無いんだ……釣り部を探しにね」[plc]
-
+「じつはね、君たちには用は無いんだ……[l]釣り部を探しにね」[plc]
+[dis_all_chara]
 
 [show_nametag name="女子B" visible=true]
 「えー、ひどーい」[plc]
@@ -388,23 +423,24 @@
 [show_nametag name="女子A" visible=true]
 「釣り部なら、来てないよ」[plc]
 
-
+[takahashi_stand face="futsu"]
 [show_nametag name="ロン毛" visible=true]
-「そうかい、ありがとう……邪魔したね」[plc]
+「そうかい、ありがとう……[l]邪魔したね」[plc]
 
 
+[takahashi_stand face="futsu" size="l"]
 [show_nametag name="ロン毛" visible=true]
-「――ジャカジャーン！　……一曲贈ろう」[plc]
+「――ジャカジャーン！[l]　……一曲贈ろう」[plc]
 
 
 [show_nametag name="女子A" visible=true]
 「いらなーい」[plc]
 
-
+[takahashi_stand face="futsu" size="s"]
 [show_nametag name="ロン毛" visible=true]
 「べいべぇ」[plc]
 
-
+[dis_all_chara]
 
 クスクスと、彼女たちは笑って。[lr]
 飽きた娘達は、携帯を取り出したりして。[plc]
@@ -441,14 +477,13 @@
 「……」[plc]
 
 
-
 あぁ、こういうの見たことある。[lr]
 テレビとか、漫画とか……。[plc]
 
 
 ……あぁ、そうか。[plc]
 
-
+[gaia_face face="normal"]
 [show_nametag name="ガイア" visible=true]
 「兄弟、次行くぞ」[plc]
 
@@ -458,10 +493,7 @@
 
 
 
-ふと、ガイアの声で我に返る。[plc]
-
-
-
+ガイアの声で我に返る。[lr]
 俺達以外は、とっくに物置から出ていた。[plc]
 
 
@@ -478,12 +510,16 @@
 
 
 [show_nametag name="大樹" visible=true]
-「……」[plc]
+「……関係ないか」[plc]
 
 
+と呟いて、[l]俺はその場を後にした。[plc]
 
-関係ないか、と呟いて、俺はその場を後にした。[plc]
+[fadeoutse time="1000"]
+[dis_all_chara_fade_message]
+[strans storage="white" time="1000"]
 
+[JumpChapter storage="senpai_2_ep3.ks"]
 
 
 
