@@ -73,6 +73,18 @@
 [er]
 [endmacro]
 
+;PLC2
+[macro name="plc2"]
+[p]
+[shownametag visible=false]
+;[layopt layer=9 visible="false"]
+[label]
+[current layer="message1"]
+[er]
+[current layer="message0"]
+[er]
+[endmacro]
+
 ;クリック待ち&改行(改行はクリック後)
 [macro name="lr"]
 [l][r]
