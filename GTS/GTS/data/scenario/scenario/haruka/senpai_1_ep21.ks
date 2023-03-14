@@ -231,7 +231,7 @@
 
 [strans storage="bg_bookoff"]
 
-[fadeinbgm storage="evening" time="1000"]
+[fadeinbgm storage="chill" time="1000"]
 [shownametag name="大樹" visible=true]
 「……」[plc]
 
@@ -488,7 +488,7 @@
 
 
 
-[fadeinbgm time="2000" storage="evening"]
+[fadeinbgm time="2000" storage="chill"]
 [naruse_stand face="futsu"]
 [shownametag name="成瀬" visible=true]
 「谷口、大樹君で良かったかしら？」[plc]
