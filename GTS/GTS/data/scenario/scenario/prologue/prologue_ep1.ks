@@ -108,7 +108,7 @@
 @fadeinbgm storage="serious1-2" time="1000"
 @fadebgm time=1 volume="100"
 @strans storage="kyositu_m" time="2000"
-@showstandimage who=gaia size=m pose=1 face=normal layer=3
+@showstandimage who=gaia_old size=m pose=1 face=normal layer=3
 [shownametag name="キモ面A" visible=true bust="ガイア"]
 「やぁ、谷口君だったかな？　隣、良いかな？」[plc]
 
@@ -116,11 +116,11 @@
 [shownametag name="大樹" visible=true]
 「……ん？」[plc]
 
-@showstandimage who=mash size=m pose=1 face=doya pos=l layer=1
+@showstandimage who=mash_old size=m pose=1 face=doya pos=l layer=1
 [shownametag name="キモ面B" visible=true bust="マッシュ"]
 「では、拙者はここにしよう」[plc]
 
-@showstandimage who=orutega size=m pose=1 face=normal2 pos=r layer=2
+@showstandimage who=orutega_old size=m pose=1 face=normal2 pos=r layer=2
 [shownametag name="キモ面C" visible=true bust="オルテガ"]
 「僕チンはここにするナリ」[plc]
 
@@ -129,7 +129,7 @@
 「え？　……えぇ！？」[plc]
 
 
-@showstandimage who=gaia size=m pose=1 face=egao pos=c layer=3
+@showstandimage who=gaia_old size=m pose=1 face=egao pos=c layer=3
 [shownametag name="キモ面A" visible=true bust="ガイア"]
 「ふふ、そう驚かなくて良い。[lr]
 　俺はガイア、こいつらは眞修に織手賀という」[plc]
@@ -144,9 +144,9 @@
 
 @playse storage="syakeeen"
 @backlay
-@showstandimage layer=3 pos=c who="gaia"    pose=1 face=egao   visible="true" size=l notrans=true page=back
-@showstandimage layer=1 pos=l who="mash"    pose=1 face=normal visible="true" size=l notrans=true page=back
-@showstandimage layer=2 pos=r who="orutega" pose=1 face=normal visible="true" size=l notrans=true page=back
+@showstandimage layer=3 pos=c who="gaia_old"    pose=1 face=egao   visible="true" size=l notrans=true page=back
+@showstandimage layer=1 pos=l who="mash_old"    pose=1 face=normal visible="true" size=l notrans=true page=back
+@showstandimage layer=2 pos=r who="orutega_old" pose=1 face=normal visible="true" size=l notrans=true page=back
 @trans method="crossfade" time="500"
 @wt
 [shownametag name="ガ・マ・オ" bust="ガイア" visible=true]
@@ -291,9 +291,9 @@
 
 
 @backlay
-@showstandimage layer=3 pos=c who="gaia"    pose=1 face=egao   visible="true" size=l notrans=true page=back
-@showstandimage layer=1 pos=l who="mash"    pose=1 face=normal visible="true" size=l notrans=true page=back
-@showstandimage layer=2 pos=r who="orutega" pose=1 face=normal visible="true" size=l notrans=true page=back
+@showstandimage layer=3 pos=c who="gaia_old"    pose=1 face=egao   visible="true" size=l notrans=true page=back
+@showstandimage layer=1 pos=l who="mash_old"    pose=1 face=normal visible="true" size=l notrans=true page=back
+@showstandimage layer=2 pos=r who="orutega_old" pose=1 face=normal visible="true" size=l notrans=true page=back
 @image storage="kyositu_m" layer="base" page="back" visible="true"
 @trans method="crossfade" time="500"
 @wt
@@ -420,12 +420,12 @@
 
 [stopquake]
 @strans storage="roji_dt" method="universal" rule="101" time="300"
-@showstandimage who=haruka pose=1 face=odoroki visible="true" size=s
+@showstandimage who=haruka_old pose=1 face=odoroki visible="true" size=s
 @shownametag name="女生徒" bust="先輩" visible=true
 「……っ！？」[plc]
 ;[先輩]
 
-@showstandimage who=haruka pose=1 face=odoroki visible="true" size=l
+@showstandimage who=haruka_old pose=1 face=odoroki visible="true" size=l
 ――って、誰か居るじゃんっ！？[plc]
 
 @playse storage="car_crash"

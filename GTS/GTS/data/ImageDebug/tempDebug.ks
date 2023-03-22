@@ -12,7 +12,7 @@
 
 [strans storage="bg_black"]
 
-[takahashi_stand face="futsu" size=s]
+@showstandimage who=gaia_old size=l pose=1 face=normal layer=3
 
 [show_nametag name="ロン毛" visible=true]
 「彼は静かなポイントを好むからね。[l]ここかもしれない」[plc]
@@ -25,6 +25,9 @@
 
 そう言ってロン毛が連れてきたのは、
 [lr]『北』の外れだった。[plc]
+
+@showstandimage who=gaia_old size=m pose=1 face=normal layer=3
+
 
 
 外れ……と言っても、[lr]
