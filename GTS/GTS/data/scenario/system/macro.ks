@@ -103,6 +103,7 @@
 [layopt layer="4" page=%page|fore visible="false"]
 [layopt layer="5" page=%page|fore visible="false"]
 [layopt layer="6" page=%page|fore visible="false"]
+[layopt layer="9" page=%page|fore visible="false"]
 [wt]
 [endmacro]
 
@@ -309,19 +310,6 @@
 		[endnowait]
 	[endif]
 [kagtag bust=%bust]
-[endmacro]
-
-;;【名前欄の表示を切り替える(バストアップOFF)】
-;;visible=名前欄を表示するかどうか, 論理値
-[macro name="show_nametag"]
-	[position layer="message1" visible=%visible|true]
-	[if exp="mp.visible != 'false'"]
-		[nowait]
-		[current layer="message1"]
-		[emb exp="mp.name"]
-		[current layer="message0"]
-		[endnowait]
-	[endif]
 [endmacro]
 
 ;;【バストアップ画像を表示する】
