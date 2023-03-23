@@ -927,7 +927,7 @@
 [showstandimage who=haruka_old pose=1 face=ki size=l]
 [shownametag name="遥香" visible=true]「大丈夫だって、心配すんなって、怖がんなって」[plc]
 
-
+;
 [shownametag name="遥香" visible=true]「ほら――」[plc]
 
 
