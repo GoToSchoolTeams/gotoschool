@@ -104,7 +104,7 @@
 
 @strans time="100" method="universal" rule="215" storage="black"
 @strans time="100" method="universal" rule="215" storage="takadai_dt"
-[showstandimage layer=1 who=haruka pose=1 face=niyaniya size=l]
+[showstandimage layer=1 who=haruka_old pose=1 face=niyaniya size=l]
 振り返ると、[lr]
 やはりこれ以上ないってくらいニヤニヤ笑っていた。[plc]
 
@@ -192,7 +192,7 @@
 [shownametag name="大樹" visible=true]
 「先輩、ここ通学路じゃないっすか！」[plc]
 
-;[showstandimage who=haruka pose=1 face=ki]
+;[showstandimage who=haruka_old pose=1 face=ki]
 [shownametag name="先輩" visible=true]
 「そうだよー」[plc]
 
@@ -205,7 +205,7 @@
 
 [shownametag name="大樹" visible=true]「……後輩の家はどうなったんすか？」[plc]
 
-;[showstandimage who=haruka pose=1 face=do]
+;[showstandimage who=haruka_old pose=1 face=do]
 [shownametag name="先輩" visible=true]「忘れた」[plc]
 
 
@@ -217,7 +217,7 @@
 
 [shownametag name="大樹" visible=true]「……」[plc]
 
-;[showstandimage who=haruka pose=1 face=niyaniya]
+;[showstandimage who=haruka_old pose=1 face=niyaniya]
 [shownametag name="先輩" visible=true]「ほらほらー、どうよ、久しぶりの通学路は？」[plc]
 
 
@@ -226,7 +226,7 @@
 
 [shownametag name="大樹" visible=true]「……なんで知ってんすか？」[plc]
 
-;[showstandimage who=haruka pose=1 face=ki]
+;[showstandimage who=haruka_old pose=1 face=ki]
 [shownametag name="先輩" visible=true]「ほら、あたし学校では番長的存在だし？」[plc]
 
 
@@ -253,7 +253,7 @@
 
 色々と、切ない。[plc]
 
-;[showstandimage who=haruka pose=1 face=raku]
+;[showstandimage who=haruka_old pose=1 face=raku]
 [shownametag name="先輩" visible=true]「正直でよろしい」[plc]
 
 
@@ -265,19 +265,19 @@
 
 [shownametag name="大樹" visible=true]「どっから？」[plc]
 
-;[showstandimage who=haruka pose=1 face=magao]
+;[showstandimage who=haruka_old pose=1 face=magao]
 [shownametag name="先輩" visible=true]「はい？」[plc]
 
 
 [shownametag name="大樹" visible=true]「どっから、分かってやってたんすか？」[plc]
 
-;[showstandimage who=haruka pose=1 face=raku]
+;[showstandimage who=haruka_old pose=1 face=raku]
 [shownametag name="先輩" visible=true]「最初から」[plc]
 
 
 マジかよ。[plc]
 
-;[showstandimage who=haruka pose=1 face=magao]
+;[showstandimage who=haruka_old pose=1 face=magao]
 [shownametag name="先輩" visible=true]
 「と言いたいところだけど、ぶっちゃけ警察撒いた後」[plc]
 
@@ -285,7 +285,7 @@
 [shownametag name="先輩" visible=true]
 「ほら、君私の事しらなかったでしょ？」[plc]
 
-;[showstandimage who=haruka pose=1 face=ki]
+;[showstandimage who=haruka_old pose=1 face=ki]
 [shownametag name="先輩" visible=true]
 「私、ここ一ヶ月でちょー有名人になったんだって！」[plc]
 
@@ -294,7 +294,7 @@
 
 @fadebgm time="100" volume="50"
 @strans time="100" method="universal" rule="215" storage="black"
-[showstandimage notrans=true page=back who=haruka size=l pose=1 face=ki grayscale="true"]
+[showstandimage notrans=true page=back who=haruka_old size=l pose=1 face=ki grayscale="true"]
 @strans time="100" method="universal" rule="215" storage="takadai_dt" grayscale=true noclear=true
 
 まぁ確かに、[lr]
@@ -305,7 +305,7 @@
 @strans time="100" method="universal" rule="215" storage="sakamichi"
 [shownametag name="大樹" visible=true]「確かに、大きいっすね」[plc]
 
-;[showstandimage who=haruka pose=1 face=magao size=l]
+;[showstandimage who=haruka_old pose=1 face=magao size=l]
 [shownametag name="先輩" visible=true]「器が？」[plc]
 
 
