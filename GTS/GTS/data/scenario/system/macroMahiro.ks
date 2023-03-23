@@ -13,37 +13,8 @@
 
 
 
-;;【追加マクロ(byMahiro)】
-;;[haruka立ち絵用]
-;;pose=ポーズ番号, 1;2;3
-;;face=表情名, magao;ki;do;ai;raku;jitome;keibetsu;kuno;niyaniya;odoroki;suttoboke
-;;size=サイズ, s;m;l
-;;nobust=バスト画像を出さない, 論理値
-;;tere=照れてるかどうか, 論理値
-;;pos=前景レイヤ位置\nレイヤ位置を自動的に決定します, l;c;r
-;;layer=表示したい前景レイヤ番号, 前景レイヤ;0;1;2
-;;page=画面\n指定しない場合はback, fore;back
-;;time=トランジション時間\nデフォルトは500, ミリ秒時間
-;;notrans=トランジションの有無, 論理値
-;;visible=レイヤの可視・不可視\nlayer 属性で指定したレイヤを表示するか、しないかを指定します, 論理値
-[macro name="haruka_stand"]
-[showstandimage who="haruka" pose="%pose|1"  face="%face|magao" size="%size|m" nobust="%nobust|false" tere="%tere|false" pos="%pos|c" layer="%layer|0" page="%page|back" notrans="%notrans|false" time="%time|400" visible="%visible|true"]
-[kagtag who="haruka" pose="%pose|1"  face="%face|magao" size="%size|m" nobust="%nobust|false" tere="%tere|false" pos="%pos|c" layer="%layer|0" page="%page|back" notrans="%notrans|false" time="%time|400" visible="%visible|true"]
-[endmacro]
-
-;;【追加マクロ(byMahiro)】
-;;[haruka立ち絵用]
-;;pose=ポーズ番号, 1;2;3
-;;face=表情名, magao;ki;do;ai;raku;jitome;keibetsu;kuno;niyaniya;odoroki;suttoboke
-;;tere=照れてるかどうか, 論理値
-;;visible=レイヤの可視・不可視\nlayer 属性で指定したレイヤを表示するか、しないかを指定します, 論理値
-[macro name="haruka_face"]
-[showbustup who="haruka" face="%face|magao" pose="%pose|1" tere="%tere|false" visible="%visible|true"]
-[kagtag who="haruka" face="%face|magao" pose="%pose|1" tere="%tere|false" visible="%visible|true"]
-[endmacro]
-
-;;【追加マクロ(byMahiro)】
-;;[najimi立ち絵用]
+*【新フォーマット立ち絵】
+;;[縁]
 ;;pose=ポーズ番号, 1;2;3
 ;;face=表情名, ai;akire;bibiri;do;do_kuchiake;do_shizuka;doya;futsu;ki;metoji;metoji_kuchiake;odoroki;raku
 ;;size=サイズ, s;m;l
@@ -60,9 +31,7 @@
 [showstandimage who="najimi" pose="%pose|1"  face="%face|futsu" size="%size|m" nobust="%nobust|false" tere="%tere|false" pos="%pos|c" layer="%layer|0" page="%page|back" notrans="%notrans|false" time="%time|400" visible="%visible|true"  nopos="%nopos|true"]
 [kagtag who="najimi" pose="%pose|1"  face="%face|futsu" size="%size|m" nobust="%nobust|false" tere="%tere|false" pos="%pos|c" layer="%layer|0" page="%page|back" notrans="%notrans|false" time="%time|400" visible="%visible|true"  nopos="%nopos|true"]
 [endmacro]
-
-;;【追加マクロ(byMahiro)】
-;;[najimi立ち絵用]
+;;[縁顔]
 ;;pose=ポーズ番号, 1;2;3
 ;;face=表情名, ai;akire;bibiri;do;do_kuchiake;do_shizuka;doya;futsu;ki;metoji;metoji_kuchiake;odoroki;raku
 ;;tere=照れてるかどうか, 論理値
@@ -72,9 +41,7 @@
 [showbustup who="najimi" face="%face|futsu" pose="%pose|1" tere="%tere|false" visible="%visible|true"]
 [kagtag who="najimi" face="%face|futsu" pose="%pose|1" tere="%tere|false" visible="%visible|true"]
 [endmacro]
-
-;;【追加マクロ(byMahiro)】
-;;[naruse立ち絵用]
+;;[成瀬]
 ;;pose=ポーズ番号, 1;2;3
 ;;face=表情名, ai;akire;do;doya;futsu;hohoho;ki;odoroki;raku
 ;;size=サイズ, s;m;l
@@ -90,9 +57,7 @@
 [showstandimage who="naruse" pose="%pose|1"  face="%face|futsu" size="%size|m" nobust="%nobust|false" tere="%tere|false" pos="%pos|c" layer="%layer|0" page="%page|back" notrans="%notrans|false" time="%time|400" visible="%visible|true" nopos="true"]
 [kagtag who="naruse" pose="%pose|1"  face="%face|futsu" size="%size|m" nobust="%nobust|false" tere="%tere|false" pos="%pos|c" layer="%layer|0" page="%page|back" notrans="%notrans|false" time="%time|400" visible="%visible|true"]
 [endmacro]
-
-;;【追加マクロ(byMahiro)】
-;;[naruse立ち絵用]
+;;[成瀬顔]
 ;;pose=ポーズ番号, 1;2;3
 ;;face=表情名, ai;akire;do;doya;futsu;hohoho;ki;odoroki;raku
 ;;tere=照れてるかどうか, 論理値
@@ -101,10 +66,7 @@
 [showbustup who="naruse" face="%face|futsu" pose="%pose|1" tere="%tere|false" visible="%visible|true"]
 [kagtag who="naruse" face="%face|futsu" pose="%pose|1" tere="%tere|false" visible="%visible|true"]
 [endmacro]
-
-
-;【追加マクロ(byMahiro)】
-;;[satori立ち絵用]
+;;[悟]
 ;;pose=ポーズ番号, 1;2;3
 ;;face=表情名, ki;do;ai;raku;doya;odoroki;futsu;akire;naki;otyokuri
 ;;size=サイズ, s;m;l
@@ -121,9 +83,7 @@
 [showstandimage who="satori" pose="%pose|1"  face="%face|futsu" size="%size|m" nobust="%nobust|false" tere="%tere|false" pos="%pos|c" layer="%layer|0" page="%page|back" notrans="%notrans|false" time="%time|400" visible="%visible|true" nopos="%nopos|true"]
 [kagtag pose="%pose|1"  face="%face|futsu" size="%size|m" nobust="%nobust|false" tere="%tere|false" pos="%pos|c" layer="%layer|0" page="%page|back" notrans="%notrans|false" time="%time|400" visible="%visible|true" nopos="%nopos|true"]
 [endmacro]
-
-;;【追加マクロ(byMahiro)】
-;;[satori立ち絵用]
+;;[悟顔]
 ;;pose=ポーズ番号, 1;2;3
 ;;face=表情名, ki;do;ai;raku;doya;odoroki;futsu;akire;naki;otyokuri
 ;;tere=照れてるかどうか, 論理値
@@ -132,11 +92,9 @@
 [showbustup who="satori" face="%face|futsu" pose="%pose|1" tere="%tere|false" visible="%visible|true"]
 [kagtag face="%face|futsu" pose="%pose|1" tere="%tere|false" visible="%visible|true"]
 [endmacro]
-
-;;【追加マクロ(byMahiro)】
-;;[gaia立ち絵用]
+;;[松戸]
 ;;pose=ポーズ番号, 1;2;3
-;;face=表情名, egao;kangaeru;komari;normal;normal2;odoroki;serious
+;;face=表情名, futsu;hitan;kogeki;kokotsu
 ;;size=サイズ, s;m;l
 ;;nobust=バスト画像を出さない, 論理値
 ;;tere=照れてるかどうか, 論理値
@@ -146,26 +104,23 @@
 ;;time=トランジション時間\nデフォルトは500, ミリ秒時間
 ;;notrans=トランジションの有無, 論理値
 ;;visible=レイヤの可視・不可視\nlayer 属性で指定したレイヤを表示するか、しないかを指定します, 論理値
-[macro name="gaia_stand"]
-[showstandimage who="gaia" pose="%pose|1"  face="%face|futsu" size="%size|m" nobust="%nobust|false" tere="%tere|false" pos="%pos|c" layer="%layer|0" page="%page|back" notrans="%notrans|false" time="%time|400" visible="%visible|true"]
-[kagtag pose="%pose|1"  face="%face|futsu" size="%size|m" nobust="%nobust|false" tere="%tere|false" pos="%pos|c" layer="%layer|0" page="%page|back" notrans="%notrans|false" time="%time|400" visible="%visible|true"]
+;;nopos=ポジションを適用しない, 論理値
+[macro name="matsudo_stand"]
+[showstandimage who="matsudo" pose="%pose|1"  face="%face|futsu" size="%size|m" nobust="%nobust|false" tere="%tere|false" pos="%pos|c" layer="%layer|0" page="%page|back" notrans="%notrans|false" time="%time|400" visible="%visible|true" nopos="%nopos|true"]
+[kagtag pose="%pose|1"  face="%face|futsu" size="%size|m" nobust="%nobust|false" tere="%tere|false" pos="%pos|c" layer="%layer|0" page="%page|back" notrans="%notrans|false" time="%time|400" visible="%visible|true" nopos="%nopos|true"]
 [endmacro]
-
-;;【追加マクロ(byMahiro)】
-;;[gaia立ち絵用]
+;;[松戸顔]
 ;;pose=ポーズ番号, 1;2;3
-;;face=表情名, egao;kangaeru;komari;normal;normal2;odoroki;serious
+;;face=表情名, futsu;hitan;kogeki;kokotsu
 ;;tere=照れてるかどうか, 論理値
 ;;visible=レイヤの可視・不可視\nlayer 属性で指定したレイヤを表示するか、しないかを指定します, 論理値
-[macro name="gaia_face"]
-[showbustup who="gaia" face="%face|futsu" pose="%pose|1" tere="%tere|false" visible="%visible|true"]
+[macro name="matsudo_face"]
+[showbustup who="matsudo" face="%face|futsu" pose="%pose|1" tere="%tere|false" visible="%visible|true"]
 [kagtag face="%face|futsu" pose="%pose|1" tere="%tere|false" visible="%visible|true"]
 [endmacro]
-
-;;【追加マクロ(byMahiro)】
-;;[mash立ち絵用]
+;;[桜子]
 ;;pose=ポーズ番号, 1;2;3
-;;face=表情名, doya;ikari;normal;odoroki
+;;face=表情名, magao
 ;;size=サイズ, s;m;l
 ;;nobust=バスト画像を出さない, 論理値
 ;;tere=照れてるかどうか, 論理値
@@ -175,54 +130,21 @@
 ;;time=トランジション時間\nデフォルトは500, ミリ秒時間
 ;;notrans=トランジションの有無, 論理値
 ;;visible=レイヤの可視・不可視\nlayer 属性で指定したレイヤを表示するか、しないかを指定します, 論理値
-[macro name="mash_stand"]
-[showstandimage who="mash" pose="%pose|1"  face="%face|futsu" size="%size|m" nobust="%nobust|false" tere="%tere|false" pos="%pos|c" layer="%layer|0" page="%page|back" notrans="%notrans|false" time="%time|400" visible="%visible|true"]
-[kagtag pose="%pose|1"  face="%face|futsu" size="%size|m" nobust="%nobust|false" tere="%tere|false" pos="%pos|c" layer="%layer|0" page="%page|back" notrans="%notrans|false" time="%time|400" visible="%visible|true"]
+;;nopos=ポジションを適用しない, 論理値
+[macro name="sakurako_stand"]
+[showstandimage who="sakurako" pose="%pose|1"  face="%face|futsu" size="%size|m" nobust="%nobust|false" tere="%tere|false" pos="%pos|c" layer="%layer|0" page="%page|back" notrans="%notrans|false" time="%time|400" visible="%visible|true" nopos="%nopos|true"]
+[kagtag pose="%pose|1"  face="%face|futsu" size="%size|m" nobust="%nobust|false" tere="%tere|false" pos="%pos|c" layer="%layer|0" page="%page|back" notrans="%notrans|false" time="%time|400" visible="%visible|true" nopos="%nopos|true"]
 [endmacro]
-
-;;【追加マクロ(byMahiro)】
-;;[mash立ち絵用]
+;;[桜子顔]
 ;;pose=ポーズ番号, 1;2;3
-;;face=表情名, doya;ikari;normal;odoroki
+;;face=表情名, magao
 ;;tere=照れてるかどうか, 論理値
 ;;visible=レイヤの可視・不可視\nlayer 属性で指定したレイヤを表示するか、しないかを指定します, 論理値
-[macro name="mash_face"]
-[showbustup who="mash" face="%face|futsu" pose="%pose|1" tere="%tere|false" visible="%visible|true"]
+[macro name="sakurako_face"]
+[showbustup who="sakurako" face="%face|futsu" pose="%pose|1" tere="%tere|false" visible="%visible|true"]
 [kagtag face="%face|futsu" pose="%pose|1" tere="%tere|false" visible="%visible|true"]
 [endmacro]
-
-;;【追加マクロ(byMahiro)】
-;;[orutega立ち絵用]
-;;pose=ポーズ番号, 1;2;3
-;;face=表情名, kanasii;normal;normal2;odoroki
-;;size=サイズ, s;m;l
-;;nobust=バスト画像を出さない, 論理値
-;;tere=照れてるかどうか, 論理値
-;;pos=前景レイヤ位置\nレイヤ位置を自動的に決定します, l;c;r
-;;layer=表示したい前景レイヤ番号, 前景レイヤ;0;1;2
-;;page=画面\n指定しない場合はback, fore;back
-;;time=トランジション時間\nデフォルトは500, ミリ秒時間
-;;notrans=トランジションの有無, 論理値
-;;visible=レイヤの可視・不可視\nlayer 属性で指定したレイヤを表示するか、しないかを指定します, 論理値
-[macro name="orutega_stand"]
-[showstandimage who="orutega" pose="%pose|1"  face="%face|futsu" size="%size|m" nobust="%nobust|false" tere="%tere|false" pos="%pos|c" layer="%layer|0" page="%page|back" notrans="%notrans|false" time="%time|400" visible="%visible|true"]
-[kagtag pose="%pose|1"  face="%face|futsu" size="%size|m" nobust="%nobust|false" tere="%tere|false" pos="%pos|c" layer="%layer|0" page="%page|back" notrans="%notrans|false" time="%time|400" visible="%visible|true"]
-[endmacro]
-
-;;【追加マクロ(byMahiro)】
-;;[orutega立ち絵用]
-;;pose=ポーズ番号, 1;2;3
-;;face=表情名, kanasii;normal;normal2;odoroki
-;;tere=照れてるかどうか, 論理値
-;;visible=レイヤの可視・不可視\nlayer 属性で指定したレイヤを表示するか、しないかを指定します, 論理値
-[macro name="orutega_face"]
-[showbustup who="orutega" face="%face|futsu" pose="%pose|1" tere="%tere|false" visible="%visible|true"]
-[kagtag face="%face|futsu" pose="%pose|1" tere="%tere|false" visible="%visible|true"]
-[endmacro]
-
-
-
-;;//【*以下、old立ち絵】
+*【old立ち絵】
 ;;[old遥香]
 ;;face=表情名, magao;ki;do;ai;raku;jitome;keibetsu;kuno;niyaniya;odoroki;suttoboke
 [macro name="old_haruka_stand"]
@@ -255,6 +177,42 @@
 [showbustup who="naruse_old" face="%face|futsu" pose="%pose|1" tere="%tere|false" visible="%visible|false"]
 [kagtag who="naruse_old" face="%face|futsu" pose="%pose|1" tere="%tere|false" visible="%visible|false"]
 [endmacro]
+;;[oldガイア]
+;;face=表情名, egao;kangaeru;komari;normal;normal2;odoroki;serious
+[macro name="old_gaia_stand"]
+[showstandimage who="gaia_old" pose="%pose|1"  face="%face|futsu" size="%size|m" nobust="%nobust|false" tere="%tere|false" pos="%pos|c" layer="%layer|0" page="%page|back" notrans="%notrans|false" time="%time|400" visible="%visible|true"]
+[kagtag pose="%pose|1"  face="%face|futsu" size="%size|m" nobust="%nobust|false" tere="%tere|false" pos="%pos|c" layer="%layer|0" page="%page|back" notrans="%notrans|false" time="%time|400" visible="%visible|true"]
+[endmacro]
+;;[oldガイア顔]
+;;face=表情名, egao;kangaeru;komari;normal;normal2;odoroki;serious
+[macro name="old_gaia_face"]
+[showbustup who="gaia_old" face="%face|futsu" pose="%pose|1" tere="%tere|false" visible="%visible|true"]
+[kagtag face="%face|futsu" pose="%pose|1" tere="%tere|false" visible="%visible|true"]
+[endmacro]
+;;[oldマッシュ]
+;;face=表情名, doya;ikari;normal;odoroki
+[macro name="old_mash_stand"]
+[showstandimage who="mash_old" pose="%pose|1"  face="%face|futsu" size="%size|m" nobust="%nobust|false" tere="%tere|false" pos="%pos|c" layer="%layer|0" page="%page|back" notrans="%notrans|false" time="%time|400" visible="%visible|true"]
+[kagtag pose="%pose|1"  face="%face|futsu" size="%size|m" nobust="%nobust|false" tere="%tere|false" pos="%pos|c" layer="%layer|0" page="%page|back" notrans="%notrans|false" time="%time|400" visible="%visible|true"]
+[endmacro]
+;;[oldマッシュ顔]
+;;face=表情名, doya;ikari;normal;odoroki
+[macro name="old_mash_face"]
+[showbustup who="mash_old" face="%face|futsu" pose="%pose|1" tere="%tere|false" visible="%visible|true"]
+[kagtag face="%face|futsu" pose="%pose|1" tere="%tere|false" visible="%visible|true"]
+[endmacro]
+;;[オルテガ]
+;;face=表情名, kanasii;normal;normal2;odoroki
+[macro name="old_orutega_stand"]
+[showstandimage who="orutega_old" pose="%pose|1"  face="%face|futsu" size="%size|m" nobust="%nobust|false" tere="%tere|false" pos="%pos|c" layer="%layer|0" page="%page|back" notrans="%notrans|false" time="%time|400" visible="%visible|true"]
+[kagtag pose="%pose|1"  face="%face|futsu" size="%size|m" nobust="%nobust|false" tere="%tere|false" pos="%pos|c" layer="%layer|0" page="%page|back" notrans="%notrans|false" time="%time|400" visible="%visible|true"]
+[endmacro]
+;;[オルテガ顔]
+;;face=表情名, kanasii;normal;normal2;odoroki
+[macro name="old_orutega_face"]
+[showbustup who="orutega_old" face="%face|futsu" pose="%pose|1" tere="%tere|false" visible="%visible|true"]
+[kagtag face="%face|futsu" pose="%pose|1" tere="%tere|false" visible="%visible|true"]
+[endmacro]
 ;;[old十二単]
 ;;face=表情名, futsu
 [macro name="old_miyabi_stand"]
@@ -279,7 +237,6 @@
 [showbustup who="takahashi_old" face="%face|futsu" pose="%pose|1" tere="%tere|false" visible="%visible|true"]
 [kagtag face="%face|futsu" pose="%pose|1" tere="%tere|false" visible="%visible|true"]
 [endmacro]
-
-
+*
 
 [return]
