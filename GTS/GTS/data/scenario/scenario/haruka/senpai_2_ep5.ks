@@ -13,7 +13,7 @@
 [strans storage="bg_black"]
 
 
-[takahashi_face face="futsu" size=s]
+[old_takahashi_face face="futsu" size=s]
 [show_nametag name="ロン毛" visible=true]
 「彼は静かなポイントを好むからね。[l]ここかもしれない」[plc]
 
@@ -40,7 +40,7 @@
 ここには教室はない。[lr]
 あるのは物置のようなせっまい部屋だけだ。[plc]
 
-[gaia_stand face="normal"]
+[old_gaia_stand face="normal"]
 [show_nametag name="ガイア" visible=true]
 「『北』の教室がある辺りは、治安が悪いからな」[plk]
 
@@ -59,7 +59,7 @@
 [show_nametag name="縁" visible=true]
 「そういえば……」[plc]
 
-[haruka_face face="keibetsu"]
+[old_haruka_face face="keibetsu"]
 [show_nametag name="遥香" visible=true]
 「……そうね。この学校。[lr]
 　よく考えたら圧倒的女子率なはずだものね」[plc]
@@ -83,7 +83,7 @@
 [show_nametag name="大樹" visible=true]
 「……そうか、女子のほうが多いんだよな」[plc]
 
-[haruka_stand face="magao"]
+[old_haruka_stand face="magao"]
 [show_nametag name="遥香" visible=true]
 「……なに？　谷口君」[plc]
 
@@ -108,7 +108,7 @@
 つまり、この人はどっちかっつーと女子に嫌われてんのか。[lr]
 この女子ばっかの学校で。[plc]
 
-[haruka_stand face="odoroki" size="m"]
+[old_haruka_stand face="odoroki" size="m"]
 [show_nametag name="遥香" visible=true]
 「……な、なによ？」[plc]
 
@@ -132,7 +132,7 @@
 
 
 
-[haruka_stand face="keibetsu"]
+[old_haruka_stand face="keibetsu"]
 [show_nametag name="遥香" visible=true]
 「ついでに、男子もメインは運動部の方だったから。[lr]
 　……ほとんど逃げたわよ」[plc]
@@ -141,7 +141,7 @@
 
 『君の加入でね』と先輩は追加する。[plc]
 
-[gaia_stand face="serious"]
+[old_gaia_stand face="serious"]
 [show_nametag name="ガイア" visible=true]
 「兄弟が焦土にした残りカス……。[lr]
 　何も考えずに残った連中の多くが男子だった……[l]それだけだ」[plc]
@@ -157,7 +157,7 @@
 
 わ、悪かったよ！　俺が悪いんだろ！！　クソがッ！！！[plc]
 
-[takahashi_stand face="futsu"]
+[old_takahashi_stand face="futsu"]
 [show_nametag name="ロン毛" visible=true]
 「べいべぇ……残りカスかい。その言い方は、ちょっと酷いなぁ」[plc]
 
@@ -169,7 +169,7 @@
 
 ファサッと、ロン毛は前髪を払う。[plc]
 
-[gaia_face face="kangaeru"]
+[old_gaia_face face="kangaeru"]
 [show_nametag name="ガイア" visible=true]
 「加えて言うと。今の支持層の男子の殆どがこの『北』の連中だ」[plc]
 
@@ -181,11 +181,11 @@
 
 なんとも、ねぇ。[plc]
 
-[takahashi_stand face="futsu"]
+[old_takahashi_stand face="futsu"]
 [show_nametag name="ロン毛" visible=true]
 「だから、まぁ。こうやって案内してあげてるのさ……べいべぇ」[plc]
 
-[takahashi_stand face="futsu" size="l"]
+[old_takahashi_stand face="futsu" size="l"]
 [show_nametag name="ロン毛" visible=true]
 「――ボロロローン！」[plc]
 [dis_all_chara]
@@ -198,7 +198,7 @@
 「じゃぁ女子がいる部活がここにあるのね？」[plc]
 
 
-[takahashi_stand face="futsu"]
+[old_takahashi_stand face="futsu"]
 [show_nametag name="ロン毛" visible=true]
 「そうさ、この『北』には女子がいる部。[lr]
 　……正確には女子しかいない部が２つある」[plk]
@@ -207,7 +207,7 @@
 [show_nametag name="ロン毛" visible=true]
 「そこに、案内しよう」[plc]
 
-[takahashi_stand face="futsu" size="l" time="200"]
+[old_takahashi_stand face="futsu" size="l" time="200"]
 [show_nametag name="ロン毛" visible=true]
 「――べ・いべぇ！」[plc]
 
@@ -236,7 +236,7 @@
 [show_nametag name="女子A" visible=true]
 「……あら、軽音部じゃないの。なんかよう？」[plc]
 
-[takahashi_face face="futsu"]
+[old_takahashi_face face="futsu"]
 
 
 
@@ -295,7 +295,7 @@
 [show_nametag name="大樹" visible=true]
 「普通っすね」[plc]
 
-[haruka_face face="odoroki"]
+[old_haruka_face face="odoroki"]
 [show_nametag name="遥香" visible=true]
 「えぇ」[plc]
 
@@ -311,7 +311,7 @@
 そうか……[l]それだけ、[lr]
 俺達は妙な連中を見せられてきたんだな。[plc]
 
-[takahashi_stand face="futsu"]
+[old_takahashi_stand face="futsu"]
 [show_nametag name="ロン毛" visible=true]
 「彼女たちが、文芸部であり……[l]天文部の娘達さ」[plc]
 
@@ -371,11 +371,11 @@
 いや、これまでもそうだったけどさ……。[lr]
 なんか別なところに情熱燃やしてる連中が多かったから。[plc]
 
-[gaia_stand face="kangaeru"]
+[old_gaia_stand face="kangaeru"]
 [show_nametag name="ガイア" visible=true]
 「……」[plc]
 
-[haruka_stand face="magao"]
+[old_haruka_stand face="magao"]
 [show_nametag name="遥香" visible=true]
 「……」[plc]
 
@@ -391,7 +391,7 @@
 [show_nametag name="女子A" visible=true]
 「で、文芸部と天文部……どちらにご用事？」[plc]
 
-[takahashi_stand face="futsu"]
+[old_takahashi_stand face="futsu"]
 [show_nametag name="ロン毛" visible=true]
 「じつはね、君たちには用は無いんだ……[l]釣り部を探しにね」[plc]
 [dis_all_chara]
@@ -423,12 +423,12 @@
 [show_nametag name="女子A" visible=true]
 「釣り部なら、来てないよ」[plc]
 
-[takahashi_stand face="futsu"]
+[old_takahashi_stand face="futsu"]
 [show_nametag name="ロン毛" visible=true]
 「そうかい、ありがとう……[l]邪魔したね」[plc]
 
 
-[takahashi_stand face="futsu" size="l"]
+[old_takahashi_stand face="futsu" size="l"]
 [show_nametag name="ロン毛" visible=true]
 「――ジャカジャーン！[l]　……一曲贈ろう」[plc]
 
@@ -436,7 +436,7 @@
 [show_nametag name="女子A" visible=true]
 「いらなーい」[plc]
 
-[takahashi_stand face="futsu" size="s"]
+[old_takahashi_stand face="futsu" size="s"]
 [show_nametag name="ロン毛" visible=true]
 「べいべぇ」[plc]
 
@@ -483,7 +483,7 @@
 
 ……あぁ、そうか。[plc]
 
-[gaia_face face="normal"]
+[old_gaia_face face="normal"]
 [show_nametag name="ガイア" visible=true]
 「兄弟、次行くぞ」[plc]
 

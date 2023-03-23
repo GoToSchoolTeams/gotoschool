@@ -144,6 +144,8 @@
 [showbustup who="sakurako" face="%face|futsu" pose="%pose|1" tere="%tere|false" visible="%visible|true"]
 [kagtag face="%face|futsu" pose="%pose|1" tere="%tere|false" visible="%visible|true"]
 [endmacro]
+
+
 *yold—§‚¿ŠGz
 ;;[old—y]
 ;;face=•\î–¼, magao;ki;do;ai;raku;jitome;keibetsu;kuno;niyaniya;odoroki;suttoboke

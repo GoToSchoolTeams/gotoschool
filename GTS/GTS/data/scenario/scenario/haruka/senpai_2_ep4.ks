@@ -23,15 +23,15 @@
 小さく口に出した言葉は、[l]やけに間抜けな響きに聞こえた。[plc]
 
 
-[takahashi_stand face="futsu"]
+[old_takahashi_stand face="futsu"]
 [show_nametag name="ロン毛" visible=true]
 「んーん、べいべぇ」[plc]
 
-[takahashi_stand face="futsu" size="l" time="200"]
+[old_takahashi_stand face="futsu" size="l" time="200"]
 [show_nametag name="ロン毛" visible=true]
 「――ジャカジャン！」[plc]
 
-[takahashi_stand face="futsu" size="m"]
+[old_takahashi_stand face="futsu" size="m"]
 [show_nametag name="ロン毛" visible=true]
 「気になるのかい？」[plc]
 
@@ -52,7 +52,7 @@
 いや、この『北』塔の基準で考えると、[r]
 全然怪しくないとも言えるが。[plc]
 
-[takahashi_stand face="futsu"]
+[old_takahashi_stand face="futsu"]
 [show_nametag name="ロン毛" visible=true]
 「んんん、ビぃぃっッッッと！[l]　……良い勘をしているねぇ君。[lr]
 　確かにそこは釣り部のポイントの一つでもある」[plc]
@@ -64,11 +64,11 @@
 [show_nametag name="大樹" visible=true]
 「……なぁ、もしかしてお前の言う[l]『ポイント』って」[plc]
 
-[takahashi_stand face="futsu" size="l" time="200"]
+[old_takahashi_stand face="futsu" size="l" time="200"]
 [show_nametag name="ロン毛" visible=true]
 「――ギャリリリリリリリッ！」[plc]
 
-[takahashi_stand face="futsu" size="m" time="200"]
+[old_takahashi_stand face="futsu" size="m" time="200"]
 [show_nametag name="ロン毛" visible=true]
 「……言葉はいらない。[l]そこに、魂はあるのかい？」[plc]
 
@@ -76,7 +76,7 @@
 
 いや、お前の全部言葉じゃん。[plc]
 
-[takahashi_stand face="futsu" size="l" time="200"]
+[old_takahashi_stand face="futsu" size="l" time="200"]
 [show_nametag name="ロン毛" visible=true]
 「ふ」[plc]
 
@@ -85,7 +85,7 @@
 俺の疑問など全て無視して、[r]
 ロン毛はその教室に入っていった。[plc]
 
-[gaia_face face="egao"]
+[old_gaia_face face="egao"]
 [show_nametag name="ガイア" visible=true]
 「入ろうか、兄弟」[plc]
 
@@ -114,7 +114,7 @@
 教室内は全く何も見えない。[plc]
 
 
-[takahashi_face face="futsu"]
+[old_takahashi_face face="futsu"]
 [show_nametag name="ロン毛" visible=true]
 「ん、んー……どうも、聴いている最中のようだね」[plc]
 
@@ -126,13 +126,13 @@
 
 聴いてる最中だと？？[plc]
 
-[haruka_face face="keibetsu"]
+[old_haruka_face face="keibetsu"]
 [show_nametag name="遥香" visible=true]
 「ちょっとこれじゃ見えないじゃない……[l]
-[haruka_face face="ai"]
+[old_haruka_face face="ai"]
 あれ、スイッチが」[plc]
 
-[haruka_face face="odoroki"]
+[old_haruka_face face="odoroki"]
 [show_nametag name="遥香" visible=true]
 「た、谷口君！　す、スイッチが無いわよ！！」[plc]
 
@@ -202,7 +202,7 @@
 「……君たち、なにものなのか知らんが、[lr]
 　どうして光を入れたりしたんだね？」[plc]
 
-[haruka_face face="magao"]
+[old_haruka_face face="magao"]
 [show_nametag name="遥香" visible=true]
 「いや、だって暗いから……」[plc]
 
@@ -210,7 +210,7 @@
 [show_nametag name="リーダー" visible=true]
 「暗い……？　廊下は明るかったろう？」[plc]
 
-[haruka_face face="odoroki"]
+[old_haruka_face face="odoroki"]
 [show_nametag name="遥香" visible=true]
 「えぇ、まぁ」[plc]
 
@@ -252,7 +252,7 @@
 [show_nametag name="大樹" visible=true]
 「そうそう」[plc]
 
-[haruka_face face="magao"]
+[old_haruka_face face="magao"]
 [show_nametag name="遥香" visible=true]
 「うん」[plc]
 
@@ -260,7 +260,7 @@
 
 それ以外になんかあるか？[plc]
 
-[gaia_stand face="serious"]
+[old_gaia_stand face="serious"]
 [show_nametag name="ガイア" visible=true]
 「『波』……だな」[plc]
 
@@ -277,7 +277,7 @@
 [show_nametag name="縁" visible=true]
 「……」[plc]
 
-[haruka_face face="keibetsu"]
+[old_haruka_face face="keibetsu"]
 [show_nametag name="遥香" visible=true]
 「……それぐらい知ってるわよ」[plc]
 
@@ -320,7 +320,7 @@
 リーダーは、ぷるぷると首を振る。[lr]
 『おぉ、嘆かわしい』と後ろの半裸達も首を振った。[plc]
 
-[gaia_stand face="kangaeru"]
+[old_gaia_stand face="kangaeru"]
 [show_nametag name="ガイア" visible=true]
 「兄弟、光も。波だ」[plc]
 
@@ -428,7 +428,7 @@
 [show_nametag name="リーダー" visible=true]
 「簡単に説明してやろう、リチウムイオン電池ってのはなぁ……その名の通り、Li＋……つまり、リチウムイオンが正負の間を行ったり来たり――」[plc]
 
-[haruka_face face="keibetsu"]
+[old_haruka_face face="keibetsu"]
 [show_nametag name="遥香" visible=true]
 「……」[plc]
 
@@ -436,7 +436,7 @@
 [show_nametag name="縁" visible=true]
 「……」[plc]
 
-[gaia_face face="kangaeru"]
+[old_gaia_face face="kangaeru"]
 [show_nametag name="ガイア" visible=true]
 「……」[plc]
 
@@ -460,14 +460,14 @@
 [show_nametag name="大樹" visible=true]
 「ここにいるの？　釣り部」[plc]
 
-[takahashi_stand face="futsu"]
+[old_takahashi_stand face="futsu"]
 [show_nametag name="ロン毛" visible=true]
 「んーん、いーや、いないね」[plc]
 
 
 [show_nametag name="ロン毛" visible=true]
 「べいべぇ、[l]
-[takahashi_stand face="futsu" size="l" time="200"]
+[old_takahashi_stand face="futsu" size="l" time="200"]
 　――ジャカジャカジャン！」[plc]
 [dis_all_chara]
 

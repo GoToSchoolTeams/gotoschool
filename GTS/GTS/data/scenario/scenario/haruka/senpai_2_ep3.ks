@@ -13,11 +13,11 @@
 
 ;[call target=*De]
 
-[takahashi_stand face="futsu"]
+[old_takahashi_stand face="futsu"]
 [show_nametag name="ロン毛" visible=true]
 「……さぁ、君の魂の音を聞かせてくれ」[plc]
 
-[takahashi_stand face="futsu" size="l"]
+[old_takahashi_stand face="futsu" size="l"]
 [show_nametag name="ロン毛" visible=true]
 「――ジャジャーン！」[plc]
 

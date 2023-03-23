@@ -353,11 +353,11 @@
 つか、結構嫌われてんだな、先輩。[plc]
 
 [strans storage="bg_black"]
-[haruka_stand face="raku" nobust="true"]
+[old_haruka_stand face="raku" nobust="true"]
 
 [shownametag name="大樹" visible=true]
 「……」[l]
-[haruka_stand face="ki" nobust="true"]
+[old_haruka_stand face="ki" nobust="true"]
 [plc]
 ;[ちょい先輩の立ち絵出る？]
 
@@ -1096,7 +1096,7 @@
 [strans storage="bg_black" time="200"]
 
 それは、[l]
-[haruka_stand face="ki" nobust="true"]
+[old_haruka_stand face="ki" nobust="true"]
 
 やっぱり先輩とは似ても似つかなくて。[plc]
 
@@ -1334,7 +1334,7 @@
 屋上に行くと、[lr]
 予想通り、まだ先輩たちは居た。[plc]
 
-[haruka_stand face="odoroki" nobust="true"]
+[old_haruka_stand face="odoroki" nobust="true"]
 [shownametag name="遥香" visible=true bust="false"]
 「……」[plc]
 [dis_all_chara]
@@ -1349,7 +1349,7 @@
 「……」[plc]
 [dis_all_chara]
 
-[gaia_face face="odoroki"]
+[old_gaia_face face="odoroki"]
 [shownametag name="ガイア" visible=true]
 「……」[plc]
 
@@ -1361,7 +1361,7 @@
 
 突然の闖入者にビックリしたのか、みんな目を丸めていて。[plc]
 
-[haruka_stand face="odoroki" size="l"]
+[old_haruka_stand face="odoroki" size="l"]
 [shownametag name="遥香" visible=true]
 「谷口く―」[plc]
 
@@ -1373,7 +1373,7 @@
 
 有無を言わさず、土下座した。[plc]
 
-[haruka_face face="odoroki"]
+[old_haruka_face face="odoroki"]
 [shownametag name="遥香" visible=true]
 「……」[plc]
 
@@ -1468,7 +1468,7 @@
 
 さて、[plc]
 
-[haruka_stand face="magao"]
+[old_haruka_stand face="magao"]
 [shownametag name="遥香" visible=true]
 「……」[plc]
 
@@ -1484,7 +1484,7 @@
 [shownametag name="大樹" visible=true]
 「俺、無茶苦茶しました」[plc]
 
-[haruka_face face="magao"]
+[old_haruka_face face="magao"]
 [shownametag name="遥香" visible=true]
 「うん」[plc]
 
@@ -1492,7 +1492,7 @@
 [shownametag name="大樹" visible=true]
 「先輩裏切って、逃げました」[plc]
 
-[haruka_face face="magao"]
+[old_haruka_face face="magao"]
 [shownametag name="遥香" visible=true]
 「うん」[plc]
 
@@ -1500,7 +1500,7 @@
 [shownametag name="大樹" visible=true]
 「ついでに、成瀬んとこ行きました」[plc]
 
-[haruka_face face="magao"]
+[old_haruka_face face="magao"]
 [shownametag name="遥香" visible=true]
 「うん」[plc]
 
@@ -1508,7 +1508,7 @@
 [shownametag name="大樹" visible=true]
 「なんか、ちょっと居心地いいなぁと、思っちゃいました」[plc]
 
-[haruka_face face="magao"]
+[old_haruka_face face="magao"]
 [shownametag name="遥香" visible=true]
 「そうかい」[plc]
 
@@ -1528,7 +1528,7 @@
 
 深々と、[plc]
 
-[haruka_face face="magao"]
+[old_haruka_face face="magao"]
 [shownametag name="遥香" visible=true]
 「……」[plc]
 
@@ -1540,7 +1540,7 @@
 [shownametag name="悟" visible=true]
 「……」[plc]
 
-[gaia_face face="normal2"]
+[old_gaia_face face="normal2"]
 [shownametag name="ガイア" visible=true]
 「……」[plc]
 
@@ -1548,7 +1548,7 @@
 
 おそらく、はじめて心から、[plc]
 
-[haruka_face face="magao"]
+[old_haruka_face face="magao"]
 [shownametag name="遥香" visible=true]
 「そっか」[plc]
 
@@ -1564,7 +1564,7 @@
 
 恐る恐る見上げると、[plc]
 
-[haruka_stand face="ki"]
+[old_haruka_stand face="ki"]
 [shownametag name="遥香" visible=true]
 「……」[plc]
 
@@ -1576,7 +1576,7 @@
 
 ――ははは、本当に全く感情が見えないわ！！！[plc]
 
-[haruka_stand face="ki"]
+[old_haruka_stand face="ki"]
 [shownametag name="遥香" visible=true]
 「続きは？」[plc]
 
@@ -1584,7 +1584,7 @@
 [shownametag name="大樹" visible=true]
 「へ？」[plc]
 
-[haruka_stand face="ki"]
+[old_haruka_stand face="ki"]
 [shownametag name="遥香" visible=true]
 「縁ちゃんを見る限り、続きがあるでしょ？」[plc]
 
@@ -1600,7 +1600,7 @@
 [shownametag name="大樹" visible=true]
 「……な、殴っていいっすよ」[plc]
 
-[haruka_stand face="raku" size="l"]
+[old_haruka_stand face="raku" size="l"]
 [shownametag name="遥香" visible=true]
 「よし」[plc]
 
@@ -1612,7 +1612,7 @@
 
 マジで？　めっちゃ笑顔なんすけど。[plc]
 
-[haruka_stand face="ki" size=l]
+[old_haruka_stand face="ki" size=l]
 [shownametag name="遥香" visible=true]
 「歯ぁ食いしばりなさい、目もつぶってね」[plc]
 

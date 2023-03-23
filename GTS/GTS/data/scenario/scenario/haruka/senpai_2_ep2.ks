@@ -51,7 +51,7 @@
 地位の低い部活……[l]あまり活動してない部活は『北』へ。[plc]
 
 
-[gaia_stand face="normal"]
+[old_gaia_stand face="normal"]
 [shownametag name="ガイア" visible=true]
 「……つまりは、ゴミ溜めだな」[plc]
 
@@ -77,7 +77,7 @@
 こ、これは……。[plc]
 ;[se:ゲーッゲッゲッ　BGMはもちろん、スラムだよスラム]
 
-[haruka_face face="odoroki"]
+[old_haruka_face face="odoroki"]
 [shownametag name="遥香" visible=true]
 「……」[plc]
 
@@ -91,9 +91,9 @@
 
 
 
-@showstandimage layer=3 pos=c who="gaia"    pose=1 face=normal   visible="true" size=m notrans=true page=back nobust="true"
-@showstandimage layer=1 pos=l who="mash"    pose=1 face=normal visible="true" size=m notrans=true page=back nobust="true"
-@showstandimage layer=2 pos=r who="orutega" pose=1 face=normal visible="true" size=m notrans=true page=back nobust="true"
+@showstandimage layer=3 pos=c who="gaia_old"    pose=1 face=normal   visible="true" size=m notrans=true page=back nobust="true"
+@showstandimage layer=1 pos=l who="mash_old"    pose=1 face=normal visible="true" size=m notrans=true page=back nobust="true"
+@showstandimage layer=2 pos=r who="orutega_old" pose=1 face=normal visible="true" size=m notrans=true page=back nobust="true"
 
 先輩と縁も、『聞いてはいたが』という顔で絶句している。[lr]
 悟に至っては、もう涙目だ。[plc]
@@ -119,7 +119,7 @@
 ここは本当に学校の中なのかよ！！？[plc]
 
 
-[gaia_stand face="egao" size="l"]
+[old_gaia_stand face="egao" size="l"]
 [shownametag name="ガイア" visible=true]
 「驚いたか、兄弟？」[plc]
 
@@ -147,15 +147,15 @@
 [shownametag name="大樹" visible=true]
 「室内だぞ？」[plc]
 
-[gaia_stand face="egao" layer="0"]
+[old_gaia_stand face="egao" layer="0"]
 [shownametag name="ガイア" visible=true]
 「……ああ、『奇行部』か。[l]大丈夫だ。今日は世紀末らしいな」[plc]
 
-[mash_stand face="doya" layer="1" pos="l"]
+[old_mash_stand face="doya" layer="1" pos="l"]
 [shownametag name="マッシュ" visible=true]
 「明日には違うことやってるでござる」[plc]
 
-[orutega_stand face="normal2" pos="r" layer="2"]
+[old_orutega_stand face="normal2" pos="r" layer="2"]
 [shownametag name="オルテガ" visible=true]
 「髪型も変わるニャリ☆」[plc]
 
@@ -239,7 +239,7 @@
 [shownametag name="縁" visible=true]
 「ぁ」[plc]
 
-[haruka_stand face="odoroki" size="l"]
+[old_haruka_stand face="odoroki" size="l"]
 [shownametag name="遥香" visible=true]
 「いけない、追わないと！」[plc]
 
@@ -260,11 +260,11 @@
 [shownametag name="大樹" visible=true]
 「……お前、」[plc]
 
-[takahashi_stand face="futsu" size="s" nobust="true"]
+[old_takahashi_stand face="futsu" size="s" nobust="true"]
 
 あんときの。[plc]
 
-[takahashi_stand face="futsu" size="m"]
+[old_takahashi_stand face="futsu" size="m"]
 [shownametag name="ロン毛" visible=true bust="false"]
 「――ジャジャジャ、ジャーン！」[plc]
 
@@ -287,13 +287,13 @@
 [shownametag name="大樹" visible=true]
 「お前」[plc]
 
-[takahashi_stand face="futsu" size="s" nobust="true"]
+[old_takahashi_stand face="futsu" size="s" nobust="true"]
 
 それは、あの時の。[lr]
 文化部からの協力を断られた時にいたロン毛だった。[plc]
 
 
-[takahashi_stand face="futsu" size="m"]
+[old_takahashi_stand face="futsu" size="m"]
 [shownametag name="ロン毛" visible=true bust="true"]
 「――ボン、ボロボロボロ、ボーン！」[plc]
 
@@ -309,7 +309,7 @@
 [shownametag name="大樹" visible=true]
 「……」[plc]
 
-[takahashi_face face="futsu"]
+[old_takahashi_face face="futsu"]
 [shownametag name="ロン毛" visible=true bust="false"]
 「――ズギャーン！！！……ド、ドドドドドッ！！！！」[plc]
 
@@ -317,7 +317,7 @@
 
 ギターに弦が付いてない。[plc]
 
-[takahashi_stand face="futsu" size="l"]
+[old_takahashi_stand face="futsu" size="l"]
 [shownametag name="ロン毛" visible=true bust="false"]
 「――ド、ドゥビィドゥバァッ！　ボッ、ボボボボッ！！」[plc]
 
@@ -337,7 +337,7 @@
 [shownametag name="大樹" visible=true]
 「せ、先輩、悟を――」[plc]
 
-[takahashi_stand face="futsu" size="l"]
+[old_takahashi_stand face="futsu" size="l"]
 [shownametag name="ロン毛" visible=true bust="false"]
 「だから、大丈夫って言ってるでしょー」[plc]
 
@@ -345,12 +345,12 @@
 
 うるせぇんだよ、イカレポンチがッ！！！[plc]
 
-[gaia_stand face="serious"]
+[old_gaia_stand face="serious"]
 [shownametag name="ガイア" visible=true]
 「……大丈夫だ兄弟。さっきのやつは、[lr]
 　ああやって迷い込んだ女子生徒を驚かすのが趣味なんだ」[plc]
 
-[gaia_stand face="kangaeru"]
+[old_gaia_stand face="kangaeru"]
 [shownametag name="ガイア" visible=true]
 「ちょっと追っかけたら、すぐに飽きて追うのをやめる」[plc]
 
@@ -358,7 +358,7 @@
 
 ガイアが、溜息を吐くようにそう言った。[plc]
 
-[takahashi_stand face="futsu" size="m"]
+[old_takahashi_stand face="futsu" size="m"]
 [shownametag name="ロン毛" visible=true bust="false"]
 「そうなんだよねー、あの目も服も、[lr]
 　いわゆる特殊メイクってやつなんだよねぇ」[plc]
@@ -367,7 +367,7 @@
 「……あの動きも、[l]え・ん・ぎ。[lr]
 　なんでも、とある映画のワンシーンを再現したいんだとさ」[plc]
 
-[takahashi_stand face="futsu" size="l"]
+[old_takahashi_stand face="futsu" size="l"]
 [shownametag name="ロン毛" visible=true bust="false"]
 「――ズビビビ、ビーンッ！！」[plc]
 
@@ -379,7 +379,7 @@
 
 ……お前は何を再現したいんだよ。[plc]
 
-[takahashi_stand face="futsu"]
+[old_takahashi_stand face="futsu"]
 [shownametag name="ロン毛" visible=true bust="false"]
 「ボクかい？　[l]ボクは……魂、かな？」[plc]
 
@@ -387,7 +387,7 @@
 [shownametag name="大樹" visible=true]
 「心理描写に答えなくていい」[plc]
 
-[takahashi_stand face="futsu" size="l"]
+[old_takahashi_stand face="futsu" size="l"]
 [shownametag name="ロン毛" visible=true bust="false"]
 「はははっ！」[plc]
 
@@ -412,16 +412,16 @@
 
 くだらん事に悩んで学校休んでた俺がバカみてーじゃねーか！[plc]
 
-[haruka_face face="ai"]
+[old_haruka_face face="ai"]
 [shownametag name="遥香" visible=true]
 「ねぇ、黒井君。[lr]
 　ほんとに、悟ちゃんを追いかけなくて大丈夫なの？」[plc]
 
-[gaia_face face="serious"]
+[old_gaia_face face="serious"]
 [shownametag name="ガイア" visible=true]
 「……おそらくは、それに悟嬢にはここは辛そうだからな」[plc]
 
-[takahashi_stand face="futsu"]
+[old_takahashi_stand face="futsu"]
 [shownametag name="ロン毛" visible=true bust="false"]
 「心配症だね姫は……[l]ほーら、戻ってきたよ」[plc]
 
@@ -437,7 +437,7 @@
 [shownametag name="大樹" visible=true]
 「誰？？」[plc]
 
-[takahashi_face face="futsu"]
+[old_takahashi_face face="futsu"]
 [shownametag name="ロン毛" visible=true bust="false"]
 「さっきの男だよ」[plc]
 
@@ -450,11 +450,11 @@
 マジでッ！！？[plc]
 [dis_all_chara]
 
-[takahashi_stand face="futsu"]
+[old_takahashi_stand face="futsu"]
 [shownametag name="ロン毛" visible=true bust="false"]
 「彼らに、ボクの、――ビィッイイイット！　を聞かせていたのさ」[plc]
 
-[takahashi_stand face="futsu" size="l"]
+[old_takahashi_stand face="futsu" size="l"]
 [shownametag name="ロン毛" visible=true bust="false"]
 「――ボロロローン！　[l]……べいべぇー」[plc]
 
@@ -466,12 +466,12 @@
 [shownametag name="小デブ" visible=true bust="false"]
 「『耳が幸せ』とは、まさに、この事だ」[plc]
 
-[takahashi_stand face="futsu"]
+[old_takahashi_stand face="futsu"]
 [shownametag name="ロン毛" visible=true bust="false"]
 「ありがとう、だがね……ボクがこんな演奏が出来たのも……。[lr]
 　君の、素晴らしぃ、演技あってこそ」[plc]
 
-[takahashi_stand face="futsu" size="l"]
+[old_takahashi_stand face="futsu" size="l"]
 [shownametag name="ロン毛" visible=true bust="false"]
 「ボクの、――ビィッイイイット！[l]　は、君が揺らしたんだ」[plc]
 
@@ -492,7 +492,7 @@
 
 なんだコイツら。[plc]
 
-[haruka_face face="keibetsu"]
+[old_haruka_face face="keibetsu"]
 [shownametag name="遥香" visible=true]
 「あの、ちょっとそこのひと」[plc]
 
@@ -500,7 +500,7 @@
 [shownametag name="小デブ" visible=true bust="false"]
 「む？」[plc]
 
-[haruka_face face="keibetsu"]
+[old_haruka_face face="keibetsu"]
 [shownametag name="遥香" visible=true]
 「けっきょく、悟は―」[plc]
 
@@ -513,7 +513,7 @@
 
 ギラリと目を光らせて、小デブは叫ぶ。[plc]
 
-[haruka_stand face="magao" size="m"]
+[old_haruka_stand face="magao" size="m"]
 [shownametag name="遥香" visible=true]
 「へ？」[plc]
 
@@ -534,11 +534,11 @@
 [shownametag name="大樹" visible=true]
 「――」[plc]
 
-[gaia_face face="egao"]
+[old_gaia_face face="egao"]
 [shownametag name="ガイア" visible=true]
 「――」[plc]
 
-[takahashi_face face="futsu"]
+[old_takahashi_face face="futsu"]
 [shownametag name="ロン毛" visible=true bust="false"]
 「べいべぇ」[plc]
 
@@ -553,15 +553,15 @@
 
 [dis_all_chara]
 
-[haruka_face face="magao"]
+[old_haruka_face face="magao"]
 [shownametag name="遥香" visible=true]
 「――」[plc]
 
-[haruka_face face="ai" tere="true"]
+[old_haruka_face face="ai" tere="true"]
 [shownametag name="遥香" visible=true]
 「…―」[plc]
 
-[haruka_face face="kuno" tere="true"]
+[old_haruka_face face="kuno" tere="true"]
 [shownametag name="遥香" visible=true]
 「……」[plc]
 
@@ -569,7 +569,7 @@
 あまりに自然体な動きで、誰も何の反応も出来なくて。[plc]
 
 
-[haruka_stand face="do" tere="true" size="l" time="200"]
+[old_haruka_stand face="do" tere="true" size="l" time="200"]
 [quake time="200"]
 [shownametag name="遥香" visible=true]
 「―ッ！？」[plc]
@@ -600,7 +600,7 @@
 [shownametag name="小デブ" visible=true bust="false"]
 「――Ecstasy……イきそうだぁ」[plc]
 
-[takahashi_face face="futsu"]
+[old_takahashi_face face="futsu"]
 [shownametag name="ロン毛" visible=true bust="false"]
 「べいべぇ」[plc]
 
@@ -609,15 +609,15 @@
 [shownametag name="大樹" visible=true]
 「――くそ、なんて奴だ！[l]　見たかおい！！？」[plc]
 
-[gaia_stand face="serious" size="l" pos="c"]
+[old_gaia_stand face="serious" size="l" pos="c"]
 [shownametag name="ガイア" visible=true]
 「すまんが」[plc]
 
-[mash_stand face="ikari" size="l" pos="l" layer="1"]
+[old_mash_stand face="ikari" size="l" pos="l" layer="1"]
 [shownametag name="マッシュ" visible=true]
 「拙者たちの場所からでは」[plc]
 
-[orutega_stand face="kanasii" size="l" pos="r" layer="2"]
+[old_orutega_stand face="kanasii" size="l" pos="r" layer="2"]
 [shownametag name="オルテガ" visible=true]
 「見えなかったニャリ☆」[plc]
 
@@ -650,11 +650,11 @@
 [shownametag name="小デブ" visible=true bust="false"]
 「愚かな」[plc]
 
-[takahashi_face face="futsu"]
+[old_takahashi_face face="futsu"]
 [shownametag name="ロン毛" visible=true bust="false"]
 「べいべー」[plc]
 
-[haruka_stand face="do" tere="true"]
+[old_haruka_stand face="do" tere="true"]
 [shownametag name="遥香" visible=true]
 「……」[plc]
 
@@ -663,10 +663,10 @@
 先輩はもう一度拳を構えたが、[plc]
 
 
-[haruka_stand face="ai"]
+[old_haruka_stand face="ai"]
 [shownametag name="遥香" visible=true]
 「……それで、[l]
-[haruka_stand face="kuno"]
+[old_haruka_stand face="kuno"]
 さっき追いかけた女の子は？」[plc]
 
 
@@ -677,7 +677,7 @@
 [shownametag name="小デブ" visible=true bust="false"]
 「――思ったとおりだ！　下着どおりの聡明な……」[plc]
 
-[haruka_stand face="do" tere="true" size="l" time="200"]
+[old_haruka_stand face="do" tere="true" size="l" time="200"]
 [shownametag name="遥香" visible=true]
 「――はよ、答えろや！」[plc]
 
@@ -716,7 +716,7 @@
 ダメだこりゃ。[plc]
 
 
-[haruka_stand face="keibetsu"]
+[old_haruka_stand face="keibetsu"]
 [shownametag name="遥香" visible=true]
 「……で、コイツらがその『文化部』なの？」[plc]
 
@@ -724,7 +724,7 @@
 
 スカートを直しながら、先輩はガイアに尋ねる。[plc]
 
-[gaia_stand face="normal"]
+[old_gaia_stand face="normal"]
 [shownametag name="ガイア" visible=true]
 「いや、違うな。こいつらはここの中心メンバーだが、[lr]
 　俺の友人ではない」[plc]
@@ -733,11 +733,11 @@
 [shownametag name="小デブ" visible=true bust="false"]
 「Exactly」[plc]
 
-[takahashi_stand face="futsu"]
+[old_takahashi_stand face="futsu"]
 [shownametag name="ロン毛" visible=true bust="false"]
 「確かに、ボクと君は面識がある程度さ」[plc]
 
-[haruka_stand face="do" size="l" tere="true" time="200"]
+[old_haruka_stand face="do" size="l" tere="true" time="200"]
 [shownametag name="遥香" visible=true]
 「じゃぁ、さっさと行きましょう」[plc]
 
@@ -751,7 +751,7 @@
 [shownametag name="小デブ" visible=true bust="false"]
 「――待った！」[plc]
 
-[haruka_stand face="odoroki" tere="true" size="l" time="200"]
+[old_haruka_stand face="odoroki" tere="true" size="l" time="200"]
 [shownametag name="遥香" visible=true]
 「ッ！？」[plc]
 
@@ -780,7 +780,7 @@
 
 即座に殴った縁に殴り飛ばされた。[plc]
 
-[takahashi_stand face="futsu"]
+[old_takahashi_stand face="futsu"]
 [shownametag name="ロン毛" visible=true bust="false"]
 「べいべぇ……この『北』は、深く、果てしない。[lr]
 　お嬢さんがたを連れて歩くには……きっと案内役が必要だ」[plc]
@@ -792,11 +792,11 @@
 
 そう言って、ロン毛は『ジャジャーン』と口ずさむ。[plc]
 
-[haruka_face face="ai"]
+[old_haruka_face face="ai"]
 [shownametag name="遥香" visible=true]
 「……もう好きにして」[plc]
 
-[gaia_stand face="serious"]
+[old_gaia_stand face="serious"]
 [shownametag name="ガイア" visible=true]
 「『釣り部』を探してるんだが」[plc]
 
@@ -809,7 +809,7 @@
 『釣り部』……か。[lr]
 結構、レアな部活だが、[l]こいつらに比べたらマシな気がする。[plc]
 
-[takahashi_stand face="futsu"]
+[old_takahashi_stand face="futsu"]
 [shownametag name="ロン毛" visible=true bust="false"]
 「あぁ、『釣り部』か……。[lr]
 　だが、彼は毎日ポイントを変えるからね」[plc]
@@ -821,7 +821,7 @@
 
 え……なんで？　つか、ポイントって？　は？？[plc]
 
-[takahashi_stand face="futsu" size="l"]
+[old_takahashi_stand face="futsu" size="l"]
 [shownametag name="ロン毛" visible=true bust="false"]
 「ベイベー！[l]　いいよ、ボクに付いて来て」[plc]
 

@@ -15,7 +15,7 @@
 
 
 
-[gaia_stand face="komari" size="l"]
+[old_gaia_stand face="komari" size="l"]
 [shownametag name="ガイア" visible=true]
 「……なぁ、兄弟。俺は謝られてない気がするんだが」[plc]
 
@@ -27,12 +27,12 @@
 [shownametag name="大樹" visible=true]
 「うるせぇな。今大事な話をしてんだろうが、黙ってろよ」[plc]
 
-[gaia_stand face="komari" size="m"]
+[old_gaia_stand face="komari" size="m"]
 [shownametag name="ガイア" visible=true]
 「いや、これも相当に結構大事な話だと思うんだが」[plc]
 
 
-[gaia_stand face="serious" size="m" time="200"]
+[old_gaia_stand face="serious" size="m" time="200"]
 [shownametag name="ガイア" visible=true]
 「かなり本気めに殴られたしな、今回は」[plc]
 
@@ -43,7 +43,7 @@
 [shownametag name="大樹" visible=true]
 「……」[plc]
 
-[gaia_stand face="serious" size="m" time="200"]
+[old_gaia_stand face="serious" size="m" time="200"]
 [shownametag name="ガイア" visible=true]
 「……」[plc]
 [dis_all_chara]
@@ -63,7 +63,7 @@
 
 顎をしゃくってやると、尚も不満そうだった。[plc]
 
-[gaia_stand face="komari" size="m" time="200"]
+[old_gaia_stand face="komari" size="m" time="200"]
 [shownametag name="ガイア" visible=true]
 「………………ま、兄弟にしては譲歩したほうか」[plc]
 
@@ -73,7 +73,7 @@
 [dis_all_chara]
 
 
-[haruka_face face="do"]
+[old_haruka_face face="do"]
 [shownametag name="遥香" visible=true]
 「はいはい、ちゃんと集中して！」[plc]
 
@@ -85,15 +85,15 @@
 [shownametag name="大樹" visible=true]
 「ほーら、お前のせいで怒られたじゃねーか」[plc]
 
-[gaia_stand face="serious" time="200"]
+[old_gaia_stand face="serious" time="200"]
 [shownametag name="ガイア" visible=true]
 「……世知辛い」[plc]
 
-[mash_stand face="doya" layer="1" pos="l" time="200"]
+[old_mash_stand face="doya" layer="1" pos="l" time="200"]
 [shownametag name="マッシュ" visible=true]
 「佐様」[plc]
 
-[orutega_stand face="normal2" layer="2" pos="r" time="200"]
+[old_orutega_stand face="normal2" layer="2" pos="r" time="200"]
 [shownametag name="オルテガ" visible=true]
 「ニャリ☆」[plc]
 
@@ -133,13 +133,13 @@
 
 
 
-[haruka_stand face="kuno"]
+[old_haruka_stand face="kuno"]
 [shownametag name="遥香" visible=true]
 「ま、私らがうまくいかないのも[l]
-[haruka_stand face="keibetsu" time="200"]
+[old_haruka_stand face="keibetsu" time="200"]
 ……谷口君が逃げちゃったのも」[plc]
 
-[haruka_stand face="ai"]
+[old_haruka_stand face="ai"]
 [shownametag name="遥香" visible=true time="200"]
 「結局、見通しが甘かったってことだよね」[plc]
 
@@ -147,7 +147,7 @@
 [shownametag name="遥香" visible=true time="200"]
 「時間が立てば、説得できるんじゃと思ってたけど」[plc]
 
-[haruka_stand face="kuno"]
+[old_haruka_stand face="kuno"]
 [shownametag name="遥香" visible=true time="200"]
 「谷口君の話じゃ、無理そうだしねぇ」[plc]
 
@@ -170,7 +170,7 @@
 [shownametag name="縁" visible=true]
 「……となると、こっちもメリットを出さないといけませんね」[plc]
 
-[haruka_stand face="kuno"]
+[old_haruka_stand face="kuno"]
 [shownametag name="遥香" visible=true]
 「だけどねぇ……メリットってねぇ。[lr]
 　実弾バラ撒くわけにもいかないしねぇ」[plc]
@@ -178,7 +178,7 @@
 [shownametag name="大樹" visible=true]
 「実弾？」[plc]
 
-[haruka_stand face="raku" time="200"]
+[old_haruka_stand face="raku" time="200"]
 [shownametag name="遥香" visible=true]
 「現金の事だよ」[plc]
 
@@ -205,7 +205,7 @@
 
 
 
-[orutega_stand face="normal2" size="l"]
+[old_orutega_stand face="normal2" size="l"]
 [shownametag name="オルテガ" visible=true]
 「ニャリ☆」[plc]
 
@@ -213,7 +213,7 @@
 
 珍しく、オルテガ（白シャツデブ）が手を上げた。[plc]
 
-[haruka_face face="raku"]
+[old_haruka_face face="raku"]
 [shownametag name="遥香" visible=true]
 「はい、えーと……鈴木君」[plc]
 
@@ -225,25 +225,25 @@
 
 コイツ！　鈴木って名前だったのか！！[plc]
 
-[orutega_stand face="normal" size="l"]
+[old_orutega_stand face="normal" size="l"]
 [shownametag name="オルテガ（鈴木）" visible=true bust="false"]
 「オルテガでいいニャリ☆」[plc]
 
-[haruka_face face="keibetsu"]
+[old_haruka_face face="keibetsu"]
 [shownametag name="遥香" visible=true]
 「うん、分かったから。言って鈴木くん」[plc]
 
-[orutega_stand face="odoroki" size="l"]
+[old_orutega_stand face="odoroki" size="l"]
 [shownametag name="オルテガ（鈴木）" visible=true bust="false"]
 「――遥香先輩がおっぱいを見せれば」[plc]
 
 [dis_all_chara]
 
-[haruka_face face="ki"]
+[old_haruka_face face="ki"]
 [shownametag name="遥香" visible=true]
 「黙ろうか、鈴木くん」[plc]
 
-[orutega_stand face="normal" size="l"]
+[old_orutega_stand face="normal" size="l"]
 [shownametag name="オルテガ" visible=true]
 「♪」[plc]
 
@@ -251,7 +251,7 @@
 
 やっぱこんなもんか。[plc]
 
-[mash_stand face="doya" size="l"]
+[old_mash_stand face="doya" size="l"]
 [shownametag name="マッシュ" visible=true]
 「……」[plc]
 
@@ -259,7 +259,7 @@
 
 うぉ！　今度はマッシュが手を上げたぞ。[plc]
 
-[haruka_face face="keibetsu"]
+[old_haruka_face face="keibetsu"]
 [shownametag name="遥香" visible=true]
 「はい、登別君」[plc]
 
@@ -267,7 +267,7 @@
 
 登別か……へぇ。[plc]
 
-[mash_stand face="ikari" size="l"]
+[old_mash_stand face="ikari" size="l"]
 [shownametag name="マッシュ（登別）" visible=true bust="false"]
 「――縁殿も乳を見せれば」[plc]
 
@@ -275,7 +275,7 @@
 [shownametag name="縁" visible=true]
 「殺すわよ」[plc]
 
-[mash_stand face="odoroki" size=l]
+[old_mash_stand face="odoroki" size=l]
 [shownametag name="マッシュ（登別）" visible=true bust="false"]
 「無念」[plc]
 
@@ -287,7 +287,7 @@
 
 ん……この流れ。[plc]
 
-[gaia_stand face="serious" time="800"]
+[old_gaia_stand face="serious" time="800"]
 
 
 
@@ -301,7 +301,7 @@
 
 当然のように、スッとガイアが手を上げた。[plc]
 
-[haruka_face face="keibetsu"]
+[old_haruka_face face="keibetsu"]
 [shownametag name="遥香" visible=true]
 「……」[plc]
 
@@ -309,7 +309,7 @@
 
 勿論、先輩はもう当てない。[plc]
 
-[gaia_stand face="normal"]
+[old_gaia_stand face="normal"]
 [shownametag name="ガイア" visible=true]
 「では、言わせてもらうと」[plc]
 
@@ -317,7 +317,7 @@
 [shownametag name="大樹" visible=true]
 「……言わんでいい」[plc]
 
-[gaia_stand face="normal2" time="200"]
+[old_gaia_stand face="normal2" time="200"]
 [shownametag name="ガイア" visible=true]
 「いいのか？　俺は兄弟が望む情報を持っているぞ」[plc]
 
@@ -325,12 +325,12 @@
 [shownametag name="大樹" visible=true]
 「絶対持ってね―だろ！　黙ってろ！！」[plc]
 
-[gaia_stand face="serious" time="200"]
+[old_gaia_stand face="serious" time="200"]
 [shownametag name="ガイア" visible=true]
 「そんなことはない。いいか？[lr]
 　世の中には、嗜好というものがあるんだ」[plc]
 
-[gaia_stand face="normal" time="200"]
+[old_gaia_stand face="normal" time="200"]
 [shownametag name="ガイア" visible=true]
 「……つまりだな、悟嬢も――」[plc]
 
@@ -338,7 +338,7 @@
 [shownametag name="大樹" visible=true]
 「――黙れっつてんだろ！！」[plc]
 
-[gaia_stand face="kangaeru" time="200"]
+[old_gaia_stand face="kangaeru" time="200"]
 [shownametag name="ガイア" visible=true]
 「いいや、黙らんね！
 　世の中の真理というものはいつだって――」[plc]
@@ -358,7 +358,7 @@
 [shownametag name="大樹" visible=true]
 「……」[plc]
 
-[gaia_face face="normal"]
+[old_gaia_face face="normal"]
 [shownametag name="ガイア" visible=true]
 「……」[plc]
 
@@ -404,7 +404,7 @@
 [dis_all_chara]
 
 
-[haruka_stand face="do" size="l"]
+[old_haruka_stand face="do" size="l"]
 [shownametag name="遥香" visible=true]
 「――はいそこまで！」[plc]
 
@@ -412,7 +412,7 @@
 
 パンパンと、先輩はもう一度手を叩いた。[plc]
 
-[haruka_stand face="keibetsu"]
+[old_haruka_stand face="keibetsu"]
 [shownametag name="遥香" visible=true]
 「……何回やらすのよ君たちは」[plc]
 
@@ -494,7 +494,7 @@
 
 
 
-[haruka_stand face="magao"]
+[old_haruka_stand face="magao"]
 [shownametag name="遥香" visible=true]
 「……」[plc]
 
@@ -507,7 +507,7 @@
 
 唇に指を当て、離して、今度は中指を額へ。[plc]
 
-[haruka_stand face="magao"]
+[old_haruka_stand face="magao"]
 [shownametag name="遥香" visible=true]
 「……ねぇ、十二単さん。[l]なんか言ってなかった？」[plc]
 
@@ -519,16 +519,16 @@
 [shownametag name="大樹" visible=true]
 「え？　あの、『オモロー』ですか？」[plc]
 
-[haruka_stand face="raku"]
+[old_haruka_stand face="raku"]
 [shownametag name="遥香" visible=true]
 「そう、あのオモロー……」[plc]
 
-[haruka_stand face="magao" time="200"]
+[old_haruka_stand face="magao" time="200"]
 [shownametag name="遥香" visible=true]
 「メリットを出してまとまってるってことは、[lr]
 　成瀬んとこ文化部に対して何かしてるわけじゃない？」[plc]
 
-[haruka_stand face="keibetsu" time="200"]
+[old_haruka_stand face="keibetsu" time="200"]
 [shownametag name="遥香" visible=true]
 「でも、成瀬のとこだって学校の選挙なわけだし、[lr]
 　そんな妨害に関わるようなメリットを出せるわけがないのよね」[plc]
@@ -554,7 +554,7 @@
 文化部全体が……一部には居るかもしれないが。[lr]
 そんなもんでまとまるとは思えない。[plc]
 
-[haruka_stand face="magao"]
+[old_haruka_stand face="magao"]
 [shownametag name="遥香" visible=true]
 「目的は別だけど……手段は一緒だからやってるだけ。[lr]
 　……ってことでしょう多分？」[plc]
@@ -562,7 +562,7 @@
 [shownametag name="大樹" visible=true]
 「そうですねぇ……」[plc]
 
-[haruka_stand face="raku"]
+[old_haruka_stand face="raku"]
 [shownametag name="遥香" visible=true]
 「それなら、その目的……メリットが分かれば、[lr]
 　何か突破口が見つかるかもしれないかもと思って」[plc]
@@ -573,7 +573,6 @@
 [dis_all_chara]
 
 [najimi_face face="do" size="l" time="200"]
-
 [shownametag name="縁" visible=true]
 「馬鹿なの？　成瀬が提供出来てるメリットなんだから、[lr]
 　私達にも提供できるかもしれないでしょ」[plc]
@@ -585,7 +584,7 @@
 
 うっせーな、いま気付くとこだったんだよ！[plc]
 
-[haruka_stand face="ki" time="200"]
+[old_haruka_stand face="ki" time="200"]
 [shownametag name="遥香" visible=true]
 「で、何か言ってなかった？」[plc]
 
@@ -657,7 +656,7 @@
 [shownametag name="大樹" visible=true]
 「……」[plc]
 
-[haruka_stand face="magao"]
+[old_haruka_stand face="magao"]
 [shownametag name="遥香" visible=true]
 「何？」[plc]
 
@@ -665,7 +664,7 @@
 [shownametag name="大樹" visible=true]
 「……いや、こっちは多分関係ないと思います」[plc]
 
-[haruka_stand face="keibetsu"]
+[old_haruka_stand face="keibetsu"]
 [shownametag name="遥香" visible=true]
 「……そう」[plc]
 
@@ -684,7 +683,7 @@
 [shownametag name="縁" visible=true]
 「いつも自分たちでやっているようなものなのに」[plc]
 
-[haruka_stand face="ai"]
+[old_haruka_stand face="ai"]
 [shownametag name="遥香" visible=true]
 「そうねぇ……去年、何かあったのかしら？」[plc]
 
@@ -706,7 +705,7 @@
 二人は運営側に居たわけだし、知っててもいいと思うが。[plc]
 
 
-[haruka_stand face="odoroki"]
+[old_haruka_stand face="odoroki"]
 [shownametag name="遥香" visible=true]
 「それがねぇ、普通だったのよ」[plc]
 
@@ -714,12 +713,12 @@
 [shownametag name="大樹" visible=true]
 「普通？」[plc]
 
-[haruka_stand face="magao"]
+[old_haruka_stand face="magao"]
 [shownametag name="遥香" visible=true]
 「そう、ごくフツーの文化祭……[l]なんの変哲もない。[lr]
 　なんの面白みもない」[plc]
 
-[haruka_stand face="kuno"]
+[old_haruka_stand face="kuno"]
 [shownametag name="遥香" visible=true]
 「ま、私達が押してた先輩はそれに負けちゃったんだけど……」[plc]
 
@@ -738,12 +737,12 @@
 眉間にしわを寄せて、先輩と縁は唸る。[lr]
 どうやらあんまりいい思い出じゃないらしい。[plc]
 
-[haruka_stand face="magao"]
+[old_haruka_stand face="magao"]
 [shownametag name="遥香" visible=true]
 「実際の運営がどうだったかは……。[lr]
 　ちょっと私達じゃ分からないわね」[plc]
 
-[haruka_stand face="keibetsu"]
+[old_haruka_stand face="keibetsu"]
 [shownametag name="遥香" visible=true]
 「担いでる方がスポーツ担当になっちゃったし」[plc]
 
@@ -754,7 +753,7 @@
 「ただ、最初は凄い盛り上がってたのに。[lr]
 　フタを開けたら普通だった。という印象よ」[plc]
 
-[haruka_stand face="ai"]
+[old_haruka_stand face="ai"]
 [shownametag name="遥香" visible=true]
 「……前評判に、こっちは力みすぎちゃってねぇ」[plc]
 
@@ -771,7 +770,7 @@
 [shownametag name="縁" visible=true]
 「そのときに、向こうの運営と一悶着あったのかもしれないわ」[plc]
 
-[haruka_stand face="magao"]
+[old_haruka_stand face="magao"]
 [shownametag name="遥香" visible=true]
 「でも、向こうの中心メンバーって、[lr]
 　いまの成瀬のとこじゃなかったっけ？」[plc]
@@ -792,7 +791,7 @@
 [shownametag name="大樹" visible=true]
 「……本当に、普通そのものの文化祭だったんですか？」[plc]
 
-[gaia_stand face="serious" size="l" time="200"]
+[old_gaia_stand face="serious" size="l" time="200"]
 [shownametag name="ガイア" visible=true]
 「いや違う」[plc]
 [dis_all_chara]
@@ -806,7 +805,7 @@
 
 急に参加してきたガイアに、俺も先輩も縁もビビってしまう。[plc]
 
-[gaia_stand face="serious" size="l" time="200"]
+[old_gaia_stand face="serious" size="l" time="200"]
 [shownametag name="ガイア" visible=true]
 「去年の文化祭は、例年にないほど多くの文化部が参加した」[plc]
 
@@ -823,12 +822,12 @@
 [shownametag name="縁" visible=true]
 「そんな馬鹿な」[plc]
 
-[haruka_stand face="odoroki"]
+[old_haruka_stand face="odoroki"]
 [shownametag name="遥香" visible=true]
 「そうよ、忙しくてチラっと見に行っただけだったけど。[lr]
 　……そんな大規模イベントになんてなってはなかったはずよ」[plc]
 
-[gaia_stand face="normal" size="l" time="200"]
+[old_gaia_stand face="normal" size="l" time="200"]
 [shownametag name="ガイア" visible=true]
 「……と、これには書いてある」[plc]
 
@@ -836,7 +835,7 @@
 [dis_all_chara]
 そう言って、ガイアは一枚の紙切れをとりだす。[plc]
 
-[haruka_stand face="odoroki"]
+[old_haruka_stand face="odoroki"]
 [shownametag name="遥香" visible=true]
 「……これ」[plc]
 
@@ -852,12 +851,12 @@
 [shownametag name="縁" visible=true]
 「これは去年の」[plc]
 
-[gaia_stand face="serious"]
+[old_gaia_stand face="serious"]
 [shownametag name="ガイア" visible=true]
 「文化部にちょっと知り合いがいてな。[lr]
 　去年渡されてたのを思い出して持ってきた」[plc]
 
-[gaia_stand face="normal2"]
+[old_gaia_stand face="normal2"]
 [shownametag name="ガイア" visible=true]
 「……もっとも、そいつは『夢見がちの馬鹿がいる』[lr]
 　と笑っていたんだが」[plc]
@@ -866,7 +865,7 @@
 [shownametag name="縁" visible=true]
 「……」[plc]
 
-[haruka_face face="magao"]
+[old_haruka_face face="magao"]
 [shownametag name="遥香" visible=true]
 「……そうね」[plc]
 
@@ -889,20 +888,20 @@
 
 
 
-[gaia_stand face="normal"]
+[old_gaia_stand face="normal"]
 [shownametag name="ガイア" visible=true]
 「その影響も多少はあったのだろう」[plc]
 
-[gaia_stand face="normal2"]
+[old_gaia_stand face="normal2"]
 [shownametag name="ガイア" visible=true]
 「確かに、当日に配られたしおりには、[lr]
 　例年よりも多くの文化部の名前が連なっていたよ」[plc]
 
-[gaia_stand face="normal"]
+[old_gaia_stand face="normal"]
 [shownametag name="ガイア" visible=true]
 「実際にブースにいたのは、いつもの連中だけだったが」[plc]
 
-[haruka_face face="ai"]
+[old_haruka_face face="ai"]
 [shownametag name="遥香" visible=true]
 「……」[plc]
 
@@ -919,26 +918,26 @@
 世知辛いもんだな、世の中は。[plc]
 
 
-[haruka_stand face="raku"]
+[old_haruka_stand face="raku"]
 [shownametag name="遥香" visible=true]
 「でも、ハッキリしたわね……去年、何かあったんだわ」[plc]
 
 
 パンと柏手を打って、先輩は続ける。[plc]
 
-[haruka_stand face="ki"]
+[old_haruka_stand face="ki"]
 [shownametag name="遥香" visible=true]
 「えー、黒井……」[plc]
 
-[gaia_stand face="normal"]
+[old_gaia_stand face="normal"]
 [shownametag name="ガイア" visible=true]
 「ガイアでいい」[plc]
 
-[haruka_stand face="ai"]
+[old_haruka_stand face="ai"]
 [shownametag name="遥香" visible=true]
 「いや、あの」[plc]
 
-[gaia_stand face="normal2" size="m"]
+[old_gaia_stand face="normal2" size="m"]
 [shownametag name="ガイア" visible=true]
 「ガイアでいい」[plc]
 
@@ -948,12 +947,12 @@
 
 [dis_all_chara]
 
-[haruka_face face="kuno"]
+[old_haruka_face face="kuno"]
 [shownametag name="遥香" visible=true]
 「ぁー」[plc]
 
 
-[gaia_stand face="egao" size="l"]
+[old_gaia_stand face="egao" size="l"]
 [shownametag name="ガイア" visible=true]
 「ガイアでいい」[plc]
 
@@ -968,29 +967,29 @@
 
 
 
-[haruka_stand face="ai"]
+[old_haruka_stand face="ai"]
 [shownametag name="遥香" visible=true]
 「じゃ、が[l]
-[haruka_stand face="ki"]
+[old_haruka_stand face="ki"]
 ……ガイアくん！」[plc]
 
 先輩は根負けしたようだった。[plc]
 
-[haruka_stand face="raku"]
+[old_haruka_stand face="raku"]
 [shownametag name="遥香" visible=true]
 「その文化部のお友達のとこに連れていってくれない？[lr]
 　いろいろ話を聞きたいから」[plc]
 
-[gaia_face face="serious"]
+[old_gaia_face face="serious"]
 [shownametag name="ガイア" visible=true]
 「かまわんが……」[plc]
 
 
-[mash_face face="ikari"]
+[old_mash_face face="ikari"]
 [shownametag name="マッシュ" visible=true]
 「……」[plc]
 
-[orutega_face face="normal2"]
+[old_orutega_face face="normal2"]
 [shownametag name="オルテガ" visible=true]
 「……」[plc]
 
@@ -1006,14 +1005,14 @@
 
 豚のくせによ。[plc]
 
-[gaia_stand face="normal2"]
+[old_gaia_stand face="normal2"]
 [shownametag name="ガイア" visible=true]
 「いや、兄弟だけなら問題無いのだがな」[plc]
 
-[gaia_stand face="kangaeru"]
+[old_gaia_stand face="kangaeru"]
 [shownametag name="ガイア" visible=true]
 「いま、放課後だろう？[lr]
-[gaia_stand face="komari"]
+[old_gaia_stand face="komari"]
  　……女性を連れて行くのはどうかと思ってな」[plc]
 
 [dis_all_chara]
@@ -1021,7 +1020,7 @@
 ……は？？[plc]
 
 
-[gaia_stand face="kangaeru"]
+[old_gaia_stand face="kangaeru"]
 [shownametag name="ガイア" visible=true]
 「この時間だったらアイツは部活だ……」[plc]
 
@@ -1029,7 +1028,7 @@
 [shownametag name="大樹" visible=true]
 「なら、部活塔に行けば？」[plc]
 
-[gaia_stand face="komari"]
+[old_gaia_stand face="komari"]
 [shownametag name="ガイア" visible=true]
 「……部活塔は部活塔だが、[l]部活『北』塔だぞ？」[plc]
 
@@ -1045,7 +1044,7 @@
 
 
 
-[haruka_stand face="jitome"]
+[old_haruka_stand face="jitome"]
 [shownametag name="遥香" visible=true]
 「……なるほど、そっちの『文化部』なのね」[plc]
 
@@ -1069,7 +1068,7 @@
 俺以外では唯一、悟もよく分かっていないようだった。[plc]
 
 
-[haruka_stand face="do" size="l"]
+[old_haruka_stand face="do" size="l"]
 [shownametag name="遥香" visible=true]
 「しょーがないわよ、行きましょう」[plc]
 
@@ -1093,19 +1092,19 @@
 なに？　なんなの？[lr]
 この学校、禁断の地でもあったの？？[plc]
 
-[haruka_face face="keibetsu"]
+[old_haruka_face face="keibetsu"]
 [shownametag name="遥香" visible=true]
 「行けば分かるわよ、谷口君」[plc]
 
-[gaia_face face="serious"]
+[old_gaia_face face="serious"]
 [shownametag name="ガイア" visible=true]
 「行くぞ、兄弟」[plc]
 
-[mash_face face="normal"]
+[old_mash_face face="normal"]
 [shownametag name="マッシュ" visible=true]
 「然り」[plc]
 
-[orutega_face face="normal2"]
+[old_orutega_face face="normal2"]
 [shownametag name="オルテガ" visible=true]
 「ニャーン♪」[plc]
 
