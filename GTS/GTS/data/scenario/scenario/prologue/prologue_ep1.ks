@@ -159,7 +159,7 @@
 @fadebgm time="500" volume="50"
 @strans storage="black" time="1000"
 
-
+[dis_all_chara]
 
 ――入学早々、学園一のキモオタ軍団に入れられ――[plc]
 
@@ -425,7 +425,7 @@
 「……っ！？」[plc]
 ;[先輩]
 
-@showstandimage who=haruka_old pose=1 face=odoroki visible="true" size=l
+@showstandimage who=haruka_old pose=1 face=odoroki visible="true" size=l nobust="true"
 ――って、誰か居るじゃんっ！？[plc]
 
 @playse storage="car_crash"

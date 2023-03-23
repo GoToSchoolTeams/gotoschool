@@ -143,7 +143,7 @@
 舌打ちしながら振り返ると、[plc]
 
 @fadebgm volume="50" time="300"
-[showstandimage who="haruka" pose=1 face=ki size=l]
+[showstandimage who="haruka_old" pose=1 face=ki size=l]
 [shownametag name="女子高生" visible=true bust="senpai"]
 「……どーも♪」[plc]
 

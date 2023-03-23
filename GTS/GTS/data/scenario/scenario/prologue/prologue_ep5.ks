@@ -2,7 +2,7 @@
 
 @fadeinbgm storage="daily1 bgm"
 @strans storage="roji_dt"
-[showstandimage who="haruka" pose=1 face=do]
+[showstandimage who="haruka_old" pose=1 face=do]
 [shownametag name="女子高生" visible=true bust="senpai"]
 「あのさ、本当にどういうワケなの？」[plc]
 
@@ -20,13 +20,13 @@
 かく言う俺は、平身低頭と言わんばかりだが。[lr]
 もちろん、そんなもの何の効果もあろう筈はない。[plc]
 
-[showstandimage who="haruka" pose=1 face=do notrans=true page=back]
+[showstandimage who="haruka_old" pose=1 face=do notrans=true page=back]
 [strans storage="roji_dt" rule="look_down" method="universal" time="100" noclear=true]
 [shownametag name="女子高生" visible=true bust="senpai"]
 「いやいや、すみませんじゃなくてさ。[lr]
 全力疾走の自転車で女の子吹き飛ばしといて『大丈夫』って」[plc]
 
-[showstandimage who="haruka" pose=1 face=keibetsu]
+[showstandimage who="haruka_old" pose=1 face=keibetsu]
 [shownametag name="女子高生" visible=true bust="senpai"]
 「『気のせいだよな』ってどういう了見なのマジで？」[plc]
 
@@ -34,7 +34,7 @@
 [shownametag name="大樹" visible=true]
 「はい、おっしゃる通りです」[plc]
 
-[showstandimage who="haruka" pose=1 face=do]
+[showstandimage who="haruka_old" pose=1 face=do]
 [shownametag name="女子高生" visible=true bust="senpai"]
 「『逃げるが勝ちだな』って言ったよね？[lr]
 『逃げるが勝ちだな』って言ったよね？」[plc]
@@ -56,16 +56,16 @@
 
 今でも立派な恥ずかしさだが、恥ずかし過ぎて死んでしまう。[plc]
 
-[showstandimage who="haruka" pose=1 face=do page=back notrans=true]
+[showstandimage who="haruka_old" pose=1 face=do page=back notrans=true]
 @strans rule="look_down" storage="roji_dt" method="universal" time="400" noclear=true
 
 それに……。[plc]
 
-[showstandimage who="haruka" pose=1 face=do size=l]
+[showstandimage who="haruka_old" pose=1 face=do size=l]
 [shownametag name="大樹" visible=true]
 「……」[plc]
 
-[showstandimage who="haruka" pose=1 face=keibetsu size=l]
+[showstandimage who="haruka_old" pose=1 face=keibetsu size=l]
 「何？」[plc]
 
 @strans rule="look_up" time="100" method="universal"
@@ -120,7 +120,7 @@
 [shownametag name="女子高生" visible=true bust="senpai"]
 「……清々しいまでにクズの思考ね」[plc]
 
-[showstandimage who="haruka" pose=1 face=jitome page=back notrans=true]
+[showstandimage who="haruka_old" pose=1 face=jitome page=back notrans=true]
 @strans rule="look_down" storage="roji_dt" method="universal" time="100" noclear=true
 [shownametag name="大樹" visible=true]
 「ハッ！？」[plc]
@@ -160,7 +160,7 @@
 [shownametag name="女子高生" visible=true bust="senpai"]
 「『あははは』じゃないよ」[plc]
 
-@showstandimage who=haruka face=keibetsu pose=1 size=l
+@showstandimage who=haruka_old face=keibetsu pose=1 size=l
 [shownametag name="女子高生" visible=true bust="senpai"]
 @playse storage="oppai"
 @quake time="100" hmax="5" vmax="5"
@@ -183,7 +183,7 @@
 [shownametag name="大樹" visible=true]
 「あの……」[plc]
 
-[showstandimage who="haruka" pose=1 face=magao size=l]
+[showstandimage who="haruka_old" pose=1 face=magao size=l]
 [shownametag name="女子高生" visible=true bust="senpai"]
 「ん？」[plc]
 
@@ -193,14 +193,14 @@
 [shownametag name="大樹" visible=true]
 「あのぉ、お怪我……とかは？」[plc]
 
-[showstandimage who="haruka" pose=1 face=odoroki size=l]
+[showstandimage who="haruka_old" pose=1 face=odoroki size=l]
 [shownametag name="女子高生" visible=true bust="senpai"]
 「……」[plc]
 
 
 女子高生はしばらく、呆気に取られた様な顔をしていたが。[plc]
 
-[showstandimage who="haruka" pose=2 face=keibetsu]
+[showstandimage who="haruka_old" pose=1 face=magao]
 [shownametag name="女子高生" visible=true bust="senpai"]
 「……そうね」[plc]
 
@@ -229,11 +229,11 @@
 
 顔を上げる。[plc]
 
-[showstandimage who="haruka" pose=2 face=keibetsu]
+[showstandimage who="haruka_old" pose=1 face=keibetsu]
 [shownametag name="大樹" visible=true]
 「では、ケガは無いんですね？」[plc]
 
-[showstandimage who="haruka" pose=1 face=magao]
+[showstandimage who="haruka_old" pose=1 face=magao]
 [shownametag name="女子高生" visible=true bust="senpai"]
 「うん、多分」[plc]
 
@@ -254,7 +254,7 @@
 
 舌打ちする。[plc]
 
-[showstandimage who="haruka" pose=1 face=odoroki]
+[showstandimage who="haruka_old" pose=1 face=odoroki]
 なんだよ焦らせやがって。[l][r]
 怪我させちまったのかと思ったじゃねーか。[plc]
 
@@ -270,7 +270,7 @@
 おーおー、車輪がガタガタじゃねーか。[l][r]
 ま、走れねー事はねーか。[plc]
 
-[showstandimage who="haruka" pose=1 face=odoroki size=l]
+[showstandimage who="haruka_old" pose=1 face=odoroki size=l]
 [shownametag name="女子高生" visible=true bust="senpai"]
 「ちょ、ちょ、ちょちょちょ。何処いくのよ？」[plc]
 
@@ -287,7 +287,7 @@
 「僕の自転車もそれなりにダメージを受けた様なので、[lr]
 痛み分けという事で」[plc]
 
-[showstandimage who="haruka" pose=1 face=jitome]
+[showstandimage who="haruka_old" pose=1 face=jitome]
 『自転車の修理代を請求したりしませんから』と付け加えると、[lr]
 女子高生は『本当に呆れた』という表情をした。[plc]
 
@@ -298,14 +298,14 @@
 [shownametag name="大樹" visible=true]
 「はい？」[plc]
 
-[showstandimage who="haruka" pose=1 face=do]
+[showstandimage who="haruka_old" pose=1 face=do]
 [shownametag name="女子高生" visible=true bust="senpai"]
 「いやいや……被害者。しかも、先輩に対してその態度？」[plc]
 
 [shownametag name="大樹" visible=true]
 「……先輩？」[plc]
 
-[showstandimage who="haruka" pose=1 face=do size=l]
+[showstandimage who="haruka_old" pose=1 face=do size=l]
 言われて、胸元をよーっく見てみる。[lr]
 確かに、花弁が３つある。[plc]
 
@@ -313,7 +313,7 @@
 うちはバッジの花の数で学年分けするから、[lr]
 確かに先輩か。[plc]
 
-[showstandimage who="haruka" pose=1 face=do]
+[showstandimage who="haruka_old" pose=1 face=do]
 だからどうしたというんだ。[l][r]
 怪我をしてるか、してないか。[plc]
 
@@ -326,7 +326,7 @@
 一応、気を使ってそう言ってやると、[lr]
 先輩は見た目にも分かるほど眉間にシワを寄せた。[plc]
 
-[showstandimage who="haruka" pose=1 face=keibetsu]
+[showstandimage who="haruka_old" pose=1 face=keibetsu]
 [shownametag name="先輩" visible=true]
 「……君、『恥』って言葉知らないの？」[plc]
 
@@ -338,7 +338,7 @@
 嘘だが。[lr]
 この程度の事で『恥』など感じていて、不登校など出来るか。[plc]
 
-[showstandimage who="haruka" pose=1 face=kuno]
+[showstandimage who="haruka_old" pose=1 face=kuno]
 [shownametag name="先輩" visible=true]
 「はぁ～……」[plc]
 
@@ -354,7 +354,7 @@
 [shownametag name="大樹" visible=true]
 「それじゃ、お疲れっした」[plc]
 
-[showstandimage who="haruka" pose=1 face=do size=l]
+[showstandimage who="haruka_old" pose=1 face=do size=l]
 [shownametag name="先輩" visible=true]
 「待て、待ちなさい」[plc]
 ;[ｶﾞｯ]
@@ -363,7 +363,7 @@
 軽口を叩いてクールに去ろうとすると、襟首を掴まれた。[plc]
 
 
-[showstandimage who="haruka" pose=1 face=ai size=l]
+[showstandimage who="haruka_old" pose=1 face=ai size=l]
 [shownametag name="先輩" visible=true]
 「て」[plc]
 

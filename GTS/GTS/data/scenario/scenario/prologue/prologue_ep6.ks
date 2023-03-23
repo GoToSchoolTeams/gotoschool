@@ -197,9 +197,9 @@
 金色……の、リボン？[plc]
 
 @SetupBrunch name="prologue_ep_6_0"
-@AddBrunch text="１．引っこ抜く" storage="prologue_ep_6.ks" target="*all"
-@AddBrunch text="２．引っこ抜く" storage="prologue_ep_6.ks" target="*all"
-@AddBrunch text="３．引っこ抜く" storage="prologue_ep_6.ks" target="*all"
+@AddBrunch text="１．引っこ抜く" storage="prologue_ep6.ks" target="*all"
+@AddBrunch text="２．引っこ抜く" storage="prologue_ep6.ks" target="*all"
+@AddBrunch text="３．引っこ抜く" storage="prologue_ep6.ks" target="*all"
 @ShowBrunch
 @s
 
@@ -207,41 +207,41 @@
 @SetupMessageWindow
 ま、気になるよね。[plc]
 
-
 ――グイッ！[plc]
-
+[strans storage="bg_hoken_e"]
+[old_naruse_face pose=2 face=futsu]
 [shownametag name="？？？" visible=true]「きゃぁっ！？」[plc]
 
 
 [shownametag name="大樹" visible=true]「…ぇ」[plc]
 
-
+[old_naruse_stand pose=2 face=futsu]
 [shownametag name="？？？" visible=true]
 「違います。違いますババ先生！　サボリじゃないんですよ！！[lr]
-ほんと、今日は私――」[plc]
+　ほんと、今日は私――」[plc]
 
 [shownametag name="大樹" visible=true]「……」[plc]
 
-
+[old_naruse_stand pose=2 face=futsu]
 [shownametag name="？？？" visible=true]「――ちょっと重くて……」[plc]
 
 
 [shownametag name="大樹" visible=true]「……」[plc]
 
-
+[old_naruse_stand pose=1 face=futsu]
 [shownametag name="？？？" visible=true]「……あんた、誰？」[plc]
 
 
 そのときやっと、[lr]
 俺はベッドに俺以外の膨らみがあったことに気が付いたのだった。[plc]
 
-
+[dis_all_chara]
 ;[場面転換]
 @fadeinbgm storage="chill" time="1000"
 [strans storage="black" method="universal" rule="189" time="500"]
 [strans storage="hoken_e" method="universal" rule="189" time="500"]
 
-@showstandimage who=naruse pose=1 face=ki visible="true"
+@showstandimage who=naruse_old pose=1 face=futsu visible="true"
 [shownametag name="？？？" bust="naruse" visible=true]「で、あんた誰なのよ？」[plc]
 
 
@@ -254,18 +254,19 @@
 金髪に、巻き髪……ここ…公立、だよな？[lr]
 いや、私立でだって許されないと思うんだけど……。[plc]
 
+[old_naruse_stand pose=1 face=futsu]
 [shownametag name="巻き髪" bust="naruse" visible=true]「……」[plc]
 
 
 [shownametag name="大樹" visible=true]「……」[plc]
 
-
+[old_naruse_stand pose=1 face=futsu]
 [shownametag name="巻き髪" bust="naruse" visible=true]「……ねぇ」[plc]
 
 
 [shownametag name="大樹" visible=true]「……」[plc]
 
-
+[old_naruse_stand pose=2 face=futsu]
 [shownametag name="巻き髪" bust="naruse" visible=true]「ちょっと！」[plc]
 
 
@@ -282,6 +283,7 @@
 大人しく答える。[lr]
 状況的に確実に折れが絶対ヤバイしな。[plc]
 
+[old_naruse_stand pose=2 face=futsu]
 [shownametag name="巻き髪" bust="naruse" visible=true]「……谷口？」[plc]
 
 名乗ると、校則違反丸出しの巻き髪金髪女は訝しげな顔をした。[plc]
@@ -289,14 +291,14 @@
 
 [shownametag name="大樹" visible=true]「……？」[plc]
 
-
+[old_naruse_stand pose=2 face=futsu]
 [shownametag name="巻き髪" bust="naruse" visible=true]
 「んー…」[plc]
 
 
 なんだ？[plc]
 
-
+[old_naruse_stand pose=1 face=futsu]
 [shownametag name="巻き髪" bust="naruse" visible=true]「……ま、良いわ。バ…馬場先生は？」[plc]
 
 
@@ -305,13 +307,13 @@
 
 ……らしいです。[plc]
 
-
+[old_naruse_stand pose=2 face=futsu]
 [shownametag name="巻き髪" bust="naruse" visible=true]「…よね。そうよね。うん」[plc]
 
 
 巻き髪はホッとしたように安堵の表情を見せて。[plc]
 
-
+[old_naruse_stand pose=1 face=hohoho]
 [shownametag name="巻き髪" bust="naruse" visible=true]「まったく、驚かせないで欲しいわ」[plc]
 
 
@@ -323,7 +325,7 @@
 
 なんだ、コイツ？[plc]
 
-
+[old_naruse_stand pose=2 face=futsu]
 [shownametag name="巻き髪" bust="naruse" visible=true]
 「……で、どういう了見ですの？　私の御髪を引っ張ったりして」[plc]
 
@@ -332,13 +334,14 @@
 
 それは……本能と言いますか、なんと言いますか。[plc]
 
-
+[old_naruse_stand pose=2 face=futsu]
 [shownametag name="巻き髪" bust="naruse" visible=true]「……」[plc]
 
 
 答えあぐねていると、[lr]
 巻き髪はジッと値踏みするように俺を上下に眺めた。[plc]
 
+[old_naruse_stand pose=1 face=futsu]
 [shownametag name="巻き髪" bust="naruse" visible=true]「……あなた、谷口って。もしかして 谷口 大樹？」[plc]
 
 
@@ -353,6 +356,7 @@
 
 @fadebgm time="300" volume="0"
 @playse storage="sinzou1"
+[old_naruse_stand pose=1 face=futsu]
 [shownametag name="巻き髪" bust="naruse" visible=true]「……ってことは貴方、今日は来れたのね」[plc]
 
 
@@ -382,31 +386,32 @@
 [shownametag name="大樹" visible=true]「……」[plc]
 
 @fadebgm time="300" volume="100"
+[old_naruse_stand pose=1 face=futsu]
 [shownametag name="巻き髪" bust="naruse" visible=true]「ふふ」[plc]
 
 
 俺の顔に何を思ったのか、[lr]
 巻き髪は急に笑顔になった。[plc]
 
-
+[old_naruse_stand pose=1 face=hohoho]
 [shownametag name="巻き髪" bust="naruse" visible=true]「ほほほ、冗談冗談！」[plc]
 
 
 [shownametag name="大樹" visible=true]「ぇ？」[plc]
 
-
+[old_naruse_stand pose=1 face=futsu]
 [shownametag name="巻き髪" bust="naruse" visible=true]「普通の生徒はいちいちそんな事気にしてませんわ」[plc]
 
-
+[old_naruse_stand pose=1 face=hohoho]
 [shownametag name="巻き髪" bust="naruse" visible=true]「私が特別知ってるだけですわよ」[plc]
 
 
 そう言って、豪快に笑って。[plc]
 
-
+[old_naruse_stand pose=1 face=futsu]
 [shownametag name="巻き髪" bust="naruse" visible=true]
 「落ち込まない落ち込まない。[lr]
-せっかく来たんじゃありませんの！」[plc]
+　せっかく来たんじゃありませんの！」[plc]
 
 バシバシと、背中を叩いてくる。[plc]
 
@@ -419,13 +424,13 @@
 
 [shownametag name="大樹" visible=true]「……先輩」[plc]
 
-
+[old_naruse_stand pose=2 face=futsu]
 [shownametag name="巻き髪" bust="naruse" visible=true]「ん？」[plc]
 
 
 その言葉に、巻き髪は反応した。[plc]
 
-
+[old_naruse_stand pose=1 face=futsu]
 [shownametag name="巻き髪" bust="naruse" visible=true]「そうですわね。確かに先輩ですわよ」[plc]
 
 
@@ -437,7 +442,7 @@
 
 って、いやそうじゃなくて。[plc]
 
-
+[old_naruse_stand pose=2 face=futsu]
 [shownametag name="巻き髪" bust="naruse" visible=true]「……誰かと、似てらした？」[plc]
 
 
@@ -446,7 +451,7 @@
 
 ……あぁ、くそ。ほんとに似てやがる。[plc]
 
-
+[old_naruse_stand pose=1 face=hohoho]
 [shownametag name="巻き髪" bust="naruse" visible=true]
 「ほっほっほ、私と似てらっしゃるなんて。[lr]
 それはそれは『素敵な』先輩なんでしょうねぇ」[plc]
@@ -471,20 +476,21 @@
 いつの間にか、チャイムが鳴っていた。[plc]
 @fadeoutse time="500"
 
+[old_naruse_stand pose=2 face=futsu]
 [shownametag name="巻き髪" bust="naruse" visible=true]
 「あら？　肝心な事を聞いてませんけれど……まぁいいわ」[plc]
 
-
+[old_naruse_stand pose=1 face=futsu]
 [shownametag name="巻き髪" bust="naruse" visible=true]
 「谷口 大樹 君！」[plc]
 
-
+[dis_all_chara]
 [shownametag name="大樹" visible=true]「！？」[plc]
 
 
 急に、巻き髪は命令するような口調になった。[plc]
 
-
+[old_naruse_stand pose=1 face=futsu]
 [shownametag name="成瀬" visible=true]
 「３のE 成瀬 なるみ。　この学校の、女王になる女ですわ！」[plc]
 
@@ -492,30 +498,30 @@
 
 
 [shownametag name="大樹" visible=true]「女、女王……？」[plc]
-
+[dis_all_chara]
 
 まともなのかと一瞬思ったけど、[lr]
 やっぱ頭おかしいだろこの女。[plc]
 
-
+[old_naruse_stand pose=1 face=futsu]
 [shownametag name="成瀬" visible=true]
 「女王、女王ですわ……女王には、色々と責務がありますの」[plc]
 
-
+[old_naruse_stand pose=2 face=futsu]
 [shownametag name="成瀬" visible=true]
 「迷える子羊を導くのも。その一つ」[plc]
 
 
 [shownametag name="大樹" visible=true]「……」[plc]
-
+[dis_all_chara]
 
 はぁ？[plc]
 
-
+[old_naruse_stand pose=1 face=futsu]
 [shownametag name="成瀬" visible=true]
 「３のE……何かあったら、お尋ねなさい」[plc]
 
-
+[dis_all_chara]
 そう言って、颯爽と背を向けて。[plc]
 
 
@@ -524,13 +530,13 @@
 
 この人……。[plc]
 
-
+[old_naruse_stand pose=2 face=futsu]
 [shownametag name="成瀬" visible=true]「あ、それと」[plc]
 
 
 [shownametag name="大樹" visible=true]「へ？」[plc]
 
-
+[old_naruse_stand pose=1 face=hohoho]
 [shownametag name="成瀬" visible=true]
 「そんな顔で見るのやめて下さる？　これは、地毛ですわ」[plc]
 

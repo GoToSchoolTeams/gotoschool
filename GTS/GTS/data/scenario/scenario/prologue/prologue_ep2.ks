@@ -18,9 +18,11 @@
 [shownametag name="大樹" visible=true]
 「……ん」[plc]
 
-[showstandimage who="najimi" pose=1 face=futsu]
+[showstandimage who="najimi_old" pose=1 face=futsu nobust="true"]
 
 目が覚めたのと、不愉快になったのは殆ど同時だった。[plc]
+
+[old_najimi_face face=futsu]
 @shownametag name="縁" visible=true
 「随分ね」[plc]
 
@@ -57,13 +59,13 @@
 『関係ない』んじゃなかったのか？[l][r]
 と、口ではなく目で伝えると、ソイツは不愉快そうに鼻を鳴らした。[plc]
 
-[showstandimage who="najimi" pose=1 face=do]
+[showstandimage who="najimi_old" pose=1 face=do]
 @shownametag name="縁" visible=true
 「アンタが来なきゃ、関係なしで居られたんだけどね」[plc]
 
 言いながら、叩きつけた書類を開いてみせた。[plc]
 
-[showstandimage who="najimi" pose=1 face=futsu]
+[showstandimage who="najimi_old" pose=1 face=futsu]
 @shownametag name="縁" visible=true
 「あんたが来なかった間の、プリントとか[r]
 書かなきゃいけない書類とか、その他諸々……担任が渡せって」[plc]
@@ -85,7 +87,7 @@
 あだ名の『ゼウス』は伊達じゃないね。[plc]
 
 @stopse
-[showstandimage who="najimi" pose=1 face=futsu tere=true]
+[showstandimage who="najimi_old" pose=1 face=futsu tere=true]
 @shownametag name="縁" visible=true
 「……」[plc]
 
@@ -104,7 +106,7 @@
 @shownametag name="大樹" visible=true
 「？」[plc]
 
-[showstandimage who="najimi" pose=1 face=do]
+[showstandimage who="najimi_old" pose=1 face=do]
 @shownametag name="縁" visible=true
 「何でもないわ。それより、[lr]
 教室戸締りしなきゃいけないから荷物まとめてさっさと出てって」[plc]
@@ -115,7 +117,7 @@
 
 さっきは４限だったから、今は昼休みの筈だろ。[plc]
 
-[showstandimage who="najimi" pose=1 face=futsu]
+[showstandimage who="najimi_old" pose=1 face=futsu]
 @shownametag name="縁" visible=true
 「次の英語は移動教室。[lr]
 その後全校集会だから、今日はそのまま解散」[plc]
@@ -135,7 +137,7 @@
 初耳だ。[l][r]
 いつから移動教室なんて始まったんだ？[plc]
 
-[showstandimage who="najimi" pose=1 face=futsu size=s]
+[showstandimage who="najimi_old" pose=1 face=futsu size=s]
 @shownametag name="縁" visible=true
 「浦島太郎のあんたが知らないことは沢山あるわよ」[plc]
 @dis_all_chara_fade
@@ -172,7 +174,7 @@
 「おまぇ――」[plc]
 
 @fadebgm volume="50" time="500"
-[showstandimage who="najimi" pose=1 face=do tere=true size=s]
+[showstandimage who="najimi_old" pose=1 face=do tere=true size=s]
 @shownametag name="縁" visible=true
 「――私が、」[plc]
 
@@ -182,7 +184,7 @@
 @shownametag name="縁" visible=true
 「私がどういうつもりで――」[plc]
 
-[showstandimage who="najimi" pose=1 face=ikari tere=true size=s]
+[showstandimage who="najimi_old" pose=1 face=ikari tere=true size=s]
 @shownametag name="縁" visible=true
 「……っ」[plc]
 
