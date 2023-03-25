@@ -12,7 +12,7 @@
 
 [fadeoutse time="1000"]
 [fadeinbgm storage="prologue" time="1000"]
-[showbustup who="haruka" pose="1" face=raku]
+[showbustup who="haruka_old" pose="1" face=raku]
 [shownametag name="遥香" visible=true]
 「さぁーって」[plc]
 
@@ -20,7 +20,7 @@
 [shownametag name="大樹" visible=true]
 「お昼ですね」[plc]
 
-[showbustup who="haruka" pose="1" face=ki]
+[showbustup who="haruka_old" pose="1" face=ki]
 [shownametag name="遥香" visible=true]
 「昼ですね」[plc]
 
@@ -37,14 +37,14 @@
 
 [fadeoutse time="1000"]
 
-[showstandimage who="haruka" pose="1" face=magao]
+[showstandimage who="haruka_old" pose="1" face=magao]
 [shownametag name="遥香" visible=true]
 「んっしょ」[plc]
 
 
 俺は教室が辛いから抜けたんだけど、先輩は何故か居る。[plc]
 
-[showstandimage who="haruka" pose="1" face=raku time="200"]
+[showstandimage who="haruka_old" pose="1" face=raku time="200"]
 [shownametag name="遥香" visible=true]
 「はい、谷口君のぶん」[plc]
 
@@ -59,7 +59,7 @@
 あの日から、[lr]
 俺と先輩は昼休みは屋上に集まって飯を食うことになったのだが、[plc]
 
-[showstandimage who="haruka" pose="1" face=keibetsu time="200"]
+[showstandimage who="haruka_old" pose="1" face=keibetsu time="200"]
 [shownametag name="遥香" visible=true]
 「つーか、食費。請求したいんだけど」[plc]
 
@@ -72,7 +72,7 @@
 いつまで経っても弁当を持ってこない俺に、[lr]
 先輩は弁当を作ってきてくれるようになっていた。[plc]
 
-[showstandimage who="haruka" pose="1" face=do time="200"]
+[showstandimage who="haruka_old" pose="1" face=do time="200"]
 [shownametag name="遥香" visible=true]
 「毎回、たかられちゃたまんないからね」[plc]
 
@@ -80,7 +80,7 @@
 とは言うが、これは正直嬉しい。[lr]
 頑張った甲斐があった。[plc]
 
-[showstandimage who="haruka" pose="1" face=keibetsu time="200"]
+[showstandimage who="haruka_old" pose="1" face=keibetsu time="200"]
 [shownametag name="遥香" visible=true]
 「もっと別のところを頑張ってよ」[plc]
 
@@ -123,10 +123,10 @@
 
 ちょっと感動した。[plc]
 
-[showstandimage who="haruka" pose="1" face=magao]
+[showstandimage who="haruka_old" pose="1" face=magao]
 [shownametag name="遥香" visible=true]
 「……ね、どう今日のは？[lr]
-[showstandimage who="haruka" pose="1" face=raku]
+[showstandimage who="haruka_old" pose="1" face=raku]
 　割りと良い出来だと思ってるんだけど」[plc]
 
 
@@ -161,7 +161,7 @@
 [shownametag name="大樹" visible=true]
 「１０段階評価で言うなら、６＋というところでしょうか」[plc]
 
-[showstandimage who="haruka" pose="1" face=keibetsu time="200"]
+[showstandimage who="haruka_old" pose="1" face=keibetsu time="200"]
 [shownametag name="遥香" visible=true]
 「あっそ」[plc]
 
@@ -173,7 +173,7 @@
 [shownametag name="大樹" visible=true]
 「美味いです。超美味いです。返して下さい」[plc]
 
-[showstandimage who="haruka" pose="1" face=ki time="200"]
+[showstandimage who="haruka_old" pose="1" face=ki time="200"]
 [shownametag name="遥香" visible=true]
 「はい」[plc]
 
@@ -188,7 +188,7 @@
 イカンね、どうも。[lr]
 妙な邪推は俺には全然向かないね。[plc]
 
-[showbustup who="haruka" pose="1" face=raku time="200"]
+[showbustup who="haruka_old" pose="1" face=raku time="200"]
 [shownametag name="遥香" visible=true]
 「……」[plc]
 
@@ -197,7 +197,7 @@
 バクバクと弁当に喰らいつく俺を、[lr]
 先輩は満足気な顔で見ていたが。[plc]
 
-[showstandimage who="haruka" pose="1" face=odoroki time="200"]
+[showstandimage who="haruka_old" pose="1" face=odoroki time="200"]
 [shownametag name="遥香" visible=true]
 [nowait]
 「……ぁ」[plc]
@@ -211,7 +211,7 @@
 [shownametag name="大樹" visible=true]
 「――＃＄＠※＊＆＆％％％ッ！！！」[plc]
 
-[showstandimage who="haruka" pose="1" face=keibetsu time="200"]
+[showstandimage who="haruka_old" pose="1" face=keibetsu time="200"]
 [shownametag name="遥香" visible=true]
 「飲み込みなさい」[plc]
 
@@ -223,7 +223,7 @@
 [shownametag name="大樹" visible=true]
 「ちょ、先輩なにす――」[plc]
 
-[showstandimage who="haruka" pose="1" face=do]
+[showstandimage who="haruka_old" pose="1" face=do]
 [shownametag name="遥香" visible=true]
 「ご飯を食べる前に、やることがあるわ」[plc]
 
@@ -240,7 +240,7 @@
 「やるって、何を――」[plc]
 
 [stopbgm]
-[showstandimage who="haruka" pose="1" face=do time="200"]
+[showstandimage who="haruka_old" pose="1" face=do time="200"]
 [shownametag name="遥香" visible=true]
 「縁ちゃんとこ行くわよ」[plc]
 
@@ -251,7 +251,7 @@
 [shownametag name="遥香" visible=true]
 「縁ちゃんは、放課後すぐ部活に行っちゃうし、それに……」[plc]
 
-[showstandimage who="haruka" pose="1" face=ai time="200"]
+[showstandimage who="haruka_old" pose="1" face=ai time="200"]
 [shownametag name="遥香" visible=true]
 「……もう、縁ちゃんしか残ってないわ」[plc]
 
@@ -275,11 +275,11 @@
 [shownametag name="大樹" visible=true]
 「だけど、あいつ……」[plc]
 
-[showstandimage who="haruka" pose="1" face=keibetsu]
+[showstandimage who="haruka_old" pose="1" face=keibetsu]
 [shownametag name="遥香" visible=true]
 「言いたいことがあるのは分かるわ」[plc]
 
-[showstandimage who="haruka" pose="1" face=raku]
+[showstandimage who="haruka_old" pose="1" face=raku]
 [shownametag name="遥香" visible=true]
 「だけど、文句はやってからにしましょうよ。[l]ね？」[plc]
 
@@ -323,7 +323,7 @@
 [shownametag name="大樹" visible=true]
 「黙ってろ」[plc]
 
-[showbustup who="najimi" pose="1" face=metoji]
+[showbustup who="najimi_old" pose="1" face=metoji]
 [shownametag name="縁" visible=true]
 「……」[plc]
 
@@ -397,7 +397,7 @@
 その横を先輩がすり抜けていく。[plc]
 
 [strans storage="school-cafeteria01_edge"]
-[showstandimage who="haruka" pose="1" face=raku]
+[showstandimage who="haruka_old" pose="1" face=raku]
 [shownametag name="遥香" visible=true]
 「ここ、座るね」[plc]
 
@@ -406,7 +406,7 @@
 そのまま、縁の前の席に座る。[lr]
 手には、いつの間にか注文していた肉うどんがあった。[plc]
 
-[showstandimage who="najimi" pose="1" face=odoroki2]
+[showstandimage who="najimi_old" pose="1" face=odoroki2]
 [shownametag name="縁" visible=true]
 「……遥香先輩」[plc]
 
@@ -422,7 +422,7 @@
 誰かが自分に声を掛けたからという感じで。[plc]
 
 
-[showstandimage who="najimi" pose="1" face=futsu]
+[showstandimage who="najimi_old" pose="1" face=futsu]
 [shownametag name="縁" visible=true]
 「どうぞ」[plc]
 
@@ -431,7 +431,7 @@
 スッと、姿勢を正した。[plc]
 [dis_all_chara]
 
-[showbustup who="haruka" pose="1" face=magao]
+[showbustup who="haruka_old" pose="1" face=magao]
 [shownametag name="遥香" visible=true]
 「何、いつも一人なの？」[plc]
 
@@ -439,11 +439,11 @@
 [shownametag name="縁" visible=true]
 「……大体」[plc]
 
-[showbustup who="haruka" pose="1" face=raku]
+[showbustup who="haruka_old" pose="1" face=raku]
 [shownametag name="遥香" visible=true]
 「もしかして、誰か待ってるとか？」[plc]
 
-[showbustup who="najimi" pose="1" face=futsu]
+[showbustup who="najimi_old" pose="1" face=futsu]
 [shownametag name="縁" visible=true]
 「……」[plc]
 [dis_all_chara]
@@ -451,7 +451,7 @@
 
 それは完全な先輩の軽口だったが、[plc]
 
-[showstandimage who="najimi" pose="1" face=metoji]
+[showstandimage who="najimi_old" pose="1" face=metoji]
 [shownametag name="縁" visible=true]
 「……違います」[plc]
 
@@ -459,7 +459,7 @@
 
 ちょっと思案して、縁は否定した。[plc]
 
-[showbustup who="haruka" pose="1" face=magao]
+[showbustup who="haruka_old" pose="1" face=magao]
 [shownametag name="遥香" visible=true]
 「……そっか」[plc]
 
@@ -484,7 +484,7 @@
 じんちゅうってどこだったっけ？[plc]
 
 [strans storage="school-cafeteria01_edge"]
-[showbustup who="haruka" pose="1" face=kuno]
+[showbustup who="haruka_old" pose="1" face=kuno]
 [shownametag name="遥香" visible=true]
 「……うーん」[plc]
 
@@ -492,7 +492,7 @@
 
 先輩は、なにか言いあぐねているようで。[plc]
 
-[showstandimage who="najimi" pose="1" face=futsu]
+[showstandimage who="najimi_old" pose="1" face=futsu]
 [shownametag name="縁" visible=true]
 「あの、先輩……」[plc]
 
@@ -500,15 +500,15 @@
 
 いつの間にか、縁は箸を置いていた。[plc]
 
-[showstandimage who="najimi" pose="1" face=futsu]
+[showstandimage who="najimi_old" pose="1" face=futsu]
 [shownametag name="縁" visible=true]
 「今朝は、すみませんでした」[plc]
 
-[showbustup who="haruka" pose="1" face=odoroki]
+[showbustup who="haruka_old" pose="1" face=odoroki]
 [shownametag name="遥香" visible=true]
 「え？　……あ、うん。なんかしたっけ？」[plc]
 
-[showstandimage who="najimi" pose="1" face=metoji]
+[showstandimage who="najimi_old" pose="1" face=metoji]
 [shownametag name="縁" visible=true]
 「いえ、……」[plc]
 
@@ -524,31 +524,31 @@
 
 いや、怯えてるのか、ありゃ？[plc]
 
-[showstandimage who="najimi" pose="1" face=futsu]
+[showstandimage who="najimi_old" pose="1" face=futsu]
 [shownametag name="縁" visible=true]
 「……先輩、あの。毎朝なんですか？」[plc]
 
-[showbustup who="haruka" pose="1" face=magao]
+[showbustup who="haruka_old" pose="1" face=magao]
 [shownametag name="遥香" visible=true]
 「へ？」[plc]
 
-[showstandimage who="najimi" pose="1" face=futsu tere="true"]
+[showstandimage who="najimi_old" pose="1" face=futsu tere="true"]
 [shownametag name="縁" visible=true]
 「その、だいちゃ……谷口君と」[plc]
 
-[showbustup who="haruka" pose="1" face=odoroki]
+[showbustup who="haruka_old" pose="1" face=odoroki]
 [shownametag name="遥香" visible=true]
 「ぇ……あ、うん。あ、朝の登校？　うん、毎日だよ」[plc]
 
-[showstandimage who="najimi" pose="1" face=ikari tere="true"]
+[showstandimage who="najimi_old" pose="1" face=ikari tere="true"]
 [shownametag name="縁" visible=true]
 「なんで？」[plc]
 
-[showbustup who="haruka" pose="1" face=keibetsu]
+[showbustup who="haruka_old" pose="1" face=keibetsu]
 [shownametag name="遥香" visible=true]
 「だってほら、谷口君。逃げんじゃん」[plc]
 
-[showstandimage who="najimi" pose="1" face=metoji]
+[showstandimage who="najimi_old" pose="1" face=metoji]
 [shownametag name="縁" visible=true]
 「あぁ」[plc]
 
@@ -564,15 +564,15 @@
 
 あらゆる方面から信用ないな、俺。[plc]
 
-[showbustup who="haruka" pose="1" face=raku]
+[showbustup who="haruka_old" pose="1" face=raku]
 [shownametag name="遥香" visible=true]
 「それがどうかした？」[plc]
 
-[showstandimage who="najimi" pose="1" face=futsu tere="true"]
+[showstandimage who="najimi_old" pose="1" face=futsu tere="true"]
 [shownametag name="縁" visible=true]
 「いや、その……できれば、いや」[plc]
 
-[showbustup who="haruka" pose="1" face=magao]
+[showbustup who="haruka_old" pose="1" face=magao]
 [shownametag name="遥香" visible=true]
 「？」[plc]
 
@@ -637,15 +637,15 @@
 豚三匹はキャンキャン鳴いてどこかに消え失せた。[plc]
 
 [strans storage="school-cafeteria01_edge"]
-[showstandimage who="najimi" pose="1" face=futsu]
+[showstandimage who="najimi_old" pose="1" face=futsu]
 [shownametag name="縁" visible=true]
 「……あの、もう別に。一緒に行くことは構わないんです」[plc]
 
-[showbustup who="haruka" pose="1" face=magao]
+[showbustup who="haruka_old" pose="1" face=magao]
 [shownametag name="遥香" visible=true]
 「？」[plc]
 
-[showstandimage who="najimi" pose="1" face=futsu tere="true" time="200"]
+[showstandimage who="najimi_old" pose="1" face=futsu tere="true" time="200"]
 [shownametag name="縁" visible=true]
 「でも……」[plc]
 
@@ -664,7 +664,7 @@
 [shownametag name="大樹" visible=true]
 「……おい」[plc]
 
-[showstandimage who="najimi" pose="1" face=odoroki time="200"]
+[showstandimage who="najimi_old" pose="1" face=odoroki time="200"]
 [shownametag name="縁" visible=true]
 「！？」[plc]
 [dis_all_chara]
@@ -672,7 +672,7 @@
 
 俺の登場に、縁は驚いたようだった。[plc]
 
-[showbustup who="haruka" pose="1" face=keibetsu]
+[showbustup who="haruka_old" pose="1" face=keibetsu]
 [shownametag name="遥香" visible=true]
 「……ち、」[plc]
 
@@ -684,7 +684,7 @@
 [shownametag name="大樹" visible=true]
 「関係ねぇだろ、お前には」[plc]
 
-[showstandimage who="najimi" pose="1" face=ikari]
+[showstandimage who="najimi_old" pose="1" face=ikari]
 [shownametag name="縁" visible=true]
 「……」[plc]
 
@@ -699,7 +699,7 @@
 [shownametag name="大樹" visible=true]
 「先輩、もう昼休みも終わります。本題、入って下さい」[plc]
 
-[showbustup who="haruka" pose="1" face=odoroki]
+[showbustup who="haruka_old" pose="1" face=odoroki]
 [shownametag name="遥香" visible=true]
 「ちょっと、谷口君……ごめんね、いきなり。あのね、」[plc]
 
@@ -715,7 +715,7 @@
 
 睨まれている気がするが、知ったことか。[plc]
 
-[showstandimage who="najimi" pose="1" face=futsu]
+[showstandimage who="najimi_old" pose="1" face=futsu]
 [shownametag name="縁" visible=true]
 「その答えは、もう言った筈だわ」[plc]
 
@@ -733,11 +733,11 @@
 「おら、長話で素うどん伸びちまったろ？　新しく買えばいい」[plc]
 
 
-[showstandimage who="najimi" pose="1" face=ikari]
+[showstandimage who="najimi_old" pose="1" face=ikari]
 [shownametag name="縁" visible=true]
 「……あんた、」[plc]
 
-[showstandimage who="haruka" pose="1" face=do time="200"]
+[showstandimage who="haruka_old" pose="1" face=do time="200"]
 [shownametag name="遥香" visible=true]
 「ちょっと谷口君！　いくらなんでも――」[plc]
 
@@ -750,7 +750,7 @@
 「先輩、こんなのといくら話してても無駄ですよ」[plc]
 
 
-[showstandimage who="haruka" pose="1" face=do time="200"]
+[showstandimage who="haruka_old" pose="1" face=do time="200"]
 [shownametag name="遥香" visible=true]
 「だからって―」[plc]
 
@@ -768,7 +768,7 @@
 
 と。[plc]
 
-[showbustup who="najimi" pose="1" face=odoroki2]
+[showbustup who="najimi_old" pose="1" face=odoroki2]
 [shownametag name="縁" visible=true]
 「……弁当？」[plc]
 
@@ -776,7 +776,7 @@
 
 縁が呟いた。[plc]
 
-[showstandimage who="haruka" pose="1" face=raku]
+[showstandimage who="haruka_old" pose="1" face=raku]
 [shownametag name="遥香" visible=true]
 「ぁ、私作るようになって……縁ちゃんも食べる？」[plc]
 
@@ -785,7 +785,7 @@
 それを好機と捉えたのか、先輩は言葉を出すが、[plc]
 
 
-[showstandimage who="najimi" pose="1" face=metoji]
+[showstandimage who="najimi_old" pose="1" face=metoji]
 [shownametag name="縁" visible=true]
 「……へぇ」[plc]
 
@@ -793,7 +793,7 @@
 
 縁は、それを聞いてはいなかった。[plc]
 
-[showstandimage who="najimi" pose="1" face=futsu]
+[showstandimage who="najimi_old" pose="1" face=futsu]
 [shownametag name="縁" visible=true]
 「弁当、嫌いじゃなかったんだ」[plc]
 
@@ -825,7 +825,7 @@
 [shownametag name="大樹" visible=true]
 「先輩、後で食わしてくださいよ。弁当」[plc]
 
-[showstandimage who="haruka" pose="1" face=odoroki time="0" size="l"]
+[showstandimage who="haruka_old" pose="1" face=odoroki time="0" size="l"]
 [shownametag name="遥香" visible=true]
 「え？　ちょ―」[plc]
 
@@ -858,7 +858,7 @@
 イライラを、声に出してぶつける前に。[plc]
 
 [strans storage="school-cafeteria01" method="universal" rule="306" time="200"]
-[showbustup who="haruka" pose="1" face=do]
+[showbustup who="haruka_old" pose="1" face=do]
 [shownametag name="遥香" visible=true]
 [quake hmax="10" vmax="10" time="1000"]
 [playse storage="bosu04"]
@@ -915,7 +915,7 @@
 [SetupMessageWindow]
 
 [fadeinbgm storage="chill" time="400"]
-[showstandimage who="najimi" pose="1" face=metoji time="400" size="l" nobust="true"]
+[showstandimage who="najimi_old" pose="1" face=metoji time="400" size="l" nobust="true"]
 [quake time="400"]
 [shownametag name="大樹" visible=true]
 [nowait]
@@ -923,7 +923,7 @@
 
 [dis_all_chara]
 
-[showbustup who="najimi" pose="1" face=metoji size="m"]
+[showbustup who="najimi_old" pose="1" face=metoji size="m"]
 [shownametag name="縁" visible=true]
 「……」[plc]
 
@@ -932,7 +932,7 @@
 放課後。[lr]
 いつもの様に屋上に行ったら、縁が居た。[plc]
 
-[showstandimage who="haruka" pose="1" face=magao size="m"]
+[showstandimage who="haruka_old" pose="1" face=magao size="m"]
 [shownametag name="遥香" visible=true]
 「ん……入ってくれるって」[plc]
 
@@ -940,7 +940,7 @@
 [shownametag name="大樹" visible=true]
 「お前、さっきは…」[plc]
 
-[showbustup who="najimi" pose="1" face=futsu size="m"]
+[showbustup who="najimi_old" pose="1" face=futsu size="m"]
 [shownametag name="縁" visible=true]
 「ひとは変わるものよ」[plc]
 
@@ -948,11 +948,11 @@
 [shownametag name="大樹" visible=true]
 「てめぇ！」[plc]
 
-[showstandimage who="haruka" pose="1" face=odoroki size="l"]
+[showstandimage who="haruka_old" pose="1" face=odoroki size="l"]
 [shownametag name="遥香" visible=true]
 「まーまーまー、落ち着いて谷口君」[plc]
 
-[showstandimage who="haruka" pose="1" face=keibetsu size="m"]
+[showstandimage who="haruka_old" pose="1" face=keibetsu size="m"]
 [shownametag name="遥香" visible=true]
 「というか、君には何も言う資格は無いよ」[plc]
 
@@ -964,7 +964,7 @@
 
 先輩にそう言われたら、黙るしかない。[plc]
 
-[showbustup who="najimi" pose="1" face=ikari]
+[showbustup who="najimi_old" pose="1" face=ikari]
 [shownametag name="縁" visible=true]
 「……」[plc]
 
@@ -972,7 +972,7 @@
 
 んだよ、睨むんじゃねーよ。[plc]
 
-[showstandimage who="haruka" pose="1" face=magao size="m"]
+[showstandimage who="haruka_old" pose="1" face=magao size="m"]
 [shownametag name="遥香" visible=true]
 「ま、要はさ――」[plc]
 
@@ -988,7 +988,7 @@
 
 本当かよ。[plc]
 
-[showstandimage who="najimi" pose="1" face=metoji size="m"]
+[showstandimage who="najimi_old" pose="1" face=metoji size="m"]
 [shownametag name="縁" visible=true]
 「嘘はないわ」[plc]
 
@@ -1000,7 +1000,7 @@
 
 黙ってる事はあるはずだ。[plc]
 
-[showbustup who="haruka" pose="1" face=jitome]
+[showbustup who="haruka_old" pose="1" face=jitome]
 [shownametag name="遥香" visible=true]
 「噛み付くねぇ、谷口君」[plc]
 
@@ -1012,7 +1012,7 @@
 
 こればっかりは、どうしようもない。[plc]
 
-[showstandimage who="haruka" pose="1" face=ki size="l"]
+[showstandimage who="haruka_old" pose="1" face=ki size="l"]
 [shownametag name="遥香" visible=true]
 「ま、何にせよ。一歩前進した！」[plc]
 
@@ -1028,7 +1028,7 @@
 
 とてもする気にはなれないが、[plc]
 
-[showbustup who="najimi" pose="1" face=futsu tere="true"]
+[showbustup who="najimi_old" pose="1" face=futsu tere="true"]
 [shownametag name="縁" visible=true]
 「……」[plc]
 
@@ -1040,15 +1040,15 @@
 
 パチパチと三人だけの拍手が虚しく響いたあと、先輩は続けた。[plc]
 
-[showstandimage who="haruka" pose="1" face=raku size="l"]
+[showstandimage who="haruka_old" pose="1" face=raku size="l"]
 [shownametag name="遥香" visible=true]
 「それで、今後の方針なんだけど」[plc]
 
-[showstandimage who="najimi" pose="1" face=futsu size="m" time="200"]
+[showstandimage who="najimi_old" pose="1" face=futsu size="m" time="200"]
 [shownametag name="縁" visible=true]
 「どうしますか？」[plc]
 
-[showstandimage who="haruka" pose="1" face=ki size="l" time="200"]
+[showstandimage who="haruka_old" pose="1" face=ki size="l" time="200"]
 [shownametag name="遥香" visible=true]
 「正直、縁ちゃんの力を借りたいわ」[plc]
 
@@ -1056,19 +1056,19 @@
 
 懇願するように、先輩は縁に言う。[plc]
 
-[showbustup who="najimi" pose="1" face=futsu size="m"]
+[showbustup who="najimi_old" pose="1" face=futsu size="m"]
 [shownametag name="縁" visible=true]
 「というと？」[plc]
 
-[showstandimage who="haruka" pose="1" face=magao size="m" time="200"]
+[showstandimage who="haruka_old" pose="1" face=magao size="m" time="200"]
 [shownametag name="遥香" visible=true]
 「実は縁ちゃんとこ行く前に、大方のところには行ったのよ」[plc]
 
-[showbustup who="najimi" pose="1" face=futsu size="m"]
+[showbustup who="najimi_old" pose="1" face=futsu size="m"]
 [shownametag name="縁" visible=true]
 「それで？」[plc]
 
-[showstandimage who="haruka" pose="1" face=kuno size="m" time="200"]
+[showstandimage who="haruka_old" pose="1" face=kuno size="m" time="200"]
 [shownametag name="遥香" visible=true]
 「これ」[plc]
 
@@ -1076,11 +1076,11 @@
 
 そう言って、先輩は胸の前で小さくバッテンを作る。[plc]
 
-[showstandimage who="najimi" pose="1" face=jitome size="m"]
+[showstandimage who="najimi_old" pose="1" face=jitome size="m"]
 [shownametag name="縁" visible=true]
 「でしょうねぇ…」[plc]
 
-[showbustup who="haruka" pose="1" face=jitome]
+[showbustup who="haruka_old" pose="1" face=jitome]
 [shownametag name="遥香" visible=true]
 「ま、ちょっととんでもないお荷物が居たこともあってね」[plc]
 
@@ -1094,7 +1094,7 @@
 その呟きは、ちょっと酷くないっすか先輩。[plc]
 
 
-[showbustup who="najimi" pose="1" face=metoji]
+[showbustup who="najimi_old" pose="1" face=metoji]
 [shownametag name="縁" visible=true]
 「……」[plc]
 
@@ -1102,18 +1102,18 @@
 
 少し思案してから、縁は言った。[plc]
 
-[showstandimage who="najimi" pose="1" face=futsu size="m"]
+[showstandimage who="najimi_old" pose="1" face=futsu size="m"]
 [shownametag name="縁" visible=true]
 「やれるかぎりやりましょう……」[plc]
 
 [shownametag name="縁" visible=true]
 「一応、あの時のリーダーは私でしたし」[plc]
 
-[showbustup who="haruka" pose="1" face=magao]
+[showbustup who="haruka_old" pose="1" face=magao]
 [shownametag name="遥香" visible=true]
 「そうしてくれる？」[plc]
 
-[showstandimage who="najimi" pose="1" face=raku size="m"]
+[showstandimage who="najimi_old" pose="1" face=raku size="m"]
 [shownametag name="縁" visible=true]
 「ええ、遥香先輩のためなら」[plc]
 
@@ -1128,12 +1128,12 @@
 
 なんかムカついた。[plc]
 
-[showbustup who="najimi" pose="1" face=futsu]
+[showbustup who="najimi_old" pose="1" face=futsu]
 [shownametag name="縁" visible=true]
 「できれば、あの時のメンバーをもう一度集めて貰えますか？[lr]
 　あのメンバーが納得すれば、全員納得すると思います」[plc]
 
-[showbustup who="haruka" pose="1" face=ki]
+[showbustup who="haruka_old" pose="1" face=ki]
 [shownametag name="遥香" visible=true]
 「そうだね、それは任せて」[plc]
 
@@ -1141,7 +1141,7 @@
 
 トントン拍子で、話が進んでいく。[plc]
 
-[showstandimage who="najimi" pose="1" face=raku size="m"]
+[showstandimage who="najimi_old" pose="1" face=raku size="m"]
 [shownametag name="縁" visible=true]
 「どうにかしますよ」[plc]
 
@@ -1162,11 +1162,11 @@
 俺がいじけている間に、計画は決まっていき。[plc]
 
 
-[showstandimage who="haruka" pose="1" face=raku size="m"]
+[showstandimage who="haruka_old" pose="1" face=raku size="m"]
 [shownametag name="遥香" visible=true]
 「じゃ、お願いね！」[plc]
 
-[showstandimage who="najimi" pose="1" face=raku size="l"]
+[showstandimage who="najimi_old" pose="1" face=raku size="l"]
 [shownametag name="縁" visible=true]
 「任せてください」[plc]
 [dis_all_chara]

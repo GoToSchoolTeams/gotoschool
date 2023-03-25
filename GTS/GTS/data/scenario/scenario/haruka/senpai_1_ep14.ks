@@ -27,11 +27,11 @@
 [shownametag name="ガイア" visible=true]
 「兄弟！」[plc]
 
-[showstandimage layer=2 who="mash" pose=1 face=normal size=l time="200" pos="l"]
+[showstandimage layer=2 who="mash_old" pose=1 face=normal size=l time="200" pos="l"]
 [shownametag name="マッシュ" visible=true]
 「拙者たちの助けが！」[plc]
 
-[showstandimage layer=1 who="orutega" pose=1 face=odoroki size=l time="200" pos="r"]
+[showstandimage layer=1 who="orutega_old" pose=1 face=odoroki size=l time="200" pos="r"]
 [shownametag name="オルテガ" visible=true]
 「必要ニャリねん☆」[plc]
 
@@ -131,11 +131,11 @@
 [shownametag name="遥香" visible=true]
 「とりあえず、お世話になるとこに挨拶まわりに」[plc]
 
-[showstandimage who="mash" face=doya pose="1" size="m" pos="l" layer="1" time="200"]
+[showstandimage who="mash_old" face=doya pose="1" size="m" pos="l" layer="1" time="200"]
 [shownametag name="マッシュ" visible=true]
 「御意」[plc]
 
-[showstandimage who="orutega" face=odoroki pose="1" size="m" pos="r" layer="2" time="200"]
+[showstandimage who="orutega_old" face=odoroki pose="1" size="m" pos="r" layer="2" time="200"]
 [shownametag name="オルテガ" visible=true]
 「ら☆ジャー♪」[plc]
 
