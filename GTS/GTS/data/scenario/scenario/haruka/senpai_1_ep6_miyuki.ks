@@ -15,7 +15,7 @@
 [shownametag name="大樹" visible=true]
 「勘です！」[plc]
 
-
+;
 
 元気一杯に答えると、[l][r]
 [showstandimage who=haruka_old face=kuno nobust=true time="300"]
