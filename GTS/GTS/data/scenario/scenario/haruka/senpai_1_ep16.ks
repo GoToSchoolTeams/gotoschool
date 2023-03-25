@@ -44,7 +44,7 @@
 
 いや、実際、今から始まる。[plc]
 
-[haruka_face face="magao"]
+[old_haruka_face face="magao"]
 [shownametag name="遥香" visible=true]
 「……」[plc]
 
@@ -83,7 +83,7 @@
 長ったらしい教師の説明が終わると、[lr]
 先輩と成瀬は互いに一歩前に進み出た。[plc]
 
-[haruka_stand face="do"]
+[old_haruka_stand face="do"]
 [shownametag name="遥香" visible=true]
 「……」[plc]
 
@@ -100,7 +100,7 @@
 「……正直なところ。[lr]
 　今日まで出馬をリタイアしなかったことには、驚きですわ」[plc]
 
-[haruka_face face="keibetsu"]
+[old_haruka_face face="keibetsu"]
 [shownametag name="遥香" visible=true]
 「そもそも、リタイア無いでしょこれ」[plc]
 
@@ -117,7 +117,7 @@
 [shownametag name="成瀬" visible=true]
 「でも、本番はこれが終わってからですからね」[plc]
 
-[haruka_face face="keibetsu"]
+[old_haruka_face face="keibetsu"]
 [shownametag name="遥香" visible=true]
 「はいはい」[plc]
 
@@ -127,7 +127,7 @@
 [shownametag name="教師" visible=true bust="false"]
 「……私語はそのくらいで、はじめてください」[plc]
 
-[haruka_face face="do"]
+[old_haruka_face face="do"]
 [shownametag name="遥香" visible=true]
 「――」[plc]
 
@@ -143,7 +143,7 @@
 [shownametag name="成瀬" visible=true]
 「じゃん！」[plc]
 
-[haruka_stand face="do" size="l"]
+[old_haruka_stand face="do" size="l"]
 [shownametag name="遥香" visible=true]
 「けん！」[plc]
 
@@ -180,7 +180,7 @@
 授業をいつも通り早めにフケた俺達は、[lr]
 例の体育校舎の立入禁止の屋上で昼食を取っていた。[plc]
 
-[haruka_stand face="raku"]
+[old_haruka_stand face="raku"]
 [shownametag name="遥香" visible=true]
 「そ、じゃんけん」[plc]
 
@@ -193,7 +193,7 @@
 アナログな。[plc]
 
 
-[haruka_stand face="magao"]
+[old_haruka_stand face="magao"]
 [shownametag name="遥香" visible=true]
 「そうでもないでしょ、学校行事なんだし」[plc]
 
@@ -217,7 +217,7 @@
 
 そういうもんかね。[plc]
 
-[haruka_stand face="ki"]
+[old_haruka_stand face="ki"]
 [shownametag name="遥香" visible=true]
 「いる？」[plc]
 
@@ -237,7 +237,7 @@
 [shownametag name="大樹" visible=true]
 「……で？　それでそのじゃんけんで、何を決めるんですか？」[plc]
 
-[haruka_face face="jitome"]
+[old_haruka_face face="jitome"]
 [shownametag name="遥香" visible=true]
 「……は？」[plc]
 
@@ -288,7 +288,7 @@
 あの例の不退転の決意をした次の日から、[lr]
 どこで聞いたのか昼休みに屋上にやってくるようになって……。[plc]
 
-[haruka_face face="raku"]
+[old_haruka_face face="raku"]
 [shownametag name="遥香" visible=true]
 「はい、縁ちゃん。お茶」[plc]
 
@@ -301,7 +301,7 @@
 
 ……いやまぁ、先輩が言ったんだろうけどね。[plc]
 
-[haruka_stand face="odoroki" size="l"]
+[old_haruka_stand face="odoroki" size="l"]
 [shownametag name="遥香" visible=true]
 「……縁ちゃんの弁当、やっぱり美味しそうだね」[plc]
 
@@ -317,7 +317,7 @@
 
 学食勢だったくせに、弁当まで作ってくるようになりやがって。[plc]
 
-[haruka_stand face="raku" size="m"]
+[old_haruka_stand face="raku" size="m"]
 [shownametag name="遥香" visible=true]
 「いっこ貰っていい？」[plc]
 
@@ -379,7 +379,7 @@
 
 ……なんだよ！[plc]
 
-[haruka_face face="jitome"]
+[old_haruka_face face="jitome"]
 [shownametag name="遥香" visible=true]
 「……またやってるよ」[plc]
 
@@ -493,7 +493,7 @@
 [shownametag name="縁" visible=true]
 「……あのね」[plc]
 
-[haruka_stand face="magao"]
+[old_haruka_stand face="magao"]
 [shownametag name="遥香" visible=true]
 「そこからは、私が説明するわ。[r]
 　縁ちゃんご飯食べれなくなるよ」[plc]
@@ -509,12 +509,12 @@
 
 俺は、聞きながら食ってるからバッチリだぜ。[plc]
 
-[haruka_stand face="raku"]
+[old_haruka_stand face="raku"]
 [shownametag name="遥香" visible=true]
 「えーと、何処から話そうかな……[l]この学校の生徒会選挙って、[lr]
 　ビラ配りとか休み時間の講演とか禁止なんだけど」[plc]
 
-[haruka_stand face="magao"]
+[old_haruka_stand face="magao"]
 [shownametag name="遥香" visible=true]
 「……その辺は知ってた？」[plc]
 
@@ -528,12 +528,12 @@
 そういや、そんなもの見たこと無い。[plc]
 
 
-[haruka_stand face="magao"]
+[old_haruka_stand face="magao"]
 [shownametag name="遥香" visible=true]
 「ま、普通に禁止されてる学校も多いんだけどね」[plc]
 
 
-[haruka_stand face="raku"]
+[old_haruka_stand face="raku"]
 [shownametag name="遥香" visible=true]
 「この学校にはその理由に一応建前があって」[plc]
 
@@ -542,12 +542,12 @@
 「生徒会は『宣伝力』じゃなくて、[lr]
 　『実務力』で選ぶべきってスローガンがあるのよ」[plc]
 
-[haruka_stand face="magao"]
+[old_haruka_stand face="magao"]
 [shownametag name="遥香" visible=true]
 「で、選ぶ前に実際に実務をやらせてみましょーって事で。[lr]
 　対立候補を二人に絞って、それぞれ人を集めさせて実務力を見る」[plc]
 
-[haruka_stand face="ki"]
+[old_haruka_stand face="ki"]
 [shownametag name="遥香" visible=true]
 「要は、夏のそのイベントを２つの陣営それぞれに運営させて、[lr]
 　それで良かった方に生徒は投票しなさいっていう」[plc]
@@ -576,7 +576,7 @@
 「すげー学校ですね」[plc]
 
 
-[haruka_stand face="ki" size="l"]
+[old_haruka_stand face="ki" size="l"]
 [shownametag name="遥香" visible=true]
 「でしょー、あたしもそう思うわ」[plc]
 
@@ -589,7 +589,7 @@
 「ぁ……じゃぁ、俺達、[lr]
 　そのどっちかのイベントの運営やらされるんですか？」[plc]
 
-[haruka_stand face="raku" size="m"]
+[old_haruka_stand face="raku" size="m"]
 [shownametag name="遥香" visible=true]
 「そう！　それで、[lr]
 　じゃんけんでどっちの陣営がどっちやるのかって決まるわけ」[plc]
@@ -614,7 +614,7 @@
 「今の比じゃないっすよね？」[plc]
 
 
-[haruka_face face="magao"]
+[old_haruka_face face="magao"]
 [shownametag name="遥香" visible=true]
 「今なんか笑い飛ばせるレベルだよ」[plc]
 
@@ -622,7 +622,7 @@
 [shownametag name="大樹" visible=true]
 「……６人で出来るんですか？」[plc]
 
-[haruka_face face="ki"]
+[old_haruka_face face="ki"]
 [shownametag name="遥香" visible=true]
 「無理だね。あと６人じゃなくて７人いるからね？」[plc]
 
@@ -651,7 +651,7 @@
 
 爽やかな笑顔で弁当箱を返すと、前髪を掴まれた。[plc]
 
-[haruka_stand face="ki" size="l"]
+[old_haruka_stand face="ki" size="l"]
 [shownametag name="遥香" visible=true]
 「やだー、谷口君。冗談キツイわー」[plc]
 ;[めっちゃ笑顔];[グイグイ]
@@ -668,7 +668,7 @@
 笑顔のまま前髪を離して、先輩は続ける。[plc]
 
 
-[haruka_stand face="do" size="m"]
+[old_haruka_stand face="do" size="m"]
 [shownametag name="遥香" visible=true]
 「無茶やってるってのは、分かってたでしょ？」[plc]
 
@@ -737,7 +737,7 @@
 [shownametag name="大樹" visible=true]
 「……今年もそうなるんですかね？　先輩」[plc]
 
-[haruka_stand face="do" size="l"]
+[old_haruka_stand face="do" size="l"]
 [shownametag name="遥香" visible=true]
 「自爆させたあなたが言わないで欲しいわね」[plc]
 
@@ -749,11 +749,11 @@
 [shownametag name="大樹" visible=true]
 「でも人数足らないっしょ？」[plc]
 
-[haruka_face face="magao"]
+[old_haruka_face face="magao"]
 [shownametag name="遥香" visible=true]
 「……そこはまぁ、どうにかするしかないわ」[plc]
 
-[haruka_face face="raku"]
+[old_haruka_face face="raku"]
 [shownametag name="遥香" visible=true]
 「イベントが決まれば、外部の協力者も出来るだろうし」[plc]
 
@@ -824,12 +824,12 @@
 [shownametag name="大樹" visible=true]
 「じゃ、そのじゃんけんで運命が決まっちゃいますね」[plc]
 
-[haruka_stand face="ai" size="l"]
+[old_haruka_stand face="ai" size="l"]
 [shownametag name="遥香" visible=true]
 「そー、なのよねー。[l]例年だったら[r]
 　どうしようもないって程でもないんだけど、[l]今年はね……」[plc]
 
-[haruka_stand face="kuno" size="l"]
+[old_haruka_stand face="kuno" size="l"]
 [shownametag name="遥香" visible=true]
 「……一応、もしスポーツイベントになった時のために、[lr]
 　運動部とはずっと交流してきたんだけど」[plc]
@@ -854,12 +854,12 @@
 
 後悔するように、縁は言う。[plc]
 
-[haruka_stand face="magao"]
+[old_haruka_stand face="magao"]
 [shownametag name="遥香" visible=true]
 「うーん、しゃーないよ。[lr]
 　なんか、あいつら成瀬にべったりだったし……」[plc]
 
-[haruka_stand face="raku"]
+[old_haruka_stand face="raku"]
 [shownametag name="遥香" visible=true]
 「ま、文化イベント自体はアタリだから」[plc]
 
@@ -892,7 +892,7 @@
 チャイムが鳴った。[plc]
 
 [fadeoutse time="1000"]
-[haruka_stand face="magao"]
+[old_haruka_stand face="magao"]
 [shownametag name="遥香" visible=true]
 「あ、これ予鈴じゃない？」[plc]
 [dis_all_chara]
@@ -943,7 +943,7 @@
 [shownametag name="成瀬" visible=true]
 「――」[plc]
 
-[haruka_face face="magao"]
+[old_haruka_face face="magao"]
 [shownametag name="遥香" visible=true]
 「――」[plc]
 
@@ -965,7 +965,7 @@
 [old_naruse_stand face="hohoho" pose="1"]
 勝ちましたわ！」[plc]
 [dis_all_chara]
-[haruka_face face="magao"]
+[old_haruka_face face="magao"]
 [shownametag name="遥香" visible=true]
 「……」[plc]
 
@@ -988,7 +988,7 @@
 あんな声で高笑いなんて、出来るわけがない。[plc]
 
 
-[haruka_stand face="ai" size="l"]
+[old_haruka_stand face="ai" size="l"]
 [shownametag name="遥香" visible=true]
 「……うーん、ごめん負けちゃったわ」[plc]
 
@@ -997,7 +997,7 @@
 一方、先輩は自分の拳を不思議そうに眺めながら、[lr]
 こちらに戻ってきた。[plc]
 
-[haruka_stand face="ai" size="m"]
+[old_haruka_stand face="ai" size="m"]
 [shownametag name="遥香" visible=true]
 「おまじないって効かないね」[plc]
 
@@ -1006,7 +1006,7 @@
 「なんのまじないをしたんですか？」[plc]
 
 
-[haruka_stand face="magao"]
+[old_haruka_stand face="magao"]
 [shownametag name="遥香" visible=true]
 「腕めくった」[plc]
 
@@ -1089,7 +1089,7 @@
 が、ちょっと、ちょっと待てよ。[plc]
 
 [fadebgm volume="100" time="800"]
-[haruka_stand face="odoroki" size="l"]
+[old_haruka_stand face="odoroki" size="l"]
 [shownametag name="遥香" visible=true]
 「……」[plc]
 

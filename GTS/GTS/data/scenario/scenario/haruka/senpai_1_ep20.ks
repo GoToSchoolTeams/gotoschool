@@ -1,11 +1,7 @@
 ;[梅雨明けは遠く]
-[SetupMessageWindow hide_window="true"]
-
-[fadeoutbgm time="1000"]
-[strans storage="white"]
+[StartNewScene storage="bg_okujo_m"]
 
 [fadeinse storage="wind" time="1000"]
-[strans storage="okujo_m"]
 
 
 ;[call target=*De]
@@ -30,7 +26,7 @@
 [strans storage="rika_dt"]
 
 [fadeinbgm storage="daily_2" time="2000"]
-[haruka_face face="keibetsu"]
+[old_haruka_face face="keibetsu"]
 [shownametag name="遥香" visible=true]
 「あの、」[plc]
 
@@ -62,7 +58,7 @@
 門前払いは基本で。[plc]
 
 [strans storage="bg_sadobu"]
-[miyabi_stand face="futsu" size="l"]
+[old_miyabi_stand face="futsu" size="l"]
 [shownametag name="十二単" visible=true]
 「――古池や蛙飛び込む塩の海」[plc]
 
@@ -74,7 +70,7 @@
 [shownametag name="文化部女子" visible=true bust="false"]
 「あの、部長」[plc]
 
-[miyabi_stand face="futsu" size="l" time="200"]
+[old_miyabi_stand face="futsu" size="l" time="200"]
 [shownametag name="十二単" visible=true]
 [nowait]
 「塩撒きなさい」[plc]
@@ -406,11 +402,11 @@
 
 『何の証拠があって』と言おうとしたが、[plc]
 
-[haruka_face face="keibetsu"]
+[old_haruka_face face="keibetsu"]
 [shownametag name="遥香" visible=true]
 「……」[plc]
 
-[gaia_face face="serious"]
+[old_gaia_face face="serious"]
 [shownametag name="ガイア" visible=true]
 「……」[plc]
 
@@ -461,7 +457,7 @@
 [shownametag name="大樹" visible=true]
 「終わり、ゲームオーバー！」[plc]
 
-[haruka_face face="keibetsu"]
+[old_haruka_face face="keibetsu"]
 [shownametag name="遥香" visible=true]
 「……」[plc]
 
@@ -530,7 +526,7 @@
 
 
 ;この顔じゃねぇええええええええええええええええ！
-[haruka_stand face="keibetsu" size="l"]
+[old_haruka_stand face="keibetsu" size="l"]
 [shownametag name="遥香" visible=true]
 「……」[plc]
 
@@ -554,7 +550,7 @@
 [shownametag name="大樹" visible=true]
 「まだなんすか？　もういいでしょ？？」[plc]
 
-[haruka_face face="keibetsu"]
+[old_haruka_face face="keibetsu"]
 [shownametag name="遥香" visible=true]
 「……」[plc]
 
@@ -566,7 +562,7 @@
 [shownametag name="大樹" visible=true]
 「頑張ってますよね？　頑張っちゃってますよね？？」[plc]
 
-[haruka_face face="keibetsu"]
+[old_haruka_face face="keibetsu"]
 [shownametag name="遥香" visible=true]
 「……」[plc]
 
@@ -582,7 +578,7 @@
 [shownametag name="大樹" visible=true]
 「――言ってもらえませんかね？」[plc]
 
-[haruka_stand face="keibetsu" size="l"]
+[old_haruka_stand face="keibetsu" size="l"]
 [shownametag name="遥香" visible=true]
 「……」[plc]
 
@@ -595,7 +591,7 @@
 感情がドバドバ溢れてきて、[lr]
 涙と鼻水が情けないくらいに漏れてきて。[plc]
 
-[gaia_stand face="serious"]
+[old_gaia_stand face="serious"]
 [shownametag name="ガイア" visible=true]
 「おい、兄弟」[plc]
 
@@ -610,7 +606,7 @@
 ――ドガッ！[plc]
 
 [playse storage="bosu38"]
-[gaia_face  face="serious"]
+[old_gaia_face  face="serious"]
 [shownametag name="ガイア" visible=true]
 「ぐっ」[plc]
 
@@ -618,7 +614,7 @@
 
 デブが、みっともなく転がった。[plc]
 
-
+[[satori_face face="ai"]
 [shownametag name="悟" visible=true bust="false"]
 「……ひぃ」[plc]
 
@@ -630,7 +626,7 @@
 
 それでも、[plc]
 
-[haruka_face face="keibetsu"]
+[old_haruka_face face="keibetsu"]
 [shownametag name="遥香" visible=true]
 「……」[plc]
 
@@ -803,7 +799,7 @@
 [fadeinse storage="semi" time="2000" loop="true"]
 言葉の暴力は、[plc]
 
-[haruka_stand face="raku" size="l"]
+[old_haruka_stand face="raku" size="l"]
 [shownametag name="遥香" visible=true]
 「――谷口君は、頑張ってるよ」[plc]
 
@@ -811,14 +807,14 @@
 [shownametag name="大樹" visible=true]
 「……せんぱ」[plc]
 
-[haruka_stand face="raku" size="l"]
+[old_haruka_stand face="raku" size="l"]
 [shownametag name="遥香" visible=true]
 「頑張ってるから、ほんとよく頑張ったから、」[plc]
 
 [shownametag name="遥香" visible=true]
 「だから……」[plc]
 
-[haruka_stand face="ki" size="l" time="200"]
+[old_haruka_stand face="ki" size="l" time="200"]
 [shownametag name="遥香" visible=true]
 「……逃げてもいいって、そう言って欲しいわけ？」[plc]
 [dis_all_chara]
@@ -830,7 +826,7 @@
 [shownametag name="大樹" visible=true]
 「ぁ、う」[plc]
 
-[haruka_stand face="keibetsu" size="l"]
+[old_haruka_stand face="keibetsu" size="l"]
 [shownametag name="遥香" visible=true]
 「帰んなさい」[plc]
 
@@ -863,7 +859,7 @@
 悟は、泣きべそをかいていて。[lr]
 ガイアはうずくまっったまま、縁は表情が見えない。[plc]
 
-[haruka_stand face="keibetsu" size="l"]
+[old_haruka_stand face="keibetsu" size="l"]
 [shownametag name="遥香" visible=true]
 「……」[plc]
 

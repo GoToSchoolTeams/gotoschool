@@ -1,5 +1,5 @@
-
-;;【bust画像が消えないplc】
+*【機能系マクロ】
+;;[bust画像が消えないplc]
 [macro name="plk"]
 [p]
 [shownametag visible=false]
@@ -10,7 +10,16 @@
 [current layer="message0"]
 [er]
 [endmacro]
-
+;;[新しいシーンを始めるマクロ]
+;;storage=背景画像, 画像ファイル名
+[macro name="StartNewScene"]
+[dis_all_chara]
+[SetupMessageWindow hide_window="true"]
+[fadeoutbgm time="1000"]
+[strans storage="white"]
+[strans storage="%storage"]
+[kagtag strage="%storage"]
+[endmacro]
 
 
 *【新フォーマット立ち絵】

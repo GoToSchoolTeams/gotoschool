@@ -38,7 +38,7 @@
 
 季節は、梅雨入りを迎えていた。[plc]
 
-[haruka_stand face="keibetsu"]
+[old_haruka_stand face="keibetsu"]
 [shownametag name="遥香" visible=true]
 「……どういうことだと思う？」[plc]
 
@@ -59,11 +59,11 @@
 [shownametag name="悟" visible=true]
 「……なにがですかぁ？」[plc]
 
-[gaia_stand face="kangaeru" time="200"]
+[old_gaia_stand face="kangaeru" time="200"]
 [shownametag name="ガイア" visible=true]
 「話が見えんな」[plc]
 
-[haruka_stand face="magao" time="200"]
+[old_haruka_stand face="magao" time="200"]
 [shownametag name="遥香" visible=true]
 「そうだったわね……」[plc]
 
@@ -71,21 +71,21 @@
 
 参加してなかった面子に、先輩は手短に説明する。[plc]
 
-[haruka_stand face="keibetsu"]
+[old_haruka_stand face="keibetsu"]
 [shownametag name="遥香" visible=true]
 「……というわけ」[plc]
 
-[gaia_stand face="serious" time="200"]
+[old_gaia_stand face="serious" time="200"]
 [shownametag name="ガイア" visible=true]
 「それは妙だな」[plc]
 [dis_all_chara]
 
-[mash_stand face="normal" pos="l" time="200"]
+[old_mash_stand face="normal" pos="l" time="200"]
 [shownametag name="マッシュ" visible=true]
 「把握したでござる」[plc]
 [dis_all_chara]
 
-[orutega_stand face="normal2" pos="r" time="200"]
+[old_orutega_stand face="normal2" pos="r" time="200"]
 [shownametag name="オルテガ" visible=true]
 「♪」[plc]
 [dis_all_chara]
@@ -102,7 +102,7 @@
 [shownametag name="大樹" visible=true]
 「なんでスポーツの方を選んだんすかね？」[plc]
 
-[haruka_stand face="ai"]
+[old_haruka_stand face="ai"]
 [shownametag name="遥香" visible=true]
 「わかんない、不思議だわ」[plc]
 
@@ -134,17 +134,17 @@
 罠……ね。[lr]
 文化部は向こうのホームらしいが。[plc]
 
-[haruka_stand face="keibetsu"]
+[old_haruka_stand face="keibetsu"]
 [shownametag name="遥香" visible=true]
 「でも、だとしたらちょっと頭が悪すぎるわ……。[lr]
 　だってそうでしょう？」[plc]
 
-[haruka_stand face="do"]
+[old_haruka_stand face="do"]
 [shownametag name="遥香" visible=true]
 「この行事、相手を潰したら勝ちってもんじゃないのよ。[lr]
 　無難にこなして、相手が潰れるのを待つんだわ。[l]特に『今回は』」[plc]
 
-[haruka_stand face="keibetsu" size="l"]
+[old_haruka_stand face="keibetsu" size="l"]
 [shownametag name="遥香" visible=true]
 「特に『今回は』」[plc]
 
@@ -169,7 +169,7 @@
 ……っていうのをガイアからも言われていた。[lr]
 それに、[plc]
 
-[gaia_stand face="kangaeru"]
+[old_gaia_stand face="kangaeru"]
 [shownametag name="ガイア" visible=true]
 「文化部は、運動部と違ってやることが明確に決まってる。[lr]
 　加えて……ここ以外にやる活動が無い奴らも多いのだから」[plc]
@@ -181,11 +181,11 @@
 
 ちょっと不快だったが、ガイアの言葉に続ける。[plc]
 
-[gaia_face face="egao"]
+[old_gaia_face face="egao"]
 [shownametag name="ガイア" visible=true]
 「その通りだ兄弟」[plc]
 
-[haruka_stand face="kuno" time="200"]
+[old_haruka_stand face="kuno" time="200"]
 [shownametag name="遥香" visible=true]
 「どういう事なんだろうねぇ」[plc]
 
@@ -197,7 +197,7 @@
 [shownametag name="縁" visible=true]
 「……」[plc]
 
-[gaia_face face="kangaeru"]
+[old_gaia_face face="kangaeru"]
 [shownametag name="ガイア" visible=true]
 「……」[plc]
 
@@ -209,15 +209,15 @@
 
 しばらくの沈黙の後、ガイアは言った。[plc]
 
-[gaia_stand face="serious"]
+[old_gaia_stand face="serious"]
 [shownametag name="ガイア" visible=true]
 「……深く考えることは無いのかもしれん」[plc]
 
-[gaia_stand face="egao"]
+[old_gaia_stand face="egao"]
 [shownametag name="ガイア" visible=true]
 「季節が変わったように、我らの風向きが変わっただけかもな」[plc]
 
-[haruka_face face="keibetsu"]
+[old_haruka_face face="keibetsu"]
 [shownametag name="遥香" visible=true]
 「……」[plc]
 
@@ -229,7 +229,7 @@
 
 [fadeoutse time="1000"]
 
-[haruka_stand face="kuno"]
+[old_haruka_stand face="kuno"]
 [shownametag name="遥香" visible=true]
 「私も、自分で引き当てたんなら悩みはしないんだけどね」[plc]
 
@@ -245,7 +245,7 @@
 [shownametag name="大樹" visible=true]
 「ほら、なんかバカそうじゃないですか？　成瀬さんって」[plc]
 
-[haruka_stand face="niyaniya"]
+[old_haruka_stand face="niyaniya"]
 [shownametag name="遥香" visible=true]
 「ふ、そうねぇ」[plc]
 
@@ -253,7 +253,7 @@
 
 そう言うと、先輩は楽しげに笑ったが、[plc]
 
-[haruka_stand face="ki" size="l"]
+[old_haruka_stand face="ki" size="l"]
 [shownametag name="遥香" visible=true]
 「確かにバカそうだけれど、[lr]
 　あんまりあの巻き髪ウンコドリルをナメない方がいいわよ」[plc]
@@ -266,7 +266,7 @@
 いやまぁ、見えなくもないけど。[plc]
 
 
-[haruka_stand face="raku"]
+[old_haruka_stand face="raku"]
 [shownametag name="遥香" visible=true]
 「ま、悩んでも無駄ね」[plc]
 
@@ -279,7 +279,7 @@
 「決まったは決まったんだから、[lr]
 　幸運なのかまんまとしてやられたのかは明日確認しましょう！」[plc]
 
-[haruka_stand face="ki" size=l]
+[old_haruka_stand face="ki" size=l]
 [shownametag name="遥香" visible=true]
 「――解散！」[plc]
 [dis_all_chara]
@@ -294,15 +294,15 @@
 [shownametag name="縁" visible=true]
 「あなたは頭で考えても無駄だから肌で感じなさい」[plc]
 
-[gaia_face face="egao"]
+[old_gaia_face face="egao"]
 [shownametag name="ガイア" visible=true]
 「兄弟ぃいいいいいいい！　明日からが、本番だぁ！！！」[plc]
 
-[mash_face face="normal"]
+[old_mash_face face="normal"]
 [shownametag name="マッシュ" visible=true]
 「拙者、如意棒まで奮起しそうでござる！！」[plc]
 
-[orutega_face face="odoroki"]
+[old_orutega_face face="odoroki"]
 [shownametag name="オルテガ" visible=true]
 「ナァーゴ♪」[plc]
 
@@ -318,7 +318,7 @@
 
 いや、[plc]
 
-[haruka_stand face="keibetsu"]
+[old_haruka_stand face="keibetsu"]
 [shownametag name="遥香" visible=true]
 「……」[plc]
 [dis_all_chara]
