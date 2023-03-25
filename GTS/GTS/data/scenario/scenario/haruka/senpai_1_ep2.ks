@@ -121,7 +121,7 @@
 [shownametag name="大樹" visible=true]
 「そーっす、そ～っすよ！　なんで乗ってんすか？」[plc]
 
-[showstandimage who=haruka face=magao]
+[showstandimage who=haruka_old face=magao]
 [shownametag name="遥香" visible=true]
 「あらら、谷口君はか弱い女の子を
 こんな坂の上まで自分で走らせる気だったの？」[plc]
@@ -146,7 +146,7 @@
 か弱かろうが、持病があろうが、[lr]
 自分で坂を登るのは折り込み済みの学校なのだ。[plc]
 
-[showstandimage who=haruka face=magao]
+[showstandimage who=haruka_old face=magao]
 [shownametag name="遥香" visible=true]
 「……だって、谷口君居たし」[plc]
 
@@ -195,7 +195,7 @@
 「だから、そうじゃなくて！」[plc]
 
 
-[showstandimage who=haruka face=ai]
+[showstandimage who=haruka_old face=ai]
 [shownametag name="遥香" visible=true]
 「ハッキリ言いなよ、谷口君」[plc]
 
@@ -1241,7 +1241,7 @@
 そうして、放課後の鐘が鳴った。[plc]
 
 [fadeoutse time="1000"]
-[showstandimage who=haruka face=kuno]
+[showstandimage who=haruka_old face=kuno]
 [shownametag name="遥香" visible=true]
 「……みんな、来なかったね」[plc]
 
@@ -1249,7 +1249,7 @@
 [shownametag name="大樹" visible=true]
 「……」[plc]
 
-[showstandimage who=haruka face=ai]
+[showstandimage who=haruka_old face=ai]
 [shownametag name="遥香" visible=true]
 「どうしよう」[plc]
 

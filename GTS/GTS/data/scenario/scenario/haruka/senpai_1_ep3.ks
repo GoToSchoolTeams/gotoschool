@@ -40,7 +40,7 @@
 なにやら視線を感じるが、気にしていられない。[lr]
 昨日の出来事が、それだけショックだった。[plc]
 
-[showstandimage who=gaia face=egao]
+[showstandimage who=gaia_old face=egao]
 [shownametag name="ガイア" visible=true]
 「おぅ、兄弟おはよう！」[plc]
 
@@ -48,7 +48,7 @@
 
 楽観視していた。[plc]
 
-[showstandimage who=gaia face=kangaeru pos=l]
+[showstandimage who=gaia_old face=kangaeru pos=l]
 [shownametag name="ガイア" visible=true]
 「俺の見立てじゃ、もうしばらくは来ないかと思っていたが」[plc]
 
@@ -57,7 +57,7 @@
 縁達のキレ方は確かにすごかったけど、[lr]
 アレはあくまで俺に対してのものだと思っていた。[plc]
 
-[showstandimage who=gaia face=normal]
+[showstandimage who=gaia_old face=normal]
 [shownametag name="ガイア" visible=true]
 「昨日も来なかったしな、いや放課後には来てたんだろう？」[plc]
 
@@ -66,7 +66,7 @@
 先輩の仲介のもと、全力で土下座すれば、[lr]
 見逃してもらえるんじゃないかと思っていた。[plc]
 
-[showstandimage who=gaia face=kangaeru pos=r]
+[showstandimage who=gaia_old face=kangaeru pos=r]
 [shownametag name="ガイア" visible=true]
 「実際、兄弟へのバッシングは凄いよ。[lr]
 いや、まぁ来ないのは正解だと思っていたんだが」[plc]
@@ -74,7 +74,7 @@
 
 そうじゃなかったのだ。[plc]
 
-[showstandimage who=gaia face=egao]
+[showstandimage who=gaia_old face=egao]
 [shownametag name="ガイア" visible=true]
 「でもま、もう来ちまうとはな。その勇気は敬服に値する」[plc]
 
@@ -82,7 +82,7 @@
 
 怒りは、俺に向けられたものじゃなかった。[plc]
 
-[showstandimage who=gaia face=normal]
+[showstandimage who=gaia_old face=normal]
 [shownametag name="ガイア" visible=true]
 「勿論、俺は支持するぜ兄弟。２つの意味でな」[plc]
 
@@ -91,7 +91,7 @@
 俺なんて、はじめから眼中になかったのだ。[plc]
 
 
-[showstandimage who=gaia face=normal size=l]
+[showstandimage who=gaia_old face=normal size=l]
 [shownametag name="ガイア" visible=true]
 「なぁ、聞いてるか兄弟？」[plc]
 
@@ -111,7 +111,7 @@
 なんでお前だけはいつも通りなんだよ！！[plc]
 
 
-[showstandimage who=gaia face=normal size=l]
+[showstandimage who=gaia_old face=normal size=l]
 [shownametag name="ガイア" visible=true]
 「なんだ、聞いてるんじゃないか」[plc]
 
@@ -119,7 +119,7 @@
 
 鼻血を出しながらもガイアは立ち上がり、グッと指を掲げた。[plc]
 
-[showstandimage who=gaia face=egao size=l]
+[showstandimage who=gaia_old face=egao size=l]
 [shownametag name="ガイア" visible=true]
 「とにかく、俺は支持するぜ！」[plc]
 
@@ -139,7 +139,7 @@
 [shownametag name="大樹" visible=true]
 「で、何のようだよ？」[plc]
 
-[showstandimage who=gaia face=normal size=l]
+[showstandimage who=gaia_old face=normal size=l]
 [shownametag name="ガイア" visible=true]
 「ほぅ、兄弟の方から用を尋ねてくれるとは珍しい」[plc]
 
@@ -152,7 +152,7 @@
 早く帰れってことだよ。[plc]
 
 [fadeoutbgm time="500"]
-[showstandimage who=gaia face=serious]
+[showstandimage who=gaia_old face=serious]
 [shownametag name="ガイア" visible=true]
 「実は、用などない」[plc]
 
@@ -172,7 +172,7 @@
 
 このデブッ、動くぞッッ！！[plc]
 
-[showstandimage who=gaia face=egao]
+[showstandimage who=gaia_old face=egao]
 [shownametag name="ガイア" visible=true]
 「ふふふ、重装甲高起動を売りにしたこの……」[plc]
 
@@ -186,7 +186,7 @@
 予鈴が鳴った。[plc]
 
 [fadeoutse time="1000"]
-[showstandimage who=gaia face=normal]
+[showstandimage who=gaia_old face=normal]
 [shownametag name="ガイア" visible=true]
 「……茶番をやっている時間は無いらしいな」[plc]
 
@@ -570,7 +570,7 @@
 ちょっと動いただけで、舌打ちはされるのだけれど。[plc]
 
 [fadebgm volume="100" time="100"]
-[showstandimage who=gaia face=egao]
+[showstandimage who=gaia_old face=egao]
 [shownametag name="ガイア" visible=true]
 「オー！　兄弟、無事のようだな！！」[plc]
 
@@ -586,7 +586,7 @@
 
 こいつらは、相変わらずだ。[plc]
 
-[showbustup who=gaia face=egao pose=1 visible=true]
+[showbustup who=gaia_old face=egao pose=1 visible=true]
 [shownametag name="ガイア" visible=true]
 「兄弟、無事でなにより。じゃぁ、食堂に行くか」[plc]
 
@@ -610,7 +610,7 @@
 
 変わってないの、これだけかよ。[plc]
 
-[showstandimage who=gaia face=kangaeru size=l index=9999]
+[showstandimage who=gaia_old face=kangaeru size=l index=9999]
 [shownametag name="ガイア" visible=true]
 「……どうした？」[plc]
 
@@ -622,7 +622,7 @@
 [shownametag name="大樹" visible=true]
 「……気持ち悪い」[plc]
 
-[showstandimage who=gaia face=komari size=l index=9999]
+[showstandimage who=gaia_old face=komari size=l index=9999]
 [shownametag name="ガイア" visible=true]
 「またか、兄弟は貧弱だな」[plc]
 
@@ -635,7 +635,7 @@
 「ちょっと、トイレに行ってくる。[lr]
 お前らは先に食堂に行っててくれ」[plc]
 
-[showstandimage who=gaia face=serious size=l index=9999]
+[showstandimage who=gaia_old face=serious size=l index=9999]
 [shownametag name="ガイア" visible=true]
 「……」[plc]
 
@@ -643,7 +643,7 @@
 
 ガイアはたっぷりと俺の表情を確認した後、[plc]
 
-[showstandimage who=gaia face=kangaeru size=l index=9999]
+[showstandimage who=gaia_old face=kangaeru size=l index=9999]
 [shownametag name="ガイア" visible=true]
 「分かった」[plc]
 
@@ -659,7 +659,7 @@
 [shownametag name="大樹" visible=true]
 「じゃ」[plc]
 
-[showstandimage who=gaia face=normal index=9999]
+[showstandimage who=gaia_old face=normal index=9999]
 [shownametag name="ガイア" visible=true]
 「席は取っててやるから、はやくこいよ兄弟」[plc]
 

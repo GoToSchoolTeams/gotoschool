@@ -1,12 +1,12 @@
 [SetupMessageWindow]
 [strans storage="okujo_m"]
 [fadeinbgm storage="evening" time="1000"]
-[showstandimage who=haruka face=kuno]
+[showstandimage who=haruka_old face=kuno]
 [shownametag name="遥香" visible=true]
 「――まったく、君はねぇ。[lr]
 どうしてそう、予想通りの行動しか取らないかな」[plc]
 
-[showstandimage who=haruka face=do]
+[showstandimage who=haruka_old face=do]
 [shownametag name="遥香" visible=true]
 「それもいつも最悪なほう！」[plc]
 
@@ -71,7 +71,7 @@
 [shownametag name="大樹" visible=true]
 「ここ、なんすか？」[plc]
 
-[showstandimage who=haruka face=magao]
+[showstandimage who=haruka_old face=magao]
 [shownametag name="遥香" visible=true]
 「屋上」[plc]
 
@@ -145,7 +145,7 @@
 
 舌が痺れるとかもないし。[plc]
 
-[showbustup who=haruka face=jitome pose=1]
+[showbustup who=haruka_old face=jitome pose=1]
 [shownametag name="遥香" visible=true]
 「……」[plc]
 
@@ -161,7 +161,7 @@
 
 困惑すると、先輩は普通に溜息を付いた。[plc]
 
-[showbustup who=haruka face=kuno pose=1]
+[showbustup who=haruka_old face=kuno pose=1]
 [shownametag name="遥香" visible=true]
 「本当に、君は予想通りだね」[plc]
 
@@ -169,7 +169,7 @@
 [shownametag name="大樹" visible=true]
 「そうっすか」[plc]
 
-[showbustup who=haruka face=jitome pose=1]
+[showbustup who=haruka_old face=jitome pose=1]
 [shownametag name="遥香" visible=true]
 「それも最悪のほうの」[plc]
 
@@ -181,7 +181,7 @@
 あまりの言われようだが、自業自得なので黙っておく。[plc]
 
 
-[showstandimage who=haruka face=kuno]
+[showstandimage who=haruka_old face=kuno]
 [shownametag name="遥香" visible=true]
 「はぁ」[plc]
 
@@ -190,11 +190,11 @@
 呆れ果てたという顔で溜息を付くと、[lr]
 先輩は俺の持っていた弁当箱を取り上げた。[plc]
 
-[showstandimage who=haruka face=ai]
+[showstandimage who=haruka_old face=ai]
 [shownametag name="遥香" visible=true]
 「あのね、これ。私が作ったの、で、味が気になるわけ？」[plc]
 
-[showstandimage who=haruka face=do]
+[showstandimage who=haruka_old face=do]
 [shownametag name="遥香" visible=true]
 「分かった？」[plc]
 
@@ -223,10 +223,10 @@
 「いや、あの、その……美味しかったです」[plc]
 
 
-[showstandimage who=haruka face=jitome nobust=true]
+[showstandimage who=haruka_old face=jitome nobust=true]
 やっとのことでそう言うと、先輩はさらに深く溜息を付いた。[plc]
 
-[showbustup who=haruka face=jitome pose=1]
+[showbustup who=haruka_old face=jitome pose=1]
 [shownametag name="遥香" visible=true]
 「もう遅いわ、遅すぎるわ」[plc]
 
@@ -246,7 +246,7 @@
 
 物欲しそうに見ていると、先輩は横目でこちらを睨みつけた。[plc]
 
-[showstandimage who=haruka face=keibetsu]
+[showstandimage who=haruka_old face=keibetsu]
 [shownametag name="遥香" visible=true]
 「何？」[plc]
 
@@ -254,7 +254,7 @@
 [shownametag name="大樹" visible=true]
 「いや、あのぉ」[plc]
 
-[showstandimage who=haruka face=do]
+[showstandimage who=haruka_old face=do]
 [shownametag name="遥香" visible=true]
 「別に谷口君の為に作った弁当じゃないんだから、[lr]
 自分用よコレ。谷口君は毒見」[plc]
@@ -262,7 +262,7 @@
 
 あ、やっぱそうか。[plc]
 
-[showstandimage who=haruka face=kuno]
+[showstandimage who=haruka_old face=kuno]
 [shownametag name="遥香" visible=true]
 「……弁当なんて、普段自分じゃ作らないからねぇ」[plc]
 
@@ -270,7 +270,7 @@
 [shownametag name="大樹" visible=true]
 「そうなんですか？」[plc]
 
-[showstandimage who=haruka face=magao]
+[showstandimage who=haruka_old face=magao]
 [shownametag name="遥香" visible=true]
 「普段は、友達と学食」[plc]
 
@@ -286,7 +286,7 @@
 
 よけいなことに、気づいてしまった。[plc]
 
-[showstandimage who=haruka face=ai]
+[showstandimage who=haruka_old face=ai]
 [shownametag name="遥香" visible=true]
 「……君は、鋭くないほうがいいとこには鋭いんだね」[plc]
 
@@ -302,7 +302,7 @@
 
 なんだか、申し訳なくなった。[plc]
 
-[showstandimage who=haruka face=odoroki]
+[showstandimage who=haruka_old face=odoroki]
 [shownametag name="遥香" visible=true]
 「……驚いた」[plc]
 
@@ -323,7 +323,7 @@
 憤慨しそうになるが、黙っておく。[lr]
 すると、先輩は続けた。[plc]
 
-[showstandimage who=haruka face=raku]
+[showstandimage who=haruka_old face=raku]
 [shownametag name="遥香" visible=true]
 「ちょっと、心配でね……一応、ってやつ」[plc]
 
@@ -336,7 +336,7 @@
 「大丈夫、杞憂だったみたい。[lr]
 いつも通り、誘われたよ。２日ともね」[plc]
 
-[showstandimage who=haruka face=kuno]
+[showstandimage who=haruka_old face=kuno]
 [shownametag name="遥香" visible=true]
 「ただ、ちょっとね……しばらくは、弁当作ろうかなって思う」[plc]
 
@@ -349,7 +349,7 @@
 多分、先輩にも、[lr]
 口に出さない程度の、ちょっとした変化が起こっているのだろう。[plc]
 
-[showstandimage who=haruka face=ai]
+[showstandimage who=haruka_old face=ai]
 [shownametag name="遥香" visible=true]
 「……谷口君の方は、杞憂じゃすまなかったみたいだけどね」[plc]
 
@@ -371,7 +371,7 @@
 ただ、きっかけが、あって。[lr]
 それで……。[plc]
 
-[showbustup who=haruka face=do pose=1]
+[showbustup who=haruka_old face=do pose=1]
 [shownametag name="遥香" visible=true]
 「……」[plc]
 
@@ -379,7 +379,7 @@
 
 黙っている俺を他所に、先輩は豪快にお茶を飲んだ。[plc]
 
-[showstandimage who=haruka face=magao]
+[showstandimage who=haruka_old face=magao]
 [shownametag name="遥香" visible=true]
 「ま、頑張ってよ」[plc]
 
@@ -387,11 +387,11 @@
 [shownametag name="大樹" visible=true]
 「……簡単に言いますね」[plc]
 
-[showstandimage who=haruka face=magao]
+[showstandimage who=haruka_old face=magao]
 [shownametag name="遥香" visible=true]
 「言うよ、そりゃ。谷口君には責任があるよ」[plc]
 
-[showstandimage who=haruka face=ai tere=true]
+[showstandimage who=haruka_old face=ai tere=true]
 [shownametag name="遥香" visible=true]
 「……私をひとりぼっちにする気？」[plc]
 
@@ -403,7 +403,7 @@
 [shownametag name="大樹" visible=true]
 「ズルくないっすか？」[plc]
 
-[showstandimage who=haruka face=do]
+[showstandimage who=haruka_old face=do]
 [shownametag name="遥香" visible=true]
 「ズルくないね。さっさと、逃げようとしたくせに」[plc]
 
@@ -447,7 +447,7 @@
 [shownametag name="大樹" visible=true]
 「……ごめんなさい」[plc]
 
-[showbustup who=haruka face=keibetsu pose=1]
+[showbustup who=haruka_old face=keibetsu pose=1]
 [shownametag name="遥香" visible=true]
 「……」[plc]
 ;[モグモグ]
@@ -496,7 +496,7 @@
 「……」[plc]
 
 [gadget show="false"]
-[showbustup who=haruka face=do pose=1]
+[showbustup who=haruka_old face=do pose=1]
 [shownametag name="遥香" visible=true]
 「食べなさい、『おいしそう』にね」[plc]
 
@@ -508,7 +508,7 @@
 
 そう言って、先輩は立ち上がる。[plc]
 
-[showstandimage who=haruka face=do size=l]
+[showstandimage who=haruka_old face=do size=l]
 [shownametag name="遥香" visible=true]
 「とにかく、二人じゃどうにもなんないわ」[plc]
 

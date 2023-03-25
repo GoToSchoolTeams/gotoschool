@@ -75,7 +75,7 @@
 [fadeinse storage="wind" time="1000"]
 [strans storage="okujo_m"]
 [fadeinbgm storage="evening" time="1000"]
-[showstandimage who=haruka face=keibetsu]
+[showstandimage who=haruka_old face=keibetsu]
 [shownametag name="遥香" visible=true]
 「さて、」[plc]
 
@@ -102,7 +102,7 @@
 もしかすると、[r]
 結構ひと目を気にするひとなのかもしれない。[plc]
 
-[showstandimage who=haruka face=kuno]
+[showstandimage who=haruka_old face=kuno]
 [shownametag name="遥香" visible=true]
 「思ったんだけどさ。[l]一人一人説得したところで、[r]
 　時間ばっかり掛かっちゃうと思うんだよね」[plc]
@@ -131,32 +131,32 @@
 親鳥の後に続く雛と同じ。[lr]
 『烏合の衆』とはよく言ったものなのだ。[plc]
 
-[showstandimage who=haruka face=magao]
+[showstandimage who=haruka_old face=magao]
 [shownametag name="遥香" visible=true]
 「だからまぁ、とりあえずリーダーの縁ちゃんを――」[plc]
 
 [shownametag name="大樹" visible=true]
 「――待った！」
-[showstandimage who=haruka face=odoroki nobust=true time="200" size=l]
+[showstandimage who=haruka_old face=odoroki nobust=true time="200" size=l]
 [plc]
 
 俺は、力強く叫んだ。
 [plc]
 
-[showstandimage who=haruka face=magao]
+[showstandimage who=haruka_old face=magao]
 [shownametag name="遥香" visible=true]
 「……はい、谷口君」[plc]
 
 
 [shownametag name="大樹" visible=true]
 「縁……いや、旗立さんは駄目っすよ先輩！[l][r]
-[showstandimage who=haruka face=keibetsu nobust=true]
+[showstandimage who=haruka_old face=keibetsu nobust=true]
 　先輩も見たでしょ、あの剣幕！！　あの憎悪！！！」[plc]
 
 [shownametag name="大樹" visible=true]
 「冷静な話し合いなんか、出来っこない！」[plc]
 
-[showstandimage who=haruka face=kuno nobust=true]
+[showstandimage who=haruka_old face=kuno nobust=true]
 
 [shownametag name="大樹" visible=true]
 「そもそもがアイツは、俺憎しでやってるんです！[r]
@@ -169,7 +169,7 @@
 
 俺の剣幕に先輩は少し呆れた様子だったが、[plc]
 
-[showstandimage who=haruka face=ai]
+[showstandimage who=haruka_old face=ai]
 [shownametag name="遥香" visible=true]
 「……こっちも冷静な話し合いは出来ないみたいね」[plc]
 
@@ -187,7 +187,7 @@
 大人げないのか？　……でも、でもしょうがない。[lr]
 だって、だってよ……。[plc]
 
-[showstandimage who=haruka face=magao]
+[showstandimage who=haruka_old face=magao]
 [shownametag name="遥香" visible=true]
 「じゃぁ、」[plc]
 
@@ -203,7 +203,7 @@
 [shownametag name="大樹" visible=true]
 「……そうですね」[plc]
 
-[showstandimage who=haruka face=keibetsu]
+[showstandimage who=haruka_old face=keibetsu]
 [shownametag name="遥香" visible=true]
 「……さて、誰にしようかしら。谷口君……考えある？」[plc]
 
@@ -220,7 +220,7 @@
 [shownametag name="大樹" visible=true]
 「先輩、」[plc]
 
-[showstandimage who=haruka face=magao]
+[showstandimage who=haruka_old face=magao]
 [shownametag name="遥香" visible=true]
 「何？」[plc]
 
@@ -229,7 +229,7 @@
 「名前が分かりません」
 [plc]
 
-[showstandimage who=haruka face=jitome time="200"]
+[showstandimage who=haruka_old face=jitome time="200"]
 [shownametag name="遥香" visible=true]
 「……」[plc]
 

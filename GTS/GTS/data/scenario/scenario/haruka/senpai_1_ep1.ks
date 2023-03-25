@@ -246,7 +246,7 @@
 
 [strans storage="white"]
 
-[showstandimage who=haruka face=ki page="back" notrans="true"]
+[showstandimage who=haruka_old face=ki page="back" notrans="true"]
 [strans storage="house_d" noclear="true"]
 [fadeinse storage="bird" time="1000"]
 [shownametag name="—y" visible=true]
