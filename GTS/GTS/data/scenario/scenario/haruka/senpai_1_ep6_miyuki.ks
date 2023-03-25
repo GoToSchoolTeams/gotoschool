@@ -7,7 +7,7 @@
 [shownametag name="大樹" visible=true]
 「――安倍 みゆき さんが良いとおもいます！」[plc]
 
-[showstandimage who=haruka face=magao]
+[showstandimage who=haruka_old face=magao]
 [shownametag name="遥香" visible=true]
 「なんで？」[plc]
 
@@ -18,13 +18,13 @@
 
 
 元気一杯に答えると、[l][r]
-[showstandimage who=haruka face=kuno nobust=true time="300"]
+[showstandimage who=haruka_old face=kuno nobust=true time="300"]
 先輩はとても残念そうな顔をしたが、[plc]
 
 
 [dis_all_chara]
 
-[showbustup who=haruka face=keibetsu pose=1]
+[showbustup who=haruka_old face=keibetsu pose=1]
 [shownametag name="遥香" visible=true bust="false"]
 「……」[plc]
 
@@ -79,7 +79,7 @@
 それでも女子の数が圧倒的に多いが、[lr]
 なんだかちょっとだけ男臭いように感じた。[plc]
 
-[showbustup who="haruka" face=ki pose="1"]
+[showbustup who="haruka_old" face=ki pose="1"]
 [shownametag name="遥香" visible=true]
 「――」[plc]
 
@@ -112,7 +112,7 @@
 [shownametag name="大樹" visible=true]
 「……おぉ、」[plc]
 
-[showbustup who="haruka" face=keibetsu pose="1"]
+[showbustup who="haruka_old" face=keibetsu pose="1"]
 [shownametag name="遥香" visible=true]
 「……」[plc]
 
@@ -136,23 +136,23 @@
 「なんでしょう？」[plc]
 
 
-[showstandimage who="haruka" pose="1" face=ki]
+[showstandimage who="haruka_old" pose="1" face=ki]
 [shownametag name="遥香" visible=true]
 「あのね…」[plc]
 
 
 先輩は何か言いかけたが、[plc]
 
-[showstandimage who="haruka" pose="1" face=raku time="200"]
+[showstandimage who="haruka_old" pose="1" face=raku time="200"]
 [shownametag name="遥香" visible=true]
 「……[l]
-[showstandimage who="haruka" pose="1" face=magao time="200"]
+[showstandimage who="haruka_old" pose="1" face=magao time="200"]
 ……[l]
-[showstandimage who="haruka" pose="1" face=suttoboke time="200"]
+[showstandimage who="haruka_old" pose="1" face=suttoboke time="200"]
 ……[l]
-[showstandimage who="haruka" pose="1" face=kuno time="200"]
+[showstandimage who="haruka_old" pose="1" face=kuno time="200"]
 ……。[l]
-[showstandimage who="haruka" pose="1" face=keibetsu time="0"]
+[showstandimage who="haruka_old" pose="1" face=keibetsu time="0"]
 だめだね、こりゃ」[plc]
 
 [dis_all_chara]
@@ -160,13 +160,13 @@
 そのまま飲み込んだ。[plc]
 
 
-[showstandimage who="haruka" pose="1" face=raku time="200"]
+[showstandimage who="haruka_old" pose="1" face=raku time="200"]
 [shownametag name="遥香" visible=true]
 「いや、なんていうか。[l]色々と考えてたんだけどね。[lr]
-[showstandimage who="haruka" pose="1" face=ki time="200"]
+[showstandimage who="haruka_old" pose="1" face=ki time="200"]
 　いざとなると、全部言い訳がましくなっちゃう」[plc]
 
-[showstandimage who="haruka" pose="1" face=keibetsu time="200"]
+[showstandimage who="haruka_old" pose="1" face=keibetsu time="200"]
 [shownametag name="遥香" visible=true]
 「『説得の言葉』って」[plc]
 
@@ -183,7 +183,7 @@
 [shownametag name="安倍" visible=true bust="false"]
 「私も、よくそう思います」[plc]
 
-[showbustup who="haruka" pose="1" face=raku]
+[showbustup who="haruka_old" pose="1" face=raku]
 [shownametag name="遥香" visible=true]
 「……安倍さん、頭良いからね」[plc]
 
@@ -192,7 +192,7 @@
 先輩は少し思案した様子だったが、[lr]
 やがて諦めたのか。[plc]
 
-[showstandimage who="haruka" pose="1" face=ki time="200"]
+[showstandimage who="haruka_old" pose="1" face=ki time="200"]
 [shownametag name="遥香" visible=true]
 「どうすればいいかな？」[plc]
 
@@ -229,7 +229,7 @@
 [shownametag name="安倍" visible=true bust="false"]
 「先輩のことは、大好きなんですよ」[plc]
 
-[showbustup who="haruka" pose="1" face=ki]
+[showbustup who="haruka_old" pose="1" face=ki]
 [shownametag name="遥香" visible=true]
 「……」[plc]
 
@@ -264,7 +264,7 @@
 ワラワラと、虫のように男たちが群がっていく。[lr]
 その様子を眺めながら、[plc]
 
-[showstandimage who="haruka" pose="1" face=keibetsu]
+[showstandimage who="haruka_old" pose="1" face=keibetsu]
 [shownametag name="遥香" visible=true]
 「フラれたね」[plc]
 
@@ -280,7 +280,7 @@
 
 ありゃぁ、何度来てもダメだろうな。[plc]
 
-[showstandimage who="haruka" pose="1" face=kuno]
+[showstandimage who="haruka_old" pose="1" face=kuno]
 [shownametag name="遥香" visible=true]
 「うーん」[plc]
 
@@ -292,7 +292,7 @@
 [shownametag name="大樹" visible=true]
 「どうしました？」[plc]
 
-[showstandimage who="haruka" pose="1" face=ai]
+[showstandimage who="haruka_old" pose="1" face=ai]
 [shownametag name="遥香" visible=true]
 「いや、ちょっと……ああいう顔されたのは、はじめてでさ。[lr]
 　あれってさ、どんな顔なんだろ？」[plc]
@@ -321,7 +321,7 @@
 てきとーに、それっぽいことを言うと。[plc]
 
 
-[showstandimage who="haruka" pose="1" face=raku]
+[showstandimage who="haruka_old" pose="1" face=raku]
 [shownametag name="遥香" visible=true]
 「なるほど！」[plc]
 
@@ -330,7 +330,7 @@
 妙に納得された。[plc]
 
 
-[showstandimage who="haruka" pose="1" face=niyaniya]
+[showstandimage who="haruka_old" pose="1" face=niyaniya]
 [shownametag name="遥香" visible=true]
 「『コブ』かぁ」[plc]
 

@@ -8,10 +8,10 @@
 [playse storage="chain_kishimi" loop="true"]
 [wait time="1000"]
 
-;[showstandimage who="haruka" pose="1" face=keibetsu size="l" time="200"]
+;[showstandimage who="haruka_old" pose="1" face=keibetsu size="l" time="200"]
 [show_message_fade time="2000"]
 [fadeoutse time="1000"]
-[showbustup who="haruka" pose="1" face=ai]
+[showbustup who="haruka_old" pose="1" face=ai]
 [shownametag name="遥香" visible=true]
 「……相変わらず、遅いね」[plc]
 [dis_all_chara]
@@ -40,7 +40,7 @@
 
 と、先輩は楽しげに笑った。[plc]
 
-[showbustup who="haruka" pose="1" face=odoroki]
+[showbustup who="haruka_old" pose="1" face=odoroki]
 [shownametag name="遥香" visible=true]
 「おぉ、反省の色が見え始めてきたね」[plc]
 
@@ -57,7 +57,7 @@
 もう何日目だろう？　手伝いもしてるわけだし。[lr]
 いい加減、信頼してくれても良いと思う。[plc]
 
-[showbustup who="haruka" pose="1" face=jitome]
+[showbustup who="haruka_old" pose="1" face=jitome]
 [shownametag name="遥香" visible=true]
 「ちっ、ちっ、ちっ。[l]甘いね谷口君」[plc]
 
@@ -65,7 +65,7 @@
 
 そんな俺の考えを見透かしてか、先輩は言う。[plc]
 
-[showbustup who="haruka" pose="1" face=keibetsu]
+[showbustup who="haruka_old" pose="1" face=keibetsu]
 [shownametag name="遥香" visible=true]
 「信頼ってね、そんな簡単に得られるもんじゃないよ」[plc]
 
@@ -76,7 +76,7 @@
 
 また、お説教タイムかよ。[plc]
 
-[showbustup who="haruka" pose="1" face=ki]
+[showbustup who="haruka_old" pose="1" face=ki]
 [shownametag name="遥香" visible=true]
 「いっくら時間かけても、戻んない時もあるしねぇ」[plc]
 
@@ -108,10 +108,10 @@
 
 と、俺の車輪も悲鳴を上げた。[plc]
 
-[showbustup who="haruka" pose="1" face=raku]
+[showbustup who="haruka_old" pose="1" face=raku]
 [shownametag name="遥香" visible=true]
 「はいはい、そんな声ださないの。[lr]
-[showbustup who="haruka" pose="1" face=ki]
+[showbustup who="haruka_old" pose="1" face=ki]
 　幸せが逃げるっていうでしょー？」[plc]
 
 [shownametag name="大樹" visible=true]
@@ -124,7 +124,7 @@
 叩かれた。[plc]
 
 
-[showstandimage who="haruka" pose="1" face=keibetsu size="l" time="200"]
+[showstandimage who="haruka_old" pose="1" face=keibetsu size="l" time="200"]
 [shownametag name="遥香" visible=true]
 「じゃ、単に私が不愉快だからでもいいよ」[plc]
 [dis_all_chara]
@@ -201,7 +201,7 @@
 
 [fadebgm volume="100" time="100"]
 [strans storage="sakamichi" time="100"]
-[showstandimage who="haruka" pose="1" face=keibetsu size="l" time="100"]
+[showstandimage who="haruka_old" pose="1" face=keibetsu size="l" time="100"]
 [shownametag name="遥香" visible=true]
 「なんか、考え事してるね？」[plc]
 
@@ -229,7 +229,7 @@
 
 体を元の体勢に戻しながら、先輩は呟く。[plc]
 
-[showbustup who="haruka" pose="1" face=magao]
+[showbustup who="haruka_old" pose="1" face=magao]
 [shownametag name="遥香" visible=true]
 「やるこたぁ、やってるんだし」[plc]
 
@@ -266,7 +266,7 @@
 「……やっぱ、いいです」[plc]
 
 
-[showbustup who="haruka" pose="1" face=odoroki]
+[showbustup who="haruka_old" pose="1" face=odoroki]
 [shownametag name="遥香" visible=true]
 「？」[plc]
 
@@ -304,7 +304,7 @@
 
 予鈴が鳴った。[plc]
 
-[showstandimage who="haruka" pose="1" face=ai size="l" time="0"]
+[showstandimage who="haruka_old" pose="1" face=ai size="l" time="0"]
 [shownametag name="遥香" visible=true]
 [quake hmax="5" vmax="5" time="400"]
 [nowait]

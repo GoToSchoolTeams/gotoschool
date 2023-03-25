@@ -5,7 +5,7 @@
 [shownametag name="大樹" visible=true]
 「――寺門 あかね さんが良いと思います！」[plc]
 
-[showstandimage who=haruka face=magao]
+[showstandimage who=haruka_old face=magao]
 [shownametag name="遥香" visible=true]
 「なんで？」[plc]
 
@@ -15,12 +15,12 @@
 
 
 胸を張って答えると。[l][r]
-[showstandimage who=haruka face=ai nobust=true time="300"]
+[showstandimage who=haruka_old face=ai nobust=true time="300"]
 先輩は疲れたような顔をしたが、[plc]
 
 [dis_all_chara]
 
-[showbustup who=haruka face="kuno" pose=1]
+[showbustup who=haruka_old face="kuno" pose=1]
 [shownametag name="遥香" visible=true bust="false"]
 「……」[plc]
 
@@ -33,7 +33,7 @@
 
 
 
-;[場面転換、教室
+;[場面転換、教室]
 [fadeoutbgm time="1000"]
 [dis_all_chara_fade_message]
 [strans storage="black" time="500"]
@@ -50,7 +50,7 @@
 [shownametag name="寺門" visible=true bust="false"]
 「……」[plc]
 
-[showbustup who=haruka pose=1 face=ki tere=true]
+[showbustup who=haruka_old pose=1 face=ki tere=true]
 [shownametag name="遥香" visible=true]
 「……」[plc]
 
@@ -77,7 +77,7 @@
 
 俺の方を向きながら、寺門さんは顎をしゃくる。[plc]
 
-[showbustup who=haruka face=raku pose=1 tere=true]
+[showbustup who=haruka_old face=raku pose=1 tere=true]
 [shownametag name="遥香" visible=true]
 「いやいや、ちょっと待ってよ」[plc]
 
@@ -105,7 +105,7 @@
 [shownametag name="寺門" visible=true bust="false"]
 「……なんていうか、先輩バカにしてるでしょ？」[plc]
 
-[showbustup who=haruka face=odoroki pose=1 tere=true]
+[showbustup who=haruka_old face=odoroki pose=1 tere=true]
 [shownametag name="遥香" visible=true]
 「そんなぁ、そんなわけないよ」[plc]
 
@@ -145,7 +145,7 @@
 
 俺、こいつの事を量産型脳無し女子高生だと思ってたのに。[plc]
 
-[showstandimage who=haruka pose=1 face=ai tere=true]
+[showstandimage who=haruka_old pose=1 face=ai tere=true]
 [shownametag name="遥香" visible=true]
 「ほんとごめんねぇ、谷口君は置いてくればよかったかな？」[plc]
 
@@ -158,7 +158,7 @@
 
 そして、先輩の態度にも驚きだった。[plc]
 
-[showstandimage who=haruka pose=1 face=magao tere=true]
+[showstandimage who=haruka_old pose=1 face=magao tere=true]
 [shownametag name="遥香" visible=true]
 「ほんと、おねがぁい」[plc]
 
@@ -178,10 +178,10 @@
 
 [shownametag name="遥香" visible=true]
 「ほんっと、お願い。お願いよ。[lr]
-[showstandimage who=haruka pose=1 face=kuno tere=true time="200"]
+[showstandimage who=haruka_old pose=1 face=kuno tere=true time="200"]
 　もう、寺門さんがいなきゃダメなの」[plc]
 
-[showstandimage who=haruka pose=1 face=ai tere=true time="200"]
+[showstandimage who=haruka_old pose=1 face=ai tere=true time="200"]
 [shownametag name="遥香" visible=true]
 「あなたが居なくなって、あなたの大切さが分かったの」[plc]
 
@@ -189,16 +189,16 @@
 [shownametag name="寺門" visible=true bust="false"]
 「……」[plc]
 
-[showstandimage who=haruka pose=1 face=odoroki tere=true time="200"]
+[showstandimage who=haruka_old pose=1 face=odoroki tere=true time="200"]
 [shownametag name="遥香" visible=true]
 「ほんと！　ほんとよ！　あなたしかいないわ！！[lr]
-[showstandimage who=haruka pose=1 face=do tere=true time="200"]
+[showstandimage who=haruka_old pose=1 face=do tere=true time="200"]
 　私を支えられるのは！！　あなただけっ！！！！」[plc]
 
 [shownametag name="寺門" visible=true bust="false"]
 「……」[plc]
 
-[showstandimage who=haruka pose=1 face=ai tere=true time="200"]
+[showstandimage who=haruka_old pose=1 face=ai tere=true time="200"]
 [shownametag name="遥香" visible=true]
 「……あかねさんだけなのよぉ」[plc]
 
@@ -216,7 +216,7 @@
 [shownametag name="寺門" visible=true bust="false"]
 「は、遥香先輩がそこまで言うなら……」[plc]
 
-[showstandimage who=haruka pose=1 face=odoroki tere=true time="200"]
+[showstandimage who=haruka_old pose=1 face=odoroki tere=true time="200"]
 [shownametag name="遥香" visible=true]
 「ほんと！　寺門さん！！」[plc]
 
@@ -249,7 +249,7 @@
 [shownametag name="寺門" visible=true bust="false"]
 「遥香先輩、分かりました。戻ります」[plc]
 
-[showstandimage who=haruka pose=1 face=ki tere=true time="200"]
+[showstandimage who=haruka_old pose=1 face=ki tere=true time="200"]
 [shownametag name="遥香" visible=true]
 「ありがとう！　信じてたわあかねちゃん！」[plc]
 
@@ -264,7 +264,7 @@
 [shownametag name="寺門" visible=true bust="false"]
 「――コイツを、クビにして下さい」[plc]
 
-[showstandimage who=haruka pose=1 face=raku time="0" nobust=true]
+[showstandimage who=haruka_old pose=1 face=raku time="0" nobust=true]
 [shownametag name="遥香" visible=true bust="false"]
 「それは無理」[plc]
 
@@ -277,7 +277,7 @@
 
 教室のドアは、固く閉じられた。[plc]
 
-[showbustup who=haruka pose=1 face=magao]
+[showbustup who=haruka_old pose=1 face=magao]
 [shownametag name="遥香" visible=true]
 「……」[plc]
 
@@ -289,7 +289,7 @@
 
 ……なんだこりゃ。[plc]
 
-[showbustup who=haruka pose=1 face=raku]
+[showbustup who=haruka_old pose=1 face=raku]
 [shownametag name="遥香" visible=true]
 「次、行こうか」[plc]
 

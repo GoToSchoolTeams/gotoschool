@@ -11,7 +11,7 @@
 「――福岡 桜子 さんが良いとおもいます！」[plc]
 
 
-[showstandimage who=haruka face=magao]
+[showstandimage who=haruka_old face=magao]
 [shownametag name="遥香" visible=true]
 「なんで？」[plc]
 
@@ -20,7 +20,7 @@
 「けんめ――」[plc]
 
 
-[showstandimage who=haruka face=keibetsu time="200"]
+[showstandimage who=haruka_old face=keibetsu time="200"]
 [shownametag name="遥香" visible=true]
 「もういいよ」[plc]
 
@@ -40,7 +40,7 @@
 どうも、福岡さんは先輩のクラスメイトだったらしい。[plc]
 
 [wt]
-[showstandimage who="haruka" face=ki pose="1" nobust=true time="200"]
+[showstandimage who="haruka_old" face=ki pose="1" nobust=true time="200"]
 [wt]
 
 三年生のその教室に、先輩はズカズカと入っていく。[plc]
@@ -75,7 +75,7 @@
 
 俺の顔を認めると、すぐに嫌悪感を露わにした。[plc]
 
-[showstandimage who="haruka" face=keibetsu pose="1" time="200" nobust="true"]
+[showstandimage who="haruka_old" face=keibetsu pose="1" time="200" nobust="true"]
 [shownametag name="遥香" visible=true bust="false"]
 「桜子、単刀直入に言うわ」[plc]
 
@@ -83,7 +83,7 @@
 [shownametag name="福岡" visible=true bust="false"]
 「断るわ」[plc]
 
-[showstandimage who="haruka" face=do pose="1" time="200"]
+[showstandimage who="haruka_old" face=do pose="1" time="200"]
 [shownametag name="遥香" visible=true]
 「桜子！」[plc]
 
@@ -119,7 +119,7 @@
 [shownametag name="福岡" visible=true bust="false"]
 「……あんたが隠そうとしてるものがあるからよ」[plc]
 
-[showbustup who="haruka" pose="1" face=keibetsu]
+[showbustup who="haruka_old" pose="1" face=keibetsu]
 [shownametag name="遥香" visible=true]
 「隠してないわよ、ちょっと逸らしただけ」[plc]
 
@@ -136,7 +136,7 @@
 「ダメなもんは、ダメよ」[plc]
 
 
-[showbustup who="haruka" pose="1" face=kuno]
+[showbustup who="haruka_old" pose="1" face=kuno]
 [shownametag name="遥香" visible=true]
 「桜子……ずっと一緒にやってきたじゃない」[plc]
 
@@ -149,7 +149,7 @@
 
 そう言って、福岡さんは遠い目をした。[plc]
 
-[showbustup who="haruka" pose="1" face=do]
+[showbustup who="haruka_old" pose="1" face=do]
 [shownametag name="遥香" visible=true]
 「そんなら、こんなくだらない事で」[plc]
 
@@ -190,7 +190,7 @@
 その言葉には、[lr]
 先輩もちょっとカチンと来たようだった。[plc]
 
-[showbustup who="haruka" pose="1" face=do]
+[showbustup who="haruka_old" pose="1" face=do]
 [shownametag name="遥香" visible=true]
 「それはあんたもそうでしょ」[plc]
 
@@ -206,7 +206,7 @@
 
 先輩は、その手を掴んだ。[plc]
 
-[showstandimage who="haruka" pose="1" face=do]
+[showstandimage who="haruka_old" pose="1" face=do]
 [shownametag name="遥香" visible=true]
 「……わかんでしょ？　くだらないけど、くだらなくないのよ」[plc]
 
@@ -222,7 +222,7 @@
 [shownametag name="福岡" visible=true bust="false"]
 「まさか、アレに？」[plc]
 
-[showstandimage who="haruka" pose="1" face=keibetsu time="200"]
+[showstandimage who="haruka_old" pose="1" face=keibetsu time="200"]
 [shownametag name="遥香" visible=true]
 「よしてよ」[plc]
 
@@ -248,7 +248,7 @@
 [shownametag name="福岡" visible=true bust="false"]
 「ありゃ。爆弾も一緒よ」[plc]
 
-[showbustup who="haruka" pose="1" face=keibetsu]
+[showbustup who="haruka_old" pose="1" face=keibetsu]
 [shownametag name="遥香" visible=true]
 「……いつもそうでしょ？」[plc]
 
@@ -268,7 +268,7 @@
 
 首をふるように、そう言った。[plc]
 
-[showstandimage who="haruka" pose="1" face=keibetsu]
+[showstandimage who="haruka_old" pose="1" face=keibetsu]
 [shownametag name="遥香" visible=true]
 「……交渉決裂、か」[plc]
 
@@ -276,7 +276,7 @@
 [shownametag name="福岡" visible=true bust="false"]
 「そうね」[plc]
 
-[showstandimage who="haruka" pose="1" face=ki time="200"]
+[showstandimage who="haruka_old" pose="1" face=ki time="200"]
 [shownametag name="遥香" visible=true]
 「気が変わったら、いつでも来てもらっていいわ」[plc]
 
@@ -291,7 +291,7 @@
 
 
 
-[showbustup who="haruka" pose="1" face=kuno]
+[showbustup who="haruka_old" pose="1" face=kuno]
 [shownametag name="遥香" visible=true]
 「……」[plc]
 
@@ -303,7 +303,7 @@
 
 気づけば、教室には誰も残っていはいなくて。[plc]
 
-[showbustup who="haruka" pose="1" face=kuno]
+[showbustup who="haruka_old" pose="1" face=kuno]
 [shownametag name="遥香" visible=true]
 「……結構、自信あったんだけどね」[plc]
 
@@ -311,7 +311,7 @@
 [shownametag name="大樹" visible=true]
 「……」[plc]
 
-[showstandimage who="haruka" pose="1" face=ai]
+[showstandimage who="haruka_old" pose="1" face=ai]
 [shownametag name="遥香" visible=true]
 「……桜子」[plc]
 
