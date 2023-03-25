@@ -23,7 +23,7 @@
 会議の始まりの第一声は、単純な拒絶の言葉だった。[plc]
 
 [fadeinbgm time="2000" storage="serious_2"]
-[showstandimage who="najimi" pose="1" face=ikari]
+[showstandimage who="najimi_old" pose="1" face=ikari]
 [shownametag name="縁" visible=true]
 「……まだ何も話してないんですが」[plc]
 
@@ -76,7 +76,7 @@
 あれ？　こいつら……。[plc]
 
 
-[showbustup who="haruka" pose="1" face=ai]
+[showbustup who="haruka_old" pose="1" face=ai]
 [shownametag name="遥香" visible=true]
 「……」[plc]
 
@@ -125,7 +125,7 @@
 [shownametag name="寺門" visible=true bust="false"]
 「よーは、ちょうどいい、拡声器だったんだよ」[plc]
 
-[showstandimage who="najimi" pose="1" face=do]
+[showstandimage who="najimi_old" pose="1" face=do]
 [shownametag name="縁" visible=true]
 「……あなたたち」[plc]
 
@@ -138,7 +138,7 @@
 「……」[plc]
 
 
-[showbustup who="haruka" pose="1" face=kuno]
+[showbustup who="haruka_old" pose="1" face=kuno]
 [shownametag name="遥香" visible=true]
 「……」[plc]
 
@@ -149,14 +149,14 @@
 
 ――こいつら、糞仲悪いんだけど！！[plc]
 
-[showstandimage who="haruka" pose="1" face=ai]
+[showstandimage who="haruka_old" pose="1" face=ai]
 [shownametag name="遥香" visible=true]
 「えっと……[l]
-[showstandimage who="haruka" pose="1" face=ki]
+[showstandimage who="haruka_old" pose="1" face=ki]
 えっとね、君たち」[plc]
 
 
-[showstandimage who="najimi" pose="1" face=do time="0" size="l"]
+[showstandimage who="najimi_old" pose="1" face=do time="0" size="l"]
 [shownametag name="縁" visible=true]
 [nowait]
 「遥香先輩は、黙っててください！」[plc]
@@ -167,7 +167,7 @@
 
 [dis_all_chara]
 
-[showbustup who="haruka" pose="1" face=kuno]
+[showbustup who="haruka_old" pose="1" face=kuno]
 [shownametag name="遥香" visible=true]
 「うぅ」[plc]
 
@@ -179,7 +179,7 @@
 
 こりゃ、クーデターも起こるわ。[plc]
 
-[showstandimage who="najimi" pose="1" face=ikari size="m"]
+[showstandimage who="najimi_old" pose="1" face=ikari size="m"]
 [shownametag name="縁" visible=true]
 「……私が、これほど頼んでもダメだっていうんですか？」[plc]
 
@@ -192,7 +192,7 @@
 
 全くだ。[plc]
 
-[showstandimage who="najimi" pose="1" face=metoji time="200" size="m"]
+[showstandimage who="najimi_old" pose="1" face=metoji time="200" size="m"]
 [shownametag name="縁" visible=true]
 「そう、分かったわ」[plc]
 
@@ -209,7 +209,7 @@
 コイツ、高校になってマシになったのかと思ったら、[lr]
 ひょっとすると今でもコミュ障なんじゃ……。[plc]
 
-[showstandimage who="najimi" pose="1" face=futsu size="m"]
+[showstandimage who="najimi_old" pose="1" face=futsu size="m"]
 [shownametag name="縁" visible=true]
 「あなた達に頼ろうとした私が愚かだったわ。[lr]
 　もう、消えていいわよ」[plc]
@@ -256,7 +256,7 @@
 
 ;[ドア閉めるSE]
 [playse storage="door_close"]
-[showstandimage who="najimi" pose="1" face=ikari size="m"]
+[showstandimage who="najimi_old" pose="1" face=ikari size="m"]
 [shownametag name="縁" visible=true]
 「……」[plc]
 
@@ -298,7 +298,7 @@
 
 
 [playse storage="happy bgm"]
-[showstandimage who="najimi" pose="1" face=do tere="true" time="0" size="l"]
+[showstandimage who="najimi_old" pose="1" face=do tere="true" time="0" size="l"]
 [nowait]
 [shownametag name="縁" visible=true]
 [quake time="400"]
@@ -308,7 +308,7 @@
 
 突き飛ばされた。[plc]
 
-[showstandimage who="najimi" pose="1" face=futsu tere="true" time="200" size="m"]
+[showstandimage who="najimi_old" pose="1" face=futsu tere="true" time="200" size="m"]
 [shownametag name="縁" visible=true]
 「満目さん、あなた……」[plc]
 
@@ -321,7 +321,7 @@
 「寝てたとか、気付いたら終わってたとか[r]
 　そういうことじゃなくて……えぇと」[plc]
 
-[showstandimage who="najimi" pose="1" face=do tere="true" time="200" size="m"]
+[showstandimage who="najimi_old" pose="1" face=do tere="true" time="200" size="m"]
 [shownametag name="縁" visible=true]
 「満目さん！」[plc]
 
@@ -338,7 +338,7 @@
 [shownametag name="悟" visible=true]
 「は、はひっ！？」[plc]
 
-[showstandimage who="najimi" pose="1" face=futsu tere="true" time="200" size="m"]
+[showstandimage who="najimi_old" pose="1" face=futsu tere="true" time="200" size="m"]
 [shownametag name="縁" visible=true]
 「満目さん、あなた……手伝ってくれるのね？」[plc]
 
@@ -346,7 +346,7 @@
 [shownametag name="悟" visible=true]
 「へ？」[plc]
 
-[showstandimage who="najimi" pose="1" face=do tere="true" time="200" size="l"]
+[showstandimage who="najimi_old" pose="1" face=do tere="true" time="200" size="l"]
 [shownametag name="縁" visible=true]
 [quake time="400"]
 「満目 悟さん。あなた、私達を手伝ってくれるのね！？」[plc]
@@ -383,7 +383,7 @@
 
 ……って、縁のやつ、泣いてやがるぞ！[plc]
 
-[showstandimage who="haruka" pose="1" face=keibetsu size="m"]
+[showstandimage who="haruka_old" pose="1" face=keibetsu size="m"]
 [shownametag name="遥香" visible=true]
 「……」[plc]
 
@@ -391,7 +391,7 @@
 
 その様子を見て、先輩は覚悟を決めたようだった。[plc]
 
-[showstandimage who="haruka" pose="1" face=raku size="l"]
+[showstandimage who="haruka_old" pose="1" face=raku size="l"]
 [shownametag name="遥香" visible=true]
 「谷口君」[plc]
 
@@ -399,7 +399,7 @@
 [shownametag name="大樹" visible=true]
 「はぃ」[plc]
 
-[showstandimage who="haruka" pose="1" face=ki size="l" time="200"]
+[showstandimage who="haruka_old" pose="1" face=ki size="l" time="200"]
 [shownametag name="遥香" visible=true]
 「例の、あの豚三匹。[l]呼んできて」[plc]
 
@@ -411,11 +411,11 @@
 
 マジで？[plc]
 
-[showstandimage who="haruka" pose="1" face=magao size="m"]
+[showstandimage who="haruka_old" pose="1" face=magao size="m"]
 [shownametag name="遥香" visible=true]
 「私と、谷口君と、縁ちゃんと、この子……」[plc]
 
-[showstandimage who="haruka" pose="1" face=raku size="m"]
+[showstandimage who="haruka_old" pose="1" face=raku size="m"]
 [shownametag name="遥香" visible=true]
 「……あと三人いれば、どうにか回るわ。ギリギリだけど」[plc]
 
@@ -427,7 +427,7 @@
 
 『嘘だろ！』と叫びたかったが。[plc]
 
-[showstandimage who="haruka" pose="1" face=ki size="m" time="200"]
+[showstandimage who="haruka_old" pose="1" face=ki size="m" time="200"]
 [shownametag name="遥香" visible=true]
 「……」[plc]
 
@@ -448,7 +448,7 @@
 俺は、[plc]
 
 
-[showstandimage who="haruka" pose="1" face=ki size="l" tere="true"]
+[showstandimage who="haruka_old" pose="1" face=ki size="l" tere="true"]
 [shownametag name="遥香" visible=true]
 「――私、あなた達を信じる事にするわ！」[plc]
 

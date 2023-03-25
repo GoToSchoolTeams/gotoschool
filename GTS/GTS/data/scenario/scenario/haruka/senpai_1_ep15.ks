@@ -20,7 +20,7 @@
 [shownametag name="大樹" visible=true]
 「……先輩、腰が爆発しそうです」[plc]
 
-[haruka_stand time=400 face="keibetsu"]
+[old_haruka_stand time=400 face="keibetsu"]
 [shownametag name="遥香" visible=true]
 「ほんと、モヤシボーイだね君は」[plc]
 
@@ -45,7 +45,7 @@
 [strans storage="black" time="400"]
 [strans storage="seitokai" time="400" method="universal" rule="001"]
 [show_message_fade time="100"]
-[haruka_stand face="odoroki"]
+[old_haruka_stand face="odoroki"]
 
 [nowait]
 [shownametag name="遥香" visible=true]
@@ -55,7 +55,7 @@
 [shownametag name="大樹" visible=true]
 「何が足りなくなりました？」[plc]
 
-[haruka_stand face="jitome" time="200"]
+[old_haruka_stand face="jitome" time="200"]
 [shownametag name="遥香" visible=true]
 「……一言で言うのは難しいかなー」[plc]
 [dis_all_chara]
@@ -73,7 +73,7 @@
 今日に限って縁も悟もあのバカ三匹も忙しいとかなんとかで、[lr]
 荷物運びは俺しか居ない。[plc]
 
-[haruka_stand face="ki" size="l"]
+[old_haruka_stand face="ki" size="l"]
 [shownametag name="遥香" visible=true]
 「頑張れ頑張れオトコノコ～♪」[plc]
 
@@ -103,12 +103,12 @@
 [strans storage="seitokai" time="400" method="universal" rule="001"]
 
 [show_message_fade time="100"]
-[haruka_stand face="raku" size="m"]
+[old_haruka_stand face="raku" size="m"]
 [shownametag name="遥香" visible=true]
 「谷口君だけじゃ何にもわからないだろうから、[lr]
 　付いて行ってあげるよ」[plc]
 
-[haruka_stand face="ki" size="l"]
+[old_haruka_stand face="ki" size="l"]
 [shownametag name="遥香" visible=true]
 「もちろん、荷物は持たないけどね」[plc]
 
@@ -125,7 +125,7 @@
 [shownametag name="大樹" visible=true]
 「……まさか本当に手伝わないとは」[plc]
 
-[haruka_face face="ki"]
+[old_haruka_face face="ki"]
 [shownametag name="遥香" visible=true]
 「何か言った？」[plc]
 
@@ -158,7 +158,7 @@
 [shownametag name="大樹" visible=true]
 「あと、どれくらいですか？」[plc]
 
-[haruka_face face="magao"]
+[old_haruka_face face="magao"]
 [shownametag name="遥香" visible=true]
 「えーっと、あと３件も回れば終わりかな。[lr]
 　荷物的には、いまの量の二倍ぐらいだよ」[plc]
@@ -178,16 +178,16 @@
 
 『腰が爆発しそうだ』つってんだろうが！！[plc]
 
-[haruka_stand face="jitome" time="200"]
+[old_haruka_stand face="jitome" time="200"]
 [shownametag name="遥香" visible=true]
 「貧弱だねぇ……まだ谷口君の体重の20％くらいでしょ？[lr]
-[haruka_stand face="raku"]
+[old_haruka_stand face="raku"]
 　労務省によると40％以下ならいけるって事だけど」[plc]
 
 [shownametag name="大樹" visible=true]
 「それはプロの基準でしょう！？」[plc]
 
-[haruka_stand face="ki" size="l"]
+[old_haruka_stand face="ki" size="l"]
 [shownametag name="遥香" visible=true]
 「『無理っていうのは嘘つきの言葉だ』って聞いたこと無い？」[plc]
 
@@ -196,7 +196,7 @@
 「それこそ僕には無理です！」[plc]
 
 [dis_all_chara]
-[haruka_face face="jitome"]
+[old_haruka_face face="jitome"]
 [shownametag name="遥香" visible=true]
 「……意外と博識だね」[plc]
 
@@ -229,8 +229,9 @@
 
 
 [shownametag name="？？？" visible=true bust="false"]
-「……」[plc]
-;[黒髪成瀬]
+「……」[r]
+//黒髪成瀬出す。[plc]
+
 
 
 たぶん。[lr]
@@ -246,7 +247,7 @@
 風紀に煩い癖に率先して校則違反してるじゃないかよ。[plc]
 
 [strans storage="fumikiri_op_dt"]
-[haruka_stand face="magao"]
+[old_haruka_stand face="magao"]
 [shownametag name="遥香" visible=true]
 「どうしたの？」[plc]
 
@@ -263,8 +264,8 @@
 「んー？」[plc]
 
 
-[haruka_face face="odoroki"]
-[haruka_face face="jitome"]
+[old_haruka_face face="odoroki"]
+[old_haruka_face face="jitome"]
 アゴで成瀬の方を指し示すと、先輩は妙な顔をした。[plc]
 
 
@@ -272,7 +273,7 @@
 「あれ成瀬っすよね？　こんなとこで何やって……」[plc]
 
 [strans storage="fumikiri_op_dt"]
-[haruka_stand face="raku" time="200" size="l"]
+[old_haruka_stand face="raku" time="200" size="l"]
 [shownametag name="遥香" visible=true]
 「いや、成瀬じゃないわね」[plc]
 
@@ -280,7 +281,7 @@
 [shownametag name="大樹" visible=true]
 「え？」[plc]
 
-[haruka_stand face="ki" time="200"]
+[old_haruka_stand face="ki" time="200"]
 [shownametag name="遥香" visible=true]
 「だってほら、金髪じゃないじゃない」[plc]
 
@@ -336,10 +337,10 @@
 
 納得いかずにそう呟くと、[plc]
 
-[haruka_stand face="ki" time="200" size="l"]
+[old_haruka_stand face="ki" time="200" size="l"]
 [shownametag name="遥香" visible=true]
 「違う……[l]
-[haruka_stand face="keibetsu" time="200" size="l"]
+[old_haruka_stand face="keibetsu" time="200" size="l"]
 そういう事にしときなさい」[plc]
 
 [dis_all_chara]
@@ -350,7 +351,7 @@
 [shownametag name="遥香" visible=true]
 「半分……とは言わないけど、いくらか持ってあげるわよ」[plc]
 
-[haruka_face face="raku"]
+[old_haruka_face face="raku"]
 [shownametag name="遥香" visible=true]
 「さ、行こう」[plc]
 
@@ -382,7 +383,7 @@
 [shownametag name="大樹" visible=true]
 「……」[plc]
 
-[haruka_face face="ki"]
+[old_haruka_face face="ki"]
 [shownametag name="遥香" visible=true]
 「そういうことよ」[plc]
 
@@ -404,7 +405,7 @@
 
 [fadebgm volume="100" time="500"]
 [strans storage="fumikiri_op_dt"]
-[haruka_stand face="do" size="l"]
+[old_haruka_stand face="do" size="l"]
 [shownametag name="遥香" visible=true]
 [nowait]
 「はやく行こうよ！」[plc]

@@ -23,7 +23,7 @@
 まず、屋上から会議室に戻ってきた。[lr]
 それに、[plc]
 
-[showstandimage layer=3 who="gaia" pose=1 face=egao size=l time="200" pos="c"]
+[showstandimage layer=3 who="gaia_old" pose=1 face=egao size=l time="200" pos="c"]
 [shownametag name="ガイア" visible=true]
 「兄弟！」[plc]
 
@@ -39,7 +39,7 @@
 [shownametag name="大樹" visible=true]
 「……せんぱいやっぱ」[plc]
 
-[showbustup who="haruka" pose=1 face=ki]
+[showbustup who="haruka_old" pose=1 face=ki]
 [shownametag name="遥香" visible=true]
 「ダメ」[plc]
 
@@ -47,7 +47,7 @@
 豚三匹と、[plc]
 
 
-[showstandimage layer="0" who="najimi" pose=1 face=metoji size=m pos="lc"]
+[showstandimage layer="0" who="najimi_old" pose=1 face=metoji size=m pos="lc"]
 [shownametag name="縁" visible=true]
 「……」[plc]
 
@@ -63,7 +63,7 @@
 
 そんな感じで、急に大所帯になった。[plc]
 
-[showstandimage who="haruka" face=keibetsu pose="1"]
+[showstandimage who="haruka_old" face=keibetsu pose="1"]
 [shownametag name="遥香" visible=true]
 「ギリギリね」[plc]
 
@@ -86,7 +86,7 @@
 
 [strans storage="seitokai" rule="003"]
 [fadebgm volume="100" time="500"]
-[showstandimage who="haruka" face=raku pose="1"]
+[showstandimage who="haruka_old" face=raku pose="1"]
 [shownametag name="遥香" visible=true]
 「谷口くーん、ちょっとこれやって」[plc]
 
@@ -94,7 +94,7 @@
 [shownametag name="大樹" visible=true]
 「ぁ、はーい」[plc]
 
-[showstandimage who="najimi" face=futsu pose="1" time="200"]
+[showstandimage who="najimi_old" face=futsu pose="1" time="200"]
 [shownametag name="縁" visible=true]
 [nowait]
 「……それ、間違ってる」[plc]
@@ -116,18 +116,18 @@
 [shownametag name="大樹" visible=true]
 「縁、呼ばれてるぞ」[plc]
 
-[showstandimage who="najimi" face=jitome pose="1" size="m" time="200"]
+[showstandimage who="najimi_old" face=jitome pose="1" size="m" time="200"]
 [shownametag name="縁" visible=true]
 「……ハァ」[plc]
 [dis_all_chara]
 
 
-[showstandimage who="gaia" face=normal pose="1" size="m"]
+[showstandimage who="gaia_old" face=normal pose="1" size="m"]
 [shownametag name="ガイア" visible=true]
 「遥香どの、俺達は何をすれば？」[plc]
 
 
-[showbustup who="haruka" face=raku pose="1" size="m"]
+[showbustup who="haruka_old" face=raku pose="1" size="m"]
 [shownametag name="遥香" visible=true]
 「とりあえず、お世話になるとこに挨拶まわりに」[plc]
 
@@ -141,10 +141,10 @@
 
 [dis_all_chara]
 
-[showstandimage who="haruka" face=magao pose="1" size="m" time="200"]
+[showstandimage who="haruka_old" face=magao pose="1" size="m" time="200"]
 [shownametag name="遥香" visible=true]
 「…………。[l]
-[showstandimage who="haruka" face=odoroki pose="1" size="l" time="200"]
+[showstandimage who="haruka_old" face=odoroki pose="1" size="l" time="200"]
 ぁ、ちょっと書類忘れないでよ！」[plc]
 
 [dis_all_chara]
@@ -169,7 +169,7 @@
 
 ……ちょっと、仕事多すぎないっすかね？[plc]
 
-[showstandimage who="haruka" face=ki pose="1" size="l"]
+[showstandimage who="haruka_old" face=ki pose="1" size="l"]
 [shownametag name="遥香" visible=true]
 「いやー、谷口君と二人のときは何にも仕事してなかったからね」[plc]
 
@@ -185,7 +185,7 @@
 
 なんか、信頼がうんたらとか言ってたじゃん！[plc]
 
-[showstandimage who="haruka" face=ki pose="1" size="m"]
+[showstandimage who="haruka_old" face=ki pose="1" size="m"]
 [shownametag name="遥香" visible=true]
 「いやー、遠いね」[plc]
 
@@ -193,7 +193,7 @@
 [shownametag name="大樹" visible=true]
 「……」[plc]
 
-[showstandimage who="haruka" face=raku pose="1" size="m" time="200"]
+[showstandimage who="haruka_old" face=raku pose="1" size="m" time="200"]
 [shownametag name="遥香" visible=true]
 「終わるの」[plc]
 
@@ -206,12 +206,12 @@
 ;*De
 ;[setup_debug bg="seitokai"]
 
-[showbustup who="najimi" face=futsu pose="1"]
+[showbustup who="najimi_old" face=futsu pose="1"]
 [shownametag name="縁" visible=true]
 [nowait]
 「遥香先輩、こっちお願いしまーす！」[plc]
 
-[showstandimage who="haruka" face=ki pose="1" size="m" time="200"]
+[showstandimage who="haruka_old" face=ki pose="1" size="m" time="200"]
 [shownametag name="遥香" visible=true]
 「はぁーい」[plc]
 [dis_all_chara]
@@ -275,9 +275,9 @@
 日々の雑務は、些細な事だけど。[lr]
 『些細な事じゃぁない』んだって、どこで安心していた。[plc]
 
-[showstandimage who="najimi" face=futsu pose="1" size="m" pos="l" nobust="true"]
+[showstandimage who="najimi_old" face=futsu pose="1" size="m" pos="l" nobust="true"]
 [showstandimage who="satori" face=naki pose="1" size="m" pos="r" nobust="true"]
-[showstandimage who="haruka" face=ki pose="1" size="m" pos="c" nobust="true"]
+[showstandimage who="haruka_old" face=ki pose="1" size="m" pos="c" nobust="true"]
 
 安心できると思っていた。[plc]
 
