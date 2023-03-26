@@ -1,24 +1,15 @@
 ;[器の話]
-[call storage="Initialize.ks"]
-
-[fadeoutbgm time="1000"]
+[SetupMessageWindow hide_window="true"]
 [strans storage="white"]
-
 [show_message_fade time="500"]
-[nowait]
-;[playse storage="chaim_far_single" ]
-
 [strans storage="bg_naruseRoom"]
-
-
-;[call target=*De]
-
+[nowait]
 
 
 
 驚いたのだが、成瀬陣営で俺はあっさりと受け入れられた。[plc]
 
-
+[fadeinbgm time="1000" storage="seitokai"]
 [shownametag name="取り巻きA" visible=true bust="false"]
 「……えっと、誰でしたかしら？」[plc]
 
@@ -54,8 +45,10 @@
 
 ……俺は、ここではそういう事になってるのか。[plc]
 
-[strans storage="bg_black" time="200"]
+[fadebgm volume="50" time="800"]
+[strans storage="bg_white" time="200"]
 
+[strans storage="bg_seitokai" time="200" grayscale=true]
 [shownametag name="大樹" visible=true]
 「……」[plc]
 ;[ちょい回想]
@@ -63,6 +56,8 @@
 
 真相は、大分違うけれど。[plc]
 
+[strans storage="bg_white" time="200"]
+[fadebgm volume="100" time="800"]
 [strans storage="bg_naruseRoom" time="200"]
 
 [shownametag name="取り巻きE" visible=true bust="false"]
@@ -206,6 +201,7 @@
 
 
 ;[場面経過、時間経過]
+[fadeoutbgm time="1000"]
 [wipe storage="bg_naruseRoom" time=800]
 
 
@@ -215,6 +211,7 @@
 
 そんなこんなで、早くも一週間が経過した。[plc]
 
+[fadeinbgm storage="seitokai" time="2000"]
 [old_naruse_stand face="hohoho"]
 [shownametag name="成瀬" visible=true]
 「オーッホッホッホッホ！」[plc]
@@ -244,10 +241,12 @@
 「あ、紅茶、追加でいただけるかしら？」[plc]
 
 
+[playse storage="suito"]
 [shownametag name="大樹" visible=true]
 「ぁ、はい」[plc]
 ;[コポコポ]
 
+[stopse]
 [old_naruse_stand face="hohoho"]
 [shownametag name="成瀬" visible=true]
 「ん～、いい香り。[l]あなたも、[r]
@@ -272,12 +271,12 @@
 [shownametag name="取り巻きB" visible=true bust="false"]
 「私もお願いしまーす」[plc]
 
-
+[playse storage="suito"]
 [shownametag name="大樹" visible=true]
 「……」[plc]
 ;[コポコポコポ]
 
-
+[stopse]
 すっかり手慣れた手つきで淹れながら、思う。[plc]
 
 
@@ -285,11 +284,12 @@
 ……なんだろう、ここ。[lr]
 妙に居心地がいいんだけど。[plc]
 
+[playse storage="suito"]
 [shownametag name="大樹" visible=true]
 「……」[plc]
 ;[コポコポコポ]
 
-
+[stopse]
 そうなのだ。[lr]
 予想をもの凄く裏切って、妙に居心地がいい。[plc]
 
@@ -352,21 +352,24 @@
 
 つか、結構嫌われてんだな、先輩。[plc]
 
-[strans storage="bg_black"]
-[old_haruka_stand face="raku" nobust="true"]
+[fadebgm volume="50" time="800"]
+[strans storage="bg_white" time="500"]
+[old_haruka_stand nobust=true face="raku" page=back notrans=true visible=true]
+[strans storage="bg_black" noclear="true" time="500"]
 
 [shownametag name="大樹" visible=true]
 「……」[l]
-[old_haruka_stand face="ki" nobust="true"]
+[old_haruka_stand nobust=true face="ki"]
 [plc]
 ;[ちょい先輩の立ち絵出る？]
 
-[strans storage="bg_naruseRoom"]
-[dis_all_chara]
+[strans storage="bg_black" time="500"]
+[strans storage="bg_naruseRoom" time="500"]
 
 
 ……まぁ、敵を作りまくりながら生きてそうなひとだしなぁ。[plc]
 
+[fadebgm volume=100 time="1000"]
 [old_naruse_stand face="futsu"]
 [shownametag name="成瀬" visible=true]
 「ところで、その後どう？　クラスの方は」[plc]
@@ -473,15 +476,13 @@
 [shownametag name="成瀬" visible=true]
 「……おかわりお願いできるかしら？」[plc]
 
-
+[playse storage="suito"]
 [shownametag name="大樹" visible=true]
 「……」[plc]
 ;[コポコポ]
 
 
-
-言いたいことは分からんでもないが、納得は出来んな。[plc]
-
+言いたいことは分からんでもないが、納得は出来んな。[plc][stopse]
 
 [shownametag name="大樹" visible=true]
 「どうぞ」[plc]
@@ -495,14 +496,13 @@
 コイツ、自分の器はどの程度だと思ってやがるんだろうか。[plc]
 
 [dis_all_chara]
-
+[fadebgm volume="50" time="800"]
 「――こころよきかな」[plc]
-
 
 
 不意に、後ろから妙な声がかかった。[plc]
 
-
+[fadebgm volume="100" time="800"]
 [old_naruse_face face="futsu" pose="1"]
 [shownametag name="成瀬" visible=true]
 「……あら、雅じゃない」[plc]
@@ -514,7 +514,6 @@
 
 
 いつの間にか、後ろに例のあの『オモロー』生物がいた。[plc]
-
 
 [shownametag name="十二単" visible=true]
 「……」[plc]
@@ -617,7 +616,7 @@
 
 それで、さすがの俺でもピンと来た。[plc]
 
-
+[fadebgm volume="50" time="800"]
 [shownametag name="大樹" visible=true]
 「……」[plc]
 
@@ -633,6 +632,7 @@
 
 だけど、[plc]
 
+[fadebgm volume="100" time="800"]
 [old_naruse_stand face="hohoho" size="l"]
 [shownametag name="成瀬" visible=true]
 「ホーッホッホッホッ！」[plc]
@@ -660,10 +660,6 @@
 
 
 コイツらは、やる。[plc]
-
-
-
-
 
 [old_naruse_stand face="futsu" pose="1"]
 [shownametag name="成瀬" visible=true]
@@ -698,7 +694,6 @@
 俺が、先輩の手駒だったから入れたんだ。[plc]
 
 [dis_all_chara]
-
 [miyabi_face face="futsu"]
 [shownametag name="十二単" visible=true]
 「……」[plc]
@@ -738,12 +733,13 @@
 俺はもう、給仕をする気はなくて。[plc]
 
 
+[playse storage="suito"]
 [old_naruse_stand face="hohoho" pose="1"]
 [shownametag name="成瀬" visible=true]
 「あら、ちょっと驚いちゃったかしら」[plc]
 
+[stopse]
 [dis_all_chara]
-
 そんな俺を気にもとめず、[lr]
 成瀬はご機嫌なようすでカップに自分でお茶をいれた。[plc]
 
@@ -871,6 +867,7 @@
 
 周りも笑っていて。[plc]
 
+[fadebgm volume="50" time="800"]
 [miyabi_stand face="futsu" size="l"]
 [shownametag name="十二単" visible=true]
 「……」[plc]
@@ -879,6 +876,7 @@
 
 十二単はまぁ、不快そうに鼻を鳴らしていたけど。[plc]
 
+[fadebgm volume="100" time="800"]
 [old_naruse_face face="hohoho"]
 [shownametag name="成瀬" visible=true]
 「ねぇ、谷口君。さっき、器の話したでしょ？[lr]
@@ -887,7 +885,6 @@
 [dis_all_chara]
 
 完全に崩れた口調で、成瀬は続ける。[plc]
-
 
 [shownametag name="大樹" visible=true]
 「……」[plc]
@@ -909,6 +906,7 @@
 
 ――最高に器が小せぇからな！[plc]
 
+[fadeoutbgm time="800"]
 [dis_all_chara]
 
 気づくと、[plc]
@@ -939,6 +937,7 @@
 ……んだこれ？　マジでウンコじゃねーか、金色のよぉ。[lr]
 何が地毛だよ、完全にヘアカラーの色だろうが、このクソが！[plc]
 
+[fadeinbgm storage="serious_3"
 [shownametag name="大樹" visible=true]
 「なぁーにが、器だよ。ウンコ女が！」[plc]
 
@@ -958,7 +957,7 @@
 ;[回想]
 [strans storage="bg_black" time="200"]
 
-[old_najimi_stand face="do" nobust="true"]
+[old_najimi_stand face="do" nobust="true" grayscale=true]
 [shownametag name="縁" visible=true bust="false"]
 [nowait]
 「癇癪を起こして、感情がコントロール出来なくなったら暴力―」[plc]
@@ -967,9 +966,10 @@
 
 [strans storage="bg_naruseRoom" time="200"]
 
+
 ……ちっ。[plc]
 
-
+[playse storage="bosu38"]
 ――ドサッ！！[plc]
 
 
@@ -1000,7 +1000,7 @@
 [shownametag name="取り巻きA" visible=true bust="false"]
 「……ちょ、谷口君やめなさ―」[plc]
 
-
+[fadeinbgm storage="sad_2" time="2000"]
 [shownametag name="大樹" visible=true]
 「うっせぇよ！　ウンコにまとわりつく蝿共がよ！！！」[plc]
 
@@ -1093,10 +1093,11 @@
 叫びを叩きつけると、成瀬は震えていた。[lr]
 恐怖を露わにして、震えていて。[plc]
 
-[strans storage="bg_black" time="200"]
-
 それは、[l]
-[old_haruka_stand face="ki" nobust="true"]
+[fadebgm volume="50" time="400"]
+[strans storage="bg_white" time="200"]
+[old_haruka_stand face="keibetsu" nobust=true page=back notrans=true visible=true grayscale="true"]
+[strans storage="seitokai" grayscale=true noclear="true" time="200"]
 
 やっぱり先輩とは似ても似つかなくて。[plc]
 
@@ -1104,6 +1105,8 @@
 ;[無感情の先輩のフラッシュバック]
 ;[松戸さん演出お願いします！]
 
+[fadebgm volume="100" time=400]
+[strans storage="bg_white" time="200"]
 [strans storage="bg_naruseRoom" time="200"]
 
 
@@ -1122,17 +1125,18 @@
 
 仮にも、[plc]
 
-[strans storage="bg_bookoff" time="200"]
+[fadebgm volume="50" time="200"]
+[strans storage="bg_bookoff" time="200" grayscale=true]
 [wait time="200"]
-[old_naruse_stand face="futsu" pose="2" nobust="true"]
+[old_naruse_stand face="futsu" pose="2" nobust="true" grayscale="true"]
 [wait time="300"]
-[old_naruse_stand face="futsu" nobust="true"]
+[old_naruse_stand face="futsu" nobust="true" grayscale="true"]
 [wait time="300"]
-[old_naruse_stand face="hohoho" nobust="true"]
+[old_naruse_stand face="hohoho" nobust="true" grayscale="true"]
 [wait time="600"]
 [strans storage="bg_naruseRoom" time="200"]
 
-
+[fadebgm volume="100" time="200"]
 お世話になった相手だろうに。[plc]
 
 
@@ -1192,6 +1196,7 @@
 
 
 [quake time="200"]
+[playse storage="hit29"]
 ――ドンッ！[plc]
 
 丁寧に置いたつもりが、随分荒々しくなってしまった。[plc]
@@ -1244,6 +1249,7 @@
 
 一同に背を向けると、[plc]
 
+[fadebgm volume="50"]
 [miyabi_stand face="futsu" size=l]
 [shownametag name="十二単" visible=true]
 「……壊した器、誰もがつながるとは限らない」[plc]
@@ -1288,7 +1294,7 @@
 「難しい」[plc]
 
 
-
+[fadebgm volume="100" time="800"]
 一言言って、もう話すことはないとそっぽを向かれる。[plc]
 
 
@@ -1304,17 +1310,12 @@
 「……うん、まだいけるわ」[plc]
 
 
-;*De
-;[setup_debug bg="bg_naruseRoom"]
-
-
-
 俺は走りだして。[plc]
 
 
 
 
-
+[fadeoutbgm time="800"]
 
 
 ;[場面転換、屋上]
@@ -1322,15 +1323,14 @@
 [strans storage="bg_black" time="400"]
 [wait time="400"]
 [strans storage="bg_okujo_m" time="400"]
+[playse storage="don"]
 [show_message_fade time="400"]
-
-
 
 
 ――バンッ！[plc]
 
 
-
+[fadeinse storage="wind" time="1000" loop="true"]
 屋上に行くと、[lr]
 予想通り、まだ先輩たちは居た。[plc]
 
@@ -1358,9 +1358,10 @@
 おいおい、ガイアと悟までいるのかよ。[lr]
 恥ずかしいねぇ。[plc]
 
-
+   
 突然の闖入者にビックリしたのか、みんな目を丸めていて。[plc]
 
+[fadeoutse time="800"]
 [old_haruka_stand face="odoroki" size="l"]
 [shownametag name="遥香" visible=true]
 「谷口く―」[plc]
@@ -1373,6 +1374,7 @@
 
 有無を言わさず、土下座した。[plc]
 
+[fadeinbgm storage="kandoumaturi2" time="1000"]
 [old_haruka_face face="odoroki"]
 [shownametag name="遥香" visible=true]
 「……」[plc]
@@ -1416,7 +1418,6 @@
 
 [shownametag name="大樹" visible=true]
 「殴るなら、殴ってくれ」[plc]
-
 
 
 [najimi_stand face="akire"]
@@ -1528,6 +1529,7 @@
 
 深々と、[plc]
 
+[fadeinse storage="wind" time="1000"]
 [old_haruka_face face="magao"]
 [shownametag name="遥香" visible=true]
 「……」[plc]
@@ -1548,6 +1550,7 @@
 
 おそらく、はじめて心から、[plc]
 
+[fadeoutse time="800"]
 [old_haruka_face face="magao"]
 [shownametag name="遥香" visible=true]
 「そっか」[plc]
@@ -1629,10 +1632,9 @@
 
 ……ビンタかな？[plc]
 
+[playse storage="hit_p09"]
 [quake time="800"]
 [strans storage="bg_sky003_day" time="200"]
-
-
 
 
 
@@ -1651,6 +1653,7 @@
 [fadeoutse time="1000"]
 [dis_all_chara_fade_message]
 [strans storage="white" time="1000"]
+[fadeoutbgm time="1000"]
 
 [JumpChapter storage="senpai_2_ep1.ks"]
 

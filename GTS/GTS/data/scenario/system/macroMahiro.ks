@@ -158,8 +158,9 @@
 *【old立ち絵】
 ;;[old遥香]
 ;;face=表情名, magao;ki;do;ai;raku;jitome;keibetsu;kuno;niyaniya;odoroki;suttoboke
+;;grayscale=画像をグレースケールにするか\nlayer , 論理値
 [macro name="old_haruka_stand"]
-[showstandimage who="haruka_old" pose="%pose|1"  face="%face|magao" size="%size|m" nobust="%nobust|false" tere="%tere|false" pos="%pos|c" layer="%layer|0" page="%page|back" notrans="%notrans|false" time="%time|400" visible="%visible|true"]
+[showstandimage who="haruka_old" pose="%pose|1"  face="%face|magao" size="%size|m" nobust="%nobust|false" tere="%tere|false" pos="%pos|c" layer="%layer|0" page="%page|back" notrans="%notrans|false" time="%time|400" visible="%visible|true" grayscale="%grayscale|false"]
 [kagtag who="haruka_old" pose="%pose|1"  face="%face|magao" size="%size|m" nobust="%nobust|false" tere="%tere|false" pos="%pos|c" layer="%layer|0" page="%page|back" notrans="%notrans|false" time="%time|400" visible="%visible|true"]
 [endmacro]
 ;;[old遥香顔]
@@ -179,8 +180,9 @@
 [kagtag who="najimi_old" face="%face|futsu" pose="%pose|1" tere="%tere|false" visible="%visible|false"]
 [endmacro]
 ;;[old成瀬]
+;;grayscale=画像をグレースケールにするか\nlayer , 論理値
 [macro name="old_naruse_stand"]
-[showstandimage who="naruse_old" pose="%pose|1"  face="%face|futsu" size="%size|m" nobust="%nobust|false" tere="%tere|false" pos="%pos|c" layer="%layer|0" page="%page|back" notrans="%notrans|false" time="%time|400" visible="%visible|true"  nopos="%nopos|false"]
+[showstandimage who="naruse_old" pose="%pose|1"  face="%face|futsu" size="%size|m" nobust="%nobust|false" tere="%tere|false" pos="%pos|c" layer="%layer|0" page="%page|back" notrans="%notrans|false" time="%time|400" visible="%visible|true"  nopos="%nopos|false" grayscale="%grayscale|false"]
 [kagtag who="naruse_old" pose="%pose|1"  face="%face|futsu" size="%size|m" nobust="%nobust|false" tere="%tere|false" pos="%pos|c" layer="%layer|0" page="%page|back" notrans="%notrans|false" time="%time|400" visible="%visible|true"  nopos="%nopos|false"]
 [endmacro]
 ;;[old成瀬顔]
