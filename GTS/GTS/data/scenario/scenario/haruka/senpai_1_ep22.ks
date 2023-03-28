@@ -937,7 +937,7 @@
 ……んだこれ？　マジでウンコじゃねーか、金色のよぉ。[lr]
 何が地毛だよ、完全にヘアカラーの色だろうが、このクソが！[plc]
 
-[fadeinbgm storage="serious_3"
+[fadeinbgm storage="serious_3"]
 [shownametag name="大樹" visible=true]
 「なぁーにが、器だよ。ウンコ女が！」[plc]
 
