@@ -4,7 +4,7 @@
 
 [strans storage="seitokai"]
 [fadeinbgm storage="serious_2" time="1000"]
-[showstandimage who=naruse face=hohoho]
+[showstandimage who=naruse_old face=hohoho]
 [shownametag name="成瀬" visible=true]「――なにこれ、傑作！　傑作ですわ！」[plc]
 
 
@@ -22,7 +22,7 @@
 [dis_all_chara_fade]
 一通り笑い倒してから、成瀬は落ち着きを取り戻した。[plc]
 
-[showstandimage who=naruse face=futsu pose=2]
+[showstandimage who=naruse_old face=futsu pose=2]
 [shownametag name="成瀬" visible=true]
 「いやいや、はるかさん……いや、恋ヶ旗さん。[lr]
 ひっじょうに興味深くて、ひっじょうに面白かったわ」[plc]
@@ -43,7 +43,7 @@
 [shownametag name="成瀬" visible=true]
 「いや、ほんと！　ほんとよ！　凄いわ、素晴らしい演技力！！」[plc]
 
-[showstandimage who=naruse face=futsu pose=2]
+[showstandimage who=naruse_old face=futsu pose=2]
 [shownametag name="成瀬" visible=true]
 「ほんと、俳優になれるんじゃなくて？[lr]
 この、情けない空気ったら――」[plc]
@@ -52,7 +52,7 @@
 「――今も――」[plc]
 ;[爆笑]
 
-[showstandimage who=naruse face=hohoho]
+[showstandimage who=naruse_old face=hohoho]
 
 ;[爆笑]
 
@@ -72,7 +72,7 @@
 成瀬はパッと笑うのを止め、こちらに向き直った。[plc]
 
 
-[showstandimage who=naruse face=futsu pose=2 notrans=true page="back"]
+[showstandimage who=naruse_old face=futsu pose=2 notrans=true page="back"]
 [strans noclear="true" storage="seitokai"]
 
 [shownametag name="成瀬" visible=true]「あら。まぁ、死にそうな顔ですこと」[plc]
@@ -97,7 +97,7 @@
 
 これ……ドリル？　小学生向けだ。[plc]
 
-[showstandimage who=naruse face=futsu pose=2]
+[showstandimage who=naruse_old face=futsu pose=2]
 [shownametag name="成瀬" visible=true]
 「弟の為に買ったんだけど、[r]
 たぶん貴方にちょうどよくってよ」[plc]
@@ -110,7 +110,7 @@
 
 [shownametag name="取り巻きB" visible=true]「素敵ー」[plc]
 
-[showstandimage who=naruse face=futsu pose=2 page="back" notrans="true"]
+[showstandimage who=naruse_old face=futsu pose=2 page="back" notrans="true"]
 [strans storage="seitokai" noclear="true"]
 [shownametag name="成瀬" visible=true]「それじゃごきげんよう。また、会うことがあったらね……」[plc]
 
@@ -170,7 +170,7 @@
 
 [shownametag name="大樹" visible=true]「……」[plc]
 
-[showstandimage who=haruka face=magao]
+[showstandimage who=haruka_old face=magao]
 [shownametag name="遥香" visible=true]「今日は、もう解散しよっか」[plc]
 
 [fadeoutbgm time="1000"]

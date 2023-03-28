@@ -5,7 +5,7 @@
 
 [strans storage="seitokai" noclear="true"]
 
-[showstandimage who=naruse pose=2 face=futsu]
+[showstandimage who=naruse_old pose=2 face=futsu]
 [shownametag name="？？？" visible=true]
 「……あらあら、取り込み中だったかしら」[plc]
 
@@ -29,24 +29,24 @@
 [shownametag name="成瀬" visible=true]「……」[plc]
 
 [strans storage="white"]
-[showstandimage who=naruse pose=2 face=futsu page="back" notrans="true" grayscale="true"]
+[showstandimage who=naruse_old pose=2 face=futsu page="back" notrans="true" grayscale="true"]
 [strans noclear="true" storage="hoken_e" time="1000" grayscale=true]
 あれは、確か……保健室の。[plc]
 
 [strans storage="white"]
-[showstandimage who=naruse pose=2 face=futsu page="back" notrans="true"]
+[showstandimage who=naruse_old pose=2 face=futsu page="back" notrans="true"]
 [strans noclear="true" storage="seitokai"]
 [shownametag name="成瀬" visible=true]「どうも」[plc]
 
 保健室にいた巻き髪の女……成瀬さんは、[lr]
 俺の視線には答えずに先輩に向かってそう言った。[plc]
 
-[showstandimage who=haruka face=keibetsu]
+[showstandimage who=haruka_old face=keibetsu]
 [shownametag name="遥香" visible=true]
 「なにしに……」[plc]
 
 
-[showstandimage who=naruse pose=2 face=futsu]
+[showstandimage who=naruse_old pose=2 face=futsu]
 [shownametag name="成瀬" visible=true]
 「ごめんなさいねぇ、向かいの私達の校舎にまで[r]
 『野蛮』な声が届くもんだから何事かと思っちゃって」[plc]
@@ -77,18 +77,18 @@
 そのまま、人類の発声じゃない笑い声で[r]
 ボリュームｱｹﾞｱｹﾞな髪を揺らしながら入場してきたわけで。[plc]
 [dis_all_chara_fade]
-[showstandimage who="najimi" face=futsu pose=1 page="back" notrans="true"]
+[showstandimage who="najimi_old" face=futsu pose=1 page="back" notrans="true"]
 [strans storage="seitokai_left" noclear="true"]
 [shownametag name="大樹" visible=true]「……縁。なに、あの人？」[plc]
 
-[showstandimage who=najimi face=ikari pose=1]
+[showstandimage who=najimi_old face=ikari pose=1]
 訳が分からず近くに居た縁に尋ねると、[r]
 露骨に『話しかけるな』という顔した後にしぶしぶ答えてくれた。[plc]
 
-[showstandimage who=najimi face=do pose=1]
+[showstandimage who=najimi_old face=do pose=1]
 [shownametag name="縁" visible=true]「先輩の対立候補よ。昨日演説してたでしょ」[plc]
 
-[showstandimage who=naruse pose=2 face=futsu page="back" notrans="true"]
+[showstandimage who=naruse_old pose=2 face=futsu page="back" notrans="true"]
 [strans storage="seitokai" noclear="true"]
 ……そうなのか？　遅刻したせいか全然記憶に無いぞ。[lr]
 ん？　でもちょっと待て、先輩の対立候補ってことは……。[plc]
@@ -135,12 +135,12 @@
 それに気づいてか気付かずか、成瀬はクスリと笑って。[lr]
 そのまま、空いてる場所に適当に鎮座した。[plc]
 
-[showstandimage who=najimi face=futsu notrans="true" page="back"]
+[showstandimage who=najimi_old face=futsu notrans="true" page="back"]
 [strans storage="seitokai_left" noclear="true"]
 [shownametag name="縁" visible=true]
 「……」[plc]
 
-[showstandimage who=haruka face=keibetsu notrans="true" page="back"]
+[showstandimage who=haruka_old face=keibetsu notrans="true" page="back"]
 [strans storage="seitokai_board" noclear="true"]
 [shownametag name="遥香" visible=true]
 「……」[plc]
@@ -178,7 +178,7 @@
 こんな言い方って……。[plc]
 
 [strans storage="white"]
-[showstandimage who=naruse pose=2 face=futsu page="back" notrans="true" grayscale="true"]
+[showstandimage who=naruse_old pose=2 face=futsu page="back" notrans="true" grayscale="true"]
 [strans noclear="true" storage="hoken_e" time="1000" grayscale=true]
 『３のE……何かあったら、お尋ねなさい』[plc]
 
@@ -191,7 +191,7 @@
 
 何だったんだよ、アレは。[plc]
 
-[showstandimage who=najimi face=ikari notrans="true" page="back"]
+[showstandimage who=najimi_old face=ikari notrans="true" page="back"]
 [strans storage="seitokai_left" noclear="true"]
 [shownametag name="縁" visible=true]
 「……」[plc]
@@ -215,7 +215,7 @@
 「ほらっ、日が暮れてしまいますわよ。[lr]
 どうぞ、会議でもなんでもおやりになって」[plc]
 
-[showstandimage who=haruka face=keibetsu]
+[showstandimage who=haruka_old face=keibetsu]
 [shownametag name="遥香" visible=true]
 「あんたのとこは、どうなのよ？」[plc]
 
@@ -248,7 +248,7 @@
 [shownametag name="縁" visible=true]
 「……あんたね」[plc]
 
-[showstandimage who=haruka face=keibetsu notrans="true" page="back"]
+[showstandimage who=haruka_old face=keibetsu notrans="true" page="back"]
 [strans storage="seitokai" noclear="true"]
 [shownametag name="遥香" visible=true]
 「縁ちゃん、ストップ」[plc]
@@ -256,7 +256,7 @@
 立ち上がりそうになる縁を、先輩は止める。[plc]
 
 
-[showstandimage who=haruka face=kuno]
+[showstandimage who=haruka_old face=kuno]
 [shownametag name="遥香" visible=true]
 「諦めましょう。本当に時間の無駄だわ」[plc]
 
@@ -265,7 +265,7 @@
 「この女追い出すのは、[r]
 ウンコにまとわりつくハエを追い払うよりも大変よ」[plc]
 
-[showstandimage who=haruka face=raku]
+[showstandimage who=haruka_old face=raku]
 [shownametag name="遥香" visible=true]
 「ね？」[plc]
 
@@ -285,7 +285,7 @@
 
 成瀬がなにやらイラついてるので、よしとしよう。[plc]
 
-[showstandimage who=haruka face=magao]
+[showstandimage who=haruka_old face=magao]
 [shownametag name="遥香" visible=true]
 「はじめますか」[plc]
 
@@ -297,11 +297,11 @@
 [shownametag name="遥香" visible=true]
 「だから、それは置いとく」[plc]
 
-[showstandimage who=haruka face=do page="back" notrans="true"]
+[showstandimage who=haruka_old face=do page="back" notrans="true"]
 [strans storage="seitokai" noclear="true"]
 ビシっと、先輩は縁をたしなめるように指差し、[plc]
 
-[showstandimage who=haruka face=do size=l]
+[showstandimage who=haruka_old face=do size=l]
 [shownametag name="大樹" visible=true]
 「……ん？」[plc]
 
@@ -313,7 +313,7 @@
 
 嫌な予感がする。[plc]
 
-[showstandimage who=haruka face=raku size=l]
+[showstandimage who=haruka_old face=raku size=l]
 [shownametag name="遥香" visible=true]
 「谷口くん、黒板立って。[lr]
 書記として最初の仕事をやって貰おうか」[plc]
@@ -321,22 +321,22 @@
 ;[ダンッ！！]
 [playse storage="don"]
 [strans storage="white" method="universal" rule="left_right" time=100]
-[showstandimage who=najimi face=do page="back" notrans="true"]
+[showstandimage who=najimi_old face=do page="back" notrans="true"]
 [strans storage="seitokai_left" rule="left_right" method="universal" noclear="true" time=100]
 [shownametag name="縁" visible=true]
 「遥香先輩！　それは！！」[plc]
 
-[showstandimage who=haruka face=do page="back" notrans="true"]
+[showstandimage who=haruka_old face=do page="back" notrans="true"]
 [strans storage="seitokai" noclear="true"]
 [shownametag name="遥香" visible=true]
 「まー、まー、ストップストップ。[lr]
 まずはちょっとやらせてみてからでもいいじゃない」[plc]
 
-[showstandimage who=haruka face=raku]
+[showstandimage who=haruka_old face=raku]
 [shownametag name="遥香" visible=true]
 「私の見立てた感じ、谷口君書記に向いてると思うんだよ」[plc]
 
-[showstandimage who=najimi face=do page="back" notrans="true"]
+[showstandimage who=najimi_old face=do page="back" notrans="true"]
 [strans storage="seitokai_left" noclear="true"]
 [shownametag name="縁" visible=true]
 「せんぱ―」[plc]
@@ -345,7 +345,7 @@
 [shownametag name="遥香" visible=true]
 「ちゃんと、縁ちゃんに言われた事も話し合うからさ、ね？」[plc]
 
-[showstandimage who=najimi face=ikari]
+[showstandimage who=najimi_old face=ikari]
 [shownametag name="縁" visible=true]「……」[plc]
 
 [dis_all_chara_fade]
@@ -360,7 +360,7 @@
 
 [shownametag name="大樹" visible=true]「で、あの……」[plc]
 
-[showstandimage who=haruka face=raku]
+[showstandimage who=haruka_old face=raku]
 [shownametag name="遥香" visible=true]
 「あー、これから色々話しあうから。[r]
 議題とか、キーワードとか黒板に書いて」[plc]
@@ -399,7 +399,7 @@
 
 いきなりの言葉に、ビビった。[plc]
 
-[showstandimage who=haruka face=magao page="back" notrans="true"]
+[showstandimage who=haruka_old face=magao page="back" notrans="true"]
 [strans storage="seitokai" noclear="true"]
 [shownametag name="遥香" visible=true]「どうしたの？」[plc]
 
@@ -415,7 +415,7 @@
 
 [shownametag name="大樹" visible=true]「あの……」[plc]
 
-[showstandimage who=haruka face=ai]
+[showstandimage who=haruka_old face=ai]
 [shownametag name="遥香" visible=true]「？」[plc]
 
 
@@ -430,7 +430,7 @@
 
 [shownametag name="縁" visible=true]「……書き方が分からないんでしょ？」[plc]
 
-[showstandimage who=haruka face=odoroki]
+[showstandimage who=haruka_old face=odoroki]
 ピシャリと、縁言い当てられてしまった。[plc]
 
 
@@ -447,17 +447,17 @@
 [shownametag name="縁" visible=true]
 「全部、常用漢字の範囲内じゃないですか」[plc]
 
-[showstandimage who=haruka face=ai page="back" notrans="true"]
+[showstandimage who=haruka_old face=ai page="back" notrans="true"]
 [strans storage="seitokai" noclear="true"]
 [shownametag name="遥香" visible=true]「……」[plc]
 
 
 [shownametag name="大樹" visible=true]「……」[plc]
 
-[showstandimage who=haruka face=ki]
+[showstandimage who=haruka_old face=ki]
 [shownametag name="遥香" visible=true]「……いや、でもほら！　罷免とかやっぱ難しいし！！」[plc]
 
-[showstandimage who=haruka face=raku]
+[showstandimage who=haruka_old face=raku]
 [shownametag name="遥香" visible=true]「た、谷口君。書けない分は、ひらがなでいいよ」[plc]
 
 
@@ -509,11 +509,11 @@
 
 成瀬達は、爆笑していた。[plc]
 
-[showstandimage who=najimi face=do]
+[showstandimage who=najimi_old face=do]
 [shownametag name="縁" visible=true]
 「……馬鹿らしい。時間の無駄でしたね」[plc]
 
-[showstandimage who=najimi face=ikari]
+[showstandimage who=najimi_old face=ikari]
 [shownametag name="縁" visible=true]
 「先輩、これでもコイツを書記にするんですか？」[plc]
 
@@ -523,7 +523,7 @@
 
 俺のあまりの酷さに絶句してるのか、それとも……。[plc]
 
-[showstandimage who=najimi face=futsu]
+[showstandimage who=najimi_old face=futsu]
 [shownametag name="縁" visible=true]
 「……分かりました。じゃぁコレで、解散ですね」[plc]
 

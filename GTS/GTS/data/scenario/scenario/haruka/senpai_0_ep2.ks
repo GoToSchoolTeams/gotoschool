@@ -1,7 +1,7 @@
 [SetupMessageWindow]
 [strans storage="taiikukan_center"]
 
-[showstandimage who=haruka pose=1 face=magao size=l]
+[showstandimage who=haruka_old pose=1 face=magao size=l]
 [shownametag name="遥香" visible=true]
 「はい、マイク」[plc]
 
@@ -31,7 +31,7 @@
 それはどうも、先輩の冗談ってわけじゃなさそうで。[lr]
 横目で不快そうに見ている教頭も、別に俺を止めやしない。[plc]
 
-[showstandimage who=najimi pose=1 face=ikari]
+[showstandimage who=najimi_old pose=1 face=ikari]
 [shownametag name="縁" visible=true]
 「……」[plc]
 
@@ -429,8 +429,8 @@
 
 会場を見渡すと、[plc]
 
-[showstandimage who=najimi pos=l face=ikari notrans="true" page="back"]
-[showstandimage who=haruka face=jitome notrans="true" page="back" layer="2"]
+[showstandimage who=najimi_old pos=l face=ikari notrans="true" page="back"]
+[showstandimage who=haruka_old face=jitome notrans="true" page="back" layer="2"]
 [showstandimage who=satori pos=r face=otyokuri notrans="true" page="back" layer=3]
 [strans storage="taiikukan_left" noclear="true"]
 

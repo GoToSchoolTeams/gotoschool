@@ -6,7 +6,7 @@
 
 今なら分かる。[plc]
 
-[showstandimage who=haruka pose=1 face=ki grayscale="true" notrans=true page=back]
+[showstandimage who=haruka_old pose=1 face=ki grayscale="true" notrans=true page=back]
 [strans storage="taiikukan_center" grayscale=true noclear=true]
 例えば、昨日。[lr]
 あの会場。[plc]
@@ -24,7 +24,7 @@
 [fadeinse time="1000" storage="semi"]
 例えば、今日。[plc]
 
-[showstandimage who=najimi pose=1 face=do]
+[showstandimage who=najimi_old pose=1 face=do]
 [shownametag name="縁" visible=true]
 「――ふざけないでください！！！」[playse storage="don"][quake hmax="5" time="200"][plc]
 ;[ドンッ！！]
@@ -44,7 +44,7 @@
 気の早いセミが鳴く、会議室。[plc]
 
 [fadeoutse time="1000"]
-[showstandimage who=haruka pose=1 face=kuno]
+[showstandimage who=haruka_old pose=1 face=kuno]
 [shownametag name="遥香" visible=true]「……うーん」[plc]
 
 
