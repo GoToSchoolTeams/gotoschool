@@ -103,7 +103,7 @@
 [endmacro]
 ;;[松戸]
 ;;pose=ポーズ番号, 1;2;3
-;;face=表情名, futsu;hitan;kogeki;kokotsu
+;;face=表情名, kokotsu;kogeki;gekido;kokai;hitan;kyotan;shinrai;futsu
 ;;size=サイズ, s;m;l
 ;;nobust=バスト画像を出さない, 論理値
 ;;tere=照れてるかどうか, 論理値
@@ -120,7 +120,7 @@
 [endmacro]
 ;;[松戸顔]
 ;;pose=ポーズ番号, 1;2;3
-;;face=表情名, futsu;hitan;kogeki;kokotsu
+;;face=表情名, kokotsu;kogeki;gekido;kokai;hitan;kyotan;shinrai;futsu
 ;;tere=照れてるかどうか, 論理値
 ;;visible=レイヤの可視・不可視\nlayer 属性で指定したレイヤを表示するか、しないかを指定します, 論理値
 [macro name="matsudo_face"]
