@@ -184,7 +184,7 @@
 
 いつものご機嫌伺いに行く途中、縁に呼び止められた。[plc]
 
-[najimi_stand face="do"]
+[najimi_stand face="ikari"]
 [shownametag name="縁" visible=true]
 「どこいくのよ」[plc]
 
@@ -236,7 +236,7 @@
 
 自然、一番使えない俺が使いっ走りをする事になる。[plc]
 
-[najimi_stand face="do"]
+[najimi_stand face="iakri"]
 [shownametag name="縁" visible=true]
 「……」[plc]
 
@@ -256,7 +256,7 @@
 
 無視して歩き出す。[plc]
 
-[najimi_stand face="do_kuchiake"]
+[najimi_stand face="ikari"]
 [shownametag name="縁" visible=true]
 「方向が逆よ」[plc]
 
@@ -385,7 +385,7 @@
 [fadeinse storage="semi" time="1000" loop="true"]
 [show_message_fade time="200"]
 
-[najimi_stand face="do"]
+[najimi_stand face="ikari"]
 [shownametag name="縁" visible=true]
 「……あんた、サボってたでしょ？」[plc]
 
@@ -426,7 +426,7 @@
 
 なんだかもう全部めんどくさくなった。[plc]
 
-[najimi_stand face="do_kuchiake" size="l"]
+[najimi_stand face="ikari" size="l"]
 [shownametag name="縁" visible=true]
 「悪びれもなく」[plc]
 
@@ -469,7 +469,7 @@
 [shownametag name="大樹" visible=true]
 「疲れたよ！　俺、もう疲れた！！」[plc]
 
-[najimi_stand face="do" size="l"]
+[najimi_stand face="ikari" size="l"]
 [shownametag name="縁" visible=true]
 「疲れてんのは―」[plc]
 
@@ -483,7 +483,7 @@
 「そんな悪い？　俺、そんな悪いか？？[lr]
 　やっても無駄な事やらなくて、本当すみませんでしたね！」[plc]
 
-[najimi_stand face="do" size="l"]
+[najimi_stand face="ikari" size="l"]
 [shownametag name="縁" visible=true]
 「……」[plc]
 
@@ -650,7 +650,7 @@
 「自分の非を……嘆いて、泣いて、媚びて。[lr]
 　……まったく向きあおうともしないなんて」[plc]
 
-[najimi_stand face="do"]
+[najimi_stand face="metoji2"]
 [shownametag name="縁" visible=true]
 「それが通らないと、癇癪を起こして、[lr]
 　感情がコントロール出来なくなったら暴力」[plc]
@@ -658,7 +658,7 @@
 
 その表情は、[plc]
 
-[najimi_stand face="do_shizuka"]
+[najimi_stand face="iakari"]
 [shownametag name="縁" visible=true]
 「酷い」[plc]
 
@@ -747,7 +747,7 @@
 
 もっと笑えよ――。[plc]
 
-[najimi_stand face="do_kuchiake" size="l"]
+[najimi_stand face="ikari" size="l"]
 [shownametag name="縁" visible=true bust="false"]
 「……やめて…」[plc]
 
@@ -759,7 +759,7 @@
 
 想い出話だろうが！！[plc]
 
-[najimi_stand face="do" tere="true" size="l"]
+[najimi_stand face="ikari" tere="true" size="l"]
 [shownametag name="縁" visible=true bust="false"]
 「……やめて、やめてよ」[plc]
 

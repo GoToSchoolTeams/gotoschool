@@ -141,7 +141,7 @@
 入り口付近で先輩がパタパタと何かやってるようすが分かるが、[lr]
 どうも電灯のスイッチが無いらしい。[plc]
 
-[najimi_face face="metoji_kuchiake"]
+[najimi_face face="metoji2"]
 [show_nametag name="縁" visible=true]
 「……っ」[plc]
 
@@ -273,7 +273,7 @@
 安心したという顔で男はガイアを見て、[lr]
 俺達を残念そうな顔で見つめた。[plc]
 
-[najimi_face face="do"]
+[najimi_face face="ikari"]
 [show_nametag name="縁" visible=true]
 「……」[plc]
 

@@ -118,7 +118,7 @@
 
 
 [quake time="300"]
-[najimi_stand face="do_kuchiake" size="l" time="200"]
+[najimi_stand face="ikari" size="l" time="200"]
 [show_nametag name="縁" visible=true]
 「沢山居た女子は、あんたが逃したんでしょうが！」[plc]
 

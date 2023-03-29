@@ -489,7 +489,7 @@
 
 俺の表情で全てわかったらしい縁は、深くため息を付いた。[plc]
 
-[najimi_stand face="ai"]
+[najimi_stand face="aisyu"]
 [shownametag name="縁" visible=true]
 「……あのね」[plc]
 
@@ -498,7 +498,7 @@
 「そこからは、私が説明するわ。[r]
 　縁ちゃんご飯食べれなくなるよ」[plc]
 
-[najimi_stand face="akire"]
+[najimi_stand face="hoshin"]
 [shownametag name="縁" visible=true]
 「ぁ……お願いします」[plc]
 
@@ -697,7 +697,7 @@
 「……実際、両方成功する年は殆ど無いわ。[lr]
 　両方失敗する年もあるくらい」[plc]
 
-[najimi_face face="ai"]
+[najimi_face face="aisyu"]
 [shownametag name="縁" visible=true]
 「失敗して情けない姿を晒すのも、教育だってことらしいわ」[plc]
 [dis_all_chara]
@@ -722,7 +722,7 @@
 「だから、無難にこなすのが普通だし。[lr]
 　無難にこなしただけで十分だったりするわ」[plc]
 
-[najimi_stand face="ai"]
+[najimi_stand face="aisyu"]
 [shownametag name="縁" visible=true]
 「……片方が自爆したりね」[plc]
 
@@ -794,7 +794,7 @@
 　毎年変わらず『文化祭』をやってるってのも大きい」[plc]
 
 
-[najimi_stand face="ai" size=m]
+[najimi_stand face="aisyu" size=m]
 [shownametag name="縁" visible=true]
 「スポーツイベントは毎年、『球技大会』になったり[r]
 　『ダンス大会』になったりで安定してない」[plc]
@@ -846,7 +846,7 @@
 
 だろうなぁ……脳筋さんには洒落がきかないから。[plc]
 
-[najimi_stand face="ai"]
+[najimi_stand face="aisyu"]
 [shownametag name="縁" visible=true]
 「加えて、文化部とは疎遠になってしまいましたしね」[plc]
 
@@ -1026,7 +1026,7 @@
 [shownametag name="取り巻きB" visible=true bust="false"]
 「素晴らしいですわ！」[plc]
 
-[najimi_stand face="do"]
+[najimi_stand face="metoji"]
 [shownametag name="縁" visible=true]
 「……じゃんけんは、あっけないもんでしょうが」[plc]
 

@@ -192,7 +192,7 @@
 
 全然、反応が無い。[plc]
 
-[najimi_face face="do"]
+[najimi_face face="ikari"]
 [shownametag name="縁" visible=true]
 「……やっぱり」[plc]
 
@@ -606,7 +606,7 @@
 
 残った文化部連中は、本気のようだった。[plc]
 
-[najimi_stand face="do_kuchiake" size="l" time="200"]
+[najimi_stand face="ikari" size="l" time="200"]
 [shownametag name="縁" visible=true]
 「そんなこと、できるわけ――」[plc]
 

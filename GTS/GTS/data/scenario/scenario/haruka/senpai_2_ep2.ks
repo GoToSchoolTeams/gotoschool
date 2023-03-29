@@ -631,7 +631,7 @@
 「――ちくしょぉおおおおおッ！！」[plc]
 
 [quake time="200"]
-[najimi_stand face="do_shizuka" size="l"]
+[najimi_stand face="seido" size="l"]
 [shownametag name="縁" visible=true]
 「……」[plc]
 ;[ゴスッ！]
@@ -640,7 +640,7 @@
 [shownametag name="大樹" visible=true]
 「なんで殴るんだよ！！？」[plc]
 
-[najimi_stand face="do" tere="true"]
+[najimi_stand face="ikari" tere="true"]
 [shownametag name="縁" visible=true]
 「ふん」[plc]
 
@@ -698,7 +698,7 @@
 　……流石に学内なのでね」[plc]
 
 ;[ピー音入れてもいいかも]
-[najimi_stand face="do" tere="true" size="l" time="200"]
+[najimi_stand face="ikari" tere="true" size="l" time="200"]
 [quake time="200"]
 [shownametag name="縁" visible=true]
 「言葉を選びなさいよ！」[plc]
@@ -764,7 +764,7 @@
 [shownametag name="小デブ" visible=true bust="false"]
 「――tender [l]間違いない、
 [dis_all_chara]
-[najimi_stand face="do_shizuka" size="l" time="200" nobust="false"]
+[najimi_stand face="seido" size="l" time="200" nobust="false"]
 [showbustup who=matsudo face=futsu pose="1"]
 これは―」[plc]
 

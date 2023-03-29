@@ -1339,7 +1339,7 @@
 「……」[plc]
 [dis_all_chara]
 
-[image storage="m_najimi_pose1_odoroki" layer="1" visible="true" left="-250"]
+[image storage="m_najimi_pose1_hoshin" layer="1" visible="true" left="-250"]
 [shownametag name="縁" visible=true bust="false"]
 「……」[plc]
 [dis_all_chara]
@@ -1383,7 +1383,7 @@
 
 先輩は、驚いているようだった。[plc]
 
-[najimi_stand face="odoroki" size="l"]
+[najimi_stand face="akire" size="l"]
 [shownametag name="縁" visible=true]
 「……」[plc]
 
@@ -1404,7 +1404,7 @@
 
 方向転換し、縁に向かった。[plc]
 
-[najimi_stand face="odoroki"]
+[najimi_stand face="hoshin"]
 [shownametag name="縁" visible=true]
 「……」[plc]
 
@@ -1449,7 +1449,7 @@
 
 俺がちょっと身構えた事で、ハッと縁は我に返った。[plc]
 
-[najimi_stand face="do" tere="true" size="l" time="200"s]
+[najimi_stand face="ikari" tere="true" size="l" time="200"s]
 [shownametag name="縁" visible=true]
 「……許す」[plc]
 

@@ -271,7 +271,7 @@
 [shownametag name="マッシュ（登別）" visible=true bust="false"]
 「――縁殿も乳を見せれば」[plc]
 
-[najimi_stand face="do" size="l" time="200"]
+[najimi_stand face="ikari" size="l" time="200"]
 [shownametag name="縁" visible=true]
 「殺すわよ」[plc]
 
@@ -430,7 +430,7 @@
 ……結構、ショックだなぁ。[plc]
 
 
-[najimi_stand face="do" size="l" time="200"]
+[najimi_stand face="ikari" size="l" time="200"]
 [shownametag name="縁" visible=true]
 「で、」[plc]
 
@@ -442,7 +442,7 @@
 [najimi_stand face="futsu"]
 [shownametag name="縁" visible=true]
 「だい……[l]
-[najimi_stand face="do" tere="true"]
+[najimi_stand face="metoji2" tere="true"]
 いや、谷口君は『裏切って』向こうに居たんだから、[lr]
 　何か打開策はないのかしら？」[plc]
 
@@ -572,7 +572,7 @@
 
 [dis_all_chara]
 
-[najimi_face face="do" size="l" time="200"]
+[najimi_face face="ikari" size="l" time="200"]
 [shownametag name="縁" visible=true]
 「馬鹿なの？　成瀬が提供出来てるメリットなんだから、[lr]
 　私達にも提供できるかもしれないでしょ」[plc]
@@ -679,7 +679,7 @@
 「……変ですね。自分たちでやると言ったって。[lr]
 　毎年、こっちは部間の調整程度で殆ど」[plc]
 
-[najimi_face face="ai"]
+[najimi_face face="aisyu"]
 [shownametag name="縁" visible=true]
 「いつも自分たちでやっているようなものなのに」[plc]
 
@@ -722,7 +722,7 @@
 [shownametag name="遥香" visible=true]
 「ま、私達が押してた先輩はそれに負けちゃったんだけど……」[plc]
 
-[najimi_face face="ai"]
+[najimi_face face="aisyu"]
 [shownametag name="縁" visible=true]
 「……こっちはお通夜でしたからね」[plc]
 
@@ -775,7 +775,7 @@
 「でも、向こうの中心メンバーって、[lr]
 　いまの成瀬のとこじゃなかったっけ？」[plc]
 
-[najimi_face face="ai"]
+[najimi_face face="aisyu"]
 [shownametag name="縁" visible=true]
 「……そう、それが不思議なんですよね」[plc]
 
@@ -905,7 +905,7 @@
 [shownametag name="遥香" visible=true]
 「……」[plc]
 
-[najimi_face face="ai"]
+[najimi_face face="aisyu"]
 [shownametag name="縁" visible=true]
 「……」[plc]
 
@@ -1073,7 +1073,7 @@
 「しょーがないわよ、行きましょう」[plc]
 
 
-[najimi_stand face="do"]
+[najimi_stand face="ikari"]
 [shownametag name="縁" visible=true]
 「しかたないわ」[plc]
 
