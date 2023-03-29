@@ -13,7 +13,7 @@
 ;[call target=*De]
 
 [show_message_fade time="500"]
-[showbustup who="sakurako" pose="1" face=magao]
+[showbustup who="sakurako" pose="1" face=futsu]
 [shownametag name="福岡" visible=true bust="false"]
 「――断るわ」[plc]
 
@@ -47,11 +47,11 @@
 
 会議室のカーテンに色付けられた光が、縁の顔を染めた。[plc]
 
-[showbustup who="sakurako" pose="1" face=magao]
+[showbustup who="sakurako" pose="1" face=futsu]
 [shownametag name="福岡" visible=true bust="false"]
 「全員集められて、前に立ったのが旗立さん……」[plc]
 
-[showbustup who="sakurako" pose="1" face=magao]
+[showbustup who="sakurako" pose="1" face=futsu]
 [shownametag name="福岡" visible=true bust="false"]
 「……話の内容は、大体予想は付くわ」[plc]
 
@@ -88,7 +88,7 @@
 
 やっぱり、こいつら……。[plc]
 
-[showbustup who="sakurako" pose="1" face=magao]
+[showbustup who="sakurako" pose="1" face=futsu]
 [shownametag name="福岡" visible=true bust="false"]
 「ま、とにかく旗立さんがそっちに行こうがいくまいが、[lr]
 　私達には関係ないわ」[plc]
@@ -112,12 +112,12 @@
 
 勿論、隠す気などサラサラ無いのだろう。[plc]
 
-[showbustup who="sakurako" pose="1" face=magao]
+[showbustup who="sakurako" pose="1" face=futsu]
 [shownametag name="福岡" visible=true bust="false"]
 「みゆきちゃん……ちょっとそれは言い過ぎ、[lr]
 　確かにあの時は、旗立さんに前に出てもらったからね」[plc]
 
-[showbustup who="sakurako" pose="1" face=magao]
+[showbustup who="sakurako" pose="1" face=futsu]
 [shownametag name="福岡" visible=true bust="false"]
 「でも、ま。あなたがリーダーだったわけじゃないわ」[plc]
 
@@ -161,7 +161,7 @@
 [nowait]
 「遥香先輩は、黙っててください！」[plc]
 
-[showbustup who="sakurako" pose="1" face=magao]
+[showbustup who="sakurako" pose="1" face=futsu]
 [shownametag name="福岡" visible=true bust="false"]
 「そうね、遥香の出る幕じゃないわね」[plc]
 
@@ -184,7 +184,7 @@
 「……私が、これほど頼んでもダメだっていうんですか？」[plc]
 
 
-[showbustup who="sakurako" pose="1" face=magao]
+[showbustup who="sakurako" pose="1" face=futsu]
 [shownametag name="福岡" visible=true bust="false"]
 「あなたのどこが頼んでる態度だっていうのよ」[plc]
 [dis_all_chara]
@@ -223,7 +223,7 @@
 「ハッ、わざわざ呼び出しておいてその態度かよ」[plc]
 
 
-[showbustup who="sakurako" pose="1" face=magao]
+[showbustup who="sakurako" pose="1" face=futsu]
 [shownametag name="福岡" visible=true bust="false"]
 「もういいわ、帰りましょうよ」[plc]
 
@@ -236,7 +236,7 @@
 「ほとんど一人でブツブツやってるだけのくせに」[plc]
 
 
-[showbustup who="sakurako" pose="1" face=magao]
+[showbustup who="sakurako" pose="1" face=futsu]
 [shownametag name="福岡" visible=true bust="false"]
 「あっそう。私は帰るわ」[plc]
 
