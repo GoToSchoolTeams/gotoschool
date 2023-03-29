@@ -507,7 +507,7 @@
 [shownametag name="成瀬" visible=true]
 「……あら、雅じゃない」[plc]
 
-[miyabi_stand face="futsu" size="l"]
+[old_miyabi_stand face="futsu" size="l"]
 [shownametag name="十二単" visible=true]
 「ごきげんなようね、なるみ」[plc]
 
@@ -549,7 +549,7 @@
 
 その言葉は無視して、十二単は続けた。[plc]
 
-[miyabi_stand face="futsu"]
+[old_miyabi_stand face="futsu"]
 [shownametag name="十二単" visible=true]
 「どうしても、先方は書類は渡したくないようでの」[plc]
 
@@ -559,7 +559,7 @@
 　良ければ準備もするけれど？」[plc]
 
 
-[miyabi_stand face="futsu"]
+[old_miyabi_stand face="futsu"]
 [shownametag name="十二単" visible=true]
 「そこまではよい」[plc]
 
@@ -567,7 +567,7 @@
 [dis_all_chara]
 言って、チラリとこちらを一瞥した。[plc]
 
-[miyabi_face face="futsu"]
+[old_miyabi_face face="futsu"]
 [shownametag name="十二単" visible=true]
 「ほんに、がんこでのう」[plc]
 
@@ -575,7 +575,7 @@
 [shownametag name="成瀬" visible=true]
 「はいはい、見ない見ない。彼のせいじゃないんだから」[plc]
 
-[miyabi_face face="futsu"]
+[old_miyabi_face face="futsu"]
 [shownametag name="十二単" visible=true]
 「それだけではないぞ……私は反対じゃ」[plc]
 
@@ -583,7 +583,7 @@
 
 言って、ピッと扇子を俺に向けた。[plc]
 
-[miyabi_stand face="futsu" size="l"]
+[old_miyabi_stand face="futsu" size="l"]
 [shownametag name="十二単" visible=true]
 「獅子身中の虫……ということもある。[l]間者かもしれん」[plc]
 
@@ -694,7 +694,7 @@
 俺が、先輩の手駒だったから入れたんだ。[plc]
 
 [dis_all_chara]
-[miyabi_face face="futsu"]
+[old_miyabi_face face="futsu"]
 [shownametag name="十二単" visible=true]
 「……」[plc]
 
@@ -706,7 +706,7 @@
 [shownametag name="成瀬" visible=true]
 「あちらの調子は、どういう感じ？」[plc]
 
-[miyabi_face face="futsu"]
+[old_miyabi_face face="futsu"]
 [shownametag name="十二単" visible=true]
 「どうにもならんようだの」[plc]
 
@@ -747,7 +747,7 @@
 [shownametag name="成瀬" visible=true]
 「どう？　雅も、紅茶はいかが？」[plc]
 
-[miyabi_face face="futsu"]
+[old_miyabi_face face="futsu"]
 [shownametag name="十二単" visible=true]
 「……紅茶は日本人が飲むものではないのぉ」[plc]
 
@@ -789,7 +789,7 @@
 [shownametag name="成瀬" visible=true]
 「いいじゃないの、もう関係ないんだし」[plc]
 
-[miyabi_face face="futsu"]
+[old_miyabi_face face="futsu"]
 [shownametag name="十二単" visible=true]
 「……あまり、耳に良い話ではないの」[plc]
 
@@ -868,7 +868,7 @@
 周りも笑っていて。[plc]
 
 [fadebgm volume="50" time="800"]
-[miyabi_stand face="futsu" size="l"]
+[old_miyabi_stand face="futsu" size="l"]
 [shownametag name="十二単" visible=true]
 「……」[plc]
 [dis_all_chara]
@@ -1176,7 +1176,7 @@
 パンパンと、手を払って立ち上がる。[lr]
 見回すと、おいおい全員震えてるじゃねーか。[plc]
 
-[miyabi_stand face="futsu" size="l"]
+[old_miyabi_stand face="futsu" size="l"]
 [shownametag name="十二単" visible=true]
 「……」[plc]
 
@@ -1250,7 +1250,7 @@
 一同に背を向けると、[plc]
 
 [fadebgm volume="50"]
-[miyabi_stand face="futsu" size=l]
+[old_miyabi_stand face="futsu" size=l]
 [shownametag name="十二単" visible=true]
 「……壊した器、誰もがつながるとは限らない」[plc]
 
@@ -1262,7 +1262,7 @@
 [shownametag name="大樹" visible=true]
 「知ってるよ」[plc]
 
-[miyabi_stand face="futsu" size=l]
+[old_miyabi_stand face="futsu" size=l]
 [shownametag name="十二単" visible=true]
 「壊すのは簡単で」[plc]
 
@@ -1270,7 +1270,7 @@
 [shownametag name="大樹" visible=true]
 「そーだねー」[plc]
 
-[miyabi_stand face="futsu" size=l time="200"]
+[old_miyabi_stand face="futsu" size=l time="200"]
 [shownametag name="十二単" visible=true]
 「直すのは――」[plc]
 
@@ -1289,7 +1289,7 @@
 
 ……いや、[l]正直、言葉の意味が分からなかった。[plc]
 
-[miyabi_face face="futsu"]
+[old_miyabi_face face="futsu"]
 [shownametag name="十二単" visible=true]
 「難しい」[plc]
 
