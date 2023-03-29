@@ -187,7 +187,7 @@
 そりゃぁ、たしかに無理だ。[lr]
 学校の選挙だし。[plc]
 
-[satori_stand face="odoroki" size="l"]
+[satori_stand face="hoshin" size="l"]
 [shownametag name="悟" visible=true]
 「たれ蔵先輩は本当に無知なんですねぇ」[plc]
 
@@ -346,7 +346,7 @@
 
 また、馬鹿げた茶番が始まろうとして、[plc]
 
-[satori_stand face="ki" time="200"]
+[satori_stand face="yorokobi" time="200"]
 [shownametag name="悟" visible=true]
 「……あははは、先輩たち醜いですぅ」[plc]
 
@@ -394,7 +394,7 @@
 鬱陶しそうに後輩は手を降った。[plc]
 
 
-[satori_stand face="ai" time="200"]
+[satori_stand face="kanashimi" time="200"]
 [shownametag name="悟" visible=true]
 「やめてくださいよー熱心にこっちみるの、恥ずかしい」[plc]
 
@@ -416,7 +416,7 @@
 [shownametag name="遥香" visible=true]
 「……何回やらすのよ君たちは」[plc]
 
-[satori_face face="ai"]
+[satori_face face="kanashimi"]
 [shownametag name="悟" visible=true]
 「ご、ごめんなさい」[plc]
 

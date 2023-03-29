@@ -614,7 +614,7 @@
 
 デブが、みっともなく転がった。[plc]
 
-[[satori_face face="ai"]
+[satori_face face="kanashimi"]
 [shownametag name="悟" visible=true bust="false"]
 「……ひぃ」[plc]
 

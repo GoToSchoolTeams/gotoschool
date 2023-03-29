@@ -85,7 +85,7 @@
 [shownametag name="縁" visible=true]
 「……」[plc]
 
-[satori_face face="ai"]
+[satori_face face="kanashimi"]
 [shownametag name="悟" visible=true]
 「……」[plc]
 
@@ -197,7 +197,7 @@
 [shownametag name="浮浪者っぽい生徒" visible=true bust="false"]
 「しかも、この匂ひ……お、おまえぇ……」[plc]
 
-[satori_face face="ai"]
+[satori_face face="kanashimi"]
 [shownametag name="悟" visible=true]
 「ひ……ぁわわぁ！？」[plc]
 
@@ -211,7 +211,7 @@
 「――まだキテないなぁぁあああああッ！！」[plc]
 
 [quake time="400"]
-[satori_stand face="naki" size="l"]
+[satori_stand face="hitan" size="l"]
 [shownametag name="悟" visible=true]
 「――ひぃいいいいいいいいいいいいいっ！！！？」[plc]
 
