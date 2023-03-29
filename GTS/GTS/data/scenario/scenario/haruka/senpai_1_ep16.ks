@@ -241,7 +241,7 @@
 [shownametag name="遥香" visible=true]
 「……は？」[plc]
 
-[najimi_stand face="do"]
+[najimi_stand face="metoji2"]
 [shownametag name="縁" visible=true]
 「無知ね」[plc]
 
@@ -267,7 +267,7 @@
 [shownametag name="大樹" visible=true]
 「来たんですか、旗立 縁 さん」[plc]
 
-[najimi_face face="do"]
+[najimi_face face="metoji"]
 [shownametag name="縁" visible=true]
 「来ましたよ、谷口 大樹 くん」[plc]
 
@@ -292,7 +292,7 @@
 [shownametag name="遥香" visible=true]
 「はい、縁ちゃん。お茶」[plc]
 
-[najimi_face face="ki"]
+[najimi_face face="yorokobi"]
 [shownametag name="縁" visible=true]
 「ありがとうございます」[plc]
 
@@ -305,7 +305,7 @@
 [shownametag name="遥香" visible=true]
 「……縁ちゃんの弁当、やっぱり美味しそうだね」[plc]
 
-[najimi_face face="raku"]
+[najimi_face face="shinrai"]
 [shownametag name="縁" visible=true]
 「いえ、自炊に慣れてるだけですよ」[plc]
 
@@ -321,7 +321,7 @@
 [shownametag name="遥香" visible=true]
 「いっこ貰っていい？」[plc]
 
-[najimi_face face="raku"]
+[najimi_face face="shinrai"]
 [shownametag name="縁" visible=true]
 「どうぞ」[plc]
 
@@ -351,7 +351,7 @@
 
 [fadebgm volume="100" time="500"]
 
-[najimi_stand face="do" size="m"]
+[najimi_stand face="ikari" size="m"]
 [shownametag name="縁" visible=true]
 「……」[plc]
 
@@ -399,7 +399,7 @@
 [shownametag name="大樹" visible=true]
 「学校行事？」[plc]
 
-[najimi_stand face="do"]
+[najimi_stand face="metoji"]
 [shownametag name="縁" visible=true]
 「そう……この選挙活動もそうだけど、[lr]
 　この学校は学校行事を生徒に任せたがる」[plc]
@@ -421,7 +421,7 @@
 
 と言っても、[plc]
 
-[najimi_stand face="do"]
+[najimi_stand face="metoji2"]
 [shownametag name="縁" visible=true]
 「夏期講習期間中にやる、あの馬鹿げたイベントよ」[plc]
 
@@ -459,7 +459,7 @@
 
 [shownametag name="縁" visible=true]
 「つまり、あれ。選挙活動の一貫なのよ。[lr]
-[najimi_stand face="raku"]
+[najimi_stand face="hoshin"]
 　ま、知ってるでしょうけどね」[plc]
 
 [dis_all_chara]
