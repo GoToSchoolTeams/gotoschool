@@ -25,7 +25,7 @@
 *【新フォーマット立ち絵】
 ;;[縁]
 ;;pose=ポーズ番号, 1;2;3
-;;face=表情名, ai;akire;bibiri;do;do_kuchiake;do_shizuka;doya;futsu;ki;metoji;metoji_kuchiake;odoroki;raku
+;;face=表情名, yorokobi;shinrai;fuan;hoshin;odoroki;aisyu;aisyu2;ikari;ikarinaki;ikarinaki2;akire;unzari;iradachi;kitai;futsu;metoji;metoji2;doya;bibiri;gekido;keibetsu;ai;kyofu;kyozetsu;hitan;kokai;seido
 ;;size=サイズ, s;m;l
 ;;nobust=バスト画像を出さない, 論理値
 ;;tere=照れてるかどうか, 論理値
@@ -42,7 +42,7 @@
 [endmacro]
 ;;[縁顔]
 ;;pose=ポーズ番号, 1;2;3
-;;face=表情名, ai;akire;bibiri;do;do_kuchiake;do_shizuka;doya;futsu;ki;metoji;metoji_kuchiake;odoroki;raku
+;;face=表情名, yorokobi;shinrai;fuan;hoshin;odoroki;aisyu;aisyu2;ikari;ikarinaki;ikarinaki2;akire;unzari;iradachi;kitai;futsu;metoji;metoji2;doya;bibiri;gekido;keibetsu;ai;kyofu;kyozetsu;hitan;kokai;seido
 ;;tere=照れてるかどうか, 論理値
 ;;visible=レイヤの可視・不可視\nlayer 属性で指定したレイヤを表示するか、しないかを指定します, 論理値
 ;;nopos=ポジションを適用しない, 論理値
@@ -52,7 +52,7 @@
 [endmacro]
 ;;[成瀬]
 ;;pose=ポーズ番号, 1;2;3
-;;face=表情名, ai;akire;do;doya;futsu;hohoho;ki;odoroki;raku
+;;face=表情名, yorokobi;shinrai;fuan;odoroki;aisyu;keibetsu;iradachi;kanshin;futsu;futsu2;kokotsu;ifu;kyozetsu;keno;kanashimi;doya
 ;;size=サイズ, s;m;l
 ;;nobust=バスト画像を出さない, 論理値
 ;;tere=照れてるかどうか, 論理値
@@ -68,7 +68,7 @@
 [endmacro]
 ;;[成瀬顔]
 ;;pose=ポーズ番号, 1;2;3
-;;face=表情名, ai;akire;do;doya;futsu;hohoho;ki;odoroki;raku
+;;face=表情名, yorokobi;shinrai;fuan;odoroki;aisyu;keibetsu;iradachi;kanshin;futsu;futsu2;kokotsu;ifu;kyozetsu;keno;kanashimi;doya
 ;;tere=照れてるかどうか, 論理値
 ;;visible=レイヤの可視・不可視\nlayer 属性で指定したレイヤを表示するか、しないかを指定します, 論理値
 [macro name="naruse_face"]
@@ -77,7 +77,7 @@
 [endmacro]
 ;;[悟]
 ;;pose=ポーズ番号, 1;2;3
-;;face=表情名, ki;do;ai;raku;doya;odoroki;futsu;akire;naki;otyokuri
+;;face=表情名, yorokobi;shinrai;osore;hoshin;odoroki;kanashimi;akire;unzari;iradachi;kitai;futsu;futsu2;hitan;fuan;doya;otyokuri;ai
 ;;size=サイズ, s;m;l
 ;;nobust=バスト画像を出さない, 論理値
 ;;tere=照れてるかどうか, 論理値
@@ -94,7 +94,7 @@
 [endmacro]
 ;;[悟顔]
 ;;pose=ポーズ番号, 1;2;3
-;;face=表情名, ki;do;ai;raku;doya;odoroki;futsu;akire;naki;otyokuri
+;;face=表情名, yorokobi;shinrai;osore;hoshin;odoroki;kanashimi;akire;unzari;iradachi;kitai;futsu;futsu2;hitan;fuan;doya;otyokuri;ai
 ;;tere=照れてるかどうか, 論理値
 ;;visible=レイヤの可視・不可視\nlayer 属性で指定したレイヤを表示するか、しないかを指定します, 論理値
 [macro name="satori_face"]
@@ -129,7 +129,7 @@
 [endmacro]
 ;;[桜子]
 ;;pose=ポーズ番号, 1;2;3
-;;face=表情名, magao
+;;face=表情名, heion;shinrai;odoroki;aisyu;unzari;iradachi;metoji;futsu
 ;;size=サイズ, s;m;l
 ;;nobust=バスト画像を出さない, 論理値
 ;;tere=照れてるかどうか, 論理値
@@ -146,14 +146,39 @@
 [endmacro]
 ;;[桜子顔]
 ;;pose=ポーズ番号, 1;2;3
-;;face=表情名, magao
+;;face=表情名, heion;shinrai;odoroki;aisyu;unzari;iradachi;metoji;futsu
 ;;tere=照れてるかどうか, 論理値
 ;;visible=レイヤの可視・不可視\nlayer 属性で指定したレイヤを表示するか、しないかを指定します, 論理値
 [macro name="sakurako_face"]
 [showbustup who="sakurako" face="%face|futsu" pose="%pose|1" tere="%tere|false" visible="%visible|true"]
 [kagtag face="%face|futsu" pose="%pose|1" tere="%tere|false" visible="%visible|true"]
 [endmacro]
-
+;;[高橋]
+;;pose=ポーズ番号, 1;2;3
+;;face=表情名, rakkan;kokotsu;keiai;kyofu;aisyu;iradachi;kitai;futsu
+;;size=サイズ, s;m;l
+;;nobust=バスト画像を出さない, 論理値
+;;tere=照れてるかどうか, 論理値
+;;pos=前景レイヤ位置\nレイヤ位置を自動的に決定します, l;c;r
+;;layer=表示したい前景レイヤ番号, 前景レイヤ;0;1;2
+;;page=画面\n指定しない場合はback, fore;back
+;;time=トランジション時間\nデフォルトは500, ミリ秒時間
+;;notrans=トランジションの有無, 論理値
+;;visible=レイヤの可視・不可視\nlayer 属性で指定したレイヤを表示するか、しないかを指定します, 論理値
+;;nopos=ポジションを適用しない, 論理値
+[macro name="takahashi_stand"]
+[showstandimage who="takahashi" pose="%pose|1"  face="%face|futsu" size="%size|m" nobust="%nobust|false" tere="%tere|false" pos="%pos|c" layer="%layer|0" page="%page|back" notrans="%notrans|false" time="%time|400" visible="%visible|true"]
+[kagtag pose="%pose|1"  face="%face|futsu" size="%size|m" nobust="%nobust|false" tere="%tere|false" pos="%pos|c" layer="%layer|0" page="%page|back" notrans="%notrans|false" time="%time|400" visible="%visible|true"]
+[endmacro]
+;;[高橋顔]
+;;pose=ポーズ番号, 1;2;3
+;;face=表情名, rakkan;kokotsu;keiai;kyofu;aisyu;iradachi;kitai;futsu
+;;tere=照れてるかどうか, 論理値
+;;visible=レイヤの可視・不可視\nlayer 属性で指定したレイヤを表示するか、しないかを指定します, 論理値
+[macro name="takahashi_face"]
+[showbustup who="takahashi" face="%face|futsu" pose="%pose|1" tere="%tere|false" visible="%visible|true"]
+[kagtag face="%face|futsu" pose="%pose|1" tere="%tere|false" visible="%visible|true"]
+[endmacro]
 
 *【old立ち絵】
 ;;[old遥香]
