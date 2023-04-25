@@ -11,8 +11,6 @@
 [strans storage="bg_black"]
 
 
-[call target=*De]
-
 
 『部活塔』……とは、[l]旧校舎の事だ。[plc]
 
@@ -279,9 +277,6 @@
 @wipe storage="bg_kitaRouka"
 
 ;[場面転換、時間経過]
-
-
-*De
 
 
 [shownametag name="大樹" visible=true]
