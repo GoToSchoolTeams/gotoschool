@@ -11,7 +11,7 @@
 [strans storage="bg_black"]
 
 
-;[call target=*De]
+[call target=*De]
 
 
 『部活塔』……とは、[l]旧校舎の事だ。[plc]
@@ -85,7 +85,7 @@
 [shownametag name="縁" visible=true]
 「……」[plc]
 
-[satori_face face="kanashimi"]
+[satori_face face="ai"]
 [shownametag name="悟" visible=true]
 「……」[plc]
 
@@ -197,7 +197,7 @@
 [shownametag name="浮浪者っぽい生徒" visible=true bust="false"]
 「しかも、この匂ひ……お、おまえぇ……」[plc]
 
-[satori_face face="kanashimi"]
+[satori_face face="ai"]
 [shownametag name="悟" visible=true]
 「ひ……ぁわわぁ！？」[plc]
 
@@ -281,7 +281,7 @@
 ;[場面転換、時間経過]
 
 
-
+*De
 
 
 [shownametag name="大樹" visible=true]
