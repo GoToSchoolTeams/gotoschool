@@ -14,7 +14,7 @@
 [fadebgm volume="75" time="500"]
 [strans storage="black" time="250"]
 [strans storage="rouka_ev" time="250" grayscale=true]
-[showstandimage who=satori pose=1 face=ai grayscale="true"]
+;[showstandimage who=satori pose=1 face=ai grayscale="true"]
 [shownametag name="顔面おろし娘" visible=true]「急いでるのでっ！」[plc]
 ;[回想っぽく]
 
@@ -459,7 +459,7 @@
 [shownametag name="大樹" visible=true]「何だか、ほんとに楽しくなって――」[plc]
 
 [strans storage="taiikukan_center"]
-[showstandimage who=satori pose=1 face=futsu size=s]
+;[showstandimage who=satori pose=1 face=futsu size=s]
 [shownametag name="悟" visible=true]「ぁ、あの……満目　悟です」[plc]
 ;[ぶっちゃけ、ここは立ち絵欲しい]
 
@@ -472,7 +472,7 @@
 え？　あの小娘？[lr]
 あの顔面おろし娘が役員っ！！？[plc]
 
-[showstandimage who=satori pose=1 face=naki size=s]
+;[showstandimage who=satori pose=1 face=naki size=s]
 [shownametag name="悟" visible=true]
 「す、すみません。遅れて、遅刻しまして、[lr]
 　あの、すみませんすみません！！」[plc]
