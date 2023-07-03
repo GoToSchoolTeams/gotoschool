@@ -36,6 +36,7 @@
 [eval exp="Storages.addAutoPath('image/old_image/')"]
 
 ;—§‚¿ŠG
+[eval exp="Storages.addAutoPath('fgimage/old/')"]
 [eval exp="Storages.addAutoPath('fgimage/1.haruka/')"]
 [eval exp="Storages.addAutoPath('fgimage/2.najimi/')"]
 [eval exp="Storages.addAutoPath('fgimage/3.naruse/')"]
@@ -55,9 +56,9 @@
 ;”wŒi
 [eval exp="Storages.addAutoPath('bgimage/event_cg/')"]
 [eval exp="Storages.addAutoPath('bgimage/tuning/')"]
-[eval exp="Storages.addAutoPath('bgimage/0_bg_old/')"]
-[eval exp="Storages.addAutoPath('bgimage/0_bg_old/event_cg/')"]
-[eval exp="Storages.addAutoPath('bgimage/0_bg_old/tuning/')"]
+[eval exp="Storages.addAutoPath('bgimage/old/')"]
+[eval exp="Storages.addAutoPath('bgimage/old/event_cg/')"]
+[eval exp="Storages.addAutoPath('bgimage/old/tuning/')"]
 
 ;BGM
 [eval exp="Storages.addAutoPath('bgm/0_bgm_old/')"]
