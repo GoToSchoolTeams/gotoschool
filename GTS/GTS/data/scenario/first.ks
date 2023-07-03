@@ -48,12 +48,9 @@
 [eval exp="Storages.addAutoPath('fgimage/10.matsudo/')"]
 [eval exp="Storages.addAutoPath('fgimage/11.miyabi/')"]
 [eval exp="Storages.addAutoPath('fgimage/12.maru/')"]
-
-
 ;バストアップ画像
-[eval exp="Storages.addAutoPath('fcimage/')"]
-[eval exp="Storages.addAutoPath('fcimage/faceCheck')"]
-[eval exp="Storages.addAutoPath('fcimage/0_face_old')"]
+[eval exp="Storages.addAutoPath('fgimage/0.face/')"]
+[eval exp="Storages.addAutoPath('fgimage/0.face/face_old/')"]
 
 ;背景
 [eval exp="Storages.addAutoPath('bgimage/event_cg/')"]
