@@ -13,7 +13,8 @@
 晴れ渡るような大きな声で、朝っぱらから盛大に嘘をつく。[lr]
 その勢いで、俺はいつものように自転車にまたがった。[plc]
 
-[showstandimage who=najimi_old pose=1 face=futsu size=m]
+;[showstandimage who=najimi_old pose=1 face=futsu size=m]
+[najimi_stand face="keibetsu"]
 [shownametag name="お隣さん" visible=true]
 「……」[plc]
 
