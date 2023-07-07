@@ -262,6 +262,7 @@ function GetStandFileInfo(who, pose, face, size, pos, tere, nopos)
 		filename = size + "_" + who + "_" + "pose" + pose + "_tere_" + face + ".png";
 	} else {
 		filename = size + "_" + who + "_" + "pose" + pose + "_" + face + ".png";
+		//filename = size + "_" + who + "_" + "pose" + pose + "_no_" + face + ".png";
 	}
 
 	//! DictionaryÇ≈èÓïÒÇÇ‹Ç∆ÇﬂÇƒï‘Ç∑
