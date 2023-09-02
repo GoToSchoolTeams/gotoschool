@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "AlphaCutter": {
+      "commandName": "Project",
+      "commandLineArgs": "\"D:\\gotoschool\\GTS\\GTS\\data\\image\\message_face_sandbox\""
+    }
+  }
+}
