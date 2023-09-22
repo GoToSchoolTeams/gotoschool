@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\kerok\\source\\repos\\AlphaCutter\\AlphaCutter\\AlphaCutter.csproj": {}
+    "D:\\gotoschool\\GTS\\Environment\\AlphaCutter\\AlphaCutter\\AlphaCutter.csproj": {}
   },
   "projects": {
-    "C:\\Users\\kerok\\source\\repos\\AlphaCutter\\AlphaCutter\\AlphaCutter.csproj": {
+    "D:\\gotoschool\\GTS\\Environment\\AlphaCutter\\AlphaCutter\\AlphaCutter.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\kerok\\source\\repos\\AlphaCutter\\AlphaCutter\\AlphaCutter.csproj",
+        "projectUniqueName": "D:\\gotoschool\\GTS\\Environment\\AlphaCutter\\AlphaCutter\\AlphaCutter.csproj",
         "projectName": "AlphaCutter",
-        "projectPath": "C:\\Users\\kerok\\source\\repos\\AlphaCutter\\AlphaCutter\\AlphaCutter.csproj",
+        "projectPath": "D:\\gotoschool\\GTS\\Environment\\AlphaCutter\\AlphaCutter\\AlphaCutter.csproj",
         "packagesPath": "C:\\Users\\kerok\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\kerok\\source\\repos\\AlphaCutter\\AlphaCutter\\obj\\",
+        "outputPath": "D:\\gotoschool\\GTS\\Environment\\AlphaCutter\\AlphaCutter\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\kerok\\AppData\\Roaming\\NuGet\\NuGet.Config",

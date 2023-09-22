@@ -1,42 +1,88 @@
-﻿using System;
+﻿using Microsoft.VisualBasic.FileIO;
+using System;
 using System.Drawing;
 using System.IO;
+using System.Xml.Linq;
 
 class Program
 {
+    public enum INPUT_PATH_TYPE
+    {
+        FILE = 0,
+        DIRECTORY,
+        OTHER
+    }
+
     static void Main(string[] args)
     {
-        // ディレクトリのパスを引数で指定
-        var directoryPath = args[0];
+        //! 渡された引数の数だけ処理する
+        for(var i = 0; i < args.Length; i++)
+        {
+            var t = getPathType(args[i]);
+            switch(t)
+            {
+                case INPUT_PATH_TYPE.FILE: procImage(args[i]); break;
+                case INPUT_PATH_TYPE.DIRECTORY: procDirectory(args[i]); break;
+                case INPUT_PATH_TYPE.OTHER:
+                default:
+                    continue;
+            }
+        }
+    }
 
+    static INPUT_PATH_TYPE getPathType(string inputPath)
+    {
+        if (File.Exists(inputPath))
+        {
+            return INPUT_PATH_TYPE.FILE;
+        }
+        else if (Directory.Exists(inputPath))
+        {
+            return INPUT_PATH_TYPE.DIRECTORY;
+        }
+        else
+        {
+            return INPUT_PATH_TYPE.OTHER;
+        }
+    }
+
+    static void procDirectory(string directoryPath)
+    {
         // ディレクトリ内のすべてのファイルを取得
         string[] fileNames = Directory.GetFiles(directoryPath);
 
         // ファイル名をコンソールに出力
-        for(var i = 0; i < fileNames.Length; i++)
+        for (var i = 0; i < fileNames.Length; i++)
         {
-            var fileName = fileNames[i];
-            var file_type = Path.GetExtension(fileName);
-            var dir_path = Path.GetDirectoryName(fileName);
-            var name = Path.GetFileName(fileName);
-            if (file_type.Contains("png") == true)
+            procImage(fileNames[i]);
+        }
+    }
+
+    static void procImage(string filePath)
+    {
+        //! 情報を収集
+        var file_type = Path.GetExtension(filePath);
+        var dir_path = Path.GetDirectoryName(filePath);
+        var name = Path.GetFileName(filePath);
+
+        //! pngファイル以外は無視
+        if (file_type.Contains("png") == true)
+        {
+            //! 画像の読み込み
+            using (var orig_image = new Bitmap(filePath))
             {
-                //! 画像の読み込み
-                using (var orig_image = new Bitmap(fileName))
+                //! 透明じゃない領域の計算
+                var target_rect = GetRect(orig_image);
+
+                //! 空オブジェクトだった = 変換不可なので無理
+                if (target_rect == Rectangle.Empty) return;
+
+                //! 計算された領域で画像を切り取る
+                using (var dest_image = orig_image.Clone(target_rect, orig_image.PixelFormat))
                 {
-                    //! 透明じゃない領域の計算
-                    var target_rect = GetRect(orig_image);
-
-                    //! 空オブジェクトだった = 変換不可なのでskip
-                    if (target_rect == Rectangle.Empty) continue;
-
-                    //! 計算された領域で画像を切り取る
-                    using (var dest_image = orig_image.Clone(target_rect, orig_image.PixelFormat))
-                    {
-                        //! プリフィックスをつけて保存
-                        var new_name = Path.Combine(dir_path, $"cut_{name}");
-                        dest_image.Save(new_name);
-                    }
+                    //! プリフィックスをつけて保存
+                    var new_name = Path.Combine(dir_path, $"cut_{name}");
+                    dest_image.Save(new_name);
                 }
             }
         }
