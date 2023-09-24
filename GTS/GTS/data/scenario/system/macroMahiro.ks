@@ -52,7 +52,7 @@
 [endmacro]
 ;;[悟]
 ;;pose=ポーズ番号, 1;2;3
-;;face=表情名, yorokobi;shinrai;osore;hoshin;odoroki;kanashimi;akire;unzari;iradachi;kitai;futsu;futsu2;hitan;fuan;doya;otyokuri;ai
+;;face=表情名, yorokobi;shinrai;naki;hoshin;odoroki;kanashimi;akire;unzari;iradachi;kitai;fuan;futsu;futsu2
 ;;size=サイズ, s;m;l
 ;;nobust=バスト画像を出さない, 論理値
 ;;tere=照れてるかどうか, 論理値
