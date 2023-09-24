@@ -5,7 +5,7 @@
 [SetupMessageWindow]
 
 ;—§‚¿ŠG‚Æ–¼‘O—“‚Ì•\¦
-;ypose1z
+;ylz
 ;l_najimi_pose1_n_yorokobi
 [najimi_stand face="yorokobi" size="l"]
 [shownametag name="‰" visible=true ]
@@ -176,5 +176,6 @@
 [najimi_stand face="fukigen" size="l" tere="true"]
 [shownametag name="‰" visible=true ]
 ul_najimi_pose1_n_fukigenv[plc]
+
 
 [jump storage="ImageDebug.ks"]
