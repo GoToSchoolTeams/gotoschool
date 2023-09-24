@@ -36,7 +36,6 @@
 [eval exp="Storages.addAutoPath('image/old_image/')"]
 
 ;立ち絵
-[eval exp="Storages.addAutoPath('fgimage/old/')"]
 [eval exp="Storages.addAutoPath('fgimage/1.haruka/')"]
 [eval exp="Storages.addAutoPath('fgimage/2.najimi/')"]
 [eval exp="Storages.addAutoPath('fgimage/3.naruse/')"]
@@ -51,7 +50,6 @@
 [eval exp="Storages.addAutoPath('fgimage/12.maru/')"]
 ;バストアップ画像
 [eval exp="Storages.addAutoPath('fgimage/0.face/')"]
-[eval exp="Storages.addAutoPath('fgimage/0.face/face_old/')"]
 
 ;背景
 [eval exp="Storages.addAutoPath('bgimage/event_cg/')"]
