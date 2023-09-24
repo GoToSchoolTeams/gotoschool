@@ -25,7 +25,7 @@
 *【新フォーマット立ち絵】
 ;;[縁]
 ;;pose=ポーズ番号, 1;2;3
-;;face=表情名, yorokobi;shinrai;fuan;hoshin;odoroki;aisyu;aisyu2;ikari;ikarinaki;ikarinaki2;akire;unzari;iradachi;kitai;futsu;metoji;metoji2;doya;bibiri;gekido;keibetsu;ai;kyofu;kyozetsu;hitan;kokai;seido
+;;face=表情名, yorokobi;shinrai;fuan;hoshin;odoroki;aisyu;aisyu2;ikarinaki;ikarinaki2;akire;unzari;iradachi;ikari;kitai;futsu;metoji;metoji2;doya;bibiri;fukigen
 ;;size=サイズ, s;m;l
 ;;nobust=バスト画像を出さない, 論理値
 ;;tere=照れてるかどうか, 論理値

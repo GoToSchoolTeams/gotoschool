@@ -333,7 +333,7 @@
 [macro name="showbustup"]
 	[layopt layer=9 visible=%visible]
 	[if exp="mp.visible != 'false'"]
-		[eval exp="tf.face_g = 'f_' + mp.who + '_' + 'pose' + mp.pose + '_' + mp.face + '.png'"]
+		[eval exp="tf.face_g = 'f_' + mp.who + '_' + 'pose' + mp.pose + '_n_' + mp.face + '.png'"]
 		[if exp="mp.tere == 'true'"]
 			[eval exp="tf.face_g = 'f_' + mp.who + '_' + 'pose' + mp.pose + '_tere_' + mp.face + '.png'"]
 		[endif]

@@ -24,8 +24,8 @@
 
 
 ;遥香
-[locate x=80 y=40]
-[button graphic="harukaDebug" storage="harukaDebug.ks"]
+;[locate x=80 y=40]
+;[button graphic="harukaDebug" storage="harukaDebug.ks"]
 
 ;縁
 [locate x=80 y=100]
@@ -36,20 +36,20 @@
 [button graphic="satoriDebug" storage="satoriDebug.ks"]
 
 ;成瀬
-[locate x=80 y=220]
-[button graphic="naruseDebug" storage="naruseDebug.ks"]
+;[locate x=80 y=220]
+;[button graphic="naruseDebug" storage="naruseDebug.ks"]
 
 ;ガイア
-[locate x=80 y=280]
-[button graphic="gaiaDebug" storage="gaiaDebug.ks"]
+;[locate x=80 y=280]
+;[button graphic="gaiaDebug" storage="gaiaDebug.ks"]
 
 ;マッシュ
-[locate x=80 y=340]
-[button graphic="mashDebug" storage="mashDebug.ks"]
+;[locate x=80 y=340]
+;[button graphic="mashDebug" storage="mashDebug.ks"]
 
 ;オルテガ
-[locate x=80 y=400]
-[button graphic="orutegaDebug" storage="orutegaDebug.ks"]
+;[locate x=80 y=400]
+;[button graphic="orutegaDebug" storage="orutegaDebug.ks"]
 
 
 [endnowait]
