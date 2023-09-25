@@ -43,11 +43,11 @@
 [endmacro]
 ;;[縁顔]
 ;;pose=ポーズ番号, 1;2;3
-;;face=表情名, yorokobi;shinrai;fuan;hoshin;odoroki;aisyu;aisyu2;ikari;ikarinaki;ikarinaki2;akire;unzari;iradachi;kitai;futsu;metoji;metoji2;doya;bibiri;gekido;keibetsu;ai;kyofu;kyozetsu;hitan;kokai;seido
+;;face=表情名, yorokobi;shinrai;fuan;hoshin;odoroki;aisyu;aisyu2;ikarinaki;ikarinaki2;akire;unzari;iradachi;ikari;kitai;futsu;metoji;metoji2;doya;bibiri;fukigen
 ;;tere=照れてるかどうか, 論理値
 ;;visible=レイヤの可視・不可視\nlayer 属性で指定したレイヤを表示するか、しないかを指定します, 論理値
 ;;namevisible=名前を表示するかしないか, 論理値
-[macro name="najimi_face"]
+[macro name="najimi_bust"]
 [showbustup who="najimi" face="%face|futsu" pose="%pose|1" tere="%tere|false" visible="%visible|true"]
 [shownametag name="縁" visible="%namevisible|true"]
 [kagtag face="%face|futsu" pose="%pose|1" tere="%tere|false" visible="%visible|true" namevisible="%visible|true"]
@@ -72,11 +72,11 @@
 [endmacro]
 ;;[悟顔]
 ;;pose=ポーズ番号, 1;2;3
-;;face=表情名, yorokobi;shinrai;osore;hoshin;odoroki;kanashimi;akire;unzari;iradachi;kitai;futsu;futsu2;hitan;fuan;doya;otyokuri;ai
+;;face=表情名, yorokobi;shinrai;naki;hoshin;odoroki;kanashimi;akire;unzari;iradachi;kitai;fuan;futsu;futsu2
 ;;tere=照れてるかどうか, 論理値
 ;;visible=レイヤの可視・不可視\nlayer 属性で指定したレイヤを表示するか、しないかを指定します, 論理値
 ;;namevisible=名前を表示するかしないか, 論理値
-[macro name="satori_face"]
+[macro name="satori_bust"]
 [showbustup who="satori" face="%face|futsu" pose="%pose|1" tere="%tere|false" visible="%visible|true"]
 [shownametag name="悟" visible="%namevisible|true"]
 [kagtag face="%face|futsu" pose="%pose|1" tere="%tere|false" visible="%visible|true"]
