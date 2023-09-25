@@ -21,6 +21,10 @@
 ;‚¨‚µÀ‘•—p
 [locate x=1100 y=620]
 [button graphic="tempDebug" storage="tempDebug.ks"]
+;macro
+;‚¨‚µÀ‘•—p
+[locate x=1100 y=540]
+[button graphic="macroDebug" storage="macroDebug.ks"]
 
 
 ;—y

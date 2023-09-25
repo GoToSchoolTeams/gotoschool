@@ -16,38 +16,6 @@
 「縁　立ち絵　名前　バスト[r]
 　najimi_stand face="aisyu"」[plc]
 
-[najimi_stand face="aisyu" nobust="true"]
-「縁　立ち絵　名前[r]
-　najimi_stand face="aisyu" nobust="true"」[plc]
 
-[najimi_stand face="aisyu" namevisible="false" nobust="true"]
-「縁　立ち絵[r]
-　najimi_stand face="aisyu" namevisible="false" nobust="true"」[plc]
-
-[dis_all_chara]
-
-[najimi_bust face="aisyu"]
-「縁　バスト　名前[r]
-　najimi_bust face="aisyu"」[plc]
-
-[najimi_bust face="aisyu" namevisible="false"]
-「縁　バスト[r]
-　najimi_bust face="aisyu" namevisible="false"」[plc]
-
-[shownametag name="縁"]
-「縁　名前[r]
-　shownametag name="縁"」[plc]
-
-
-[satori_stand face="akire"]
-「悟 立ち絵　名前　バスト[r]
-　najimi_stand face="aisyu"」[plc]
-
-[satori_stand face="akire" nobust="true"]
-「悟 立ち絵　名前[r]
-　satori_stand face="akire" nobust="true"」[plc]
-
-[satori_stand face="akire" nobust="true" namevisible="false"]
-「悟 立ち絵[r]
-　satori_stand face="akire" nobust="true" namevisible="false"」[plc]
-;[→選択肢へ]
+[jump storage="ImageDebug.ks"]
+;[→ImageDebugへ]
