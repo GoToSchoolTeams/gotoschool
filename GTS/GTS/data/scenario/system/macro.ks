@@ -295,8 +295,25 @@
 	[kagtag nopos=%nopos who=%who pose=%pose|1 face=%face notrans=%notrans tere=%tere page=%page size=%size nobust=%nobust|false pos="%pos|c" layer="%layer|0" visible="%visible|true"]
 [endmacro]
 
-;;【名前欄を表示する】
-;;bust=バストアップ画像の有無, 論理値
+;;;【名前欄を表示する】
+;;;bust=バストアップ画像の有無, 論理値
+;[macro name="shownametag"]
+;	[position layer="message1" visible=%visible|true]
+;	[if exp="mp.visible != 'false'"]
+;		[nowait]
+;		[current layer="message1"]
+;		[emb exp="mp.name"]
+;		[current layer="message0"]
+;		[if exp="mp.bust != 'false' && mp.name != '大樹'"]
+;			[layopt layer=9 visible="true"]
+;		[endif]
+;		[endnowait]
+;	[endif]
+;[kagtag bust=%bust]
+;[endmacro]
+
+;;【名前欄の表示を切り替える(バストアップOFF)】
+;;visible=名前欄を表示するかどうか, 論理値
 [macro name="shownametag"]
 	[position layer="message1" visible=%visible|true]
 	[if exp="mp.visible != 'false'"]
@@ -304,25 +321,9 @@
 		[current layer="message1"]
 		[emb exp="mp.name"]
 		[current layer="message0"]
-		[if exp="mp.bust != 'false' && mp.name != '大樹'"]
-			[layopt layer=9 visible="true"]
-		[endif]
 		[endnowait]
 	[endif]
-[kagtag bust=%bust]
-[endmacro]
-
-;;【名前欄の表示を切り替える(バストアップOFF)】
-;;visible=名前欄を表示するかどうか, 論理値
-[macro name="show_nametag"]
-	[position layer="message1" visible=%visible|true]
-	[if exp="mp.visible != 'false'"]
-		[nowait]
-		[current layer="message1"]
-		[emb exp="mp.name"]
-		[current layer="message0"]
-		[endnowait]
-	[endif]
+[kagtag name=%name visible=%visible|true]
 [endmacro]
 
 ;;【バストアップ画像を表示する】
@@ -333,7 +334,7 @@
 [macro name="showbustup"]
 	[layopt layer=9 visible=%visible]
 	[if exp="mp.visible != 'false'"]
-		[eval exp="tf.face_g = 'f_' + mp.who + '_' + 'pose' + mp.pose + '_' + mp.face + '.png'"]
+		[eval exp="tf.face_g = 'f_' + mp.who + '_' + 'pose' + mp.pose + '_n_' + mp.face + '.png'"]
 		[if exp="mp.tere == 'true'"]
 			[eval exp="tf.face_g = 'f_' + mp.who + '_' + 'pose' + mp.pose + '_tere_' + mp.face + '.png'"]
 		[endif]
