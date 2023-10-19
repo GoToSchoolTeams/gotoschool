@@ -31,26 +31,36 @@
 ;[locate x=80 y=40]
 ;[button graphic="harukaDebug" storage="harukaDebug.ks"]
 
+;óyçÅl
+[locate x=0 y=0]
+[button graphic="harukaDebug" storage="harukaDebugL.ks"]
+;óyçÅm
+[locate x=120 y=0]
+[button graphic="harukaDebug" storage="satoriDebugM.ks"]
+;óyçÅs
+[locate x=240 y=0]
+[button graphic="harukaDebug" storage="satoriDebugS.ks"]
+
 ;âèl
-[locate x=0 y=100]
+[locate x=0 y=60]
 [button graphic="najimiDebug" storage="najimiDebugL.ks"]
 ;âèm
-[locate x=120 y=100]
+[locate x=120 y=60]
 [button graphic="najimiDebug" storage="najimiDebugM.ks"]
 ;âèm
-[locate x=240 y=100]
+[locate x=240 y=60]
 [button graphic="najimiDebug" storage="najimiDebugS.ks"]
 
-
 ;åÂ
-[locate x=0 y=160]
+[locate x=0 y=120]
 [button graphic="satoriDebug" storage="satoriDebugL.ks"]
 ;åÂ
-[locate x=120 y=160]
+[locate x=120 y=120]
 [button graphic="satoriDebug" storage="satoriDebugM.ks"]
 ;åÂ
-[locate x=240 y=160]
+[locate x=240 y=120]
 [button graphic="satoriDebug" storage="satoriDebugS.ks"]
+
 
 
 ;ê¨ê£

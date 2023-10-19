@@ -23,6 +23,35 @@
 
 
 *【新フォーマット立ち絵】
+;;[遥香]
+;;pose=ポーズ番号, 1;2;3
+;;face=表情名, yonin;fuan;hoshin;aisyu;unzari;iradachi;kanshin;futsu;yorokobi;shinrai;odoroki;kanashimi;rakkan;ikari;kitai
+;;size=サイズ, s;m;l
+;;nobust=バスト画像を出さない, 論理値
+;;tere=照れてるかどうか, 論理値
+;;pos=前景レイヤ位置\nレイヤ位置を自動的に決定します, l;c;r
+;;layer=表示したい前景レイヤ番号, 前景レイヤ;0;1;2
+;;page=画面\n指定しない場合はback, fore;back
+;;time=トランジション時間\nデフォルトは500, ミリ秒時間
+;;notrans=トランジションの有無, 論理値
+;;visible=レイヤの可視・不可視\nlayer 属性で指定したレイヤを表示するか、しないかを指定します, 論理値
+;;namevisible=名前を表示するかしないか, 論理値
+[macro name="haruka_stand"]
+[showstandimage who="haruka" pose="%pose|1"  face="%face|futsu" size="%size|m" nobust="%nobust|false" tere="%tere|false" pos="%pos|c" layer="%layer|0" page="%page|back" notrans="%notrans|false" time="%time|400" visible="%visible|true" nopos="%nopos|true"]
+[shownametag name="遥香" visible="%namevisible|true"]
+[kagtag pose="%pose|1"  face="%face|futsu" size="%size|m" nobust="%nobust|false" tere="%tere|false" pos="%pos|c" layer="%layer|0" page="%page|back" notrans="%notrans|false" time="%time|400" visible="%visible|true" namevisible="%visible|true"]
+[endmacro]
+;;[遥香顔]
+;;pose=ポーズ番号, 1;2;3
+;;face=表情名, yonin;fuan;hoshin;aisyu;unzari;iradachi;kanshin;futsu;yorokobi;shinrai;odoroki;kanashimi;rakkan;ikari;kitai
+;;tere=照れてるかどうか, 論理値
+;;visible=レイヤの可視・不可視\nlayer 属性で指定したレイヤを表示するか、しないかを指定します, 論理値
+;;namevisible=名前を表示するかしないか, 論理値
+[macro name="haruka_bust"]
+[showbustup who="haruka" face="%face|futsu" pose="%pose|1" tere="%tere|false" visible="%visible|true"]
+[shownametag name="遥香" visible="%namevisible|true"]
+[kagtag face="%face|futsu" pose="%pose|1" tere="%tere|false" visible="%visible|true"]
+[endmacro]
 ;;[縁]
 ;;pose=ポーズ番号, 1;2;3
 ;;face=表情名, yorokobi;shinrai;fuan;hoshin;odoroki;aisyu;aisyu2;ikarinaki;ikarinaki2;akire;unzari;iradachi;ikari;kitai;futsu;metoji;metoji2;doya;bibiri;fukigen
