@@ -36,10 +36,10 @@
 [button graphic="harukaDebug" storage="harukaDebugL.ks"]
 ;óyçÅm
 [locate x=120 y=0]
-[button graphic="harukaDebug" storage="satoriDebugM.ks"]
+[button graphic="harukaDebug" storage="harukaDebugM.ks"]
 ;óyçÅs
 [locate x=240 y=0]
-[button graphic="harukaDebug" storage="satoriDebugS.ks"]
+[button graphic="harukaDebug" storage="harukaDebugS.ks"]
 
 ;âèl
 [locate x=0 y=60]
