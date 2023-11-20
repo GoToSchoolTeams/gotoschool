@@ -51,6 +51,9 @@
 ;バストアップ画像
 [eval exp="Storages.addAutoPath('fgimage/0.face/')"]
 
+;old立ち絵/バストアップ画像
+[eval exp="Storages.addAutoPath('fgimage/old.fgImageAndFace/')"]
+
 ;背景
 [eval exp="Storages.addAutoPath('bgimage/event_cg/')"]
 [eval exp="Storages.addAutoPath('bgimage/tuning/')"]
