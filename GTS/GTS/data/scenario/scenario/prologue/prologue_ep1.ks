@@ -17,19 +17,36 @@
 [trans method="crossfade" time="1500"]
 [wt]
 
-[font size=32]
-男女比率１：９　！！！[l][r][r]
+[font size=64]
+[r]
+[r]
+[r]
+[r]
+　　――男女比率[l]　１：９　！！[plc]
 
+[font size=32]
+[locate x=200 y=160]
 県立、旗立高校。[r]
+[font size=32]
+[locate x=200 y=200]
 創立１００周年を向かえる名門校である。[l][r][r]
 
-生徒の９割は女生徒で、しかもルックスのレベルは高く。[r]
-五月蝿い教師も、くそったれな校則も意味不明な伝統も無い。[l][r][r]
-
-生徒の自主性の名の下に、何でもやりたい放題出来る。[l][r]
-正に自由。[l]正に楽園。[plc]
+[font size=32]
+[locate x=200 y=260]
+生徒の９割は女子。[l]ルックスのレベルは高く。
+[font size=32]
+[locate x=200 y=300]
+五月蝿い教師も、クソッタレな校則も無い。[lr]
 
 [font size=32]
+[locate x=200 y=360]
+生徒の自主性の名の下に、何でもやりたい放題出来る。[l][r]
+[font size=32]
+[locate x=200 y=400]
+正に自由。[l]正に楽園。[plc]
+
+
+[font size=40]
 [locate x=200 y=280]
 ――其処は、誰もがリア充になれる[ruby text="まなび"]学[ruby text="や"]舎。[plc]
 ;[ルビ:まなびや]
@@ -47,7 +64,7 @@
 [image layer=7 top=470 opacity=256 storage="message_window" page="back" visible="true"]
 [strans storage="black" noclear=true]
 [SetupMessageWindow]
-俺が、そんなどっかの詐欺広告の様な学校紹介文を見たのは、[lr]
+俺がそんな詐欺のような学校紹介文を見たのは、[lr]
 中学3年ももう終わろうかという時だった。[plc]
 
 俺は……なんだろう。[plc]
@@ -108,7 +125,7 @@
 @fadeinbgm storage="serious1-2" time="1000"
 @fadebgm time=1 volume="100"
 @strans storage="kyositu_m" time="2000"
-@showstandimage who=gaia_old size=m pose=1 face=normal layer=3
+[gaia_stand face=egao size="l"]
 [shownametag name="キモ面A" visible=true bust="ガイア"]
 「やぁ、谷口君だったかな？　隣、良いかな？」[plc]
 
