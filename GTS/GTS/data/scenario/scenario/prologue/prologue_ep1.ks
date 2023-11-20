@@ -125,7 +125,7 @@
 @fadeinbgm storage="serious1-2" time="1000"
 @fadebgm time=1 volume="100"
 @strans storage="kyositu_m" time="2000"
-[gaia_stand face=egao size="l"]
+[gaia_stand face="futsu" size="l" layer=2 namevisible="false"]
 [shownametag name="キモ面A" visible=true bust="ガイア"]
 「やぁ、谷口君だったかな？　隣、良いかな？」[plc]
 
@@ -133,12 +133,12 @@
 [shownametag name="大樹" visible=true]
 「……ん？」[plc]
 
-@showstandimage who=mash_old size=m pose=1 face=doya pos=l layer=1
-[shownametag name="キモ面B" visible=true bust="マッシュ"]
+[image storage="l_mash_pose1_n_futsu" layer="1" left=-400 visible="true"]
+[shownametag name="キモ面B" visible=true]
 「では、拙者はここにしよう」[plc]
 
-@showstandimage who=orutega_old size=m pose=1 face=normal2 pos=r layer=2
-[shownametag name="キモ面C" visible=true bust="オルテガ"]
+[image storage="l_orutega_pose1_n_futsu" layer="0" left=400 visible="true"]
+[shownametag name="キモ面C" visible=true]
 「僕チンはここにするナリ」[plc]
 
 
@@ -146,7 +146,7 @@
 「え？　……えぇ！？」[plc]
 
 
-@showstandimage who=gaia_old size=m pose=1 face=egao pos=c layer=3
+[gaia_stand face="futsu" size="l" namevisible="false" layer="2"]
 [shownametag name="キモ面A" visible=true bust="ガイア"]
 「ふふ、そう驚かなくて良い。[lr]
 　俺はガイア、こいつらは眞修に織手賀という」[plc]
@@ -161,9 +161,9 @@
 
 @playse storage="syakeeen"
 @backlay
-@showstandimage layer=3 pos=c who="gaia_old"    pose=1 face=egao   visible="true" size=l notrans=true page=back
-@showstandimage layer=1 pos=l who="mash_old"    pose=1 face=normal visible="true" size=l notrans=true page=back
-@showstandimage layer=2 pos=r who="orutega_old" pose=1 face=normal visible="true" size=l notrans=true page=back
+[image storage="l_gaia_pose1_n_yorokobi" layer="2" visible="true" page="back"]
+[image storage="l_mash_pose1_n_yorokobi" layer="1" left=-400 visible="true" page="back"]
+[image storage="l_orutega_pose1_n_kokotsu" layer="0" left=400 visible="true" page="back"]
 @trans method="crossfade" time="500"
 @wt
 [shownametag name="ガ・マ・オ" bust="ガイア" visible=true]
@@ -173,11 +173,12 @@
 「う、うわぁあああああああああああああああ！！！！！」[plc]
 ;[この台詞は要検討]
 
+
+
 @fadebgm time="500" volume="50"
 @strans storage="black" time="1000"
 
 [dis_all_chara]
-
 ――入学早々、学園一のキモオタ軍団に入れられ――[plc]
 
 
@@ -250,21 +251,23 @@
 ――何の才能もない――[plc]
 
 
-@playse storage="bird"
+[fadebgm time="500" volume="1000"]
+[fadeinbgm storage="prologue" time="500"]
 @strans storage="senro_zoi_dt" time="500"
 [shownametag name="大樹" visible=true]
-「――そんな奴でもリア充になれる場所じゃなかったんだよ！」[quake time="300"][plc]
+[quake time="300"]
+「――そんな奴でもリア充になれる場所じゃなかったんだよ！」[plc]
 
 思い返しつつ叫んでみて、鬱になった。[plc]
 
-
+@playse storage="bird"
 天気は、俺の気分に反して健やかなほど晴れやかで、[lr]
 空にはチュンチュンと雀なんかが飛んでいる。[plc]
 
 @quake time="300"
 [shownametag name="大樹" visible=true]
 「クソがっ！」[plc]
-
+@stopse
 
 怒鳴ってみるが、状況は改善するわけもない。[plc]
 
@@ -279,7 +282,7 @@
 
 
 [shownametag name="大樹" visible=true]
-「……二ヶ月だよ」[plc]
+「……１ヶ月だよ」[plc]
 
 
 どこに出しても恥ずかしい、立派な不登校になっていた。[plc]
@@ -295,6 +298,7 @@
 
 @stopse
 @strans storage="black" time=500
+[fadeoutbgm time="500"]
 あんな地獄のような状況でも、俺は耐えた。[l][r]
 耐えに耐えた。一年も耐えた。[plc]
 
@@ -308,9 +312,9 @@
 
 
 @backlay
-@showstandimage layer=3 pos=c who="gaia_old"    pose=1 face=egao   visible="true" size=l notrans=true page=back
-@showstandimage layer=1 pos=l who="mash_old"    pose=1 face=normal visible="true" size=l notrans=true page=back
-@showstandimage layer=2 pos=r who="orutega_old" pose=1 face=normal visible="true" size=l notrans=true page=back
+[image storage="l_gaia_pose1_n_yorokobi" layer="2" visible="true" page="back"]
+[image storage="l_mash_pose1_n_yorokobi" layer="1" left=-400 visible="true" page="back"]
+[image storage="l_orutega_pose1_n_kokotsu" layer="0" left=400 visible="true" page="back"]
 @image storage="kyositu_m" layer="base" page="back" visible="true"
 @trans method="crossfade" time="500"
 @wt
@@ -318,8 +322,7 @@
 @fadese volume="100" time=1
 @playse storage="syakeeen" 
 [shownametag name="ガイア" visible="true"]
-「よう、兄弟！　また俺たち同じクラスだな！[r]
-マッシュとオルテガも一緒だ！！」[plc]
+「よう、兄弟！　また俺たち同じクラスだな！」[plc]
 
 
 @strans storage="black"
@@ -331,7 +334,6 @@
 そして、それが限界で。[plc]
 
 @fadeinbgm storage="prologue" time="500"
-@fadebgm volume="100" time="1"
 @strans storage="senro_zoi_dt"
 [shownametag name="大樹" visible=true]
 「マジ無理、狂いそうだったもん」[plc]
@@ -376,7 +378,7 @@
 @stopbgm
 余計鬱になった。[plc]
 
-@playbgm storage="happy bgm"
+@playbgm storage="happybgm"
 @quake hmax=0 vmax="5" time=10000000000000000
 [shownametag name="大樹" visible=true]「だぁああああっ！？　駄目だァああああああああ！！！！」[plc]
 
@@ -437,16 +439,16 @@
 
 [stopquake]
 @strans storage="roji_dt" method="universal" rule="101" time="300"
-@showstandimage who=haruka_old pose=1 face=odoroki visible="true" size=s
-@shownametag name="女生徒" bust="先輩" visible=true
+[haruka_stand face="hoshin" size="s" nobust="true"]
 「……っ！？」[plc]
 ;[先輩]
 
-@showstandimage who=haruka_old pose=1 face=odoroki visible="true" size=l nobust="true"
+;@showstandimage who=haruka_old pose=1 face=odoroki visible="true" size=l nobust="true"
+[haruka_stand face="odoroki" size="l" nobust="true"]
 ――って、誰か居るじゃんっ！？[plc]
 
 @playse storage="car_crash"
-@strans storage="black" time="800"
+@strans storage="black" time="800
 @fadeoutbgm time="2000"
 ;[激突音]
 

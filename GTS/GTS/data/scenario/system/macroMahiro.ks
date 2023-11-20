@@ -112,7 +112,7 @@
 [endmacro]
 ;;[ガイア]
 ;;pose=ポーズ番号, 1;2;3
-;;face=表情名, 
+;;face=表情名, aisyu;futsu;futsuAri;ikari;ikariAri;odoroki;yorokobi
 ;;size=サイズ, s;m;l
 ;;nobust=バスト画像を出さない, 論理値
 ;;tere=照れてるかどうか, 論理値
@@ -130,7 +130,7 @@
 [endmacro]
 ;;[ガイア顔]
 ;;pose=ポーズ番号, 1;2;3
-;;face=表情名, 
+;;face=表情名, aisyu;futsu;futsuAri;ikari;ikariAri;odoroki;yorokobi
 ;;tere=照れてるかどうか, 論理値
 ;;visible=レイヤの可視・不可視\nlayer 属性で指定したレイヤを表示するか、しないかを指定します, 論理値
 ;;namevisible=名前を表示するかしないか, 論理値
@@ -139,7 +139,64 @@
 [shownametag name="ガイア" visible="%namevisible|true"]
 [kagtag face="%face|futsu" pose="%pose|1" tere="%tere|false" visible="%visible|true"]
 [endmacro]
-
+;;[マッシュ]
+;;pose=ポーズ番号, 1;2;3
+;;face=表情名, futsu;ikari;odoroki;yorokobi
+;;size=サイズ, s;m;l
+;;nobust=バスト画像を出さない, 論理値
+;;tere=照れてるかどうか, 論理値
+;;pos=前景レイヤ位置\nレイヤ位置を自動的に決定します, l;c;r
+;;layer=表示したい前景レイヤ番号, 前景レイヤ;0;1;2
+;;page=画面\n指定しない場合はback, fore;back
+;;time=トランジション時間\nデフォルトは500, ミリ秒時間
+;;notrans=トランジションの有無, 論理値
+;;visible=レイヤの可視・不可視\nlayer 属性で指定したレイヤを表示するか、しないかを指定します, 論理値
+;;namevisible=名前を表示するかしないか, 論理値
+[macro name="mash_stand"]
+[showstandimage who="mash" pose="%pose|1"  face="%face|futsu" size="%size|m" nobust="%nobust|false" tere="%tere|false" pos="%pos|c" layer="%layer|0" page="%page|back" notrans="%notrans|false" time="%time|400" visible="%visible|true" nopos="%nopos|true"]
+[shownametag name="マッシュ" visible="%namevisible|true"]
+[kagtag pose="%pose|1"  face="%face|futsu" size="%size|m" nobust="%nobust|false" tere="%tere|false" pos="%pos|c" layer="%layer|0" page="%page|back" notrans="%notrans|false" time="%time|400" visible="%visible|true" namevisible="%visible|true"]
+[endmacro]
+;;[マッシュ顔]
+;;pose=ポーズ番号, 1;2;3
+;;face=表情名, futsu;ikari;odoroki;yorokobi
+;;tere=照れてるかどうか, 論理値
+;;visible=レイヤの可視・不可視\nlayer 属性で指定したレイヤを表示するか、しないかを指定します, 論理値
+;;namevisible=名前を表示するかしないか, 論理値
+[macro name="mash_bust"]
+[showbustup who="mash" face="%face|futsu" pose="%pose|1" tere="%tere|false" visible="%visible|true"]
+[shownametag name="マッシュ" visible="%namevisible|true"]
+[kagtag face="%face|futsu" pose="%pose|1" tere="%tere|false" visible="%visible|true"]
+[endmacro]
+;;[オルテガ]
+;;pose=ポーズ番号, 1;2;3
+;;face=表情名, futsu;hitan;keikai;kokotsu
+;;size=サイズ, s;m;l
+;;nobust=バスト画像を出さない, 論理値
+;;tere=照れてるかどうか, 論理値
+;;pos=前景レイヤ位置\nレイヤ位置を自動的に決定します, l;c;r
+;;layer=表示したい前景レイヤ番号, 前景レイヤ;0;1;2
+;;page=画面\n指定しない場合はback, fore;back
+;;time=トランジション時間\nデフォルトは500, ミリ秒時間
+;;notrans=トランジションの有無, 論理値
+;;visible=レイヤの可視・不可視\nlayer 属性で指定したレイヤを表示するか、しないかを指定します, 論理値
+;;namevisible=名前を表示するかしないか, 論理値
+[macro name="orutega_stand"]
+[showstandimage who="orutega" pose="%pose|1"  face="%face|futsu" size="%size|m" nobust="%nobust|false" tere="%tere|false" pos="%pos|c" layer="%layer|0" page="%page|back" notrans="%notrans|false" time="%time|400" visible="%visible|true" nopos="%nopos|true"]
+[shownametag name="オルテガ" visible="%namevisible|true"]
+[kagtag pose="%pose|1"  face="%face|futsu" size="%size|m" nobust="%nobust|false" tere="%tere|false" pos="%pos|c" layer="%layer|0" page="%page|back" notrans="%notrans|false" time="%time|400" visible="%visible|true" namevisible="%visible|true"]
+[endmacro]
+;;[オルテガ顔]
+;;pose=ポーズ番号, 1;2;3
+;;face=表情名, futsu;hitan;keikai;kokotsu
+;;tere=照れてるかどうか, 論理値
+;;visible=レイヤの可視・不可視\nlayer 属性で指定したレイヤを表示するか、しないかを指定します, 論理値
+;;namevisible=名前を表示するかしないか, 論理値
+[macro name="orutega_bust"]
+[showbustup who="orutega" face="%face|futsu" pose="%pose|1" tere="%tere|false" visible="%visible|true"]
+[shownametag name="オルテガ" visible="%namevisible|true"]
+[kagtag face="%face|futsu" pose="%pose|1" tere="%tere|false" visible="%visible|true"]
+[endmacro]
 
 ;;マクロの終了
 [return]
