@@ -9,17 +9,19 @@
 
 @fadeinbgm time="1000" storage="evening"
 @image storage="kyositu_m" layer="base" page="back" visible="true"
-@trans layer="base" time="500" rule="177" method="universal"
 @playse storage="bosu04"
+@trans layer="base" time="500" rule="177" method="universal"
 @quake vmax="5" hmax="5" time="300"
 @wt
 ;@playse storage="bosu04"
 ――ドンッ！[plc]
 
-[najimi_stand face="fukigen"]
+[najimi_stand face="ikari"]
 「随分ね」[plc]
 
-目が覚めたのと、不愉快になったのは殆ど同時だった。[plc]
+目が覚めたのと、不快になったのは殆ど同時だった。[plc]
+
+[dis_all_chara]
 
 [shownametag name="大樹" visible=true]
 「…………っ」[plc]
@@ -109,7 +111,7 @@
 あだ名の『ゼウス』は伊達じゃないね。[plc]
 
 @stopse
-[showstandimage who="najimi_old" pose=1 face=futsu tere=true]
+[najimi_bust face="iradachi" tere="true"]
 @shownametag name="縁" visible=true
 「……」[plc]
 
@@ -122,47 +124,37 @@
 @shownametag name="大樹" visible=true
 「なんだよ？」[plc]
 
+[najimi_stand face="kitai" tere="true"]
 @shownametag name="縁" visible=true
 「いや……そう、五条先生よ。あのひと面倒見がいいから」[plc]
 
 @shownametag name="大樹" visible=true
 「？」[plc]
 
-[showstandimage who="najimi_old" pose=1 face=do]
-@shownametag name="縁" visible=true
+[najimi_stand face="iradachi" tere="true"]
 「何でもないわ。それより、[lr]
-教室戸締りしなきゃいけないから荷物まとめてさっさと出てって」[plc]
+　教室の鍵閉めるから荷物も持って行きなさいよ」[plc]
 
 @shownametag name="大樹" visible=true
 「は？　何で？」[plc]
 
-
-さっきは４限だったから、今は昼休みの筈だろ。[plc]
-
-[showstandimage who="najimi_old" pose=1 face=futsu]
-@shownametag name="縁" visible=true
-「次の英語は移動教室。[lr]
-その後全校集会だから、今日はそのまま解散」[plc]
-
-@shownametag name="縁" visible=true
-「あんたは一番下だから、多目的室ね」[plc]
+[najimi_stand face="futsu"]
+「今日の５・６限は全校集会でしょ。[lr]
+　授業は４限で終わりだから教室も閉めるのよ」[plc]
 
 
-当然、という顔で。[lr]
-そんな事をのたまって。[plc]
+[dis_all_chara]
 
-@dis_all_chara_fade
-@shownametag name="大樹" visible=true
-「……」[plc]
+なんだそりゃ？[lr]
+何もかも聞いてないんだが。[plc]
 
-
-初耳だ。[l][r]
-いつから移動教室なんて始まったんだ？[plc]
-
-[showstandimage who="najimi_old" pose=1 face=futsu size=s]
-@shownametag name="縁" visible=true
+[najimi_stand face="metoji"]
 「浦島太郎のあんたが知らないことは沢山あるわよ」[plc]
-@dis_all_chara_fade
+
+[najimi_stand face="fukigen"]
+「……一月も居なかったんだから」[plc]
+
+[dis_all_chara]
 
 @playse storage="mado"
 言い捨てて、縁は窓を閉め始める。[l][r]
@@ -170,7 +162,7 @@
 
 @shownametag name="大樹" visible=true
 「クラス委員でもないのに戸締りなんて、[lr]
-流石、優等生の縁さんは器が違いますね」[plc]
+　流石、優等生の縁さんは器が違いますね」[plc]
 
 皮肉を吐いて出ようとすると、[plc]
 
@@ -196,17 +188,16 @@
 「おまぇ――」[plc]
 
 @fadebgm volume="50" time="500"
-[showstandimage who="najimi_old" pose=1 face=do tere=true size=s]
-@shownametag name="縁" visible=true
+[najimi_stand face="ikari" tere="true"]
 「――私が、」[plc]
 
 
 俺が叫ぶより先に、縁は続ける。[plc]
 
-@shownametag name="縁" visible=true
+[najimi_stand face="ikarinaki2" tere="true"]
 「私がどういうつもりで――」[plc]
 
-[showstandimage who="najimi_old" pose=1 face=ikari tere=true size=s]
+[dis_all_chara]
 @shownametag name="縁" visible=true
 「……っ」[plc]
 
@@ -215,7 +206,8 @@
 言いかけて、飲み込むように縁は背を向けた。[l][r]
 そのまま、作業を続けていく。[plc]
 
-@shownametag name="縁" visible=true
+[najimi_bust face="metoji2"]
+[shownametag name="縁"]
 「……」[plc]
 
 
@@ -236,8 +228,6 @@
 叫びだしたかったが、[plc]
 
 
-
-@fadebgm volume="50" time="500"
 @strans storage="black" time="1000"
 @shownametag name="大樹" visible=true
 「……っ」[plc]
@@ -249,10 +239,14 @@
 聞きたくないし、聞きたいとも思わない。[l][r]
 あいつの事情なんて、俺が知るもんか。[plc]
 
+@fadebgm volume="60" time="800"
 @shownametag name="大樹" visible=true
 「ぁぁっ、クソッ」[plc]
 
 ……なんで、こんなとこ来ちまったんだろう。[plc]
+
+不快になるって分かりきってるのに。[lr]
+馬鹿面下げて学校なんぞに来ちまって。[plc]
 
 @shownametag name="大樹" visible=true
 「……馬鹿じゃねぇのか」[plc]
@@ -260,6 +254,7 @@
 
 愚痴る様に呟いて、[lr]
 俺はその理由を思い返していたのだった。[plc]
+@fadebgm volume="100" time="1000"
 @strans storage="black" time="2000"
 
 ;[回想に入るような演出]
