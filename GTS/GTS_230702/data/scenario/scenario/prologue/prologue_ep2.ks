@@ -60,7 +60,8 @@
 
 [showstandimage who="najimi_old" pose=1 face=metoji]
 @shownametag name="縁" visible=true
-「今は英語の時間。移動教室だから視聴覚室でしょ」[plc]
+「今は英語の時間。
+　移動教室だからここには誰もいないわよ」[plc]
 
 
 @shownametag name="大樹" visible=true
@@ -75,27 +76,23 @@
 「レベル分けされたのよ。[lr]
 　あんたは一番下だから、多目的室」[plc]
 
+@shownametag name="大樹" visible=true
+「……じゃぁ、お前は？」
 
-言いながら、縁は不愉快そうに鼻を鳴らした。[plc]
+なんで居るんだ？
 
 [showstandimage who="najimi_old" pose=1 face=metoji]
 @shownametag name="縁" visible=true
 「私はどっかの馬鹿が来なかったから起こしに」[plc]
+
+そう言って、縁は不愉快そうに鼻を鳴らした。[plc]
 
 [dis_all_chara]
 
 @shownametag name="大樹" visible=true
 「……は、面倒見が良いね」[plc]
 
-
-『関係ない』んじゃなかったのか？[l][r]
-と、口ではなく目で伝えると、ソイツは不愉快そうに鼻を鳴らした。[plc]
-
-[showstandimage who="najimi_old" pose=1 face=do]
-@shownametag name="縁" visible=true
-「アンタが来なきゃ、関係なしで居られたんだけどね」[plc]
-
-言いながら、叩きつけた書類を開いてみせた。[plc]
+言いながら、叩きつけられた書類を開いてみる。[plc]
 
 [showstandimage who="najimi_old" pose=1 face=futsu]
 @shownametag name="縁" visible=true

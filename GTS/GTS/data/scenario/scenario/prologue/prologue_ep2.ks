@@ -8,32 +8,30 @@
 
 
 @fadeinbgm time="1000" storage="evening"
-@image storage="kyositu_e" layer="base" page="back" visible="true"
+@image storage="kyositu_m" layer="base" page="back" visible="true"
 @trans layer="base" time="500" rule="177" method="universal"
+@playse storage="bosu04"
 @quake vmax="5" hmax="5" time="300"
 @wt
-@playse storage="bosu04"
+;@playse storage="bosu04"
 ――ドンッ！[plc]
 
-[shownametag name="大樹" visible=true]
-「……ん」[plc]
-
-[showstandimage who="najimi_old" pose=1 face=futsu nobust="true"]
+[najimi_stand face="fukigen"]
+「随分ね」[plc]
 
 目が覚めたのと、不愉快になったのは殆ど同時だった。[plc]
 
-[old_najimi_face face=futsu]
-@shownametag name="縁" visible=true
-「随分ね」[plc]
+[shownametag name="大樹" visible=true]
+「…………っ」[plc]
 
-机に書類の束を叩きつけられ、俺は授業が終わっていた事を知る。[plc]
+机に書類の束を叩きつけられ、授業が終わっていた事を知る。[plc]
 
 
 眼前には、見知ったお隣さんの顔があった。[plc]
 
-@shownametag name="縁" visible=true
+[najimi_stand face="iradachi"]
 「何の気紛れか登校してきたと思ったら、早速居眠りってわけ？[lr]
-お偉いのね」[plc]
+　お偉いのね」[plc]
 
 @shownametag name="大樹" visible=true
 「……」[plc]
@@ -44,31 +42,55 @@
 
 ……まったく。この女らしい。[plc]
 
+[dis_all_chara]
+
 @shownametag name="大樹" visible=true
 「……ちっ」[plc]
 
 時計を確認する。[l][r]
-どうも、もう授業が終わっていたらしい。[plc]
-
-だったらそのまま寝かせてくれりゃいいのに。[plc]
+今は……だいたい４限目が始まったくらいか？[plc]
 
 @shownametag name="大樹" visible=true
-「……んだよ？」[plc]
+「…………ん？」[plc]
+
+[dis_all_message]
+[wait time="800" canskip="false"]
+[SetupMessageWindow]
+
+それにしちゃ、教室に誰もいない。[plc]
+
+[najimi_bust face="metoji"]
+「今は英語の時間。[r]
+　移動教室だからここには誰もいないわよ」[plc]
+
+@shownametag name="大樹" visible=true
+「移動……？」[plc]
 
 
-『関係ない』んじゃなかったのか？[l][r]
-と、口ではなく目で伝えると、ソイツは不愉快そうに鼻を鳴らした。[plc]
+初耳だ。[lr]
+いつから移動教室なんて始まったんだ？[plc]
 
-[showstandimage who="najimi_old" pose=1 face=do]
-@shownametag name="縁" visible=true
-「アンタが来なきゃ、関係なしで居られたんだけどね」[plc]
+[najimi_stand face="futsu"]
+「レベル分けされたのよ。[lr]
+　あんたは一番下だから、多目的教室」[plc]
 
-言いながら、叩きつけた書類を開いてみせた。[plc]
+@shownametag name="大樹" visible=true
+「……じゃぁ、お前は？」[plc]
 
-[showstandimage who="najimi_old" pose=1 face=futsu]
-@shownametag name="縁" visible=true
-「あんたが来なかった間の、プリントとか[r]
-書かなきゃいけない書類とか、その他諸々……担任が渡せって」[plc]
+なんで居るんだ？[plc]
+
+[najimi_stand face="fukigen"]
+「私はどっかの馬鹿が来なかったから起こしに」[plc]
+
+[dis_all_chara]
+そう言って、縁は不愉快そうに鼻を鳴らした。[plc]
+
+[dis_all_chara]
+
+@shownametag name="大樹" visible=true
+「……は、面倒見が良いね」[plc]
+
+言いながら、叩きつけられた書類を開いてみる。[plc]
 
 @playse storage="mekuru"
 @shownametag name="大樹" visible=true
