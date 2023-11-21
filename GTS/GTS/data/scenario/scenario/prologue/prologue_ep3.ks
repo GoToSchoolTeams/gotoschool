@@ -1,5 +1,6 @@
 
 [SetupMessageWindow]
+;[call target="*Debug"]
 『業務上過失致傷』という言葉を知ってるだろうか？[plc]
 
 
@@ -143,8 +144,7 @@
 舌打ちしながら振り返ると、[plc]
 
 @fadebgm volume="50" time="300"
-[showstandimage who="haruka_old" pose=1 face=ki size=l]
-[shownametag name="女子高生" visible=true bust="senpai"]
+[haruka_stand face="kitai" size="m" namevisible="false" nobust="true"]
 「……どーも♪」[plc]
 
 [shownametag name="大樹" visible=true]
