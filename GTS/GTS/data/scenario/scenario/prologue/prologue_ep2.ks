@@ -98,6 +98,12 @@
 @shownametag name="大樹" visible=true
 「……」[plc]
 
+[najimi_bust face="fukigen"]
+@shownametag name="縁" visible=true
+「来なかった間の、プリントとか。[r]
+　書かなきゃいけない書類とか……ついでに渡せって」[plc]
+
+
 それは、溜まりに溜まった一ヶ月分のプリント類。[r][l]
 だけれども、ファイルとかでやたらとキチンと整頓されていた。[plc]
 
@@ -144,6 +150,12 @@
 
 
 [dis_all_chara]
+
+当然、という顔で。[r]
+そんな事をのたまって。[plc]
+
+@shownametag name="大樹" visible=true
+「……」[plc]
 
 なんだそりゃ？[lr]
 何もかも聞いてないんだが。[plc]
