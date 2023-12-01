@@ -1,6 +1,6 @@
 ;[暗転]
 [SetupMessageWindow]
-[call target="*Debug"]
+;[call target="*Debug"]
 俺だって、好きで学校に行かなくなったわけじゃない。[plc]
 
 
@@ -105,7 +105,7 @@
 学校でも有名な、キモオタ軍団である。[plc]
 @dis_all_chara
 
-*Debug
+;*Debug
 [setup_debug bgm="daily1 bgm"]
 
 そして、[plc]
