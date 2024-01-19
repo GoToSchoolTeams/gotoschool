@@ -48,7 +48,7 @@ func main() {
 	}
 	origStr := *(*string)(unsafe.Pointer(&orig))
 	delTag(&origStr)
-	detAtTag(&origStr)
+	delAtTag(&origStr)
 
 	//! コピー予定テキストをshift-jisに変換して書き込み
 	reader = transform.NewReader(strings.NewReader(origStr), japanese.ShiftJIS.NewEncoder())
@@ -91,7 +91,7 @@ func delTag(dist *string) {
 	*dist = base_rep.ReplaceAllStringFunc(*dist, onFind)
 }
 
-func detAtTag(dist *string) {
+func delAtTag(dist *string) {
 	base_rep := regexp.MustCompile(`.*\@.*`)
 	onFind := func(s string) string {
 		//! コメント行は無視
