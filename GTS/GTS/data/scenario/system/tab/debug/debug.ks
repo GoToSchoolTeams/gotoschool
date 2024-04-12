@@ -7,7 +7,7 @@
 	[wt]
 	[iscript]
 	//! 先輩ルートをデフォに
-	tf.currentTab = 1;
+	tf.currentTab = 0;
 	[endscript]
 [endif]
 
