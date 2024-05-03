@@ -164,8 +164,6 @@
 
 [haruka_stand face="fuan" size="l"]
 [shownametag name="女子高生" visible=true bust="senpai"]
-@playse storage="oppai"
-@quake time="100" hmax="5" vmax="5"
 「……ほんと、どうしてくれようか」[plc]
 
 
