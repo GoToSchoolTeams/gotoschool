@@ -153,8 +153,6 @@
 
 会話機能が低下しているのかもしれない。[plc]
 
-*debug
-[setup_debug bg="roji_dt"]
 ――ていうか、そんな十年前のテンプレ要らねーんだよ！！！[plc]
 
 [shownametag name="大樹" visible=true]
@@ -236,7 +234,6 @@
 
 顔を上げる。[plc]
 
-;[showstandimage who="haruka" pose=1 face=keibetsu]
 [haruka_stand face="yorokobi" nobust="true"]
 [shownametag name="大樹" visible=true]
 「では、ケガは無いんですね？」[plc]
@@ -259,7 +256,7 @@
 [shownametag name="大樹" visible=true]
 「……なんだ、ケガはねーのか」[plc]
 
-[haruka_stand face="odoroki" nobust="true" namevisible="false"]
+[haruka_stand face="hoshin" nobust="true" namevisible="false"]
 舌打ちする。[plc]
 
 なんだよ焦らせやがって。[l][r]
@@ -286,7 +283,7 @@
 あー、うっせなぁ。[lr]
 めんどくせぇ。[plc]
 
-[haruka_stand face=
+[dis_all_chara_fade]
 [shownametag name="大樹" visible=true]
 「えーと、……本当に申し訳ありませんでした。[lr]
 謝罪のしようもありませんが、そちらに怪我もないようですし」[plc]
@@ -295,10 +292,11 @@
 「僕の自転車もそれなりにダメージを受けた様なので、[lr]
 痛み分けという事で」[plc]
 
-[showstandimage who="haruka" pose=1 face=jitome]
+
 『自転車の修理代を請求したりしませんから』と付け加えると、[lr]
 女子高生は『本当に呆れた』という表情をした。[plc]
 
+[haruka_stand face="aisyu"]
 [shownametag name="女子高生" visible=true bust="senpai"]
 「……凄いね。こりゃ、噂以上だわ」[plc]
 
@@ -306,14 +304,15 @@
 [shownametag name="大樹" visible=true]
 「はい？」[plc]
 
-[showstandimage who="haruka" pose=1 face=do]
+
+[haruka_stand face="iradachi"]
 [shownametag name="女子高生" visible=true bust="senpai"]
 「いやいや……被害者。しかも、先輩に対してその態度？」[plc]
 
 [shownametag name="大樹" visible=true]
 「……先輩？」[plc]
 
-[showstandimage who="haruka" pose=1 face=do size=l]
+[haruka_stand face="iradachi" size="l" nobust="true" namevisible="false"]
 言われて、胸元をよーっく見てみる。[lr]
 確かに、花弁が３つある。[plc]
 
@@ -321,7 +320,7 @@
 うちはバッジの花の数で学年分けするから、[lr]
 確かに先輩か。[plc]
 
-[showstandimage who="haruka" pose=1 face=do]
+[dis_all_chara_fade]
 だからどうしたというんだ。[l][r]
 怪我をしてるか、してないか。[plc]
 
@@ -334,7 +333,7 @@
 一応、気を使ってそう言ってやると、[lr]
 先輩は見た目にも分かるほど眉間にシワを寄せた。[plc]
 
-[showstandimage who="haruka" pose=1 face=keibetsu]
+[haruka_stand face="unzari"]
 [shownametag name="先輩" visible=true]
 「……君、『恥』って言葉知らないの？」[plc]
 
@@ -342,14 +341,12 @@
 [shownametag name="大樹" visible=true]
 「捨てました」[plc]
 
-
 嘘だが。[lr]
 この程度の事で『恥』など感じていて、不登校など出来るか。[plc]
 
-[showstandimage who="haruka" pose=1 face=kuno]
+[dis_all_chara_fade]
 [shownametag name="先輩" visible=true]
 「はぁ～……」[plc]
-
 
 頭を抱えるように、先輩は額に手を置く。[plc]
 
@@ -358,11 +355,10 @@
 今はそんな事言ってる場合じゃない。[plc]
 
 
-[dis_all_chara_fade]
 [shownametag name="大樹" visible=true]
 「それじゃ、お疲れっした」[plc]
 
-[showstandimage who="haruka" pose=1 face=do size=l]
+[haruka_stand face="ikari" size="l"]
 [shownametag name="先輩" visible=true]
 「待て、待ちなさい」[plc]
 ;[ｶﾞｯ]
@@ -371,7 +367,7 @@
 軽口を叩いてクールに去ろうとすると、襟首を掴まれた。[plc]
 
 
-[showstandimage who="haruka" pose=1 face=ai size=l]
+[haruka_stand face="iradachi" size="l"]
 [shownametag name="先輩" visible=true]
 「て」[plc]
 
@@ -383,7 +379,7 @@
 [shownametag name="先輩" visible=true]
 「お手々、血が付いてる」[plc]
 
-
+[dis_all_chara]
 ……あぁ。[plc]
 
 
@@ -392,7 +388,7 @@
 
 
 [shownametag name="大樹" visible=true]
-「あのね、せんぱ……」[dis_all_chara][plc]
+「あのね、せんぱ……」[plc]
 
 
 
