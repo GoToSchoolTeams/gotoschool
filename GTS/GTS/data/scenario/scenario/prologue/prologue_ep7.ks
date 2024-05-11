@@ -39,7 +39,7 @@
 
 痛すぎる。[plc]
 
-[showstandimage who=haruka_old pose=1 face=ki]
+[haruka_stand face="yonin"]
 [shownametag name="先輩" visible=true]
 「ふぅ……スッキリした」[plc]
 
@@ -54,7 +54,7 @@
 歯茎がメチャクチャ痛てぇ！！[lr]
 大丈夫か！？　歯は残っているかっ！！？[plc]
 
-[showstandimage who=haruka_old pose=1 face=kuno]
+[haruka_stand face="aisyu"]
 [shownametag name="先輩" visible=true]
 「いやー、結構痛いね。コレ」[plc]
 
@@ -65,7 +65,7 @@
 [shownametag name="大樹" visible=true]
 「痛いのは、俺ですよっ！」[plc]
 
-[showstandimage who=haruka_old pose=1 face=magao]
+[haruka_stand face="iradachi"]
 [shownametag name="先輩" visible=true]
 「そう？　でもまぁ、殴るよ。そりゃ」[plc]
 
@@ -76,7 +76,7 @@
 
 そう言われると、何も言い返せない。[plc]
 
-[showstandimage who=haruka_old pose=1 face=ki]
+[haruka_stand face="kitai"]
 [shownametag name="先輩" visible=true]
 「まぁ、これで許してあげるよ」[plc]
 
@@ -93,7 +93,7 @@
 
 とにかく、早くこの危険な女から離れないと。[plc]
 
-[showstandimage who=haruka_old pose=1 face=magao size=l]
+[haruka_stand face="futsu" size="l"]
 [shownametag name="先輩" visible=true]
 「……」[plc]
 
@@ -113,7 +113,6 @@
 [shownametag name="大樹" visible=true]
 「……あの」[plc]
 
-[showstandimage who=haruka_old pose=1 face=kuno size=l]
 [shownametag name="先輩" visible=true]
 「何？」[plc]
 
@@ -124,7 +123,7 @@
 [shownametag name="大樹" visible=true]
 「退いてくれないと、行けないんですけど」[plc]
 
-[showstandimage who=haruka_old pose=1 face=odoroki size=l]
+[haruka_stand face="iradachi" size="l"]
 [shownametag name="先輩" visible=true]
 「行く気だったの？」[plc]
 
@@ -145,7 +144,7 @@
 反射的に、身を庇ってしまう。[plc]
 
 [strans storage="roji_dt" method="universal" rule="216" time="150"]
-[showstandimage who=haruka_old pose=1 face=niyaniya size=l]
+[haruka_stand face="rakkan"]
 [shownametag name="先輩" visible=true]
 「……なるほど、だんだん扱いが分かってきたよ」[plc]
 
@@ -158,25 +157,24 @@
 さ、さっきので許してくれたんじゃないんすか？」[plc]
 
 
-[showstandimage who=haruka_old pose=1 face=magao size=l]
+[dis_all_chara_fade]
 殆どすがるようにそう言うと、[lr]
 先輩はちょっと考えこむような仕草を取り。[plc]
 
-[showstandimage who=haruka_old pose=1 face=niyaniya size=l]
+[haruka_stand face="kitai"]
 [shownametag name="先輩" visible=true]
 「うん」[plc]
 
 
 そうして、ニヤッと笑った。[plc]
 
-
+[haruka_stand face="shinrai"]
 [shownametag name="先輩" visible=true]
 「そうだねぇ、そうしても良いけど。でも、[lr]
 どうしてこんな時間にこんな所に居るのかなぁ……と思って」[plc]
 
 [shownametag name="大樹" visible=true]
 「うっ」[plc]
-
 
 [shownametag name="先輩" visible=true]
 「不健全な学生にはおしおきしないとね」[plc]
@@ -198,7 +196,7 @@
 [shownametag name="大樹" visible=true]
 「……先輩にも言えるんじゃないんですか？」[plc]
 
-[showstandimage who=haruka_old pose=1 face=magao size=l]
+[haruka_stand face="kanshin"]
 [shownametag name="先輩" visible=true]
 「……」[plc]
 
@@ -206,14 +204,14 @@
 図星だったらしい。[lr]
 一瞬キョトンとしたが、先輩はすぐにカラッと笑った。[plc]
 
-[showstandimage who=haruka_old pose=1 face=ki size=l]
+[haruka_stand face="kitai"]
 [shownametag name="先輩" visible=true]
 「あっはは、確かにねー。そこ突かれると痛いかなー」[plc]
 
 
 『あはははは』と尚も先輩は笑う。[plc]
 
-[showstandimage who=haruka_old pose=1 face=raku size=l]
+[haruka_stand face="rakkan" size="l"]
 [shownametag name="先輩" visible=true]
 「よく考えたら、私も不健全な学生そのものだったよ」[plc]
 
@@ -231,21 +229,22 @@
 
 ―― 一瞬、痛みを忘れてしまった。[plc]
 
-@playse storage="bosu04" loop="true"
-@fadebgm time="200" volume="100"
-[showstandimage who=haruka_old pose=1 face=ki size=l]
-@quake time=150 hmax="10" vmax="10"
+[haruka_stand face="kitai"]
+[playse storage="bosu04" loop="true"]
+[fadebgm time="200" volume="100"]
+[quake time=150 hmax="10" vmax="10"]
 [shownametag name="先輩" visible=true]
 「あっはははははっ」[stopse][plc]
 ;[バシバシと音]
 
+[dis_all_chara_fade]
 そっこーでぶり返したけど。[plc]
 
 
 [shownametag name="大樹" visible=true]
 「あの……」[plc]
 
-[showstandimage who=haruka_old pose=1 face=magao size=l]
+[haruka_stand face="futsu"]
 [shownametag name="先輩" visible=true]
 「ん？」[plc]
 
@@ -258,7 +257,7 @@
 「機会が有れば、マジで菓子折り持って謝りに行きますんで。[lr]
 お互い学校云々も有りますし……もう良いですか？」[plc]
 
-[dis_all_chara]
+[dis_all_chara_fade]
 ひと悶着の間に、もう町は動き出していた。[lr]
 おそらく、もうとっくに十時は過ぎているだろう。[plc]
 
@@ -282,7 +281,7 @@
 
 やっぱりチャリが動かなかった。[plc]
 
-[showstandimage who=haruka_old pose=1 face=keibetsu size=l]
+[haruka_stand face="iradachi"]
 [shownametag name="先輩" visible=true]
 「寝坊したんだよ」[plc]
 
@@ -293,12 +292,12 @@
 [shownametag name="先輩" visible=true]
 「寝坊したらさ、お馬鹿な後輩も一緒に寝坊してたわけ」[plc]
 
-
+[haruka_stand face="aisyu"]
 [shownametag name="先輩" visible=true]
 「んで、優しくて美人で、スタイル抜群の先輩としては[lr]
 迎えに行ってあげようかなーって、その娘のお家まで行ってたの」[plc]
 
-[showstandimage who=haruka_old pose=1 face=raku size=l]
+[haruka_stand face="rakkan"]
 [shownametag name="先輩" visible=true]
 「おーけぃ？」[plc]
 
@@ -310,13 +309,13 @@
 『分かった？』とウィンクなんかしてくるが、[lr]
 だからなんだと言うんだ。頭がおかしいのか、この女？[plc]
 
-[showstandimage who=haruka_old pose=1 face=ki]
+[haruka_stand face="yorokobi"]
 [shownametag name="先輩" visible=true]
 「よし、これで私の言うことは全部言った！」[plc]
 
 あっさりと、スッキリした様な顔で先輩は言う。[plc]
 
-[showstandimage who=haruka_old pose=1 face=raku]
+[haruka_stand face="shinrai"]
 [shownametag name="先輩" visible=true]
 「だから、今度は君の番じゃない？」[plc]
 
@@ -327,13 +326,13 @@
 思考が付いていかない。[lr]
 だが、そんな事はおかまいなしに先輩は勝手に話を進める。[plc]
 
-[showstandimage who=haruka_old pose=1 face=magao]
+[haruka_stand face="aisyu"]
 [shownametag name="先輩" visible=true]
 「んー、立ち話もなんだしねぇ」[plc]
 
 そう言って、おもむろに先輩は俺の自転車の荷台に座った。[plc]
 
-[showstandimage who=haruka_old pose=1 face=ki size=l]
+[haruka_stand face="yorokobi"]
 [shownametag name="先輩" visible=true]
 「行こうよ！」[plc]
 
@@ -344,7 +343,7 @@
 ふざけんな、ちょっと待て。[lr]
 この女どこまで図々しいんだ。[plc]
 
-[showstandimage who=haruka_old pose=1 face=niyaniya size=l]
+[haruka_stand face="aisyu"]
 [shownametag name="先輩" visible=true]
 「不満かい？」[plc]
 
@@ -355,15 +354,18 @@
 [dis_all_chara]
 叫ぶと、先輩はワザとらしくシナった。[plc]
 
-[showstandimage who=haruka_old pose=1 face=kuno size=l]
+[haruka_stand face="kanashimi" tere="true"]
 [shownametag name="先輩" visible=true]
 「あぁ、痛い。さっきの怪我で、足挫いちゃったぁ」[plc]
 
 
+[shownametag name="大樹" visible=true]
+「嘘付く
 [quake time="100" hmax="5" vmax="5"]
 [playse storage="step05"]
-[shownametag name="大樹" visible=true]
-「嘘付く――ｱﾃﾞｯ」[plc]
+――ｱﾃﾞｯ」
+[dis_all_chara]
+[plc]
 
 
 『――嘘付くなッ！！』[plc]
@@ -371,14 +373,14 @@
 
 と叫ぼうとして、デコピン食らった。[plc]
 
-[showstandimage who=haruka_old pose=1 face=do size=l]
+[haruka_stand face="ikari"]
 [shownametag name="先輩" visible=true]
 「馬鹿だね、君は。嘘だろうが、嘘じゃなかろうが、私が『怪我した』って言い張れば『業務上過失致傷』は成り立っちゃうんだよ」[plc]
 
 [shownametag name="大樹" visible=true]
 「うっ……」[plc]
 
-[showstandimage who=haruka_old pose=1 face=odoroki size=l]
+[haruka_stand face="futsu"]
 [shownametag name="先輩" visible=true]
 「それにあんまり考えてる時間無いよ、ホラっ」[plc]
 
@@ -400,7 +402,7 @@
 あぁ、もう！[r]
 ぁあぁああああ、もうっ！！！[plc]
 
-[showstandimage who=haruka_old pose=1 face=niyaniya size=l]
+[haruka_stand face="kitai"]
 [shownametag name="先輩" visible=true]
 「どうする～？」[plc]
 
@@ -410,7 +412,7 @@
 [shownametag name="大樹" visible=true]
 「……スピードなんて出ませんよ」[plc]
 
-[showstandimage who=haruka_old pose=1 face=ki size=l]
+[haruka_stand face="yorokobi"]
 [shownametag name="先輩" visible=true]
 「大丈夫、男の子だもん！」[plc]
 

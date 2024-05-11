@@ -231,17 +231,18 @@
 [old_naruse_stand pose=1 face=futsu]
 [shownametag name="？？？" visible=true]「……あんた、誰？」[plc]
 
-
+*debug
+[setup_debug]
 そのときやっと、[lr]
 俺はベッドに俺以外の膨らみがあったことに気が付いたのだった。[plc]
 
 [dis_all_chara]
 ;[場面転換]
-@fadeinbgm storage="chill" time="1000"
+[fadeinbgm storage="chill" time="1000"]
 [strans storage="black" method="universal" rule="189" time="500"]
 [strans storage="hoken_e" method="universal" rule="189" time="500"]
 
-@showstandimage who=naruse_old pose=1 face=futsu visible="true"
+
 [shownametag name="？？？" bust="naruse" visible=true]「で、あんた誰なのよ？」[plc]
 
 
