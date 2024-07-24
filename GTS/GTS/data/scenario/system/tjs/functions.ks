@@ -232,48 +232,37 @@ function CreateButtonHintName(hint, num)
 	return returnName;
 }
 
-function GetStandFileInfo(who, pose, face, size, pos, tere, nopos)
+//! @brief 立ち絵の名前を取得する
+//! @param[in] who  キャラ名
+//! @param[in] pose 立ち絵のポーズ
+//! @param[in] face 立ち絵の表情
+//! @param[in] size 立ち絵のサイズ
+//! @param[in] tere 照れの差分の有無
+function GetStandFileName(who, pose, face, size, tere)
 {
-	//! 名前と渡された情報から表示すべき立ち絵にまつわる全情報を計算
-	//! left = 位置/位置の分割数 * ( (画面横サイズ - 2マージン) - 立ち絵の横サイズ ) - 立ち絵の余白 + マージン
-	var left = tf.StandLeftParam;
-	//var tops = tf.StandTopMap[who];
-	var tops;
-	//noposなら、leftとtopを0にした辞書を受け取る
-	//でないと、n_najimiみたいな名前にした際に辞書にないのでエラーが出る。
-	if(nopos == "true")
-	{
-		tops = tf.StandTopMap["nopos"];
-	} else {
-		tops = tf.StandTopMap[who];
-	}
-	var mag = tf.PosToNum[pos] / (left["split"] - 1);
-	var rect = tf.RectSize - (left["margin"] * 2);
-	var pos_left = (rect - left[size]["width"]) * mag - left[size]["space"] + left["margin"];
-
-	
-	//! top = 画像ごとに違うので計算済み(ポーズ、サイズ別)
-	var pos_top = tops[pose][size];
-
-	//! 画像名はパラメータから計算
 	var filename = "";
-	
 	if(tere == "true") {
 		filename = size + "_" + who + "_" + "pose" + pose + "_tere_" + face + ".png";
 	} else {
 		filename = size + "_" + who + "_" + "pose" + pose + "_n_" + face + ".png";
 	}
+	return filename;
+}
 
-	//! Dictionaryで情報をまとめて返す
-	var info = %["file"=>filename.toLowerCase(), "left"=>pos_left, "top"=>pos_top];
-	
-	//! ポジション無視が指定されていたらleftとtopを0に
-	//! これ消すと真ん中に出ないので残す。 
-	if(nopos == "true" || who == "satori") {
-		info["left"] = 0;
-		info["top"] = 0;
+//! @brief 立ち絵の表示位置を取得する
+//! @param[in] pos プリセットの位置
+function GetStandLeft(pos)
+{
+	var master_side = 280;
+	var master_middle_side = 170;
+	switch(pos)
+	{
+		case "c":  return 0;
+		case "lc": return master_middle_side * -1;
+		case "l" : return master_side * -1;
+		case "rc": return master_middle_side;
+		case "r" : return master_side;
 	}
-	return info;
 }
 
 function ClearSystemMessage()

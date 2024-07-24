@@ -46,115 +46,6 @@ tf.DELETE_SIZE_H = 50;
 //立ち絵用(セーブデータ)
 f.lastShowStandImageinfo = new Dictionary();
 
-//! 各立ち絵のLEFT計算のための値
-tf.RectSize = 1280;
-tf.PosToNum = %["l"=>0, "lc"=>1, "c"=>2, "rc"=>3, "r"=>4];
-tf.StandLeftParam = new Dictionary();
-tf.StandLeftParam["s"] = %["space"=>151,"width"=>210];
-tf.StandLeftParam["m"] = %["space"=>263,"width"=>370];
-tf.StandLeftParam["l"] = %["space"=>385,"width"=>510];
-tf.StandLeftParam["margin"] = 100;
-tf.StandLeftParam["split"] = 5;
-
-//! 各立ち絵のTOPの座標
-tf.StandTopMap = new Dictionary();
-tf.StandTopMap["haruka_old"] = new Dictionary();
-tf.StandTopMap["haruka_old"]["1"] = new Dictionary();
-tf.StandTopMap["haruka_old"]["2"] = new Dictionary();
-tf.StandTopMap["haruka_old"]["1"]["s"] = 50;
-tf.StandTopMap["haruka_old"]["1"]["m"] = -114;
-tf.StandTopMap["haruka_old"]["1"]["l"] = -284;
-tf.StandTopMap["haruka_old"]["2"]["s"] = 49;
-tf.StandTopMap["haruka_old"]["2"]["m"] = -102;
-tf.StandTopMap["haruka_old"]["2"]["l"] = -258;
-
-//old
-tf.StandTopMap["najimi_old"] = new Dictionary();
-tf.StandTopMap["najimi_old"]["1"] = new Dictionary();
-tf.StandTopMap["najimi_old"]["2"] = new Dictionary();
-tf.StandTopMap["najimi_old"]["1"]["s"] = 47;
-tf.StandTopMap["najimi_old"]["1"]["m"] = -128;
-tf.StandTopMap["najimi_old"]["1"]["l"] = -221;
-tf.StandTopMap["najimi_old"]["2"]["s"] = 46;
-tf.StandTopMap["najimi_old"]["2"]["m"] = -88;
-tf.StandTopMap["najimi_old"]["2"]["l"] = -219;
-
-
-tf.StandTopMap["satori"] = new Dictionary();
-tf.StandTopMap["satori"]["1"] = new Dictionary();
-tf.StandTopMap["satori"]["1"]["s"] = 0;
-tf.StandTopMap["satori"]["1"]["m"] = 0;
-tf.StandTopMap["satori"]["1"]["l"] = 0;
-
-tf.StandTopMap["naruse_old"] = new Dictionary();
-tf.StandTopMap["naruse_old"]["1"] = new Dictionary();
-tf.StandTopMap["naruse_old"]["2"] = new Dictionary();
-tf.StandTopMap["naruse_old"]["1"]["s"] = 35;
-tf.StandTopMap["naruse_old"]["1"]["m"] = -87;
-tf.StandTopMap["naruse_old"]["1"]["l"] = -292;
-tf.StandTopMap["naruse_old"]["2"]["s"] = 32;
-tf.StandTopMap["naruse_old"]["2"]["m"] = -135;
-tf.StandTopMap["naruse_old"]["2"]["l"] = -302;
-
-tf.StandTopMap["gaia_old"] = new Dictionary();
-tf.StandTopMap["gaia_old"]["1"] = new Dictionary();
-tf.StandTopMap["gaia_old"]["1"]["s"] = 40;
-tf.StandTopMap["gaia_old"]["1"]["m"] = -117;
-tf.StandTopMap["gaia_old"]["1"]["l"] = -273;
-
-tf.StandTopMap["mash_old"] = new Dictionary();
-tf.StandTopMap["mash_old"]["1"] = new Dictionary();
-tf.StandTopMap["mash_old"]["1"]["s"] = 25;
-tf.StandTopMap["mash_old"]["1"]["m"] = -30;
-tf.StandTopMap["mash_old"]["1"]["l"] = -80;
-
-tf.StandTopMap["orutega_old"] = new Dictionary();
-tf.StandTopMap["orutega_old"]["1"] = new Dictionary();
-tf.StandTopMap["orutega_old"]["1"]["s"] = 37;
-tf.StandTopMap["orutega_old"]["1"]["m"] = -110;
-tf.StandTopMap["orutega_old"]["1"]["l"] = -271;
-
-tf.StandTopMap["sakurako_old"] = new Dictionary();
-tf.StandTopMap["sakurako_old"]["1"] = new Dictionary();
-tf.StandTopMap["sakurako_old"]["1"]["s"] = 0;
-tf.StandTopMap["sakurako_old"]["1"]["m"] = 0;
-tf.StandTopMap["sakurako_old"]["1"]["l"] = 0;
-
-tf.StandTopMap["takahashi_old"] = new Dictionary();
-tf.StandTopMap["takahashi_old"]["1"] = new Dictionary();
-tf.StandTopMap["takahashi_old"]["1"]["s"] = 120;
-tf.StandTopMap["takahashi_old"]["1"]["m"] = 90;
-tf.StandTopMap["takahashi_old"]["1"]["l"] = 60;
-
-tf.StandTopMap["miyabi_old"] = new Dictionary();
-tf.StandTopMap["miyabi_old"]["1"] = new Dictionary();
-tf.StandTopMap["miyabi_old"]["1"]["s"] = 200;
-tf.StandTopMap["miyabi_old"]["1"]["m"] = 160;
-tf.StandTopMap["miyabi_old"]["1"]["l"] = 120;
-
-//nopos=trueの場合(byMahiro)
-tf.StandTopMap["nopos"] = new Dictionary();
-tf.StandTopMap["nopos"]["1"] = new Dictionary();
-tf.StandTopMap["nopos"]["2"] = new Dictionary();
-tf.StandTopMap["nopos"]["3"] = new Dictionary();
-tf.StandTopMap["nopos"]["1"]["s"] = 0;
-tf.StandTopMap["nopos"]["1"]["m"] = 0;
-tf.StandTopMap["nopos"]["1"]["l"] = 0;
-tf.StandTopMap["nopos"]["2"]["s"] = 0;
-tf.StandTopMap["nopos"]["2"]["m"] = 0;
-tf.StandTopMap["nopos"]["2"]["l"] = 0;
-tf.StandTopMap["nopos"]["3"]["s"] = 0;
-tf.StandTopMap["nopos"]["3"]["m"] = 0;
-tf.StandTopMap["nopos"]["3"]["l"] = 0;
-
-
-tf.StandPositionMap = new Dictionary();
-tf.StandPositionMap["s"] = new Dictionary();
-tf.StandPositionMap["s"]["l"] = 10;
-tf.StandPositionMap["s"]["lc"] = 10;
-tf.StandPositionMap["s"]["c"] = 410;
-tf.StandPositionMap["s"]["rc"] = 10;
-tf.StandPositionMap["s"]["r"] = 10;
 //------------------
 // CG・Tips用フラグ
 //------------------
@@ -204,17 +95,9 @@ tf.TabInfo = new TabInfo();
 // 立ち絵調整ページ
 //------------------
 tf.eyeInfo = new Array();
-tf.eyeInfo[0] = %["fg"=>"s_gaia_pose1_egao.png", "bg"=>"eyelevel_gaia.png"];
-tf.eyeInfo[1] = %["fg"=>"s_gaia_kids_pose1_chinsyaku.png", "bg"=>"eyelevel_gaia_yousyouki.png"];
-tf.eyeInfo[2] = %["fg"=>"s_haruka_pose1_ai.png", "bg"=>"eyelevel_haruka_pose1.png"];
-tf.eyeInfo[3] = %["fg"=>"s_haruka_pose2_ai.png", "bg"=>"eyelevel_harula_pose2.png"];
-tf.eyeInfo[4] = %["fg"=>"s_mash_pose1_doya.png", "bg"=>"eyelevel_masshu.png"];
-tf.eyeInfo[5] = %["fg"=>"s_najimi_pose1_do.png", "bg"=>"eyelevel_najimi_pose1.png"];
-tf.eyeInfo[6] = %["fg"=>"s_najimi_pose2_do.png", "bg"=>"eyelevel_najimi_pose2.png"];
-tf.eyeInfo[7] = %["fg"=>"s_naruse_pose1_hohoho.png", "bg"=>"eyelevel_naruse_pose1.png"];
-tf.eyeInfo[8] = %["fg"=>"s_naruse_pose2_futsu.png", "bg"=>"eyelevel_naruse_pose2.png"];
-tf.eyeInfo[9] = %["fg"=>"s_satori_pose1_futsu.png", "bg"=>"eyelevel_satori.png"];
-tf.eyeInfo[10] = %["fg"=>"s_orutega_pose1_kanasii.png", "bg"=>"eyelevel_orutega.png"];
+tf.eyeInfo[0]  = "l_haruka_pose1_n_futsu.png";
+tf.eyeInfo[1]  = "m_haruka_pose1_n_futsu.png";
+tf.eyeInfo[2]  = "s_haruka_pose1_n_futsu.png";
 tf.f_t_current = 0;
 tf.f_t_top = 0;
 tf.f_t_left = 0;

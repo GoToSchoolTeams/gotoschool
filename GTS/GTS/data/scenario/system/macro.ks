@@ -257,7 +257,7 @@
 ;;tere=照れてるかどうか, 論理値
 ;;page=画面\n指定しない場合はback, fore;back
 ;;layer=表示したい前景レイヤ番号, 前景レイヤ
-;;pos=前景レイヤ位置\nレイヤ位置を自動的に決定します, l;c;r
+;;pos=前景レイヤ位置\nレイヤ位置を自動的に決定します, l;lc;c;rc;r
 ;;visible=レイヤの可視・不可視\nlayer 属性で指定したレイヤを表示するか、しないかを指定します, 論理値
 ;;grayscale=画像をグレースケールにするか\nlayer , 論理値
 ;;index=重ね合わせ順序\n背景レイヤには指定しないでください, 1以上の値
@@ -274,15 +274,16 @@
 		[eval exp="mp.page='back'"]
 		[backlay]
 	[endif]
-	;未指定はm, center
+	;デフォルト引数の設定
 	[eval exp="mp.pose='1'" cond="mp.pose == ''"]
 	[eval exp="mp.size='m'" cond="mp.size == ''"]
 	[eval exp="mp.pos='c'" cond="mp.pos == ''"]
 	[eval exp="mp.tere='false'" cond="mp.tere == ''"]
 	;表示した立ち絵情報を取得する
-	[eval exp="tf.s_info = global.GetStandFileInfo(mp.who, mp.pose, mp.face, mp.size, mp.pos, mp.tere, mp.nopos)"]
+	[eval exp="tf.stand_name = global.GetStandFileName(mp.who, mp.pose, mp.face, mp.size, mp.tere)"]
+	[eval exp="tf.stand_left = global.GetStandLeft(mp.pos)"]
 	;取得した情報に従って立ち絵を表示
-	[image storage="&tf.s_info.file" left="&tf.s_info.left" top="&tf.s_info.top" layer=%layer|0 visible="true" index=%index|1 opacity=%opacity|255 page="&mp.page" grayscale=%grayscale]
+	[image storage="&tf.stand_name" left="&tf.stand_left" layer=%layer|0 visible="true" index=%index|1 opacity=%opacity|255 page="&mp.page" grayscale=%grayscale]
 	;トランジション(有効なら)
 	[if exp="mp.notrans != 'true'"]
 		[trans time=%time|500 method="crossfade"]

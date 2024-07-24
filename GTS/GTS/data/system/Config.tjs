@@ -269,11 +269,11 @@ scHeight = 720;
 // image タグあるいは img タグの pos 属性で指定する前景レイヤの 位置名 (
 // left や lecft_center など ) とそれぞれに対応する 中心位置 ( x 座標 ) を
 // 指定します。;scPositionX.位置名 = 中心位置; の形式で指定します。
-;scPositionX.left = 250;
-;scPositionX.left_center = 390;
-;scPositionX.center = 640;
-;scPositionX.right_center = 890;
-;scPositionX.right = 1030;
+;scPositionX.left = 280;
+;scPositionX.left_center = 170;
+;scPositionX.center = 0;
+;scPositionX.right_center = -170;
+;scPositionX.right = -280;
 
 
 // 簡易な記号
