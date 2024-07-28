@@ -96,11 +96,13 @@
 
 ……でも、覚えていて欲しい。[plc]
 
-
 上手くいくときは、必ず落とし穴がある。[plc]
 
 そう、俺は落とし穴に引っかかっていた。[lr]
 それも随分と前に。[plc]
+
+*debug
+[setup_debug bg="black"]
 
 @fadeoutbgm time="2000"
 [backlay]
@@ -137,7 +139,7 @@
 [shownametag name="キモ面B" visible=true]
 「では、拙者はここにしよう」[plc]
 
-[image storage="l_orutega_pose1_n_futsu" layer="0" left=400 visible="true"]
+[image storage="m_orutega_pose1_n_futsu" layer="0" left=400 visible="true"]
 [shownametag name="キモ面C" visible=true]
 「僕チンはここにするナリ」[plc]
 

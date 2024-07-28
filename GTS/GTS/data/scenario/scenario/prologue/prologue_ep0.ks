@@ -172,7 +172,7 @@
 
 [strans storage="black"]
 
-[najimi_stand face="metoji" size="s" nobust="true" time="1500" namevisible="false"]
+[najimi_stand face="fukigen" size="s" nobust="true" time="1500" namevisible="false"]
 
 旗立　縁　<はただて　なじみ>。[lr]
 １０年来になる。長い付き合いのお隣さん。[plc]
