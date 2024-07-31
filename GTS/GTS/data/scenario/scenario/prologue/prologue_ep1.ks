@@ -1,4 +1,4 @@
-@SetupMessageWindow
+[SetupMessageWindow]
 ;[誇大広告演出]
 
 ;ワンオフ操作
@@ -52,7 +52,7 @@
 ;[ルビ:まなびや]
 
 ;[演出終]
-@fadebgm volume="80" time="500"
+[fadebgm volume="80" time="500"]
 [backlay]
 [layopt layer=12 visible="false" page="back"]
 [trans layer="base" method="crossfade" time="3000"]
@@ -104,7 +104,7 @@
 *debug
 [setup_debug bg="black"]
 
-@fadeoutbgm time="2000"
+[fadeoutbgm time="2000"]
 [backlay]
 [image layer="12" left=352 top=180 visible="true" page="back" storage="letter"]
 [trans method="crossfade" time="2000"]
@@ -117,16 +117,16 @@
 
 といえば、あと1つだろう？[plc]
 
-@backlay
-@layopt layer=12 page="back" visible="false"
-@image layer="base" page="back" storage="black" visible="true"
-@trans layer="base" time="1000" method="crossfade"
-@wt
+[backlay]
+[layopt layer=12 page="back" visible="false"]
+[image layer="base" page="back" storage="black" visible="true"]
+[trans layer="base" time="1000" method="crossfade"]
+[wt]
 
 そう、そこは――[plc]
-@fadeinbgm storage="serious1-2" time="1000"
-@fadebgm time=1 volume="100"
-@strans storage="kyositu_m" time="2000"
+[fadeinbgm storage="serious1-2" time="1000"]
+[fadebgm time=1 volume="100"]
+[strans storage="kyositu_m" time="2000"]
 [gaia_stand face="futsu" size="l" layer=2 namevisible="false"]
 [shownametag name="キモ面A" visible=true bust="ガイア"]
 「やぁ、谷口君だったかな？　隣、良いかな？」[plc]
@@ -139,7 +139,7 @@
 [shownametag name="キモ面B" visible=true]
 「では、拙者はここにしよう」[plc]
 
-[image storage="m_orutega_pose1_n_futsu" layer="0" left=400 visible="true"]
+[image storage="l_orutega_pose1_n_futsu" layer="0" left=600 visible="true"]
 [shownametag name="キモ面C" visible=true]
 「僕チンはここにするナリ」[plc]
 
@@ -161,13 +161,13 @@
 「さぁ、肩の力を抜きたまえ――」[plc]
 
 
-@playse storage="syakeeen"
-@backlay
+[playse storage="syakeeen"]
+[backlay]
 [image storage="l_gaia_pose1_n_yorokobi" layer="2" visible="true" page="back"]
 [image storage="l_mash_pose1_n_yorokobi" layer="1" left=-400 visible="true" page="back"]
-[image storage="l_orutega_pose1_n_kokotsu" layer="0" left=400 visible="true" page="back"]
-@trans method="crossfade" time="500"
-@wt
+[image storage="l_orutega_pose1_n_kokotsu" layer="0" left=600 visible="true" page="back"]
+[trans method="crossfade" time="500"]
+[wt]
 [shownametag name="ガ・マ・オ" bust="ガイア" visible=true]
 「「「――ブラザー！！！！」」」[plc]
 
@@ -177,17 +177,17 @@
 
 
 
-@fadebgm time="500" volume="50"
-@strans storage="black" time="1000"
+[fadebgm time="500" volume="50"]
+[strans storage="black" time="1000"]
 
 [dis_all_chara]
 ――入学早々、学園一のキモオタ軍団に入れられ――[plc]
 
 
 
-@fadebgm time="500" volume="100"
-@playse storage="ambientA@08"
-@strans storage="kyositu_m" time="1000"
+[fadebgm time="500" volume="100"]
+[playse storage="ambientA@08"]
+[strans storage="kyositu_m" time="1000"]
 
 [shownametag name="女子A"]
 「うわっ、谷口『黒豚』共と話してる。キモオタじゃんっ」[plc]
@@ -208,14 +208,14 @@
 
 
 
-@fadebgm time="500" volume="50"
-@strans storage="black" time="500"
+[fadebgm time="500" volume="50"]
+[strans storage="black" time="500"]
 ――あっという間にクラスの最下層に落とされ――[plc]
 
 
 
-@fadebgm time="500" volume="100"
-@strans storage="kyositu_m" time="500"
+[fadebgm time="500" volume="100"]
+[strans storage="kyositu_m" time="500"]
 [shownametag name="教員"]
 「おい、谷口。お前、舐めてんのか？　２学期にもなって『たすき掛け分かりません』とか、ふざけんじゃねぇぞ！」[plc]
 
@@ -223,13 +223,13 @@
 「お前、初等教育ちゃんとうけたのかっ！？」[plc]
 
 
-@fadebgm time="500" volume="50"
-@strans storage="black" time="500"
+[fadebgm time="500" volume="50"]
+[strans storage="black" time="500"]
 ――頭は悪く――[plc]
 
 
-@fadebgm time="500" volume="100"
-@strans storage="artroom_dt"
+[fadebgm time="500" volume="100"]
+[strans storage="artroom_dt"]
 [shownametag name="美術部の先輩"]
 「よーし♪　１時間たったよー。下書きくらいは出来たー？」[plc]
 
@@ -248,28 +248,28 @@
 「クビ☆」[plc]
 
 
-@fadebgm time="500" volume="0"
-@strans storage="black" time="500"
+[fadebgm time="500" volume="0"]
+[strans storage="black" time="500"]
 ――何の才能もない――[plc]
 
 
-[fadebgm time="500" volume="1000"]
-[fadeinbgm storage="prologue" time="500"]
-@strans storage="senro_zoi_dt" time="500"
+[strans storage="senro_zoi_dt" time="500"]
 [shownametag name="大樹" visible=true]
 [quake time="300"]
 「――そんな奴でもリア充になれる場所じゃなかったんだよ！」[plc]
 
 思い返しつつ叫んでみて、鬱になった。[plc]
 
-@playse storage="bird"
+[fadebgm time="500" volume="1000"]
+[fadeinbgm storage="prologue" time="500"]
+[playse storage="bird"]
 天気は、俺の気分に反して健やかなほど晴れやかで、[lr]
 空にはチュンチュンと雀なんかが飛んでいる。[plc]
 
-@quake time="300"
+[quake time="300"]
 [shownametag name="大樹" visible=true]
 「クソがっ！」[plc]
-@stopse
+[stopse]
 
 怒鳴ってみるが、状況は改善するわけもない。[plc]
 
@@ -290,7 +290,7 @@
 どこに出しても恥ずかしい、立派な不登校になっていた。[plc]
 
 
-@quake time="500"
+[quake time="500"]
 [shownametag name="大樹" visible=true]
 「あぁあああっ、もうっ！」[plc]
 
@@ -298,9 +298,9 @@
 唸ってみる。[l][r]
 近くにいた主婦がビビる。[plc]
 
-@stopse
-@strans storage="black" time=500
-[fadeoutbgm time="500"]
+[stopse]
+[strans storage="black" time=500]
+[fadebgm time="500" volume="50"]
 あんな地獄のような状況でも、俺は耐えた。[l][r]
 耐えに耐えた。一年も耐えた。[plc]
 
@@ -313,21 +313,21 @@
 そう思っていた。思っていたが、[plc]
 
 
-@backlay
+[backlay]
 [image storage="l_gaia_pose1_n_yorokobi" layer="2" visible="true" page="back"]
 [image storage="l_mash_pose1_n_yorokobi" layer="1" left=-400 visible="true" page="back"]
-[image storage="l_orutega_pose1_n_kokotsu" layer="0" left=400 visible="true" page="back"]
-@image storage="kyositu_m" layer="base" page="back" visible="true"
-@trans method="crossfade" time="500"
-@wt
+[image storage="l_orutega_pose1_n_kokotsu" layer="0" left=600 visible="true" page="back"]
+[image storage="kyositu_m" layer="base" page="back" visible="true"]
+[trans method="crossfade" time="500"]
+[wt]
 
-@fadese volume="100" time=1
-@playse storage="syakeeen" 
+[fadese volume="100" time=1]
+[playse storage="syakeeen" ]
 [shownametag name="ガイア" visible="true"]
 「よう、兄弟！　また俺たち同じクラスだな！」[plc]
 
 
-@strans storage="black"
+[strans storage="black"]
 
 無理だった。[lr]
 俺の希望は儚く消えた。[plc]
@@ -335,8 +335,8 @@
 
 そして、それが限界で。[plc]
 
-@fadeinbgm storage="prologue" time="500"
-@strans storage="senro_zoi_dt"
+[fadebgm time="500" volume="1000"]
+[strans storage="senro_zoi_dt"]
 [shownametag name="大樹" visible=true]
 「マジ無理、狂いそうだったもん」[plc]
 
@@ -377,44 +377,44 @@
 
 [shownametag name="大樹" visible=true]「はっはっはっ」[plc]
 
-@stopbgm
+[stopbgm]
 余計鬱になった。[plc]
 
-@playbgm storage="happybgm"
-@quake hmax=0 vmax="5" time=10000000000000000
+[playbgm storage="happybgm"]
+[quake hmax=0 vmax="5" time=10000000000000000]
 [shownametag name="大樹" visible=true]「だぁああああっ！？　駄目だァああああああああ！！！！」[plc]
 
-@stopquake
+[stopquake]
 ウネッた。[l][r]
 叫びつつウネッた。[plc]
 
 チャリで爆走しつつウネッた。[plc]
 
-@quake hmax=0 vmax="5" time=10000000000000000
+[quake hmax=0 vmax="5" time=10000000000000000]
 [shownametag name="大樹" visible=true]「ぁあああああああああっ！？」[plc]
 
-@shownametag name="主婦"
+[shownametag name="主婦"]
 「ひぃいぃいいいいっ！」[plc]
 
-@shownametag name="猫"
+[shownametag name="猫"]
 「フシャァーッ！」[plc]
 
-@strans storage="black" method="universal" rule="101" time="300"
-@strans storage="jyuutaku_dt" method="universal" rule="101" time="300"
+[strans storage="black" method="universal" rule="101" time="300"]
+[strans storage="jyuutaku_dt" method="universal" rule="101" time="300"]
 自転車をシャリシャリ漕ぎながら、ウネウネト体をくねらす俺。[lr]
 宇宙人でも見たかの様に叫ぶおばちゃん。威嚇して逃げ出す野良猫。[plc]
 
 ちくしょう、学校どころか路上でさえ人間扱いされてない。[plc]
 
-@quake hmax=0 vmax="5" time=10000000000000000
+[quake hmax=0 vmax="5" time=10000000000000000]
 [shownametag name="大樹" visible=true]
 「ちっくしょぉおおおおおっ！」[plc]
 
-@strans storage="black" method="universal" rule="101" time="300"
+[strans storage="black" method="universal" rule="101" time="300"]
 くっそ、みんなして！[lr]
 みんなしてオレを馬鹿にしてっ！！[plc]
 
-@strans storage="jyuutakuti_dt" method="universal" rule="101" time="300"
+[strans storage="jyuutakuti_dt" method="universal" rule="101" time="300"]
 [shownametag name="大樹" visible=true]
 「糞がァあああああああああっ！」[plc]
 
@@ -428,19 +428,19 @@
 爆走する。[l][r]
 ペダルを限界まで回転させ、跳ねるように逃げる猫を追いかける。[plc]
 
-@shownametag name="猫"
+[shownametag name="猫"]
 「ウニャッ！」[plc]
 
 
 [shownametag name="大樹" visible=true]
 「待てや、ネコ目ネコ科ネコぉおおおおおおおっ！！！」[plc]
 
-@strans storage="black" method="universal" rule="101" time="300"
+[strans storage="black" method="universal" rule="101" time="300"]
 寂れたタバコやを抜け、[l]円柱ポストを蹴り飛ばし、[lr]
 誰かの家のチャイムを鳴らして、[l]誰も居ない路地を突っ切って――[plc]
 
 [stopquake]
-@strans storage="roji_dt" method="universal" rule="101" time="300"
+[strans storage="roji_dt" method="universal" rule="101" time="300"]
 [haruka_stand face="hoshin" size="s" nobust="true"]
 「……っ！？」[plc]
 ;[先輩]
@@ -449,13 +449,13 @@
 [haruka_stand face="odoroki" size="l" nobust="true"]
 ――って、誰か居るじゃんっ！？[plc]
 
-@playse storage="car_crash"
-@strans storage="black" time="800
-@fadeoutbgm time="2000"
+[playse storage="crash"]
+[strans storage="black" time="800"]
+[fadeoutbgm time="2000"]
 ;[激突音]
 
 そのまま、オレはその誰かに突っ込んだ。[plc]
-@stopbgm
+[stopbgm]
 
 ;[回想から覚めるような演出]
 ;[→不愉快な目覚め]
