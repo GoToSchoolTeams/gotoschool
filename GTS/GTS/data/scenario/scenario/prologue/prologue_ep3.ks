@@ -1,4 +1,3 @@
-
 [SetupMessageWindow]
 ;[call target="*Debug"]
 『業務上過失致傷』という言葉を知ってるだろうか？[plc]
@@ -26,8 +25,8 @@
 
 ……いや、何が言いたいかと言うとね。[plc]
 
-@strans storage="roji_dt" time="1000"
-@fadeinbgm storage="prologue" time="2000"
+[strans storage="roji_dt" time="1000"]
+[fadeinbgm storage="prologue" time="2000"]
 [shownametag name="大樹" visible=true]
 「――これ、ヤバイよな」[plc]
 
@@ -46,8 +45,8 @@
 俺の記憶の映像が、妄想か幻覚か何かで無ければ、[lr]
 さっき、何か、女子高生的なものを吹き飛ばしたような……。[plc]
 
-@fadebgm volume="50" time="300"
-@playse storage="sinzou1"
+[fadebgm volume="50" time="300"]
+[playse storage="sinzou1"]
 [shownametag name="大樹" visible=true]
 「……」[plc]
 
@@ -63,7 +62,7 @@
 ピクリとも動いていない。[plc]
 
 
-@fadebgm volume="100" time="300"
+[fadebgm volume="100" time="300"]
 [shownametag name="大樹" visible=true]
 「……大丈夫、かな？」[plc]
 
@@ -75,7 +74,7 @@
 俺が誰かを吹き飛ばしたとするならこの下なんだけど……。[plc]
 
 
-@fadebgm volume="50" time="300"
+[fadebgm volume="50" time="300"]
 [shownametag name="大樹" visible=true]
 「……」[plc]
 
@@ -86,7 +85,7 @@
 バラバラに散乱しているベニヤ板は、[lr]
 やっぱりピクリともしない。[plc]
 
-@fadebgm volume="100" time="300"
+[fadebgm volume="100" time="300"]
 [shownametag name="大樹" visible=true]
 「気のせいだよな、うん」[plc]
 
@@ -114,7 +113,7 @@
 [shownametag name="大樹" visible=true]
 「誰が人が来る前に……」[plc]
 
-@playse storage="bosu04"
+[playse storage="bosu04"]
 [quake hmax="5" vmax="5" time="100"]
 [shownametag name="大樹" visible=true]
 「……あれ？」[plc]
@@ -123,7 +122,7 @@
 ペダルが、動かない。[plc]
 
 ;[ｶﾞｯ、ｶﾞｯ！]
-@playse storage="bosu38"
+[playse storage="bosu38"]
 [quake hmax="5" vmax="5" time="100"]
 [playse storage=c"chari13_b"]
 [shownametag name="大樹" visible=true]
@@ -143,8 +142,8 @@
 
 舌打ちしながら振り返ると、[plc]
 
-@fadebgm volume="50" time="300"
-[haruka_stand face="kitai" size="m" namevisible="false" nobust="true"]
+[fadebgm volume="50" time="300"]
+[haruka_stand face="kitai" size="l" namevisible="false" nobust="true"]
 「……どーも♪」[plc]
 
 [shownametag name="大樹" visible=true]
@@ -153,8 +152,8 @@
 
 さっき吹き飛ばしたと思わしき女子高生が、[lr]
 めっちゃ笑顔でペダルを抑えていた。[plc]
-@fadeoutbgm time="1000"
-@strans storage="black" time="1000"
-@JumpChapter storage="prologue_ep4.ks"
+[fadeoutbgm time="1000"]
+[strans storage="black" time="1000"]
+[JumpChapter storage="prologue_ep4.ks"]
 
 ;[→兄弟と呼ぶ人]

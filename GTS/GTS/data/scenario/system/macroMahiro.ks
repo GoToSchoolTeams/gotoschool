@@ -83,7 +83,7 @@
 [endmacro]
 ;;[悟]
 ;;pose=ポーズ番号, 1;2;3
-;;face=表情名, yorokobi;shinrai;naki;hoshin;odoroki;kanashimi;akire;unzari;iradachi;kitai;fuan;futsu;futsu2
+;;face=表情名, yorokobi;shinrai;naki;hoshin;odoroki;kanashimi;akire;unzari;iradachi;kitai;fuan;futsu;futsu2;osore;otyokuri
 ;;size=サイズ, s;m;l
 ;;nobust=バスト画像を出さない, 論理値
 ;;tere=照れてるかどうか, 論理値
@@ -101,7 +101,7 @@
 [endmacro]
 ;;[悟顔]
 ;;pose=ポーズ番号, 1;2;3
-;;face=表情名, yorokobi;shinrai;naki;hoshin;odoroki;kanashimi;akire;unzari;iradachi;kitai;fuan;futsu;futsu2
+;;face=表情名, yorokobi;shinrai;naki;hoshin;odoroki;kanashimi;akire;unzari;iradachi;kitai;fuan;futsu;futsu2;osore;otyokuri
 ;;tere=照れてるかどうか, 論理値
 ;;visible=レイヤの可視・不可視\nlayer 属性で指定したレイヤを表示するか、しないかを指定します, 論理値
 ;;namevisible=名前を表示するかしないか, 論理値

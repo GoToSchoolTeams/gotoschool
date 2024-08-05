@@ -6,7 +6,6 @@
 
 ;[ˆÃ“]‰ğœ]
 
-
 [image storage="kyositu_m" layer="base" page="back" visible="true"]
 [playse storage="bosu04"]
 [trans layer="base" time="500" rule="177" method="universal"]
