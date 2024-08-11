@@ -79,7 +79,7 @@
 
 [shownametag name="大樹" visible=true]「……」[plc]
 
-[mash_stand face="odoroki" size="l"]
+[mash_stand face="kyotan" size="l"]
 「谷口氏か！？　もう体の方はよろしいのか！！？」[plc]
 
 [dis_all_chara]

@@ -104,7 +104,8 @@
 
 @strans time="100" method="universal" rule="215" storage="black"
 @strans time="100" method="universal" rule="215" storage="takadai_dt"
-[showstandimage layer=1 who=haruka_old pose=1 face=niyaniya size=l]
+
+[haruka_stand layer=1 face="kitai" size="l"]
 振り返ると、[lr]
 やはりこれ以上ないってくらいニヤニヤ笑っていた。[plc]
 
@@ -294,7 +295,8 @@
 
 @fadebgm time="100" volume="50"
 @strans time="100" method="universal" rule="215" storage="black"
-[showstandimage notrans=true page=back who=haruka_old size=l pose=1 face=ki grayscale="true"]
+;[showstandimage notrans=true page=back who=haruka_old size=l pose=1 face=ki grayscale="true"]
+[haruka_stand notrans="true" page="back" size="l"]
 @strans time="100" method="universal" rule="215" storage="takadai_dt" grayscale=true noclear=true
 
 まぁ確かに、[lr]
