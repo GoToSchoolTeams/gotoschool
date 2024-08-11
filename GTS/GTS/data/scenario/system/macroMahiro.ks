@@ -112,7 +112,7 @@
 [endmacro]
 ;;[ガイア]
 ;;pose=ポーズ番号, 1;2;3
-;;face=表情名, aisyu;futsu;futsuAri;ikari;ikariAri;odoroki;yorokobi
+;;face=表情名, aisyu;aisyuAri;futsu;futsuAri;ikari;ikariAri;keiai;keiaiAri;keikai;keikaiAri;kyoufu;kyoufuAri;kyoutan;kyoutanAri;odoroki;odorokiAri;yorokobi;yorokobiAri
 ;;size=サイズ, s;m;l
 ;;nobust=バスト画像を出さない, 論理値
 ;;tere=照れてるかどうか, 論理値
@@ -130,7 +130,7 @@
 [endmacro]
 ;;[ガイア顔]
 ;;pose=ポーズ番号, 1;2;3
-;;face=表情名, aisyu;futsu;futsuAri;ikari;ikariAri;odoroki;yorokobi
+;;face=表情名, aisyu;aisyuAri;futsu;futsuAri;ikari;ikariAri;keiai;keiaiAri;keikai;keikaiAri;kyoufu;kyoufuAri;kyoutan;kyoutanAri;odoroki;odorokiAri;yorokobi;yorokobiAri
 ;;tere=照れてるかどうか, 論理値
 ;;visible=レイヤの可視・不可視\nlayer 属性で指定したレイヤを表示するか、しないかを指定します, 論理値
 ;;namevisible=名前を表示するかしないか, 論理値
@@ -141,7 +141,7 @@
 [endmacro]
 ;;[マッシュ]
 ;;pose=ポーズ番号, 1;2;3
-;;face=表情名, futsu;ikari;odoroki;yorokobi
+;;face=表情名, futsu;gekido;hitan;ikari;keiai;keikai;kyoufu;kyoutan;yorokobi
 ;;size=サイズ, s;m;l
 ;;nobust=バスト画像を出さない, 論理値
 ;;tere=照れてるかどうか, 論理値
@@ -159,7 +159,7 @@
 [endmacro]
 ;;[マッシュ顔]
 ;;pose=ポーズ番号, 1;2;3
-;;face=表情名, futsu;ikari;odoroki;yorokobi
+;;face=表情名, futsu;gekido;hitan;ikari;keiai;keikai;kyoufu;kyoutan;yorokobi
 ;;tere=照れてるかどうか, 論理値
 ;;visible=レイヤの可視・不可視\nlayer 属性で指定したレイヤを表示するか、しないかを指定します, 論理値
 ;;namevisible=名前を表示するかしないか, 論理値
@@ -170,7 +170,7 @@
 [endmacro]
 ;;[オルテガ]
 ;;pose=ポーズ番号, 1;2;3
-;;face=表情名, futsu;hitan;keikai;kokotsu
+;;face=表情名, futsu;gekido;hitan;ikari;keiai;keikai;kokotsu;kyotan;kyoufu;
 ;;size=サイズ, s;m;l
 ;;nobust=バスト画像を出さない, 論理値
 ;;tere=照れてるかどうか, 論理値
@@ -188,7 +188,7 @@
 [endmacro]
 ;;[オルテガ顔]
 ;;pose=ポーズ番号, 1;2;3
-;;face=表情名, futsu;hitan;keikai;kokotsu
+;;face=表情名, futsu;gekido;hitan;ikari;keiai;keikai;kokotsu;kyotan;kyoufu;
 ;;tere=照れてるかどうか, 論理値
 ;;visible=レイヤの可視・不可視\nlayer 属性で指定したレイヤを表示するか、しないかを指定します, 論理値
 ;;namevisible=名前を表示するかしないか, 論理値
