@@ -101,9 +101,6 @@
 そう、俺は落とし穴に引っかかっていた。[lr]
 それも随分と前に。[plc]
 
-*debug
-[setup_debug bg="black"]
-
 [fadeoutbgm time="2000"]
 [backlay]
 [image layer="12" left=352 top=180 visible="true" page="back" storage="letter"]
