@@ -105,7 +105,7 @@
 そんな風に、周りの奴らは何やら楽しそうに議論しているが、[lr]
 俺にはさっぱりだ。[plc]
 
-[showstandimage who=gaia_old pose=1 face=normal]
+[gaia_stand face="futsu"]
 [shownametag name="ガイア" visible=true]
 「ふっ、この状況……わけが分からんという顔をしているな」[plc]
 
@@ -114,7 +114,7 @@
 
 [shownametag name="大樹" visible=true]「お前の存在ほどじゃない」[plc]
 
-[showstandimage who=gaia_old pose=1 face=egao]
+[gaia_bust face="yorokobi"]
 [shownametag name="ガイア" visible=true]「ははは、」[plc]
 
 
@@ -126,20 +126,20 @@
 
 してないだろうな。[plc]
 
-[showstandimage who=gaia_old pose=1 face=kangaeru]
+;[showstandimage who=gaia_old pose=1 face=kangaeru]
 [shownametag name="ガイア" visible=true]
 「手厳しいな、兄弟。俺は兄弟が望む情報を持っているぞ」[plc]
 
 
 [shownametag name="大樹" visible=true]「黙れ」[plc]
 
-[showstandimage who=gaia_old pose=1 face=normal]
+;[showstandimage who=gaia_old pose=1 face=normal]
 [shownametag name="ガイア" visible=true]「ふふふ、そう急くな。ちゃんと教えるさ」[plc]
 
 
 話聞けよコイツ。[plc]
 
-[showstandimage who=gaia_old pose=1 face=kangaeru]
+;[showstandimage who=gaia_old pose=1 face=kangaeru]
 [shownametag name="ガイア" visible=true]
 「兄弟が居なかった間に、[lr]
 生徒会選挙が始まったのは知っているか？」[plc]
@@ -155,14 +155,14 @@
 
 普通、前年の冬とかにやるんじゃないのか？[plc]
 
-[showstandimage who=gaia_old pose=1 face=normal]
+;[showstandimage who=gaia_old pose=1 face=normal]
 [shownametag name="ガイヤ" visible=true]
 「ふふ、そこはまぁ色々と思惑があるのだろう」[plc]
 
 
 勝手に心を読むんじゃない。[plc]
 
-[showstandimage who=gaia_old pose=1 face=kangaeru]
+;[showstandimage who=gaia_old pose=1 face=kangaeru]
 [shownametag name="ガイヤ" visible=true]
 「ここの学校の選挙は変わっていてな。全体投票で会長候補を[r]
 二人に絞ってから、他の役員共々決戦投票する」[plc]
@@ -174,7 +174,7 @@
 
 そう言って、自信満々にガイアは鼻を鳴らした。[plc]
 
-[showstandimage who=gaia_old pose=1 face=normal2]
+;[showstandimage who=gaia_old pose=1 face=normal2]
 [shownametag name="ガイヤ" visible=true]「どぅゆぅあんだすたん？」[plc]
 
 
@@ -186,11 +186,11 @@
 
 [shownametag name="大樹" visible=true]「もう満足か？」[plc]
 
-[showstandimage who=gaia_old pose=1 face=normal]
+;[showstandimage who=gaia_old pose=1 face=normal]
 [shownametag name="ガイア" visible=true]
 「ふふ、兄弟も疑問に思っているようだな。それにしちゃちょっと生徒の熱気が高すぎる。単に『候補』の発表なのにな」[plc]
 
-[showstandimage who=gaia_old pose=1 face=kangaeru]
+;[showstandimage who=gaia_old pose=1 face=kangaeru]
 [shownametag name="ガイア" visible=true]「不思議だとは思わんかね？」[plc]
 
 
@@ -199,7 +199,7 @@
 
 殺したろか。[plc]
 
-[showstandimage who=gaia_old pose=1 face=serious]
+;[showstandimage who=gaia_old pose=1 face=serious]
 [shownametag name="ガイヤ" visible=true]
 「実はな、この学校の生徒会選挙。一応、役員も投票で決めるような形を取っているが、実質は会長が独断で委任するんだ」[plc]
 
@@ -207,7 +207,7 @@
 
 
 [shownametag name="大樹" visible=true]「――何だって？」[plc]
-[showstandimage who=gaia_old pose=1 face=normal]
+;[showstandimage who=gaia_old pose=1 face=normal]
 
 思わず、憎まれ口を閉じてしまった。[plc]
 
@@ -220,13 +220,13 @@
 そりゃ驚きもする。[lr]
 だって、それじゃぁ――。[plc]
 
-[showstandimage who=gaia_old pose=1 face=egao]
+;[showstandimage who=gaia_old pose=1 face=egao]
 [shownametag name="ガイア" visible=true]「――そう、まるで総理からの内閣委任みたいだろ？」[plc]
 
 
 俺の思考の先を行くように、ガイアは嬉しそうに続けた。[plc]
 
-[showstandimage who=gaia_old pose=1 face=normal]
+;[showstandimage who=gaia_old pose=1 face=normal]
 [shownametag name="ガイア" visible=true]
 「生徒会長自体は、全校生徒の選挙で決められるが、[lr]
 そっからはほぼ会長の独裁が出来るんだよこの学校の生徒会は」[plc]
@@ -244,7 +244,7 @@
 [shownametag name="大樹" visible=true]
 「でも、周りの連中に関係ないだろ？」[plc]
 
-[showstandimage who=gaia_old pose=1 face=kangaeru]
+;[showstandimage who=gaia_old pose=1 face=kangaeru]
 [shownametag name="ガイヤ" visible=true]
 「わかっとらんな兄弟。権力が云々以前に、[lr]
 この学校の生徒会選挙はお祭りみたいなものだ」[plc]
@@ -257,7 +257,7 @@
 「当然、今後の選挙活動はチーム戦になって、[lr]
 ガチンコでやり合う事になる」[plc]
 
-[showstandimage who=gaia_old pose=1 face=normal]
+;[showstandimage who=gaia_old pose=1 face=normal]
 [shownametag name="ガイヤ" visible=true]
 「待ちに待った対戦カードの発表に、みんな喜んでるのさ」[plc]
 
@@ -274,7 +274,7 @@
 男子が浮かれまくってるのもなんとなく分かる。[lr]
 が、それにしちゃ……。[plc]
 
-[showstandimage who=gaia_old pose=1 face=kangaeru]
+;[showstandimage who=gaia_old pose=1 face=kangaeru]
 [shownametag name="ガイア" visible=true]
 「……そう、女子がやたらと大人しいよな。[lr]
 あっちを見てみろ、兄弟」[plc]
@@ -287,7 +287,7 @@
 おいおい、あいつ震えてんぞ。[plc]
 
 [strans storage="_taiikukan"]
-[showstandimage who=gaia_old pose=1 face=normal]
+;[showstandimage who=gaia_old pose=1 face=normal]
 [shownametag name="ガイア" visible=true]
 「ふ、可愛いものだろう？[lr]
 役員候補に選ばれるのは、女子だからな」[plc]
@@ -311,7 +311,7 @@
 たかが生徒会役員。　それも候補だろ？　アホらしい。[plc]
 
 [strans storage="_taiikukan"]
-[showstandimage who=gaia_old pose=1 face=normal]
+;[showstandimage who=gaia_old pose=1 face=normal]
 [shownametag name="ガイア" visible=true]
 「ここの生徒会の権力は絶大だ」[plc]
 
@@ -324,7 +324,7 @@
 
 どちらにしろ、馬鹿には変わりない。[plc]
 
-[showstandimage who=gaia_old pose=1 face=kangaeru]
+;[showstandimage who=gaia_old pose=1 face=kangaeru]
 [shownametag name="ガイア" visible=true]
 「それになぁ、下馬評で会長当選確実って言われてるハルカ様は、かなりの破天荒で。今年はガチで勝手に決めてるって噂だ」[plc]
 
@@ -333,13 +333,13 @@
 女子であれば、選ばれる可能性が無いとは言い切れないからな」[plc]
 
 
-[showstandimage who=gaia_old pose=1 face=normal]
+;[showstandimage who=gaia_old pose=1 face=normal]
 [shownametag name="ガイア" visible=true]
 「まぁ、どちらにせよ男子である俺達には関係の無い事だがな」[plc]
 
 [shownametag name="大樹" visible=true]「……そうかよ」[plc]
 
-[showstandimage who=gaia_old pose=1 face=egao]
+;[showstandimage who=gaia_old pose=1 face=egao]
 [shownametag name="ガイア" visible=true]
 「だから、ま、俺達はお祭りとして楽しむとしようじゃないか」[plc]
 
@@ -546,7 +546,7 @@
 一際大きな歓声が上がる。[plc]
 [fadeoutse time="500"]
 
-[old_najimi_face face=futsu]
+;[old_najimi_face face=futsu]
 [shownametag name="縁" visible=true]「――はい」[plc]
 
 
@@ -593,7 +593,7 @@
 [strans storage="taiikukan_center"]
 『えー、では一言、抱負などをお願いします』[plc]
 
-[showstandimage who=najimi_old pose=1 face=raku size=s]
+;[showstandimage who=najimi_old pose=1 face=raku size=s]
 [shownametag name="縁" visible=true]
 「分かりました。……まずは皆さん、[lr]
 　私を選んでくれてありがとう。私は――」[plc]
@@ -614,7 +614,7 @@
 
 ……来年は最悪だな。[plc]
 
-[showstandimage who=gaia_old pose=1 face=normal]
+;[showstandimage who=gaia_sss pose=1 face=normal]
 [shownametag name="ガイア" visible=true]「ん、どうした兄弟？」[plc]
 
 
@@ -626,7 +626,7 @@
 
 [shownametag name="大樹" visible=true]「帰る」[plc]
 
-[showstandimage who=gaia_old pose=1 face=kangaeru]
+;[showstandimage who=gaia_old pose=1 face=kangaeru]
 [shownametag name="ガイヤ" visible=true]「いや、帰るって…」[plc]
 
 [dis_all_chara_fade]
@@ -638,7 +638,7 @@
 
 吐き捨てて歩を進めると、手を掴まれた。[plc]
 
-[showstandimage who=gaia_old pose=1 face=egao size=l]
+;[showstandimage who=gaia_old pose=1 face=egao size=l]
 [shownametag name="ガイヤ" visible=true]「保健室か？　なら、付いて――」[plc]
 
 [dis_all_chara]
@@ -648,7 +648,7 @@
 
 その手を、振り払う。[plc]
 
-[showstandimage who=gaia_old pose=1 face=komari]
+;[showstandimage who=gaia_old pose=1 face=komari]
 [shownametag name="ガイヤ" visible=true]「兄弟……」[plc]
 
 
@@ -660,13 +660,13 @@
 
 [shownametag name="大樹" visible=true]「……じゃぁな」[plc]
 
-[showstandimage who=gaia_old pose=1 face=kangaeru]
+;[showstandimage who=gaia_sss pose=1 face=kangaeru]
 [shownametag name="ガイア" visible=true]「兄弟」[plc]
 
 
 [shownametag name="大樹" visible=true]「ぁ？」[plc]
 
-[showstandimage who=gaia_old pose=1 face=komari]
+;[showstandimage who=gaia_old pose=1 face=komari]
 [shownametag name="ガイア" visible=true]「明日も、来いよ」[plc]
 
 
@@ -697,11 +697,11 @@
 どっかで聞いたその声に振り返ると、[plc]
 
 [strans storage="senpai_hurikaeri"]
-[showstandimage pose=1 face=ki who=haruka_old size=s]
+;[showstandimage pose=1 face=ki who=haruka_old size=s]
 [shownametag name="先輩" visible=true]
 「おーっし！　今日は来てた居たみたいだね、偉い偉い！」[plc]
 
-[showstandimage pose=1 face=niyaniya who=haruka_old size=s]
+;[showstandimage pose=1 face=niyaniya who=haruka_old size=s]
 [shownametag name="先輩" visible=true]
 「でも、途中退席はいけないなぁ」[plc]
 
@@ -714,7 +714,7 @@
 
 『ぁー、恋ヶ旗君。壇上での個人的な会話は控えるように……』[plc]
 
-[showstandimage pose=1 face=ki who=haruka_old size=s]
+;[showstandimage pose=1 face=ki who=haruka_old size=s]
 [shownametag name="先輩" visible=true]「まーまー、松もっちゃん！　そんなかたい事言わないで！」[plc]
 
 
@@ -723,19 +723,19 @@
 
 『あだ名はやめなさい……ったく、みんな見ていますよ』[plc]
 
-[showstandimage pose=1 who=haruka_old face=magao size=s]
+;[showstandimage pose=1 who=haruka_old face=magao size=s]
 [shownametag name="先輩" visible=true]「ぉ……」[plc]
 
 
 体育館全体の目線が自分に集中していることに気づいたのか、[lr]
 先輩は芝居ががった調子で胸を張り、ピッと額に指をあて、言った。[plc]
 
-[showstandimage pose=1 who=haruka_old face=raku size=s]
+;[showstandimage pose=1 who=haruka_old face=raku size=s]
 [shownametag name="先輩" visible=true]
 「おっと、みなさま失礼しました！
 この度、旗立高校第１０１代目の会長に立候補致しました――」[plc]
 
-[showstandimage pose=1 who=haruka_old face=ki size=s]
+;[showstandimage pose=1 who=haruka_old face=ki size=s]
 [shownametag name="遥香" visible=true]「――　恋ヶ旗　遥香です！　よろしくぅ！！」[plc]
 
 [strans storage="_taiikukan"]
@@ -756,11 +756,11 @@
 [shownametag name="男子生徒Ｂ" visible=true]「当然だぜっ！　浪漫が違うっ！！！」[plc]
 
 ;[デカ字で]
-[showstandimage who=orutega_old pose=1 face=odoroki size=l]
+;[showstandimage who=orutega_old pose=1 face=odoroki size=l]
 [shownametag name="オルテガ" visible=true]
 「[font size=50]は、ハルカたんナイス巨乳ナリィイイイイイイイイイイッ！！！！！！！[font size=32]」[plc]
 
-[showstandimage who=mash_old pose=1 face=odoroki size=l]
+;[showstandimage who=mash_old pose=1 face=odoroki size=l]
 [shownametag name="マッシュ" visible=true]
 「[font size=50]せ、拙者。ハルカ殿の体を天下統一したいでござる！[font size=32]」[plc]
 
@@ -769,20 +769,20 @@
 ガイアに至っては、唖然としてこちらを見つめている始末。[plc]
 
 [strans storage="senpai_hurikaeri"]
-[showstandimage pose=1 who=haruka_old face=ki size=s]
+;[showstandimage pose=1 who=haruka_old face=ki size=s]
 [shownametag name="遥香" visible=true]
 「さて、じゃぁ、最後の役員候補の発表に移らせて貰おうかな」[plc]
 
 『こら、勝手に――』[plc]
 
-[showstandimage pose=1 who=haruka_old face=do size=s]
+;[showstandimage pose=1 who=haruka_old face=do size=s]
 [shownametag name="遥香" visible=true]「はい、松っちゃんうるさいよぉ」[plc]
 
 
 先輩がそう言って指を鳴らすと、[lr]
 仕込んでいたのか教頭のマイクの電源が勝手に落ちた。[plc]
 
-[showstandimage pose=1 who=haruka_old face=raku size=s]
+;[showstandimage pose=1 who=haruka_old face=raku size=s]
 [shownametag name="遥香" visible=true]
 「旗立高校第１０１代、書記、最後の候補は――」[plc]
 [fadebgm volume=75 time="500"]
@@ -794,7 +794,7 @@
 今はまだ全然分からないけど――。[plc]
 [fadeoutse time="500"]
 
-[showstandimage pose=1 who=haruka_old face=ki size=s]
+;[showstandimage pose=1 who=haruka_old face=ki size=s]
 [playse storage="howling"]
 [stopbgm]
 [shownametag name="遥香" visible=true]
@@ -818,7 +818,7 @@
 
 [strans storage="taiikukan_center"]
 [fadeoutse time="1000"]
-[showstandimage pose=1 who=haruka_old face=do size=s]
+;[showstandimage pose=1 who=haruka_old face=do size=s]
 [shownametag name="遥香" visible=true]
 「新書記候補さん、壇上へ」[plc]
 
@@ -833,25 +833,25 @@
 が、口が渇いて、[lr]
 喋る事さえままならなくて。[plc]
 
-[showstandimage pose=1 who=haruka_old face=keibetsu size=s]
+;[showstandimage pose=1 who=haruka_old face=keibetsu size=s]
 [shownametag name="遥香" visible=true]
 「さっき、帰ろうとしたでしょ？」[plc]
 
 
 ふいに、先輩が言った。[plc]
 
-[showstandimage pose=1 who=haruka_old face=do size=s]
+;[showstandimage pose=1 who=haruka_old face=do size=s]
 [shownametag name="遥香" visible=true]
 「また、帰ろうとしたでしょ？　駄目だよ。[lr]
 賭けに負けたからって、イジケちゃうなんて男の子らしくない」[plc]
 
 俺は、やっぱり答える事が出来なくて。[plc]
 
-[showstandimage pose=1 who=haruka_old face=ki size=s]
+;[showstandimage pose=1 who=haruka_old face=ki size=s]
 [shownametag name="遥香" visible=true]
 「大丈夫だって、心配すんなって、怖がんなって」[plc]
 
-[showstandimage pose=1 who=haruka_old face=ki size=s]
+;[showstandimage pose=1 who=haruka_old face=ki size=s]
 [shownametag name="遥香" visible=true]「ほら――」[plc]
 
 
@@ -879,7 +879,7 @@
 ;[上手い事現実とダブってる様な回想にして欲しい。lostみたいな？]
 
 [fadeinbgm storage="evening" time="2000"]
-[showstandimage who=haruka_old face=raku pose=1 notrans=true page=back]
+;[showstandimage who=haruka_old face=raku pose=1 notrans=true page=back]
 [strans storage="campus_ev" noclear=true time="1000"]
 あの後、坂道のデッドレースの後。[plc]
 
@@ -906,12 +906,12 @@
 
 だけど、[plc]
 
-[showstandimage who=haruka_old pose=1 face=do]
+;[showstandimage who=haruka_old pose=1 face=do]
 [shownametag name="遥香" visible=true]「だめだよ、負け犬くん」[plc]
 
-[showstandimage who=haruka_old pose=1 face=niyaniya]
+;[showstandimage who=haruka_old pose=1 face=niyaniya]
 [shownametag name="遥香" visible=true]「いや、もう『うんこ垂れうんこ垂れ蔵』くんか」[plc]
-[showstandimage who=haruka_old pose=1 face=ki]
+;[showstandimage who=haruka_old pose=1 face=ki]
 [shownametag name="遥香" visible=true]
 「……ちょっと長いね、この名前」[plc]
 
@@ -924,7 +924,7 @@
 
 そうして、先輩は、[plc]
 
-[showstandimage who=haruka_old pose=1 face=ki size=l]
+;[showstandimage who=haruka_old pose=1 face=ki size=l]
 [shownametag name="遥香" visible=true]「大丈夫だって、心配すんなって、怖がんなって」[plc]
 
 ;
@@ -937,7 +937,7 @@
 [strans storage="white" time="2000"]
 ;[回想終わり]
 
-[showstandimage who=haruka_old pose=1 face=raku notrans=true page=back size=s]
+;[showstandimage who=haruka_old pose=1 face=raku notrans=true page=back size=s]
 [strans storage="taiikukan_center" time="2000" noclear=true]
 ――言ってくれたんだ。[plc]
 
