@@ -3,7 +3,7 @@
 
 
 [playse storage="bird"]
-[strans storage="jyuutakuti_dt"]
+[strans storage="white"]
 朝、やたらと清んで清々しい朝。[plc]
 
 [playse storage="close11" buf="1"]
@@ -13,6 +13,7 @@
 晴れ渡るような大きな声で、朝っぱらから盛大に嘘をつく。[lr]
 その勢いで、俺はいつものように自転車にまたがった。[plc]
 
+[strans storage="bg_house_d"]
 [najimi_stand face="fukigen"]
 [shownametag name="お隣さん" visible=true]
 「……」[plc]
@@ -186,7 +187,8 @@
 
 吐き捨てる。[plc]
 
-[strans storage="jyuutakuti_dt" blur=true]
+;縁がカメラに向かってあるいてて、後方に主人公らしき(顔が見えない)人物が写ってる感じの一枚絵
+[strans storage="bg_house_d" blur="true"]
 ――その凛とした様こそが、[lr]
 　　　　　　　　　今では一番キライなものになっていたから。[plc]
 [fadeoutbgm time="1000"]

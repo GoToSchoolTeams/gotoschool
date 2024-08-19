@@ -231,8 +231,6 @@
 [old_naruse_stand pose=1 face=futsu]
 [shownametag name="？？？" visible=true]「……あんた、誰？」[plc]
 
-*debug
-[setup_debug]
 そのときやっと、[lr]
 俺はベッドに俺以外の膨らみがあったことに気が付いたのだった。[plc]
 
