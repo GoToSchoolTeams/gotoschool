@@ -150,7 +150,7 @@
 「――あんたの親御さんがどう思うか気になった」[plc]
 
 
-一声。[plc]
+一言。[plc]
 
 [najimi_stand face="futsu"]
 [shownametag name="お隣さん" visible=true]
