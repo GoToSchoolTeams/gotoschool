@@ -193,6 +193,8 @@
 　　　　　　　　　今では一番キライなものになっていたから。[plc]
 [fadeoutbgm time="1000"]
 
+*debug
+[SetupMessageWindow]
 [call storage="OP.ks"]
 
 ;strans storage="black"]

@@ -15,16 +15,16 @@
 
 
 ;OP!
-[playbgm storage="opening_2"]
+;[playbgm storage="opening_2"]
 
 ;サークルロゴ
-[staff_show staff="Circle CREO Presents" size=50 y=270 transbase=true time=1000]
+[staff_show staff="Circle CREO Presents" size=50 y=270 transbase=true time=1000 color="0x000000" shadowcolor="0xFFFFFF"]
 
 
 ;背景を曲の終わりに合わせてスクロール開始
-[image storage="sky" top=-1440 layer="3" page="fore" visible="true" opacity="0"]
+[image storage="bg_sakura_saka" layer="3" page="fore" visible="true" opacity="0"]
 [wait time="1000" canskip="false"]
-[move layer="3" path=(0,-720,255) time=16000 page="fore"]
+[move layer="3" path=(-64,0,255) time=16000 page="fore"]
 
 ;スタッフたち
 [staff_show staff="◯企画　マヒロー"]
