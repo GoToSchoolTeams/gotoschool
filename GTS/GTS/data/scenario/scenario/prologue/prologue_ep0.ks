@@ -13,13 +13,13 @@
 晴れ渡るような大きな声で、朝っぱらから盛大に嘘をつく。[lr]
 その勢いで、俺はいつものように自転車にまたがった。[plc]
 
+[fadeoutse time="500"]
 [strans storage="bg_house_d"]
 [najimi_stand face="fukigen"]
 [shownametag name="お隣さん" visible=true]
 「……」[plc]
 
 おや、お隣さんだ。[plc]
-
 
 [shownametag name="大樹" visible=true]
 「おはよ」[plc]
@@ -28,22 +28,19 @@
 [shownametag name="お隣さん" visible=true]
 「……」[plc]
 
-[fadebgm volume="100" time=1]
 見事にシカトらしい。[plc]
 
 
 [dis_all_chara]
-
 [shownametag name="大樹" visible=true]
 「……は、」[plc]
 
 [dis_all_chara_fade]
 ……ま、いいけどね。[plc]
 
-
+[playse storage="自転車_ガチャ_0"]
 肩を竦めて、俺は自転車の機首を彼女のそれとは真逆に向けた。[plc]
 
-[stopse]
 
 ;[ガチャッ：自転車を反転させる音]
 [najimi_bust face="fukigen"]
@@ -54,7 +51,6 @@
 [shownametag name="大樹" visible=true]
 「……」[plc]
 
-
 彼女の質問に、答えなどしない。[lr]
 したって意味がない。[plc]
 
@@ -64,7 +60,7 @@
 
 鼻歌まじりに出発しようとすると、[plc]
 
-[najimi_stand face="ikari"]
+[najimi_stand face="ikari" size="l"]
 [quake hmax=4 vmax=4 time="200"]
 [shownametag name="お隣さん" visible=true]
 「ちょっと」[plc]
@@ -126,7 +122,6 @@
 
 ……だけれども、それこそ俺には関係ない。[plc]
 
-
 [shownametag name="大樹" visible=true]
 「……じゃ」[plc]
 
@@ -164,16 +159,13 @@
 [shownametag name="大樹" visible=true]
 「……っ」[plc]
 
-
+*debug
+[setup_debug bg=bg_house_d]
 舌打ちしても振り返りもしない。[plc]
 
-
+[strans storage="NAJIMIAI2"]
 緩やかな向かい風が、[lr]
 彼女の長い黒髪をゆっくりとなびかせていて――[plc]
-
-[strans storage="black"]
-
-[najimi_stand face="fukigen" size="s" nobust="true" time="1500" namevisible="false"]
 
 旗立　縁　<はただて　なじみ>。[lr]
 １０年来になる。長い付き合いのお隣さん。[plc]
@@ -186,14 +178,20 @@
 「……クソ女が」[plc]
 
 吐き捨てる。[plc]
-
+[dis_all_message]
+[current layer="message0"]
+[glyph line="LineBreak" page="PageBreak" fix="false"]
+[backlay]
+[position layer="message0" width=1180 left=50 height=620 top=50 opacity="0" page="back" visible="true"]
+[trans method="crossfade" time="1500"]
+[wt]
+[font size=32]
+[locate x=200 y=250]
 ;縁がカメラに向かってあるいてて、後方に主人公らしき(顔が見えない)人物が写ってる感じの一枚絵
-[strans storage="bg_house_d" blur="true"]
 ――その凛とした様こそが、[lr]
 　　　　　　　　　今では一番キライなものになっていたから。[plc]
-[fadeoutbgm time="1000"]
-
-*debug
+[wait time="1000"]
+[wt]
 [SetupMessageWindow]
 [call storage="OP.ks"]
 

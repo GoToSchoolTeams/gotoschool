@@ -8,7 +8,7 @@
 [dis_all_chara]
 [dis_all_message]
 [backlay]
-[image layer="12" left=352 top=180 visible="true" page="back" storage="letter"]
+[image layer="12" left=352 top=150 visible="true" page="back" storage="doc"]
 [trans method="crossfade" time="2000"]
 [wt]
 
@@ -103,7 +103,7 @@
 
 [fadeoutbgm time="2000"]
 [backlay]
-[image layer="12" left=352 top=180 visible="true" page="back" storage="letter"]
+[image layer="12" left=352 top=150 visible="true" page="back" storage="doc"]
 [trans method="crossfade" time="2000"]
 [wt]
 
