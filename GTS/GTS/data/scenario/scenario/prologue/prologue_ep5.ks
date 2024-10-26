@@ -389,7 +389,7 @@
 「あのね、せんぱ……」[plc]
 
 
-
+[stopbgm]
 [playse storage="hit_p09"]
 [quake hmax="50" vmax="50" time="500"]
 [strans storage="black" method="universal" rule="216" time="150"]

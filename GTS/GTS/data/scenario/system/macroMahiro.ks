@@ -110,6 +110,35 @@
 [shownametag name="悟" visible="%namevisible|true"]
 [kagtag face="%face|futsu" pose="%pose|1" tere="%tere|false" visible="%visible|true"]
 [endmacro]
+;;[成瀬]
+;;pose=ポーズ番号, 1;2;3
+;;face=表情名, aisyu;fuan;futsu;futsu2;iradachi;kanshin;odoroki;shinrai;tyousyou;yorokobi;yorokobi2
+;;size=サイズ, s;m;l
+;;nobust=バスト画像を出さない, 論理値
+;;tere=照れてるかどうか, 論理値
+;;pos=前景レイヤ位置\nレイヤ位置を自動的に決定します, l;lc;c;rc;r
+;;layer=表示したい前景レイヤ番号, 前景レイヤ;0;1;2
+;;page=画面\n指定しない場合はback, fore;back
+;;time=トランジション時間\nデフォルトは500, ミリ秒時間
+;;notrans=トランジションの有無, 論理値
+;;visible=レイヤの可視・不可視\nlayer 属性で指定したレイヤを表示するか、しないかを指定します, 論理値
+;;namevisible=名前を表示するかしないか, 論理値
+[macro name="naruse_stand"]
+[showstandimage who="naruse" pose="%pose|1"  face="%face|futsu" size="%size|m" nobust="%nobust|false" tere="%tere|false" pos="%pos|c" layer="%layer|0" page="%page|back" notrans="%notrans|false" time="%time|400" visible="%visible|true" nopos="%nopos|true"]
+[shownametag name="成瀬" visible="%namevisible|true"]
+[kagtag pose="%pose|1"  face="%face|futsu" size="%size|m" nobust="%nobust|false" tere="%tere|false" pos="%pos|c" layer="%layer|0" page="%page|back" notrans="%notrans|false" time="%time|400" visible="%visible|true" namevisible="%visible|true"]
+[endmacro]
+;;[成瀬顔]
+;;pose=ポーズ番号, 1;2;3
+;;face=表情名, aisyu;fuan;futsu;futsu2;iradachi;kanshin;odoroki;shinrai;tyousyou;yorokobi;yorokobi2;
+;;tere=照れてるかどうか, 論理値
+;;visible=レイヤの可視・不可視\nlayer 属性で指定したレイヤを表示するか、しないかを指定します, 論理値
+;;namevisible=名前を表示するかしないか, 論理値
+[macro name="naruse_bust"]
+[showbustup who="naruse" face="%face|futsu" pose="%pose|1" tere="%tere|false" visible="%visible|true"]
+[shownametag name="成瀬" visible="%namevisible|true"]
+[kagtag face="%face|futsu" pose="%pose|1" tere="%tere|false" visible="%visible|true"]
+[endmacro]
 ;;[ガイア]
 ;;pose=ポーズ番号, 1;2;3
 ;;face=表情名, aisyu;aisyuAri;futsu;futsuAri;ikari;ikariAri;keiai;keiaiAri;keikai;keikaiAri;kyoufu;kyoufuAri;kyotan;kyotanAri;odoroki;odorokiAri;yorokobi;yorokobiAri

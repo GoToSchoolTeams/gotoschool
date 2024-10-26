@@ -27,6 +27,7 @@
 ――ザワザワザワッ。[plc]
 
 
+[fadeoutse time="500"]
 [gaia_stand face="futsu" size="l" time="200"]
 [quake time="300"]
 「よう、兄弟！」[plc]
@@ -188,7 +189,7 @@
 [dis_all_chara]
 ――箸を、止めてしまった。[plc]
 
-
+[fadebgm time="500" volume="100"]
 [shownametag name="大樹" visible=true]「……それ聞くか？」[plc]
 
 
@@ -211,7 +212,6 @@
 いつの間にか、他の二人はいなくなっていた。[l][r]
 購買が騒がしいから、そっちだろうな。[plc]
 
-[fadebgm time="500" volume="100"]
 [gaia_stand face="aisyu" size="l"]
 「……原因を知ったところで、対処のしようがないからな」[plc]
 

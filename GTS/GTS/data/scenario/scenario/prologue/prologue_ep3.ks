@@ -55,6 +55,7 @@
 
 
 辺りには、グシャグシャになった選挙看板が散乱していて。[lr]
+[playse storage="cat"]
 遠くの方で猫が『ミャァ』と鳴いていた。[plc]
 
 
@@ -113,7 +114,7 @@
 [shownametag name="大樹" visible=true]
 「誰が人が来る前に……」[plc]
 
-[playse storage="bosu04"]
+[playse storage="chari13_b"]
 [quake hmax="5" vmax="5" time="100"]
 [shownametag name="大樹" visible=true]
 「……あれ？」[plc]
@@ -122,7 +123,7 @@
 ペダルが、動かない。[plc]
 
 ;[ｶﾞｯ、ｶﾞｯ！]
-[playse storage="bosu38"]
+[playse storage="chari13_b"]
 [quake hmax="5" vmax="5" time="100"]
 [playse storage=c"chari13_b"]
 [shownametag name="大樹" visible=true]

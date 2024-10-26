@@ -159,8 +159,6 @@
 [shownametag name="大樹" visible=true]
 「……っ」[plc]
 
-*debug
-[setup_debug bg=bg_house_d]
 舌打ちしても振り返りもしない。[plc]
 
 [strans storage="NAJIMIAI2"]

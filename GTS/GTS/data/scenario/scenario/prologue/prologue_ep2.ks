@@ -134,7 +134,7 @@
 [shownametag name="大樹" visible=true]
 「？」[plc]
 
-[najimi_stand face="iradachi" tere="true"]
+[najimi_stand face="iradachi"]
 「何でもないわ。それより、[lr]
 　教室の鍵閉めるから荷物も持って行きなさいよ」[plc]
 
@@ -189,10 +189,11 @@
 [shownametag name="大樹" visible=true]
 「ってぇ……」[plc]
 
-
+[gadget storage="class_key" show="true" time="300"]
 教室の鍵じゃねぇか。[l][r]
 金属製だぞ、ふざけんな！[plc]
 
+[gadget show="false" time="300"]
 [shownametag name="大樹" visible=true]
 「おまぇ――」[plc]
 

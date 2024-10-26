@@ -207,28 +207,29 @@
 @SetupMessageWindow
 ま、気になるよね。[plc]
 
+*debug
+@setup_debug bg="hoken_e"]
 ――グイッ！[plc]
 [strans storage="bg_hoken_e"]
-[old_naruse_face pose=2 face=futsu]
+[naruse_stand face="aisyu"]
 [shownametag name="？？？" visible=true]「きゃぁっ！？」[plc]
 
 
 [shownametag name="大樹" visible=true]「…ぇ」[plc]
 
-[old_naruse_stand pose=2 face=futsu]
+[naruse_stand face="odoroki"]
 [shownametag name="？？？" visible=true]
 「違います。違いますババ先生！　サボリじゃないんですよ！！[lr]
 　ほんと、今日は私――」[plc]
 
 [shownametag name="大樹" visible=true]「……」[plc]
 
-[old_naruse_stand pose=2 face=futsu]
+[naruse_stand face="aisyu"]
 [shownametag name="？？？" visible=true]「――ちょっと重くて……」[plc]
 
 
 [shownametag name="大樹" visible=true]「……」[plc]
-
-[old_naruse_stand pose=1 face=futsu]
+[naruse_stand face="iradachi"]
 [shownametag name="？？？" visible=true]「……あんた、誰？」[plc]
 
 そのときやっと、[lr]
@@ -240,32 +241,33 @@
 [strans storage="black" method="universal" rule="189" time="500"]
 [strans storage="hoken_e" method="universal" rule="189" time="500"]
 
-
+[naruse_stand face="iradachi"]
 [shownametag name="？？？" bust="naruse" visible=true]「で、あんた誰なのよ？」[plc]
 
 
 小一時間ほど無言で見つめ合った後、[lr]
 金髪にウ○コみたいな髪型をした女生徒は訝しげにそう尋ねてきた。[plc]
 
+[naruse_stand face="iradachi" size="l"]
 [shownametag name="大樹" visible=true]「……」[plc]
 
 
 金髪に、巻き髪……ここ…公立、だよな？[lr]
 いや、私立でだって許されないと思うんだけど……。[plc]
 
-[old_naruse_stand pose=1 face=futsu]
+[naruse_stand face="iradachi"]
 [shownametag name="巻き髪" bust="naruse" visible=true]「……」[plc]
 
 
 [shownametag name="大樹" visible=true]「……」[plc]
 
-[old_naruse_stand pose=1 face=futsu]
+[naruse_stand face="fuan"]
 [shownametag name="巻き髪" bust="naruse" visible=true]「……ねぇ」[plc]
 
 
 [shownametag name="大樹" visible=true]「……」[plc]
 
-[old_naruse_stand pose=2 face=futsu]
+[naruse_stand face="iradachi"]
 [shownametag name="巻き髪" bust="naruse" visible=true]「ちょっと！」[plc]
 
 
@@ -282,7 +284,7 @@
 大人しく答える。[lr]
 状況的に確実に折れが絶対ヤバイしな。[plc]
 
-[old_naruse_stand pose=2 face=futsu]
+[naruse_stand face="aisyu"]
 [shownametag name="巻き髪" bust="naruse" visible=true]「……谷口？」[plc]
 
 名乗ると、校則違反丸出しの巻き髪金髪女は訝しげな顔をした。[plc]
@@ -290,14 +292,14 @@
 
 [shownametag name="大樹" visible=true]「……？」[plc]
 
-[old_naruse_stand pose=2 face=futsu]
+[naruse_stand face="iradachi"]
 [shownametag name="巻き髪" bust="naruse" visible=true]
 「んー…」[plc]
 
 
 なんだ？[plc]
 
-[old_naruse_stand pose=1 face=futsu]
+[naruse_stand face="fuan"]
 [shownametag name="巻き髪" bust="naruse" visible=true]「……ま、良いわ。バ…馬場先生は？」[plc]
 
 
@@ -306,13 +308,13 @@
 
 ……らしいです。[plc]
 
-[old_naruse_stand pose=2 face=futsu]
+[naruse_stand face="futsu2"]
 [shownametag name="巻き髪" bust="naruse" visible=true]「…よね。そうよね。うん」[plc]
 
 
 巻き髪はホッとしたように安堵の表情を見せて。[plc]
 
-[old_naruse_stand pose=1 face=hohoho]
+[naruse_stand face="tyousyou"]
 [shownametag name="巻き髪" bust="naruse" visible=true]「まったく、驚かせないで欲しいわ」[plc]
 
 
@@ -324,7 +326,7 @@
 
 なんだ、コイツ？[plc]
 
-[old_naruse_stand pose=2 face=futsu]
+[naruse_stand face="iradachi"]
 [shownametag name="巻き髪" bust="naruse" visible=true]
 「……で、どういう了見ですの？　私の御髪を引っ張ったりして」[plc]
 
