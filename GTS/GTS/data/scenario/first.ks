@@ -16,7 +16,7 @@
 ;メインシナリオ
 [eval exp="Storages.addAutoPath('scenario/scenario/')"]
 [eval exp="Storages.addAutoPath('scenario/scenario/haruka/')"]
-[eval exp="Storages.addAutoPath('scenario/scenario/nazimi/')"]
+[eval exp="Storages.addAutoPath('scenario/scenario/najimi/')"]
 [eval exp="Storages.addAutoPath('scenario/scenario/prologue/')"]
 [eval exp="Storages.addAutoPath('scenario/scenario/debug/')"]
 
