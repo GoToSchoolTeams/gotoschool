@@ -1,0 +1,11 @@
+[Option]
+UseWordWrap=1
+AddBRTAG=0
+UseHTMLFormat=0
+TitleHeader=◆
+TitleSeparater=--------------------------------------------------------------------------------
+Header=////////////////////////////////////////////////////このテキストは、C:\Users\mahiro\Desktop\新しいテキスト ドキュメント.txt - VerticalEditorで出力されました。////////////////////////////////////////////////////
+Footer=[本文はここまで]
+AddBlankLine=0
+SkipTitle=0
+

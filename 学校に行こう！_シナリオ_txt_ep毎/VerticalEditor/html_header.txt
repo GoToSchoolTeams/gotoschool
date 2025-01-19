@@ -1,0 +1,38 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-2022-JP">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<style type="text/css">
+<!--
+body {
+	color: black;
+	background-color: white;
+}
+h1 {
+	font-weight: bold;
+	font-size: 2em;
+	color: navy;
+	background-color: lavender;
+}
+p {
+	margin-left: 0.2em;
+	margin-top: 1em;
+	margin-right: 1em;
+	margin-bottom: 1em;
+}
+a:link {
+	color: #0000CC;
+}
+ul {
+	list-style: square;
+}
+/*
+ul {
+  	margin-left: 1em;
+}
+*/
+//-->
+</style>
+<title>%%VE_SourceFilename%%</title>
+</head>
+<body>
