@@ -25,7 +25,7 @@
 
 ……いや、何が言いたいかと言うとね。[plc]
 
-[strans storage="roji_dt" time="1000"]
+[strans storage="roji" time="1000"]
 [fadeinbgm storage="prologue" time="2000"]
 [shownametag name="大樹" visible=true]
 「――これ、ヤバイよな」[plc]

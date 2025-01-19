@@ -437,7 +437,7 @@
 誰かの家のチャイムを鳴らして、[l]誰も居ない路地を突っ切って――[plc]
 
 [stopquake]
-[strans storage="roji_dt" method="universal" rule="101" time="300"]
+[strans storage="roji" method="universal" rule="101" time="300"]
 [haruka_stand face="hoshin" size="s" nobust="true"]
 「……っ！？」[plc]
 ;[先輩]

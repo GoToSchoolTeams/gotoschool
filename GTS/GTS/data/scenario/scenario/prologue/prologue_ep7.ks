@@ -24,7 +24,7 @@
 
 
 [strans storage="black" method="universal" rule="216" time="150"]
-[strans storage="roji_dt" method="universal" rule="216" time="150"]
+[strans storage="roji" method="universal" rule="216" time="150"]
 
 [quake hmax="10" vmax="10" time="500"]
 痛ってぇええええええええええええええええェッッ！！！！[plc]
@@ -143,7 +143,7 @@
 
 反射的に、身を庇ってしまう。[plc]
 
-[strans storage="roji_dt" method="universal" rule="216" time="150"]
+[strans storage="roji" method="universal" rule="216" time="150"]
 [haruka_stand face="rakkan"]
 [shownametag name="先輩" visible=true]
 「……なるほど、だんだん扱いが分かってきたよ」[plc]
