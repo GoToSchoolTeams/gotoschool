@@ -152,19 +152,21 @@
 「……それだけよ」[plc]
 
 [dis_all_chara_fade]
+[playse storage="足音"]
 叩きつけるように楔を打ち込んで、[lr]
 彼女は去っていく。[plc]
-
 
 [shownametag name="大樹" visible=true]
 「……っ」[plc]
 
 舌打ちしても振り返りもしない。[plc]
 
-[strans storage="NAJIMIAI2"]
+;[strans storage="event_0"]
+[fadeinse storage="wind" time="1000"]
 緩やかな向かい風が、[lr]
 彼女の長い黒髪をゆっくりとなびかせていて――[plc]
 
+[strans storage="white"]
 旗立　縁　<はただて　なじみ>。[lr]
 １０年来になる。長い付き合いのお隣さん。[plc]
 
@@ -176,18 +178,21 @@
 「……クソ女が」[plc]
 
 吐き捨てる。[plc]
-[dis_all_message]
-[current layer="message0"]
-[glyph line="LineBreak" page="PageBreak" fix="false"]
-[backlay]
-[position layer="message0" width=1180 left=50 height=620 top=50 opacity="0" page="back" visible="true"]
-[trans method="crossfade" time="1500"]
-[wt]
-[font size=32]
-[locate x=200 y=250]
+[fadeoutse time="500"]
+[strans storage="event_0"]
+;[dis_all_message]
+;[current layer="message0"]
+;[glyph line="LineBreak" page="PageBreak" fix="false"]
+;[backlay]
+;[position layer="message0" width=1180 left=50 height=620 top=50 opacity="0" page="back" visible="true"]
+;[trans method="crossfade" time="1500"]
+;[wt]
+;[font size=32]
+;[locate x=200 y=250]
 ;縁がカメラに向かってあるいてて、後方に主人公らしき(顔が見えない)人物が写ってる感じの一枚絵
 ――その凛とした様こそが、[lr]
 　　　　　　　　　今では一番キライなものになっていたから。[plc]
+[dis_all_message_fade]
 [wait time="1000"]
 [wt]
 [SetupMessageWindow]

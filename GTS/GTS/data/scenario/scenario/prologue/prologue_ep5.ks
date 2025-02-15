@@ -1,7 +1,7 @@
 [SetupMessageWindow]
 
 @fadeinbgm storage="daily1 bgm"
-@strans storage="roji_dt"
+@strans storage="roji"
 [haruka_stand face="ikari"]
 [shownametag name="女子高生" visible=true bust="senpai"]
 「あのさ、本当にどういうワケなの？」[plc]
@@ -23,7 +23,7 @@
 
 ;[showstandimage who="haruka" pose=1 face=do notrans=true page=back]
 [haruka_stand face="ikari" notrans="true" page="back" nobust="true"]
-[strans storage="roji_dt" rule="look_down" method="universal" time="100" noclear=true]
+[strans storage="roji" rule="look_down" method="universal" time="100" noclear=true]
 [haruka_bust face="ikari"]
 [shownametag name="女子高生" visible=true bust="senpai"]
 「いやいや、すみませんじゃなくてさ。[lr]
@@ -60,7 +60,7 @@
 今でも立派な恥ずかしさだが、恥ずかし過ぎて死んでしまう。[plc]
 
 [haruka_stand face="iradachi" page="back" notrans="true" nobust="true"]
-@strans rule="look_down" storage="roji_dt" method="universal" time="400" noclear=true
+@strans rule="look_down" storage="roji" method="universal" time="400" noclear=true
 
 それに……。[plc]
 
@@ -123,7 +123,7 @@
 「……清々しいまでにクズの思考ね」[plc]
 
 [haruka_stand face="unzari" page=back notrans=true nobust="true"]
-@strans rule="look_down" storage="roji_dt" method="universal" time="100" noclear=true
+@strans rule="look_down" storage="roji" method="universal" time="100" noclear=true
 [shownametag name="大樹" visible=true]
 「ハッ！？」[plc]
 

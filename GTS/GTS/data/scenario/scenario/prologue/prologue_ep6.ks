@@ -525,7 +525,6 @@
 
 [shownametag name="大樹" visible=true]「……あの」[plc]
 
-
 この人……。[plc]
 
 [strans storage="black"]
@@ -534,11 +533,12 @@
 
 [shownametag name="大樹" visible=true]「へ？」[plc]
 
-[old_naruse_stand pose=1 face=hohoho]
+[strans storage="event_1"]
 [shownametag name="成瀬" visible=true]
 「そんな顔で見るのやめて下さる？―これは、地毛ですわ」[plc]
 
-[dis_all_chara_fade]
+[strans storage="white" time="500"]
+[strans storage="hoken_e"]
 そのまま、『おサボリは１限までがこの学校の伝統ですわよ』[r]
 と立ち去って行く。[plc]
 
