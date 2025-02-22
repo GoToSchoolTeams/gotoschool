@@ -173,11 +173,12 @@
 つまり、物心付いた時からの幼馴染。[plc]
 
 [dis_all_chara]
-
+[strans storage="black"]
 [shownametag name="大樹" visible=true]
 「……クソ女が」[plc]
 
 吐き捨てる。[plc]
+[dis_all_message_fade]
 [fadeoutse time="500"]
 [strans storage="event_0"]
 ;[dis_all_message]
@@ -190,9 +191,10 @@
 ;[font size=32]
 ;[locate x=200 y=250]
 ;縁がカメラに向かってあるいてて、後方に主人公らしき(顔が見えない)人物が写ってる感じの一枚絵
+[wait time="1000"]
+[show_message_fade time=100]
 ――その凛とした様こそが、[lr]
 　　　　　　　　　今では一番キライなものになっていたから。[plc]
-[dis_all_message_fade]
 [wait time="1000"]
 [wt]
 [SetupMessageWindow]
