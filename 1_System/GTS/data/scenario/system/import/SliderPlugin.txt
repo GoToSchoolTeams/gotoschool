@@ -1,0 +1,103 @@
+スライダープラグイン概要
+	スライダープラグインは、スライダーを表示するレイヤーを提供する。
+	KAGEXについてくるスライダーレイヤは、レイヤとしての機能しかなかった
+	ので、じゃぁKAGから使えるようにしてみっかー、とKAGLayersPlugin.ksを
+	書いた上で色々つついてみた次第。
+
+
+*****************************************************************************
+使い方:
+	最初にどこかで一度だけ以下のようにして SliderPlugin.ks を呼ぶ。
+	[call storage=SliderPlugin.ks]
+
+	あとは適当な場所で
+	[eval exp="tf.slval = 50"]
+	[slider page=fore left=100 top=100 width=100 height=24 val=tf.slval]
+	とかやればスライダーが表示される。はず。上の例ではtf.slvalが
+	スライダーと共に変更される。
+	backに表示しておいてtransすれば、トランジションで表示されたりもする。
+	はず。
+
+
+*****************************************************************************
+KAGスクリプト中のタグ:
+タグ:	[slider_init layer=base]
+説明:	スライダーを初期化する。これはSliderPlugin.ksを読む時に一度実行
+	されているので、必ずしも明示的に呼ぶ必要はない。親レイヤを base 以外に
+	設定したい時は呼ぶこと。複数回呼んでもよい(意味はないけど)。
+引数:	layer=		スライダーを表示する親を指定する。指定しなければbaseが
+			指定されたものとする。
+
+	
+タグ:	[slider name=noname page=fore slider_optの全てのオプション]
+説明:	スライダーを一つ表示する
+引数:	name=		スライダーの名前(IDとして使用される)。省略可能。
+			省略時は "noname" が指定される。
+			固体識別のために指定するだけなので、任意の文字列が
+			指定できる。
+	page=		ページを指定する。
+		fore	表画面に表示する(def)
+		back	裏画面に表示する
+		both	表裏両画面に表示する
+	このほかに、slider_optsの全てのオプションが指定可能。
+	visible だけは[slider]タブ時に指定しないとデフォルトtrueになる。
+
+
+タグ:	[slider_erase name= page=fore]
+説明:	スライダーを削除する
+引数:	key=		スライダーの名前を指定する。省略可、省略時は、該当する
+			ページ上の全てのスライダーが対象になる。
+	page=		削除するページを指定する
+		fore	表画面のみ削除対象とする(def)
+		back	裏画面のみ削除対象とする
+		both	表、裏両方を削除対象にする
+
+
+タグ:	[slider_opt name= page=fore left= top= width= height= visible= vertical= min= max= step= val= tabimage= tabwidth= tabheight= color= bgopacity= onchange= baseimage=]
+説明:	スライダーにオプションを設定する
+引数:	name=		スライダーの名前を指定する。省略可、省略時は全てが
+			対象となる。
+	page=		削除するページを指定す
+		fore	表画面のみ対象とする(def)
+		back	裏画面のみ対象とする
+		both	表、裏両方を対象にする
+	left=(必須)	スライダーの位置(X座標)
+	top=(必須)	スライダーの位置(Y座標)
+	width=(必須)	スライダーの幅。baseimage指定時には不要
+	height=(必須)	スライダーの高さ。baseimage指定時には不要
+	visible=	スライダーの表示状態
+	vertical=	縦スライダーかどうか(true=縦、false=横(def))
+			横スライダーの場合、右が大きく、左が小さい値を表す
+			縦スライダーの場合、上が大きく、下が小さい値を表す
+				※縦スライダーがKAGEXとは違うので注意
+	min=		スライダーの最小値(def=0)
+	max=		スライダーの最大値(def=100)
+	step=		スライダーの段階的移動幅(def=0(無段階移動))
+	val=(必須)	スライダー変更時に参照する変数([checkbox]のname=と同じ)
+			グローバルから参照可能でなければならない(例：sf.abc)。
+	valary=		文字列を値として持つ離散的なスライダーの場合に、値を
+			スペースで区切って指定する。画面サイズ指定スライダー
+			などの時に使う。例：valary="640x480 1024x768 1280x1024"
+	onchange=	スライダー変更時に実行するTJS関数(def=なし)
+			モノスゴい制限があって、この関数は必ず以下の形式で
+			なければならない。
+				func(sliderの値, ドラッグ中か否か)
+			これ以外の関数は呼べないので注意。しかもグローバルから
+			参照できないといけないので、例えば自作クラスのインス
+			タンスで、それが global.myinstance.func なら、
+				onchange=global.myinstance.func
+			のように指定する必要がある。スゲぇ！
+	tabwidth=	スライダーのタブ幅(def=10,ただし縦スライダーなら=width)
+			tabimage指定時は不要。
+	tabheight=	スライダーのタブ高(def=10,ただし横スライダーなら=height)
+			tabimage指定時は不要。
+	color=		スライダー背景色(def=clWindow)、baseimage指定時は無効
+	bgopacity=	スライダー背景の透明度(def=192)、baseimage指定時は無効
+
+	baseimage=	ベース画像イメージファイル名(def=なし)
+			これを指定した場合は、width/heightは画像に合わせて
+			自動設定される
+	tabimage=	タブ画像イメージファイル名(def=なし)
+			これを指定した場合は、tabWidth/tabHeightは画像に
+			合わせて自動設定される
+
