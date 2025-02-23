@@ -286,6 +286,22 @@ function toggleAutoMode()
 	}
 }
 
+function toggleMessage()
+{
+	if(tf.isHiddenMessage == false)
+	{
+		tf.isHiddenMessage = true;
+		kag.callExtraConductor('hidemessage.ks','*Hidden');
+		kag.leftClickHook.add(toggleMessage);
+	}
+	else
+	{
+		tf.isHiddenMessage = false;
+		kag.callExtraConductor('hidemessage.ks','*Show');
+		kag.leftClickHook.remove(toggleMessage);
+	}
+}
+
 //-----------------
 //! デバッグ用関数
 //-----------------

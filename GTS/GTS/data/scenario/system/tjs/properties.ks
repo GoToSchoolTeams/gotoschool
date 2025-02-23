@@ -5,6 +5,7 @@ tf.BUTTON_HINT_SEPARATOR="_";   //!< ƒ{ƒ^ƒ“‚Ìƒqƒ“ƒgƒeƒLƒXƒg‚ð”Ô†‚ÆŽ¯•Ê”Ô†‚É•ª‚
 tf.MESSAGE_LAYER=8;				//!< ŠeŽíƒ{ƒ^ƒ“‚ª•`‰æ‚³‚ê‚éƒŒƒCƒ„
 tf.currentTab=0;				//!< Œ»Ý‚Ì‘I‘ðƒ^ƒu(•K‚¸global•Ï”‚ð“n‚·‚±‚Æ)
 tf.currentTab_Conf=0;			//!< ƒRƒ“ƒtƒBƒO‰æ–Ê‚ÅŒ»Ý‘I‘ð‚³‚ê‚Ä‚¢‚éƒ^ƒu
+tf.isHiddenMessage=false;		//!< ƒƒbƒZ[ƒW‚Ì•\Ž¦ó‘Ô
 
 /* SystemSaved */
 sf.bgmVolume = 100000;
