@@ -368,7 +368,8 @@
 
 今日の予定を口ずさむ。[plc]
 
-
+*debug
+[setup_debug bg="senro_zoi_dt"]
 完璧だ。まさにパーフェクトだ。[l][r]
 二ヶ月も親に内緒で不登校やってた俺の計画性は伊達じゃないぜ。[plc]
 
@@ -378,6 +379,8 @@
 余計鬱になった。[plc]
 
 [playbgm storage="happybgm"]
+[playse storage="zitensya_zenryoku" loop="true"]
+[image storage="syutyu" layer=0 page="fore" visible="true"]
 [quake hmax=0 vmax="5" time=10000000000000000]
 [shownametag name="大樹" visible=true]「だぁああああっ！？　駄目だァああああああああ！！！！」[plc]
 
@@ -398,6 +401,7 @@
 
 [strans storage="black" method="universal" rule="101" time="300"]
 [strans storage="jyuutaku_dt" method="universal" rule="101" time="300"]
+[image storage="syutyu" layer=0 page="fore" visible="true"]
 自転車をシャリシャリ漕ぎながら、ウネウネト体をくねらす俺。[lr]
 宇宙人でも見たかの様に叫ぶおばちゃん。威嚇して逃げ出す野良猫。[plc]
 
@@ -412,6 +416,7 @@
 みんなしてオレを馬鹿にしてっ！！[plc]
 
 [strans storage="jyuutakuti_dt" method="universal" rule="101" time="300"]
+[image storage="syutyu" layer=0 page="fore" visible="true"]
 [shownametag name="大樹" visible=true]
 「糞がァあああああああああっ！」[plc]
 
@@ -439,6 +444,7 @@
 [stopquake]
 [strans storage="roji" method="universal" rule="101" time="300"]
 [haruka_stand face="hoshin" size="s" nobust="true"]
+[image storage="syutyu" layer=1 page="fore" visible="true"]
 「……っ！？」[plc]
 ;[先輩]
 
