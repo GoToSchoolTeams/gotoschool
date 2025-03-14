@@ -368,8 +368,7 @@
 
 今日の予定を口ずさむ。[plc]
 
-*debug
-[setup_debug bg="senro_zoi_dt"]
+
 完璧だ。まさにパーフェクトだ。[l][r]
 二ヶ月も親に内緒で不登校やってた俺の計画性は伊達じゃないぜ。[plc]
 
@@ -380,7 +379,7 @@
 
 [playbgm storage="happybgm"]
 [playse storage="zitensya_zenryoku" loop="true"]
-[image storage="syutyu" layer=0 page="fore" visible="true"]
+[image storage="syutyu" layer=0 page="fore" visible="true" left="0"]
 [quake hmax=0 vmax="5" time=10000000000000000]
 [shownametag name="大樹" visible=true]「だぁああああっ！？　駄目だァああああああああ！！！！」[plc]
 
