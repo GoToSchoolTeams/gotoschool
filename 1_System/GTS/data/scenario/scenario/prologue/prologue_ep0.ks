@@ -171,7 +171,6 @@
 １０年来になる。長い付き合いのお隣さん。[plc]
 
 つまり、物心付いた時からの幼馴染。[plc]
-
 [dis_all_chara]
 [strans storage="black"]
 [shownametag name="大樹" visible=true]
@@ -180,7 +179,8 @@
 吐き捨てる。[plc]
 [dis_all_message_fade]
 [fadeoutse time="500"]
-[strans storage="event_0"]
+[strans storage="event_0_イチバンキライなもの_0"]
+;[wait time="1000" canskip="false"]
 ;[dis_all_message]
 ;[current layer="message0"]
 ;[glyph line="LineBreak" page="PageBreak" fix="false"]
@@ -192,6 +192,7 @@
 ;[locate x=200 y=250]
 ;縁がカメラに向かってあるいてて、後方に主人公らしき(顔が見えない)人物が写ってる感じの一枚絵
 [wait time="1000"]
+[strans storage="event_0_イチバンキライなもの_2"]
 [show_message_fade time=100]
 ――その凛とした様こそが、[lr]
 　　　　　　　　　今では一番キライなものになっていたから。[plc]

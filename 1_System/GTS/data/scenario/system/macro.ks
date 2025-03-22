@@ -217,7 +217,7 @@
 [layopt layer="message1" visible="true" page="back"]
 [layopt layer="message2" visible="true" page="back"]
 [layopt layer=7 page="back" visible="true"]
-[layopt layer=8 page="back" visible="true"]
+;[layopt layer=8 page="back" visible="true"]
 [layopt layer=9 page="back" visible="true"]
 [trans layer="base" method="crossfade" time=%time|1000]
 [wt]
