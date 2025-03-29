@@ -161,23 +161,34 @@
 
 舌打ちしても振り返りもしない。[plc]
 
-;[strans storage="event_0"]
 [fadeinse storage="wind" time="1000"]
+[dis_all_message_fade]
+[strans storage="white"]
+
+
+;[strans storage="event_0"]
+[show_message_fade]
 緩やかな向かい風が、[lr]
 彼女の長い黒髪をゆっくりとなびかせていて――[plc]
 
-[strans storage="white"]
+[strans storage="ProEp0_イチバン嫌いなもの00"]
 旗立　縁　<はただて　なじみ>。[lr]
 １０年来になる。長い付き合いのお隣さん。[plc]
 
 つまり、物心付いた時からの幼馴染。[plc]
 [fadeoutse time="500"]
 [dis_all_chara]
-[strans storage="black"]
+
+[dis_all_message_fade]
+[strans storage="black" time="300"]
+
+[show_message]
 [shownametag name="大樹" visible=true]
 「……クソ女が」[plc]
 
+
 吐き捨てる。[plc]
+
 [dis_all_message_fade]
 [strans storage="ProEp0_イチバン嫌いなもの00"]
 
