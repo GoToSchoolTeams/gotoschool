@@ -5,3 +5,11 @@
 *Show
 [show_message]
 [return]
+
+*ShowButton
+[show_ui]
+[return]
+
+*HiddenButton
+[hide_ui]
+[return]
