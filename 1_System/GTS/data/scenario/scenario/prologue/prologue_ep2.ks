@@ -14,7 +14,7 @@
 ;@playse storage="bosu04"
 ――ドンッ！[plc]
 
-[fadeinbgm time="2000" storage="chill"]
+[fadeinbgm time="2000" storage="日々の喜び"]
 [najimi_stand face="ikari"]
 「随分ね」[plc]
 

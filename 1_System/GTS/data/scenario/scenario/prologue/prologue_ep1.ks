@@ -443,7 +443,7 @@
 [stopquake]
 [strans storage="roji" method="universal" rule="101" time="300"]
 [haruka_stand face="hoshin" size="s" nobust="true"]
-[image storage="syutyu" layer=1 page="fore" visible="true"]
+[image storage="syutyu" layer=2 page="fore" visible="true"]
 「……っ！？」[plc]
 ;[先輩]
 
