@@ -54,8 +54,8 @@ function KAGWindow_config()
 // scWidth に画面の幅、scHeight に画面の高さをピクセル単位で指定します。
 // 標準的に使われている 640x480 や 800x600 のような画面サイズではないサイズ
 // に設定すると、フルスクリーンにできない場合があります。
-scWidth = 1280;
-scHeight = 720;
+scWidth = 1600;
+scHeight = 900;
 
 
 // ◆ 読みとり専用モード
@@ -537,12 +537,12 @@ function MessageLayer_config()
 
 // ◆ 文字の大きさ
 // デフォルトの文字の大きさ ( 高さ ) を pixel 単位で指定します。
-;defaultFontSize = 24;  // deffont タグの size 属性に相当
+;defaultFontSize = 30;  // deffont タグの size 属性に相当
 
 
 // ◆ 行間
 // 行間を pixel 単位で指定します。
-;defaultLineSpacing = 10; // defstyle タグの linespacing 属性に相当
+;defaultLineSpacing = 13; // defstyle タグの linespacing 属性に相当
 
 // ◆ 字間
 // 字間を pixel 単位で指定します。
