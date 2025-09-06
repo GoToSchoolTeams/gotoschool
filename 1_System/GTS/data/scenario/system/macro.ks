@@ -441,18 +441,18 @@
 ;;シネマ風
 ;;time=時間
 [macro name=cinema]
-[image layer=5 page="fore" top=720 storage="black" visible="true"]
-[image layer=6 page="fore" top=-720 storage="black" visible="true"]
-[move layer=6 accel="-6" page="fore" path=(0,-620,255) time=%time]
-[move layer=5 accel="-6" page="fore" path=(0,620,255) time=%time]
+[image layer=5 page="fore" top=900 storage="bg_black" visible="true"]
+[image layer=6 page="fore" top=-900 storage="bg_black" visible="true"]
+[move layer=6 accel="-6" page="fore" path=(0,-800,255) time=%time]
+[move layer=5 accel="-6" page="fore" path=(0,800,255) time=%time]
 [wm canskip="false"]
 [endmacro]
 
 [macro name=cinema_off]
-[image layer=5 page="fore" top=620 storage="black" visible="true"]
-[image layer=6 page="fore" top=-620 storage="black" visible="true"]
-[move layer=5 accel="-6" page="fore" path=(0,720,255) time=%time]
-[move layer=6 accel="-6" page="fore" path=(0,-720,255) time=%time]
+[image layer=5 page="fore" top=800 storage="bg_black" visible="true"]
+[image layer=6 page="fore" top=-800 storage="bg_black" visible="true"]
+[move layer=5 accel="-6" page="fore" path=(0,900,255) time=%time]
+[move layer=6 accel="-6" page="fore" path=(0,-900,255) time=%time]
 [wm canskip="false"]
 [endmacro]
 ;;time=トランジションにかかる時間

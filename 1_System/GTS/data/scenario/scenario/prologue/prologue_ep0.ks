@@ -140,6 +140,8 @@
 [shownametag name="大樹" visible=true]
 「なんだ――」[plc]
 
+*debug
+[setup_debug bg=bg_house_d]
 [najimi_stand face="kitai"]
 [shownametag name="お隣さん" visible=true]
 「――あんたの親御さんがどう思うか気になった」[plc]
@@ -161,26 +163,26 @@
 
 舌打ちしても振り返りもしない。[plc]
 
-[fadeinse storage="wind" time="1000"]
+[fadeinse storage="wind" time="1000" buf=1]
 [dis_all_message_fade]
-[strans storage="white"]
+[strans storage="bg_white"]
 
 
-;[strans storage="event_0"]
 [show_message_fade]
 緩やかな向かい風が、[lr]
 彼女の長い黒髪をゆっくりとなびかせていて――[plc]
 
-[strans storage="ProEp0_イチバン嫌いなもの03"]
+[strans storage="ProEp0_イチバン嫌いなもの00"]
 旗立　縁　<はただて　なじみ>。[lr]
 １０年来になる。長い付き合いのお隣さん。[plc]
 
 つまり、物心付いた時からの幼馴染。[plc]
 [fadeoutse time="500"]
+[fadeoutse time="500" buf="1"]
 [dis_all_chara]
 
 [dis_all_message_fade]
-[strans storage="black" time="300"]
+[strans storage="bg_black" time="300"]
 
 [show_message]
 [shownametag name="大樹" visible=true]
@@ -190,10 +192,10 @@
 吐き捨てる。[plc]
 
 [dis_all_message_fade]
-[strans storage="ProEp0_イチバン嫌いなもの00"]
+[strans storage="ProEp0_イチバン嫌いなもの01"]
 
 [wait time="1000"]
-[strans storage="ProEp0_イチバン嫌いなもの02"]
+[strans storage="ProEp0_イチバン嫌いなもの03"]
 [show_message_fade time=100]
 ――その凛とした様こそが、[lr]
 　　　　　　　　　今では一番キライなものになっていたから。[plc]
