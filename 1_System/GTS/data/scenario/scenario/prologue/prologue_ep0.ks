@@ -140,8 +140,6 @@
 [shownametag name="大樹" visible=true]
 「なんだ――」[plc]
 
-*debug
-[setup_debug bg=bg_house_d]
 [najimi_stand face="kitai"]
 [shownametag name="お隣さん" visible=true]
 「――あんたの親御さんがどう思うか気になった」[plc]
