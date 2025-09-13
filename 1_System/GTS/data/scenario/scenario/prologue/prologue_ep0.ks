@@ -167,6 +167,7 @@
 
 
 [show_message_fade]
+
 緩やかな向かい風が、[lr]
 彼女の長い黒髪をゆっくりとなびかせていて――[plc]
 
@@ -175,7 +176,7 @@
 １０年来になる。長い付き合いのお隣さん。[plc]
 
 つまり、物心付いた時からの幼馴染。[plc]
-[fadeoutse time="500"]
+;[fadeoutse time="500"]
 [fadeoutse time="500" buf="1"]
 [dis_all_chara]
 
@@ -186,20 +187,21 @@
 [shownametag name="大樹" visible=true]
 「……クソ女が」[plc]
 
-
+*debug
+[setup_debug bg="bg_black"]
 吐き捨てる。[plc]
 
 [dis_all_message_fade]
 [strans storage="ProEp0_イチバン嫌いなもの01"]
 
 [wait time="1000"]
-[strans storage="ProEp0_イチバン嫌いなもの03"]
+[strans storage="ProEp0_イチバン嫌いなもの03" method="universal" rule="pro0_rule0" time="1000"]
 [show_message_fade time=100]
 ――その凛とした様こそが、[lr]
 　　　　　　　　　今では一番キライなものになっていたから。[plc]
 [wait time="1000"]
 [wt]
-[SetupMessageWindow]
+[SetupMessageWindow]f
 [call storage="OP.ks"]
 
 ;strans storage="black"]
