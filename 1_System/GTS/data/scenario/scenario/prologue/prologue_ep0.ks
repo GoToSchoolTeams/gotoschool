@@ -187,21 +187,20 @@
 [shownametag name="大樹" visible=true]
 「……クソ女が」[plc]
 
-*debug
-[setup_debug bg="bg_black"]
 吐き捨てる。[plc]
 
 [dis_all_message_fade]
 [strans storage="ProEp0_イチバン嫌いなもの01"]
 
 [wait time="1000"]
-[strans storage="ProEp0_イチバン嫌いなもの03" method="universal" rule="pro0_rule0" time="1000"]
+;[strans storage="ProEp0_イチバン嫌いなもの04" method="universal" rule="pro0_rule0" time="3000"]
+[strans storage="ProEp0_イチバン嫌いなもの04" time="2000"]
 [show_message_fade time=100]
 ――その凛とした様こそが、[lr]
 　　　　　　　　　今では一番キライなものになっていたから。[plc]
 [wait time="1000"]
 [wt]
-[SetupMessageWindow]f
+[SetupMessageWindow]
 [call storage="OP.ks"]
 
 ;strans storage="black"]
