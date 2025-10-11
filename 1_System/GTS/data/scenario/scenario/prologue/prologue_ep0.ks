@@ -60,7 +60,7 @@
 
 鼻歌まじりに出発しようとすると、[plc]
 
-[najimi_stand face="ikari" size="l"]
+[najimi_stand face="ikari" size="l" time=100]
 [quake hmax=4 vmax=4 time="200"]
 [shownametag name="お隣さん" visible=true]
 「ちょっと」[plc]

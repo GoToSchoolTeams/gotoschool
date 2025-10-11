@@ -265,6 +265,10 @@
 ;;size=サイズ, s;m;l
 ;;nopos=ポジションを適用しない, 論理値
 [macro name="showstandimage"]
+	;メッセージウィンドウにバストアップ表示(有効なら)
+	[if exp="mp.nobust != 'true'"]
+		[showbustup who="&mp.who" pose="&mp.pose" face="&mp.face" tere="&mp.tere" visible=true]
+	[endif]
 	;トランジションの有無によってパラメータを切り替え
 	[if exp="mp.notrans != 'true'"]
 		[eval exp="mp.page='back'"]
@@ -284,10 +288,6 @@
 	[if exp="mp.notrans != 'true'"]
 		[trans time=%time|500 method="crossfade"]
 		[wt]
-	[endif]
-	;メッセージウィンドウにバストアップ表示(有効なら)
-	[if exp="mp.nobust != 'true'"]
-		[showbustup who="&mp.who" pose="&mp.pose" face="&mp.face" tere="&mp.tere" visible=true]
 	[endif]
 	[kagtag nopos=%nopos who=%who pose=%pose|1 face=%face notrans=%notrans tere=%tere page=%page size=%size nobust=%nobust|false pos="%pos|c" layer="%layer|0" visible="%visible|true"]
 [endmacro]
