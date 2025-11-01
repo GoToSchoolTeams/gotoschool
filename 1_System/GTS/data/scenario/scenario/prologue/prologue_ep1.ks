@@ -8,46 +8,46 @@
 [dis_all_chara]
 [dis_all_message]
 [backlay]
-[image layer="12" left=352 top=150 visible="true" page="back" storage="doc"]
+[image layer="12" left=224 top=85 visible="true" page="back" storage="doc"]
 [trans method="crossfade" time="2000"]
 [wt]
 
 [backlay]
-[position layer="message0" width=1180 left=50 height=620 top=50 opacity="128" page="back" visible="true"]
+[position layer="message0" width=1425 left=62 height=775 top=62 opacity="128" page="back" visible="true"]
 [trans method="crossfade" time="1500"]
 [wt]
 
-[font size=64]
+[font size=80]
 [r]
 [r]
 [r]
 [r]
 　　――男女比率[l]　１：９　！！[plc]
 
-[font size=32]
-[locate x=200 y=160]
+[font size=40]
+[locate x=250 y=160]
 県立、旗立高校。[r]
-[font size=32]
-[locate x=200 y=200]
+[font size=40]
+[locate x=250 y=210]
 創立１００周年を向かえる名門校である。[l][r][r]
 
-[font size=32]
-[locate x=200 y=260]
+[font size=40]
+[locate x=250 y=325]
 生徒の９割は女子。[l]ルックスのレベルは高く。
-[font size=32]
-[locate x=200 y=300]
+[font size=40]
+[locate x=250 y=375]
 五月蝿い教師も、クソッタレな校則も無い。[lr]
 
-[font size=32]
-[locate x=200 y=360]
+[font size=40]
+[locate x=250 y=490]
 生徒の自主性の名の下に、何でもやりたい放題出来る。[l][r]
-[font size=32]
-[locate x=200 y=400]
+[font size=40]
+[locate x=250 y=540]
 正に自由。[l]正に楽園。[plc]
 
 
 [font size=40]
-[locate x=200 y=280]
+[locate x=250 y=350]
 ――其処は、誰もがリア充になれる[ruby text="まなび"]学[ruby text="や"]舎。[plc]
 ;[ルビ:まなびや]
 
@@ -58,11 +58,11 @@
 [trans layer="base" method="crossfade" time="3000"]
 [wt]
 
-[font size=24]
+[font size=30]
 [backlay]
 [position layer="message0" page="back" visible="false"]
-[image layer=7 top=470 opacity=256 storage="message_window" page="back" visible="true"]
-[strans storage="black" noclear=true]
+[image layer=7 top=585 opacity=256 storage="message_window" page="back" visible="true"]
+[strans storage="bg_black" noclear=true]
 [SetupMessageWindow]
 俺がそんな詐欺のような学校紹介文を見たのは、[lr]
 中学3年ももう終わろうかという時だった。[plc]
@@ -103,7 +103,7 @@
 
 [fadeoutbgm time="2000"]
 [backlay]
-[image layer="12" left=352 top=150 visible="true" page="back" storage="doc"]
+[image layer="12" left=224 top=85 visible="true" page="back" storage="doc" index=1]
 [trans method="crossfade" time="2000"]
 [wt]
 
@@ -112,18 +112,20 @@
 
 『女生徒９割』も、『ルックスのレベルが高い』も正しい。[plc]
 
+*debug
+[setup_debug]
 といえば、あと1つだろう？[plc]
 
 [backlay]
 [layopt layer=12 page="back" visible="false"]
-[image layer="base" page="back" storage="black" visible="true"]
+[image layer="base" page="back" storage="bg_black" visible="true"]
 [trans layer="base" time="1000" method="crossfade"]
 [wt]
 
 そう、そこは――[plc]
 [fadeinbgm storage="serious1-2" time="1000"]
 [fadebgm time=1 volume="100"]
-[strans storage="kyositu_m" time="2000"]
+[strans storage="bg_kyositu_m" time="2000"]
 [gaia_stand face="futsu" size="l" layer=2 namevisible="false"]
 [shownametag name="キモ面A" visible=true bust="ガイア"]
 「やぁ、谷口君だったかな？　隣、良いかな？」[plc]
@@ -175,7 +177,7 @@
 
 
 [fadebgm time="500" volume="50"]
-[strans storage="black" time="1000"]
+[strans storage="bg_black" time="1000"]
 
 [dis_all_chara]
 ――入学早々、学園一のキモオタ軍団に入れられ――[plc]
@@ -184,7 +186,7 @@
 
 [fadebgm time="500" volume="100"]
 [playse storage="ambientA@08"]
-[strans storage="kyositu_m" time="1000"]
+[strans storage="bg_kyositu_m" time="1000"]
 
 [shownametag name="女子A"]
 「うわっ、谷口『黒豚』共と話してる。キモオタじゃんっ」[plc]
@@ -206,13 +208,13 @@
 
 
 [fadebgm time="500" volume="50"]
-[strans storage="black" time="500"]
+[strans storage="bg_black" time="500"]
 ――あっという間にクラスの最下層に落とされ――[plc]
 
 
 
 [fadebgm time="500" volume="100"]
-[strans storage="kyositu_m" time="500"]
+[strans storage="bg_kyositu_m" time="500"]
 [shownametag name="教員"]
 「おい、谷口。お前、舐めてんのか？　２学期にもなって『たすき掛け分かりません』とか、ふざけんじゃねぇぞ！」[plc]
 
@@ -221,12 +223,12 @@
 
 
 [fadebgm time="500" volume="50"]
-[strans storage="black" time="500"]
+[strans storage="bg_black" time="500"]
 ――頭は悪く――[plc]
 
 
 [fadebgm time="500" volume="100"]
-[strans storage="artroom_dt"]
+[strans storage="bg_artroom_dt"]
 [shownametag name="美術部の先輩"]
 「よーし♪　１時間たったよー。下書きくらいは出来たー？」[plc]
 
@@ -246,11 +248,11 @@
 
 
 [fadebgm time="500" volume="0"]
-[strans storage="black" time="500"]
+[strans storage="bg_black" time="500"]
 ――何の才能もない――[plc]
 
 
-[strans storage="senro_zoi_dt" time="500"]
+[strans storage="bg_senro_zoi_dt" time="500"]
 [shownametag name="大樹" visible=true]
 [quake time="300"]
 「――そんな奴でもリア充になれる場所じゃなかったんだよ！」[plc]
@@ -296,7 +298,7 @@
 近くにいた主婦がビビる。[plc]
 
 [stopse]
-[strans storage="black" time=500]
+[strans storage="bg_black" time=500]
 [fadebgm time="500" volume="50"]
 あんな地獄のような状況でも、俺は耐えた。[l][r]
 耐えに耐えた。一年も耐えた。[plc]
@@ -314,7 +316,7 @@
 [image storage="l_gaia_pose1_n_yorokobi" layer="2" visible="true" page="back"]
 [image storage="l_mash_pose1_n_yorokobi" layer="1" left=-400 visible="true" page="back"]
 [image storage="l_orutega_pose1_n_kokotsu" layer="0" left=600 visible="true" page="back"]
-[image storage="kyositu_m" layer="base" page="back" visible="true"]
+[image storage="bg_kyositu_m" layer="base" page="back" visible="true"]
 [trans method="crossfade" time="500"]
 [wt]
 
@@ -324,7 +326,7 @@
 「よう、兄弟！　また俺たち同じクラスだな！」[plc]
 
 
-[strans storage="black"]
+[strans storage="bg_black"]
 
 無理だった。[lr]
 俺の希望は儚く消えた。[plc]
@@ -333,7 +335,7 @@
 そして、それが限界で。[plc]
 
 [fadebgm time="500" volume="1000"]
-[strans storage="senro_zoi_dt"]
+[strans storage="bg_senro_zoi_dt"]
 [shownametag name="大樹" visible=true]
 「マジ無理、狂いそうだったもん」[plc]
 
@@ -398,8 +400,8 @@
 [shownametag name="猫"]
 「フシャァーッ！」[plc]
 
-[strans storage="black" method="universal" rule="101" time="300"]
-[strans storage="jyuutaku_dt" method="universal" rule="101" time="300"]
+[strans storage="bg_black" method="universal" rule="101" time="300"]
+[strans storage="bg_jyuutaku_dt" method="universal" rule="101" time="300"]
 [image storage="syutyu" layer=0 page="fore" visible="true"]
 自転車をシャリシャリ漕ぎながら、ウネウネト体をくねらす俺。[lr]
 宇宙人でも見たかの様に叫ぶおばちゃん。威嚇して逃げ出す野良猫。[plc]
@@ -410,11 +412,11 @@
 [shownametag name="大樹" visible=true]
 「ちっくしょぉおおおおおっ！」[plc]
 
-[strans storage="black" method="universal" rule="101" time="300"]
+[strans storage="bg_black" method="universal" rule="101" time="300"]
 くっそ、みんなして！[lr]
 みんなしてオレを馬鹿にしてっ！！[plc]
 
-[strans storage="jyuutakuti_dt" method="universal" rule="101" time="300"]
+[strans storage="bg_jyuutakuti_dt" method="universal" rule="101" time="300"]
 [image storage="syutyu" layer=0 page="fore" visible="true"]
 [shownametag name="大樹" visible=true]
 「糞がァあああああああああっ！」[plc]
@@ -436,7 +438,7 @@
 [shownametag name="大樹" visible=true]
 「待てや、ネコ目ネコ科ネコぉおおおおおおおっ！！！」[plc]
 
-[strans storage="black" method="universal" rule="101" time="300"]
+[strans storage="bg_black" method="universal" rule="101" time="300"]
 寂れたタバコやを抜け、[l]円柱ポストを蹴り飛ばし、[lr]
 誰かの家のチャイムを鳴らして、[l]誰も居ない路地を突っ切って――[plc]
 
@@ -452,7 +454,7 @@
 ――って、誰か居るじゃんっ！？[plc]
 
 [playse storage="crash"]
-[strans storage="black" time="800"]
+[strans storage="bg_black" time="800"]
 [fadeoutbgm time="2000"]
 ;[激突音]
 
