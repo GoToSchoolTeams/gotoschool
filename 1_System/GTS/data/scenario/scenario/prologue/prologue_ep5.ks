@@ -1,7 +1,7 @@
 [SetupMessageWindow]
 
 @fadeinbgm storage="daily1 bgm"
-@strans storage="roji"
+@strans storage="bg_roji_2"
 [haruka_stand face="ikari"]
 [shownametag name="女子高生" visible=true bust="senpai"]
 「あのさ、本当にどういうワケなの？」[plc]
