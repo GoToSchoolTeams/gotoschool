@@ -6,7 +6,7 @@
 
 ;[暗転解除]
 
-[image storage="kyositu_m" layer="base" page="back" visible="true"]
+[image storage="bg_kyositu_m" layer="base" page="back" visible="true"]
 [playse storage="bosu04"]
 [trans layer="base" time="500" rule="177" method="universal"]
 [quake vmax="5" hmax="5" time="300"]
@@ -68,7 +68,7 @@
 初耳だ。[lr]
 いつから移動教室なんて始まったんだ？[plc]
 
-[strans storage="kyositu_m"]
+[strans storage="bg_kyositu_m"]
 [najimi_stand face="futsu"]
 「レベル分けされたのよ。[lr]
 　あんたは一番下だから、多目的教室」[plc]
@@ -165,6 +165,8 @@
 
 [dis_all_chara]
 
+*debug
+[setup_debug bg="bg_kyositu_m"]
 [playse storage="mado"]
 言い捨てて、縁は窓を閉め始める。[l][r]
 どうやら、ほんとに出なきゃいけないらしい。[plc]
@@ -238,7 +240,7 @@
 叫びだしたかったが、[plc]
 
 
-[strans storage="black" time="1000"]
+[strans storage="bg_black" time="1000"]
 [shownametag name="大樹" visible=true]
 「……っ」[plc]
 
@@ -265,7 +267,7 @@
 愚痴る様に呟いて、[lr]
 俺はその理由を思い返していたのだった。[plc]
 [fadebgm volume="100" time="1000"]
-[strans storage="black" time="2000"]
+[strans storage="bg_white" time="2000"]
 
 ;[回想に入るような演出]
 ;[→出会うということ]

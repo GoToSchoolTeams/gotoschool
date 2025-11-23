@@ -12,7 +12,7 @@
 	[eval exp="global.ClearSystemMessage()"]
 	[backlay]
 	;メッセージレイヤ画像表示
-	[image layer=7 top=585 opacity=256 storage="message_window" page="fore" visible="true"]
+	[image layer=7 top=585 opacity=256 storage="message_window" page="fore" visible="true" index=1]
 	;名前レイヤは一旦非表示
 	[position layer="message1" top=640 left=375 width=875 height=250 opacity=0 visible="false" page="fore" marginb="0" marginl="0" marginr="0" margint="0"]
 	;平文レイヤは表示
@@ -490,7 +490,7 @@
 [macro name=gadget]
 [backlay]
 [if exp="mp.show == 'true'"]
-	[image layer="12" left=352 top=180 visible="true" page="back" storage=%storage]
+	[image layer="12" left=400 top=126 visible="true" page="back" storage=%storage]
 [else]
 	[layopt layer=12 page="back" visible="false"]
 [endif]
