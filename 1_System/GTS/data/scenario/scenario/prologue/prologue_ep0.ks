@@ -163,8 +163,8 @@
 
 [fadeinse storage="wind" time="1000" buf=1]
 [dis_all_message_fade]
-[strans storage="bg_white"]
-
+;[strans storage="bg_white"]
+[strans method="universal" rule="281" storage="white"]
 
 [show_message_fade]
 
